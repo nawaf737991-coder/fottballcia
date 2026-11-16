@@ -1,0 +1,39 @@
+name: site-data
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "live | matches | news | auto"
+        default: "auto"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      REVIEW_NEWS: ${{ vars.REVIEW_NEWS || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update data
+        run: python3 site_bot.py ${{ inputs.mode || 'auto' }}
+      - name: Commit data
+        run: |
+          git config user.name "fottballcia-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          if ! git diff --staged --quiet; then
+            git commit -m "update data"
+            git pull --rebase -q
+            git push
+          fi
