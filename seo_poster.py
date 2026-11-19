@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -76,6 +77,17 @@ def publish(title, content, labels):
         return
     sb.publish(title, content, labels, draft=DRAFT)
     print("نُشر" + (" (مسودة)" if DRAFT else "") + ":", title)
+
+
+def why(e):
+    """سبب الخطأ مع الموقع ونص رد الخادم"""
+    if isinstance(e, urllib.error.HTTPError):
+        try:
+            body = e.read().decode("utf-8", "replace")[:250]
+        except Exception:
+            body = ""
+        return f"HTTP {e.code} من {urllib.parse.urlparse(e.url).netloc} {body}"
+    return str(e)
 
 
 def parse_json(text):
@@ -189,7 +201,7 @@ def run_reports():
             made += 1
         except Exception as e:
             fails += 1
-            print("فشل تقرير", fid, e, flush=True)
+            print("فشل تقرير", fid, why(e), flush=True)
     save(st)
     print(f"تقارير: {made}")
 
@@ -243,7 +255,7 @@ def run_news():
                 publish(data["title"].strip(), body, ["أخبار كرة القدم"])
                 made += 1
             except Exception as e:
-                print("فشل خبر", e)
+                print("فشل خبر", why(e), flush=True)
     st["news"] = list(seen)
     save(st)
     print(f"أخبار: {made}")
