@@ -178,7 +178,7 @@ def run_reports():
                 ' "intro": "مقدمة من جملتين تحتوي الاسمين والنتيجة والبطولة",'
                 ' "paragraphs": ["فقرة 1 عن مجريات المباراة وفق الأحداث", "فقرة 2 اختيارية"]}\n\n'
                 f"البطولة: {league_ar}\nالبيانات: {json.dumps(facts, ensure_ascii=False)}",
-                max_tokens=900,
+                max_tokens=2000,
             )
             data = parse_json(raw)
             if not data.get("title") or not data.get("intro"):
@@ -231,7 +231,7 @@ def run_news():
                     "أعد JSON فقط: "
                     '{"title": "عنوان خبري بحدود 60 حرفًا", "paragraphs": ["فقرة", "فقرة"]}\n\n'
                     f"العنوان: {title}\nالوصف: {desc}",
-                    max_tokens=700,
+                    max_tokens=1800,
                 )
                 data = parse_json(raw)
                 if not data.get("title") or not data.get("paragraphs"):
