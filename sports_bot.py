@@ -25,6 +25,7 @@ import threading
 import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.parse
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -61,8 +62,12 @@ def http(url, method="GET", headers=None, data=None):
         body = json.dumps(data).encode("utf-8")
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
-    with urllib.request.urlopen(req, timeout=60) as r:
-        raw = r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            raw = r.read()
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")[:300]
+        raise RuntimeError(f"HTTP {e.code} من {urllib.parse.urlparse(url).netloc}: {detail}")
     return json.loads(raw) if raw else {}
 
 
@@ -147,7 +152,7 @@ def blogger_token():
             "grant_type": "refresh_token",
         }).encode()
         req = urllib.request.Request("https://oauth2.googleapis.com/token", data=body)
-        with urllib.request.urlopen(req, timeout=60) as r:
+        with urllib.request.urlopen(req, timeout=30) as r:
             _token["t"] = json.loads(r.read())["access_token"]
     return _token["t"]
 
