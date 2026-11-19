@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated": "2026-11-19T10:35:42+03:00",
+ "updated": "2026-11-19T12:38:14+03:00",
  "matches": [
   {
    "id": 1631779,
@@ -198,16 +198,29 @@
    "time": "2026-11-19T04:30:00+03:00"
   },
   {
+   "id": 1630642,
+   "league": "Zambia - Super League",
+   "home": "Roan United",
+   "away": "Chirundu Utd",
+   "hl": "https://media.api-sports.io/football/teams/11273.png",
+   "al": "https://media.api-sports.io/football/teams/28278.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "SUSP",
+   "minute": null,
+   "time": "2026-11-19T11:00:00+03:00"
+  },
+  {
    "id": 1640368,
    "league": "Australia - Australian Championship",
    "home": "Preston Lions",
    "away": "South Hobart",
    "hl": "https://media.api-sports.io/football/teams/19705.png",
    "al": "https://media.api-sports.io/football/teams/14106.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-19T11:30:00+03:00"
   },
   {
@@ -217,10 +230,10 @@
    "away": "Wollongong Wolves",
    "hl": "https://media.api-sports.io/football/teams/10217.png",
    "al": "https://media.api-sports.io/football/teams/3777.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-19T11:30:00+03:00"
   },
   {
@@ -230,10 +243,10 @@
    "away": "INAC Kobe Leonessa W",
    "hl": "https://media.api-sports.io/football/teams/16950.png",
    "al": "https://media.api-sports.io/football/teams/16947.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
+   "gh": 3,
+   "ga": 0,
+   "status": "1H",
+   "minute": 35,
    "time": "2026-11-19T12:00:00+03:00"
   },
   {
@@ -1264,6 +1277,19 @@
    "time": "2026-11-19T21:00:00+03:00"
   },
   {
+   "id": 1650564,
+   "league": "Brazil - Carioca U20",
+   "home": "Madureira U20",
+   "away": "Bangu U20",
+   "hl": "https://media.api-sports.io/football/teams/20762.png",
+   "al": "https://media.api-sports.io/football/teams/22831.png",
+   "gh": null,
+   "ga": null,
+   "status": "NS",
+   "minute": null,
+   "time": "2026-11-19T21:00:00+03:00"
+  },
+  {
    "id": 1648721,
    "league": "Brazil - Paraense U20",
    "home": "Trabalhista U20",
@@ -1363,7 +1389,7 @@
    "al": "https://media.api-sports.io/football/teams/2365.png",
    "gh": null,
    "ga": null,
-   "status": "PST",
+   "status": "NS",
    "minute": null,
    "time": "2026-11-19T22:30:00+03:00"
   },
