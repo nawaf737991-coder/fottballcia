@@ -80,6 +80,8 @@ def publish(title, content, labels):
 
 def parse_json(text):
     m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        raise ValueError("رد غير JSON: " + (text or "")[:150].replace("\n", " "))
     return json.loads(m.group(0))
 
 
