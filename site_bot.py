@@ -55,6 +55,23 @@ def now_iso():
     return datetime.now(sb.TZ).isoformat(timespec="seconds")
 
 
+def events(fx):
+    hid = fx["teams"]["home"]["id"]
+    out = []
+    for e in fx.get("events") or []:
+        if e.get("type") not in ("Goal", "Card", "Var"):
+            continue
+        out.append({
+            "m": (e.get("time") or {}).get("elapsed"),
+            "x": (e.get("time") or {}).get("extra"),
+            "s": "h" if (e.get("team") or {}).get("id") == hid else "a",
+            "t": e["type"],
+            "d": e.get("detail") or "",
+            "p": (e.get("player") or {}).get("name"),
+        })
+    return out
+
+
 def slim(fx):
     st = fx["fixture"]["status"]
     return {
@@ -69,6 +86,7 @@ def slim(fx):
         "status": st["short"],
         "minute": st.get("elapsed"),
         "time": fx["fixture"]["date"],
+        "ev": events(fx),
     }
 
 
