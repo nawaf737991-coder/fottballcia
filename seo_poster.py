@@ -142,6 +142,7 @@ def run_reports():
     done = set(st["reports"])
     limit = int(os.environ.get("MAX_REPORTS", "3"))
     made = 0
+    fails = 0
     now = datetime.now(sb.TZ)
     cands = []
     for d in (now, now - timedelta(days=1)):
@@ -156,8 +157,9 @@ def run_reports():
     # الأهم أولًا: حسب ترتيب الدوريات في القائمة
     order = list(LEAGUES)
     cands.sort(key=lambda f: order.index(f["league"]["id"]))
+    print("مباريات مرشحة:", len(cands), flush=True)
     for f in cands:
-        if made >= limit:
+        if made >= limit or fails >= 3:
             break
         fid = f["fixture"]["id"]
         try:
@@ -184,7 +186,8 @@ def run_reports():
             st["reports"].append(fid)
             made += 1
         except Exception as e:
-            print("فشل تقرير", fid, e)
+            fails += 1
+            print("فشل تقرير", fid, e, flush=True)
     save(st)
     print(f"تقارير: {made}")
 
