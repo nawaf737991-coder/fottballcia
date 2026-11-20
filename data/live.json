@@ -1,5 +1,122 @@
 {
- "updated": "2026-11-19T21:24:21+03:00",
- "ts": 1795112661,
- "matches": []
+ "updated": "2026-11-20T04:15:05+03:00",
+ "ts": 1795137305,
+ "matches": [
+  {
+   "id": 1492457,
+   "league": "Brazil - Serie A",
+   "home": "Sao Paulo",
+   "away": "Fluminense",
+   "hl": "https://media.api-sports.io/football/teams/126.png",
+   "al": "https://media.api-sports.io/football/teams/124.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-20T00:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hércules Pereira do Nascimento"
+    }
+   ]
+  },
+  {
+   "id": 1647453,
+   "league": "Colombia - Primera B",
+   "home": "Real Cartagena",
+   "away": "Tigres FC",
+   "hl": "https://media.api-sports.io/football/teams/1459.png",
+   "al": "https://media.api-sports.io/football/teams/1145.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-20T00:45:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Janeth Aleman"
+    }
+   ]
+  },
+  {
+   "id": 1647454,
+   "league": "Colombia - Primera B",
+   "home": "Real Cundinamarca",
+   "away": "Quindio",
+   "hl": "https://media.api-sports.io/football/teams/22099.png",
+   "al": "https://media.api-sports.io/football/teams/1461.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-20T00:45:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Javier Reina"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Juan Pablo Ibargüen"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alexis Estupiñan"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649491,
+   "league": "USA - Major League Soccer",
+   "home": "Orlando City SC",
+   "away": "FC Cincinnati",
+   "hl": "https://media.api-sports.io/football/teams/1598.png",
+   "al": "https://media.api-sports.io/football/teams/2242.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 35,
+   "time": "2026-11-20T00:30:00+00:00",
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Martin Ojeda"
+    }
+   ]
+  }
+ ]
 }
