@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:45:51+03:00",
+ "updated": "2026-11-22T02:57:45+03:00",
  "leagues": [
   {
    "id": 39,
@@ -10,13 +10,13 @@
      "r": 1,
      "t": "Arsenal",
      "l": "https://media.api-sports.io/football/teams/42.png",
-     "p": 10,
+     "p": 11,
      "w": 9,
-     "d": 0,
+     "d": 1,
      "ls": 1,
      "gd": 10,
-     "pts": 27,
-     "f": "WWWWW"
+     "pts": 28,
+     "f": "DWWWW"
     },
     {
      "r": 2,
@@ -142,13 +142,13 @@
      "r": 12,
      "t": "Newcastle",
      "l": "https://media.api-sports.io/football/teams/34.png",
-     "p": 10,
+     "p": 11,
      "w": 3,
-     "d": 3,
+     "d": 4,
      "ls": 4,
      "gd": -3,
-     "pts": 12,
-     "f": "DLWLL"
+     "pts": 13,
+     "f": "DDLWL"
     },
     {
      "r": 13,
@@ -385,13 +385,13 @@
      "r": 4,
      "t": "Real Betis",
      "l": "https://media.api-sports.io/football/teams/543.png",
-     "p": 12,
+     "p": 13,
      "w": 8,
-     "d": 2,
+     "d": 3,
      "ls": 2,
      "gd": 5,
-     "pts": 26,
-     "f": "WWDLW"
+     "pts": 27,
+     "f": "DWWDL"
     },
     {
      "r": 5,
@@ -409,13 +409,13 @@
      "r": 6,
      "t": "Sevilla",
      "l": "https://media.api-sports.io/football/teams/536.png",
-     "p": 12,
+     "p": 13,
      "w": 5,
-     "d": 3,
+     "d": 4,
      "ls": 4,
      "gd": -2,
-     "pts": 18,
-     "f": "DLWLD"
+     "pts": 19,
+     "f": "DDLWL"
     },
     {
      "r": 7,
@@ -1073,6 +1073,18 @@
     },
     {
      "r": 7,
+     "t": "Napoli",
+     "l": "https://media.api-sports.io/football/teams/492.png",
+     "p": 12,
+     "w": 5,
+     "d": 3,
+     "ls": 4,
+     "gd": 5,
+     "pts": 18,
+     "f": "WDLWD"
+    },
+    {
+     "r": 8,
      "t": "Juventus",
      "l": "https://media.api-sports.io/football/teams/496.png",
      "p": 11,
@@ -1084,7 +1096,7 @@
      "f": "DWLWL"
     },
     {
-     "r": 8,
+     "r": 9,
      "t": "Bologna",
      "l": "https://media.api-sports.io/football/teams/500.png",
      "p": 11,
@@ -1096,7 +1108,7 @@
      "f": "WWWWL"
     },
     {
-     "r": 9,
+     "r": 10,
      "t": "Cagliari",
      "l": "https://media.api-sports.io/football/teams/490.png",
      "p": 12,
@@ -1108,31 +1120,7 @@
      "f": "LWLLL"
     },
     {
-     "r": 10,
-     "t": "Napoli",
-     "l": "https://media.api-sports.io/football/teams/492.png",
-     "p": 11,
-     "w": 4,
-     "d": 3,
-     "ls": 4,
-     "gd": 4,
-     "pts": 15,
-     "f": "DLWDL"
-    },
-    {
      "r": 11,
-     "t": "Torino",
-     "l": "https://media.api-sports.io/football/teams/503.png",
-     "p": 11,
-     "w": 4,
-     "d": 2,
-     "ls": 5,
-     "gd": -2,
-     "pts": 14,
-     "f": "DLLWW"
-    },
-    {
-     "r": 12,
      "t": "Atalanta",
      "l": "https://media.api-sports.io/football/teams/499.png",
      "p": 11,
@@ -1142,6 +1130,18 @@
      "gd": -3,
      "pts": 14,
      "f": "WLDDL"
+    },
+    {
+     "r": 12,
+     "t": "Torino",
+     "l": "https://media.api-sports.io/football/teams/503.png",
+     "p": 12,
+     "w": 4,
+     "d": 2,
+     "ls": 6,
+     "gd": -3,
+     "pts": 14,
+     "f": "LDLLW"
     },
     {
      "r": 13,
@@ -1424,6 +1424,18 @@
     },
     {
      "r": 8,
+     "t": "VfB Stuttgart",
+     "l": "https://media.api-sports.io/football/teams/172.png",
+     "p": 10,
+     "w": 4,
+     "d": 1,
+     "ls": 5,
+     "gd": 0,
+     "pts": 13,
+     "f": "DWWLL"
+    },
+    {
+     "r": 9,
      "t": "SV Elversberg",
      "l": "https://media.api-sports.io/football/teams/1660.png",
      "p": 10,
@@ -1433,18 +1445,6 @@
      "gd": -2,
      "pts": 13,
      "f": "LLWLW"
-    },
-    {
-     "r": 9,
-     "t": "VfB Stuttgart",
-     "l": "https://media.api-sports.io/football/teams/172.png",
-     "p": 9,
-     "w": 4,
-     "d": 0,
-     "ls": 5,
-     "gd": 0,
-     "pts": 12,
-     "f": "WWLLW"
     },
     {
      "r": 10,
@@ -1520,6 +1520,18 @@
     },
     {
      "r": 16,
+     "t": "FC Schalke 04",
+     "l": "https://media.api-sports.io/football/teams/174.png",
+     "p": 10,
+     "w": 1,
+     "d": 4,
+     "ls": 5,
+     "gd": -6,
+     "pts": 7,
+     "f": "DLLDL"
+    },
+    {
+     "r": 17,
      "t": "Union Berlin",
      "l": "https://media.api-sports.io/football/teams/182.png",
      "p": 10,
@@ -1529,18 +1541,6 @@
      "gd": -18,
      "pts": 7,
      "f": "LLDDD"
-    },
-    {
-     "r": 17,
-     "t": "FC Schalke 04",
-     "l": "https://media.api-sports.io/football/teams/174.png",
-     "p": 9,
-     "w": 1,
-     "d": 3,
-     "ls": 5,
-     "gd": -6,
-     "pts": 6,
-     "f": "LLDLL"
     },
     {
      "r": 18,
@@ -1669,13 +1669,13 @@
      "r": 2,
      "t": "Lille",
      "l": "https://media.api-sports.io/football/teams/79.png",
-     "p": 10,
+     "p": 11,
      "w": 6,
      "d": 3,
-     "ls": 1,
-     "gd": 7,
+     "ls": 2,
+     "gd": 6,
      "pts": 21,
-     "f": "WWDDW"
+     "f": "LWWDD"
     },
     {
      "r": 3,
@@ -1691,6 +1691,18 @@
     },
     {
      "r": 4,
+     "t": "Lyon",
+     "l": "https://media.api-sports.io/football/teams/80.png",
+     "p": 11,
+     "w": 6,
+     "d": 2,
+     "ls": 3,
+     "gd": 7,
+     "pts": 20,
+     "f": "WLWLW"
+    },
+    {
+     "r": 5,
      "t": "Marseille",
      "l": "https://media.api-sports.io/football/teams/81.png",
      "p": 10,
@@ -1702,19 +1714,19 @@
      "f": "WWWWW"
     },
     {
-     "r": 5,
-     "t": "Lyon",
-     "l": "https://media.api-sports.io/football/teams/80.png",
-     "p": 10,
+     "r": 6,
+     "t": "Stade Brestois 29",
+     "l": "https://media.api-sports.io/football/teams/106.png",
+     "p": 11,
      "w": 5,
-     "d": 2,
+     "d": 3,
      "ls": 3,
-     "gd": 6,
-     "pts": 17,
-     "f": "LWLWL"
+     "gd": 7,
+     "pts": 18,
+     "f": "WWWLD"
     },
     {
-     "r": 6,
+     "r": 7,
      "t": "Nice",
      "l": "https://media.api-sports.io/football/teams/84.png",
      "p": 11,
@@ -1726,19 +1738,19 @@
      "f": "LWWWL"
     },
     {
-     "r": 7,
+     "r": 8,
      "t": "Monaco",
      "l": "https://media.api-sports.io/football/teams/91.png",
-     "p": 10,
+     "p": 11,
      "w": 4,
-     "d": 4,
+     "d": 5,
      "ls": 2,
      "gd": 2,
-     "pts": 16,
-     "f": "DLDLD"
+     "pts": 17,
+     "f": "DDLDL"
     },
     {
-     "r": 8,
+     "r": 9,
      "t": "Rennes",
      "l": "https://media.api-sports.io/football/teams/94.png",
      "p": 10,
@@ -1748,18 +1760,6 @@
      "gd": 0,
      "pts": 16,
      "f": "LLWLW"
-    },
-    {
-     "r": 9,
-     "t": "Stade Brestois 29",
-     "l": "https://media.api-sports.io/football/teams/106.png",
-     "p": 10,
-     "w": 4,
-     "d": 3,
-     "ls": 3,
-     "gd": 6,
-     "pts": 15,
-     "f": "WWLDW"
     },
     {
      "r": 10,
@@ -1777,25 +1777,25 @@
      "r": 11,
      "t": "Lens",
      "l": "https://media.api-sports.io/football/teams/116.png",
-     "p": 10,
+     "p": 11,
      "w": 4,
-     "d": 1,
+     "d": 2,
      "ls": 5,
      "gd": 2,
-     "pts": 13,
-     "f": "LLWWW"
+     "pts": 14,
+     "f": "DLLWW"
     },
     {
      "r": 12,
      "t": "Toulouse",
      "l": "https://media.api-sports.io/football/teams/96.png",
-     "p": 10,
+     "p": 11,
      "w": 3,
-     "d": 4,
+     "d": 5,
      "ls": 3,
      "gd": 1,
-     "pts": 13,
-     "f": "WLDWD"
+     "pts": 14,
+     "f": "DWLDW"
     },
     {
      "r": 13,
@@ -1811,27 +1811,27 @@
     },
     {
      "r": 14,
-     "t": "Strasbourg",
-     "l": "https://media.api-sports.io/football/teams/95.png",
-     "p": 10,
+     "t": "Auxerre",
+     "l": "https://media.api-sports.io/football/teams/108.png",
+     "p": 11,
      "w": 3,
-     "d": 1,
+     "d": 2,
      "ls": 6,
-     "gd": -4,
-     "pts": 10,
-     "f": "LWLLL"
+     "gd": -11,
+     "pts": 11,
+     "f": "DLLDW"
     },
     {
      "r": 15,
-     "t": "Auxerre",
-     "l": "https://media.api-sports.io/football/teams/108.png",
-     "p": 10,
+     "t": "Strasbourg",
+     "l": "https://media.api-sports.io/football/teams/95.png",
+     "p": 11,
      "w": 3,
      "d": 1,
-     "ls": 6,
-     "gd": -11,
+     "ls": 7,
+     "gd": -5,
      "pts": 10,
-     "f": "LLDWL"
+     "f": "LLWLL"
     },
     {
      "r": 16,
