@@ -27,6 +27,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
+import time
 import sports_bot as sb
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -70,13 +71,31 @@ def save(st):
         json.dump(st, f, ensure_ascii=False, indent=1)
 
 
-def publish(title, content, labels):
+def slug_words(text, n=8):
+    """كلمات إنجليزية قصيرة لرابط المقال (Blogger يبني الرابط من عنوان النشر الأول)"""
+    words = re.findall(r"[a-z0-9]+", (text or "").lower())
+    stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "at", "is", "with", "as", "by"}
+    words = [w for w in words if w not in stop][:n]
+    return " ".join(words) if len(words) >= 2 else ""
+def publish(title, content, labels, slug=""):
     if DRY:
-        print("=== DRY ===", title, labels)
+        print("=== DRY ===", title, "| slug:", slug, labels)
         print(content)
         return
-    sb.publish(title, content, labels, draft=DRAFT)
-    print("نُشر" + (" (مسودة)" if DRAFT else "") + ":", title)
+    first = slug if (slug and not DRAFT) else title
+    post = sb.publish(first, content, labels, draft=DRAFT)
+    if first != title:
+        # نرجع العنوان العربي فورًا ويبقى الرابط الإنجليزي
+        for i in range(3):
+            try:
+                sb.blogger(f"/posts/{post['id']}", "PATCH", {"title": title})
+                break
+            except Exception as e:
+                print("تعذر تحديث العنوان، إعادة المحاولة", why(e), flush=True)
+                time.sleep(5)
+        else:
+            print("::warning::نُشر بعنوان إنجليزي ولم يُحدَّث: " + post.get("url", ""), flush=True)
+    print("نُشر" + (" (مسودة)" if DRAFT else "") + ":", title, post.get("url", ""))
 
 
 class BillingStop(Exception):
@@ -227,8 +246,12 @@ def _reports_loop(st, cands, limit):
             data = parse_json(raw)
             if not data.get("title") or not data.get("intro"):
                 raise ValueError("مخرجات ناقصة")
+            t = full.get("teams", {})
+            g = full.get("goals", {})
+            slug = slug_words(f'{t.get("home", {}).get("name", "")} vs {t.get("away", {}).get("name", "")} '
+                              f'{g.get("home", "")} {g.get("away", "")}', 10)
             publish(data["title"].strip(), report_html(facts, data, league_ar),
-                    ["تقارير المباريات", league_ar])
+                    ["تقارير المباريات", league_ar], slug=slug)
             st["reports"].append(fid)
             made += 1
         except Exception as e:
@@ -292,7 +315,7 @@ def _news_loop(seen, limit):
                 body = "".join(f"<p>{esc(p)}</p>" for p in data["paragraphs"])
                 body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener">'
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
-                publish(data["title"].strip(), body, ["أخبار كرة القدم"])
+                publish(data["title"].strip(), body, ["أخبار كرة القدم"], slug=slug_words(title))
                 seen.add(key)
                 made += 1
             except Exception as e:
