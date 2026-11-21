@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:30:50+03:00",
+ "updated": "2026-11-21T22:45:51+03:00",
  "leagues": [
   {
    "id": 39,
@@ -44,6 +44,18 @@
     },
     {
      "r": 4,
+     "t": "Bournemouth",
+     "l": "https://media.api-sports.io/football/teams/35.png",
+     "p": 11,
+     "w": 5,
+     "d": 3,
+     "ls": 3,
+     "gd": 4,
+     "pts": 18,
+     "f": "WWWWW"
+    },
+    {
+     "r": 5,
      "t": "Liverpool",
      "l": "https://media.api-sports.io/football/teams/40.png",
      "p": 10,
@@ -55,19 +67,19 @@
      "f": "WLWWL"
     },
     {
-     "r": 5,
-     "t": "Chelsea",
-     "l": "https://media.api-sports.io/football/teams/49.png",
-     "p": 10,
-     "w": 5,
-     "d": 1,
-     "ls": 4,
-     "gd": 3,
-     "pts": 16,
-     "f": "LWLWW"
+     "r": 6,
+     "t": "Leeds",
+     "l": "https://media.api-sports.io/football/teams/63.png",
+     "p": 11,
+     "w": 4,
+     "d": 5,
+     "ls": 2,
+     "gd": 5,
+     "pts": 17,
+     "f": "WWLDD"
     },
     {
-     "r": 6,
+     "r": 7,
      "t": "Everton",
      "l": "https://media.api-sports.io/football/teams/45.png",
      "p": 10,
@@ -79,19 +91,31 @@
      "f": "WWLLD"
     },
     {
-     "r": 7,
-     "t": "Bournemouth",
-     "l": "https://media.api-sports.io/football/teams/35.png",
-     "p": 10,
-     "w": 4,
-     "d": 3,
-     "ls": 3,
-     "gd": 2,
-     "pts": 15,
-     "f": "WWWWL"
+     "r": 8,
+     "t": "Chelsea",
+     "l": "https://media.api-sports.io/football/teams/49.png",
+     "p": 11,
+     "w": 5,
+     "d": 1,
+     "ls": 5,
+     "gd": 0,
+     "pts": 16,
+     "f": "LLWLW"
     },
     {
-     "r": 8,
+     "r": 9,
+     "t": "Tottenham",
+     "l": "https://media.api-sports.io/football/teams/47.png",
+     "p": 11,
+     "w": 4,
+     "d": 3,
+     "ls": 4,
+     "gd": 1,
+     "pts": 15,
+     "f": "WLWWW"
+    },
+    {
+     "r": 10,
      "t": "Brentford",
      "l": "https://media.api-sports.io/football/teams/55.png",
      "p": 10,
@@ -103,40 +127,16 @@
      "f": "LWDLD"
     },
     {
-     "r": 9,
-     "t": "Leeds",
-     "l": "https://media.api-sports.io/football/teams/63.png",
-     "p": 10,
-     "w": 3,
-     "d": 5,
-     "ls": 2,
-     "gd": 2,
-     "pts": 14,
-     "f": "WLDDL"
-    },
-    {
-     "r": 10,
+     "r": 11,
      "t": "Aston Villa",
      "l": "https://media.api-sports.io/football/teams/66.png",
-     "p": 10,
+     "p": 11,
      "w": 3,
-     "d": 4,
+     "d": 5,
      "ls": 3,
      "gd": -3,
-     "pts": 13,
-     "f": "DDWWD"
-    },
-    {
-     "r": 11,
-     "t": "Tottenham",
-     "l": "https://media.api-sports.io/football/teams/47.png",
-     "p": 10,
-     "w": 3,
-     "d": 3,
-     "ls": 4,
-     "gd": -1,
-     "pts": 12,
-     "f": "LWWWD"
+     "pts": 14,
+     "f": "DDDWW"
     },
     {
      "r": 12,
@@ -152,6 +152,18 @@
     },
     {
      "r": 13,
+     "t": "Coventry",
+     "l": "https://media.api-sports.io/football/teams/1346.png",
+     "p": 11,
+     "w": 4,
+     "d": 0,
+     "ls": 7,
+     "gd": -8,
+     "pts": 12,
+     "f": "WLWLL"
+    },
+    {
+     "r": 14,
      "t": "Hull City",
      "l": "https://media.api-sports.io/football/teams/64.png",
      "p": 10,
@@ -163,7 +175,7 @@
      "f": "LDDLD"
     },
     {
-     "r": 14,
+     "r": 15,
      "t": "Fulham",
      "l": "https://media.api-sports.io/football/teams/36.png",
      "p": 11,
@@ -175,43 +187,43 @@
      "f": "DDDWW"
     },
     {
-     "r": 15,
+     "r": 16,
      "t": "Ipswich",
      "l": "https://media.api-sports.io/football/teams/57.png",
-     "p": 10,
+     "p": 11,
      "w": 3,
      "d": 2,
-     "ls": 5,
-     "gd": -5,
+     "ls": 6,
+     "gd": -7,
      "pts": 11,
-     "f": "LDDLW"
-    },
-    {
-     "r": 16,
-     "t": "Nottingham Forest",
-     "l": "https://media.api-sports.io/football/teams/65.png",
-     "p": 10,
-     "w": 2,
-     "d": 3,
-     "ls": 5,
-     "gd": -4,
-     "pts": 9,
-     "f": "WLDLL"
+     "f": "LLDDL"
     },
     {
      "r": 17,
-     "t": "Coventry",
-     "l": "https://media.api-sports.io/football/teams/1346.png",
-     "p": 10,
-     "w": 3,
-     "d": 0,
-     "ls": 7,
-     "gd": -9,
+     "t": "Nottingham Forest",
+     "l": "https://media.api-sports.io/football/teams/65.png",
+     "p": 11,
+     "w": 2,
+     "d": 3,
+     "ls": 6,
+     "gd": -6,
      "pts": 9,
-     "f": "LWLLW"
+     "f": "LWLDL"
     },
     {
      "r": 18,
+     "t": "Sunderland",
+     "l": "https://media.api-sports.io/football/teams/746.png",
+     "p": 11,
+     "w": 2,
+     "d": 3,
+     "ls": 6,
+     "gd": -9,
+     "pts": 9,
+     "f": "DWLDL"
+    },
+    {
+     "r": 19,
      "t": "Manchester United",
      "l": "https://media.api-sports.io/football/teams/33.png",
      "p": 10,
@@ -223,28 +235,16 @@
      "f": "DLLDD"
     },
     {
-     "r": 19,
-     "t": "Sunderland",
-     "l": "https://media.api-sports.io/football/teams/746.png",
-     "p": 10,
-     "w": 2,
-     "d": 2,
-     "ls": 6,
-     "gd": -9,
-     "pts": 8,
-     "f": "WLDLL"
-    },
-    {
      "r": 20,
      "t": "Crystal Palace",
      "l": "https://media.api-sports.io/football/teams/52.png",
-     "p": 10,
+     "p": 11,
      "w": 2,
      "d": 1,
-     "ls": 7,
-     "gd": -14,
+     "ls": 8,
+     "gd": -15,
      "pts": 7,
-     "f": "LLLLW"
+     "f": "LLLLL"
     }
    ],
    "scorers": [
@@ -505,13 +505,13 @@
      "r": 14,
      "t": "Rayo Vallecano",
      "l": "https://media.api-sports.io/football/teams/728.png",
-     "p": 11,
+     "p": 12,
      "w": 3,
      "d": 3,
-     "ls": 5,
-     "gd": -6,
+     "ls": 6,
+     "gd": -7,
      "pts": 12,
-     "f": "LWLDD"
+     "f": "LLWLD"
     },
     {
      "r": 15,
@@ -539,6 +539,18 @@
     },
     {
      "r": 17,
+     "t": "Valencia",
+     "l": "https://media.api-sports.io/football/teams/532.png",
+     "p": 13,
+     "w": 3,
+     "d": 3,
+     "ls": 7,
+     "gd": -11,
+     "pts": 12,
+     "f": "WLWLD"
+    },
+    {
+     "r": 18,
      "t": "Levante",
      "l": "https://media.api-sports.io/football/teams/539.png",
      "p": 12,
@@ -550,7 +562,7 @@
      "f": "DLLWD"
     },
     {
-     "r": 18,
+     "r": 19,
      "t": "Elche",
      "l": "https://media.api-sports.io/football/teams/797.png",
      "p": 12,
@@ -560,18 +572,6 @@
      "gd": -6,
      "pts": 10,
      "f": "LLWDD"
-    },
-    {
-     "r": 19,
-     "t": "Valencia",
-     "l": "https://media.api-sports.io/football/teams/532.png",
-     "p": 12,
-     "w": 2,
-     "d": 3,
-     "ls": 7,
-     "gd": -12,
-     "pts": 9,
-     "f": "LWLDD"
     },
     {
      "r": 20,
@@ -1013,6 +1013,18 @@
     },
     {
      "r": 2,
+     "t": "AS Roma",
+     "l": "https://media.api-sports.io/football/teams/497.png",
+     "p": 12,
+     "w": 9,
+     "d": 3,
+     "ls": 0,
+     "gd": 25,
+     "pts": 30,
+     "f": "WWWWD"
+    },
+    {
+     "r": 3,
      "t": "Inter",
      "l": "https://media.api-sports.io/football/teams/505.png",
      "p": 11,
@@ -1022,18 +1034,6 @@
      "gd": 15,
      "pts": 28,
      "f": "WLWWW"
-    },
-    {
-     "r": 3,
-     "t": "AS Roma",
-     "l": "https://media.api-sports.io/football/teams/497.png",
-     "p": 11,
-     "w": 8,
-     "d": 3,
-     "ls": 0,
-     "gd": 21,
-     "pts": 27,
-     "f": "WWWDW"
     },
     {
      "r": 4,
@@ -1183,13 +1183,13 @@
      "r": 16,
      "t": "Parma",
      "l": "https://media.api-sports.io/football/teams/523.png",
-     "p": 11,
+     "p": 12,
      "w": 2,
      "d": 2,
-     "ls": 7,
-     "gd": -8,
+     "ls": 8,
+     "gd": -12,
      "pts": 8,
-     "f": "LWDLL"
+     "f": "LLWDL"
     },
     {
      "r": 17,
@@ -1657,12 +1657,12 @@
      "r": 1,
      "t": "Paris Saint Germain",
      "l": "https://media.api-sports.io/football/teams/85.png",
-     "p": 10,
-     "w": 7,
+     "p": 11,
+     "w": 8,
      "d": 2,
      "ls": 1,
-     "gd": 12,
-     "pts": 23,
+     "gd": 13,
+     "pts": 26,
      "f": "WWWWW"
     },
     {
@@ -1717,13 +1717,13 @@
      "r": 6,
      "t": "Nice",
      "l": "https://media.api-sports.io/football/teams/84.png",
-     "p": 10,
+     "p": 11,
      "w": 5,
      "d": 2,
-     "ls": 3,
-     "gd": 3,
+     "ls": 4,
+     "gd": 2,
      "pts": 17,
-     "f": "WWWLW"
+     "f": "LWWWL"
     },
     {
      "r": 7,
