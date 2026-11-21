@@ -1,41 +1,113 @@
 {
- "updated": "2026-11-21T02:11:20+03:00",
- "ts": 1795216280,
+ "updated": "2026-11-21T07:01:40+03:00",
+ "ts": 1795233700,
  "matches": [
   {
-   "id": 1632066,
-   "league": "Paraguay - Division Profesional - Clausura",
-   "home": "Deportivo Recoleta",
-   "away": "Club Guarani",
-   "hl": "https://media.api-sports.io/football/teams/10476.png",
-   "al": "https://media.api-sports.io/football/teams/1174.png",
+   "id": 1593705,
+   "league": "Australia - A-League",
+   "home": "Auckland",
+   "away": "Melbourne Victory",
+   "hl": "https://media.api-sports.io/football/teams/24608.png",
+   "al": "https://media.api-sports.io/football/teams/944.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
-   "time": "2026-11-20T23:00:00+00:00",
+   "minute": 1,
+   "time": "2026-11-21T04:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1649571,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Velez Sarsfield",
-   "away": "Belgrano Cordoba",
-   "hl": "https://media.api-sports.io/football/teams/438.png",
-   "al": "https://media.api-sports.io/football/teams/440.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 12,
-   "time": "2026-11-20T23:00:00+00:00",
+   "id": 1598822,
+   "league": "Costa-Rica - Primera División",
+   "home": "Escorpiones Belén",
+   "away": "San Carlos",
+   "hl": "https://media.api-sports.io/football/teams/17377.png",
+   "al": "https://media.api-sports.io/football/teams/823.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-21T02:00:00+00:00",
    "ev": [
     {
-     "m": 11,
+     "m": 17,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Ramiro Hernandes"
+     "p": "R. Vidal"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Valverde"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Vidal"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "R. Cordoba"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Vega"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Mena"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Piedra"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Fonseca"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Fonseca"
+    },
+    {
+     "m": 90,
+     "x": 7,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -48,71 +120,103 @@
    "al": "https://media.api-sports.io/football/teams/1139.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 23,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-20T21:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647583,
-   "league": "Portugal - Taça de Portugal",
-   "home": "FC Porto",
-   "away": "Paredes",
-   "hl": "https://media.api-sports.io/football/teams/212.png",
-   "al": "https://media.api-sports.io/football/teams/4778.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "ET",
-   "minute": 109,
-   "time": "2026-11-20T20:45:00+00:00",
    "ev": [
     {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Val"
-    },
-    {
-     "m": 39,
+     "m": 41,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "N. Perez"
+     "p": "H. Loboa"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Torres"
+    }
+   ]
+  },
+  {
+   "id": 1551038,
+   "league": "Mexico - Liga MX",
+   "home": "Club Tijuana",
+   "away": "Atlante FC",
+   "hl": "https://media.api-sports.io/football/teams/2280.png",
+   "al": "https://media.api-sports.io/football/teams/2312.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-21T03:10:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jesus Gomez"
     },
     {
      "m": 40,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Fofana"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Unai Bilbao"
     },
     {
-     "m": 57,
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ivan Tona"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gilberto Adame"
+    }
+   ]
+  },
+  {
+   "id": 1551040,
+   "league": "Mexico - Liga MX",
+   "home": "FC Juarez",
+   "away": "Atlas",
+   "hl": "https://media.api-sports.io/football/teams/2298.png",
+   "al": "https://media.api-sports.io/football/teams/2283.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-21T03:00:00+00:00",
+   "ev": [
+    {
+     "m": 19,
      "x": null,
      "s": "a",
      "t": "Goal",
-     "d": "Own Goal",
-     "p": "F. Moura"
+     "d": "Normal Goal",
+     "p": "Víctor Ríos"
     },
     {
-     "m": 76,
+     "m": 23,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Fofana"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Rosario"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Oscar Estupiñan"
     }
    ]
   }
