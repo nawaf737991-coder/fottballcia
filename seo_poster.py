@@ -422,7 +422,7 @@ def _news_loop(seen, limit):
                     "الفصحى المبسطة بطول 300 إلى 450 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
                     "لا تترجم حرفيًا ولا تنسخ الجمل، بل أعد الصياغة بأسلوبك ورتّب المعلومات واشرح السياق للقارئ العربي، "
                     "وممنوع إضافة أي معلومة أو رقم أو تصريح أو تاريخ غير موجود في المصدر. "
-                    "استخدم الأسماء العربية المعروفة للأندية واللاعبين. إذا لم يكن الخبر عن كرة القدم أعد {\"skip\": true}.\n"
+                    "استخدم الأسماء العربية المعروفة للأندية واللاعبين.\n"
                     "أعد JSON فقط بهذا الشكل:\n"
                     '{"title": "عنوان واضح للبحث بحدود 60 حرفًا يتضمن الاسم الأبرز",'
                     ' "description": "وصف للبحث بحدود 150 حرفًا",'
@@ -434,10 +434,6 @@ def _news_loop(seen, limit):
                     max_tokens=3000,
                 )
                 data = parse_json(raw)
-                if data.get("skip"):
-                    print("تجاوز خبر ليس عن كرة القدم:", title, flush=True)
-                    seen.add(key)
-                    continue
                 if not data.get("title") or not data.get("sections"):
                     raise ValueError("مخرجات ناقصة")
                 esc = html.escape
@@ -447,7 +443,7 @@ def _news_loop(seen, limit):
                     if sec.get("heading"):
                         body += f"<h2>{esc(sec['heading'])}</h2>"
                     body += "".join(f"<p>{esc(p)}</p>" for p in sec.get("paragraphs", []))
-                if len(re.sub(r"<[^>]+>", " ", body).split()) < 150:
+                if len(re.sub(r"<[^>]+>", " ", body).split()) < 120:
                     raise ValueError("المقال أقصر من المطلوب")
                 body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener" target="_blank">'
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
