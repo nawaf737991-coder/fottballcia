@@ -94,6 +94,8 @@ def check_billing(e):
         text = f"HTTP {e.code} {text}"
     else:
         text = str(e)
+    if "invalid_grant" in text or "unauthorized_client" in text:
+        raise BillingStop("صلاحية Blogger منتهية (GOOGLE_REFRESH_TOKEN) - جدّد التوكن ليستأنف النشر")
     if "credit balance" in text:
         raise BillingStop("رصيد Anthropic غير كافٍ - اشحن الرصيد ليستأنف النشر")
     if "HTTP 429" in text or "RESOURCE_EXHAUSTED" in text:
@@ -302,6 +304,11 @@ def _news_loop(seen, limit):
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "all"
     try:
+        try:
+            sb.blogger_token()  # تحقق من صلاحية Blogger قبل كتابة أي مقال
+        except Exception as e:
+            check_billing(e)
+            raise
         if mode in ("reports", "all"):
             run_reports()
         if mode in ("news", "all"):

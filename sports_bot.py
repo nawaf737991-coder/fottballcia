@@ -128,9 +128,10 @@ def matches_table(fixtures, show_minute=False):
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "") or "gemini-3.5-flash-lite"
 
 
-def gemini(prompt, max_tokens, key):
+GEMINI_FALLBACK = "gemini-2.5-flash-lite"
+def _gemini_once(model, prompt, max_tokens, key):
     data = http(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         method="POST",
         headers={"x-goog-api-key": key},
         data={
@@ -142,8 +143,25 @@ def gemini(prompt, max_tokens, key):
     if not cands:
         raise ValueError("Gemini لم يرجع نصًا: " + json.dumps(data, ensure_ascii=False)[:200])
     return "".join(p.get("text", "") for p in (cands[0].get("content") or {}).get("parts", []))
-
-
+def gemini(prompt, max_tokens, key):
+    """يعيد المحاولة عند الضغط المؤقت (503/500) أو حد الدقيقة (429)، ثم يجرب نموذجًا بديلًا"""
+    models = [GEMINI_MODEL] + ([GEMINI_FALLBACK] if GEMINI_FALLBACK != GEMINI_MODEL else [])
+    last = None
+    for model in models:
+        for wait in (0, 20, 60):
+            if wait:
+                time.sleep(wait)
+            try:
+                return _gemini_once(model, prompt, max_tokens, key)
+            except RuntimeError as e:
+                last = e
+                msg = str(e)
+                if "HTTP 503" in msg or "HTTP 500" in msg or "HTTP 429" in msg:
+                    continue
+                if "HTTP 404" in msg:
+                    break
+                raise
+    raise last
 def claude(prompt, max_tokens=900):
     """كاتب المقالات: يستخدم Gemini إذا وُجد GEMINI_API_KEY وإلا Claude"""
     gkey = os.environ.get("GEMINI_API_KEY", "").strip()
