@@ -21,9 +21,9 @@ PAGES = {
     307: ("saudi-league-table", "الدوري السعودي للمحترفين", "دوري روشن"),
     39: ("premier-league-table", "الدوري الإنجليزي الممتاز", "البريميرليغ"),
     140: ("laliga-table", "الدوري الإسباني", "الليغا"),
-    135: ("serie-a-table", "الدوري الإيطالي", "الكالتشيو"),
+    135: ("serie-table", "الدوري الإيطالي", "الكالتشيو"),
     78: ("bundesliga-table", "الدوري الألماني", "البوندسليغا"),
-    61: ("ligue-1-table", "الدوري الفرنسي", "الليغ 1"),
+    61: ("ligue1-table", "الدوري الفرنسي", "الليغ 1"),
 }
 FORM = {"W": "ف", "D": "ت", "L": "خ"}
 
@@ -151,6 +151,19 @@ def build(lg, cache, now, others):
 </div>"""
 
 
+def api(path, method="GET", data=None, **kw):
+    import time
+    for wait in (0, 20, 60, 120):
+        if wait:
+            time.sleep(wait)
+        try:
+            return sb.blogger(path, method, data, **kw)
+        except Exception as e:
+            if "429" not in str(e) or wait == 120:
+                raise
+            print("ضغط على Blogger API، انتظار...", flush=True)
+
+
 def find_page(slug, cache_pages):
     for p in cache_pages:
         if p.get("url", "").rstrip("/").endswith(f"/p/{slug}.html"):
@@ -190,16 +203,17 @@ def main():
         pid = rec.get("id")
         if not pid:
             if existing is None:
-                existing = sb.blogger("/pages", status="live").get("items", []) or []
+                existing = api("/pages", status="live").get("items", []) or []
             pid = find_page(slug, existing)
         if not pid:
-            page = sb.blogger("/pages", "POST", {"title": slug.replace("-", " "), "content": content})
+            page = api("/pages", "POST", {"title": slug.replace("-", " "), "content": content})
             pid = page["id"]
             print("أُنشئت:", page.get("url"))
-        sb.blogger(f"/pages/{pid}", "PATCH", {"title": title_of(lg["id"], lg["season"]), "content": content})
+        api(f"/pages/{pid}", "PATCH", {"title": title_of(lg["id"], lg["season"]), "content": content})
         ids[slug] = {"id": pid, "sig": sig}
         save(STATE, st)
         print("حُدّثت:", slug)
+        __import__("time").sleep(4)
 
 
 if __name__ == "__main__":
