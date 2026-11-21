@@ -269,6 +269,50 @@ def match_facts(fx):
     }
 
 
+STAT_AR = {
+    "Ball Possession": "الاستحواذ", "Total Shots": "إجمالي التسديدات", "Shots on Goal": "تسديدات على المرمى",
+    "Corner Kicks": "الركنيات", "Fouls": "الأخطاء", "Offsides": "التسلل", "Goalkeeper Saves": "تصديات الحارس",
+    "Total passes": "التمريرات", "Passes %": "دقة التمرير", "expected_goals": "الأهداف المتوقعة (xG)",
+    "Yellow Cards": "البطاقات الصفراء", "Red Cards": "البطاقات الحمراء",
+}
+
+
+def match_stats(fid):
+    """إحصائيات الفريقين: {اسم الإحصائية بالعربي: [المضيف, الضيف]}"""
+    try:
+        res = sb.football("fixtures/statistics", fixture=fid)
+    except Exception as e:
+        print("تعذر جلب الإحصائيات:", e, flush=True)
+        return {}
+    if len(res) != 2:
+        return {}
+    vals = [{x["type"]: x["value"] for x in t.get("statistics") or []} for t in res]
+    out = {}
+    for k, ar in STAT_AR.items():
+        a, b = vals[0].get(k), vals[1].get(k)
+        if a is None and b is None:
+            continue
+        out[ar] = [a if a is not None else 0, b if b is not None else 0]
+    return out
+
+
+def match_lineups(fid):
+    try:
+        res = sb.football("fixtures/lineups", fixture=fid)
+    except Exception as e:
+        print("تعذر جلب التشكيلات:", e, flush=True)
+        return []
+    out = []
+    for t in res[:2]:
+        out.append({
+            "team": (t.get("team") or {}).get("name"),
+            "formation": t.get("formation"),
+            "coach": (t.get("coach") or {}).get("name"),
+            "xi": [((x.get("player") or {}).get("name")) for x in t.get("startXI") or []],
+        })
+    return out
+
+
 def report_html(facts, data, league_ar):
     esc = html.escape
     parts = [f"<p>{esc(data['intro'])}</p>"]
@@ -288,6 +332,36 @@ def report_html(facts, data, league_ar):
             c = "حمراء" if "Red" in (e["detail"] or "") else "صفراء"
             parts.append(f"<li>الدقيقة {e['min']}: بطاقة {c} - {esc(e['player'] or '')} ({esc(e['team'])})</li>")
         parts.append("</ul>")
+    stats = facts.get("stats") or {}
+    if stats:
+        hn, an = esc(data.get("home_ar") or facts["home"]), esc(data.get("away_ar") or facts["away"])
+        parts.append("<h2>إحصائيات المباراة</h2>")
+        parts.append('<table style="width:100%;border-collapse:collapse;text-align:center">'
+                     f'<thead><tr><th style="padding:6px;border-bottom:2px solid #ccc">{hn}</th>'
+                     '<th style="padding:6px;border-bottom:2px solid #ccc">الإحصائية</th>'
+                     f'<th style="padding:6px;border-bottom:2px solid #ccc">{an}</th></tr></thead><tbody>')
+        for k, (a, b) in stats.items():
+            parts.append(f'<tr><td style="padding:6px;border-bottom:1px solid #eee">{esc(str(a))}</td>'
+                         f'<td style="padding:6px;border-bottom:1px solid #eee">{esc(k)}</td>'
+                         f'<td style="padding:6px;border-bottom:1px solid #eee">{esc(str(b))}</td></tr>')
+        parts.append("</tbody></table>")
+    if data.get("analysis"):
+        parts.append("<h2>قراءة فنية في الأرقام</h2>")
+        parts += [f"<p>{esc(p)}</p>" for p in data["analysis"]]
+    lu = facts.get("lineups") or []
+    if lu and any(t.get("xi") for t in lu):
+        parts.append("<h2>التشكيلة الأساسية</h2>")
+        names = [data.get("home_ar") or facts["home"], data.get("away_ar") or facts["away"]]
+        for i, t in enumerate(lu):
+            head = f"{names[i] if i < 2 else t['team']}"
+            if t.get("formation"):
+                head += f" ({t['formation']})"
+            if t.get("coach"):
+                head += f" - المدرب: {t['coach']}"
+            parts.append(f"<p><strong>{esc(head)}</strong>: {esc('، '.join(n for n in t['xi'] if n))}</p>")
+    if data.get("conclusion"):
+        parts.append("<h2>ماذا تعني النتيجة؟</h2>")
+        parts.append(f"<p>{esc(data['conclusion'])}</p>")
     parts.append(
         f'<p><small>{esc(league_ar)} - آخر تحديث: {datetime.now(sb.TZ).strftime("%Y-%m-%d %H:%M")} بتوقيت الرياض. '
         "تابع نتائج المباريات المباشرة على الصفحة الرئيسية لعالم المستديرة.</small></p>"
@@ -332,6 +406,8 @@ def _reports_loop(st, cands, limit):
         try:
             full = sb.football("fixtures", id=fid)[0]
             facts = match_facts(full)
+            facts["stats"] = match_stats(fid)
+            facts["lineups"] = match_lineups(fid)
             league_ar = LEAGUES[f["league"]["id"]]
             raw = sb.claude(
                 "أنت محرر رياضي عربي محترف في موقع أخبار كرة قدم. اكتب تقرير مباراة بالعربي الفصيح المبسط "
@@ -342,14 +418,22 @@ def _reports_loop(st, cands, limit):
                 '{"title": "عنوان جذاب للبحث بحدود 60 حرفًا يحتوي اسمي الفريقين والنتيجة",'
                 ' "description": "وصف للبحث بحدود 150 حرفًا",'
                 ' "home_ar": "اسم الفريق المضيف بالعربي", "away_ar": "اسم الفريق الضيف بالعربي",'
-                ' "intro": "مقدمة من جملتين تحتوي الاسمين والنتيجة والبطولة",'
-                ' "paragraphs": ["فقرة عن مجريات المباراة وفق الأحداث", "فقرة عن الأهداف والبطاقات", "فقرة ختامية عن دلالة النتيجة دون تخمين"]}\n\n'
+                ' "intro": "مقدمة من 3 جمل تحتوي الاسمين والنتيجة والبطولة والجولة والملعب إن وجد",'
+                ' "paragraphs": ["فقرة من 4 جمل على الأقل عن مجريات الشوط الأول وفق الأحداث", "فقرة من 4 جمل عن الشوط الثاني والأهداف والبطاقات والتبديلات", "فقرة عن أبرز اللاعبين المذكورين في الأحداث ودورهم"],'
+                ' "analysis": ["فقرة من 4 جمل تحلل الإحصائيات (الاستحواذ والتسديدات والتمريرات) وماذا تقول عن أسلوب كل فريق", "فقرة تقارن فاعلية الفريقين الهجومية والدفاعية بالأرقام والتشكيلة"],'
+                ' "conclusion": "فقرة ختامية من 3 جمل عن دلالة النتيجة للفريقين دون تخمين ترتيب الدوري"}\n'
+                "المطلوب أن يكون مجموع النص 350 كلمة على الأقل. إن لم توجد إحصائيات فاترك analysis فارغة وأطل الفقرات الأخرى.\n\n"
                 f"البطولة: {league_ar}\nالبيانات: {json.dumps(facts, ensure_ascii=False)}",
-                max_tokens=2000,
+                max_tokens=4000,
             )
             data = parse_json(raw)
             if not data.get("title") or not data.get("intro"):
                 raise ValueError("مخرجات ناقصة")
+            prose = " ".join([data.get("intro", ""), data.get("conclusion", "")] + list(data.get("paragraphs") or [])
+                             + list(data.get("analysis") or []))
+            if len(prose.split()) < 230:
+                st["reports"].append(fid)  # لا نعيد المحاولة على نفس المباراة حتى لا نستهلك حصة Gemini
+                raise ValueError(f"التقرير قصير ({len(prose.split())} كلمة)")
             t = full.get("teams", {})
             g = full.get("goals", {})
             th, ta = t.get("home", {}), t.get("away", {})
@@ -416,10 +500,14 @@ def _news_loop(seen, limit):
                 seen.add(key)
                 continue
             try:
-                src = source_text(link)
+                src = source_text(link, 7000)
+                if len(src or "") < 900:
+                    seen.add(key)  # المصدر قصير جدًا لكتابة مقال غني
+                    print("تخطي خبر بمصدر قصير:", title, flush=True)
+                    continue
                 raw = sb.claude(
                     "أنت محرر رياضي عربي محترف في موقع عالم المستديرة. اكتب مقالًا إخباريًا أصليًا بالعربية "
-                    "الفصحى المبسطة بطول 300 إلى 450 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
+                    "الفصحى المبسطة بطول 400 إلى 600 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
                     "لا تترجم حرفيًا ولا تنسخ الجمل، بل أعد الصياغة بأسلوبك ورتّب المعلومات واشرح السياق للقارئ العربي، "
                     "وممنوع إضافة أي معلومة أو رقم أو تصريح أو تاريخ غير موجود في المصدر. "
                     "استخدم الأسماء العربية المعروفة للأندية واللاعبين.\n"
@@ -428,7 +516,10 @@ def _news_loop(seen, limit):
                     ' "description": "وصف للبحث بحدود 150 حرفًا",'
                     ' "intro": "فقرة افتتاحية من جملتين تلخص الخبر",'
                     ' "sections": [{"heading": "عنوان فرعي", "paragraphs": ["فقرة", "فقرة"]},'
-                    ' {"heading": "عنوان فرعي", "paragraphs": ["فقرة"]}],'
+                    ' {"heading": "عنوان فرعي", "paragraphs": ["فقرة", "فقرة"]},'
+                    ' {"heading": "عنوان فرعي عن الخلفية والسياق", "paragraphs": ["فقرة"]},'
+                    ' {"heading": "عنوان فرعي عن ما ينتظر الفريق/اللاعب بحسب المصدر", "paragraphs": ["فقرة"]}],'
+                    ' "takeaways": ["3 نقاط مختصرة لأهم ما في الخبر"],'
                     ' "tags": ["حتى 3 أسماء أندية أو منتخبات أو بطولات بالعربي"]}\n\n'
                     f"العنوان: {title}\nالوصف: {desc}\nنص المصدر:\n{src or desc}",
                     max_tokens=3000,
@@ -443,8 +534,13 @@ def _news_loop(seen, limit):
                     if sec.get("heading"):
                         body += f"<h2>{esc(sec['heading'])}</h2>"
                     body += "".join(f"<p>{esc(p)}</p>" for p in sec.get("paragraphs", []))
-                if len(re.sub(r"<[^>]+>", " ", body).split()) < 120:
-                    raise ValueError("المقال أقصر من المطلوب")
+                tk = [t for t in (data.get("takeaways") or []) if isinstance(t, str) and t.strip()][:4]
+                if tk:
+                    body += "<h2>أبرز النقاط</h2><ul>" + "".join(f"<li>{esc(t)}</li>" for t in tk) + "</ul>"
+                n_words = len(re.sub(r"<[^>]+>", " ", body).split())
+                if n_words < 280:
+                    seen.add(key)  # لا نعيد المحاولة على نفس الخبر
+                    raise ValueError(f"المقال أقصر من المطلوب ({n_words} كلمة)")
                 body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener" target="_blank">'
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
                 slug = slug_words(title)
