@@ -157,7 +157,9 @@ def summary(fx):
 
 def build(today_fx, tomorrow_fx, now, cache):
     tomorrow = now + timedelta(days=1)
-    links = [("ترتيب الدوريات والهدافين", "/"),
+    links = [("ترتيب الدوري السعودي", "/p/saudi-league-table.html"),
+             ("ترتيب الدوري الإنجليزي", "/p/premier-league-table.html"),
+             ("ترتيب الدوري الإسباني", "/p/laliga-table.html"),
              ("أخبار الدوري السعودي", "/search/label/" + urllib.parse.quote("الدوري السعودي للمحترفين")),
              ("أخبار كرة القدم", "/search/label/" + urllib.parse.quote("أخبار كرة القدم")),
              ("تقارير المباريات", "/search/label/" + urllib.parse.quote("تقارير المباريات"))]

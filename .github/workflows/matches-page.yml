@@ -24,6 +24,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Update page
         run: python3 -u matches_page.py
+      - name: Update tables pages
+        if: always()
+        run: python3 -u tables_pages.py
       - name: Commit state
         if: always()
         run: |
