@@ -2,7 +2,7 @@ name: seo-posts
 
 on:
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "17 */4 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -23,16 +23,21 @@ jobs:
     env:
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
       BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
       GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
       GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
       GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-      SEO_DRAFT: ${{ vars.SEO_DRAFT || '1' }}
+      SEO_DRAFT: ${{ vars.SEO_DRAFT || '0' }}
+      MAX_REPORTS: ${{ vars.MAX_REPORTS || '2' }}
+      MAX_NEWS: ${{ vars.MAX_NEWS || '1' }}
     steps:
       - uses: actions/checkout@v4
       - name: Publish
         run: python3 -u seo_poster.py ${{ inputs.mode || 'all' }}
       - name: Commit data
+        if: always()
         run: |
           git config user.name "fottballcia-bot"
           git config user.email "bot@users.noreply.github.com"

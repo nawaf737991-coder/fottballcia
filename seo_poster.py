@@ -79,6 +79,27 @@ def publish(title, content, labels):
     print("نُشر" + (" (مسودة)" if DRAFT else "") + ":", title)
 
 
+class BillingStop(Exception):
+    """رصيد مزود الذكاء الاصطناعي انتهى: نوقف التشغيل بدل إهدار الأخبار"""
+
+
+def check_billing(e):
+    """يوقف التشغيل عند نفاد الرصيد أو الحصة حتى لا تضيع الأخبار"""
+    if isinstance(e, urllib.error.HTTPError):
+        try:
+            text = e.read().decode("utf-8", "replace")
+        except Exception:
+            text = ""
+        e.read = lambda *a, **k: text.encode("utf-8")
+        text = f"HTTP {e.code} {text}"
+    else:
+        text = str(e)
+    if "credit balance" in text:
+        raise BillingStop("رصيد Anthropic غير كافٍ - اشحن الرصيد ليستأنف النشر")
+    if "HTTP 429" in text or "RESOURCE_EXHAUSTED" in text:
+        raise BillingStop("انتهت حصة Gemini - يستأنف النشر تلقائيًا بعد تجددها")
+
+
 def why(e):
     """سبب الخطأ مع الموقع ونص رد الخادم"""
     if isinstance(e, urllib.error.HTTPError):
@@ -172,6 +193,15 @@ def run_reports():
     order = list(LEAGUES)
     cands.sort(key=lambda f: order.index(f["league"]["id"]))
     print("مباريات مرشحة:", len(cands), flush=True)
+    try:
+        _reports_loop(st, cands, limit)
+    finally:
+        save(st)
+
+
+def _reports_loop(st, cands, limit):
+    made = 0
+    fails = 0
     for f in cands:
         if made >= limit or fails >= 3:
             break
@@ -200,9 +230,9 @@ def run_reports():
             st["reports"].append(fid)
             made += 1
         except Exception as e:
+            check_billing(e)
             fails += 1
             print("فشل تقرير", fid, why(e), flush=True)
-    save(st)
     print(f"تقارير: {made}")
 
 
@@ -211,6 +241,14 @@ def run_news():
     st = load()
     seen = set(st["news"])
     limit = int(os.environ.get("MAX_NEWS", "2"))
+    try:
+        _news_loop(seen, limit)
+    finally:
+        st["news"] = list(seen)
+        save(st)
+
+
+def _news_loop(seen, limit):
     made = 0
     for feed in sb.NEWS_FEEDS:
         if made >= limit:
@@ -231,10 +269,10 @@ def run_news():
             key = hashlib.md5(link.encode()).hexdigest()
             if key in seen:
                 continue
-            seen.add(key)
             title = (item.findtext("title") or "").strip()
             desc = re.sub(r"<[^>]+>", "", item.findtext("description") or "").strip()
             if len(desc) < 40:
+                seen.add(key)
                 continue
             try:
                 raw = sb.claude(
@@ -253,17 +291,21 @@ def run_news():
                 body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener">'
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
                 publish(data["title"].strip(), body, ["أخبار كرة القدم"])
+                seen.add(key)
                 made += 1
             except Exception as e:
+                check_billing(e)
                 print("فشل خبر", why(e), flush=True)
-    st["news"] = list(seen)
-    save(st)
     print(f"أخبار: {made}")
 
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "all"
-    if mode in ("reports", "all"):
-        run_reports()
-    if mode in ("news", "all"):
-        run_news()
+    try:
+        if mode in ("reports", "all"):
+            run_reports()
+        if mode in ("news", "all"):
+            run_news()
+    except BillingStop as e:
+        print("::error::" + str(e), flush=True)
+        sys.exit(1)

@@ -125,7 +125,30 @@ def matches_table(fixtures, show_minute=False):
 
 
 # ---------- Claude ----------
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "") or "gemini-3.5-flash-lite"
+
+
+def gemini(prompt, max_tokens, key):
+    data = http(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        method="POST",
+        headers={"x-goog-api-key": key},
+        data={
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": max(4096, max_tokens * 2), "temperature": 0.6},
+        },
+    )
+    cands = data.get("candidates") or []
+    if not cands:
+        raise ValueError("Gemini لم يرجع نصًا: " + json.dumps(data, ensure_ascii=False)[:200])
+    return "".join(p.get("text", "") for p in (cands[0].get("content") or {}).get("parts", []))
+
+
 def claude(prompt, max_tokens=900):
+    """كاتب المقالات: يستخدم Gemini إذا وُجد GEMINI_API_KEY وإلا Claude"""
+    gkey = os.environ.get("GEMINI_API_KEY", "").strip()
+    if gkey:
+        return gemini(prompt, max_tokens, gkey)
     data = http(
         "https://api.anthropic.com/v1/messages",
         method="POST",
