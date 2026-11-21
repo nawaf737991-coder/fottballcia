@@ -30,6 +30,11 @@ DATA = os.path.join(ROOT, "data")
 
 MATCHES_EVERY = 30 * 60      # كل 30 دقيقة
 NEWS_EVERY = 3 * 60 * 60     # كل 3 ساعات
+TABLES_EVERY = 3 * 60 * 60   # الترتيب والهدافين كل 3 ساعات (~18 طلب)
+TABLE_LEAGUES = [
+    (39, "الدوري الإنجليزي"), (140, "الدوري الإسباني"), (307, "الدوري السعودي"),
+    (135, "الدوري الإيطالي"), (78, "الدوري الألماني"), (61, "الدوري الفرنسي"),
+]
 KEEP_NEWS = 60
 KEEP_DAYS = 7
 
@@ -208,6 +213,58 @@ def run_news():
     write("news_seen.json", list(seen)[-800:])
 
 
+# ---------- الترتيب والهدافين ----------
+def current_season(lid):
+    res = sb.football("leagues", id=lid, current="true")
+    for s_ in (res[0].get("seasons") if res else []) or []:
+        if s_.get("current"):
+            return s_.get("year")
+    return None
+
+
+def run_tables():
+    old = {l["id"]: l for l in read("tables.json", {}).get("leagues", [])}
+    out = []
+    for lid, name in TABLE_LEAGUES:
+        try:
+            season = current_season(lid)
+            if not season:
+                raise ValueError("لا يوجد موسم حالي")
+            st = sb.football("standings", league=lid, season=season)
+            groups = ((st[0].get("league") or {}).get("standings") if st else None) or []
+            rows = []
+            for r in (groups[0] if groups else []):
+                a = r.get("all") or {}
+                g = a.get("goals") or {}
+                rows.append({
+                    "r": r.get("rank"), "t": (r.get("team") or {}).get("name"),
+                    "l": (r.get("team") or {}).get("logo"), "p": a.get("played"),
+                    "w": a.get("win"), "d": a.get("draw"), "ls": a.get("lose"),
+                    "gd": r.get("goalsDiff"), "pts": r.get("points"), "f": r.get("form") or "",
+                })
+            sc = []
+            for x in sb.football("players/topscorers", league=lid, season=season)[:10]:
+                pl = x.get("player") or {}
+                stt = (x.get("statistics") or [{}])[0]
+                sc.append({
+                    "n": pl.get("name"), "ph": pl.get("photo"),
+                    "t": (stt.get("team") or {}).get("name"), "tl": (stt.get("team") or {}).get("logo"),
+                    "g": (stt.get("goals") or {}).get("total") or 0,
+                    "a": (stt.get("goals") or {}).get("assists") or 0,
+                    "pen": (stt.get("penalty") or {}).get("scored") or 0,
+                })
+            if not rows:
+                raise ValueError("ترتيب فارغ")
+            out.append({"id": lid, "name": name, "season": season, "table": rows, "scorers": sc})
+            print(f"tables: {name} {season} ({len(rows)} فريق، {len(sc)} هداف)")
+        except Exception as e:
+            print("تعذر ترتيب", name, e)
+            if lid in old:
+                out.append(old[lid])
+    if out:
+        write("tables.json", {"updated": now_iso(), "leagues": out})
+
+
 # ---------- تشغيل تلقائي ----------
 def due(meta, key, every):
     return time.time() - meta.get(key, 0) >= every - 120
@@ -219,7 +276,7 @@ def run_auto():
         run_live()
     except Exception as e:
         print("خطأ live:", e)
-    for key, every, fn in (("matches", MATCHES_EVERY, run_matches), ("news", NEWS_EVERY, run_news)):
+    for key, every, fn in (("matches", MATCHES_EVERY, run_matches), ("tables", TABLES_EVERY, run_tables)):
         if due(meta, key, every):
             try:
                 fn()
@@ -229,7 +286,7 @@ def run_auto():
     write("meta.json", meta)
 
 
-MODES = {"live": run_live, "matches": run_matches, "news": run_news, "auto": run_auto}
+MODES = {"live": run_live, "matches": run_matches, "news": run_news, "tables": run_tables, "auto": run_auto}
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "auto"
