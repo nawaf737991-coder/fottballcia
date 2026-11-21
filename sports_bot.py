@@ -39,7 +39,8 @@ CLAUDE_MODEL = "claude-sonnet-5-5"
 NEWS_FEEDS = [
     "https://feeds.bbci.co.uk/sport/football/rss.xml",
     "https://www.espn.com/espn/rss/soccer/news",
-    "https://www.skysports.com/rss/12040",
+    "https://www.skysports.com/rss/11095",
+    "https://www.theguardian.com/football/rss",
 ]
 MAX_NEWS_PER_RUN = 3
 

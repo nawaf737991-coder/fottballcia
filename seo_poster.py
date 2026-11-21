@@ -75,7 +75,7 @@ def slug_words(text, n=8):
     """كلمات إنجليزية قصيرة لرابط المقال (Blogger يبني الرابط من عنوان النشر الأول)"""
     words = re.findall(r"[a-z0-9]+", (text or "").lower())
     stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "at", "is", "with", "as", "by"}
-    words = [w for w in words if w not in stop][:n]
+    words = [w for w in words if w not in stop and (len(w) > 1 or w.isdigit())][:n]
     return " ".join(words) if len(words) >= 2 else ""
 def publish(title, content, labels, slug=""):
     if DRY:
@@ -130,6 +130,108 @@ def why(e):
             body = ""
         return f"HTTP {e.code} من {urllib.parse.urlparse(e.url).netloc} {body}"
     return str(e)
+
+
+# ---------- الصور و SEO ----------
+IMG_BASE = os.environ.get("IMG_BASE", "https://nawaf737991-coder.github.io/fottballcia/img/")
+SITE_NAME = "عالم المستديرة"
+SITE_URL = "https://www.fottballcia.com/"
+
+
+def image_name(slug, key):
+    base = "-".join((slug or "").split())[:70] or "post"
+    return datetime.now(sb.TZ).strftime("%Y/%m/") + f"{base}-{hashlib.md5(key.encode()).hexdigest()[:6]}.jpg"
+
+
+def make_cover(kind, name, **kw):
+    """يولد صورة الغلاف ويحفظها في img/ (تنشرها GitHub Pages). يرجع الرابط أو "" عند الفشل"""
+    try:
+        import cover
+        path = os.path.join(ROOT, "img", name)
+        if kind == "match":
+            cover.match_cover(path, **kw)
+        else:
+            cover.news_cover(path, **kw)
+        return IMG_BASE + name
+    except Exception as e:
+        print("تعذر إنشاء الصورة:", e, flush=True)
+        return ""
+
+
+def related_links(label, limit=3):
+    """روابط داخلية لآخر المقالات من نفس التصنيف"""
+    try:
+        data = sb.blogger("/posts", maxResults=limit + 2, labels=label, fetchBodies="false",
+                          status="live", orderBy="published")
+        items = [(i["title"], i["url"]) for i in data.get("items", []) if i.get("url")][:limit]
+    except Exception as e:
+        print("تعذر جلب المقالات ذات الصلة:", why(e), flush=True)
+        return ""
+    if not items:
+        return ""
+    esc = html.escape
+    lis = "".join(f'<li><a href="{esc(u)}">{esc(t)}</a></li>' for t, u in items)
+    return f"<h2>اقرأ أيضًا</h2><ul>{lis}</ul>"
+
+
+def clean_tags(tags, limit=3):
+    out = []
+    for t in tags or []:
+        t = re.sub(r"[,<>\"]", "", str(t)).strip()
+        if 2 <= len(t) <= 30 and t not in out:
+            out.append(t)
+    return out[:limit]
+
+
+def wrap_article(title, description, image_url, body, label):
+    """صورة بارزة في البداية + المحتوى + روابط داخلية + بيانات منظمة NewsArticle"""
+    esc = html.escape
+    parts = []
+    if image_url:
+        parts.append(
+            f'<div class="post-cover" style="margin:0 0 16px"><img src="{esc(image_url)}" alt="{esc(title)}" '
+            f'title="{esc(title)}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"/></div>'
+        )
+    parts.append(body)
+    rel = related_links(label)
+    if rel:
+        parts.append(rel)
+    now = datetime.now(sb.TZ).isoformat(timespec="seconds")
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": title[:110],
+        "description": (description or "")[:160],
+        "datePublished": now,
+        "dateModified": now,
+        "inLanguage": "ar",
+        "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
+    }
+    if image_url:
+        ld["image"] = [image_url]
+    parts.append('<script type="application/ld+json">' +
+                 json.dumps(ld, ensure_ascii=False).replace("</", "<\\/") + "</script>")
+    return "\n".join(parts)
+
+
+def source_text(link, limit=3500):
+    """نص المقال الأصلي (فقرات المقال فقط) ليكتب Gemini مقالًا أغنى بالمعلومات"""
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            page = r.read().decode("utf-8", "replace")
+    except Exception:
+        return ""
+    m = re.search(r"<article\b.*?</article>", page, re.S)
+    page = m.group(0) if m else page
+    paras = []
+    for p in re.findall(r"<p\b[^>]*>(.*?)</p>", page, re.S):
+        t = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", p))).strip()
+        if len(t) > 50 and "cookie" not in t.lower():
+            paras.append(t)
+    out = "\n".join(paras)
+    return out[:limit]
 
 
 def parse_json(text):
@@ -238,8 +340,10 @@ def _reports_loop(st, cands, limit):
                 "المشهورين فقط، وما لا تعرف اسمه العربي اتركه كما هو بالإنجليزية.\n"
                 "أعد JSON فقط بهذا الشكل بدون أي نص آخر:\n"
                 '{"title": "عنوان جذاب للبحث بحدود 60 حرفًا يحتوي اسمي الفريقين والنتيجة",'
+                ' "description": "وصف للبحث بحدود 150 حرفًا",'
+                ' "home_ar": "اسم الفريق المضيف بالعربي", "away_ar": "اسم الفريق الضيف بالعربي",'
                 ' "intro": "مقدمة من جملتين تحتوي الاسمين والنتيجة والبطولة",'
-                ' "paragraphs": ["فقرة 1 عن مجريات المباراة وفق الأحداث", "فقرة 2 اختيارية"]}\n\n'
+                ' "paragraphs": ["فقرة عن مجريات المباراة وفق الأحداث", "فقرة عن الأهداف والبطاقات", "فقرة ختامية عن دلالة النتيجة دون تخمين"]}\n\n'
                 f"البطولة: {league_ar}\nالبيانات: {json.dumps(facts, ensure_ascii=False)}",
                 max_tokens=2000,
             )
@@ -248,10 +352,20 @@ def _reports_loop(st, cands, limit):
                 raise ValueError("مخرجات ناقصة")
             t = full.get("teams", {})
             g = full.get("goals", {})
-            slug = slug_words(f'{t.get("home", {}).get("name", "")} vs {t.get("away", {}).get("name", "")} '
+            th, ta = t.get("home", {}), t.get("away", {})
+            slug = slug_words(f'{th.get("name", "")} vs {ta.get("name", "")} '
                               f'{g.get("home", "")} {g.get("away", "")}', 10)
-            publish(data["title"].strip(), report_html(facts, data, league_ar),
-                    ["تقارير المباريات", league_ar], slug=slug)
+            title = data["title"].strip()
+            home_ar = (data.get("home_ar") or th.get("name") or "").strip()
+            away_ar = (data.get("away_ar") or ta.get("name") or "").strip()
+            img = make_cover("match", image_name(slug, str(fid)), title=title, league=league_ar,
+                             date_text=(full.get("fixture", {}).get("date") or "")[:10],
+                             home_name=home_ar, away_name=away_ar,
+                             home_logo=th.get("logo"), away_logo=ta.get("logo"),
+                             home_goals=g.get("home"), away_goals=g.get("away"))
+            body = wrap_article(title, data.get("description") or data.get("intro"), img,
+                                report_html(facts, data, league_ar), league_ar)
+            publish(title, body, ["تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar]), slug=slug)
             st["reports"].append(fid)
             made += 1
         except Exception as e:
@@ -291,6 +405,8 @@ def _news_loop(seen, limit):
             link = (item.findtext("link") or "").strip()
             if not re.match(r"^https?://", link):
                 continue
+            if "/live/" in link or not re.search(r"football|soccer", link):
+                continue
             key = hashlib.md5(link.encode()).hexdigest()
             if key in seen:
                 continue
@@ -300,22 +416,49 @@ def _news_loop(seen, limit):
                 seen.add(key)
                 continue
             try:
+                src = source_text(link)
                 raw = sb.claude(
-                    "أنت محرر رياضي عربي. اكتب خبرًا بالعربي (120-180 كلمة) بأسلوبك الخاص بالكامل اعتمادًا فقط "
-                    "على العنوان والوصف التاليين. لا تنسخ الصياغة ولا تضف معلومة أو رقمًا غير مذكور. "
-                    "أعد JSON فقط: "
-                    '{"title": "عنوان خبري بحدود 60 حرفًا", "paragraphs": ["فقرة", "فقرة"]}\n\n'
-                    f"العنوان: {title}\nالوصف: {desc}",
-                    max_tokens=1800,
+                    "أنت محرر رياضي عربي محترف في موقع عالم المستديرة. اكتب مقالًا إخباريًا أصليًا بالعربية "
+                    "الفصحى المبسطة بطول 300 إلى 450 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
+                    "لا تترجم حرفيًا ولا تنسخ الجمل، بل أعد الصياغة بأسلوبك ورتّب المعلومات واشرح السياق للقارئ العربي، "
+                    "وممنوع إضافة أي معلومة أو رقم أو تصريح أو تاريخ غير موجود في المصدر. "
+                    "استخدم الأسماء العربية المعروفة للأندية واللاعبين. إذا لم يكن الخبر عن كرة القدم أعد {\"skip\": true}.\n"
+                    "أعد JSON فقط بهذا الشكل:\n"
+                    '{"title": "عنوان واضح للبحث بحدود 60 حرفًا يتضمن الاسم الأبرز",'
+                    ' "description": "وصف للبحث بحدود 150 حرفًا",'
+                    ' "intro": "فقرة افتتاحية من جملتين تلخص الخبر",'
+                    ' "sections": [{"heading": "عنوان فرعي", "paragraphs": ["فقرة", "فقرة"]},'
+                    ' {"heading": "عنوان فرعي", "paragraphs": ["فقرة"]}],'
+                    ' "tags": ["حتى 3 أسماء أندية أو منتخبات أو بطولات بالعربي"]}\n\n'
+                    f"العنوان: {title}\nالوصف: {desc}\nنص المصدر:\n{src or desc}",
+                    max_tokens=3000,
                 )
                 data = parse_json(raw)
-                if not data.get("title") or not data.get("paragraphs"):
+                if data.get("skip"):
+                    print("تجاوز خبر ليس عن كرة القدم:", title, flush=True)
+                    seen.add(key)
+                    continue
+                if not data.get("title") or not data.get("sections"):
                     raise ValueError("مخرجات ناقصة")
                 esc = html.escape
-                body = "".join(f"<p>{esc(p)}</p>" for p in data["paragraphs"])
-                body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener">'
+                ar_title = data["title"].strip()
+                body = f"<p>{esc(data.get('intro', ''))}</p>" if data.get("intro") else ""
+                for sec in data["sections"]:
+                    if sec.get("heading"):
+                        body += f"<h2>{esc(sec['heading'])}</h2>"
+                    body += "".join(f"<p>{esc(p)}</p>" for p in sec.get("paragraphs", []))
+                if len(re.sub(r"<[^>]+>", " ", body).split()) < 150:
+                    raise ValueError("المقال أقصر من المطلوب")
+                body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener" target="_blank">'
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
-                publish(data["title"].strip(), body, ["أخبار كرة القدم"], slug=slug_words(title))
+                slug = slug_words(title)
+                tags = clean_tags(data.get("tags"))
+                img = make_cover("news", image_name(slug, key), title=ar_title,
+                                 kicker=(tags[0] if tags else "أخبار كرة القدم"),
+                                 date_text=datetime.now(sb.TZ).strftime("%Y-%m-%d"))
+                body = wrap_article(ar_title, data.get("description") or data.get("intro"), img, body,
+                                    "أخبار كرة القدم")
+                publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug)
                 seen.add(key)
                 made += 1
             except Exception as e:

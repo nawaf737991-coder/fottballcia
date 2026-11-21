@@ -34,6 +34,11 @@ jobs:
       MAX_NEWS: ${{ vars.MAX_NEWS || '1' }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install image tools
+        run: pip install -q pillow arabic-reshaper python-bidi
       - name: Publish
         run: python3 -u seo_poster.py ${{ inputs.mode || 'all' }}
       - name: Commit data
@@ -42,7 +47,7 @@ jobs:
           git config user.name "fottballcia-bot"
           git config user.email "bot@users.noreply.github.com"
           mkdir -p /tmp/new
-          for f in $(git status --porcelain data/seo_state.json | awk '{print $2}'); do
+          for f in $(git status --porcelain -uall data/seo_state.json img | awk '{print $2}'); do
             mkdir -p "/tmp/new/$(dirname "$f")"
             cp "$f" "/tmp/new/$f"
           done
@@ -50,9 +55,9 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             cp -r /tmp/new/. .
-            git add data/seo_state.json
+            git add data/seo_state.json img 2>/dev/null || git add data/seo_state.json
             if git diff --staged --quiet; then exit 0; fi
-            git commit -q -m "seo state"
+            git commit -q -m "seo state + images"
             if git push -q origin HEAD:main; then exit 0; fi
             sleep 5
           done
