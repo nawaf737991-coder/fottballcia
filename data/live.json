@@ -1,441 +1,323 @@
 {
- "updated": "2026-11-22T02:57:40+03:00",
- "ts": 1795305460,
+ "updated": "2026-11-22T08:59:33+03:00",
+ "ts": 1795327173,
  "matches": [
   {
-   "id": 1505570,
-   "league": "Chile - Primera División",
-   "home": "Universidad de Concepcion",
-   "away": "Nublense",
-   "hl": "https://media.api-sports.io/football/teams/2324.png",
-   "al": "https://media.api-sports.io/football/teams/2337.png",
+   "id": 1640374,
+   "league": "Australia - Australian Championship",
+   "home": "Adelaide City",
+   "away": "Broadmeadow Magic",
+   "hl": "https://media.api-sports.io/football/teams/3785.png",
+   "al": "https://media.api-sports.io/football/teams/10202.png",
    "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 26,
-   "time": "2026-11-21T23:30:00+00:00",
+   "ga": 5,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-22T04:00:00+00:00",
    "ev": [
     {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Matías Plaza"
-    },
-    {
-     "m": 13,
+     "m": 3,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Cristopher Mesias Sepulveda"
+     "p": null
     },
     {
-     "m": 15,
+     "m": 26,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Franco Rami"
+     "p": null
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
   {
-   "id": 1551730,
-   "league": "Costa-Rica - Primera División",
-   "home": "Puntarenas FC",
-   "away": "CS Herediano",
-   "hl": "https://media.api-sports.io/football/teams/2045.png",
-   "al": "https://media.api-sports.io/football/teams/815.png",
+   "id": 1640375,
+   "league": "Australia - Australian Championship",
+   "home": "Avondale",
+   "away": "Wests APIA",
+   "hl": "https://media.api-sports.io/football/teams/3798.png",
+   "al": "https://media.api-sports.io/football/teams/26874.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-22T04:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1510503,
+   "league": "South-Korea - K League 2",
+   "home": "Daegu FC",
+   "away": "Gimhae City",
+   "hl": "https://media.api-sports.io/football/teams/2747.png",
+   "al": "https://media.api-sports.io/football/teams/7076.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cesinha"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Choi Won-Chul"
+    }
+   ]
+  },
+  {
+   "id": 1510504,
+   "league": "South-Korea - K League 2",
+   "home": "Jeonnam Dragons",
+   "away": "Ansan Greeners",
+   "hl": "https://media.api-sports.io/football/teams/2760.png",
+   "al": "https://media.api-sports.io/football/teams/2758.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kim Geon-Oh"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ronan"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": "Jeong Ji-Yong"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ronan"
+    }
+   ]
+  },
+  {
+   "id": 1555819,
+   "league": "Japan - J3 League",
+   "home": "Renofa Yamaguchi",
+   "away": "Biwako Shiga",
+   "hl": "https://media.api-sports.io/football/teams/309.png",
+   "al": "https://media.api-sports.io/football/teams/7117.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 26,
-   "time": "2026-11-21T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Lesme"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Cordero"
-    }
-   ]
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
+   "ev": []
   },
   {
-   "id": 1642317,
-   "league": "Honduras - Liga Nacional",
-   "home": "Estrella Roja",
-   "away": "Lobos Upnfm",
-   "hl": "https://media.api-sports.io/football/teams/28541.png",
-   "al": "https://media.api-sports.io/football/teams/1059.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-21T23:15:00+00:00",
+   "id": 1606775,
+   "league": "Japan - J2 League",
+   "home": "Tokushima Vortis",
+   "away": "Shonan Bellmare",
+   "hl": "https://media.api-sports.io/football/teams/299.png",
+   "al": "https://media.api-sports.io/football/teams/284.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 4,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": "S. Licona"
+     "d": "Yellow Card",
+     "p": "K. Yanagisawa"
     },
     {
-     "m": 19,
+     "m": 12,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "N. Luna"
+     "p": "Y. Suzuki"
     },
     {
      "m": 31,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Carter"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Santos"
-    }
-   ]
-  },
-  {
-   "id": 1645544,
-   "league": "Bolivia - Primera División",
-   "home": "Oriente Petrolero",
-   "away": "Independiente Petrolero",
-   "hl": "https://media.api-sports.io/football/teams/3707.png",
-   "al": "https://media.api-sports.io/football/teams/15702.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 28,
-   "time": "2026-11-21T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lazaro cespedes"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juvenal Rojas Caraballo"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Mizael Sadoque Pinto Monteiro"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
      "t": "Goal",
-     "d": "Penalty",
-     "p": "Joffre·Escobar"
-    }
-   ]
-  },
-  {
-   "id": 1649495,
-   "league": "USA - Major League Soccer",
-   "home": "Inter Miami",
-   "away": "Columbus Crew",
-   "hl": "https://media.api-sports.io/football/teams/9568.png",
-   "al": "https://media.api-sports.io/football/teams/1613.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-21T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Gonzalo Tapia"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gonzalo Lujan"
+     "d": "Normal Goal",
+     "p": "H. Yamada"
     },
     {
      "m": 36,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Gonzalo Lujan"
-    },
-    {
-     "m": 43,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Dylan Chambost"
+     "p": "Y. Hakamata"
     }
    ]
   },
   {
-   "id": 1557235,
-   "league": "USA - USL Super League",
-   "home": "Sporting JAX W",
-   "away": "Carolina Ascent W",
-   "hl": "https://media.api-sports.io/football/teams/25855.png",
-   "al": "https://media.api-sports.io/football/teams/24658.png",
+   "id": 1647397,
+   "league": "South-Korea - K League 1",
+   "home": "Gimcheon Sangmu FC",
+   "away": "Jeju United FC",
+   "hl": "https://media.api-sports.io/football/teams/2768.png",
+   "al": "https://media.api-sports.io/football/teams/2761.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Italo Moreira Barcelos"
+    }
+   ]
+  },
+  {
+   "id": 1647398,
+   "league": "South-Korea - K League 1",
+   "home": "Gwangju FC",
+   "away": "Bucheon FC 1995",
+   "hl": "https://media.api-sports.io/football/teams/2759.png",
+   "al": "https://media.api-sports.io/football/teams/2745.png",
    "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-21T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Dockter"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Descary"
-    }
-   ]
-  },
-  {
-   "id": 1631819,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Atlético Saltillo",
-   "away": "Halcones Negros",
-   "hl": "https://media.api-sports.io/football/teams/15919.png",
-   "al": "https://media.api-sports.io/football/teams/28305.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-21T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1647047,
-   "league": "World - CONMEBOL Sudamericana",
-   "home": "Atletico-MG",
-   "away": "Boca Juniors",
-   "hl": "https://media.api-sports.io/football/teams/1062.png",
-   "al": "https://media.api-sports.io/football/teams/451.png",
-   "gh": 0,
    "ga": 2,
-   "status": "2H",
-   "minute": 66,
-   "time": "2026-11-21T22:30:00+00:00",
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T05:00:00+00:00",
    "ev": [
     {
-     "m": 16,
+     "m": 22,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Santiago Ascacibar"
+     "p": "Kim Jong-Woo"
     },
     {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ruan Tressoldi"
-    },
-    {
-     "m": 48,
+     "m": 34,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Miguel Merentiel"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bernard Anício Caldeira Duarte"
-    }
-   ]
-  },
-  {
-   "id": 1551041,
-   "league": "Mexico - Liga MX",
-   "home": "CF Pachuca",
-   "away": "Toluca",
-   "hl": "https://media.api-sports.io/football/teams/2292.png",
-   "al": "https://media.api-sports.io/football/teams/2281.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-21T22:50:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Moreno"
-    }
-   ]
-  },
-  {
-   "id": 1551042,
-   "league": "Mexico - Liga MX",
-   "home": "Santos Laguna",
-   "away": "Leon",
-   "hl": "https://media.api-sports.io/football/teams/2285.png",
-   "al": "https://media.api-sports.io/football/teams/2289.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-21T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jesús Lara"
+     "p": "Kim Min-Jun"
     },
     {
      "m": 37,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Emmanuel Echeverria"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luis Valadez"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Kevin Palacios"
-    }
-   ]
-  },
-  {
-   "id": 1557236,
-   "league": "USA - USL Super League",
-   "home": "Tampa Bay Sun W",
-   "away": "Brooklyn W",
-   "hl": "https://media.api-sports.io/football/teams/24663.png",
-   "al": "https://media.api-sports.io/football/teams/24657.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-21T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "K. Hill"
+     "p": "Hólmbert Aron Friðjónsson"
     },
     {
-     "m": 44,
+     "m": 41,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "J. Shimkin"
+     "p": "Kim Min-Jun"
     },
     {
      "m": 45,
@@ -443,68 +325,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "S. D'Appolonia"
-    }
-   ]
-  },
-  {
-   "id": 1636042,
-   "league": "Mexico - Primera Premier",
-   "home": "Tapachula",
-   "away": "Irapuato",
-   "hl": "https://media.api-sports.io/football/teams/24954.png",
-   "al": "https://media.api-sports.io/football/teams/15932.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-21T23:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1650838,
-   "league": "Nicaragua - Primera Division",
-   "home": "UNAN Managua",
-   "away": "Matagalpa",
-   "hl": "https://media.api-sports.io/football/teams/4647.png",
-   "al": "https://media.api-sports.io/football/teams/19159.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-21T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "Lee Ye-chan"
     }
    ]
   }
