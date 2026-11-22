@@ -45,7 +45,7 @@ jobs:
         run: python3 -u previews.py
       - name: Video self-test
         if: ${{ inputs.dry == '1' }}
-        run: python3 tiktok.py && ls -la /tmp/tk.mp4
+        run: python3 tiktok.py && python3 tiktok_results.py && ls -la /tmp/tk.mp4 /tmp/rs.mp4
       - name: Show dry output
         if: ${{ inputs.dry == '1' }}
         run: cat /tmp/preview_dry.html || true
