@@ -231,7 +231,13 @@
     "M. Alvini": "مارتشيلو أالفيني",
     "San Siro/Giuseppe Meazza": "سان سيرو/جوزيبي مياتزا",
     "Milan": "ميلان",
-    "Luca J. Pairetto": "لوكا بايريتو"
+    "Luca J. Pairetto": "لوكا بايريتو",
+    "Gabriele Calvani": "غابرييل كالفاني",
+    "Adrien Rabiot": "أدريان رابيو",
+    "Patrizio Masini": "باتريزيو ماسيني",
+    "Ardon Jashari": "أردون جاشاري",
+    "Alphadjo Cissè": "ألفادجو سيسيه",
+    "Christian Pulisic": "كريستيان بوليسيتش"
    },
    "published": "2026-11-22T09:36:12+03:00",
    "official": true,
@@ -300,7 +306,98 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/ac-milan-vs-frosinone-preview-lineup-a68d8b-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 5,
+    "ga": 1,
+    "goals": [
+     {
+      "min": "4",
+      "player": "غابرييل كالفاني",
+      "assist": "",
+      "kind": "هدف عكسي",
+      "side": "home",
+      "gh": 1,
+      "ga": 0,
+      "team": "ميلان"
+     },
+     {
+      "min": "19",
+      "player": "غونزالو راموس",
+      "assist": "أدريان رابيو",
+      "kind": "",
+      "side": "home",
+      "gh": 2,
+      "ga": 0,
+      "team": "ميلان"
+     },
+     {
+      "min": "25",
+      "player": "باتريزيو ماسيني",
+      "assist": "",
+      "kind": "",
+      "side": "away",
+      "gh": 2,
+      "ga": 1,
+      "team": "فروسينوني"
+     },
+     {
+      "min": "48",
+      "player": "أردون جاشاري",
+      "assist": "أدريان رابيو",
+      "kind": "",
+      "side": "home",
+      "gh": 3,
+      "ga": 1,
+      "team": "ميلان"
+     },
+     {
+      "min": "60",
+      "player": "ألفادجو سيسيه",
+      "assist": "دييغو موريرا",
+      "kind": "",
+      "side": "home",
+      "gh": 4,
+      "ga": 1,
+      "team": "ميلان"
+     },
+     {
+      "min": "68",
+      "player": "كريستيان بوليسيتش",
+      "assist": "",
+      "kind": "",
+      "side": "home",
+      "gh": 5,
+      "ga": 1,
+      "team": "ميلان"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "53%",
+      "47%"
+     ],
+     "التسديدات": [
+      12,
+      15
+     ],
+     "على المرمى": [
+      8,
+      3
+     ],
+     "الركنيات": [
+      2,
+      9
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "2.58",
+      "1.09"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "ميلان 5-1 فروسينوني ⚽\nالدوري الإيطالي\nالأهداف: غونزالو راموس، باتريزيو ماسيني، أردون جاشاري، ألفادجو سيسيه، كريستيان بوليسيتش\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#ميلان #فروسينوني #الدوري_الإيطالي #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/ac-milan-vs-frosinone-preview-lineup-872b24-result-tiktok.mp4"
   },
   {
    "fid": 1570456,
@@ -343,7 +440,7 @@
     "Jesus Gil Manzano": "خيسوس خيل مانزانو"
    },
    "published": "2026-11-22T14:55:35+03:00",
-   "official": false,
+   "official": true,
    "url": "https://www.fottballcia.com/2026/11/getafe-vs-atletico-madrid-preview.html",
    "tweet": "🔥 خيتافي × أتلتيكو مدريد\n🏆 الدوري الإسباني\n⏰ 23:00 بتوقيت السعودية\n📺 beIN SPORTS\n\nالموعد والتشكيلة المتوقعة والغيابات وتوقعنا للنتيجة 👇\nhttps://www.fottballcia.com/2026/11/getafe-vs-atletico-madrid-preview.html\n\n#خيتافي #أتلتيكو_مدريد #الدوري_الإسباني",
    "tweet_id": null,
@@ -378,35 +475,37 @@
     ],
     "xi_home": [
      "ديفيد سوريا",
-     "داني كارفاخال",
-     "س. بوسيلي",
      "د. داكونام",
+     "Z. Romero",
+     "J. Valou",
      "ج. موخيكا",
      "أندريس غارسيا",
      "أو. مانغالا",
-     "ماريو مارتين",
-     "م. ساتريانو",
-     "إي. أونال",
-     "إيفان أزون"
+     "Francho Serrano",
+     "Ramón Terrats",
+     "إيفان أزون",
+     "إي. أونال"
     ],
     "xi_away": [
      "يان أوبلاك",
      "ماركوس يورينتي",
-     "مارك بوبيل",
+     "Robin Le Normand",
      "د. هانكو",
      "أليكس غريمالدو",
-     "ج. سيميوني",
      "كوكي",
      "بابلو باريوس",
+     "ج. سيميوني",
      "أليكس باينا",
-     "لي كانغ إن",
+     "J. Cardoso",
      "جوليان ألفاريز"
     ],
-    "form_home": "4-1-4-1",
-    "form_away": "4-4-2",
-    "pred": "0-1"
+    "form_home": "4-4-2",
+    "form_away": "4-2-3-1",
+    "pred": "0-1",
+    "xi_title": "التشكيلة الرسمية"
    },
-   "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/getafe-vs-atletico-madrid-preview-b62d2b-tiktok.mp4"
+   "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/getafe-vs-atletico-madrid-preview-1adf71-tiktok.mp4",
+   "video_official": true
   },
   {
    "fid": 1629975,
