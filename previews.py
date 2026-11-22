@@ -23,7 +23,7 @@ DRY = os.environ.get("DRY_RUN", "0") == "1"
 esc = html.escape
 
 # وزن البطولة في اختيار "المباراة الكبيرة"
-WEIGHT = {307: 50, 2: 48, 39: 45, 140: 42, 17: 40, 135: 35, 78: 33, 61: 30, 3: 25, 848: 15, 1: 50}
+WEIGHT = {307: 60, 2: 55, 39: 45, 140: 42, 17: 40, 135: 35, 78: 33, 61: 30, 3: 25, 848: 15, 1: 50}
 LEAGUE_AR = {k: v for k, v in sp.LEAGUES.items()}
 TV = {
     307: ["ثمانية"],
@@ -141,10 +141,10 @@ def candidates(st):
             continue
         ko = datetime.fromisoformat(f["fixture"]["date"])
         hours = (ko - now).total_seconds() / 3600
-        if not (5 <= hours <= 40):
+        if not (3 <= hours <= 40):
             continue
         sc = importance(f, tbl)
-        if sc >= 70:  # مباراة كبيرة فقط
+        if sc >= int(os.environ.get("MIN_SCORE", "55")):  # الدوري السعودي كامل + أبطال أوروبا + مباريات الكبار
             out.append((sc, f))
     out.sort(key=lambda x: -x[0])
     print("مباريات كبيرة مرشحة:", [(s, f["teams"]["home"]["name"], f["teams"]["away"]["name"]) for s, f in out][:10])

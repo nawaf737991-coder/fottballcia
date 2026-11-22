@@ -11,7 +11,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     env:
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -27,18 +27,22 @@ jobs:
       - name: Update tables pages
         if: always()
         run: python3 -u tables_pages.py
+      - name: Update team pages
+        if: always()
+        continue-on-error: true
+        run: python3 -u team_pages.py
       - name: Commit state
         if: always()
         run: |
           git config user.name "fottballcia-bot"
           git config user.email "bot@users.noreply.github.com"
           mkdir -p /tmp/new/data
-          for f in data/pages.json data/names_cache.json; do [ -f "$f" ] && cp "$f" /tmp/new/data/; done
+          for f in data/pages.json data/names_cache.json data/team_pages.json; do [ -f "$f" ] && cp "$f" /tmp/new/data/; done
           for i in 1 2 3 4; do
             git fetch -q origin main
             git reset -q --hard origin/main
             cp -r /tmp/new/. .
-            git add data/pages.json data/names_cache.json 2>/dev/null || true
+            git add data/pages.json data/names_cache.json data/team_pages.json 2>/dev/null || true
             if git diff --staged --quiet; then exit 0; fi
             git commit -q -m "matches page state"
             if git push -q origin HEAD:main; then exit 0; fi
