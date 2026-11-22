@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:00:34+03:00",
+ "updated": "2026-11-23T00:00:18+03:00",
  "leagues": [
   {
    "id": 39,
@@ -44,6 +44,18 @@
     },
     {
      "r": 4,
+     "t": "Liverpool",
+     "l": "https://media.api-sports.io/football/teams/40.png",
+     "p": 11,
+     "w": 6,
+     "d": 3,
+     "ls": 2,
+     "gd": 8,
+     "pts": 21,
+     "f": "WWLWW"
+    },
+    {
+     "r": 5,
      "t": "Bournemouth",
      "l": "https://media.api-sports.io/football/teams/35.png",
      "p": 11,
@@ -53,18 +65,6 @@
      "gd": 4,
      "pts": 18,
      "f": "WWWWW"
-    },
-    {
-     "r": 5,
-     "t": "Liverpool",
-     "l": "https://media.api-sports.io/football/teams/40.png",
-     "p": 10,
-     "w": 5,
-     "d": 3,
-     "ls": 2,
-     "gd": 4,
-     "pts": 18,
-     "f": "WLWWL"
     },
     {
      "r": 6,
@@ -226,13 +226,13 @@
      "r": 19,
      "t": "Manchester United",
      "l": "https://media.api-sports.io/football/teams/33.png",
-     "p": 10,
+     "p": 11,
      "w": 1,
      "d": 5,
-     "ls": 4,
-     "gd": -5,
+     "ls": 5,
+     "gd": -9,
      "pts": 8,
-     "f": "DLLDD"
+     "f": "LDLLD"
     },
     {
      "r": 20,
@@ -397,13 +397,13 @@
      "r": 5,
      "t": "Real Sociedad",
      "l": "https://media.api-sports.io/football/teams/548.png",
-     "p": 12,
+     "p": 13,
      "w": 7,
      "d": 1,
-     "ls": 4,
-     "gd": 1,
+     "ls": 5,
+     "gd": 0,
      "pts": 22,
-     "f": "WLWWW"
+     "f": "LWLWW"
     },
     {
      "r": 6,
@@ -419,6 +419,18 @@
     },
     {
      "r": 7,
+     "t": "Racing Santander",
+     "l": "https://media.api-sports.io/football/teams/4665.png",
+     "p": 13,
+     "w": 5,
+     "d": 2,
+     "ls": 6,
+     "gd": -12,
+     "pts": 17,
+     "f": "WWLWL"
+    },
+    {
+     "r": 8,
      "t": "Athletic Club",
      "l": "https://media.api-sports.io/football/teams/531.png",
      "p": 12,
@@ -430,7 +442,7 @@
      "f": "LDWWL"
     },
     {
-     "r": 8,
+     "r": 9,
      "t": "Alaves",
      "l": "https://media.api-sports.io/football/teams/542.png",
      "p": 13,
@@ -442,7 +454,7 @@
      "f": "WDLDL"
     },
     {
-     "r": 9,
+     "r": 10,
      "t": "Villarreal",
      "l": "https://media.api-sports.io/football/teams/533.png",
      "p": 13,
@@ -454,7 +466,7 @@
      "f": "LWLWD"
     },
     {
-     "r": 10,
+     "r": 11,
      "t": "Espanyol",
      "l": "https://media.api-sports.io/football/teams/540.png",
      "p": 13,
@@ -466,7 +478,7 @@
      "f": "WDWLL"
     },
     {
-     "r": 11,
+     "r": 12,
      "t": "Deportivo La Coruna",
      "l": "https://media.api-sports.io/football/teams/544.png",
      "p": 13,
@@ -476,18 +488,6 @@
      "gd": -1,
      "pts": 15,
      "f": "LDWLD"
-    },
-    {
-     "r": 12,
-     "t": "Racing Santander",
-     "l": "https://media.api-sports.io/football/teams/4665.png",
-     "p": 12,
-     "w": 4,
-     "d": 2,
-     "ls": 6,
-     "gd": -13,
-     "pts": 14,
-     "f": "WLWLD"
     },
     {
      "r": 13,
@@ -1037,6 +1037,18 @@
     },
     {
      "r": 4,
+     "t": "AC Milan",
+     "l": "https://media.api-sports.io/football/teams/489.png",
+     "p": 12,
+     "w": 8,
+     "d": 3,
+     "ls": 1,
+     "gd": 14,
+     "pts": 27,
+     "f": "WWWLW"
+    },
+    {
+     "r": 5,
      "t": "Como",
      "l": "https://media.api-sports.io/football/teams/895.png",
      "p": 12,
@@ -1046,18 +1058,6 @@
      "gd": 10,
      "pts": 26,
      "f": "WLWWW"
-    },
-    {
-     "r": 5,
-     "t": "AC Milan",
-     "l": "https://media.api-sports.io/football/teams/489.png",
-     "p": 11,
-     "w": 7,
-     "d": 3,
-     "ls": 1,
-     "gd": 10,
-     "pts": 24,
-     "f": "WWLWW"
     },
     {
      "r": 6,
@@ -1075,13 +1075,13 @@
      "r": 7,
      "t": "Frosinone",
      "l": "https://media.api-sports.io/football/teams/512.png",
-     "p": 11,
+     "p": 12,
      "w": 6,
      "d": 2,
-     "ls": 3,
-     "gd": 9,
+     "ls": 4,
+     "gd": 5,
      "pts": 20,
-     "f": "LWWDW"
+     "f": "LLWWD"
     },
     {
      "r": 8,
@@ -1402,13 +1402,13 @@
      "r": 6,
      "t": "Werder Bremen",
      "l": "https://media.api-sports.io/football/teams/162.png",
-     "p": 9,
-     "w": 4,
+     "p": 10,
+     "w": 5,
      "d": 3,
      "ls": 2,
-     "gd": 2,
-     "pts": 15,
-     "f": "LWWDD"
+     "gd": 6,
+     "pts": 18,
+     "f": "WLWWD"
     },
     {
      "r": 7,
@@ -1474,13 +1474,13 @@
      "r": 12,
      "t": "Hamburger SV",
      "l": "https://media.api-sports.io/football/teams/175.png",
-     "p": 9,
+     "p": 10,
      "w": 4,
      "d": 0,
-     "ls": 5,
-     "gd": -10,
+     "ls": 6,
+     "gd": -14,
      "pts": 12,
-     "f": "WLLWW"
+     "f": "LWLLW"
     },
     {
      "r": 13,
@@ -1753,25 +1753,25 @@
      "r": 9,
      "t": "Rennes",
      "l": "https://media.api-sports.io/football/teams/94.png",
-     "p": 10,
+     "p": 11,
      "w": 5,
-     "d": 1,
+     "d": 2,
      "ls": 4,
      "gd": 0,
-     "pts": 16,
-     "f": "LLWLW"
+     "pts": 17,
+     "f": "DLLWL"
     },
     {
      "r": 10,
      "t": "Lorient",
      "l": "https://media.api-sports.io/football/teams/97.png",
-     "p": 10,
+     "p": 11,
      "w": 4,
-     "d": 3,
+     "d": 4,
      "ls": 3,
      "gd": 1,
-     "pts": 15,
-     "f": "WLDWW"
+     "pts": 16,
+     "f": "DWLDW"
     },
     {
      "r": 11,
