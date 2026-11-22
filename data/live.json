@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T02:30:22+03:00",
- "ts": 1795390222,
+ "updated": "2026-11-23T02:40:28+03:00",
+ "ts": 1795390828,
  "matches": [
   {
    "id": 1505567,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": []
   },
@@ -23,10 +23,10 @@
    "away": "Cruz Azul",
    "hl": "https://media.api-sports.io/football/teams/2278.png",
    "al": "https://media.api-sports.io/football/teams/2295.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -49,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 23,
+   "minute": 33,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -80,7 +80,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -90,6 +90,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Portillo"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Enriquez"
     }
    ]
   },
@@ -103,7 +111,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 3,
+   "minute": 13,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": []
   },
@@ -117,9 +125,40 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1492464,
+   "league": "Brazil - Serie A",
+   "home": "RB Bragantino",
+   "away": "Vasco DA Gama",
+   "hl": "https://media.api-sports.io/football/teams/794.png",
+   "al": "https://media.api-sports.io/football/teams/133.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-22T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gabriel Pereira"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juninho Capixaba"
+    }
+   ]
   },
   {
    "id": 1551728,
@@ -131,7 +170,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -192,9 +231,9 @@
    "hl": "https://media.api-sports.io/football/teams/22047.png",
    "al": "https://media.api-sports.io/football/teams/22051.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -220,93 +259,14 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1646938,
-   "league": "Venezuela - Primera División",
-   "home": "Metropolitanos FC",
-   "away": "Deportivo La Guaira",
-   "hl": "https://media.api-sports.io/football/teams/2825.png",
-   "al": "https://media.api-sports.io/football/teams/2813.png",
-   "gh": 1,
-   "ga": 4,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-22T21:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Correa"
     },
     {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Manenti"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Herrera"
-    },
-    {
-     "m": 34,
+     "m": 73,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "J. Meza"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Meza"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Riasco"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Herrera"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Pomozy"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Rodriguez"
+     "p": null
     }
    ]
   },
@@ -318,9 +278,9 @@
    "hl": "https://media.api-sports.io/football/teams/16142.png",
    "al": "https://media.api-sports.io/football/teams/8004.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -346,6 +306,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Ledesma"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. M. Peralta"
     }
    ]
   },
@@ -359,7 +327,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -403,12 +371,36 @@
      "p": "Felipe Peña Biafore"
     },
     {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marcelino Moreno"
+    },
+    {
      "m": 69,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tobías Andrada"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastián Driussi"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Santiago Joaquín Espíndola"
     }
    ]
   },
@@ -419,10 +411,10 @@
    "away": "Aragua FC",
    "hl": "https://media.api-sports.io/football/teams/2812.png",
    "al": "https://media.api-sports.io/football/teams/2817.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -456,37 +448,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1492464,
-   "league": "Brazil - Serie A",
-   "home": "RB Bragantino",
-   "away": "Vasco DA Gama",
-   "hl": "https://media.api-sports.io/football/teams/794.png",
-   "al": "https://media.api-sports.io/football/teams/133.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gabriel Pereira"
     },
     {
-     "m": 45,
-     "x": 1,
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 74,
+     "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juninho Capixaba"
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -499,10 +476,19 @@
    "al": "https://media.api-sports.io/football/teams/1949.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-22T22:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   }
  ]
 }
