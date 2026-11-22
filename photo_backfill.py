@@ -69,7 +69,8 @@ def main():
         pid = p["id"]
         labels = p.get("labels") or []
         content = p.get("content") or ""
-        if pid in st or "تقارير المباريات" in labels or 'data-ph="1"' in content:
+        if pid in st or "تقارير المباريات" in labels or 'data-ph="1"' in content \
+                or "ويكيميديا كومنز" in content:
             continue
         m = re.search(r'<div class="post-cover"[^>]*>\s*<img src="([^"]+)"', content)
         if not m or sp.IMG_BASE not in m.group(1):

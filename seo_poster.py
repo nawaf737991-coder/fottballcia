@@ -589,6 +589,8 @@ def _news_loop(seen, limit):
                 img, credit = news_image(data, slug, key, ar_title, tags)
                 body = wrap_article(ar_title, data.get("description") or data.get("intro"), img, body,
                                     "أخبار كرة القدم", credit)
+                if LAST_IMAGE_KIND in ("photo", "teams"):
+                    body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
                 publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug)
                 seen.add(key)
                 made += 1
