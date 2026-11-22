@@ -414,6 +414,8 @@ def publish_preview(f, tbl, st):
     nm = names()
     data["home_ar"] = (data.get("home_ar") or nm.get(facts["home"]) or facts["home"]).strip()
     data["away_ar"] = (data.get("away_ar") or nm.get(facts["away"]) or facts["away"]).strip()
+    fa = str.maketrans({"چ": "تش", "پ": "ب", "گ": "ج", "ژ": "ج", "ی": "ي", "ک": "ك", "ۆ": "و", "ە": "ه"})
+    data["home_ar"], data["away_ar"] = data["home_ar"].translate(fa), data["away_ar"].translate(fa)
     if not data.get("intro"):
         raise ValueError("مخرجات ناقصة")
     H, A = data["home_ar"], data["away_ar"]
