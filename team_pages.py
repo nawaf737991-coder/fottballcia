@@ -73,8 +73,9 @@ def league_ar(lg, cache):
 
 
 def team_ar(t, cache):
-    return (next((v[1] for k, v in TEAMS.items() if k == t["id"]), None)
-            or NAMES["teams"].get(t["name"]) or cache.get(t["name"]) or t["name"])
+    n = (next((v[1] for k, v in TEAMS.items() if k == t["id"]), None)
+         or NAMES["teams"].get(t["name"]) or cache.get(t["name"]) or t["name"])
+    return n.translate(str.maketrans({"چ": "تش", "پ": "ب", "گ": "ج", "ژ": "ج", "ی": "ي", "ک": "ك"}))
 
 
 def season_label(now):
