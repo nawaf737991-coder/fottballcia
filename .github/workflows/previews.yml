@@ -43,6 +43,9 @@ jobs:
         run: pip install -q pillow arabic-reshaper python-bidi hijridate imageio-ffmpeg
       - name: Previews
         run: python3 -u previews.py
+      - name: Video self-test
+        if: ${{ inputs.dry == '1' }}
+        run: python3 tiktok.py && ls -la /tmp/tk.mp4
       - name: Show dry output
         if: ${{ inputs.dry == '1' }}
         run: cat /tmp/preview_dry.html || true
