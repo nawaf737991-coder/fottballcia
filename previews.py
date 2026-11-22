@@ -550,7 +550,7 @@ def tweets_page(st):
             + (f'<button class="btn sh" data-img="{esc(e["img"])}" data-text="{esc(e["tweet"])}">📷 انشر مع الصورة</button>' if e.get("img") else "")
             + f'<a class="btn alt" href="{esc(x_post.intent(e["tweet"]))}" target="_blank" rel="noopener">انشر في X (نص فقط)</a>'
             + (('<div class="tk"><div class="tkh">🎵 تيك توك' + (' - بالتشكيلة الرسمية' if e.get("video_official") else '') + '</div>'
-                f'<video src="{esc(e["video"])}" controls playsinline preload="none" poster="{esc(e.get("img", ""))}"></video>'
+                f'<video src="{esc(e["video"])}#t=0.5" controls playsinline muted preload="metadata"></video>'
                 f'<pre>{esc(tiktok_caption(e))}</pre>'
                 f'<button class="btn tkb sh" data-img="{esc(e["video"])}" data-type="video/mp4" data-name="match.mp4" data-text="{esc(tiktok_caption(e))}">🎵 انشر في تيك توك</button></div>')
                if e.get("video") else "")
