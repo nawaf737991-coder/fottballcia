@@ -31,6 +31,8 @@ DATA = os.path.join(ROOT, "data")
 MATCHES_EVERY = 30 * 60      # كل 30 دقيقة
 NEWS_EVERY = 3 * 60 * 60     # كل 3 ساعات
 TABLES_EVERY = 3 * 60 * 60   # الترتيب والهدافين كل 3 ساعات (~18 طلب)
+DAYS_EVERY = 3 * 60 * 60     # مباريات الأيام السابقة والقادمة (اختيار التاريخ) ~8 طلبات
+DAYS_BACK, DAYS_AHEAD = 3, 7
 TABLE_LEAGUES = [
     (39, "الدوري الإنجليزي"), (140, "الدوري الإسباني"), (307, "الدوري السعودي"),
     (135, "الدوري الإيطالي"), (78, "الدوري الألماني"), (61, "الدوري الفرنسي"),
@@ -149,6 +151,40 @@ def run_matches():
     out = sorted(days.values(), key=lambda d: d["date"], reverse=True)[:KEEP_DAYS]
     write("results.json", {"updated": now_iso(), "days": out})
     print(f"matches: {len(out)} أيام")
+
+
+# ---------- مباريات أيام أخرى (اختيار التاريخ في الموقع) ----------
+def run_days():
+    """data/days/YYYY-MM-DD.json لكل يوم من -3 إلى +7 (اليوم نفسه في today.json)"""
+    now = datetime.now(sb.TZ)
+    folder = os.path.join(DATA, "days")
+    os.makedirs(folder, exist_ok=True)
+    wanted = []
+    for off in range(-DAYS_BACK, DAYS_AHEAD + 1):
+        if off == 0:
+            continue
+        date = (now + timedelta(days=off)).strftime("%Y-%m-%d")
+        wanted.append(date)
+        path = os.path.join(folder, date + ".json")
+        # الأيام الماضية (قبل أمس) لا تتغير: نجلبها مرة واحدة فقط
+        if off < -1 and os.path.exists(path):
+            continue
+        try:
+            fx = [slim(f) for f in sb.football("fixtures", date=date, timezone="Asia/Riyadh")]
+        except Exception as e:
+            print("تعذر جلب", date, e)
+            continue
+        if off > 0:
+            for m in fx:
+                m.pop("ev", None)
+        fx.sort(key=lambda m: m["time"])
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump({"date": date, "updated": now_iso(), "matches": fx}, f, ensure_ascii=False, separators=(",", ":"))
+        print(f"days: {date} ({len(fx)} مباراة)")
+    for name in os.listdir(folder):
+        if name.endswith(".json") and name[:-5] not in wanted and name != "index.json":
+            os.remove(os.path.join(folder, name))
+    write("days/index.json", {"updated": now_iso(), "today": now.strftime("%Y-%m-%d"), "dates": sorted(wanted)})
 
 
 # ---------- الأخبار ----------
@@ -276,7 +312,7 @@ def run_auto():
         run_live()
     except Exception as e:
         print("خطأ live:", e)
-    for key, every, fn in (("matches", MATCHES_EVERY, run_matches), ("tables", TABLES_EVERY, run_tables)):
+    for key, every, fn in (("matches", MATCHES_EVERY, run_matches), ("tables", TABLES_EVERY, run_tables), ("days", DAYS_EVERY, run_days)):
         if due(meta, key, every):
             try:
                 fn()
@@ -286,7 +322,7 @@ def run_auto():
     write("meta.json", meta)
 
 
-MODES = {"live": run_live, "matches": run_matches, "news": run_news, "tables": run_tables, "auto": run_auto}
+MODES = {"live": run_live, "matches": run_matches, "news": run_news, "tables": run_tables, "days": run_days, "auto": run_auto}
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "auto"

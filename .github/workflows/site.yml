@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "live | matches | news | auto"
+        description: "live | matches | news | tables | days | auto"
         default: "auto"
 
 permissions:
@@ -32,15 +32,22 @@ jobs:
           git config user.name "fottballcia-bot"
           git config user.email "bot@users.noreply.github.com"
           mkdir -p /tmp/new
-          for f in $(git status --porcelain data | awk '{print $2}'); do
-            mkdir -p "/tmp/new/$(dirname "$f")"
-            cp "$f" "/tmp/new/$f"
+          : > /tmp/deleted.txt
+          git status --porcelain -uall data | while read -r st f; do
+            if [ -f "$f" ]; then
+              mkdir -p "/tmp/new/$(dirname "$f")"
+              cp "$f" "/tmp/new/$f"
+            else
+              echo "$f" >> /tmp/deleted.txt
+            fi
           done
           for i in 1 2 3 4; do
             git fetch -q origin main
             git reset -q --hard origin/main
+            mkdir -p /tmp/new
             cp -r /tmp/new/. .
-            git add data
+            while read -r f; do [ -n "$f" ] && rm -f "$f"; done < /tmp/deleted.txt
+            git add -A data
             if git diff --staged --quiet; then exit 0; fi
             git commit -q -m "update data"
             if git push -q origin HEAD:main; then exit 0; fi
