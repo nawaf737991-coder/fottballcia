@@ -1,0 +1,41 @@
+name: ticker
+# جدولة GitHub المجانية تتأخر وتتخطى التشغيلات، فهذا "المنبّه" يشتغل ~5.8 ساعة
+# ويشغّل البوتات في مواعيدها بالدقيقة، ثم يعيد تشغيل نفسه.
+on:
+  schedule:
+    - cron: "3 */2 * * *"   # احتياط لو انقطعت السلسلة
+  workflow_dispatch:
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: ticker
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Loop
+        run: |
+          end=$(( $(date +%s) + 345*60 ))
+          last=""
+          fire() { echo "$(date -u +%H:%M) -> $1"; gh workflow run "$1" >/dev/null 2>&1 || echo "  failed $1"; }
+          while [ "$(date +%s)" -lt "$end" ]; do
+            now=$(date -u +%H:%M)
+            if [ "$now" != "$last" ]; then
+              last=$now
+              h=$((10#$(date -u +%H))); m=$((10#$(date -u +%M)))
+              [ $((m % 10)) -eq 0 ] && fire site.yml
+              { [ $m -eq 7 ] || [ $m -eq 37 ]; } && fire matches-page.yml
+              [ $m -eq 47 ] && fire previews.yml
+              { [ $m -eq 17 ] && [ $((h % 2)) -eq 0 ]; } && fire seo.yml
+            fi
+            sleep 20
+          done
+      - name: Restart myself
+        if: always()
+        run: gh workflow run ticker.yml
