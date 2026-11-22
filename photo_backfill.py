@@ -18,6 +18,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, "data", "photo_backfill.json")
 DRY = os.environ.get("DRY_RUN", "0") == "1"
 LIMIT = int(os.environ.get("LIMIT", "0") or 0)
+FORCE_REPORTS = os.environ.get("FORCE_REPORTS", "0") == "1"
 
 
 def load():
@@ -100,7 +101,11 @@ def main():
         pid = p["id"]
         labels = p.get("labels") or []
         content = p.get("content") or ""
-        if st.get(pid) not in (None, "skip-report") or 'data-ph="1"' in content \
+        forced = FORCE_REPORTS and "تقارير المباريات" in labels and st.get(pid) == "photo"
+        if forced:
+            content = re.sub(r'<div style="font-size:12px;color:#7a8a82;margin-top:4px">الصورة:.*?</div>', "", content, count=1, flags=re.S)
+            content = content.replace('<div class="post-cover" data-ph="1"', '<div class="post-cover"', 1)
+        elif st.get(pid) not in (None, "skip-report") or 'data-ph="1"' in content \
                 or "ويكيميديا كومنز" in content:
             continue
         m = re.search(r'<div class="post-cover"[^>]*>\s*<img src="([^"]+)"', content)
@@ -118,7 +123,7 @@ def main():
             continue
         kicker = next((l for l in labels if l not in ("أخبار كرة القدم", "تقارير المباريات")), "أخبار كرة القدم")
         slug = re.sub(r"\.html$", "", (p.get("url") or "").rsplit("/", 1)[-1]) or "post"
-        key = pid + "-ph"
+        key = pid + ("-ph2" if forced else "-ph")
         if DRY:
             print("DRY", title, "|", data, flush=True)
             done += 1

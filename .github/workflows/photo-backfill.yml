@@ -8,6 +8,9 @@ on:
       limit:
         description: "أقصى عدد مقالات (0 = الكل)"
         default: "0"
+      force_reports:
+        description: "1 = إعادة صور التقارير"
+        default: "0"
 permissions:
   contents: write
 concurrency:
@@ -28,6 +31,7 @@ jobs:
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       DRY_RUN: ${{ inputs.dry }}
       LIMIT: ${{ inputs.limit }}
+      FORCE_REPORTS: ${{ inputs.force_reports }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

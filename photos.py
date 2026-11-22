@@ -63,10 +63,55 @@ def wiki_photo(title, lang="en", min_w=300):
         return None
 
 
+_LOGOS = None
+
+
+def _norm(n):
+    return re.sub(r"[^a-z0-9]", "", (n or "").lower().replace("fc", "").replace("afc", ""))
+
+
+def _local_logos():
+    """فهرس الأسماء -> الشعارات من ملفات البيانات (مباريات الأيام والنتائج)"""
+    global _LOGOS
+    if _LOGOS is not None:
+        return _LOGOS
+    import glob
+    import os
+    _LOGOS = {}
+    root = os.path.dirname(os.path.abspath(__file__))
+    def walk(o):
+        if isinstance(o, dict):
+            for nk, lk in (("home", "hl"), ("away", "al")):
+                if isinstance(o.get(nk), str) and isinstance(o.get(lk), str):
+                    _LOGOS.setdefault(_norm(o[nk]), o[lk])
+            t = o.get("team")
+            if isinstance(t, dict) and t.get("name") and t.get("logo"):
+                _LOGOS.setdefault(_norm(t["name"]), t["logo"])
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    for f in glob.glob(os.path.join(root, "data", "*.json")) + glob.glob(os.path.join(root, "data", "days", "*.json")):
+        try:
+            with open(f, encoding="utf-8") as fh:
+                walk(json.load(fh))
+        except Exception:
+            pass
+    return _LOGOS
+
+
 def team_logo(name, football):
-    """رابط شعار الفريق من API-Football (طلب واحد)"""
+    """رابط شعار الفريق: من البيانات المحلية أولًا ثم بحث API-Football"""
     if not name:
         return None
+    loc = _local_logos()
+    k = _norm(name)
+    if k in loc:
+        return loc[k]
+    for kk, v in loc.items():
+        if k and len(k) > 4 and (k in kk or kk in k):
+            return v
     try:
         res = football("teams", search=re.sub(r"[^A-Za-z0-9 ]", " ", name).strip()[:40])
         for r in res:
