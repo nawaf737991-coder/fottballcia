@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T23:20:24+03:00",
- "ts": 1795378824,
+ "updated": "2026-11-22T23:30:25+03:00",
+ "ts": 1795379425,
  "matches": [
   {
    "id": 1549561,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -74,7 +74,7 @@
    "gh": 1,
    "ga": 2,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-22T19:45:00+00:00",
    "ev": [
     {
@@ -92,6 +92,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Pio Esposito"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Elif  Elmas"
     }
    ]
   },
@@ -102,10 +110,10 @@
    "away": "Le Mans",
    "hl": "https://media.api-sports.io/football/teams/81.png",
    "al": "https://media.api-sports.io/football/teams/1298.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-22T19:45:00+00:00",
    "ev": [
     {
@@ -115,6 +123,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Amine Gouiri"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Igor Paixão"
     }
    ]
   },
@@ -128,7 +144,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -151,7 +167,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -165,69 +181,6 @@
    ]
   },
   {
-   "id": 1601293,
-   "league": "Italy - Serie A Women",
-   "home": "Lazio W",
-   "away": "Juventus W",
-   "hl": "https://media.api-sports.io/football/teams/17369.png",
-   "al": "https://media.api-sports.io/football/teams/1886.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-22T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Sarriegi"
-    },
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Sarriegi"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Pavan"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Goldoni"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Martin"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Pinto"
-    }
-   ]
-  },
-  {
    "id": 1640406,
    "league": "Brazil - Copa Fares Lopes",
    "home": "Tirol/CEFAT",
@@ -237,7 +190,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": []
   },
@@ -251,7 +204,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -268,45 +221,6 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1647585,
-   "league": "Portugal - Taça de Portugal",
-   "home": "União de Leiria",
-   "away": "Leça",
-   "hl": "https://media.api-sports.io/football/teams/4662.png",
-   "al": "https://media.api-sports.io/football/teams/4757.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-22T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "David Rebelo"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -321,7 +235,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": []
   },
@@ -335,7 +249,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -358,7 +272,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -379,9 +293,9 @@
    "hl": "https://media.api-sports.io/football/teams/134.png",
    "al": "https://media.api-sports.io/football/teams/1198.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -431,140 +345,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Stiven Mendoza"
-    }
-   ]
-  },
-  {
-   "id": 1561739,
-   "league": "Poland - II Liga - East",
-   "home": "Zawisza Bydgoszcz",
-   "away": "Podhale Nowy Targ",
-   "hl": "https://media.api-sports.io/football/teams/13843.png",
-   "al": "https://media.api-sports.io/football/teams/12834.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Cywinski"
     },
     {
-     "m": 31,
+     "m": 56,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "L. Seweryn"
+     "p": "Marllon"
     },
     {
-     "m": 35,
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Duplexe Tchamba Bangou"
+    },
+    {
+     "m": 61,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Dziarkowski"
+     "p": "João Vitor Silva Dantas de Oliveira"
     },
     {
-     "m": 55,
+     "m": 62,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "T. Kubik"
+     "p": "David Francisco·Trindade Braga"
     },
     {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Stepien"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Kozlowski"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Koltanski"
-    },
-    {
-     "m": 82,
+     "m": 63,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "J. Lukowski"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Lipien"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Kozlowski"
-    }
-   ]
-  },
-  {
-   "id": 1565307,
-   "league": "Romania - Liga I",
-   "home": "Arges Pitesti",
-   "away": "FCSB",
-   "hl": "https://media.api-sports.io/football/teams/2592.png",
-   "al": "https://media.api-sports.io/football/teams/559.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Dragus"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Oancea"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Boutoutaou"
+     "p": "Lucas Esquivel"
     }
    ]
   },
@@ -578,7 +398,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-22T18:30:00+00:00",
    "ev": [
     {
@@ -644,6 +464,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Dominik Kother"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rasim Bulic"
     }
    ]
   },
@@ -657,7 +485,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -675,6 +503,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Erlan Boris Condori Galvarro"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fran Supayabe Alpiri"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Robson Matheus"
     }
    ]
   },
@@ -688,7 +532,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -735,7 +579,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -779,10 +623,10 @@
    "away": "Fortaleza EC",
    "hl": "https://media.api-sports.io/football/teams/140.png",
    "al": "https://media.api-sports.io/football/teams/154.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -816,6 +660,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Lucas Xavier Gazal"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marcelo Hermes"
     }
    ]
   },
@@ -829,7 +681,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T18:30:00+00:00",
    "ev": [
     {
@@ -878,6 +730,108 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "I. Fernandez"
+    }
+   ]
+  },
+  {
+   "id": 1601293,
+   "league": "Italy - Serie A Women",
+   "home": "Lazio W",
+   "away": "Juventus W",
+   "hl": "https://media.api-sports.io/football/teams/17369.png",
+   "al": "https://media.api-sports.io/football/teams/1886.png",
+   "gh": 1,
+   "ga": 3,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Sarriegi"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Sarriegi"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Pavan"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Goldoni"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Martin"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Pinto"
+    }
+   ]
+  },
+  {
+   "id": 1647585,
+   "league": "Portugal - Taça de Portugal",
+   "home": "União de Leiria",
+   "away": "Leça",
+   "hl": "https://media.api-sports.io/football/teams/4662.png",
+   "al": "https://media.api-sports.io/football/teams/4757.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "David Rebelo"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
