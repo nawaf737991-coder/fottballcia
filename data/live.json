@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T02:40:28+03:00",
- "ts": 1795390828,
+ "updated": "2026-11-23T02:50:12+03:00",
+ "ts": 1795391412,
  "matches": [
   {
    "id": 1505567,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -36,6 +36,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Efrain Alvarez"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Carlos Rodriguez"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Carlos Rotondi"
     }
    ]
   },
@@ -49,7 +65,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 33,
+   "minute": 42,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -67,6 +83,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Morales"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -80,7 +104,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -109,9 +133,40 @@
    "hl": "https://media.api-sports.io/football/teams/17760.png",
    "al": "https://media.api-sports.io/football/teams/3700.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 22,
+   "time": "2026-11-22T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Enrique Triverio"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Enrique Triverio"
+    }
+   ]
+  },
+  {
+   "id": 1649493,
+   "league": "USA - Major League Soccer",
+   "home": "Chicago Fire",
+   "away": "Charlotte",
+   "hl": "https://media.api-sports.io/football/teams/1607.png",
+   "al": "https://media.api-sports.io/football/teams/18310.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 13,
+   "minute": 10,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": []
   },
@@ -123,11 +178,36 @@
    "hl": "https://media.api-sports.io/football/teams/2885.png",
    "al": "https://media.api-sports.io/football/teams/2883.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-22T23:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1492464,
@@ -139,7 +219,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-22T22:30:00+00:00",
    "ev": [
     {
@@ -168,9 +248,9 @@
    "hl": "https://media.api-sports.io/football/teams/24391.png",
    "al": "https://media.api-sports.io/football/teams/2047.png",
    "gh": 2,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 78,
+   "minute": 87,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -220,6 +300,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "W. Azofeifa"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -233,7 +329,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 88,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -280,7 +376,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -324,10 +420,10 @@
    "away": "Lanus",
    "hl": "https://media.api-sports.io/football/teams/435.png",
    "al": "https://media.api-sports.io/football/teams/446.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 89,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -401,6 +497,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Santiago Joaquín Espíndola"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Thiago Almada"
     }
    ]
   },
@@ -414,7 +518,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -477,7 +581,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 56,
    "time": "2026-11-22T22:30:00+00:00",
    "ev": [
     {
