@@ -1,30 +1,7 @@
 {
- "updated": "2026-11-23T01:20:16+03:00",
- "ts": 1795386016,
+ "updated": "2026-11-23T01:30:18+03:00",
+ "ts": 1795386618,
  "matches": [
-  {
-   "id": 1492466,
-   "league": "Brazil - Serie A",
-   "home": "Fluminense",
-   "away": "Mirassol",
-   "hl": "https://media.api-sports.io/football/teams/124.png",
-   "al": "https://media.api-sports.io/football/teams/7848.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-22T21:30:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wallisson"
-    }
-   ]
-  },
   {
    "id": 1551728,
    "league": "Costa-Rica - Primera División",
@@ -35,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -58,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -79,9 +56,9 @@
    "hl": "https://media.api-sports.io/football/teams/2825.png",
    "al": "https://media.api-sports.io/football/teams/2813.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-22T21:30:00+00:00",
    "ev": [
     {
@@ -115,6 +92,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Meza"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Meza"
     }
    ]
   },
@@ -126,11 +111,20 @@
    "hl": "https://media.api-sports.io/football/teams/16142.png",
    "al": "https://media.api-sports.io/football/teams/8004.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-22T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Trinidad"
+    }
+   ]
   },
   {
    "id": 1649569,
@@ -142,7 +136,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -171,15 +165,23 @@
    "hl": "https://media.api-sports.io/football/teams/2812.png",
    "al": "https://media.api-sports.io/football/teams/2817.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
      "m": 13,
      "x": null,
      "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -196,7 +198,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -238,6 +240,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Maximiliano Romero"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Vicente Bernedo"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jhojan Valencia"
     }
    ]
   },
@@ -251,7 +269,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -290,7 +308,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": []
   },
@@ -302,9 +320,9 @@
    "hl": "https://media.api-sports.io/football/teams/21117.png",
    "al": "https://media.api-sports.io/football/teams/5643.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -353,6 +371,14 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "D. Bielkiewicz"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -367,7 +393,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -417,6 +443,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "W. Cid"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -427,10 +461,10 @@
    "away": "Sportivo Trinidense",
    "hl": "https://media.api-sports.io/football/teams/1182.png",
    "al": "https://media.api-sports.io/football/teams/1187.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -456,6 +490,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Alan Tobias Morinigo"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Esteban Matus"
     }
    ]
   },
@@ -467,9 +509,9 @@
    "hl": "https://media.api-sports.io/football/teams/1185.png",
    "al": "https://media.api-sports.io/football/teams/1179.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -511,6 +553,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Agustín Manzur"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gustavo Aguilar"
     }
    ]
   },
@@ -524,7 +574,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -565,6 +615,22 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "J. Castillo Marin"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "O. Zamora"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -579,7 +645,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-22T21:15:00+00:00",
    "ev": [
     {
@@ -613,6 +679,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Jaime Arrascaita"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Martin Chiatti"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Roberto Hinojosa"
     }
    ]
   },
@@ -626,7 +708,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-22T20:45:00+00:00",
    "ev": [
     {
@@ -667,7 +749,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "C. Lenglet"
+     "p": "G. Prestianni"
     },
     {
      "m": 51,
@@ -675,7 +757,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "G. Prestianni"
+     "p": "C. Lenglet"
     },
     {
      "m": 52,
@@ -708,6 +790,92 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Marques"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651119,
+   "league": "USA - Major League Soccer",
+   "home": "Nashville SC",
+   "away": "FC Cincinnati",
+   "hl": "https://media.api-sports.io/football/teams/9569.png",
+   "al": "https://media.api-sports.io/football/teams/2242.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-22T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Patrick Yazbek"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Miles Robinson"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "José Martínez"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Patrick Yazbek"
+    }
+   ]
+  },
+  {
+   "id": 1492466,
+   "league": "Brazil - Serie A",
+   "home": "Fluminense",
+   "away": "Mirassol",
+   "hl": "https://media.api-sports.io/football/teams/124.png",
+   "al": "https://media.api-sports.io/football/teams/7848.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T21:30:00+00:00",
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Wallisson"
     }
    ]
   },
@@ -762,53 +930,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Daniel Nascimento Peixoto dos Santos"
-    }
-   ]
-  },
-  {
-   "id": 1651119,
-   "league": "USA - Major League Soccer",
-   "home": "Nashville SC",
-   "away": "FC Cincinnati",
-   "hl": "https://media.api-sports.io/football/teams/9569.png",
-   "al": "https://media.api-sports.io/football/teams/2242.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Patrick Yazbek"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Miles Robinson"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Patrick Yazbek"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "José Martínez"
     }
    ]
   }
