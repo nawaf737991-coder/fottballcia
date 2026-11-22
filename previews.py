@@ -653,6 +653,7 @@ def tweets_page(st):
                    f'<video src="{esc(e["result_video"])}#t=0.5" controls playsinline muted preload="metadata"></video>'
                    f'<pre>{esc(cap)}</pre>'
                    f'<button class="btn tkb sh" data-img="{esc(e["result_video"])}" data-type="video/mp4" data-name="result.mp4" data-text="{esc(cap)}">🎵 انشر النتيجة في تيك توك</button>'
+                   f'<a class="lnk" href="{esc(e["result_video"])}" download>💾 حفظ الفيديو في الجوال</a>'
                    f'<a class="btn alt" href="{esc(x_post.intent(cap.split(chr(10))[0] + chr(10) + (e.get("url") or "")))}" target="_blank" rel="noopener">انشر النتيجة في X (نص)</a></div>')
         cards.append(
             f'<div class="c{" past" if past else ""}"><div class="h"><b>{esc(e.get("home_ar", ""))} × {esc(e.get("away_ar", ""))}</b>{badge}</div>'
@@ -665,7 +666,8 @@ def tweets_page(st):
             + (('<div class="tk"><div class="tkh">🎵 تيك توك' + (' - بالتشكيلة الرسمية' if e.get("video_official") else '') + '</div>'
                 f'<video src="{esc(e["video"])}#t=0.5" controls playsinline muted preload="metadata"></video>'
                 f'<pre>{esc(tiktok_caption(e))}</pre>'
-                f'<button class="btn tkb sh" data-img="{esc(e["video"])}" data-type="video/mp4" data-name="match.mp4" data-text="{esc(tiktok_caption(e))}">🎵 انشر في تيك توك</button></div>')
+                f'<button class="btn tkb sh" data-img="{esc(e["video"])}" data-type="video/mp4" data-name="match.mp4" data-text="{esc(tiktok_caption(e))}">🎵 انشر في تيك توك</button>'
+                f'<a class="lnk" href="{esc(e["video"])}" download>💾 حفظ الفيديو في الجوال</a></div>')
                if e.get("video") else "")
             + f'<a class="lnk" href="{esc(e.get("url", ""))}" target="_blank" rel="noopener">فتح المقال</a></div>')
     page = ("<!doctype html><html lang='ar' dir='rtl'><head><meta charset='utf-8'>"
@@ -686,10 +688,13 @@ def tweets_page(st):
             "</style></head><body><header>تغريدات وفيديوهات جاهزة للمباريات الكبيرة<small>آخر تحديث: "
             + now.strftime("%Y-%m-%d %H:%M") + " بتوقيت السعودية - اضغط «انشر في X» ثم «نشر»</small></header><div class='w'>"
             + ("".join(cards) or "<p>لا توجد تغريدات بعد.</p>") + "</div><div id='toast'>تم نسخ النص - الصقه في التغريدة إذا ما ظهر</div>"
-            "<script>document.querySelectorAll('.sh').forEach(function(b){b.onclick=async function(){var t=b.dataset.text;"
-            "try{await navigator.clipboard.writeText(t);var o=document.getElementById('toast');o.style.display='block';setTimeout(function(){o.style.display='none'},3500)}catch(e){}"
-            "try{var r=await fetch(b.dataset.img);var bl=await r.blob();var f=new File([bl],b.dataset.name||'match.jpg',{type:b.dataset.type||'image/jpeg'});"
-            "if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:t});return}}catch(e){if(e.name==='AbortError')return}"
+            "<script>var F={};function get(b){var u=b.dataset.img;if(!F[u])F[u]=fetch(u).then(function(r){return r.blob()}).then(function(bl){"
+            "return new File([bl],b.dataset.name||'match.jpg',{type:b.dataset.type||'image/jpeg'})});return F[u]}"
+            "document.querySelectorAll('.sh').forEach(function(b){get(b);b.onclick=async function(){var t=b.dataset.text;var vid=(b.dataset.type||'').indexOf('video')==0;"
+            "try{await navigator.clipboard.writeText(t);var o=document.getElementById('toast');o.textContent=vid?'تم نسخ الوصف - اختر TikTok ثم الصق الوصف':'تم نسخ النص - الصقه في التغريدة إذا ما ظهر';"
+            "o.style.display='block';setTimeout(function(){o.style.display='none'},5000)}catch(e){}"
+            "try{var f=await get(b);var d=vid?{files:[f]}:{files:[f],text:t};"
+            "if(navigator.canShare&&navigator.canShare(d)){await navigator.share(d);return}}catch(e){if(e.name==='AbortError')return}"
             "window.open(b.dataset.img,'_blank')}})</script></body></html>")
     with open(os.path.join(ROOT, "tweets.html"), "w", encoding="utf-8") as f:
         f.write(page)
