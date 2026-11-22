@@ -51,8 +51,8 @@ def ar(name, cache):
     return html.escape(NAMES["teams"].get(name) or cache.get(name) or NAMES["countries"].get(name) or name or "")
 
 
-TH = "padding:8px 4px;font-size:13px;font-weight:700"
-TD = "padding:8px 4px;border-bottom:1px solid #e6ebf1;text-align:center;font-size:14px"
+TH = "padding:8px 3px;font-size:12.5px;font-weight:700"
+TD = "padding:8px 3px;border-bottom:1px solid #e6ebf1;text-align:center;font-size:13.5px"
 
 
 def standings_table(rows, cache):
@@ -67,13 +67,11 @@ def standings_table(rows, cache):
             f"<td style='{TD};text-align:right;font-weight:700'>{ar(r['t'], cache)}</td>"
             f"<td style='{TD};font-weight:800;color:#153a5b;background:rgba(21,58,91,.06)'>{r['pts']}</td>"
             f"<td style='{TD}'>{r['p']}</td><td style='{TD}'>{r['w']}</td><td style='{TD}'>{r['d']}</td>"
-            f"<td style='{TD}'>{r['ls']}</td><td style='{TD}' dir='ltr'>{'+' if gd > 0 else ''}{gd}</td>"
-            f"<td style='{TD};font-size:12px;color:#5b6b7c;white-space:nowrap'>{form}</td></tr>")
-    head = "".join(f"<th style='{TH}'>{h}</th>" for h in ["#", "الفريق", "نقاط", "لعب", "فوز", "تعادل", "خسارة", "+/-", "آخر 5"])
-    return ("<div style='overflow-x:auto'><table style='width:100%;min-width:520px;border-collapse:collapse;border:1px solid #e6ebf1'>"
+            f"<td style='{TD}'>{r['ls']}</td><td style='{TD}' dir='ltr'>{'+' if gd > 0 else ''}{gd}</td></tr>")
+    head = "".join(f"<th style='{TH}'>{h}</th>" for h in ["#", "الفريق", "نقاط", "لعب", "فوز", "تعادل", "خسارة", "+/-"])
+    return ("<div style='overflow-x:auto'><table style='width:100%;border-collapse:collapse;border:1px solid #e6ebf1;table-layout:auto'>"
             f"<thead><tr style='background:#153a5b;color:#fff'>{head}</tr></thead><tbody>{''.join(out)}</tbody></table></div>"
-            "<p style='font-size:13px;color:#5b6b7c'>الأخضر: مراكز المقدمة الأربعة · الأحمر: آخر ثلاثة مراكز (منطقة الخطر) · "
-            "آخر 5: ف فوز، ت تعادل، خ خسارة.</p>")
+            "<p style='font-size:13px;color:#5b6b7c'>الأخضر: مراكز المقدمة الأربعة · الأحمر: آخر ثلاثة مراكز (منطقة الخطر).</p>")
 
 
 def scorers_table(sc, cache):
@@ -192,7 +190,7 @@ def main():
         slug = PAGES[lg["id"]][0]
         content = build(lg, cache, now, others)
         sig = hashlib.md5(json.dumps([lg["table"], lg.get("scorers"), sorted(others)], ensure_ascii=False).encode()
-                          + str(len(cache)).encode() + b"v2").hexdigest()
+                          + str(len(cache)).encode() + b"v3").hexdigest()
         if DRY:
             open(f"/tmp/table_{slug}.html", "w", encoding="utf-8").write(content)
             print("DRY:", slug)
