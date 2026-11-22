@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T20:10:11+03:00",
- "ts": 1795367411,
+ "updated": "2026-11-22T20:20:19+03:00",
+ "ts": 1795368019,
  "matches": [
   {
    "id": 1548564,
@@ -9,12 +9,21 @@
    "away": "HNK Gorica",
    "hl": "https://media.api-sports.io/football/teams/561.png",
    "al": "https://media.api-sports.io/football/teams/1068.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-22T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Yusuf Kabadayi"
+    }
+   ]
   },
   {
    "id": 1549061,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -40,7 +49,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": [
     {
@@ -60,111 +69,27 @@
    "away": "Komárno",
    "hl": "https://media.api-sports.io/football/teams/2257.png",
    "al": "https://media.api-sports.io/football/teams/10535.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-22T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1553234,
-   "league": "Poland - Ekstraklasa",
-   "home": "Wisla Plock",
-   "away": "Legia Warszawa",
-   "hl": "https://media.api-sports.io/football/teams/341.png",
-   "al": "https://media.api-sports.io/football/teams/339.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T16:30:00+00:00",
    "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lukasz Zjawinski"
-    }
-   ]
-  },
-  {
-   "id": 1557473,
-   "league": "England - Premier League",
-   "home": "Liverpool",
-   "away": "Manchester United",
-   "hl": "https://media.api-sports.io/football/teams/40.png",
-   "al": "https://media.api-sports.io/football/teams/33.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Leny Yoro"
-    },
     {
      "m": 10,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Dominik Szoboszlai"
+     "p": "M. Trusa"
     },
     {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Florian Wirtz"
-    }
-   ]
-  },
-  {
-   "id": 1558045,
-   "league": "Slovenia - 1. SNL",
-   "home": "Celje",
-   "away": "Brinje-Grosuplje",
-   "hl": "https://media.api-sports.io/football/teams/4360.png",
-   "al": "https://media.api-sports.io/football/teams/12744.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
+     "m": 12,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "K. Benkic"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Zabukovnik"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Kvesic"
+     "p": "J. Palan"
     }
    ]
   },
@@ -178,63 +103,37 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1572136,
-   "league": "Spain - Segunda División RFEF - Group 1",
-   "home": "Sestao River",
-   "away": "Amorebieta",
-   "hl": "https://media.api-sports.io/football/teams/9413.png",
-   "al": "https://media.api-sports.io/football/teams/9380.png",
-   "gh": 2,
+   "id": 1570836,
+   "league": "Spain - Primera División RFEF - Group 1",
+   "home": "Mérida AD",
+   "away": "Real Unión",
+   "hl": "https://media.api-sports.io/football/teams/10140.png",
+   "al": "https://media.api-sports.io/football/teams/9586.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Zorrilla"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Zorrilla"
-    }
-   ]
+   "minute": 5,
+   "time": "2026-11-22T17:15:00+00:00",
+   "ev": []
   },
   {
-   "id": 1572440,
-   "league": "Spain - Segunda División RFEF - Group 2",
-   "home": "SD Logroñés",
-   "away": "Arnedo",
-   "hl": "https://media.api-sports.io/football/teams/9411.png",
-   "al": "https://media.api-sports.io/football/teams/9862.png",
-   "gh": 1,
+   "id": 1570840,
+   "league": "Spain - Primera División RFEF - Group 1",
+   "home": "Cultural Leonesa",
+   "away": "Zamora",
+   "hl": "https://media.api-sports.io/football/teams/725.png",
+   "al": "https://media.api-sports.io/football/teams/9418.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
+   "minute": 4,
+   "time": "2026-11-22T17:15:00+00:00",
+   "ev": []
   },
   {
    "id": 1572441,
@@ -246,7 +145,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -258,71 +157,18 @@
    "hl": "https://media.api-sports.io/football/teams/9594.png",
    "al": "https://media.api-sports.io/football/teams/9686.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-22T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1573050,
-   "league": "Spain - Segunda División RFEF - Group 4",
-   "home": "Ciudad de Lucena",
-   "away": "Real Betis II",
-   "hl": "https://media.api-sports.io/football/teams/9756.png",
-   "al": "https://media.api-sports.io/football/teams/9765.png",
-   "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 38,
-   "time": "2026-11-22T16:30:00+00:00",
+   "minute": 20,
+   "time": "2026-11-22T17:00:00+00:00",
    "ev": [
     {
-     "m": 21,
+     "m": 15,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. De Sa"
-    }
-   ]
-  },
-  {
-   "id": 1573054,
-   "league": "Spain - Segunda División RFEF - Group 4",
-   "home": "Recreativo Huelva",
-   "away": "Badajoz",
-   "hl": "https://media.api-sports.io/football/teams/9410.png",
-   "al": "https://media.api-sports.io/football/teams/9382.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Garcia"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Garcia"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Cortes"
+     "p": "G. Naranjo"
     }
    ]
   },
@@ -336,40 +182,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1575227,
-   "league": "Germany - Bundesliga",
-   "home": "Werder Bremen",
-   "away": "Hamburger SV",
-   "hl": "https://media.api-sports.io/football/teams/162.png",
-   "al": "https://media.api-sports.io/football/teams/175.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Amos Pieper"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Warmed Omari"
-    }
-   ]
   },
   {
    "id": 1586933,
@@ -381,7 +196,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -395,7 +210,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -409,7 +224,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -423,7 +238,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": [
     {
@@ -432,7 +247,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "A. Kaiafas"
     }
    ]
   },
@@ -444,9 +259,9 @@
    "hl": "https://media.api-sports.io/football/teams/17816.png",
    "al": "https://media.api-sports.io/football/teams/879.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
@@ -480,29 +295,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "C. Santini"
-    }
-   ]
-  },
-  {
-   "id": 1608374,
-   "league": "Italy - Serie C - Girone A",
-   "home": "Dolomiti Bellunesi",
-   "away": "Athletic Carpi",
-   "hl": "https://media.api-sports.io/football/teams/17820.png",
-   "al": "https://media.api-sports.io/football/teams/17825.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 12,
+     "m": 42,
      "x": null,
      "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "T. Panelli"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Z. Beltaief"
+     "p": "F. Faggi"
     }
    ]
   },
@@ -516,7 +324,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
@@ -554,100 +362,6 @@
    ]
   },
   {
-   "id": 1608758,
-   "league": "Italy - Serie C - Girone B",
-   "home": "Sambenedettese",
-   "away": "Perugia",
-   "hl": "https://media.api-sports.io/football/teams/871.png",
-   "al": "https://media.api-sports.io/football/teams/524.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal Disallowed - video review",
-     "p": "P. van Amersfoort"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Cisco"
-    }
-   ]
-  },
-  {
-   "id": 1609138,
-   "league": "Italy - Serie C - Girone C",
-   "home": "AZ Picerno",
-   "away": "Giugliano",
-   "hl": "https://media.api-sports.io/football/teams/1587.png",
-   "al": "https://media.api-sports.io/football/teams/9556.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Pugliese"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal Disallowed - video review",
-     "p": null
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Tolovan"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Gemignani"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1613110,
    "league": "Spain - Tercera División RFEF - Group 2",
    "home": "Astur",
@@ -657,22 +371,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-22T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1614034,
-   "league": "Spain - Tercera División RFEF - Group 5",
-   "home": "Vilassar Mar",
-   "away": "Vilanova",
-   "hl": "https://media.api-sports.io/football/teams/9683.png",
-   "al": "https://media.api-sports.io/football/teams/26542.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
    "ev": []
   },
   {
@@ -685,7 +385,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
   },
@@ -699,32 +399,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1615258,
-   "league": "Spain - Tercera División RFEF - Group 9",
-   "home": "Ciudad de Torredonjimeno",
-   "away": "Cantoria",
-   "hl": "https://media.api-sports.io/football/teams/9743.png",
-   "al": "https://media.api-sports.io/football/teams/28108.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 30,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1615560,
@@ -736,7 +413,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
@@ -767,7 +444,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
@@ -798,7 +475,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
@@ -820,72 +497,18 @@
    ]
   },
   {
-   "id": 1635105,
-   "league": "Bosnia - Premijer Liga",
-   "home": "FK Sarajevo",
-   "away": "Siroki Brijeg",
-   "hl": "https://media.api-sports.io/football/teams/679.png",
-   "al": "https://media.api-sports.io/football/teams/642.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Barisic"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Vukancic"
-    }
-   ]
-  },
-  {
    "id": 1641222,
    "league": "Morocco - Botola 2",
    "home": "Ittihad Khemisset",
    "away": "Union Sportive Boujaad",
    "hl": "https://media.api-sports.io/football/teams/3452.png",
    "al": "https://media.api-sports.io/football/teams/26496.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1648820,
-   "league": "Malta - Premier League",
-   "home": "Hibernians",
-   "away": "Marsaxlokk",
-   "hl": "https://media.api-sports.io/football/teams/3884.png",
-   "al": "https://media.api-sports.io/football/teams/14507.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Aguirre"
-    }
-   ]
   },
   {
    "id": 1649970,
@@ -897,22 +520,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-22T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1650527,
-   "league": "Kuwait - Crown Prince Cup",
-   "home": "Al Jahra",
-   "away": "Yarmouk",
-   "hl": "https://media.api-sports.io/football/teams/3534.png",
-   "al": "https://media.api-sports.io/football/teams/3546.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T16:30:00+00:00",
    "ev": []
   },
   {
@@ -925,8 +534,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-22T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650879,
+   "league": "Senegal - Ligue 1",
+   "home": "Stade de Mbour",
+   "away": "AJEL",
+   "hl": "https://media.api-sports.io/football/teams/5295.png",
+   "al": "https://media.api-sports.io/football/teams/25067.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650880,
+   "league": "Senegal - Ligue 1",
+   "home": "Ouakam",
+   "away": "HLM",
+   "hl": "https://media.api-sports.io/football/teams/5554.png",
+   "al": "https://media.api-sports.io/football/teams/25068.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
    "ev": []
   },
   {
@@ -939,7 +576,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-22T16:30:00+00:00",
    "ev": []
   },
@@ -953,72 +590,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T17:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1494338,
-   "league": "Sweden - Allsvenskan",
-   "home": "IF Brommapojkarna",
-   "away": "Halmstad",
-   "hl": "https://media.api-sports.io/football/teams/371.png",
-   "al": "https://media.api-sports.io/football/teams/766.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-22T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rocco Ascone"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hussein Carneil"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Oskar Nils Cotton"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joel Allansson"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tom Trybull"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Niilo Mäenpää"
-    }
-   ]
   },
   {
    "id": 1494804,
@@ -1028,9 +602,9 @@
    "hl": "https://media.api-sports.io/football/teams/757.png",
    "al": "https://media.api-sports.io/football/teams/331.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1061,7 +635,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1095,6 +669,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sander Risan Mörk"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gustav Højbjerg"
     }
    ]
   },
@@ -1105,10 +687,10 @@
    "away": "Haiti U17",
    "hl": "https://media.api-sports.io/football/teams/21212.png",
    "al": "https://media.api-sports.io/football/teams/12508.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1166,6 +748,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Louis"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Soares"
     }
    ]
   },
@@ -1179,7 +769,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1248,9 +838,9 @@
    "hl": "https://media.api-sports.io/football/teams/634.png",
    "al": "https://media.api-sports.io/football/teams/853.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1276,6 +866,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ángelo Martino"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jean-Philippe Gbamin"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Asen Chandarov"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -1289,7 +903,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-22T15:45:00+00:00",
    "ev": [
     {
@@ -1307,6 +921,108 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Anthony Descotte"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Joris Kramer"
+    }
+   ]
+  },
+  {
+   "id": 1552821,
+   "league": "France - Ligue 1",
+   "home": "Lorient",
+   "away": "Rennes",
+   "hl": "https://media.api-sports.io/football/teams/97.png",
+   "al": "https://media.api-sports.io/football/teams/94.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-22T16:15:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Boulaye Dia"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastian Szymański"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Montassar Talbi"
+    }
+   ]
+  },
+  {
+   "id": 1553915,
+   "league": "Serbia - Super Liga",
+   "home": "Macva",
+   "away": "Vojvodina",
+   "hl": "https://media.api-sports.io/football/teams/2637.png",
+   "al": "https://media.api-sports.io/football/teams/702.png",
+   "gh": 0,
+   "ga": 5,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-22T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ifet Djakovac"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nardin Mulahusejnović"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lazar Randjelović"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dejan Zukic"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nardin Mulahusejnović"
     }
    ]
   },
@@ -1318,9 +1034,9 @@
    "hl": "https://media.api-sports.io/football/teams/551.png",
    "al": "https://media.api-sports.io/football/teams/644.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1354,6 +1070,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Pius Dorn"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Becir Omeragic"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Rúben Dantas Fernandes"
     }
    ]
   },
@@ -1365,9 +1097,9 @@
    "hl": "https://media.api-sports.io/football/teams/1014.png",
    "al": "https://media.api-sports.io/football/teams/660.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1441,6 +1173,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Olivier Custodio"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Red card cancelled",
+     "p": "Dominik Schwizer"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dominik Schwizer"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marcel Monsberger"
     }
    ]
   },
@@ -1451,10 +1207,10 @@
    "away": "Polonia Bytom",
    "hl": "https://media.api-sports.io/football/teams/6957.png",
    "al": "https://media.api-sports.io/football/teams/12835.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1480,6 +1236,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "O. Krzyzak"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Buksa"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Goss"
     }
    ]
   },
@@ -1493,7 +1265,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1516,7 +1288,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1563,7 +1335,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1613,6 +1385,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bartosz Mazurek"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Valentino Müller"
     }
    ]
   },
@@ -1624,9 +1404,9 @@
    "hl": "https://media.api-sports.io/football/teams/2589.png",
    "al": "https://media.api-sports.io/football/teams/632.png",
    "gh": 2,
-   "ga": 5,
+   "ga": 6,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1708,109 +1488,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Rus"
-    }
-   ]
-  },
-  {
-   "id": 1570031,
-   "league": "Spain - Segunda División",
-   "home": "Sporting Gijon",
-   "away": "Las Palmas",
-   "hl": "https://media.api-sports.io/football/teams/731.png",
-   "al": "https://media.api-sports.io/football/teams/534.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T15:15:00+00:00",
-   "ev": [
+    },
     {
-     "m": 30,
+     "m": 80,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Andres Ferrari"
+     "p": "D. Pospelov"
     },
     {
-     "m": 35,
+     "m": 85,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Enzo Loiodice"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jesé Rodríguez"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Enol Prendes Ortiz"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nacho Martín"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gaspar Campos"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Guillermo Rosas"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Manu Fuster"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Valentín Alejandro Pezzolesi"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Taisei Miyashiro"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Suárez"
+     "p": "M. Etim"
     }
    ]
   },
@@ -1824,7 +1517,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -1838,7 +1531,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 60,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1877,7 +1570,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -1888,10 +1581,10 @@
    "away": "Racing Santander II",
    "hl": "https://media.api-sports.io/football/teams/5263.png",
    "al": "https://media.api-sports.io/football/teams/9643.png",
-   "gh": 2,
-   "ga": 0,
+   "gh": 3,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1909,6 +1602,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "K. Vieites Blazquez"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -1922,7 +1631,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -1936,7 +1645,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -1957,9 +1666,9 @@
    "hl": "https://media.api-sports.io/football/teams/5271.png",
    "al": "https://media.api-sports.io/football/teams/9387.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -1993,6 +1702,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Sanchidrian"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -2003,14 +1720,77 @@
    "away": "Conquense",
    "hl": "https://media.api-sports.io/football/teams/9736.png",
    "al": "https://media.api-sports.io/football/teams/5257.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
      "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Sanchez"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1573361,
+   "league": "Spain - Segunda División RFEF - Group 5",
+   "home": "Salamanca UDS",
+   "away": "Calvo Sotelo",
+   "hl": "https://media.api-sports.io/football/teams/9588.png",
+   "al": "https://media.api-sports.io/football/teams/9899.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-22T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Opara"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Malano"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 53,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -2029,7 +1809,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2068,7 +1848,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2086,6 +1866,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -2099,7 +1887,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2135,10 +1923,10 @@
    "away": "SV Wehen",
    "hl": "https://media.api-sports.io/football/teams/1639.png",
    "al": "https://media.api-sports.io/football/teams/1319.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2209,7 +1997,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2219,6 +2007,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "O. Tufan"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Abdullahi"
     }
    ]
   },
@@ -2232,7 +2028,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2279,7 +2075,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2317,6 +2113,53 @@
    ]
   },
   {
+   "id": 1601603,
+   "league": "Italy - Serie B",
+   "home": "Arezzo",
+   "away": "Padova",
+   "hl": "https://media.api-sports.io/football/teams/876.png",
+   "al": "https://media.api-sports.io/football/teams/870.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-22T16:15:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Leonardo Mancuso"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Andrea Cagnano"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "mattia sala"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alessandro Renzi"
+    }
+   ]
+  },
+  {
    "id": 1612802,
    "league": "Spain - Tercera División RFEF - Group 1",
    "home": "Alondras",
@@ -2326,7 +2169,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2354,10 +2197,10 @@
    "away": "Portonovo SD",
    "hl": "https://media.api-sports.io/football/teams/22566.png",
    "al": "https://media.api-sports.io/football/teams/28096.png",
-   "gh": 4,
-   "ga": 1,
+   "gh": 6,
+   "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2399,6 +2242,61 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1612806,
+   "league": "Spain - Tercera División RFEF - Group 1",
+   "home": "Estradense",
+   "away": "Arenteiro",
+   "hl": "https://media.api-sports.io/football/teams/9611.png",
+   "al": "https://media.api-sports.io/football/teams/9604.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-22T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -2412,7 +2310,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-22T15:45:00+00:00",
    "ev": [
     {
@@ -2457,9 +2355,9 @@
    "hl": "https://media.api-sports.io/football/teams/8152.png",
    "al": "https://media.api-sports.io/football/teams/9386.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2477,6 +2375,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -2488,11 +2394,28 @@
    "hl": "https://media.api-sports.io/football/teams/5250.png",
    "al": "https://media.api-sports.io/football/teams/9677.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-22T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1614338,
@@ -2504,7 +2427,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2559,7 +2482,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2581,6 +2504,53 @@
    ]
   },
   {
+   "id": 1614945,
+   "league": "Spain - Tercera División RFEF - Group 8",
+   "home": "Arandina",
+   "away": "Mirandés II",
+   "hl": "https://media.api-sports.io/football/teams/9722.png",
+   "al": "https://media.api-sports.io/football/teams/9733.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "2H",
+   "minute": 59,
+   "time": "2026-11-22T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
    "id": 1615252,
    "league": "Spain - Tercera División RFEF - Group 9",
    "home": "Malaga City",
@@ -2590,7 +2560,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2621,7 +2591,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2641,10 +2611,10 @@
    "away": "Cádiz II",
    "hl": "https://media.api-sports.io/football/teams/20257.png",
    "al": "https://media.api-sports.io/football/teams/9598.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2662,6 +2632,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -2675,7 +2653,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2698,7 +2676,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": []
   },
@@ -2712,7 +2690,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 78,
+   "minute": 89,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2749,13 +2727,21 @@
    "hl": "https://media.api-sports.io/football/teams/25032.png",
    "al": "https://media.api-sports.io/football/teams/5282.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
      "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 89,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -2774,7 +2760,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 58,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2797,7 +2783,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2844,7 +2830,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -2858,7 +2844,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -2879,9 +2865,9 @@
    "hl": "https://media.api-sports.io/football/teams/9871.png",
    "al": "https://media.api-sports.io/football/teams/9389.png",
    "gh": 1,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2915,6 +2901,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -2928,7 +2922,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -2942,7 +2936,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -2976,6 +2970,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
     }
    ]
   },
@@ -2989,7 +2991,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -3020,7 +3022,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -3034,7 +3036,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
@@ -3048,7 +3050,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": [
     {
@@ -3079,7 +3081,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -3110,64 +3112,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1629744,
-   "league": "Malta - Challenge League",
-   "home": "St. Andrews",
-   "away": "Sirens",
-   "hl": "https://media.api-sports.io/football/teams/4610.png",
-   "al": "https://media.api-sports.io/football/teams/4619.png",
-   "gh": 1,
-   "ga": 4,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-22T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Sowah"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Chiemezie"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Borg"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Chiemezie"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1648528,
@@ -3179,7 +3126,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": []
   },
@@ -3193,7 +3140,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-22T15:30:00+00:00",
    "ev": []
   },
@@ -3205,9 +3152,9 @@
    "hl": "https://media.api-sports.io/football/teams/3531.png",
    "al": "https://media.api-sports.io/football/teams/14287.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -3225,6 +3172,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Levit"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Irha"
     }
    ]
   },
@@ -3235,197 +3190,227 @@
    "away": "Binga",
    "hl": "https://media.api-sports.io/football/teams/6434.png",
    "al": "https://media.api-sports.io/football/teams/17446.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1552821,
-   "league": "France - Ligue 1",
-   "home": "Lorient",
-   "away": "Rennes",
-   "hl": "https://media.api-sports.io/football/teams/97.png",
-   "al": "https://media.api-sports.io/football/teams/94.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T16:15:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Boulaye Dia"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sebastian Szymański"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Montassar Talbi"
-    }
-   ]
-  },
-  {
-   "id": 1553915,
-   "league": "Serbia - Super Liga",
-   "home": "Macva",
-   "away": "Vojvodina",
-   "hl": "https://media.api-sports.io/football/teams/2637.png",
-   "al": "https://media.api-sports.io/football/teams/702.png",
+   "id": 1553234,
+   "league": "Poland - Ekstraklasa",
+   "home": "Wisla Plock",
+   "away": "Legia Warszawa",
+   "hl": "https://media.api-sports.io/football/teams/341.png",
+   "al": "https://media.api-sports.io/football/teams/339.png",
    "gh": 0,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ifet Djakovac"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Nardin Mulahusejnović"
-    }
-   ]
-  },
-  {
-   "id": 1573361,
-   "league": "Spain - Segunda División RFEF - Group 5",
-   "home": "Salamanca UDS",
-   "away": "Calvo Sotelo",
-   "hl": "https://media.api-sports.io/football/teams/9588.png",
-   "al": "https://media.api-sports.io/football/teams/9899.png",
-   "gh": 1,
    "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-22T16:00:00+00:00",
+   "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Opara"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 40,
+     "m": 5,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Malano"
+     "p": "Lukasz Zjawinski"
     }
    ]
   },
   {
-   "id": 1601603,
-   "league": "Italy - Serie B",
-   "home": "Arezzo",
-   "away": "Padova",
-   "hl": "https://media.api-sports.io/football/teams/876.png",
-   "al": "https://media.api-sports.io/football/teams/870.png",
-   "gh": 1,
+   "id": 1557473,
+   "league": "England - Premier League",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "hl": "https://media.api-sports.io/football/teams/40.png",
+   "al": "https://media.api-sports.io/football/teams/33.png",
+   "gh": 2,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-22T16:15:00+00:00",
+   "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 8,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Leonardo Mancuso"
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Leny Yoro"
     },
     {
      "m": 10,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Andrea Cagnano"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dominik Szoboszlai"
     },
     {
-     "m": 23,
+     "m": 13,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "mattia sala"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Florian Wirtz"
     }
    ]
   },
   {
-   "id": 1614945,
-   "league": "Spain - Tercera División RFEF - Group 8",
-   "home": "Arandina",
-   "away": "Mirandés II",
-   "hl": "https://media.api-sports.io/football/teams/9722.png",
-   "al": "https://media.api-sports.io/football/teams/9733.png",
-   "gh": 2,
-   "ga": 2,
+   "id": 1558045,
+   "league": "Slovenia - 1. SNL",
+   "home": "Celje",
+   "away": "Brinje-Grosuplje",
+   "hl": "https://media.api-sports.io/football/teams/4360.png",
+   "al": "https://media.api-sports.io/football/teams/12744.png",
+   "gh": 0,
+   "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-22T16:00:00+00:00",
+   "time": "2026-11-22T16:30:00+00:00",
    "ev": [
     {
-     "m": 5,
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Benkic"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Zabukovnik"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Kvesic"
+    }
+   ]
+  },
+  {
+   "id": 1572136,
+   "league": "Spain - Segunda División RFEF - Group 1",
+   "home": "Sestao River",
+   "away": "Amorebieta",
+   "hl": "https://media.api-sports.io/football/teams/9413.png",
+   "al": "https://media.api-sports.io/football/teams/9380.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Zorrilla"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Zorrilla"
+    }
+   ]
+  },
+  {
+   "id": 1572440,
+   "league": "Spain - Segunda División RFEF - Group 2",
+   "home": "SD Logroñés",
+   "away": "Arnedo",
+   "hl": "https://media.api-sports.io/football/teams/9411.png",
+   "al": "https://media.api-sports.io/football/teams/9862.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    },
+    }
+   ]
+  },
+  {
+   "id": 1573050,
+   "league": "Spain - Segunda División RFEF - Group 4",
+   "home": "Ciudad de Lucena",
+   "away": "Real Betis II",
+   "hl": "https://media.api-sports.io/football/teams/9756.png",
+   "al": "https://media.api-sports.io/football/teams/9765.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
     {
-     "m": 14,
+     "m": 21,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    },
+     "p": "R. De Sa"
+    }
+   ]
+  },
+  {
+   "id": 1573054,
+   "league": "Spain - Segunda División RFEF - Group 4",
+   "home": "Recreativo Huelva",
+   "away": "Badajoz",
+   "hl": "https://media.api-sports.io/football/teams/9410.png",
+   "al": "https://media.api-sports.io/football/teams/9382.png",
+   "gh": 4,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
     {
-     "m": 36,
+     "m": 2,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Garcia"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Garcia"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Cortes"
     },
     {
      "m": 45,
@@ -3436,6 +3421,283 @@
      "p": null
     }
    ]
+  },
+  {
+   "id": 1575227,
+   "league": "Germany - Bundesliga",
+   "home": "Werder Bremen",
+   "away": "Hamburger SV",
+   "hl": "https://media.api-sports.io/football/teams/162.png",
+   "al": "https://media.api-sports.io/football/teams/175.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Amos Pieper"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Warmed Omari"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Iván San José Cantalejo"
+    }
+   ]
+  },
+  {
+   "id": 1608374,
+   "league": "Italy - Serie C - Girone A",
+   "home": "Dolomiti Bellunesi",
+   "away": "Athletic Carpi",
+   "hl": "https://media.api-sports.io/football/teams/17820.png",
+   "al": "https://media.api-sports.io/football/teams/17825.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Z. Beltaief"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Clemenza"
+    }
+   ]
+  },
+  {
+   "id": 1608758,
+   "league": "Italy - Serie C - Girone B",
+   "home": "Sambenedettese",
+   "away": "Perugia",
+   "hl": "https://media.api-sports.io/football/teams/871.png",
+   "al": "https://media.api-sports.io/football/teams/524.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": "P. van Amersfoort"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Cisco"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Tozzuolo"
+    }
+   ]
+  },
+  {
+   "id": 1609138,
+   "league": "Italy - Serie C - Girone C",
+   "home": "AZ Picerno",
+   "away": "Giugliano",
+   "hl": "https://media.api-sports.io/football/teams/1587.png",
+   "al": "https://media.api-sports.io/football/teams/9556.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Pugliese"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": null
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Tolovan"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Gemignani"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Pugliese"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Maselli"
+    }
+   ]
+  },
+  {
+   "id": 1614034,
+   "league": "Spain - Tercera División RFEF - Group 5",
+   "home": "Vilassar Mar",
+   "away": "Vilanova",
+   "hl": "https://media.api-sports.io/football/teams/9683.png",
+   "al": "https://media.api-sports.io/football/teams/26542.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1615258,
+   "league": "Spain - Tercera División RFEF - Group 9",
+   "home": "Ciudad de Torredonjimeno",
+   "away": "Cantoria",
+   "hl": "https://media.api-sports.io/football/teams/9743.png",
+   "al": "https://media.api-sports.io/football/teams/28108.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1635105,
+   "league": "Bosnia - Premijer Liga",
+   "home": "FK Sarajevo",
+   "away": "Siroki Brijeg",
+   "hl": "https://media.api-sports.io/football/teams/679.png",
+   "al": "https://media.api-sports.io/football/teams/642.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Barisic"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Vukancic"
+    }
+   ]
+  },
+  {
+   "id": 1648820,
+   "league": "Malta - Premier League",
+   "home": "Hibernians",
+   "away": "Marsaxlokk",
+   "hl": "https://media.api-sports.io/football/teams/3884.png",
+   "al": "https://media.api-sports.io/football/teams/14507.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Aguirre"
+    }
+   ]
+  },
+  {
+   "id": 1650527,
+   "league": "Kuwait - Crown Prince Cup",
+   "home": "Al Jahra",
+   "away": "Yarmouk",
+   "hl": "https://media.api-sports.io/football/teams/3534.png",
+   "al": "https://media.api-sports.io/football/teams/3546.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T16:30:00+00:00",
+   "ev": []
   }
  ]
 }
