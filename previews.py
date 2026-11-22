@@ -420,9 +420,22 @@ def publish_preview(f, tbl, st):
                 print("تعذر تحديث العنوان:", sp.why(e))
                 time.sleep(5)
     print("نُشر:", title, post.get("url", ""), flush=True)
+    tw = None
+    try:
+        import x_post
+        text = x_post.preview_text(H, A, facts["league"], hm(ko), TV.get(facts["league_id"]), post.get("url", ""))
+        today = datetime.now(sb.TZ).strftime("%Y-%m-%d")
+        sent = sum(1 for e in st["posts"] if e.get("tweet_id") and (e.get("published") or "").startswith(today))
+        if x_post.enabled() and sent < int(os.environ.get("X_DAILY", "3")):
+            tw = x_post.tweet(text)
+            print("تغريدة نُشرت:", tw, flush=True)
+    except Exception as e:
+        text = locals().get("text", "")
+        print("::warning::تعذر نشر التغريدة:", e, flush=True)
     st["posts"].append({"fid": facts["fid"], "post_id": post["id"], "kickoff": facts["kickoff"],
                         "home_ar": H, "away_ar": A, "players_ar": data.get("players_ar") or {},
-                        "published": datetime.now(sb.TZ).isoformat(timespec="seconds"), "official": False})
+                        "published": datetime.now(sb.TZ).isoformat(timespec="seconds"), "official": False,
+                        "url": post.get("url", ""), "tweet": text, "tweet_id": tw})
 
 
 def update_official(st):
