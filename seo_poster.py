@@ -150,6 +150,10 @@ def make_cover(kind, name, **kw):
         path = os.path.join(ROOT, "img", name)
         if kind == "match":
             cover.match_cover(path, **kw)
+        elif kind == "photo":
+            cover.photo_cover(path, **kw)
+        elif kind == "teams":
+            cover.teams_cover(path, **kw)
         else:
             cover.news_cover(path, **kw)
         return IMG_BASE + name
@@ -183,14 +187,16 @@ def clean_tags(tags, limit=3):
     return out[:limit]
 
 
-def wrap_article(title, description, image_url, body, label):
+def wrap_article(title, description, image_url, body, label, credit_html=""):
     """صورة بارزة في البداية + المحتوى + روابط داخلية + بيانات منظمة NewsArticle"""
     esc = html.escape
     parts = []
     if image_url:
         parts.append(
             f'<div class="post-cover" style="margin:0 0 16px"><img src="{esc(image_url)}" alt="{esc(title)}" '
-            f'title="{esc(title)}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"/></div>'
+            f'title="{esc(title)}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"/>'
+            + (f'<div style="font-size:12px;color:#7a8a82;margin-top:4px">{credit_html}</div>' if credit_html else "")
+            + "</div>"
         )
     parts.append(body)
     rel = related_links(label)
@@ -460,6 +466,33 @@ def _reports_loop(st, cands, limit):
 
 
 # ---------- الأخبار ----------
+def news_image(data, slug, key, ar_title, tags):
+    """الأولوية: صورة حرة حقيقية للاعب/المدرب -> شعارا الفريقين -> تصميم الموقع"""
+    import photos
+    esc = html.escape
+    kicker = tags[0] if tags else "أخبار كرة القدم"
+    date_text = datetime.now(sb.TZ).strftime("%Y-%m-%d")
+    name = image_name(slug, key)
+    subj = (data.get("photo_subject_en") or "").strip()
+    ph = photos.wiki_photo(subj) if subj else None
+    if ph:
+        img = make_cover("photo", name, title=ar_title, kicker=kicker, date_text=date_text,
+                         photo_bytes=ph["bytes"], credit=f'Photo: {ph["credit"]} / {ph["license"]}')
+        if img:
+            credit = (f'الصورة: {esc(ph["credit"])} عبر <a href="{esc(ph["page"])}" rel="nofollow noopener" '
+                      f'target="_blank">ويكيميديا كومنز</a> ({esc(ph["license"])})')
+            return img, credit
+    teams = [t for t in (data.get("teams_en") or []) if isinstance(t, str) and t.strip()][:2]
+    teams_ar = [t for t in (data.get("teams_ar") or []) if isinstance(t, str)]
+    if len(teams) == 2:
+        logos = [photos.team_logo(t, sb.football) for t in teams]
+        if all(logos):
+            ar_n = teams_ar if len(teams_ar) == 2 else teams
+            img = make_cover("teams", name, title=ar_title, kicker=kicker, date_text=date_text,
+                             home_name=ar_n[0], away_name=ar_n[1], home_logo=logos[0], away_logo=logos[1])
+            if img:
+                return img, ""
+    return make_cover("news", name, title=ar_title, kicker=kicker, date_text=date_text), ""
 def run_news():
     st = load()
     seen = set(st["news"])
@@ -520,7 +553,10 @@ def _news_loop(seen, limit):
                     ' {"heading": "عنوان فرعي عن الخلفية والسياق", "paragraphs": ["فقرة"]},'
                     ' {"heading": "عنوان فرعي عن ما ينتظر الفريق/اللاعب بحسب المصدر", "paragraphs": ["فقرة"]}],'
                     ' "takeaways": ["3 نقاط مختصرة لأهم ما في الخبر"],'
-                    ' "tags": ["حتى 3 أسماء أندية أو منتخبات أو بطولات بالعربي"]}\n\n'
+                    ' "tags": ["حتى 3 أسماء أندية أو منتخبات أو بطولات بالعربي"],'
+                    ' "photo_subject_en": "عنوان صفحة ويكيبيديا الإنجليزية للاعب أو المدرب الأبرز في الخبر بالضبط مثل Erling Haaland أو فارغ",'
+                    ' "teams_en": ["الاسم الإنجليزي للناديين أو المنتخبين إذا كان الخبر عن مواجهة بينهما، وإلا نادٍ واحد أو قائمة فارغة"],'
+                    ' "teams_ar": ["نفس الفرق بالعربي وبنفس الترتيب"]}\n\n'
                     f"العنوان: {title}\nالوصف: {desc}\nنص المصدر:\n{src or desc}",
                     max_tokens=3000,
                 )
@@ -545,11 +581,9 @@ def _news_loop(seen, limit):
                          f"{esc(urllib.parse.urlparse(link).netloc)}</a></small></p>")
                 slug = slug_words(title)
                 tags = clean_tags(data.get("tags"))
-                img = make_cover("news", image_name(slug, key), title=ar_title,
-                                 kicker=(tags[0] if tags else "أخبار كرة القدم"),
-                                 date_text=datetime.now(sb.TZ).strftime("%Y-%m-%d"))
+                img, credit = news_image(data, slug, key, ar_title, tags)
                 body = wrap_article(ar_title, data.get("description") or data.get("intro"), img, body,
-                                    "أخبار كرة القدم")
+                                    "أخبار كرة القدم", credit)
                 publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug)
                 seen.add(key)
                 made += 1

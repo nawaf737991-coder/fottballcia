@@ -41,6 +41,8 @@ NEWS_FEEDS = [
     "https://www.espn.com/espn/rss/soccer/news",
     "https://www.skysports.com/rss/11095",
     "https://www.theguardian.com/football/rss",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml",
+    "https://feeds.bbci.co.uk/sport/football/premier-league/rss.xml",
 ]
 MAX_NEWS_PER_RUN = 3
 

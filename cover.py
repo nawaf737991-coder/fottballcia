@@ -201,6 +201,49 @@ def news_cover(path, title, kicker, date_text):
     _save(img, path)
 
 
+def photo_cover(path, title, kicker, date_text, photo_bytes, credit=""):
+    """صورة حقيقية تغطي الغلاف + تدرج داكن + العنوان"""
+    ph = Image.open(io.BytesIO(photo_bytes)).convert("RGB")
+    sc = max(W / ph.width, H / ph.height)
+    ph = ph.resize((int(ph.width * sc + 1), int(ph.height * sc + 1)), Image.LANCZOS)
+    x0 = (ph.width - W) // 2
+    # الصور الطولية: نركز على الثلث العلوي (الوجه)
+    y0 = int((ph.height - H) * (0.18 if ph.height > H * 1.1 else 0.5))
+    img = ph.crop((x0, y0, x0 + W, y0 + H))
+    grad = Image.new("L", (1, H))
+    for y in range(H):
+        t = max(0.0, (y - H * 0.35) / (H * 0.65))
+        grad.putpixel((0, y), int(235 * t ** 1.3))
+    shade = Image.new("RGB", (W, H), (4, 12, 8))
+    img = Image.composite(shade, img, grad.resize((W, H)))
+    _header(img, "", "")
+    d = ImageDraw.Draw(img, "RGBA")
+    f = _font(FONT_BOLD, 58)
+    lines = _wrap(d, title, f, W - 120, 3)
+    lh = 80
+    top = H - 60 - lh * len(lines)
+    if kicker:
+        fk = _font(FONT_BOLD, 32)
+        kw = d.textlength(ar(kicker), font=fk)
+        d.rounded_rectangle((W - 60 - kw - 32, top - 62, W - 60, top - 12), radius=10, fill=ACCENT)
+        d.text((W - 60 - 16, top - 37), ar(kicker), font=fk, fill=INK, anchor="rm")
+    for i, ln in enumerate(lines):
+        d.text((W - 60, top + i * lh + lh // 2), ar(ln), font=f, fill=TEXT, anchor="rm")
+    d.text((60, H - 22), SITE, font=_font(FONT_MED, 22), fill=MUTED, anchor="ls")
+    if credit:
+        d.text((W - 60, H - 22), credit[:70], font=_font(FONT_MED, 18), fill=(200, 210, 205), anchor="rs")
+    _save(img, path)
+def teams_cover(path, title, kicker, date_text, home_name, away_name, home_logo, away_logo):
+    """خبر عن فريقين (مواجهة قادمة/صفقة بين ناديين): الشعاران مع VS"""
+    img = _background()
+    _header(img, kicker, date_text)
+    cy = 235
+    _badge(img, home_logo, W - 260, cy, home_name)
+    _badge(img, away_logo, 260, cy, away_name)
+    d = ImageDraw.Draw(img, "RGBA")
+    d.text((W / 2, cy), "VS", font=_font(FONT_BOLD, 96), fill=ACCENT, anchor="mm")
+    _title(img, title, 50, 2)
+    _save(img, path)
 def _save(img, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     img.save(path, "JPEG", quality=82, optimize=True, progressive=True)
