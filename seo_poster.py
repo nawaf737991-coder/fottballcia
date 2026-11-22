@@ -466,10 +466,13 @@ def _reports_loop(st, cands, limit):
 
 
 # ---------- الأخبار ----------
+LAST_IMAGE_KIND = ""
 def news_image(data, slug, key, ar_title, tags):
     """الأولوية: صورة حرة حقيقية للاعب/المدرب -> شعارا الفريقين -> تصميم الموقع"""
+    global LAST_IMAGE_KIND
     import photos
     esc = html.escape
+    LAST_IMAGE_KIND = "news"
     kicker = tags[0] if tags else "أخبار كرة القدم"
     date_text = datetime.now(sb.TZ).strftime("%Y-%m-%d")
     name = image_name(slug, key)
@@ -479,6 +482,7 @@ def news_image(data, slug, key, ar_title, tags):
         img = make_cover("photo", name, title=ar_title, kicker=kicker, date_text=date_text,
                          photo_bytes=ph["bytes"], credit=f'Photo: {ph["credit"]} / {ph["license"]}')
         if img:
+            LAST_IMAGE_KIND = "photo"
             credit = (f'الصورة: {esc(ph["credit"])} عبر <a href="{esc(ph["page"])}" rel="nofollow noopener" '
                       f'target="_blank">ويكيميديا كومنز</a> ({esc(ph["license"])})')
             return img, credit
@@ -491,6 +495,7 @@ def news_image(data, slug, key, ar_title, tags):
             img = make_cover("teams", name, title=ar_title, kicker=kicker, date_text=date_text,
                              home_name=ar_n[0], away_name=ar_n[1], home_logo=logos[0], away_logo=logos[1])
             if img:
+                LAST_IMAGE_KIND = "teams"
                 return img, ""
     return make_cover("news", name, title=ar_title, kicker=kicker, date_text=date_text), ""
 def run_news():
