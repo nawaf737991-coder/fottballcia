@@ -72,6 +72,18 @@ def ar_date(d):
     return s
 
 
+def round_ar(r):
+    if not r:
+        return ""
+    m = re.search(r"(\d+)\s*$", r)
+    n = m.group(1) if m else ""
+    for en, ar in (("Regular Season", "الجولة"), ("League Stage", "مرحلة الدوري - الجولة"), ("Group", "دور المجموعات - الجولة"),
+                   ("Round of 16", "دور الـ16"), ("Quarter-finals", "ربع النهائي"), ("Semi-finals", "نصف النهائي"), ("Final", "النهائي")):
+        if r.startswith(en):
+            return (ar + " " + n).strip() if ar.endswith("الجولة") else ar
+    return r
+
+
 def hm(d):
     return d.strftime("%H:%M")
 
@@ -214,7 +226,7 @@ def collect(f, tbl):
     rows = tbl.get(lid, {})
     return {
         "fid": fid, "league_id": lid, "league": LEAGUE_AR.get(lid, f["league"]["name"]),
-        "round": f["league"].get("round"), "kickoff": f["fixture"]["date"],
+        "round": round_ar(f["league"].get("round")), "kickoff": f["fixture"]["date"],
         "venue": (f["fixture"].get("venue") or {}).get("name"), "city": (f["fixture"].get("venue") or {}).get("city"),
         "referee": f["fixture"].get("referee"),
         "home": h["name"], "away": a["name"], "home_logo": h.get("logo"), "away_logo": a.get("logo"),
