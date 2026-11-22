@@ -60,6 +60,37 @@ def ask_subject(title, text):
     return sp.parse_json(raw)
 
 
+def ask_report(title, text):
+    raw = sb.claude(
+        "اقرأ تقرير مباراة كرة قدم وأعد JSON فقط:\n"
+        '{"star_en": "عنوان صفحة ويكيبيديا الإنجليزية بالضبط لأبرز لاعب في المباراة (صاحب هدف) أو فارغ",'
+        ' "venue_en": "عنوان صفحة ويكيبيديا الإنجليزية لملعب المباراة أو ملعب الفريق المضيف",'
+        ' "home_en": "الاسم الإنجليزي للفريق المضيف", "away_en": "الاسم الإنجليزي للفريق الضيف",'
+        ' "home_goals": 0, "away_goals": 0}\n\n'
+        f"العنوان: {title}\nالنص: {text[:2200]}",
+        max_tokens=300,
+    )
+    return sp.parse_json(raw)
+
+
+def report_image(data, slug, key, title, kicker):
+    import photos
+    esc = html.escape
+    for subj in ((data.get("star_en") or "").strip(), (data.get("venue_en") or "").strip()):
+        ph = photos.wiki_photo(subj) if subj else None
+        if not ph:
+            continue
+        score = dict(home_logo=photos.team_logo(data.get("home_en"), sb.football),
+                     away_logo=photos.team_logo(data.get("away_en"), sb.football),
+                     home_goals=data.get("home_goals", ""), away_goals=data.get("away_goals", ""))
+        img = sp.make_cover("photo", sp.image_name(slug, key), title=title, kicker=kicker, date_text="",
+                            photo_bytes=ph["bytes"], credit=f'Photo: {ph["credit"]} / {ph["license"]}', score=score)
+        if img:
+            return img, (f'الصورة: {esc(ph["credit"])} عبر <a href="{esc(ph["page"])}" rel="nofollow noopener" '
+                         f'target="_blank">ويكيميديا كومنز</a> ({esc(ph["license"])})')
+    return "", ""
+
+
 def main():
     st = load()
     done = 0
@@ -69,7 +100,7 @@ def main():
         pid = p["id"]
         labels = p.get("labels") or []
         content = p.get("content") or ""
-        if pid in st or "تقارير المباريات" in labels or 'data-ph="1"' in content \
+        if st.get(pid) not in (None, "skip-report") or 'data-ph="1"' in content \
                 or "ويكيميديا كومنز" in content:
             continue
         m = re.search(r'<div class="post-cover"[^>]*>\s*<img src="([^"]+)"', content)
@@ -79,19 +110,24 @@ def main():
         old_url = m.group(1)
         title = (p.get("title") or "").strip()
         text = re.sub(r"\s+", " ", re.sub(r"<script.*?</script>|<[^>]+>", " ", content, flags=re.S))
+        is_report = "تقارير المباريات" in labels
         try:
-            data = ask_subject(title, text)
+            data = ask_report(title, text) if is_report else ask_subject(title, text)
         except Exception as e:
             print("تعذر التحليل:", title, sp.why(e), flush=True)
             continue
-        kicker = next((l for l in labels if l != "أخبار كرة القدم"), "أخبار كرة القدم")
+        kicker = next((l for l in labels if l not in ("أخبار كرة القدم", "تقارير المباريات")), "أخبار كرة القدم")
         slug = re.sub(r"\.html$", "", (p.get("url") or "").rsplit("/", 1)[-1]) or "post"
         key = pid + "-ph"
         if DRY:
             print("DRY", title, "|", data, flush=True)
             done += 1
             continue
-        img, credit = sp.news_image(data, slug, key, title, [kicker])
+        if is_report:
+            img, credit = report_image(data, slug, key, title, kicker)
+            sp.LAST_IMAGE_KIND = "photo" if credit else "news"
+        else:
+            img, credit = sp.news_image(data, slug, key, title, [kicker])
         if not img or sp.LAST_IMAGE_KIND == "news":
             st[pid] = "none"
             _rm(img)

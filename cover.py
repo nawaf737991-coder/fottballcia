@@ -201,7 +201,7 @@ def news_cover(path, title, kicker, date_text):
     _save(img, path)
 
 
-def photo_cover(path, title, kicker, date_text, photo_bytes, credit=""):
+def photo_cover(path, title, kicker, date_text, photo_bytes, credit="", score=None):
     """صورة حقيقية تغطي الغلاف + تدرج داكن + العنوان"""
     ph = Image.open(io.BytesIO(photo_bytes)).convert("RGB")
     sc = max(W / ph.width, H / ph.height)
@@ -240,7 +240,24 @@ def photo_cover(path, title, kicker, date_text, photo_bytes, credit=""):
     d.text((60, H - 22), SITE, font=_font(FONT_MED, 22), fill=MUTED, anchor="ls")
     if credit:
         d.text((W - 60, H - 22), credit[:70], font=_font(FONT_MED, 18), fill=(200, 210, 205), anchor="rs")
+    if score:
+        _score_pill(img, score)
     _save(img, path)
+def _score_pill(img, sc):
+    """شريط النتيجة: شعار المضيف يمين، النتيجة، شعار الضيف يسار"""
+    d = ImageDraw.Draw(img, "RGBA")
+    cx, cy, pw, ph = 330, 64, 520, 96
+    d.rounded_rectangle((cx - pw // 2, cy - ph // 2, cx + pw // 2, cy + ph // 2), radius=22, fill=(6, 16, 12, 205),
+                        outline=ACCENT + (255,), width=3)
+    for url, x in ((sc.get("home_logo"), cx + pw // 2 - 58), (sc.get("away_logo"), cx - pw // 2 + 58)):
+        lg = _logo(url, 70) if url else None
+        if lg:
+            d.ellipse((x - 42, cy - 42, x + 42, cy + 42), fill=(250, 252, 250))
+            img.paste(lg, (x - lg.width // 2, cy - lg.height // 2), lg)
+    f = _font(FONT_BOLD, 64)
+    d.text((cx + 70, cy + 4), str(sc.get("home_goals", "")), font=f, fill=TEXT, anchor="mm")
+    d.text((cx, cy + 2), "-", font=f, fill=ACCENT, anchor="mm")
+    d.text((cx - 70, cy + 4), str(sc.get("away_goals", "")), font=f, fill=TEXT, anchor="mm")
 def teams_cover(path, title, kicker, date_text, home_name, away_name, home_logo, away_logo):
     """خبر عن فريقين (مواجهة قادمة/صفقة بين ناديين): الشعاران مع VS"""
     img = _background()

@@ -402,6 +402,31 @@ def run_reports():
         save(st)
 
 
+def match_image(data, slug, fid, title, league_ar, full, home_ar, away_ar):
+    """صورة نجم المباراة -> صورة الملعب -> شعارا الفريقين، مع النتيجة والشعارين على الصورة"""
+    import photos
+    esc = html.escape
+    t = full.get("teams", {})
+    g = full.get("goals", {})
+    th, ta = t.get("home", {}), t.get("away", {})
+    name = image_name(slug, str(fid))
+    score = dict(home_logo=th.get("logo"), away_logo=ta.get("logo"), home_goals=g.get("home"), away_goals=g.get("away"))
+    venue = (data.get("venue_en") or "").strip() or ((full.get("fixture") or {}).get("venue") or {}).get("name") or ""
+    for subj in ((data.get("star_en") or "").strip(), venue):
+        ph = photos.wiki_photo(subj) if subj else None
+        if not ph:
+            continue
+        img = make_cover("photo", name, title=title, kicker=league_ar, date_text="", photo_bytes=ph["bytes"],
+                         credit=f'Photo: {ph["credit"]} / {ph["license"]}', score=score)
+        if img:
+            return img, (f'الصورة: {esc(ph["credit"])} عبر <a href="{esc(ph["page"])}" rel="nofollow noopener" '
+                         f'target="_blank">ويكيميديا كومنز</a> ({esc(ph["license"])})')
+    img = make_cover("match", name, title=title, league=league_ar,
+                     date_text=(full.get("fixture", {}).get("date") or "")[:10],
+                     home_name=home_ar, away_name=away_ar,
+                     home_logo=th.get("logo"), away_logo=ta.get("logo"),
+                     home_goals=g.get("home"), away_goals=g.get("away"))
+    return img, ""
 def _reports_loop(st, cands, limit):
     made = 0
     fails = 0
@@ -427,7 +452,9 @@ def _reports_loop(st, cands, limit):
                 ' "intro": "مقدمة من 3 جمل تحتوي الاسمين والنتيجة والبطولة والجولة والملعب إن وجد",'
                 ' "paragraphs": ["فقرة من 4 جمل على الأقل عن مجريات الشوط الأول وفق الأحداث", "فقرة من 4 جمل عن الشوط الثاني والأهداف والبطاقات والتبديلات", "فقرة عن أبرز اللاعبين المذكورين في الأحداث ودورهم"],'
                 ' "analysis": ["فقرة من 4 جمل تحلل الإحصائيات (الاستحواذ والتسديدات والتمريرات) وماذا تقول عن أسلوب كل فريق", "فقرة تقارن فاعلية الفريقين الهجومية والدفاعية بالأرقام والتشكيلة"],'
-                ' "conclusion": "فقرة ختامية من 3 جمل عن دلالة النتيجة للفريقين دون تخمين ترتيب الدوري"}\n'
+                ' "conclusion": "فقرة ختامية من 3 جمل عن دلالة النتيجة للفريقين دون تخمين ترتيب الدوري",'
+                ' "star_en": "عنوان صفحة ويكيبيديا الإنجليزية بالضبط لأبرز لاعب في المباراة من البيانات (صاحب هدف أو أكثر) مثل Erling Haaland، أو فارغ",'
+                ' "venue_en": "عنوان صفحة ويكيبيديا الإنجليزية لملعب المباراة إن وُجد في البيانات، أو فارغ"}\n'
                 "المطلوب أن يكون مجموع النص 350 كلمة على الأقل. إن لم توجد إحصائيات فاترك analysis فارغة وأطل الفقرات الأخرى.\n\n"
                 f"البطولة: {league_ar}\nالبيانات: {json.dumps(facts, ensure_ascii=False)}",
                 max_tokens=4000,
@@ -448,13 +475,11 @@ def _reports_loop(st, cands, limit):
             title = data["title"].strip()
             home_ar = (data.get("home_ar") or th.get("name") or "").strip()
             away_ar = (data.get("away_ar") or ta.get("name") or "").strip()
-            img = make_cover("match", image_name(slug, str(fid)), title=title, league=league_ar,
-                             date_text=(full.get("fixture", {}).get("date") or "")[:10],
-                             home_name=home_ar, away_name=away_ar,
-                             home_logo=th.get("logo"), away_logo=ta.get("logo"),
-                             home_goals=g.get("home"), away_goals=g.get("away"))
+            img, credit = match_image(data, slug, fid, title, league_ar, full, home_ar, away_ar)
             body = wrap_article(title, data.get("description") or data.get("intro"), img,
-                                report_html(facts, data, league_ar), league_ar)
+                                report_html(facts, data, league_ar), league_ar, credit)
+            if credit:
+                body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
             publish(title, body, ["تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar]), slug=slug)
             st["reports"].append(fid)
             made += 1
