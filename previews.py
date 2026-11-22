@@ -107,7 +107,7 @@ def importance(f, tbl):
             s += 35
         elif min(rh, ra) <= 3:
             s += 10
-    s += 20 * ((h in BIG) + (a in BIG))
+    s += 20 * ((h in BIG) + (a in BIG)) + (15 if (h in BIG and a in BIG) else 0)
     return s
 
 
@@ -222,7 +222,7 @@ def collect(f, tbl):
         "home_form": ((tp.get("home") or {}).get("league") or {}).get("form", "")[-5:] or (rows.get(h["name"]) or {}).get("f"),
         "away_form": ((tp.get("away") or {}).get("league") or {}).get("form", "")[-5:] or (rows.get(a["name"]) or {}).get("f"),
         "home_last5": (tp.get("home") or {}).get("last_5"), "away_last5": (tp.get("away") or {}).get("last_5"),
-        "percent": p.get("percent"), "advice": p.get("advice"), "under_over": p.get("under_over"),
+        "percent": p.get("percent"),
         "comparison": {k: v for k, v in (pred.get("comparison") or {}).items() if k in ("form", "att", "def", "h2h", "total")},
         "h2h": h2h, "injuries": inj,
         "home_lineup": lh, "away_lineup": la,
@@ -237,10 +237,15 @@ def write(facts):
     for k in ("home_xi", "away_xi"):
         players += facts.get(k) or []
     players += [i["player"] for i in facts["injuries"] if i.get("player")]
+    for k in ("home_lineup", "away_lineup"):
+        if (facts.get(k) or {}).get("coach"):
+            players.append(facts[k]["coach"])
+    players += [x for x in (facts.get("venue"), facts.get("city"), facts.get("referee")) if x]
     small = {k: v for k, v in facts.items() if k not in ("home_lineup", "away_lineup")}
     raw = sb.claude(
         "أنت محرر رياضي عربي محترف. اكتب مقالًا تمهيديًا قبل مباراة كبيرة بالعربي الفصيح المبسط اعتمادًا فقط على "
-        "البيانات التالية. ممنوع اختراع أي رقم أو نتيجة أو اسم أو خبر غير موجود فيها. التشكيلة المتوقعة مبنية على آخر "
+        "البيانات التالية. اكتب كل أسماء اللاعبين والمدربين بالعربي داخل الفقرات (لا تكتب أي اسم بحروف إنجليزية)، "
+        "وممنوع تمامًا ذكر المراهنات أو الرهان أو الاحتمالات المالية. ممنوع اختراع أي رقم أو نتيجة أو اسم أو خبر غير موجود فيها. التشكيلة المتوقعة مبنية على آخر "
         "مباراة مع استبعاد الغائبين، فاذكر ذلك بصيغة التوقع لا الجزم. التوقع النهائي رأي تحريري مبني على الأرقام.\n"
         f"أسماء عربية معتمدة للفرق: {json.dumps(hint, ensure_ascii=False)}\n"
         "أعد JSON فقط بهذا الشكل:\n"
@@ -259,7 +264,22 @@ def write(facts):
         "المجموع 380 كلمة على الأقل.\n\nالبيانات: " + json.dumps(small, ensure_ascii=False),
         max_tokens=5000,
     )
-    return sp.parse_json(raw)
+    data = sp.parse_json(raw)
+    pa = {k: v for k, v in (data.get("players_ar") or {}).items() if isinstance(k, str) and isinstance(v, str) and k and v}
+    data["players_ar"] = pa
+    keys = sorted(pa, key=len, reverse=True)
+
+    def fix(t):
+        if not isinstance(t, str):
+            return t
+        for k in keys:
+            t = t.replace(k, pa[k])
+        return re.sub(r"\s*(نصيحة|رهان|المراهنات?)[^.،]*", "", t) if re.search("رهان|مراهن", t) else t
+    for k, v in list(data.items()):
+        if k == "players_ar":
+            continue
+        data[k] = [fix(x) for x in v] if isinstance(v, list) else fix(v)
+    return data
 
 
 def lineup_block(facts, data, official=None):
@@ -303,9 +323,9 @@ def body_html(facts, data):
             ("التاريخ", ar_date(ko.astimezone(ZoneInfo("Asia/Riyadh"))))]
     rows.append(("التوقيت", " | ".join(f"{hm(ko.astimezone(ZoneInfo(z)))} {n}" for n, z in ZONES)))
     if facts.get("venue"):
-        rows.append(("الملعب", facts["venue"] + (f"، {facts['city']}" if facts.get("city") else "")))
+        rows.append(("الملعب", tr(facts["venue"]) + (f"، {tr(facts['city'])}" if facts.get("city") else "")))
     if facts.get("referee"):
-        rows.append(("الحكم", facts["referee"]))
+        rows.append(("الحكم", tr(facts["referee"])))
     if ch:
         rows.append(("القنوات الناقلة", "، ".join(ch) + " (حقوق البث في الشرق الأوسط وشمال أفريقيا)"))
     p.append('<table style="width:100%;border-collapse:collapse">' + "".join(
