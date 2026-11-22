@@ -13,6 +13,14 @@ import cover as C
 VW, VH = 720, 1280
 SEC = 3.6   # مدة كل لقطة
 FADE = 0.5
+_LOGOS = {}
+
+
+def _logo(url, size):
+    k = (url, size)
+    if k not in _LOGOS:
+        _LOGOS[k] = C._logo(url, size)
+    return _LOGOS[k].copy() if _LOGOS[k] else None
 
 
 def _bg():
@@ -44,7 +52,7 @@ def _badge(img, url, cx, cy, r, name=None):
     sh = sh.filter(ImageFilter.GaussianBlur(12))
     img.paste(sh, (0, 0), sh)
     d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(250, 252, 250), outline=C.ACCENT, width=5)
-    lg = C._logo(url, int(r * 1.35)) if url else None
+    lg = _logo(url, int(r * 1.35)) if url else None
     if lg:
         img.paste(lg, (cx - lg.width // 2, cy - lg.height // 2), lg)
     if name:
@@ -148,8 +156,11 @@ def slide_pred(v):
     return img
 
 
-def make_video(path, v):
-    slides = [slide_intro(v), slide_tv(v), slide_xi(v), slide_pred(v)]
+def make_video(path, v, slides=None):
+    if slides is None:
+        slides = [(slide_intro(v), SEC), (slide_tv(v), SEC), (slide_xi(v), SEC), (slide_pred(v), SEC)]
+    durs = [t for _, t in slides]
+    slides = [im for im, _ in slides]
     with tempfile.TemporaryDirectory() as tmp:
         files = []
         for i, s in enumerate(slides):
@@ -162,13 +173,14 @@ def make_video(path, v):
             import imageio_ffmpeg
             exe = imageio_ffmpeg.get_ffmpeg_exe()
         cmd = [exe, "-y", "-loglevel", "error"]
-        for p in files:
-            cmd += ["-loop", "1", "-t", str(SEC), "-framerate", "25", "-i", p]
+        for p, t in zip(files, durs):
+            cmd += ["-loop", "1", "-t", str(t), "-framerate", "25", "-i", p]
         # صوت صامت حتى يقبل تيك توك الفيديو ويضيف المستخدم صوتًا من التطبيق
-        cmd += ["-f", "lavfi", "-t", str(len(files) * SEC), "-i", "anullsrc=r=44100:cl=stereo"]
+        cmd += ["-f", "lavfi", "-t", str(sum(durs)), "-i", "anullsrc=r=44100:cl=stereo"]
         chain, last = [], "[0:v]"
+        off = 0
         for i in range(1, len(files)):
-            off = round(i * (SEC - FADE), 2)
+            off = round(off + durs[i - 1] - FADE, 2)
             out = f"[x{i}]"
             chain.append(f"{last}[{i}:v]xfade=transition=fade:duration={FADE}:offset={off}{out}")
             last = out

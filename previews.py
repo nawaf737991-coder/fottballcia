@@ -531,6 +531,109 @@ def tiktok_caption(e):
         return ""
 
 
+STAT_PICK = ["الاستحواذ", "إجمالي التسديدات", "تسديدات على المرمى", "الركنيات", "الأهداف المتوقعة (xG)", "دقة التمرير"]
+
+
+def translate_names(names_en):
+    """ترجمة أسماء لاعبين ناقصة بطلب صغير لـ Gemini"""
+    names_en = [n for n in dict.fromkeys(names_en) if n]
+    if not names_en:
+        return {}
+    try:
+        txt = sb.claude("ترجم أسماء لاعبي كرة القدم التالية إلى العربية كما تكتبها المواقع الرياضية العربية. "
+                        "أعد JSON فقط بالشكل {\"English\": \"عربي\"}:\n" + json.dumps(names_en, ensure_ascii=False), 600)
+        out = sp.parse_json(txt) or {}
+        return {k: v for k, v in out.items() if isinstance(v, str) and v.strip()}
+    except Exception as e:
+        print("تعذر ترجمة الأسماء:", e)
+        return {}
+
+
+def result_data(e, fx):
+    hid = fx["teams"]["home"]["id"]
+    gh, ga = fx["goals"]["home"] or 0, fx["goals"]["away"] or 0
+    raw = []
+    for ev in fx.get("events") or []:
+        det = ev.get("detail") or ""
+        if ev.get("type") != "Goal" or "Missed" in det or "Shootout" in (ev.get("comments") or ""):
+            continue
+        tm = ev.get("time") or {}
+        mn = f"{tm.get('elapsed')}+{tm['extra']}" if tm.get("extra") else str(tm.get("elapsed"))
+        raw.append({"min": mn, "en": (ev.get("player") or {}).get("name"), "as_en": (ev.get("assist") or {}).get("name"),
+                    "side": "home" if (ev.get("team") or {}).get("id") == hid else "away",
+                    "kind": "ركلة جزاء" if det == "Penalty" else ("هدف عكسي" if det == "Own Goal" else "")})
+    # الهدف العكسي: لو مجموع الأهداف ما طابق النتيجة نقلب جهته
+    cnt = lambda s: sum(1 for g in raw if g["side"] == s)
+    if (cnt("home"), cnt("away")) != (gh, ga):
+        for g in raw:
+            if g["kind"] == "هدف عكسي":
+                g["side"] = "away" if g["side"] == "home" else "home"
+    pa = dict(e.get("players_ar") or {})
+    miss = [n for g in raw for n in (g["en"], g["as_en"]) if n and n not in pa]
+    if miss:
+        pa.update(translate_names(miss))
+        e["players_ar"] = pa
+    goals, h, a = [], 0, 0
+    for g in raw:
+        h, a = (h + 1, a) if g["side"] == "home" else (h, a + 1)
+        goals.append({"min": g["min"], "player": pa.get(g["en"]) or g["en"] or "",
+                      "assist": (pa.get(g["as_en"]) or g["as_en"]) if g["as_en"] and not g["kind"] else "",
+                      "kind": g["kind"], "side": g["side"], "gh": h, "ga": a,
+                      "team": e["home_ar"] if g["side"] == "home" else e["away_ar"]})
+    stats = sp.match_stats(e["fid"])
+    stats = {("التسديدات" if k == "إجمالي التسديدات" else "على المرمى" if k == "تسديدات على المرمى" else k): stats[k]
+             for k in STAT_PICK if k in stats}
+    v = dict(e["tk"])
+    v.update({"gh": gh, "ga": ga, "goals": goals, "stats": stats})
+    s = fx["fixture"]["status"]["short"]
+    pen = (fx.get("score") or {}).get("penalty") or {}
+    if s == "PEN" and pen.get("home") is not None:
+        win = e["home_ar"] if pen["home"] > pen["away"] else e["away_ar"]
+        v["pens"] = f"ركلات الترجيح {pen['home']}-{pen['away']} لصالح {win}"
+    elif s == "AET":
+        v["status_text"] = "انتهت بعد التمديد"
+    return v
+
+
+def run_results(st):
+    """بعد المباريات الكبيرة: فيديو تيك توك بالنتيجة والأهداف"""
+    import tiktok_results as R
+    now = datetime.now(sb.TZ)
+    for e in st["posts"]:
+        if e.get("result_video") or e.get("result_done") or not e.get("post_id") or not e.get("tk"):
+            continue
+        hrs = (now - datetime.fromisoformat(e["kickoff"])).total_seconds() / 3600
+        if hrs < 1.8:
+            continue
+        if hrs > 10:
+            e["result_done"] = "gaveup"
+            continue
+        try:
+            fx = sb.football("fixtures", id=e["fid"])
+            if not fx:
+                continue
+            fx = fx[0]
+            s = fx["fixture"]["status"]["short"]
+            if s in ("PST", "CANC", "ABD", "AWD", "WO"):
+                e["result_done"] = s
+                continue
+            if s not in ("FT", "AET", "PEN"):
+                print("المباراة لم تنته بعد:", e["fid"], s)
+                continue
+            v = result_data(e, fx)
+            slug = sp.slug_words((e.get("url") or "x y").split("/")[-1].replace(".html", "").replace("-", " "), 10)
+            name = sp.image_name(slug, f"rs{e['fid']}").replace(".jpg", "-result-tiktok.mp4")
+            R.make_result_video(os.path.join(ROOT, "img", name), v)
+            e["result"] = {k: v[k] for k in ("gh", "ga", "goals", "stats") if k in v}
+            e["result"]["pens"] = v.get("pens", "")
+            e["result_caption"] = R.caption(v)
+            e["result_video"] = sp.IMG_BASE + name
+            print("فيديو النتيجة جاهز:", e["home_ar"], v["gh"], "-", v["ga"], e["away_ar"], flush=True)
+        except Exception as ex:
+            sp.check_billing(ex)
+            print("::warning::فشل فيديو النتيجة", e.get("fid"), sp.why(ex), flush=True)
+
+
 def tweets_page(st):
     """صفحة خاصة (غير مفهرسة) فيها تغريدات جاهزة: ضغطة وحدة وتنشر"""
     import x_post
@@ -539,12 +642,22 @@ def tweets_page(st):
     cards = []
     for e in items:
         ko = datetime.fromisoformat(e["kickoff"]).astimezone(ZoneInfo("Asia/Riyadh"))
-        past = ko < now
+        past = ko < now and not e.get("result_video")
         when = f"{DAYS[ko.weekday()]} {ko.day} {MONTHS[ko.month - 1]} - {hm(ko)}"
-        badge = '<span class="old">انتهت</span>' if past else '<span class="new">قادمة</span>'
+        badge = ('<span class="new">🎬 فيديو النتيجة جاهز</span>' if e.get("result_video") else
+                 '<span class="old">انتهت</span>' if ko < now else '<span class="new">قادمة</span>')
+        res = ""
+        if e.get("result_video"):
+            cap = e.get("result_caption") or ""
+            res = ('<div class="tk rs"><div class="tkh">🎬 فيديو النتيجة والأهداف</div>'
+                   f'<video src="{esc(e["result_video"])}#t=0.5" controls playsinline muted preload="metadata"></video>'
+                   f'<pre>{esc(cap)}</pre>'
+                   f'<button class="btn tkb sh" data-img="{esc(e["result_video"])}" data-type="video/mp4" data-name="result.mp4" data-text="{esc(cap)}">🎵 انشر النتيجة في تيك توك</button>'
+                   f'<a class="btn alt" href="{esc(x_post.intent(cap.split(chr(10))[0] + chr(10) + (e.get("url") or "")))}" target="_blank" rel="noopener">انشر النتيجة في X (نص)</a></div>')
         cards.append(
             f'<div class="c{" past" if past else ""}"><div class="h"><b>{esc(e.get("home_ar", ""))} × {esc(e.get("away_ar", ""))}</b>{badge}</div>'
             f'<div class="t">{esc(when)}</div>'
+            + res
             + (f'<img src="{esc(e["img"])}" alt="" loading="lazy">' if e.get("img") else "")
             + f'<pre>{esc(e["tweet"])}</pre>'
             + (f'<button class="btn sh" data-img="{esc(e["img"])}" data-text="{esc(e["tweet"])}">📷 انشر مع الصورة</button>' if e.get("img") else "")
@@ -586,6 +699,10 @@ def main():
     st = load()
     try:
         update_official(st)
+        try:
+            run_results(st)
+        except Exception as e:
+            print("::warning::run_results:", e, flush=True)
         today = datetime.now(sb.TZ).strftime("%Y-%m-%d")
         n_today = sum(1 for p in st["posts"] if (p.get("published") or "").startswith(today))
         limit = min(int(os.environ.get("MAX_PREVIEWS", "2")), int(os.environ.get("DAILY_PREVIEWS", "6")) - n_today)
