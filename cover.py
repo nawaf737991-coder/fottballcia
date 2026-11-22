@@ -210,6 +210,14 @@ def photo_cover(path, title, kicker, date_text, photo_bytes, credit=""):
     # الصور الطولية: نركز على الثلث العلوي (الوجه)
     y0 = int((ph.height - H) * (0.18 if ph.height > H * 1.1 else 0.5))
     img = ph.crop((x0, y0, x0 + W, y0 + H))
+    src = Image.open(io.BytesIO(photo_bytes)).convert("RGB")
+    if src.width < 900:
+        # صورة صغيرة/طولية: خلفية ضبابية من نفس الصورة + الصورة واضحة بالوسط
+        img = img.filter(ImageFilter.GaussianBlur(28))
+        img = Image.blend(img, Image.new("RGB", (W, H), (6, 18, 12)), 0.35)
+        fs = min(H / src.height, (W * 0.62) / src.width)
+        fg = src.resize((int(src.width * fs), int(src.height * fs)), Image.LANCZOS)
+        img.paste(fg, ((W - fg.width) // 2, 0))
     grad = Image.new("L", (1, H))
     for y in range(H):
         t = max(0.0, (y - H * 0.35) / (H * 0.65))

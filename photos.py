@@ -28,7 +28,7 @@ def _strip(s):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s or "")).strip()
 
 
-def wiki_photo(title, lang="en", min_w=500):
+def wiki_photo(title, lang="en", min_w=300):
     """يرجع dict(bytes, credit, license, page) لصورة حرة للموضوع أو None"""
     if not title:
         return None
