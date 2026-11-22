@@ -174,6 +174,7 @@ def build(tid, nxt, last, cache, now, links):
     others = " · ".join(f"<a href='{u}'>مباريات {v[1]}</a>" for k, v in TEAMS.items()
                         if k != tid and (u := (load(STATE, {}).get(str(k)) or {}).get("url")))
     body = f"""<div dir="rtl" style="line-height:1.9">
+<p style="text-align:center"><img src="https://media.api-sports.io/football/teams/{tid}.png" alt="مباريات {name} القادمة" width="130" height="130" style="width:130px;height:auto;background:#fff;border-radius:12px;padding:6px"></p>
 <p>{lead}</p>
 <p style="font-size:13px;color:#5b6b7c">آخر تحديث: {now.strftime('%Y-%m-%d %H:%M')} بتوقيت السعودية - تتحدث الصفحة تلقائيًا عدة مرات يوميًا.</p>
 <h2>مواعيد مباريات {name} القادمة</h2>
@@ -212,7 +213,7 @@ def main():
                 if done >= 2:
                     break
                 continue
-            sig = hashlib.md5(json.dumps([nxt, last, links.get(nxt[0]["id"]) if nxt else None], sort_keys=True).encode()).hexdigest()
+            sig = hashlib.md5(json.dumps(["v2", nxt, last, links.get(nxt[0]["id"]) if nxt else None], sort_keys=True).encode()).hexdigest()
             rec["fetched"] = now.isoformat(timespec="seconds")
             if not rec.get("id"):
                 post = sb.blogger("/posts/", "POST", {"title": f"{slug} fixtures results", "content": body,

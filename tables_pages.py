@@ -138,6 +138,7 @@ def build(lg, cache, now, others):
 <h3>متى يتم تحديث جدول الترتيب؟</h3>
 <p>يُحدَّث جدول ترتيب {full} وقائمة الهدافين تلقائيًا عدة مرات يوميًا بعد نهاية المباريات، اعتمادًا على مصادر بيانات رياضية موثوقة.</p>"""
     return f"""<div dir="rtl" style="line-height:1.9">
+<p style="text-align:center"><img src="https://media.api-sports.io/football/leagues/{lid}.png" alt="ترتيب {full} {season}" width="120" height="120" style="width:120px;height:auto;background:#fff;border-radius:12px;padding:6px"></p>
 <p><strong>ترتيب {full} {season}</strong>: جدول ترتيب {short} كاملًا بعد آخر المباريات، مع عدد المباريات والانتصارات والتعادلات والهزائم وفارق الأهداف والنقاط، إضافة إلى قائمة هدافي الدوري. {lead}</p>
 <p style="font-size:13px;color:#5b6b7c">آخر تحديث: {now.strftime('%Y-%m-%d %H:%M')} بتوقيت السعودية.</p>
 <h2>جدول ترتيب {full} {season}</h2>
@@ -190,7 +191,7 @@ def main():
         slug = PAGES[lg["id"]][0]
         content = build(lg, cache, now, others)
         sig = hashlib.md5(json.dumps([lg["table"], lg.get("scorers"), sorted(others)], ensure_ascii=False).encode()
-                          + str(len(cache)).encode() + b"v3").hexdigest()
+                          + str(len(cache)).encode() + b"v4").hexdigest()
         if DRY:
             open(f"/tmp/table_{slug}.html", "w", encoding="utf-8").write(content)
             print("DRY:", slug)
