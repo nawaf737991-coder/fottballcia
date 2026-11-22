@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T22:30:22+03:00",
- "ts": 1795375822,
+ "updated": "2026-11-22T22:40:25+03:00",
+ "ts": 1795376425,
  "matches": [
   {
    "id": 1492460,
@@ -9,10 +9,10 @@
    "away": "Remo",
    "hl": "https://media.api-sports.io/football/teams/134.png",
    "al": "https://media.api-sports.io/football/teams/1198.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,67 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "José Welison"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kerwin Vargas"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edson Fernando"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Zé Ivaldo"
+    }
+   ]
+  },
+  {
+   "id": 1570839,
+   "league": "Spain - Primera División RFEF - Group 1",
+   "home": "Cacereño",
+   "away": "UD Logroñés",
+   "hl": "https://media.api-sports.io/football/teams/9384.png",
+   "al": "https://media.api-sports.io/football/teams/5280.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-22T19:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601293,
+   "league": "Italy - Serie A Women",
+   "home": "Lazio W",
+   "away": "Juventus W",
+   "hl": "https://media.api-sports.io/football/teams/17369.png",
+   "al": "https://media.api-sports.io/football/teams/1886.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-22T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Sarriegi"
     }
    ]
   },
@@ -43,7 +104,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -65,6 +126,20 @@
    ]
   },
   {
+   "id": 1647585,
+   "league": "Portugal - Taça de Portugal",
+   "home": "União de Leiria",
+   "away": "Leça",
+   "hl": "https://media.api-sports.io/football/teams/4662.png",
+   "al": "https://media.api-sports.io/football/teams/4757.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-22T19:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1649570,
    "league": "Argentina - Liga Profesional Argentina",
    "home": "Rosario Central",
@@ -74,7 +149,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -105,7 +180,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -136,7 +211,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -162,6 +237,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Maílton"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Xavier Gazal"
     }
    ]
   },
@@ -175,7 +258,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-22T16:00:00+00:00",
    "ev": [
     {
@@ -270,7 +353,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T18:15:00+00:00",
    "ev": [
     {
@@ -301,7 +384,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-22T18:15:00+00:00",
    "ev": [
     {
@@ -337,10 +420,10 @@
    "away": "Francs Borains",
    "hl": "https://media.api-sports.io/football/teams/19685.png",
    "al": "https://media.api-sports.io/football/teams/5805.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 61,
    "time": "2026-11-22T18:15:00+00:00",
    "ev": [
     {
@@ -366,6 +449,92 @@
      "t": "Var",
      "d": "Penalty cancelled",
      "p": "Jemiah Umolu"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jemiah Umolu"
+    }
+   ]
+  },
+  {
+   "id": 1561739,
+   "league": "Poland - II Liga - East",
+   "home": "Zawisza Bydgoszcz",
+   "away": "Podhale Nowy Targ",
+   "hl": "https://media.api-sports.io/football/teams/13843.png",
+   "al": "https://media.api-sports.io/football/teams/12834.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-22T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Cywinski"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Seweryn"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Dziarkowski"
+    }
+   ]
+  },
+  {
+   "id": 1565307,
+   "league": "Romania - Liga I",
+   "home": "Arges Pitesti",
+   "away": "FCSB",
+   "hl": "https://media.api-sports.io/football/teams/2592.png",
+   "al": "https://media.api-sports.io/football/teams/559.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-22T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Oancea"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Dragus"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Boutoutaou"
     }
    ]
   },
@@ -376,10 +545,10 @@
    "away": "Athletic Club W",
    "hl": "https://media.api-sports.io/football/teams/1918.png",
    "al": "https://media.api-sports.io/football/teams/1905.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-22T18:00:00+00:00",
    "ev": [
     {
@@ -413,6 +582,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "C. Graham"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Pajor"
     }
    ]
   },
@@ -424,9 +601,9 @@
    "hl": "https://media.api-sports.io/football/teams/17788.png",
    "al": "https://media.api-sports.io/football/teams/24952.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-22T18:00:00+00:00",
    "ev": [
     {
@@ -444,6 +621,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -457,7 +642,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-22T18:00:00+00:00",
    "ev": [
     {
@@ -496,87 +681,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 76,
    "time": "2026-11-22T18:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1561739,
-   "league": "Poland - II Liga - East",
-   "home": "Zawisza Bydgoszcz",
-   "away": "Podhale Nowy Targ",
-   "hl": "https://media.api-sports.io/football/teams/13843.png",
-   "al": "https://media.api-sports.io/football/teams/12834.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Cywinski"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Seweryn"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Dziarkowski"
-    }
-   ]
-  },
-  {
-   "id": 1565307,
-   "league": "Romania - Liga I",
-   "home": "Arges Pitesti",
-   "away": "FCSB",
-   "hl": "https://media.api-sports.io/football/teams/2592.png",
-   "al": "https://media.api-sports.io/football/teams/559.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Dragus"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Oancea"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Boutoutaou"
-    }
-   ]
   },
   {
    "id": 1584075,
@@ -609,11 +716,11 @@
     },
     {
      "m": 45,
-     "x": 1,
+     "x": 12,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Andreas Voglsammer"
+     "d": "Red Card",
+     "p": "Florian Bohnert"
     },
     {
      "m": 45,
@@ -625,11 +732,11 @@
     },
     {
      "m": 45,
-     "x": 12,
+     "x": 1,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
-     "p": "Florian Bohnert"
+     "d": "Yellow Card",
+     "p": "Andreas Voglsammer"
     }
    ]
   },
