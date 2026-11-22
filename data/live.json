@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T01:10:11+03:00",
- "ts": 1795385411,
+ "updated": "2026-11-23T01:20:16+03:00",
+ "ts": 1795386016,
  "matches": [
   {
    "id": 1492466,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-22T21:30:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
@@ -55,41 +55,19 @@
    "away": "Acambaro",
    "hl": "https://media.api-sports.io/football/teams/22047.png",
    "al": "https://media.api-sports.io/football/teams/22051.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-22T22:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1639807,
-   "league": "Ecuador - Liga Pro",
-   "home": "LDU de Quito",
-   "away": "Aucas",
-   "hl": "https://media.api-sports.io/football/teams/1158.png",
-   "al": "https://media.api-sports.io/football/teams/1156.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T21:30:00+00:00",
    "ev": [
     {
-     "m": 23,
+     "m": 11,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Michael Carcelen"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ayrton Preciado"
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -101,9 +79,9 @@
    "hl": "https://media.api-sports.io/football/teams/2825.png",
    "al": "https://media.api-sports.io/football/teams/2813.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 36,
    "time": "2026-11-22T21:30:00+00:00",
    "ev": [
     {
@@ -121,6 +99,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Manenti"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Herrera"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Meza"
     }
    ]
   },
@@ -134,7 +128,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-22T22:00:00+00:00",
    "ev": []
   },
@@ -145,64 +139,144 @@
    "away": "Lanus",
    "hl": "https://media.api-sports.io/football/teams/435.png",
    "al": "https://media.api-sports.io/football/teams/446.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-22T22:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1650247,
-   "league": "Brazil - Serie B",
-   "home": "Atletico Goianiense",
-   "away": "Vila Nova",
-   "hl": "https://media.api-sports.io/football/teams/144.png",
-   "al": "https://media.api-sports.io/football/teams/142.png",
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T21:30:00+00:00",
+   "minute": 20,
+   "time": "2026-11-22T22:00:00+00:00",
    "ev": [
     {
-     "m": 5,
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Nicolás Otamendi"
+    },
+    {
+     "m": 15,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Nascimento Peixoto dos Santos"
+     "d": "Penalty",
+     "p": "Thiago Almada"
     }
    ]
   },
   {
-   "id": 1651119,
-   "league": "USA - Major League Soccer",
-   "home": "Nashville SC",
-   "away": "FC Cincinnati",
-   "hl": "https://media.api-sports.io/football/teams/9569.png",
-   "al": "https://media.api-sports.io/football/teams/2242.png",
-   "gh": 0,
-   "ga": 1,
+   "id": 1650215,
+   "league": "Venezuela - Segunda División",
+   "home": "Deportivo Lara",
+   "away": "Aragua FC",
+   "hl": "https://media.api-sports.io/football/teams/2812.png",
+   "al": "https://media.api-sports.io/football/teams/2817.png",
+   "gh": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
+   "minute": 19,
+   "time": "2026-11-22T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1505564,
+   "league": "Chile - Primera División",
+   "home": "Colo Colo",
+   "away": "U. Catolica",
+   "hl": "https://media.api-sports.io/football/teams/2315.png",
+   "al": "https://media.api-sports.io/football/teams/2994.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 4,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Patrick Yazbek"
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jeyson Rojas"
     },
     {
-     "m": 40,
+     "m": 9,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Miles Robinson"
+     "p": "Juan Ignacio Díaz"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Maximiliano Romero"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Álvaro Madrid"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Maximiliano Romero"
+    }
+   ]
+  },
+  {
+   "id": 1559709,
+   "league": "Guatemala - Liga Nacional",
+   "home": "Cobán Imperial",
+   "away": "Deportivo San Pedro",
+   "hl": "https://media.api-sports.io/football/teams/3657.png",
+   "al": "https://media.api-sports.io/football/teams/27883.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-22T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Navarro"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. De Leon"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "U. Amaral"
     }
    ]
   },
@@ -216,7 +290,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": []
   },
@@ -230,7 +304,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -290,10 +364,10 @@
    "away": "Trasandino",
    "hl": "https://media.api-sports.io/football/teams/18775.png",
    "al": "https://media.api-sports.io/football/teams/5646.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -329,12 +403,20 @@
      "p": "J. Mino"
     },
     {
-     "m": 47,
+     "m": 46,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "F. Duran"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "W. Cid"
     }
    ]
   },
@@ -346,11 +428,36 @@
    "hl": "https://media.api-sports.io/football/teams/1182.png",
    "al": "https://media.api-sports.io/football/teams/1187.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-22T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Nelson Ariel Gauto Castillo"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Axel Rolando Cañete Ortiz"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alan Tobias Morinigo"
+    }
+   ]
   },
   {
    "id": 1632067,
@@ -359,10 +466,10 @@
    "away": "Libertad Asuncion",
    "hl": "https://media.api-sports.io/football/teams/1185.png",
    "al": "https://media.api-sports.io/football/teams/1179.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -380,6 +487,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Brian Blasi"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marcelo Rubén Acosta Ríos"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mariano Darío Ramos"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Agustín Manzur"
     }
    ]
   },
@@ -393,7 +524,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
@@ -418,7 +549,70 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "K. Alvarez"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "E. Solano"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1645546,
+   "league": "Bolivia - Primera División",
+   "home": "The Strongest",
+   "away": "Blooming",
+   "hl": "https://media.api-sports.io/football/teams/3711.png",
+   "al": "https://media.api-sports.io/football/teams/3701.png",
+   "gh": 3,
+   "ga": 0,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-22T21:15:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Adrian Jusino"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Adrián Estacio"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Valverde"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Jaime Arrascaita"
     }
    ]
   },
@@ -432,7 +626,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-22T20:45:00+00:00",
    "ev": [
     {
@@ -473,7 +667,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "G. Prestianni"
+     "p": "C. Lenglet"
     },
     {
      "m": 51,
@@ -481,7 +675,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "C. Lenglet"
+     "p": "G. Prestianni"
     },
     {
      "m": 52,
@@ -497,7 +691,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Stopira"
     },
     {
      "m": 64,
@@ -505,140 +699,116 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "G. Prestianni"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
   },
   {
-   "id": 1505564,
-   "league": "Chile - Primera División",
-   "home": "Colo Colo",
-   "away": "U. Catolica",
-   "hl": "https://media.api-sports.io/football/teams/2315.png",
-   "al": "https://media.api-sports.io/football/teams/2994.png",
-   "gh": 1,
+   "id": 1639807,
+   "league": "Ecuador - Liga Pro",
+   "home": "LDU de Quito",
+   "away": "Aucas",
+   "hl": "https://media.api-sports.io/football/teams/1158.png",
+   "al": "https://media.api-sports.io/football/teams/1156.png",
+   "gh": 0,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-22T21:00:00+00:00",
+   "time": "2026-11-22T21:30:00+00:00",
    "ev": [
     {
-     "m": 4,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jeyson Rojas"
-    },
-    {
-     "m": 9,
+     "m": 23,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Juan Ignacio Díaz"
+     "p": "Michael Carcelen"
     },
     {
-     "m": 14,
+     "m": 37,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Maximiliano Romero"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Álvaro Madrid"
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ayrton Preciado"
     }
    ]
   },
   {
-   "id": 1559709,
-   "league": "Guatemala - Liga Nacional",
-   "home": "Cobán Imperial",
-   "away": "Deportivo San Pedro",
-   "hl": "https://media.api-sports.io/football/teams/3657.png",
-   "al": "https://media.api-sports.io/football/teams/27883.png",
+   "id": 1650247,
+   "league": "Brazil - Serie B",
+   "home": "Atletico Goianiense",
+   "away": "Vila Nova",
+   "hl": "https://media.api-sports.io/football/teams/144.png",
+   "al": "https://media.api-sports.io/football/teams/142.png",
    "gh": 1,
    "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T21:30:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Daniel Nascimento Peixoto dos Santos"
+    }
+   ]
+  },
+  {
+   "id": 1651119,
+   "league": "USA - Major League Soccer",
+   "home": "Nashville SC",
+   "away": "FC Cincinnati",
+   "hl": "https://media.api-sports.io/football/teams/9569.png",
+   "al": "https://media.api-sports.io/football/teams/2242.png",
+   "gh": 0,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
    "time": "2026-11-22T21:00:00+00:00",
    "ev": [
     {
-     "m": 27,
+     "m": 7,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Navarro"
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Patrick Yazbek"
     },
     {
      "m": 39,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "L. De Leon"
+     "p": "Miles Robinson"
     },
     {
      "m": 45,
      "x": 2,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1645546,
-   "league": "Bolivia - Primera División",
-   "home": "The Strongest",
-   "away": "Blooming",
-   "hl": "https://media.api-sports.io/football/teams/3711.png",
-   "al": "https://media.api-sports.io/football/teams/3701.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T21:15:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Adrian Jusino"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Patrick Yazbek"
     },
     {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Adrián Estacio"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Jaime Arrascaita"
-    },
-    {
-     "m": 22,
+     "m": 45,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Juan Valverde"
+     "p": "José Martínez"
     }
    ]
   }
