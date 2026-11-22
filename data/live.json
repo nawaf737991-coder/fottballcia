@@ -1,54 +1,7 @@
 {
- "updated": "2026-11-22T23:40:25+03:00",
- "ts": 1795380025,
+ "updated": "2026-11-22T23:48:05+03:00",
+ "ts": 1795380485,
  "matches": [
-  {
-   "id": 1549561,
-   "league": "Peru - Primera División",
-   "home": "Sport Huancayo",
-   "away": "Universitario",
-   "hl": "https://media.api-sports.io/football/teams/2555.png",
-   "al": "https://media.api-sports.io/football/teams/2540.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-22T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Javier Sanguinetti"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel porozo"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Javier Sanguinetti"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Javier Sanguinetti"
-    }
-   ]
-  },
   {
    "id": 1549562,
    "league": "Peru - Primera División",
@@ -59,7 +12,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -85,45 +38,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Neri Bandiera"
-    }
-   ]
-  },
-  {
-   "id": 1570026,
-   "league": "Spain - Segunda División",
-   "home": "Burgos",
-   "away": "Albacete",
-   "hl": "https://media.api-sports.io/football/teams/9580.png",
-   "al": "https://media.api-sports.io/football/teams/722.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Oier Luengo Redondo"
     },
     {
-     "m": 31,
+     "m": 43,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "José Gragera"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sergio Francisco Ramos"
+     "p": "Claudio Nuñez"
     }
    ]
   },
@@ -137,7 +59,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -173,12 +95,21 @@
    "away": "Palmacia",
    "hl": "https://media.api-sports.io/football/teams/18799.png",
    "al": "https://media.api-sports.io/football/teams/28317.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-22T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1640407,
@@ -187,10 +118,10 @@
    "away": "Uniclinic Atletico Clube",
    "hl": "https://media.api-sports.io/football/teams/26142.png",
    "al": "https://media.api-sports.io/football/teams/2229.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 36,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -208,8 +139,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
+  },
+  {
+   "id": 1647592,
+   "league": "Portugal - Taça de Portugal",
+   "home": "Torreense",
+   "away": "Benfica",
+   "hl": "https://media.api-sports.io/football/teams/4799.png",
+   "al": "https://media.api-sports.io/football/teams/211.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-22T20:45:00+00:00",
+   "ev": []
   },
   {
    "id": 1648335,
@@ -221,7 +182,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 34,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": []
   },
@@ -235,7 +196,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -258,7 +219,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 44,
    "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
@@ -274,7 +235,7 @@
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Normal Goal",
+     "d": "Penalty",
      "p": "G. Pereira"
     },
     {
@@ -297,7 +258,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 84,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -416,7 +377,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 59,
    "time": "2026-11-22T19:30:00+00:00",
    "ev": [
     {
@@ -442,6 +403,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "S. Navarro"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Navarro"
     }
    ]
   },
@@ -455,7 +424,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 47,
+   "minute": 54,
    "time": "2026-11-22T19:30:00+00:00",
    "ev": [
     {
@@ -505,6 +474,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "T. Pinto"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "C. Camacho"
     }
    ]
   },
@@ -518,7 +495,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -552,6 +529,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Robson Matheus"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Damian Batallini"
     }
    ]
   },
@@ -565,7 +550,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 54,
    "time": "2026-11-22T19:30:00+00:00",
    "ev": [
     {
@@ -604,7 +589,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 88,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -651,7 +636,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 78,
+   "minute": 86,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -698,7 +683,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 79,
    "time": "2026-11-22T19:00:00+00:00",
    "ev": [
     {
@@ -752,49 +737,49 @@
    ]
   },
   {
-   "id": 1650567,
-   "league": "Argentina - Primera C",
-   "home": "Estrella Del Sur",
-   "away": "Canuelas",
-   "hl": "https://media.api-sports.io/football/teams/23099.png",
-   "al": "https://media.api-sports.io/football/teams/1947.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T18:30:00+00:00",
+   "id": 1549561,
+   "league": "Peru - Primera División",
+   "home": "Sport Huancayo",
+   "away": "Universitario",
+   "hl": "https://media.api-sports.io/football/teams/2555.png",
+   "al": "https://media.api-sports.io/football/teams/2540.png",
+   "gh": 3,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T20:00:00+00:00",
    "ev": [
     {
-     "m": 43,
+     "m": 8,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Ibanez"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Arias"
-    },
-    {
-     "m": 90,
-     "x": 5,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "B. Gutierrez"
+     "p": "Javier Sanguinetti"
     },
     {
-     "m": 90,
-     "x": 7,
+     "m": 13,
+     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "L. Torres"
+     "p": "Daniel porozo"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Javier Sanguinetti"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Javier Sanguinetti"
     }
    ]
   },
@@ -865,6 +850,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Igor Paixão"
+    }
+   ]
+  },
+  {
+   "id": 1570026,
+   "league": "Spain - Segunda División",
+   "home": "Burgos",
+   "away": "Albacete",
+   "hl": "https://media.api-sports.io/football/teams/9580.png",
+   "al": "https://media.api-sports.io/football/teams/722.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Oier Luengo Redondo"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "José Gragera"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergio Francisco Ramos"
     }
    ]
   }
