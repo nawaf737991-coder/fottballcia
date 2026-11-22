@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install tools
-        run: pip install -q pillow arabic-reshaper python-bidi hijridate
+        run: pip install -q pillow arabic-reshaper python-bidi hijridate imageio-ffmpeg
       - name: Previews
         run: python3 -u previews.py
       - name: Show dry output

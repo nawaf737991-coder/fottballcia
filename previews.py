@@ -378,6 +378,36 @@ def body_html(facts, data):
     return "\n".join(p)
 
 
+def video_data(facts, data, ko):
+    pa = data.get("players_ar") or {}
+    tr = lambda n: pa.get(n) or n
+    kick = datetime.fromisoformat(facts["kickoff"])
+    return {
+        "home": data["home_ar"], "away": data["away_ar"], "league": facts["league"],
+        "when": f"{DAYS[ko.weekday()]} {ko.day} {MONTHS[ko.month - 1]} - {hm(ko)}",
+        "home_logo": facts.get("home_logo"), "away_logo": facts.get("away_logo"),
+        "channels": TV.get(facts["league_id"]) or [],
+        "times": [(n, hm(kick.astimezone(ZoneInfo(z)))) for n, z in ZONES],
+        "xi_home": [tr(n) for n in facts.get("home_xi") or []],
+        "xi_away": [tr(n) for n in facts.get("away_xi") or []],
+        "form_home": (facts.get("home_lineup") or {}).get("formation"),
+        "form_away": (facts.get("away_lineup") or {}).get("formation"),
+        "pred": data.get("predicted_score") or "",
+    }
+
+
+def make_tiktok(v, slug, fid, suffix=""):
+    """يرجع رابط الفيديو على GitHub Pages أو "" عند الفشل"""
+    try:
+        import tiktok
+        name = sp.image_name(slug, f"tk{fid}{suffix}").replace(".jpg", "-tiktok.mp4")
+        tiktok.make_video(os.path.join(ROOT, "img", name), v)
+        return sp.IMG_BASE + name
+    except Exception as e:
+        print("::warning::تعذر إنشاء فيديو تيك توك:", e, flush=True)
+        return ""
+
+
 def publish_preview(f, tbl, st):
     facts = collect(f, tbl)
     data = write(facts)
@@ -420,6 +450,8 @@ def publish_preview(f, tbl, st):
                 print("تعذر تحديث العنوان:", sp.why(e))
                 time.sleep(5)
     print("نُشر:", title, post.get("url", ""), flush=True)
+    tk = video_data(facts, data, ko)
+    vid = make_tiktok(tk, slug, facts["fid"])
     tw = None
     try:
         import x_post
@@ -435,7 +467,8 @@ def publish_preview(f, tbl, st):
     st["posts"].append({"fid": facts["fid"], "post_id": post["id"], "kickoff": facts["kickoff"],
                         "home_ar": H, "away_ar": A, "players_ar": data.get("players_ar") or {},
                         "published": datetime.now(sb.TZ).isoformat(timespec="seconds"), "official": False,
-                        "url": post.get("url", ""), "tweet": text, "tweet_id": tw, "img": img})
+                        "url": post.get("url", ""), "tweet": text, "tweet_id": tw, "img": img,
+                        "tk": tk, "video": vid})
 
 
 def update_official(st):
@@ -476,9 +509,26 @@ def update_official(st):
                 sb.update(e["post_id"], title, new)
                 print("تحدّثت التشكيلة الرسمية:", title, flush=True)
             e["official"] = True
+            if e.get("tk"):
+                e["tk"]["xi_title"] = "التشكيلة الرسمية"
+                e["tk"]["xi_home"] = [pa.get(n) or n for n in teams[0]["xi"] if n]
+                e["tk"]["xi_away"] = [pa.get(n) or n for n in teams[1]["xi"] if n]
+                e["tk"]["form_home"], e["tk"]["form_away"] = teams[0]["formation"], teams[1]["formation"]
+                nv = make_tiktok(e["tk"], sp.slug_words(e.get("url", "x y").split("/")[-1].replace("-", " ").replace(".html", ""), 10), e["fid"], "off")
+                if nv:
+                    e["video"] = nv
+                    e["video_official"] = True
         except Exception as ex:
             sp.check_billing(ex)
             print("فشل تحديث التشكيلة", e["fid"], sp.why(ex))
+
+
+def tiktok_caption(e):
+    try:
+        import tiktok
+        return tiktok.caption(e["tk"])
+    except Exception:
+        return ""
 
 
 def tweets_page(st):
@@ -499,7 +549,12 @@ def tweets_page(st):
             + f'<pre>{esc(e["tweet"])}</pre>'
             + (f'<button class="btn sh" data-img="{esc(e["img"])}" data-text="{esc(e["tweet"])}">📷 انشر مع الصورة</button>' if e.get("img") else "")
             + f'<a class="btn alt" href="{esc(x_post.intent(e["tweet"]))}" target="_blank" rel="noopener">انشر في X (نص فقط)</a>'
-            f'<a class="lnk" href="{esc(e.get("url", ""))}" target="_blank" rel="noopener">فتح المقال</a></div>')
+            + (('<div class="tk"><div class="tkh">🎵 تيك توك' + (' - بالتشكيلة الرسمية' if e.get("video_official") else '') + '</div>'
+                f'<video src="{esc(e["video"])}" controls playsinline preload="none" poster="{esc(e.get("img", ""))}"></video>'
+                f'<pre>{esc(tiktok_caption(e))}</pre>'
+                f'<button class="btn tkb sh" data-img="{esc(e["video"])}" data-type="video/mp4" data-name="match.mp4" data-text="{esc(tiktok_caption(e))}">🎵 انشر في تيك توك</button></div>')
+               if e.get("video") else "")
+            + f'<a class="lnk" href="{esc(e.get("url", ""))}" target="_blank" rel="noopener">فتح المقال</a></div>')
     page = ("<!doctype html><html lang='ar' dir='rtl'><head><meta charset='utf-8'>"
             "<meta name='viewport' content='width=device-width,initial-scale=1'><meta name='robots' content='noindex,nofollow'>"
             "<title>تغريدات جاهزة - عالم المستديرة</title><style>"
@@ -511,14 +566,16 @@ def tweets_page(st):
             ".btn{display:block;text-align:center;background:#000;color:#fff;text-decoration:none;font-weight:800;padding:12px;border-radius:10px;font-size:16px}"
             ".c img{width:100%;border-radius:10px;margin:0 0 8px;display:block}button.btn{width:100%;border:0;cursor:pointer;margin-bottom:8px;font-family:inherit}"
             ".alt{background:#fff;color:#000;border:2px solid #000}#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#0b6b3a;color:#fff;padding:10px 16px;border-radius:20px;display:none;font-size:14px}"
+            ".tk{border-top:1px dashed #d5dbe3;margin-top:12px;padding-top:12px}.tkh{font-weight:800;margin-bottom:8px}"
+            ".tk video{width:60%;display:block;margin:0 auto 8px;border-radius:12px;background:#000}.tkb{background:linear-gradient(90deg,#25f4ee,#fe2c55);color:#fff}"
             ".lnk{display:block;text-align:center;color:#1d5fd1;margin-top:8px;font-size:14px;text-decoration:none}"
             ".new,.old{font-size:12px;padding:3px 8px;border-radius:20px}.new{background:#d9f7e6;color:#0b6b3a}.old{background:#eee;color:#777}"
-            "</style></head><body><header>تغريدات جاهزة للمباريات الكبيرة<small>آخر تحديث: "
+            "</style></head><body><header>تغريدات وفيديوهات جاهزة للمباريات الكبيرة<small>آخر تحديث: "
             + now.strftime("%Y-%m-%d %H:%M") + " بتوقيت السعودية - اضغط «انشر في X» ثم «نشر»</small></header><div class='w'>"
             + ("".join(cards) or "<p>لا توجد تغريدات بعد.</p>") + "</div><div id='toast'>تم نسخ النص - الصقه في التغريدة إذا ما ظهر</div>"
             "<script>document.querySelectorAll('.sh').forEach(function(b){b.onclick=async function(){var t=b.dataset.text;"
             "try{await navigator.clipboard.writeText(t);var o=document.getElementById('toast');o.style.display='block';setTimeout(function(){o.style.display='none'},3500)}catch(e){}"
-            "try{var r=await fetch(b.dataset.img);var bl=await r.blob();var f=new File([bl],'match.jpg',{type:'image/jpeg'});"
+            "try{var r=await fetch(b.dataset.img);var bl=await r.blob();var f=new File([bl],b.dataset.name||'match.jpg',{type:b.dataset.type||'image/jpeg'});"
             "if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:t});return}}catch(e){if(e.name==='AbortError')return}"
             "window.open(b.dataset.img,'_blank')}})</script></body></html>")
     with open(os.path.join(ROOT, "tweets.html"), "w", encoding="utf-8") as f:
