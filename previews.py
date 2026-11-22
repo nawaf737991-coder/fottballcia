@@ -435,7 +435,7 @@ def publish_preview(f, tbl, st):
     st["posts"].append({"fid": facts["fid"], "post_id": post["id"], "kickoff": facts["kickoff"],
                         "home_ar": H, "away_ar": A, "players_ar": data.get("players_ar") or {},
                         "published": datetime.now(sb.TZ).isoformat(timespec="seconds"), "official": False,
-                        "url": post.get("url", ""), "tweet": text, "tweet_id": tw})
+                        "url": post.get("url", ""), "tweet": text, "tweet_id": tw, "img": img})
 
 
 def update_official(st):
@@ -481,6 +481,50 @@ def update_official(st):
             print("فشل تحديث التشكيلة", e["fid"], sp.why(ex))
 
 
+def tweets_page(st):
+    """صفحة خاصة (غير مفهرسة) فيها تغريدات جاهزة: ضغطة وحدة وتنشر"""
+    import x_post
+    now = datetime.now(sb.TZ)
+    items = [e for e in st["posts"] if e.get("tweet")][-30:][::-1]
+    cards = []
+    for e in items:
+        ko = datetime.fromisoformat(e["kickoff"]).astimezone(ZoneInfo("Asia/Riyadh"))
+        past = ko < now
+        when = f"{DAYS[ko.weekday()]} {ko.day} {MONTHS[ko.month - 1]} - {hm(ko)}"
+        badge = '<span class="old">انتهت</span>' if past else '<span class="new">قادمة</span>'
+        cards.append(
+            f'<div class="c{" past" if past else ""}"><div class="h"><b>{esc(e.get("home_ar", ""))} × {esc(e.get("away_ar", ""))}</b>{badge}</div>'
+            f'<div class="t">{esc(when)}</div>'
+            + (f'<img src="{esc(e["img"])}" alt="" loading="lazy">' if e.get("img") else "")
+            + f'<pre>{esc(e["tweet"])}</pre>'
+            + (f'<button class="btn sh" data-img="{esc(e["img"])}" data-text="{esc(e["tweet"])}">📷 انشر مع الصورة</button>' if e.get("img") else "")
+            + f'<a class="btn alt" href="{esc(x_post.intent(e["tweet"]))}" target="_blank" rel="noopener">انشر في X (نص فقط)</a>'
+            f'<a class="lnk" href="{esc(e.get("url", ""))}" target="_blank" rel="noopener">فتح المقال</a></div>')
+    page = ("<!doctype html><html lang='ar' dir='rtl'><head><meta charset='utf-8'>"
+            "<meta name='viewport' content='width=device-width,initial-scale=1'><meta name='robots' content='noindex,nofollow'>"
+            "<title>تغريدات جاهزة - عالم المستديرة</title><style>"
+            "body{margin:0;background:#eef2f7;font-family:system-ui,-apple-system,Segoe UI,Tahoma,sans-serif;color:#0f2340}"
+            "header{background:#0f2340;color:#fff;padding:18px 16px;font-size:20px;font-weight:800}header small{display:block;font-weight:400;opacity:.8;font-size:13px;margin-top:4px}"
+            ".w{max-width:640px;margin:0 auto;padding:12px}.c{background:#fff;border-radius:14px;padding:14px;margin:0 0 12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}"
+            ".past{opacity:.55}.h{display:flex;justify-content:space-between;align-items:center;font-size:17px}.t{color:#5b6b80;font-size:13px;margin:4px 0 8px}"
+            "pre{white-space:pre-wrap;font-family:inherit;background:#f5f7fa;border-radius:10px;padding:10px;font-size:14px;margin:0 0 10px;direction:rtl}"
+            ".btn{display:block;text-align:center;background:#000;color:#fff;text-decoration:none;font-weight:800;padding:12px;border-radius:10px;font-size:16px}"
+            ".c img{width:100%;border-radius:10px;margin:0 0 8px;display:block}button.btn{width:100%;border:0;cursor:pointer;margin-bottom:8px;font-family:inherit}"
+            ".alt{background:#fff;color:#000;border:2px solid #000}#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#0b6b3a;color:#fff;padding:10px 16px;border-radius:20px;display:none;font-size:14px}"
+            ".lnk{display:block;text-align:center;color:#1d5fd1;margin-top:8px;font-size:14px;text-decoration:none}"
+            ".new,.old{font-size:12px;padding:3px 8px;border-radius:20px}.new{background:#d9f7e6;color:#0b6b3a}.old{background:#eee;color:#777}"
+            "</style></head><body><header>تغريدات جاهزة للمباريات الكبيرة<small>آخر تحديث: "
+            + now.strftime("%Y-%m-%d %H:%M") + " بتوقيت السعودية - اضغط «انشر في X» ثم «نشر»</small></header><div class='w'>"
+            + ("".join(cards) or "<p>لا توجد تغريدات بعد.</p>") + "</div><div id='toast'>تم نسخ النص - الصقه في التغريدة إذا ما ظهر</div>"
+            "<script>document.querySelectorAll('.sh').forEach(function(b){b.onclick=async function(){var t=b.dataset.text;"
+            "try{await navigator.clipboard.writeText(t);var o=document.getElementById('toast');o.style.display='block';setTimeout(function(){o.style.display='none'},3500)}catch(e){}"
+            "try{var r=await fetch(b.dataset.img);var bl=await r.blob();var f=new File([bl],'match.jpg',{type:'image/jpeg'});"
+            "if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:t});return}}catch(e){if(e.name==='AbortError')return}"
+            "window.open(b.dataset.img,'_blank')}})</script></body></html>")
+    with open(os.path.join(ROOT, "tweets.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+
 def main():
     st = load()
     try:
@@ -507,6 +551,10 @@ def main():
     finally:
         if not DRY:
             save(st)
+            try:
+                tweets_page(st)
+            except Exception as e:
+                print("تعذر تحديث صفحة التغريدات:", e)
 
 
 if __name__ == "__main__":
