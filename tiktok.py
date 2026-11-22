@@ -152,7 +152,7 @@ def slide_pred(v):
     d.text((VW / 2, 560), sc, font=C._font(C.FONT_BOLD, 110), fill=C.TEXT, anchor="mm")
     _center(d, 760, "وش توقعك أنت؟ اكتبه في التعليقات", 40, C.TEXT)
     _pill(d, 930, "التفاصيل كاملة على عالم المستديرة", 36)
-    _center(d, 1040, "الرابط في البايو", 40, C.ACCENT)
+    _center(d, 1040, "ابحث في قوقل: عالم المستديرة", 38, C.ACCENT)
     return img
 
 
@@ -197,7 +197,7 @@ def caption(v):
     tags = " ".join(t for t in (_tag(v["home"]), _tag(v["away"]), _tag(v["league"]), "#كرة_القدم", "#عالم_المستديرة", "#اكسبلور") if t)
     return (f"{v['home']} × {v['away']} 🔥\n{v['league']} - {v['when']}\n"
             "القنوات الناقلة والتشكيلة المتوقعة وتوقعنا 👆 وش توقعك؟\n"
-            "التفاصيل كاملة على موقع عالم المستديرة (الرابط في البايو)\n" + tags)
+            "التفاصيل كاملة على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n" + tags)
 
 
 def _tag(s):

@@ -99,7 +99,7 @@ def slide_cta(v):
     _score_row(img, d, v, 450, v["gh"], v["ga"], 95, 120)
     T._center(d, 680, "التقرير الكامل والإحصائيات", 52, C.TEXT)
     T._pill(d, 820, "على موقع عالم المستديرة", 40)
-    T._center(d, 950, "الرابط في البايو", 42, C.ACCENT)
+    T._center(d, 950, "ابحث في قوقل: عالم المستديرة", 40, C.ACCENT)
     T._center(d, 1060, "وش رأيك في النتيجة؟ اكتبه في التعليقات", 36, C.TEXT)
     return img
 
@@ -126,7 +126,7 @@ def caption(v):
     sc = "، ".join(dict.fromkeys(g["player"] for g in v.get("goals") or [] if g.get("kind") != "هدف عكسي" and g.get("player")))
     return (f"{v['home']} {v['gh']}-{v['ga']} {v['away']} ⚽\n{v['league']}\n"
             + (f"الأهداف: {sc}\n" if sc else "")
-            + "وش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة (الرابط في البايو)\n" + tags)
+            + "وش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n" + tags)
 
 
 if __name__ == "__main__":
