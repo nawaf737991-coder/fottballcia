@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T15:20:29+03:00",
- "ts": 1795436429,
+ "updated": "2026-11-23T15:30:12+03:00",
+ "ts": 1795437012,
  "matches": [
   {
    "id": 1551492,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": [
     {
@@ -21,6 +21,14 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
@@ -49,7 +57,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
@@ -63,32 +71,9 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1647894,
-   "league": "Iran - Azadegan League",
-   "home": "Mes Soongoun",
-   "away": "Ario Eslamshahr",
-   "hl": "https://media.api-sports.io/football/teams/22236.png",
-   "al": "https://media.api-sports.io/football/teams/20801.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T11:30:00+00:00",
-   "ev": [
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1527752,
@@ -100,7 +85,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -126,6 +111,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -139,7 +132,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -186,7 +179,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 63,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -200,7 +193,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 69,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -217,6 +210,52 @@
    "minute": 90,
    "time": "2026-11-23T10:30:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1565529,
+   "league": "Ukraine - Premier League",
+   "home": "Chornomorets",
+   "away": "Epitsentr Dunayivtsi",
+   "hl": "https://media.api-sports.io/football/teams/3615.png",
+   "al": "https://media.api-sports.io/football/teams/14434.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Igor Kyryukhantsev"
+    }
+   ]
+  },
+  {
+   "id": 1647894,
+   "league": "Iran - Azadegan League",
+   "home": "Mes Soongoun",
+   "away": "Ario Eslamshahr",
+   "hl": "https://media.api-sports.io/football/teams/22236.png",
+   "al": "https://media.api-sports.io/football/teams/20801.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T11:30:00+00:00",
+   "ev": [
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651435,
