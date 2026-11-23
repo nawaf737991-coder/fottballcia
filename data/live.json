@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-23T03:20:20+03:00",
- "ts": 1795393220,
+ "updated": "2026-11-23T03:30:22+03:00",
+ "ts": 1795393822,
  "matches": [
-  {
-   "id": 1649493,
-   "league": "USA - Major League Soccer",
-   "home": "Chicago Fire",
-   "away": "Charlotte",
-   "hl": "https://media.api-sports.io/football/teams/1607.png",
-   "al": "https://media.api-sports.io/football/teams/18310.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T23:30:00+00:00",
-   "ev": []
-  },
   {
    "id": 1650243,
    "league": "Argentina - Primera Nacional",
@@ -26,72 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1492464,
-   "league": "Brazil - Serie A",
-   "home": "RB Bragantino",
-   "away": "Vasco DA Gama",
-   "hl": "https://media.api-sports.io/football/teams/794.png",
-   "al": "https://media.api-sports.io/football/teams/133.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-22T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gabriel Pereira"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juninho Capixaba"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Eduardo Sasha"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alix Vinicius"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Paulo Henrique"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wallace Yan"
-    }
-   ]
   },
   {
    "id": 1551045,
@@ -103,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -129,6 +52,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Carlos Rotondi"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fernando González"
     }
    ]
   },
@@ -142,7 +73,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -197,7 +128,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -223,37 +154,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Portillo"
-    }
-   ]
-  },
-  {
-   "id": 1650520,
-   "league": "Argentina - Torneo Federal A",
-   "home": "Sarmiento de La Banda",
-   "away": "Cipolletti",
-   "hl": "https://media.api-sports.io/football/teams/23255.png",
-   "al": "https://media.api-sports.io/football/teams/1949.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-22T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     },
     {
-     "m": 78,
+     "m": 53,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "C. Bennett"
     }
    ]
   },
@@ -265,9 +173,9 @@
    "hl": "https://media.api-sports.io/football/teams/2885.png",
    "al": "https://media.api-sports.io/football/teams/2883.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -301,6 +209,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Hernandez"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -349,7 +265,7 @@
      "p": "Enrique Triverio"
     },
     {
-     "m": 21,
+     "m": 17,
      "x": null,
      "s": "a",
      "t": "Var",
@@ -373,6 +289,20 @@
      "p": "Cristian Ricaldez Rojas"
     }
    ]
+  },
+  {
+   "id": 1649493,
+   "league": "USA - Major League Soccer",
+   "home": "Chicago Fire",
+   "away": "Charlotte",
+   "hl": "https://media.api-sports.io/football/teams/1607.png",
+   "al": "https://media.api-sports.io/football/teams/18310.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T23:30:00+00:00",
+   "ev": []
   }
  ]
 }
