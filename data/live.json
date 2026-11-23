@@ -1,7 +1,38 @@
 {
- "updated": "2026-11-23T12:40:22+03:00",
- "ts": 1795426822,
+ "updated": "2026-11-23T12:50:28+03:00",
+ "ts": 1795427428,
  "matches": [
+  {
+   "id": 1634863,
+   "league": "Myanmar - National League",
+   "home": "GFA",
+   "away": "Ayeyawady United",
+   "hl": "https://media.api-sports.io/football/teams/12533.png",
+   "al": "https://media.api-sports.io/football/teams/12523.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-23T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. M. Thant T."
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1634862,
    "league": "Myanmar - National League",
@@ -9,10 +40,10 @@
    "away": "Hantharwady United",
    "hl": "https://media.api-sports.io/football/teams/28338.png",
    "al": "https://media.api-sports.io/football/teams/12525.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-23T09:00:00+00:00",
    "ev": [
     {
@@ -22,22 +53,16 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Khant Myat Kaung"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Rodrigues"
     }
    ]
-  },
-  {
-   "id": 1634863,
-   "league": "Myanmar - National League",
-   "home": "GFA",
-   "away": "Ayeyawady United",
-   "hl": "https://media.api-sports.io/football/teams/12533.png",
-   "al": "https://media.api-sports.io/football/teams/12523.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-23T09:30:00+00:00",
-   "ev": []
   }
  ]
 }
