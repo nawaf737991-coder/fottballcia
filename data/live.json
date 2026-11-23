@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T22:20:13+03:00",
- "ts": 1795461613,
+ "updated": "2026-11-23T22:30:18+03:00",
+ "ts": 1795462218,
  "matches": [
   {
    "id": 1551875,
@@ -12,17 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Solomon Bonnah"
-    },
     {
      "m": 16,
      "x": null,
@@ -30,6 +22,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Julian kania"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Solomon Bonnah"
     }
    ]
   },
@@ -43,9 +43,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Jabou Abdalla"
+    }
+   ]
   },
   {
    "id": 1551886,
@@ -55,9 +64,9 @@
    "hl": "https://media.api-sports.io/football/teams/411.png",
    "al": "https://media.api-sports.io/football/teams/428.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -67,8 +76,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Amir Bouhamdi"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jaygo van Ommeren"
     }
    ]
+  },
+  {
+   "id": 1570029,
+   "league": "Spain - Segunda División",
+   "home": "AD Ceuta FC",
+   "away": "Almeria",
+   "hl": "https://media.api-sports.io/football/teams/10139.png",
+   "al": "https://media.api-sports.io/football/teams/723.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-23T19:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1573653,
@@ -80,9 +111,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bicho"
+    }
+   ]
   },
   {
    "id": 1627073,
@@ -94,7 +134,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": []
   },
@@ -106,9 +146,9 @@
    "hl": "https://media.api-sports.io/football/teams/20000.png",
    "al": "https://media.api-sports.io/football/teams/7195.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -126,6 +166,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Ndimukum"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Carr"
     }
    ]
   },
@@ -136,12 +184,21 @@
    "away": "West Ham United U21",
    "hl": "https://media.api-sports.io/football/teams/7191.png",
    "al": "https://media.api-sports.io/football/teams/7203.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-23T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Palmer"
+    }
+   ]
   },
   {
    "id": 1627130,
@@ -153,7 +210,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": []
   },
@@ -167,7 +224,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -190,7 +247,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": []
   },
@@ -204,7 +261,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -230,45 +287,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Juan Pablo Gómez Perez"
-    }
-   ]
-  },
-  {
-   "id": 1650568,
-   "league": "Argentina - Primera C",
-   "home": "Sportivo Barracas",
-   "away": "Berazategui",
-   "hl": "https://media.api-sports.io/football/teams/1931.png",
-   "al": "https://media.api-sports.io/football/teams/8382.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 44,
-   "time": "2026-11-23T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Mino"
     },
     {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "N. Durruty"
-    },
-    {
-     "m": 27,
+     "m": 28,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Duarte"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Gil"
     }
    ]
   },
@@ -282,7 +308,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -335,9 +361,9 @@
    "hl": "https://media.api-sports.io/football/teams/2166.png",
    "al": "https://media.api-sports.io/football/teams/374.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -379,6 +405,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Victor Larsson"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marius Soderback"
     }
    ]
   },
@@ -392,7 +426,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -436,10 +470,10 @@
    "away": "Motor Lublin",
    "hl": "https://media.api-sports.io/football/teams/17115.png",
    "al": "https://media.api-sports.io/football/teams/14562.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -489,6 +523,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Matúš Vojtko"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "José Antonio de la Rosa Garrido"
     }
    ]
   },
@@ -502,7 +544,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 58,
+   "minute": 69,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -538,10 +580,10 @@
    "away": "First Vienna W",
    "hl": "https://media.api-sports.io/football/teams/17575.png",
    "al": "https://media.api-sports.io/football/teams/17576.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -559,6 +601,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Havel"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Sisic"
     }
    ]
   },
@@ -572,7 +622,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -586,18 +636,18 @@
     {
      "m": 40,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Zougrana"
-    },
-    {
-     "m": 40,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Messaoudi"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Zougrana"
     }
    ]
   },
@@ -611,7 +661,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -645,6 +695,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mostafa Fathi"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Walid El Karti"
     }
    ]
   },
@@ -658,7 +716,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -668,6 +726,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Muhannad Al-Shanqeeti"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "George Ilenikhena"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Akmal Mozgovoy"
     }
    ]
   },
@@ -678,10 +752,10 @@
    "away": "Al-Gharafa",
    "hl": "https://media.api-sports.io/football/teams/8009.png",
    "al": "https://media.api-sports.io/football/teams/2903.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -707,6 +781,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mohammed Salih"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Murad Subeh"
     }
    ]
   },
@@ -754,6 +836,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Bardos"
+    }
+   ]
+  },
+  {
+   "id": 1650568,
+   "league": "Argentina - Primera C",
+   "home": "Sportivo Barracas",
+   "away": "Berazategui",
+   "hl": "https://media.api-sports.io/football/teams/1931.png",
+   "al": "https://media.api-sports.io/football/teams/8382.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Mino"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "N. Durruty"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Duarte"
     }
    ]
   }
