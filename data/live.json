@@ -1,86 +1,7 @@
 {
- "updated": "2026-11-23T06:00:10+03:00",
- "ts": 1795402810,
+ "updated": "2026-11-23T06:10:13+03:00",
+ "ts": 1795403413,
  "matches": [
-  {
-   "id": 1551046,
-   "league": "Mexico - Liga MX",
-   "home": "Club Queretaro",
-   "away": "Necaxa",
-   "hl": "https://media.api-sports.io/football/teams/2290.png",
-   "al": "https://media.api-sports.io/football/teams/2288.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T01:10:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ali Ávila"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Miguel Rodriguez"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Iker Benito Sánchez"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Red card cancelled",
-     "p": "Lucas Abascia"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Abascia"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Enzo Giménez"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Diego Reyes"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Julián Carranza"
-    }
-   ]
-  },
   {
    "id": 1559712,
    "league": "Guatemala - Liga Nacional",
@@ -91,7 +12,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -138,7 +59,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -188,6 +109,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "O. Almendarez"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Andino"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -201,7 +138,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -243,6 +180,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Oliver Love Larraz"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pablo Andrés Mastroeni"
     }
    ]
   }
