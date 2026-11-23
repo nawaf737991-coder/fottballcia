@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T14:20:27+03:00",
- "ts": 1795432827,
+ "updated": "2026-11-23T14:30:32+03:00",
+ "ts": 1795433432,
  "matches": [
   {
    "id": 1527752,
@@ -10,13 +10,21 @@
    "hl": "https://media.api-sports.io/football/teams/12270.png",
    "al": "https://media.api-sports.io/football/teams/8012.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
      "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": null
+    },
+    {
+     "m": 20,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -49,7 +57,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -59,6 +67,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gennadiy Pasich"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eduard Sarapiy"
     }
    ]
   },
@@ -72,7 +88,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -86,64 +102,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1634863,
-   "league": "Myanmar - National League",
-   "home": "GFA",
-   "away": "Ayeyawady United",
-   "hl": "https://media.api-sports.io/football/teams/12533.png",
-   "al": "https://media.api-sports.io/football/teams/12523.png",
-   "gh": 2,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. M. Thant T."
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Anane"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Top"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Van Hming"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Z. Ko"
-    }
-   ]
   },
   {
    "id": 1646789,
@@ -152,10 +113,10 @@
    "away": "Kibera Soccer",
    "hl": "https://media.api-sports.io/football/teams/17897.png",
    "al": "https://media.api-sports.io/football/teams/25751.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T10:00:00+00:00",
    "ev": []
   }
