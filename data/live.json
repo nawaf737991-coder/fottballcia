@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-23T17:30:14+03:00",
- "ts": 1795444214,
+ "updated": "2026-11-23T17:40:19+03:00",
+ "ts": 1795444819,
  "matches": [
+  {
+   "id": 1546170,
+   "league": "World - World Cup - U17",
+   "home": "Italy U17",
+   "away": "Côte d'Ivoire U17",
+   "hl": "https://media.api-sports.io/football/teams/12510.png",
+   "al": "https://media.api-sports.io/football/teams/25818.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T14:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1569434,
    "league": "Italy - Campionato Primavera - 1",
@@ -12,7 +26,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -35,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -49,49 +63,89 @@
    ]
   },
   {
-   "id": 1629975,
-   "league": "World - AFC Champions League Elite",
-   "home": "Neftchi",
-   "away": "Al-Hilal Saudi FC",
-   "hl": "https://media.api-sports.io/football/teams/4217.png",
-   "al": "https://media.api-sports.io/football/teams/2932.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T13:45:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ollie Watkins"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gabriel Martinelli"
-    }
-   ]
-  },
-  {
-   "id": 1647897,
-   "league": "Iran - Azadegan League",
-   "home": "Shenavarsazi Qeshm",
-   "away": "Naft Gachsaran",
-   "hl": "https://media.api-sports.io/football/teams/22890.png",
-   "al": "https://media.api-sports.io/football/teams/10399.png",
+   "id": 1604064,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Jeel",
+   "away": "Al Saqer",
+   "hl": "https://media.api-sports.io/football/teams/2955.png",
+   "al": "https://media.api-sports.io/football/teams/27480.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 44,
-   "time": "2026-11-23T13:45:00+00:00",
+   "minute": 10,
+   "time": "2026-11-23T14:30:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1546176,
+   "league": "World - World Cup - U17",
+   "home": "Senegal U17",
+   "away": "Cuba U17",
+   "hl": "https://media.api-sports.io/football/teams/12518.png",
+   "al": "https://media.api-sports.io/football/teams/20991.png",
+   "gh": 6,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-23T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Dione"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Faye"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Gonzalez"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Ndiaye"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Mbodji"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Dione"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Konte"
+    }
+   ]
   },
   {
    "id": 1546182,
@@ -100,10 +154,10 @@
    "away": "Jamaica U17",
    "hl": "https://media.api-sports.io/football/teams/21446.png",
    "al": "https://media.api-sports.io/football/teams/20998.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 79,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -169,6 +223,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Sadirdjanov"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "O. White"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Erkinov"
     }
    ]
   },
@@ -182,7 +252,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -221,7 +291,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -244,32 +314,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-23T12:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1642132,
-   "league": "Oman - Professional League",
-   "home": "Saham",
-   "away": "Oman Club",
-   "hl": "https://media.api-sports.io/football/teams/5335.png",
-   "al": "https://media.api-sports.io/football/teams/5334.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-23T12:40:00+00:00",
-   "ev": [
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1646633,
@@ -281,7 +328,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -320,7 +367,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -343,7 +390,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -374,7 +421,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -421,7 +468,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -444,7 +491,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": []
   },
@@ -458,7 +505,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -481,7 +528,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -512,7 +559,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -551,7 +598,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -571,7 +618,7 @@
      "p": "M. Mersni"
     },
     {
-     "m": 70,
+     "m": 68,
      "x": null,
      "s": "h",
      "t": "Card",
@@ -587,10 +634,10 @@
    "away": "CO Medenine",
    "hl": "https://media.api-sports.io/football/teams/10624.png",
    "al": "https://media.api-sports.io/football/teams/982.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
@@ -608,71 +655,61 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Fazzani"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Meddeb"
     }
    ]
   },
   {
-   "id": 1546176,
-   "league": "World - World Cup - U17",
-   "home": "Senegal U17",
-   "away": "Cuba U17",
-   "hl": "https://media.api-sports.io/football/teams/12518.png",
-   "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 5,
-   "ga": 0,
+   "id": 1629975,
+   "league": "World - AFC Champions League Elite",
+   "home": "Neftchi",
+   "away": "Al-Hilal Saudi FC",
+   "hl": "https://media.api-sports.io/football/teams/4217.png",
+   "al": "https://media.api-sports.io/football/teams/2932.png",
+   "gh": 0,
+   "ga": 2,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-23T13:30:00+00:00",
+   "time": "2026-11-23T13:45:00+00:00",
    "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Dione"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Faye"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Gonzalez"
-    },
     {
      "m": 21,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "S. Ndiaye"
+     "p": "Ollie Watkins"
     },
     {
-     "m": 24,
+     "m": 28,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "S. Mbodji"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Dione"
+     "p": "Gabriel Martinelli"
     }
    ]
+  },
+  {
+   "id": 1647897,
+   "league": "Iran - Azadegan League",
+   "home": "Shenavarsazi Qeshm",
+   "away": "Naft Gachsaran",
+   "hl": "https://media.api-sports.io/football/teams/22890.png",
+   "al": "https://media.api-sports.io/football/teams/10399.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T13:45:00+00:00",
+   "ev": []
   }
  ]
 }
