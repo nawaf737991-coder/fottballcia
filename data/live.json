@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T16:00:25+03:00",
- "ts": 1795438825,
+ "updated": "2026-11-23T16:10:27+03:00",
+ "ts": 1795439427,
  "matches": [
   {
    "id": 1546178,
@@ -9,10 +9,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/12520.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 6,
+   "gh": 7,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -62,6 +62,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "G. Trujillano"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Tomas"
     }
    ]
   },
@@ -75,7 +83,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -113,6 +121,51 @@
    ]
   },
   {
+   "id": 1546182,
+   "league": "World - World Cup - U17",
+   "home": "Uzbekistan U17",
+   "away": "Jamaica U17",
+   "hl": "https://media.api-sports.io/football/teams/21446.png",
+   "al": "https://media.api-sports.io/football/teams/20998.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Brown"
+    },
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Abduraimov"
+    }
+   ]
+  },
+  {
+   "id": 1559009,
+   "league": "Slovenia - 2. SNL",
+   "home": "Bistrica",
+   "away": "Krka",
+   "hl": "https://media.api-sports.io/football/teams/6718.png",
+   "al": "https://media.api-sports.io/football/teams/4375.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1571629,
    "league": "Bulgaria - Second League",
    "home": "CSKA Sofia II",
@@ -122,7 +175,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -153,7 +206,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": []
   },
@@ -165,9 +218,9 @@
    "hl": "https://media.api-sports.io/football/teams/3319.png",
    "al": "https://media.api-sports.io/football/teams/3322.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -177,8 +230,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Beshiraj"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Marku"
     }
    ]
+  },
+  {
+   "id": 1636994,
+   "league": "Greece - Super League 2",
+   "home": "PAOK II",
+   "away": "Niki Volos",
+   "hl": "https://media.api-sports.io/football/teams/18018.png",
+   "al": "https://media.api-sports.io/football/teams/5056.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1636995,
@@ -190,7 +265,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-23T12:45:00+00:00",
    "ev": []
   },
@@ -204,8 +279,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T12:40:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1646633,
+   "league": "India - I-League",
+   "home": "Real Kashmir",
+   "away": "Dempo",
+   "hl": "https://media.api-sports.io/football/teams/3469.png",
+   "al": "https://media.api-sports.io/football/teams/21131.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T13:00:00+00:00",
    "ev": []
   },
   {
@@ -215,11 +304,81 @@
    "away": "Spitfire FC",
    "hl": "https://media.api-sports.io/football/teams/28565.png",
    "al": "https://media.api-sports.io/football/teams/28563.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 40,
+   "time": "2026-11-23T12:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647896,
+   "league": "Iran - Azadegan League",
+   "home": "Novin Ahvaz",
+   "away": "Mes Rafsanjan",
+   "hl": "https://media.api-sports.io/football/teams/28321.png",
+   "al": "https://media.api-sports.io/football/teams/2706.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
-   "time": "2026-11-23T12:30:00+00:00",
+   "minute": 9,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649974,
+   "league": "Tunisia - Ligue 2",
+   "home": "Bouchamma",
+   "away": "Olympique du Kef",
+   "hl": "https://media.api-sports.io/football/teams/10643.png",
+   "al": "https://media.api-sports.io/football/teams/13357.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649975,
+   "league": "Tunisia - Ligue 2",
+   "home": "BS Bouhajla",
+   "away": "M'saken",
+   "hl": "https://media.api-sports.io/football/teams/10599.png",
+   "al": "https://media.api-sports.io/football/teams/10620.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649976,
+   "league": "Tunisia - Ligue 2",
+   "home": "EM Mahdia",
+   "away": "CS Chebba",
+   "hl": "https://media.api-sports.io/football/teams/10605.png",
+   "al": "https://media.api-sports.io/football/teams/6252.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649977,
+   "league": "Tunisia - Ligue 2",
+   "home": "Kerkennah",
+   "away": "AS Gabes",
+   "hl": "https://media.api-sports.io/football/teams/10616.png",
+   "al": "https://media.api-sports.io/football/teams/987.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T13:00:00+00:00",
    "ev": []
   },
   {
@@ -232,7 +391,35 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649979,
+   "league": "Tunisia - Ligue 2",
+   "home": "Stade Soussien",
+   "away": "AS Soliman",
+   "hl": "https://media.api-sports.io/football/teams/28398.png",
+   "al": "https://media.api-sports.io/football/teams/6253.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649980,
+   "league": "Tunisia - Ligue 2",
+   "home": "US Tataouine",
+   "away": "Mégrine",
+   "hl": "https://media.api-sports.io/football/teams/1190.png",
+   "al": "https://media.api-sports.io/football/teams/20846.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
    "time": "2026-11-23T13:00:00+00:00",
    "ev": []
   },
@@ -244,9 +431,9 @@
    "hl": "https://media.api-sports.io/football/teams/609.png",
    "al": "https://media.api-sports.io/football/teams/4331.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": [
     {
@@ -264,6 +451,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -277,7 +472,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -299,64 +494,31 @@
    ]
   },
   {
-   "id": 1565535,
-   "league": "Ukraine - Premier League",
-   "home": "LNZ Cherkasy",
-   "away": "Polessya",
-   "hl": "https://media.api-sports.io/football/teams/17161.png",
-   "al": "https://media.api-sports.io/football/teams/6496.png",
+   "id": 1646787,
+   "league": "Kenya - Super League",
+   "home": "Kibera Black Stars",
+   "away": "Naivas",
+   "hl": "https://media.api-sports.io/football/teams/2497.png",
+   "al": "https://media.api-sports.io/football/teams/19488.png",
    "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gennadiy Pasich"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Eduard Sarapiy"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Papa Ndiaga Yade"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Vladyslav Veleten"
-    }
-   ]
-  },
-  {
-   "id": 1629483,
-   "league": "Turkey - U19 league",
-   "home": "İstanbul Başakşehir U19",
-   "away": "Corum U19",
-   "hl": "https://media.api-sports.io/football/teams/16397.png",
-   "al": "https://media.api-sports.io/football/teams/28242.png",
-   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T11:00:00+00:00",
+   "minute": 47,
+   "time": "2026-11-23T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1646788,
+   "league": "Kenya - Super League",
+   "home": "Nzoia Sugar",
+   "away": "Mfalme",
+   "hl": "https://media.api-sports.io/football/teams/2469.png",
+   "al": "https://media.api-sports.io/football/teams/27732.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
   {
@@ -369,7 +531,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T11:30:00+00:00",
    "ev": [
     {
@@ -390,9 +552,9 @@
    "hl": "https://media.api-sports.io/football/teams/28730.png",
    "al": "https://media.api-sports.io/football/teams/28725.png",
    "gh": 3,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T11:30:00+00:00",
    "ev": []
   },
@@ -404,34 +566,6 @@
    "hl": "https://media.api-sports.io/football/teams/26663.png",
    "al": "https://media.api-sports.io/football/teams/2487.png",
    "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646787,
-   "league": "Kenya - Super League",
-   "home": "Kibera Black Stars",
-   "away": "Naivas",
-   "hl": "https://media.api-sports.io/football/teams/2497.png",
-   "al": "https://media.api-sports.io/football/teams/19488.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646788,
-   "league": "Kenya - Super League",
-   "home": "Nzoia Sugar",
-   "away": "Mfalme",
-   "hl": "https://media.api-sports.io/football/teams/2469.png",
-   "al": "https://media.api-sports.io/football/teams/27732.png",
-   "gh": 1,
    "ga": 0,
    "status": "HT",
    "minute": 45,
