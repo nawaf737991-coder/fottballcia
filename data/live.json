@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T19:00:27+03:00",
- "ts": 1795449627,
+ "updated": "2026-11-23T19:10:10+03:00",
+ "ts": 1795450210,
  "matches": [
   {
    "id": 1546172,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 39,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -57,35 +57,74 @@
    ]
   },
   {
-   "id": 1604065,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Jeddah Club",
-   "away": "Damac",
-   "hl": "https://media.api-sports.io/football/teams/2947.png",
-   "al": "https://media.api-sports.io/football/teams/2956.png",
+   "id": 1551148,
+   "league": "Bulgaria - First League",
+   "home": "Ludogorets",
+   "away": "Dunav Ruse",
+   "hl": "https://media.api-sports.io/football/teams/566.png",
+   "al": "https://media.api-sports.io/football/teams/683.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T15:15:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Shuqayyiqi"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Shamrani"
-    }
-   ]
+   "minute": 9,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1569442,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Torino U20",
+   "away": "Bologna U20",
+   "hl": "https://media.api-sports.io/football/teams/24742.png",
+   "al": "https://media.api-sports.io/football/teams/24726.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629976,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al Ain",
+   "away": "Esteghlal FC",
+   "hl": "https://media.api-sports.io/football/teams/2865.png",
+   "al": "https://media.api-sports.io/football/teams/2733.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629977,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al Shamal",
+   "away": "Al-Ahli Jeddah",
+   "hl": "https://media.api-sports.io/football/teams/2916.png",
+   "al": "https://media.api-sports.io/football/teams/2929.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629978,
+   "league": "World - AFC Champions League Elite",
+   "home": "Tractor Sazi",
+   "away": "Al-Wasl FC",
+   "hl": "https://media.api-sports.io/football/teams/2737.png",
+   "al": "https://media.api-sports.io/football/teams/2872.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1546170,
@@ -97,7 +136,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -131,6 +170,113 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Olivieri"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Rigo"
+    }
+   ]
+  },
+  {
+   "id": 1546174,
+   "league": "World - World Cup - U17",
+   "home": "Morocco U17",
+   "away": "China PR U17",
+   "hl": "https://media.api-sports.io/football/teams/21302.png",
+   "al": "https://media.api-sports.io/football/teams/21449.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Zhao Songyuan"
+    }
+   ]
+  },
+  {
+   "id": 1593359,
+   "league": "Greece - Super League 1",
+   "home": "Asteras Tripolis",
+   "away": "Aris Thessalonikis",
+   "hl": "https://media.api-sports.io/football/teams/955.png",
+   "al": "https://media.api-sports.io/football/teams/1123.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alejandro·Mendez Garcia"
+    }
+   ]
+  },
+  {
+   "id": 1598743,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Sporting Braga U23",
+   "away": "Leixões U23",
+   "hl": "https://media.api-sports.io/football/teams/15469.png",
+   "al": "https://media.api-sports.io/football/teams/15465.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602561,
+   "league": "Romania - Liga II",
+   "home": "CSA Steaua Bucureşti",
+   "away": "Chindia Targoviste",
+   "hl": "https://media.api-sports.io/football/teams/7466.png",
+   "al": "https://media.api-sports.io/football/teams/2586.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -144,7 +290,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -186,105 +332,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "H. Al Sebyani"
-    }
-   ]
-  },
-  {
-   "id": 1546174,
-   "league": "World - World Cup - U17",
-   "home": "Morocco U17",
-   "away": "China PR U17",
-   "hl": "https://media.api-sports.io/football/teams/21302.png",
-   "al": "https://media.api-sports.io/football/teams/21449.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zhao Songyuan"
-    }
-   ]
-  },
-  {
-   "id": 1593359,
-   "league": "Greece - Super League 1",
-   "home": "Asteras Tripolis",
-   "away": "Aris Thessalonikis",
-   "hl": "https://media.api-sports.io/football/teams/955.png",
-   "al": "https://media.api-sports.io/football/teams/1123.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alejandro·Mendez Garcia"
-    }
-   ]
-  },
-  {
-   "id": 1598743,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Sporting Braga U23",
-   "away": "Leixões U23",
-   "hl": "https://media.api-sports.io/football/teams/15469.png",
-   "al": "https://media.api-sports.io/football/teams/15465.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1602561,
-   "league": "Romania - Liga II",
-   "home": "CSA Steaua Bucureşti",
-   "away": "Chindia Targoviste",
-   "hl": "https://media.api-sports.io/football/teams/7466.png",
-   "al": "https://media.api-sports.io/football/teams/2586.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     },
     {
-     "m": 45,
-     "x": 1,
+     "m": 78,
+     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "p": "A. Al Qassem"
     }
    ]
   },
@@ -297,8 +352,8 @@
    "al": "https://media.api-sports.io/football/teams/1040.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -332,6 +387,99 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ahmed Gamal"
+    }
+   ]
+  },
+  {
+   "id": 1628388,
+   "league": "Albania - 1st Division",
+   "home": "Flamurtari",
+   "away": "Bylis",
+   "hl": "https://media.api-sports.io/football/teams/3317.png",
+   "al": "https://media.api-sports.io/football/teams/3325.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Vieira"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Pjeshka"
+    }
+   ]
+  },
+  {
+   "id": 1642133,
+   "league": "Oman - Professional League",
+   "home": "Bahla",
+   "away": "Smail",
+   "hl": "https://media.api-sports.io/football/teams/7505.png",
+   "al": "https://media.api-sports.io/football/teams/15962.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Bissan"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Bissan"
+    }
+   ]
+  },
+  {
+   "id": 1604065,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Jeddah Club",
+   "away": "Damac",
+   "hl": "https://media.api-sports.io/football/teams/2947.png",
+   "al": "https://media.api-sports.io/football/teams/2956.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T15:15:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Shuqayyiqi"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Shamrani"
     }
    ]
   },
@@ -371,68 +519,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Omar Adly"
-    }
-   ]
-  },
-  {
-   "id": 1628388,
-   "league": "Albania - 1st Division",
-   "home": "Flamurtari",
-   "away": "Bylis",
-   "hl": "https://media.api-sports.io/football/teams/3317.png",
-   "al": "https://media.api-sports.io/football/teams/3325.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Vieira"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Pjeshka"
-    }
-   ]
-  },
-  {
-   "id": 1642133,
-   "league": "Oman - Professional League",
-   "home": "Bahla",
-   "away": "Smail",
-   "hl": "https://media.api-sports.io/football/teams/7505.png",
-   "al": "https://media.api-sports.io/football/teams/15962.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Bissan"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   }
