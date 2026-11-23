@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated": "2026-11-23T13:00:11+03:00",
+ "updated": "2026-11-23T13:30:19+03:00",
  "matches": [
   {
    "id": 1505564,
@@ -655,8 +655,8 @@
    "al": "https://media.api-sports.io/football/teams/12525.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 72,
    "time": "2026-11-23T12:00:00+03:00",
    "ev": []
   },
@@ -669,8 +669,8 @@
    "al": "https://media.api-sports.io/football/teams/12523.png",
    "gh": 2,
    "ga": 2,
-   "status": "1H",
-   "minute": 30,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-23T12:30:00+03:00",
    "ev": []
   },
@@ -681,10 +681,10 @@
    "away": "Kibera Soccer",
    "hl": "https://media.api-sports.io/football/teams/17897.png",
    "al": "https://media.api-sports.io/football/teams/25751.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 30,
    "time": "2026-11-23T13:00:00+03:00",
    "ev": []
   },
@@ -1311,6 +1311,20 @@
    "away": "Mégrine",
    "hl": "https://media.api-sports.io/football/teams/1190.png",
    "al": "https://media.api-sports.io/football/teams/20846.png",
+   "gh": null,
+   "ga": null,
+   "status": "NS",
+   "minute": null,
+   "time": "2026-11-23T16:30:00+03:00",
+   "ev": []
+  },
+  {
+   "id": 1649984,
+   "league": "Tunisia - Ligue 2",
+   "home": "Moknine",
+   "away": "CO Medenine",
+   "hl": "https://media.api-sports.io/football/teams/10624.png",
+   "al": "https://media.api-sports.io/football/teams/982.png",
    "gh": null,
    "ga": null,
    "status": "NS",
