@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T05:50:26+03:00",
- "ts": 1795402226,
+ "updated": "2026-11-23T06:00:10+03:00",
+ "ts": 1795402810,
  "matches": [
   {
    "id": 1551046,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/2290.png",
    "al": "https://media.api-sports.io/football/teams/2288.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -62,6 +62,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Enzo Giménez"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Diego Reyes"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Julián Carranza"
     }
    ]
   },
@@ -75,7 +91,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -122,7 +138,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -176,134 +192,16 @@
    ]
   },
   {
-   "id": 1649568,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Instituto Cordoba",
-   "away": "Huracan",
-   "hl": "https://media.api-sports.io/football/teams/478.png",
-   "al": "https://media.api-sports.io/football/teams/445.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alex Luna"
-    },
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Luna"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Facundo Ezquel Suarez"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Vera"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jonathan Galván"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Facundo Ezquel Suarez"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Fernando Alarcon"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jordy Caicedo"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Giuliano Cerato"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Giuliano Cerato"
-    }
-   ]
-  },
-  {
-   "id": 1650841,
-   "league": "Nicaragua - Primera Division",
-   "home": "Diriangén",
-   "away": "Managua",
-   "hl": "https://media.api-sports.io/football/teams/4641.png",
-   "al": "https://media.api-sports.io/football/teams/4644.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-23T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1651120,
    "league": "USA - Major League Soccer",
    "home": "Vancouver Whitecaps",
    "away": "Real Salt Lake",
    "hl": "https://media.api-sports.io/football/teams/1603.png",
    "al": "https://media.api-sports.io/football/teams/1606.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 62,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -329,6 +227,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Juan Sanabria"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bruno Caicedo"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Oliver Love Larraz"
     }
    ]
   }
