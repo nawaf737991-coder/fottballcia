@@ -49,13 +49,17 @@ jobs:
       - name: Show dry output
         if: ${{ inputs.dry == '1' }}
         run: cat /tmp/preview_dry.html || true
+      - name: Daily index links
+        if: always() && inputs.dry != '1'
+        continue-on-error: true
+        run: python3 -u index_links.py
       - name: Commit data
         if: always() && inputs.dry != '1'
         run: |
           git config user.name "fottballcia-bot"
           git config user.email "bot@users.noreply.github.com"
           mkdir -p /tmp/new
-          for f in $(git status --porcelain -uall data/previews_state.json tweets.html img | awk '{print $2}'); do
+          for f in $(git status --porcelain -uall data/previews_state.json tweets.html img index-links.html data/index_links.json | awk '{print $2}'); do
             mkdir -p "/tmp/new/$(dirname "$f")"
             cp "$f" "/tmp/new/$f"
           done
@@ -63,7 +67,7 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             cp -r /tmp/new/. .
-            git add data/previews_state.json tweets.html img 2>/dev/null || true
+            git add data/previews_state.json tweets.html img index-links.html data/index_links.json 2>/dev/null || true
             if git diff --staged --quiet; then exit 0; fi
             git commit -q -m "previews state + images"
             if git push -q origin HEAD:main; then exit 0; fi
