@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T21:50:23+03:00",
- "ts": 1795459823,
+ "updated": "2026-11-23T22:00:24+03:00",
+ "ts": 1795460424,
  "matches": [
   {
    "id": 1571896,
@@ -12,38 +12,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1612280,
-   "league": "Egypt - Premier League",
-   "home": "Al Ahly",
-   "away": "Pyramids FC",
-   "hl": "https://media.api-sports.io/football/teams/1577.png",
-   "al": "https://media.api-sports.io/football/teams/1036.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
-     "m": 23,
+     "m": 29,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Marwan Attia"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Karim Hafez"
+     "p": null
     }
    ]
   },
@@ -57,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -80,7 +58,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -100,10 +78,10 @@
    "away": "Berazategui",
    "hl": "https://media.api-sports.io/football/teams/1931.png",
    "al": "https://media.api-sports.io/football/teams/8382.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
@@ -113,422 +91,13 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1548566,
-   "league": "Croatia - HNL",
-   "home": "NK Slaven Belupo",
-   "away": "NK Osijek",
-   "hl": "https://media.api-sports.io/football/teams/1018.png",
-   "al": "https://media.api-sports.io/football/teams/616.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Ilija Nestorovski"
     },
     {
-     "m": 44,
+     "m": 16,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Alen Grgić"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Antonio Jakir"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ilija Nestorovski"
-    }
-   ]
-  },
-  {
-   "id": 1558279,
-   "league": "Poland - I Liga",
-   "home": "Podbeskidzie",
-   "away": "Nieciecza",
-   "hl": "https://media.api-sports.io/football/teams/3489.png",
-   "al": "https://media.api-sports.io/football/teams/3487.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Jimenez"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Majsterek"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Biernat"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Klisiewicz"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Masoero"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Kubica"
-    }
-   ]
-  },
-  {
-   "id": 1584467,
-   "league": "Turkey - Süper Lig",
-   "home": "Başakşehir",
-   "away": "Çorum FK",
-   "hl": "https://media.api-sports.io/football/teams/564.png",
-   "al": "https://media.api-sports.io/football/teams/6343.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ramirez"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Mahmic"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Mahmic"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Shomurodov"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Gurluk"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Yildirim"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Diomande"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Yildirim"
-    }
-   ]
-  },
-  {
-   "id": 1585830,
-   "league": "Turkey - 1. Lig",
-   "home": "Bodrum FK",
-   "away": "Vanspor FK",
-   "hl": "https://media.api-sports.io/football/teams/3583.png",
-   "al": "https://media.api-sports.io/football/teams/6342.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Berşan Yavuzay"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Yusuf Sertkaya"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tenton Yenne"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kadir Seven"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Fernando"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "",
-     "p": "Fernando"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Richairo Zivkovic"
-    }
-   ]
-  },
-  {
-   "id": 1593177,
-   "league": "Germany - Frauen Bundesliga",
-   "home": "Bayern Munich W",
-   "away": "1899 Hoffenheim W",
-   "hl": "https://media.api-sports.io/football/teams/1860.png",
-   "al": "https://media.api-sports.io/football/teams/1858.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Edna Imade"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lisa Doorn"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sarah Mattner Trembleau"
-    }
-   ]
-  },
-  {
-   "id": 1603609,
-   "league": "Cyprus - 1. Division",
-   "home": "Krasava Ypsonas",
-   "away": "Anorthosis",
-   "hl": "https://media.api-sports.io/football/teams/3424.png",
-   "al": "https://media.api-sports.io/football/teams/2269.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Kiss"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Dione"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Middendorp"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Ali"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "L. de Lucas"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Bahassa"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Chebake"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jeka"
-    }
-   ]
-  },
-  {
-   "id": 1611419,
-   "league": "Algeria - Ligue 1",
-   "home": "Ben Aknoun",
-   "away": "USM Alger",
-   "hl": "https://media.api-sports.io/football/teams/10792.png",
-   "al": "https://media.api-sports.io/football/teams/910.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T16:45:00+00:00",
-   "ev": [
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Mahrouz"
-    },
-    {
-     "m": 45,
-     "x": 8,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "A. Khaldi"
-    },
-    {
-     "m": 90,
-     "x": 5,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -803,6 +372,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Messaoudi"
+    }
+   ]
+  },
+  {
+   "id": 1612280,
+   "league": "Egypt - Premier League",
+   "home": "Al Ahly",
+   "away": "Pyramids FC",
+   "hl": "https://media.api-sports.io/football/teams/1577.png",
+   "al": "https://media.api-sports.io/football/teams/1036.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marwan Attia"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Karim Hafez"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Achraf Bencharki"
     }
    ]
   }
