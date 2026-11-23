@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T20:10:22+03:00",
- "ts": 1795453822,
+ "updated": "2026-11-23T20:20:27+03:00",
+ "ts": 1795454427,
  "matches": [
   {
    "id": 1548566,
@@ -9,18 +9,18 @@
    "away": "NK Osijek",
    "hl": "https://media.api-sports.io/football/teams/1018.png",
    "al": "https://media.api-sports.io/football/teams/616.png",
-   "gh": 1,
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
      "m": 8,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Var",
+     "d": "Goal cancelled",
      "p": "Ilija Nestorovski"
     }
    ]
@@ -32,10 +32,10 @@
    "away": "Aluminij",
    "hl": "https://media.api-sports.io/football/teams/4374.png",
    "al": "https://media.api-sports.io/football/teams/4358.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-23T16:30:00+00:00",
    "ev": [
     {
@@ -61,6 +61,14 @@
      "t": "Var",
      "d": "Goal Disallowed - offside",
      "p": "B. Irabor"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Ilicic"
     }
    ]
   },
@@ -74,7 +82,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 19,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -97,7 +105,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": []
   },
@@ -111,7 +119,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 21,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -134,11 +142,11 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
-     "m": 9,
+     "m": 8,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -157,7 +165,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 19,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -180,7 +188,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 23,
+   "minute": 33,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": []
   },
@@ -194,7 +202,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -238,10 +246,10 @@
    "away": "New Zealand U17",
    "hl": "https://media.api-sports.io/football/teams/21447.png",
    "al": "https://media.api-sports.io/football/teams/12515.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -307,6 +315,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "K. Shimokawa"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nguyen Manh Cuong"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Truong Nguyen Duy Khang"
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Truong Nguyen Duy Khang"
+    }
+   ]
+  },
+  {
+   "id": 1551148,
+   "league": "Bulgaria - First League",
+   "home": "Ludogorets",
+   "away": "Dunav Ruse",
+   "hl": "https://media.api-sports.io/football/teams/566.png",
+   "al": "https://media.api-sports.io/football/teams/683.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 7,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amir Hadžiahmetović"
     }
    ]
   },
@@ -320,7 +375,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 59,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -342,71 +397,16 @@
    ]
   },
   {
-   "id": 1604065,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Jeddah Club",
-   "away": "Damac",
-   "hl": "https://media.api-sports.io/football/teams/2947.png",
-   "al": "https://media.api-sports.io/football/teams/2956.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T15:15:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Shuqayyiqi"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Shamrani"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Al Jizani"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Al Hawsawi"
-    },
-    {
-     "m": 90,
-     "x": 6,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "H. Al Jubairi"
-    }
-   ]
-  },
-  {
    "id": 1629976,
    "league": "World - AFC Champions League Elite",
    "home": "Al Ain",
    "away": "Esteghlal FC",
    "hl": "https://media.api-sports.io/football/teams/2865.png",
    "al": "https://media.api-sports.io/football/teams/2733.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -416,6 +416,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rustam Ashurmatov"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Djordje Skoko"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Saman Fallah"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Saleh Hardani"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matías Palacios"
     }
    ]
   },
@@ -427,9 +459,9 @@
    "hl": "https://media.api-sports.io/football/teams/2916.png",
    "al": "https://media.api-sports.io/football/teams/2929.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -455,6 +487,14 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Ivan Toney"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ivan Toney"
     }
    ]
   },
@@ -466,9 +506,9 @@
    "hl": "https://media.api-sports.io/football/teams/2737.png",
    "al": "https://media.api-sports.io/football/teams/2872.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 47,
+   "minute": 58,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -494,29 +534,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mehdi Taremi"
-    }
-   ]
-  },
-  {
-   "id": 1551148,
-   "league": "Bulgaria - First League",
-   "home": "Ludogorets",
-   "away": "Dunav Ruse",
-   "hl": "https://media.api-sports.io/football/teams/566.png",
-   "al": "https://media.api-sports.io/football/teams/683.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 45,
-     "x": 7,
-     "s": "h",
+     "m": 55,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Amir Hadžiahmetović"
+     "p": "Brahian Palacios"
     }
    ]
   }
