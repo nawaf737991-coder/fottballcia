@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T15:40:21+03:00",
- "ts": 1795437621,
+ "updated": "2026-11-23T15:50:26+03:00",
+ "ts": 1795438226,
  "matches": [
   {
    "id": 1546178,
@@ -9,10 +9,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/12520.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 1,
+   "gh": 4,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -22,6 +22,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Cruz"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Cruz"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Tomas"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Tomas"
     }
    ]
   },
@@ -35,7 +59,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -45,37 +69,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "J. Benkotic"
-    }
-   ]
-  },
-  {
-   "id": 1551492,
-   "league": "Macedonia - First League",
-   "home": "Shkendija",
-   "away": "Sileks",
-   "hl": "https://media.api-sports.io/football/teams/609.png",
-   "al": "https://media.api-sports.io/football/teams/4331.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 28,
+     "m": 14,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "P. Bobonazarov"
     }
    ]
   },
@@ -86,14 +87,22 @@
    "away": "Beroe",
    "hl": "https://media.api-sports.io/football/teams/1415.png",
    "al": "https://media.api-sports.io/football/teams/857.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
      "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 13,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -112,7 +121,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": []
   },
@@ -126,7 +135,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 19,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -140,6 +149,34 @@
    ]
   },
   {
+   "id": 1636995,
+   "league": "Greece - Super League 2",
+   "home": "Pyrgos 1968",
+   "away": "Marko",
+   "hl": "https://media.api-sports.io/football/teams/26587.png",
+   "al": "https://media.api-sports.io/football/teams/12403.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-23T12:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1642132,
+   "league": "Oman - Professional League",
+   "home": "Saham",
+   "away": "Oman Club",
+   "hl": "https://media.api-sports.io/football/teams/5335.png",
+   "al": "https://media.api-sports.io/football/teams/5334.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T12:40:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1646780,
    "league": "Kenya - Super League",
    "home": "BB FC",
@@ -149,7 +186,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": []
   },
@@ -163,7 +200,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
@@ -177,21 +214,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646788,
-   "league": "Kenya - Super League",
-   "home": "Nzoia Sugar",
-   "away": "Mfalme",
-   "hl": "https://media.api-sports.io/football/teams/2469.png",
-   "al": "https://media.api-sports.io/football/teams/27732.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
@@ -202,10 +225,10 @@
    "away": "Istiqlol",
    "hl": "https://media.api-sports.io/football/teams/12270.png",
    "al": "https://media.api-sports.io/football/teams/8012.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 5,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -247,6 +270,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -260,7 +291,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
     {
@@ -280,10 +311,10 @@
    "away": "Corum U19",
    "hl": "https://media.api-sports.io/football/teams/16397.png",
    "al": "https://media.api-sports.io/football/teams/28242.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -297,7 +328,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 90,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": []
   },
@@ -311,7 +342,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-23T11:30:00+00:00",
    "ev": [
     {
@@ -331,11 +362,56 @@
    "away": "Geylang II",
    "hl": "https://media.api-sports.io/football/teams/28730.png",
    "al": "https://media.api-sports.io/football/teams/28725.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T11:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1551492,
+   "league": "Macedonia - First League",
+   "home": "Shkendija",
+   "away": "Sileks",
+   "hl": "https://media.api-sports.io/football/teams/609.png",
+   "al": "https://media.api-sports.io/football/teams/4331.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1646788,
+   "league": "Kenya - Super League",
+   "home": "Nzoia Sugar",
+   "away": "Mfalme",
+   "hl": "https://media.api-sports.io/football/teams/2469.png",
+   "al": "https://media.api-sports.io/football/teams/27732.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   }
  ]
