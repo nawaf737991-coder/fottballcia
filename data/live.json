@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T04:00:13+03:00",
- "ts": 1795395613,
+ "updated": "2026-11-23T04:09:57+03:00",
+ "ts": 1795396197,
  "matches": [
   {
    "id": 1648334,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/2551.png",
    "al": "https://media.api-sports.io/football/teams/22469.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T00:30:00+00:00",
    "ev": [
     {
@@ -38,6 +38,68 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Maciel"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Maciel"
+    }
+   ]
+  },
+  {
+   "id": 1649568,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Instituto Cordoba",
+   "away": "Huracan",
+   "hl": "https://media.api-sports.io/football/teams/478.png",
+   "al": "https://media.api-sports.io/football/teams/445.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alex Luna"
+    },
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Luna"
+    }
+   ]
+  },
+  {
+   "id": 1650841,
+   "league": "Nicaragua - Primera Division",
+   "home": "Diriangén",
+   "away": "Managua",
+   "hl": "https://media.api-sports.io/football/teams/4641.png",
+   "al": "https://media.api-sports.io/football/teams/4644.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-23T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -51,7 +113,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -105,77 +167,6 @@
    ]
   },
   {
-   "id": 1551045,
-   "league": "Mexico - Liga MX",
-   "home": "Guadalajara Chivas",
-   "away": "Cruz Azul",
-   "hl": "https://media.api-sports.io/football/teams/2278.png",
-   "al": "https://media.api-sports.io/football/teams/2295.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T23:07:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Efrain Alvarez"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Rodriguez"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Rotondi"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Fernando González"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ángel Márquez"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gonzalo Piovi"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Agustín Palavecino"
-    }
-   ]
-  },
-  {
    "id": 1559713,
    "league": "Guatemala - Liga Nacional",
    "home": "Municipal",
@@ -185,7 +176,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -217,7 +208,7 @@
      "x": 6,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
      "p": "J. Rosales"
     },
     {
@@ -225,8 +216,16 @@
      "x": 6,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": "J. Rosales"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     },
     {
      "m": 69,
@@ -237,104 +236,25 @@
      "p": "C. Hernandez"
     },
     {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
      "m": 80,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1642321,
-   "league": "Honduras - Liga Nacional",
-   "home": "CD Motagua",
-   "away": "CD Olimpia",
-   "hl": "https://media.api-sports.io/football/teams/1055.png",
-   "al": "https://media.api-sports.io/football/teams/1051.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-22T23:15:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Portillo"
     },
     {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Enriquez"
-    },
-    {
-     "m": 41,
-     "x": null,
+     "m": 90,
+     "x": 5,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Portillo"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Bennett"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Vega"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": null
     },
     {
-     "m": 85,
-     "x": null,
+     "m": 90,
+     "x": 3,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
@@ -351,7 +271,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -393,6 +313,14 @@
      "t": "Var",
      "d": "Goal cancelled",
      "p": "Joel Amoroso"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Diego Mauricio Mercado Solano"
     }
    ]
   },
@@ -403,10 +331,10 @@
    "away": "Charlotte",
    "hl": "https://media.api-sports.io/football/teams/1607.png",
    "al": "https://media.api-sports.io/football/teams/18310.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -416,6 +344,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Liel Abada"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Robert Lewandowski"
     }
    ]
   },
@@ -429,7 +365,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
