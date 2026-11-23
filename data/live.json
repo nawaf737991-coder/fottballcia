@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T22:50:23+03:00",
- "ts": 1795463423,
+ "updated": "2026-11-23T23:00:26+03:00",
+ "ts": 1795464026,
  "matches": [
   {
    "id": 1550203,
@@ -12,40 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1551875,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Vitesse",
-   "away": "De Graafschap",
-   "hl": "https://media.api-sports.io/football/teams/200.png",
-   "al": "https://media.api-sports.io/football/teams/199.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 43,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Solomon Bonnah"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Julian kania"
-    }
-   ]
   },
   {
    "id": 1552536,
@@ -57,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -68,12 +37,21 @@
    "away": "Dunkerque",
    "hl": "https://media.api-sports.io/football/teams/115.png",
    "al": "https://media.api-sports.io/football/teams/1304.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-23T19:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Louicius Deedson"
+    }
+   ]
   },
   {
    "id": 1570029,
@@ -83,13 +61,21 @@
    "hl": "https://media.api-sports.io/football/teams/10139.png",
    "al": "https://media.api-sports.io/football/teams/723.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
      "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sergio Arribas Calvo"
+    },
+    {
+     "m": 29,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -108,9 +94,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 3,
+   "minute": 13,
    "time": "2026-11-23T19:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Bouhmidi"
+    }
+   ]
   },
   {
    "id": 1588461,
@@ -122,7 +117,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -136,7 +131,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -150,7 +145,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -164,77 +159,6 @@
    ]
   },
   {
-   "id": 1645548,
-   "league": "Bolivia - Primera División",
-   "home": "Real Oruro",
-   "away": "Guabirá",
-   "hl": "https://media.api-sports.io/football/teams/20252.png",
-   "al": "https://media.api-sports.io/football/teams/3704.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S.Garzón"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Barro"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Pablo Gómez Perez"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Gil"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thiago Chavez"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Anez"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Leandro Corulo"
-    }
-   ]
-  },
-  {
    "id": 1650506,
    "league": "Uruguay - Primera División",
    "home": "Juventud",
@@ -244,7 +168,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -258,290 +182,6 @@
    ]
   },
   {
-   "id": 1494343,
-   "league": "Sweden - Allsvenskan",
-   "home": "Orgryte IS",
-   "away": "Kalmar FF",
-   "hl": "https://media.api-sports.io/football/teams/2166.png",
-   "al": "https://media.api-sports.io/football/teams/374.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "vilmer tyren"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Paulson"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Tobias Sana"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rasmus Alm"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Victor Larsson"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Marius Soderback"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S.Lagerlund"
-    }
-   ]
-  },
-  {
-   "id": 1549059,
-   "league": "Denmark - Superliga",
-   "home": "Brondby",
-   "away": "FC Midtjylland",
-   "hl": "https://media.api-sports.io/football/teams/407.png",
-   "al": "https://media.api-sports.io/football/teams/397.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jordi Vanlerberghe"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Friday Etim"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thomas Nørgaard"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Cho Gue-sung"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Frederik Alves"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mike Tullberg"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marcus Younis"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bartosz Ślisz"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Philip Billing"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rasmus Kristensen"
-    }
-   ]
-  },
-  {
-   "id": 1553233,
-   "league": "Poland - Ekstraklasa",
-   "home": "Wieczysta Kraków",
-   "away": "Motor Lublin",
-   "hl": "https://media.api-sports.io/football/teams/17115.png",
-   "al": "https://media.api-sports.io/football/teams/14562.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Tobias Christensen"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Fabio Ronaldo Costa Conceicao"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mateusz Wieteska"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ben Lederman"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mariusz Misiura"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matúš Vojtko"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "José Antonio de la Rosa Garrido"
-    }
-   ]
-  },
-  {
-   "id": 1565309,
-   "league": "Romania - Liga I",
-   "home": "Sepsi OSK Sfantu Gheorghe",
-   "away": "Rapid",
-   "hl": "https://media.api-sports.io/football/teams/2585.png",
-   "al": "https://media.api-sports.io/football/teams/6231.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Dobre"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Cmiljanic"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Petrila"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Onea"
-    }
-   ]
-  },
-  {
    "id": 1571896,
    "league": "Hungary - NB II",
    "home": "Diosgyori VTK",
@@ -551,7 +191,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
@@ -592,7 +232,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "N. Konyves"
     },
     {
      "m": 57,
@@ -600,7 +240,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "C. Szatmari"
     },
     {
      "m": 58,
@@ -608,133 +248,31 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "K. Varga"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Borveto"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     },
     {
-     "m": 63,
+     "m": 68,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1574653,
-   "league": "Austria - Frauenliga",
-   "home": "Austria Wien W",
-   "away": "First Vienna W",
-   "hl": "https://media.api-sports.io/football/teams/17575.png",
-   "al": "https://media.api-sports.io/football/teams/17576.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Pfanner"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Havel"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Sisic"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Wondrejc"
-    }
-   ]
-  },
-  {
-   "id": 1611390,
-   "league": "Algeria - Ligue 1",
-   "home": "JS Kabylie",
-   "away": "MC Alger",
-   "hl": "https://media.api-sports.io/football/teams/918.png",
-   "al": "https://media.api-sports.io/football/teams/906.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Bayazid"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Zougrana"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Messaoudi"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "A. Mahious"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Mahious"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Benkhemassa"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Benkhemassa"
     }
    ]
   },
@@ -748,7 +286,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -790,6 +328,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Walid El Karti"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Omar El Saeey"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mahmoud Marie"
     }
    ]
   },
@@ -803,7 +357,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -842,7 +396,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -892,6 +446,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Hareth Hatem"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adam Ounas"
     }
    ]
   },
@@ -905,7 +467,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
@@ -931,6 +493,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Duarte"
+    }
+   ]
+  },
+  {
+   "id": 1551875,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Vitesse",
+   "away": "De Graafschap",
+   "hl": "https://media.api-sports.io/football/teams/200.png",
+   "al": "https://media.api-sports.io/football/teams/199.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Solomon Bonnah"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Julian kania"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Naoufal Bannis"
     }
    ]
   },
@@ -1195,6 +796,77 @@
    "minute": 45,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1645548,
+   "league": "Bolivia - Primera División",
+   "home": "Real Oruro",
+   "away": "Guabirá",
+   "hl": "https://media.api-sports.io/football/teams/20252.png",
+   "al": "https://media.api-sports.io/football/teams/3704.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S.Garzón"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Barro"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Pablo Gómez Perez"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Gil"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thiago Chavez"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Carlos Anez"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Leandro Corulo"
+    }
+   ]
   }
  ]
 }
