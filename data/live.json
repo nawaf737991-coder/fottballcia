@@ -1,54 +1,7 @@
 {
- "updated": "2026-11-23T20:50:18+03:00",
- "ts": 1795456218,
+ "updated": "2026-11-23T21:00:26+03:00",
+ "ts": 1795456826,
  "matches": [
-  {
-   "id": 1603609,
-   "league": "Cyprus - 1. Division",
-   "home": "Krasava Ypsonas",
-   "away": "Anorthosis",
-   "hl": "https://media.api-sports.io/football/teams/3424.png",
-   "al": "https://media.api-sports.io/football/teams/2269.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Kiss"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Dione"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Middendorp"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Ali"
-    }
-   ]
-  },
   {
    "id": 1551148,
    "league": "Bulgaria - First League",
@@ -59,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -85,6 +38,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bernard Tekpetey"
+    },
+    {
+     "m": 90,
+     "x": 4,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 90,
+     "x": 4,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -98,7 +67,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 66,
    "time": "2026-11-23T16:30:00+00:00",
    "ev": [
     {
@@ -136,203 +105,6 @@
    ]
   },
   {
-   "id": 1569442,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Torino U20",
-   "away": "Bologna U20",
-   "hl": "https://media.api-sports.io/football/teams/24742.png",
-   "al": "https://media.api-sports.io/football/teams/24726.png",
-   "gh": 4,
-   "ga": 2,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Banse"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Conzato"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Lo Monaco"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Lo Monaco"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "D. Bonacina"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Falasca"
-    }
-   ]
-  },
-  {
-   "id": 1629976,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al Ain",
-   "away": "Esteghlal FC",
-   "hl": "https://media.api-sports.io/football/teams/2865.png",
-   "al": "https://media.api-sports.io/football/teams/2733.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rustam Ashurmatov"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Djordje Skoko"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Saman Fallah"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Saleh Hardani"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matías Palacios"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hossein Goudarzi"
-    }
-   ]
-  },
-  {
-   "id": 1629977,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al Shamal",
-   "away": "Al-Ahli Jeddah",
-   "hl": "https://media.api-sports.io/football/teams/2916.png",
-   "al": "https://media.api-sports.io/football/teams/2929.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Firas Al-Buraikan"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Wenderson Galeno"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Ivan Toney"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ivan Toney"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Baghdad Bounedjah"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ziyad Al-Johani"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tiago Silva"
-    }
-   ]
-  },
-  {
    "id": 1629978,
    "league": "World - AFC Champions League Elite",
    "home": "Tractor Sazi",
@@ -340,9 +112,9 @@
    "hl": "https://media.api-sports.io/football/teams/2737.png",
    "al": "https://media.api-sports.io/football/teams/2872.png",
    "gh": 1,
-   "ga": 4,
+   "ga": 5,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -416,6 +188,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Pedro Jorge Gonçalves Malheiro"
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Renato Barbosa dos Santos Júnior"
     }
    ]
   },
@@ -575,6 +355,53 @@
    ]
   },
   {
+   "id": 1603609,
+   "league": "Cyprus - 1. Division",
+   "home": "Krasava Ypsonas",
+   "away": "Anorthosis",
+   "hl": "https://media.api-sports.io/football/teams/3424.png",
+   "al": "https://media.api-sports.io/football/teams/2269.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Kiss"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Dione"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Middendorp"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Ali"
+    }
+   ]
+  },
+  {
    "id": 1611419,
    "league": "Algeria - Ligue 1",
    "home": "Ben Aknoun",
@@ -597,19 +424,19 @@
     },
     {
      "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 45,
      "x": 8,
      "s": "a",
      "t": "Goal",
      "d": "Penalty",
      "p": "A. Khaldi"
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
     }
    ]
   }
