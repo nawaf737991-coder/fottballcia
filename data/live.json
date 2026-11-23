@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T13:00:11+03:00",
- "ts": 1795428011,
+ "updated": "2026-11-23T13:10:15+03:00",
+ "ts": 1795428615,
  "matches": [
   {
    "id": 1634863,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T09:30:00+00:00",
    "ev": [
     {
@@ -45,9 +45,23 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "C. Van Hming"
     }
    ]
+  },
+  {
+   "id": 1646789,
+   "league": "Kenya - Super League",
+   "home": "Talanta",
+   "away": "Kibera Soccer",
+   "hl": "https://media.api-sports.io/football/teams/17897.png",
+   "al": "https://media.api-sports.io/football/teams/25751.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T10:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1634862,
@@ -58,8 +72,8 @@
    "al": "https://media.api-sports.io/football/teams/12525.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T09:00:00+00:00",
    "ev": [
     {
@@ -72,7 +86,7 @@
     },
     {
      "m": 45,
-     "x": 1,
+     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
