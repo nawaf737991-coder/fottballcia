@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T00:00:14+03:00",
- "ts": 1795467614,
+ "updated": "2026-11-24T00:10:15+03:00",
+ "ts": 1795468215,
  "matches": [
   {
    "id": 1598750,
@@ -9,12 +9,21 @@
    "away": "Marítimo U23",
    "hl": "https://media.api-sports.io/football/teams/21719.png",
    "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 3,
+   "minute": 13,
    "time": "2026-11-23T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1600699,
@@ -26,9 +35,70 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1632062,
+   "league": "Paraguay - Division Profesional - Clausura",
+   "home": "2 de Mayo",
+   "away": "Club Sp. San Lorenzo",
+   "hl": "https://media.api-sports.io/football/teams/2140.png",
+   "al": "https://media.api-sports.io/football/teams/2125.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650518,
+   "league": "Brazil - Kings Cup",
+   "home": "Funkbol",
+   "away": "Desimpedidos Goti",
+   "hl": "https://media.api-sports.io/football/teams/26900.png",
+   "al": "https://media.api-sports.io/football/teams/26898.png",
+   "gh": 3,
+   "ga": 1,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Alves"
+    },
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Paredao"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joao Choco"
+    },
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1550203,
@@ -37,10 +107,10 @@
    "away": "Fiorentina",
    "hl": "https://media.api-sports.io/football/teams/1579.png",
    "al": "https://media.api-sports.io/football/teams/502.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -58,85 +128,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gustavo Varela"
-    }
-   ]
-  },
-  {
-   "id": 1551875,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Vitesse",
-   "away": "De Graafschap",
-   "hl": "https://media.api-sports.io/football/teams/200.png",
-   "al": "https://media.api-sports.io/football/teams/199.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 16,
+     "m": 59,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Solomon Bonnah"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Julian kania"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Naoufal Bannis"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bjorn van Zijl"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kaya Symons"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rowan Besselink"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marco Schikora"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Julian kania"
+     "p": "Jay Robinson"
     }
    ]
   },
@@ -150,7 +149,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -184,6 +183,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Lucas Perrin"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Perrin"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Lucas Perrin"
     }
    ]
   },
@@ -195,9 +210,9 @@
    "hl": "https://media.api-sports.io/football/teams/115.png",
    "al": "https://media.api-sports.io/football/teams/1304.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 3,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -231,6 +246,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abner"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Arthylio Nade"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Khalil Ayari"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mathieu Peybernes"
     }
    ]
   },
@@ -242,9 +281,9 @@
    "hl": "https://media.api-sports.io/football/teams/10139.png",
    "al": "https://media.api-sports.io/football/teams/723.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -302,85 +341,61 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Yann Bodiger"
-    }
-   ]
-  },
-  {
-   "id": 1573653,
-   "league": "Spain - Primera División Femenina",
-   "home": "Espanyol W",
-   "away": "Valencia W",
-   "hl": "https://media.api-sports.io/football/teams/1919.png",
-   "al": "https://media.api-sports.io/football/teams/1909.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bicho"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Tamarit"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Domenech"
     },
     {
      "m": 65,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Domenech"
-    },
-    {
-     "m": 78,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Pauleta"
+     "p": "Javier Muñoz Jiménez"
     },
     {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Y. K. Mrabet"
-    },
-    {
-     "m": 89,
+     "m": 71,
      "x": null,
      "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Cedric Teguia"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "P. Browne"
-    },
+     "p": "Juan Brandáriz Movilla"
+    }
+   ]
+  },
+  {
+   "id": 1570457,
+   "league": "Spain - La Liga",
+   "home": "Levante",
+   "away": "Elche",
+   "hl": "https://media.api-sports.io/football/teams/539.png",
+   "al": "https://media.api-sports.io/football/teams/797.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": [
     {
-     "m": 90,
-     "x": 10,
+     "m": 28,
+     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Torras"
+     "p": "Luís Manuel Ferreira de Castro"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Aïssa Mandi"
     }
    ]
   },
@@ -394,7 +409,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -446,12 +461,21 @@
    "away": "Maidstone Utd",
    "hl": "https://media.api-sports.io/football/teams/4689.png",
    "al": "https://media.api-sports.io/football/teams/1825.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-23T19:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Barham"
+    }
+   ]
   },
   {
    "id": 1608377,
@@ -463,7 +487,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -481,6 +505,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "O. Urso"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Boffelli"
     }
    ]
   },
@@ -494,7 +526,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -548,6 +580,45 @@
    ]
   },
   {
+   "id": 1649567,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Gimnasia L.P.",
+   "away": "Newells Old Boys",
+   "hl": "https://media.api-sports.io/football/teams/434.png",
+   "al": "https://media.api-sports.io/football/teams/457.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luca Regiardo"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ignacio Fernández"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Janson"
+    }
+   ]
+  },
+  {
    "id": 1650506,
    "league": "Uruguay - Primera División",
    "home": "Juventud",
@@ -557,7 +628,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -589,16 +660,16 @@
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ruben Sergio Soto Blanco"
+     "d": "Red Card",
+     "p": "Renzo Rabino"
     },
     {
      "m": 57,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": "Renzo Rabino"
+     "d": "Yellow Card",
+     "p": "Ruben Sergio Soto Blanco"
     },
     {
      "m": 58,
@@ -622,7 +693,23 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Kevin Dawson"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Emanuel Cecchini"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brian Montenegro"
     }
    ]
   },
@@ -678,76 +765,6 @@
      "t": "Card",
      "d": "Red Card",
      "p": "James Tarkowski"
-    }
-   ]
-  },
-  {
-   "id": 1570457,
-   "league": "Spain - La Liga",
-   "home": "Levante",
-   "away": "Elche",
-   "hl": "https://media.api-sports.io/football/teams/539.png",
-   "al": "https://media.api-sports.io/football/teams/797.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luís Manuel Ferreira de Castro"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Aïssa Mandi"
-    }
-   ]
-  },
-  {
-   "id": 1649567,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Gimnasia L.P.",
-   "away": "Newells Old Boys",
-   "hl": "https://media.api-sports.io/football/teams/434.png",
-   "al": "https://media.api-sports.io/football/teams/457.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luca Regiardo"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ignacio Fernández"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Janson"
     }
    ]
   }
