@@ -593,7 +593,11 @@
     "Islom Ismoilov": "اسلام اسماعيشوف",
     "S. Inzaghi": "سيموني إنزاغي",
     "Istiqlol Stadium": "استاديوم فرغانة",
-    "Fergana": "فرغانة"
+    "Fergana": "فرغانة",
+    "Ollie Watkins": "أولي واتكينز",
+    "Gabriel Martinelli": "غابرييل مارتينيلي",
+    "Abrorbek ismoilov": "أبروربيك إسماعيلوف",
+    "Yusuf Akcicek": "يوسف أكتشيك"
    },
    "published": "2026-11-22T21:47:32+03:00",
    "official": true,
@@ -662,7 +666,78 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/neftchi-vs-al-hilal-saudi-fc-preview-aa3f3b-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 2,
+    "goals": [
+     {
+      "min": "21",
+      "player": "أولي واتكينز",
+      "assist": "",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 1,
+      "team": "الهلال السعودي"
+     },
+     {
+      "min": "28",
+      "player": "غابرييل مارتينيلي",
+      "assist": "أولي واتكينز",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 2,
+      "team": "الهلال السعودي"
+     },
+     {
+      "min": "50",
+      "player": "أبروربيك إسماعيلوف",
+      "assist": "",
+      "kind": "",
+      "side": "home",
+      "gh": 1,
+      "ga": 2,
+      "team": "نفتتشي"
+     },
+     {
+      "min": "70",
+      "player": "يوسف أكتشيك",
+      "assist": "",
+      "kind": "هدف عكسي",
+      "side": "home",
+      "gh": 2,
+      "ga": 2,
+      "team": "نفتتشي"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "48%",
+      "52%"
+     ],
+     "التسديدات": [
+      16,
+      12
+     ],
+     "على المرمى": [
+      5,
+      4
+     ],
+     "الركنيات": [
+      4,
+      6
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "1.06",
+      "1.71"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "نفتتشي 2-2 الهلال السعودي ⚽\nدوري أبطال آسيا للنخبة\nالأهداف: أولي واتكينز، غابرييل مارتينيلي، أبروربيك إسماعيلوف\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#نفتتشي #الهلال_السعودي #دوري_أبطال_آسيا_للنخبة #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/neftchi-vs-al-hilal-saudi-fc-preview-ae7c17-result-tiktok.mp4"
   },
   {
    "fid": 1629977,
@@ -699,7 +774,7 @@
     "Al Khor": "الخور"
    },
    "published": "2026-11-22T21:47:49+03:00",
-   "official": false,
+   "official": true,
    "url": "https://www.fottballcia.com/2026/11/al-shamal-vs-al-ahli-jeddah-preview.html",
    "tweet": "🔥 الشمال × الأهلي السعودي\n🏆 دوري أبطال آسيا للنخبة\n⏰ 19:00 بتوقيت السعودية\n📺 beIN SPORTS، الكأس\n\nالموعد والتشكيلة المتوقعة والغيابات وتوقعنا للنتيجة 👇\nhttps://www.fottballcia.com/2026/11/al-shamal-vs-al-ahli-jeddah-preview.html\n\n#الشمال #الأهلي_السعودي #دوري_أبطال_آسيا_للنخبة",
    "tweet_id": null,
@@ -735,35 +810,37 @@
     ],
     "xi_home": [
      "بابتيست سيك",
-     "موفق عوض",
-     "أحمد سهيل",
+     "Musab Khoder",
+     "Michel Termanini",
      "بابلو ماري",
-     "عبد الكريم حسن",
+     "F. Bais",
      "نبيل بن عيسى",
      "تياغو سيلفا",
      "رياض محرز",
-     "أليكس كويادو",
-     "عمر علي",
-     "وسام سعيد"
+     "M. Ben Romdhane",
+     "وسام سعيد",
+     "B. Bounedjah"
     ],
     "xi_away": [
      "إدوارد ميندي",
      "سعيد باعطية",
      "مريح ديميرال",
-     "روجر إيبانيز",
-     "سعد يسلام",
+     "A. Kinteh",
+     "Zakaria Al Hawsawi",
      "فيسنتي أتانغانا إدوا",
-     "ترينكاو",
      "زياد الجهاني",
-     "إدوارد سبيرتسيان",
+     "ترينكاو",
+     "Feras Al Brikan",
      "غالينو",
      "إيفان توني"
     ],
     "form_home": "4-2-3-1",
-    "form_away": "4-1-4-1",
-    "pred": "1-1"
+    "form_away": "4-2-3-1",
+    "pred": "1-1",
+    "xi_title": "التشكيلة الرسمية"
    },
-   "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/al-shamal-vs-al-ahli-jeddah-preview-lineup-prediction-7c2831-tiktok.mp4"
+   "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/al-shamal-vs-al-ahli-jeddah-preview-f64bcc-tiktok.mp4",
+   "video_official": true
   },
   {
    "fid": 1629979,
