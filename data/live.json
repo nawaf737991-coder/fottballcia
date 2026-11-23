@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T21:20:11+03:00",
- "ts": 1795458011,
+ "updated": "2026-11-23T21:30:16+03:00",
+ "ts": 1795458616,
  "matches": [
   {
    "id": 1494341,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "markus karlsson"
+    }
+   ]
   },
   {
    "id": 1494343,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -49,7 +58,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -59,6 +68,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jordi Vanlerberghe"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Friday Etim"
     }
    ]
   },
@@ -69,10 +86,10 @@
    "away": "Motor Lublin",
    "hl": "https://media.api-sports.io/football/teams/17115.png",
    "al": "https://media.api-sports.io/football/teams/14562.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -82,6 +99,22 @@
      "t": "Var",
      "d": "Goal cancelled",
      "p": "Tobias Christensen"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Fabio Ronaldo Costa Conceicao"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mateusz Wieteska"
     }
    ]
   },
@@ -95,7 +128,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -126,7 +159,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": []
   },
@@ -140,7 +173,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -163,9 +196,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-23T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marwan Attia"
+    }
+   ]
   },
   {
    "id": 1629979,
@@ -174,12 +216,21 @@
    "away": "Pakhtakor",
    "hl": "https://media.api-sports.io/football/teams/2938.png",
    "al": "https://media.api-sports.io/football/teams/4220.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T18:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Muhannad Al-Shanqeeti"
+    }
+   ]
   },
   {
    "id": 1629980,
@@ -191,7 +242,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": []
   },
@@ -205,7 +256,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -227,53 +278,6 @@
    ]
   },
   {
-   "id": 1558044,
-   "league": "Slovenia - 1. SNL",
-   "home": "Koper",
-   "away": "Aluminij",
-   "hl": "https://media.api-sports.io/football/teams/4374.png",
-   "al": "https://media.api-sports.io/football/teams/4358.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-23T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Ndiaye"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Schaubach"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - offside",
-     "p": "B. Irabor"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ilicic"
-    }
-   ]
-  },
-  {
    "id": 1558279,
    "league": "Poland - I Liga",
    "home": "Podbeskidzie",
@@ -283,7 +287,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -317,6 +321,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "L. Klisiewicz"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Masoero"
     }
    ]
   },
@@ -328,9 +340,9 @@
    "hl": "https://media.api-sports.io/football/teams/564.png",
    "al": "https://media.api-sports.io/football/teams/6343.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -340,6 +352,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Ramirez"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Mahmic"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Mahmic"
     }
    ]
   },
@@ -353,7 +381,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -371,6 +399,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Yusuf Sertkaya"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tenton Yenne"
     }
    ]
   },
@@ -384,7 +420,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -412,10 +448,10 @@
    "away": "Anorthosis",
    "hl": "https://media.api-sports.io/football/teams/3424.png",
    "al": "https://media.api-sports.io/football/teams/2269.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -457,6 +493,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "L. de Lucas"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Bahassa"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Chebake"
     }
    ]
   },
@@ -470,7 +522,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": [
     {
