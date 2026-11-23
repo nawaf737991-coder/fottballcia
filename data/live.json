@@ -1,7 +1,49 @@
 {
- "updated": "2026-11-23T22:00:24+03:00",
- "ts": 1795460424,
+ "updated": "2026-11-23T22:10:29+03:00",
+ "ts": 1795461029,
  "matches": [
+  {
+   "id": 1551875,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Vitesse",
+   "away": "De Graafschap",
+   "hl": "https://media.api-sports.io/football/teams/200.png",
+   "al": "https://media.api-sports.io/football/teams/199.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1551885,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Jong Ajax",
+   "away": "Jong AZ",
+   "hl": "https://media.api-sports.io/football/teams/425.png",
+   "al": "https://media.api-sports.io/football/teams/418.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1551886,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Jong PSV U21",
+   "away": "Jong Utrecht",
+   "hl": "https://media.api-sports.io/football/teams/411.png",
+   "al": "https://media.api-sports.io/football/teams/428.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1571896,
    "league": "Hungary - NB II",
@@ -12,7 +54,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
@@ -21,53 +63,154 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "A. Benyei"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
   },
   {
-   "id": 1629979,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al-Ittihad FC",
-   "away": "Pakhtakor",
-   "hl": "https://media.api-sports.io/football/teams/2938.png",
-   "al": "https://media.api-sports.io/football/teams/4220.png",
+   "id": 1573653,
+   "league": "Spain - Primera División Femenina",
+   "home": "Espanyol W",
+   "away": "Valencia W",
+   "hl": "https://media.api-sports.io/football/teams/1919.png",
+   "al": "https://media.api-sports.io/football/teams/1909.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627073,
+   "league": "England - Premier League Cup",
+   "home": "Newcastle United U21",
+   "away": "Nottingham Forest U21",
+   "hl": "https://media.api-sports.io/football/teams/7199.png",
+   "al": "https://media.api-sports.io/football/teams/19746.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627128,
+   "league": "England - Premier League Cup",
+   "home": "AFC Bournemouth U21",
+   "away": "Leicester City U21",
+   "hl": "https://media.api-sports.io/football/teams/20000.png",
+   "al": "https://media.api-sports.io/football/teams/7195.png",
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T18:15:00+00:00",
+   "minute": 11,
+   "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 9,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Muhannad Al-Shanqeeti"
+     "p": "N. Osazee"
     }
    ]
   },
   {
-   "id": 1629980,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al Quwa Al Jawiya",
-   "away": "Al-Gharafa",
-   "hl": "https://media.api-sports.io/football/teams/8009.png",
-   "al": "https://media.api-sports.io/football/teams/2903.png",
+   "id": 1627129,
+   "league": "England - Premier League Cup",
+   "home": "Brighton U21",
+   "away": "West Ham United U21",
+   "hl": "https://media.api-sports.io/football/teams/7191.png",
+   "al": "https://media.api-sports.io/football/teams/7203.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T18:15:00+00:00",
+   "minute": 7,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627130,
+   "league": "England - Premier League Cup",
+   "home": "Reading U21",
+   "away": "Exeter U21",
+   "hl": "https://media.api-sports.io/football/teams/11914.png",
+   "al": "https://media.api-sports.io/football/teams/24847.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627131,
+   "league": "England - Premier League Cup",
+   "home": "Wolves U21",
+   "away": "Preston North End U21",
+   "hl": "https://media.api-sports.io/football/teams/7204.png",
+   "al": "https://media.api-sports.io/football/teams/24848.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
-     "m": 29,
+     "m": 5,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Acheref Boudrama"
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Kamara"
+    }
+   ]
+  },
+  {
+   "id": 1627167,
+   "league": "England - Premier League Cup",
+   "home": "Birmingham City U21",
+   "away": "Gillingham FC U21",
+   "hl": "https://media.api-sports.io/football/teams/20078.png",
+   "al": "https://media.api-sports.io/football/teams/28224.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1645548,
+   "league": "Bolivia - Primera División",
+   "home": "Real Oruro",
+   "away": "Guabirá",
+   "hl": "https://media.api-sports.io/football/teams/20252.png",
+   "al": "https://media.api-sports.io/football/teams/3704.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S.Garzón"
     }
    ]
   },
@@ -79,26 +222,34 @@
    "hl": "https://media.api-sports.io/football/teams/1931.png",
    "al": "https://media.api-sports.io/football/teams/8382.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 24,
+   "minute": 35,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 2,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "B. Mino"
     },
     {
-     "m": 16,
+     "m": 15,
      "x": null,
      "s": "h",
      "t": "Goal",
+     "d": "Penalty",
+     "p": "N. Durruty"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "B. Duarte"
     }
    ]
   },
@@ -109,10 +260,10 @@
    "away": "IFK Goteborg",
    "hl": "https://media.api-sports.io/football/teams/363.png",
    "al": "https://media.api-sports.io/football/teams/366.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -138,6 +289,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Paulos Abraham"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Montader Madjed"
     }
    ]
   },
@@ -150,8 +309,8 @@
    "al": "https://media.api-sports.io/football/teams/374.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -185,6 +344,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rasmus Alm"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Victor Larsson"
     }
    ]
   },
@@ -197,8 +364,8 @@
    "al": "https://media.api-sports.io/football/teams/397.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -244,8 +411,8 @@
    "al": "https://media.api-sports.io/football/teams/14562.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -290,9 +457,9 @@
    "hl": "https://media.api-sports.io/football/teams/2585.png",
    "al": "https://media.api-sports.io/football/teams/6231.png",
    "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -310,6 +477,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Cmiljanic"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Petrila"
     }
    ]
   },
@@ -322,8 +497,8 @@
    "al": "https://media.api-sports.io/football/teams/17576.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -345,8 +520,8 @@
    "al": "https://media.api-sports.io/football/teams/906.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -411,6 +586,52 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Achraf Bencharki"
+    }
+   ]
+  },
+  {
+   "id": 1629979,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al-Ittihad FC",
+   "away": "Pakhtakor",
+   "hl": "https://media.api-sports.io/football/teams/2938.png",
+   "al": "https://media.api-sports.io/football/teams/4220.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T18:15:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Muhannad Al-Shanqeeti"
+    }
+   ]
+  },
+  {
+   "id": 1629980,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al Quwa Al Jawiya",
+   "away": "Al-Gharafa",
+   "hl": "https://media.api-sports.io/football/teams/8009.png",
+   "al": "https://media.api-sports.io/football/teams/2903.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T18:15:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Acheref Boudrama"
     }
    ]
   }
