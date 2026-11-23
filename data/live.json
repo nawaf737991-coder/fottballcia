@@ -1,7 +1,49 @@
 {
- "updated": "2026-11-23T14:50:18+03:00",
- "ts": 1795434618,
+ "updated": "2026-11-23T15:00:27+03:00",
+ "ts": 1795435227,
  "matches": [
+  {
+   "id": 1647894,
+   "league": "Iran - Azadegan League",
+   "home": "Mes Soongoun",
+   "away": "Ario Eslamshahr",
+   "hl": "https://media.api-sports.io/football/teams/22236.png",
+   "al": "https://media.api-sports.io/football/teams/20801.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-23T11:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651435,
+   "league": "Singapore - Premier League 2",
+   "home": "Young Lions II",
+   "away": "Geylang II",
+   "hl": "https://media.api-sports.io/football/teams/28730.png",
+   "al": "https://media.api-sports.io/football/teams/28725.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-23T11:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647895,
+   "league": "Iran - Azadegan League",
+   "home": "Saipa",
+   "away": "Naft Bandar Abbas",
+   "hl": "https://media.api-sports.io/football/teams/2736.png",
+   "al": "https://media.api-sports.io/football/teams/24800.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 72,
+   "time": "2026-11-23T10:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1527752,
    "league": "Tajikistan - Vysshaya Liga",
@@ -11,7 +53,7 @@
    "al": "https://media.api-sports.io/football/teams/8012.png",
    "gh": 0,
    "ga": 2,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-23T11:00:00+00:00",
    "ev": [
@@ -32,76 +74,6 @@
      "p": null
     }
    ]
-  },
-  {
-   "id": 1629483,
-   "league": "Turkey - U19 league",
-   "home": "İstanbul Başakşehir U19",
-   "away": "Corum U19",
-   "hl": "https://media.api-sports.io/football/teams/16397.png",
-   "al": "https://media.api-sports.io/football/teams/28242.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T11:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647894,
-   "league": "Iran - Azadegan League",
-   "home": "Mes Soongoun",
-   "away": "Ario Eslamshahr",
-   "hl": "https://media.api-sports.io/football/teams/22236.png",
-   "al": "https://media.api-sports.io/football/teams/20801.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 20,
-   "time": "2026-11-23T11:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1651435,
-   "league": "Singapore - Premier League 2",
-   "home": "Young Lions II",
-   "away": "Geylang II",
-   "hl": "https://media.api-sports.io/football/teams/28730.png",
-   "al": "https://media.api-sports.io/football/teams/28725.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 20,
-   "time": "2026-11-23T11:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646789,
-   "league": "Kenya - Super League",
-   "home": "Talanta",
-   "away": "Kibera Soccer",
-   "hl": "https://media.api-sports.io/football/teams/17897.png",
-   "al": "https://media.api-sports.io/football/teams/25751.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T10:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647895,
-   "league": "Iran - Azadegan League",
-   "home": "Saipa",
-   "away": "Naft Bandar Abbas",
-   "hl": "https://media.api-sports.io/football/teams/2736.png",
-   "al": "https://media.api-sports.io/football/teams/24800.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 62,
-   "time": "2026-11-23T10:30:00+00:00",
-   "ev": []
   },
   {
    "id": 1565529,
@@ -164,6 +136,20 @@
      "p": "Papa Ndiaga Yade"
     }
    ]
+  },
+  {
+   "id": 1629483,
+   "league": "Turkey - U19 league",
+   "home": "İstanbul Başakşehir U19",
+   "away": "Corum U19",
+   "hl": "https://media.api-sports.io/football/teams/16397.png",
+   "al": "https://media.api-sports.io/football/teams/28242.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T11:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1647893,
