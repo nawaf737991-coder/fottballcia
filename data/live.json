@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T18:50:25+03:00",
- "ts": 1795449025,
+ "updated": "2026-11-23T19:00:27+03:00",
+ "ts": 1795449627,
  "matches": [
   {
    "id": 1546172,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -66,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-23T15:15:00+00:00",
    "ev": [
     {
@@ -88,55 +88,16 @@
    ]
   },
   {
-   "id": 1612284,
-   "league": "Egypt - Premier League",
-   "home": "Wadi Degla",
-   "away": "Al Ittihad",
-   "hl": "https://media.api-sports.io/football/teams/1046.png",
-   "al": "https://media.api-sports.io/football/teams/1572.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ibrahim Mohamed El Bahnasi"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ahmed Hamdi"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Omar Adly"
-    }
-   ]
-  },
-  {
    "id": 1546170,
    "league": "World - World Cup - U17",
    "home": "Italy U17",
    "away": "Côte d'Ivoire U17",
    "hl": "https://media.api-sports.io/football/teams/12510.png",
    "al": "https://media.api-sports.io/football/teams/25818.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -162,100 +123,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Gasparello"
-    }
-   ]
-  },
-  {
-   "id": 1569434,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Albinoleffe U20",
-   "away": "Genoa U20",
-   "hl": "https://media.api-sports.io/football/teams/27903.png",
-   "al": "https://media.api-sports.io/football/teams/24732.png",
-   "gh": 0,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mariotti"
     },
     {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Lafont"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Bellone"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1577585,
-   "league": "Russia - First League",
-   "home": "Chelyabinsk",
-   "away": "Leningradets",
-   "hl": "https://media.api-sports.io/football/teams/6790.png",
-   "al": "https://media.api-sports.io/football/teams/6811.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matvey Pershin"
-    },
-    {
-     "m": 48,
+     "m": 70,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Gleb Miroshnichenko"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Denis Samoilov"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ilya Safronov"
+     "p": "F. Olivieri"
     }
    ]
   },
@@ -269,7 +144,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -303,6 +178,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Kpatai"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Al Sebyani"
     }
    ]
   },
@@ -449,6 +332,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ahmed Gamal"
+    }
+   ]
+  },
+  {
+   "id": 1612284,
+   "league": "Egypt - Premier League",
+   "home": "Wadi Degla",
+   "away": "Al Ittihad",
+   "hl": "https://media.api-sports.io/football/teams/1046.png",
+   "al": "https://media.api-sports.io/football/teams/1572.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ibrahim Mohamed El Bahnasi"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ahmed Hamdi"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Omar Adly"
     }
    ]
   },
