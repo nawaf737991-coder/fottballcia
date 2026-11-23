@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T08:11:00+03:00",
- "ts": 1795410660,
+ "updated": "2026-11-23T08:20:23+03:00",
+ "ts": 1795411223,
  "matches": [
   {
    "id": 1560989,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-23T05:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T04:00:00+00:00",
    "ev": []
   },
@@ -38,9 +38,9 @@
    "hl": "https://media.api-sports.io/football/teams/16949.png",
    "al": "https://media.api-sports.io/football/teams/16950.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T04:00:00+00:00",
    "ev": [
     {
@@ -50,6 +50,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Katayama Yuna"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Haruna Kawashima"
     }
    ]
   }
