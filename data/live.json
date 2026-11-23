@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T00:30:20+03:00",
- "ts": 1795469420,
+ "updated": "2026-11-24T00:40:30+03:00",
+ "ts": 1795470030,
  "matches": [
   {
    "id": 1598750,
@@ -9,14 +9,22 @@
    "away": "Marítimo U23",
    "hl": "https://media.api-sports.io/football/teams/21719.png",
    "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 33,
+   "minute": 43,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
      "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 38,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -35,9 +43,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-23T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1632062,
@@ -49,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -69,57 +86,27 @@
    "away": "Gualberto Villarroel SJ",
    "hl": "https://media.api-sports.io/football/teams/17762.png",
    "al": "https://media.api-sports.io/football/teams/22266.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-23T21:15:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1550203,
-   "league": "Italy - Serie A",
-   "home": "Monza",
-   "away": "Fiorentina",
-   "hl": "https://media.api-sports.io/football/teams/1579.png",
-   "al": "https://media.api-sports.io/football/teams/502.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Gustavo Varela"
-    },
-    {
-     "m": 51,
+     "m": 23,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Gustavo Varela"
+     "p": "Rodrigo Andrés Llano Montes"
     },
     {
-     "m": 59,
+     "m": 26,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jay Robinson"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Radu Drăguşin"
+     "t": "Var",
+     "d": "",
+     "p": "Guilder Cuellar"
     }
    ]
   },
@@ -133,7 +120,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -183,6 +170,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Lucas Perrin"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fabien Centonze"
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Mael Corboz"
     }
    ]
   },
@@ -193,10 +196,10 @@
    "away": "Dunkerque",
    "hl": "https://media.api-sports.io/football/teams/115.png",
    "al": "https://media.api-sports.io/football/teams/1304.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -262,6 +265,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Allan Linguet"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Yohan Demoncy"
     }
    ]
   },
@@ -272,10 +283,10 @@
    "away": "Everton",
    "hl": "https://media.api-sports.io/football/teams/55.png",
    "al": "https://media.api-sports.io/football/teams/45.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -317,6 +328,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "James Tarkowski"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vitaly Janelt"
     }
    ]
   },
@@ -330,7 +349,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -364,85 +383,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Roy Revivo"
-    }
-   ]
-  },
-  {
-   "id": 1574792,
-   "league": "France - Ligue 3",
-   "home": "Orleans",
-   "away": "Thionville Lusitanos",
-   "hl": "https://media.api-sports.io/football/teams/103.png",
-   "al": "https://media.api-sports.io/football/teams/22039.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Bouhmidi"
     },
     {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Kilic"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Legendre"
-    },
-    {
-     "m": 50,
+     "m": 71,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "H. Aubourg"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Diako"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Luvualu"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Sylla"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Balenga"
+     "p": "Oriol Rey"
     }
    ]
   },
@@ -456,7 +404,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -479,7 +427,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -536,78 +484,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1608753,
-   "league": "Italy - Serie C - Girone B",
-   "home": "Grosseto",
-   "away": "Guidonia Montecelio 1937",
-   "hl": "https://media.api-sports.io/football/teams/9499.png",
-   "al": "https://media.api-sports.io/football/teams/882.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Ferrari"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Santoro"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Gaddini"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "M. Gaddini"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Baroni"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Vertainen"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Ferrari"
+     "p": "F. Paghera"
     }
    ]
   },
@@ -618,10 +495,10 @@
    "away": "Newells Old Boys",
    "hl": "https://media.api-sports.io/football/teams/434.png",
    "al": "https://media.api-sports.io/football/teams/457.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -695,6 +572,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Germán Conti"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ignacio Miramon"
     }
    ]
   },
@@ -705,10 +590,10 @@
    "away": "Desimpedidos Goti",
    "hl": "https://media.api-sports.io/football/teams/26900.png",
    "al": "https://media.api-sports.io/football/teams/26898.png",
-   "gh": 3,
-   "ga": 1,
+   "gh": 4,
+   "ga": 2,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -742,6 +627,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "M. Elias"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Teteu"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Vicente"
     }
    ]
   }
