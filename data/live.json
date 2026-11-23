@@ -1,84 +1,7 @@
 {
- "updated": "2026-11-24T00:40:30+03:00",
- "ts": 1795470030,
+ "updated": "2026-11-24T00:50:28+03:00",
+ "ts": 1795470628,
  "matches": [
-  {
-   "id": 1598750,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Santa Clara U23",
-   "away": "Marítimo U23",
-   "hl": "https://media.api-sports.io/football/teams/21719.png",
-   "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 43,
-   "time": "2026-11-23T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1600699,
-   "league": "Chile - Segunda División",
-   "home": "Real San Joaquín",
-   "away": "Colina",
-   "hl": "https://media.api-sports.io/football/teams/18779.png",
-   "al": "https://media.api-sports.io/football/teams/5634.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 44,
-   "time": "2026-11-23T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1632062,
-   "league": "Paraguay - Division Profesional - Clausura",
-   "home": "2 de Mayo",
-   "away": "Club Sp. San Lorenzo",
-   "hl": "https://media.api-sports.io/football/teams/2140.png",
-   "al": "https://media.api-sports.io/football/teams/2125.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Andres Cohener Gonzalez"
-    }
-   ]
-  },
   {
    "id": 1645549,
    "league": "Bolivia - Primera División",
@@ -86,193 +9,27 @@
    "away": "Gualberto Villarroel SJ",
    "hl": "https://media.api-sports.io/football/teams/17762.png",
    "al": "https://media.api-sports.io/football/teams/22266.png",
-   "gh": 1,
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-23T21:15:00+00:00",
    "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rodrigo Andrés Llano Montes"
-    },
     {
      "m": 26,
      "x": null,
      "s": "h",
      "t": "Var",
-     "d": "",
+     "d": "Goal cancelled",
      "p": "Guilder Cuellar"
-    }
-   ]
-  },
-  {
-   "id": 1552536,
-   "league": "France - Ligue 2",
-   "home": "Nantes",
-   "away": "Grenoble",
-   "hl": "https://media.api-sports.io/football/teams/83.png",
-   "al": "https://media.api-sports.io/football/teams/101.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Grégory Poirier"
     },
     {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Perrin"
-    },
-    {
-     "m": 33,
+     "m": 31,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Nesta Zahui"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yvann Macon"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lucas Perrin"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Lucas Perrin"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Fabien Centonze"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Mael Corboz"
-    }
-   ]
-  },
-  {
-   "id": 1552539,
-   "league": "France - Ligue 2",
-   "home": "Sochaux",
-   "away": "Dunkerque",
-   "hl": "https://media.api-sports.io/football/teams/115.png",
-   "al": "https://media.api-sports.io/football/teams/1304.png",
-   "gh": 2,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Louicius Deedson"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Khalil Ayari"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Arthylio Nade"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abner"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Arthylio Nade"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Khalil Ayari"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mathieu Peybernes"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Allan Linguet"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Yohan Demoncy"
+     "p": "Guimer Justiniano"
     }
    ]
   },
@@ -286,7 +43,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -346,10 +103,10 @@
    "away": "Elche",
    "hl": "https://media.api-sports.io/football/teams/539.png",
    "al": "https://media.api-sports.io/football/teams/797.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -391,92 +148,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Oriol Rey"
-    }
-   ]
-  },
-  {
-   "id": 1588461,
-   "league": "England - National League - South",
-   "home": "Chelmsford City",
-   "away": "Maidstone Utd",
-   "hl": "https://media.api-sports.io/football/teams/4689.png",
-   "al": "https://media.api-sports.io/football/teams/1825.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Barham"
-    }
-   ]
-  },
-  {
-   "id": 1608377,
-   "league": "Italy - Serie C - Girone A",
-   "home": "Lecco",
-   "away": "Lumezzane",
-   "hl": "https://media.api-sports.io/football/teams/6379.png",
-   "al": "https://media.api-sports.io/football/teams/1689.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Baroncioni"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Urso"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Boffelli"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Sidler"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Monachello"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Litti"
     },
     {
      "m": 84,
@@ -484,7 +155,15 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "F. Paghera"
+     "p": "Federico Redondo Solari"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Daniel Requena Sánchez"
     }
    ]
   },
@@ -496,9 +175,9 @@
    "hl": "https://media.api-sports.io/football/teams/434.png",
    "al": "https://media.api-sports.io/football/teams/457.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -528,18 +207,18 @@
     {
      "m": 53,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Harlen Castillo"
-    },
-    {
-     "m": 53,
-     "x": null,
      "s": "a",
      "t": "Var",
      "d": "Penalty confirmed",
      "p": "Santiago Germán Solari Ferreyra"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Harlen Castillo"
     },
     {
      "m": 55,
@@ -580,6 +259,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ignacio Miramon"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Walter Mazzantti"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jeronimo Russo"
     }
    ]
   },
@@ -590,10 +285,10 @@
    "away": "Desimpedidos Goti",
    "hl": "https://media.api-sports.io/football/teams/26900.png",
    "al": "https://media.api-sports.io/football/teams/26898.png",
-   "gh": 4,
+   "gh": 7,
    "ga": 2,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -643,6 +338,139 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "R. Vicente"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ryan Lima"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "V. Alexandre"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Juninho Antunes"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Juninho Antunes"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Juninho Antunes"
+    }
+   ]
+  },
+  {
+   "id": 1598750,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Santa Clara U23",
+   "away": "Marítimo U23",
+   "hl": "https://media.api-sports.io/football/teams/21719.png",
+   "al": "https://media.api-sports.io/football/teams/15466.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1600699,
+   "league": "Chile - Segunda División",
+   "home": "Real San Joaquín",
+   "away": "Colina",
+   "hl": "https://media.api-sports.io/football/teams/18779.png",
+   "al": "https://media.api-sports.io/football/teams/5634.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1632062,
+   "league": "Paraguay - Division Profesional - Clausura",
+   "home": "2 de Mayo",
+   "away": "Club Sp. San Lorenzo",
+   "hl": "https://media.api-sports.io/football/teams/2140.png",
+   "al": "https://media.api-sports.io/football/teams/2125.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Andres Cohener Gonzalez"
     }
    ]
   }
