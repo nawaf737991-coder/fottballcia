@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T04:40:23+03:00",
- "ts": 1795398023,
+ "updated": "2026-11-23T04:50:27+03:00",
+ "ts": 1795398627,
  "matches": [
   {
    "id": 1551046,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -30,6 +30,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Miguel Rodriguez"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Iker Benito Sánchez"
     }
    ]
   },
@@ -41,9 +49,9 @@
    "hl": "https://media.api-sports.io/football/teams/3643.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 23,
+   "minute": 32,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -53,6 +61,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "V. Urias"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -64,56 +80,18 @@
    "hl": "https://media.api-sports.io/football/teams/1053.png",
    "al": "https://media.api-sports.io/football/teams/19456.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 19,
    "time": "2026-11-23T01:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1649568,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Instituto Cordoba",
-   "away": "Huracan",
-   "hl": "https://media.api-sports.io/football/teams/478.png",
-   "al": "https://media.api-sports.io/football/teams/445.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alex Luna"
-    },
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Luna"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Facundo Ezquel Suarez"
-    },
-    {
-     "m": 32,
+     "m": 14,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Vera"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Antunez"
     }
    ]
   },
@@ -127,7 +105,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
@@ -141,6 +119,20 @@
    ]
   },
   {
+   "id": 1651120,
+   "league": "USA - Major League Soccer",
+   "home": "Vancouver Whitecaps",
+   "away": "Real Salt Lake",
+   "hl": "https://media.api-sports.io/football/teams/1603.png",
+   "al": "https://media.api-sports.io/football/teams/1606.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T01:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1648334,
    "league": "Peru - Segunda División",
    "home": "Carlos A. Mannucci",
@@ -150,7 +142,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-23T00:30:00+00:00",
    "ev": [
     {
@@ -197,7 +189,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 80,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": [
     {
@@ -215,6 +207,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Olguin"
+    }
+   ]
+  },
+  {
+   "id": 1649568,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Instituto Cordoba",
+   "away": "Huracan",
+   "hl": "https://media.api-sports.io/football/teams/478.png",
+   "al": "https://media.api-sports.io/football/teams/445.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alex Luna"
+    },
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Luna"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Facundo Ezquel Suarez"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Federico Vera"
     }
    ]
   }
