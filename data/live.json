@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T09:10:16+03:00",
- "ts": 1795414216,
+ "updated": "2026-11-23T09:20:21+03:00",
+ "ts": 1795414821,
  "matches": [
   {
    "id": 1560986,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-23T06:00:00+00:00",
    "ev": []
   },
@@ -24,11 +24,20 @@
    "hl": "https://media.api-sports.io/football/teams/16954.png",
    "al": "https://media.api-sports.io/football/teams/16952.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-23T05:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Chika Kato"
+    }
+   ]
   }
  ]
 }
