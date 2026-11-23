@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T20:30:11+03:00",
- "ts": 1795455011,
+ "updated": "2026-11-23T20:40:15+03:00",
+ "ts": 1795455615,
  "matches": [
   {
    "id": 1548566,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -52,7 +52,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "J. Majsterek"
     }
    ]
   },
@@ -66,7 +66,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -86,10 +86,10 @@
    "away": "Vanspor FK",
    "hl": "https://media.api-sports.io/football/teams/3583.png",
    "al": "https://media.api-sports.io/football/teams/6342.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -112,7 +112,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -135,7 +135,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -145,6 +145,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "T. Kiss"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -156,11 +164,36 @@
    "hl": "https://media.api-sports.io/football/teams/10792.png",
    "al": "https://media.api-sports.io/football/teams/910.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 43,
+   "minute": 45,
    "time": "2026-11-23T16:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Mahrouz"
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 8,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1551148,
@@ -172,7 +205,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -182,6 +215,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Amir Hadžiahmetović"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "simeon shishkov"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bernard Tekpetey"
     }
    ]
   },
@@ -193,9 +242,9 @@
    "hl": "https://media.api-sports.io/football/teams/24742.png",
    "al": "https://media.api-sports.io/football/teams/24726.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -220,6 +269,14 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "L. Lo Monaco"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -234,7 +291,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -264,18 +321,26 @@
     {
      "m": 58,
      "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matías Palacios"
+    },
+    {
+     "m": 58,
+     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Saleh Hardani"
     },
     {
-     "m": 58,
+     "m": 73,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matías Palacios"
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hossein Goudarzi"
     }
    ]
   },
@@ -286,10 +351,10 @@
    "away": "Al-Ahli Jeddah",
    "hl": "https://media.api-sports.io/football/teams/2916.png",
    "al": "https://media.api-sports.io/football/teams/2929.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -339,6 +404,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ziyad Al-Johani"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tiago Silva"
     }
    ]
   },
@@ -349,10 +422,10 @@
    "away": "Al-Wasl FC",
    "hl": "https://media.api-sports.io/football/teams/2737.png",
    "al": "https://media.api-sports.io/football/teams/2872.png",
-   "gh": 0,
-   "ga": 3,
+   "gh": 1,
+   "ga": 4,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -394,6 +467,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gabriel dos Santos da Silva"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amirhossein Hosseinzadeh"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mehdi Taremi"
     }
    ]
   },
