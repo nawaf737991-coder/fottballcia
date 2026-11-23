@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T05:40:27+03:00",
- "ts": 1795401627,
+ "updated": "2026-11-23T05:50:26+03:00",
+ "ts": 1795402226,
  "matches": [
   {
    "id": 1551046,
@@ -9,10 +9,10 @@
    "away": "Necaxa",
    "hl": "https://media.api-sports.io/football/teams/2290.png",
    "al": "https://media.api-sports.io/football/teams/2288.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -46,6 +46,22 @@
      "t": "Var",
      "d": "Red card cancelled",
      "p": "Lucas Abascia"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Abascia"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Enzo Giménez"
     }
    ]
   },
@@ -56,10 +72,10 @@
    "away": "Aurora",
    "hl": "https://media.api-sports.io/football/teams/3643.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 68,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -85,6 +101,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Flores"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Ochaeta"
     }
    ]
   },
@@ -98,7 +122,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -161,7 +185,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
@@ -256,7 +280,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
@@ -278,8 +302,8 @@
    "al": "https://media.api-sports.io/football/teams/1606.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -297,6 +321,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Andrés Cubas"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Sanabria"
     }
    ]
   }
