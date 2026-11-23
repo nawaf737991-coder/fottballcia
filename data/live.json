@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T19:30:19+03:00",
- "ts": 1795451419,
+ "updated": "2026-11-23T19:40:22+03:00",
+ "ts": 1795452022,
  "matches": [
   {
    "id": 1551148,
@@ -12,8 +12,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-23T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1558044,
+   "league": "Slovenia - 1. SNL",
+   "home": "Koper",
+   "away": "Aluminij",
+   "hl": "https://media.api-sports.io/football/teams/4374.png",
+   "al": "https://media.api-sports.io/football/teams/4358.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T16:30:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +40,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -43,7 +57,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "F. Conzato"
     }
    ]
   },
@@ -57,9 +71,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rustam Ashurmatov"
+    }
+   ]
   },
   {
    "id": 1629977,
@@ -71,7 +94,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -110,7 +133,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -132,6 +155,37 @@
    ]
   },
   {
+   "id": 1546172,
+   "league": "World - World Cup - U17",
+   "home": "Mali U17",
+   "away": "Belgium U17",
+   "hl": "https://media.api-sports.io/football/teams/21298.png",
+   "al": "https://media.api-sports.io/football/teams/17942.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-23T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Filippo"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Koita"
+    }
+   ]
+  },
+  {
    "id": 1546174,
    "league": "World - World Cup - U17",
    "home": "Morocco U17",
@@ -141,7 +195,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 81,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -187,6 +241,45 @@
    ]
   },
   {
+   "id": 1546184,
+   "league": "World - World Cup - U17",
+   "home": "Vietnam U17",
+   "away": "New Zealand U17",
+   "hl": "https://media.api-sports.io/football/teams/21447.png",
+   "al": "https://media.api-sports.io/football/teams/12515.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-23T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Clegg"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Chu Ngoc Nguyen Luc"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Woldegiorgis"
+    }
+   ]
+  },
+  {
    "id": 1593359,
    "league": "Greece - Super League 1",
    "home": "Asteras Tripolis",
@@ -196,7 +289,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -227,7 +320,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -248,9 +341,9 @@
    "hl": "https://media.api-sports.io/football/teams/7466.png",
    "al": "https://media.api-sports.io/football/teams/2586.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 72,
+   "minute": 83,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -263,19 +356,19 @@
     },
     {
      "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Issah"
-    },
-    {
-     "m": 45,
      "x": 2,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Garcia"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Issah"
     },
     {
      "m": 53,
@@ -290,7 +383,7 @@
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
      "p": "S. Issah"
     },
     {
@@ -298,11 +391,19 @@
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": "S. Issah"
     },
     {
      "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Negut"
+    },
+    {
+     "m": 79,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -319,9 +420,9 @@
    "hl": "https://media.api-sports.io/football/teams/2947.png",
    "al": "https://media.api-sports.io/football/teams/2956.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-23T15:15:00+00:00",
    "ev": [
     {
@@ -339,6 +440,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Al Shamrani"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Al Jizani"
     }
    ]
   },
@@ -352,7 +461,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 83,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -399,7 +508,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 73,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -446,7 +555,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -466,12 +575,12 @@
      "p": "D. Pjeshka"
     },
     {
-     "m": 60,
+     "m": 59,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "E. Hodo"
     }
    ]
   },
@@ -485,7 +594,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 80,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -503,60 +612,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Bissan"
-    }
-   ]
-  },
-  {
-   "id": 1546172,
-   "league": "World - World Cup - U17",
-   "home": "Mali U17",
-   "away": "Belgium U17",
-   "hl": "https://media.api-sports.io/football/teams/21298.png",
-   "al": "https://media.api-sports.io/football/teams/17942.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Filippo"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Koita"
-    }
-   ]
-  },
-  {
-   "id": 1546184,
-   "league": "World - World Cup - U17",
-   "home": "Vietnam U17",
-   "away": "New Zealand U17",
-   "hl": "https://media.api-sports.io/football/teams/21447.png",
-   "al": "https://media.api-sports.io/football/teams/12515.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Clegg"
     }
    ]
   }
