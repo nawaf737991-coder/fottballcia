@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T03:40:26+03:00",
- "ts": 1795394426,
+ "updated": "2026-11-23T03:50:10+03:00",
+ "ts": 1795395010,
  "matches": [
   {
    "id": 1648334,
@@ -12,9 +12,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T00:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1650243,
@@ -26,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": [
     {
@@ -46,10 +63,10 @@
    "away": "D. La Serena",
    "hl": "https://media.api-sports.io/football/teams/16730.png",
    "al": "https://media.api-sports.io/football/teams/2341.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 60,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -67,6 +84,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Diego Rubio"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Daniel Castro"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Misael Llantén"
     }
    ]
   },
@@ -80,7 +113,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -114,6 +147,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Fernando González"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Agustín Palavecino"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gonzalo Piovi"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ángel Márquez"
     }
    ]
   },
@@ -127,7 +184,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -159,7 +216,7 @@
      "x": 6,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": "J. Rosales"
     },
     {
@@ -167,8 +224,24 @@
      "x": 6,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
      "p": "J. Rosales"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "C. Hernandez"
     }
    ]
   },
@@ -182,7 +255,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -229,7 +302,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 65,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -263,6 +336,37 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Cristian Ricaldez Rojas"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Joel Amoroso"
+    }
+   ]
+  },
+  {
+   "id": 1649493,
+   "league": "USA - Major League Soccer",
+   "home": "Chicago Fire",
+   "away": "Charlotte",
+   "hl": "https://media.api-sports.io/football/teams/1607.png",
+   "al": "https://media.api-sports.io/football/teams/18310.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-22T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Liel Abada"
     }
    ]
   },
@@ -276,7 +380,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -328,28 +432,14 @@
      "p": null
     },
     {
-     "m": 64,
+     "m": 65,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "J. Sanchez"
     }
    ]
-  },
-  {
-   "id": 1649493,
-   "league": "USA - Major League Soccer",
-   "home": "Chicago Fire",
-   "away": "Charlotte",
-   "hl": "https://media.api-sports.io/football/teams/1607.png",
-   "al": "https://media.api-sports.io/football/teams/18310.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-22T23:30:00+00:00",
-   "ev": []
   }
  ]
 }
