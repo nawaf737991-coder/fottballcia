@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-24T01:10:23+03:00",
- "ts": 1795471823,
+ "updated": "2026-11-24T01:20:21+03:00",
+ "ts": 1795472421,
  "matches": [
+  {
+   "id": 1650517,
+   "league": "Brazil - Kings Cup",
+   "home": "Capim",
+   "away": "Furia",
+   "hl": "https://media.api-sports.io/football/teams/26896.png",
+   "al": "https://media.api-sports.io/football/teams/26901.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-23T22:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1598750,
    "league": "Portugal - Liga Revelação U23",
@@ -9,10 +23,10 @@
    "away": "Marítimo U23",
    "hl": "https://media.api-sports.io/football/teams/21719.png",
    "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -30,6 +44,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -41,9 +63,9 @@
    "hl": "https://media.api-sports.io/football/teams/18779.png",
    "al": "https://media.api-sports.io/football/teams/5634.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 64,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -69,6 +91,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "N. Rojas"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -82,7 +112,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -96,16 +126,55 @@
    ]
   },
   {
+   "id": 1645549,
+   "league": "Bolivia - Primera División",
+   "home": "Universitario de Vinto",
+   "away": "Gualberto Villarroel SJ",
+   "hl": "https://media.api-sports.io/football/teams/17762.png",
+   "al": "https://media.api-sports.io/football/teams/22266.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-23T21:15:00+00:00",
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Guilder Cuellar"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Guimer Justiniano"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Gómez"
+    }
+   ]
+  },
+  {
    "id": 1649567,
    "league": "Argentina - Liga Profesional Argentina",
    "home": "Gimnasia L.P.",
    "away": "Newells Old Boys",
    "hl": "https://media.api-sports.io/football/teams/434.png",
    "al": "https://media.api-sports.io/football/teams/457.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "ET",
-   "minute": 97,
+   "minute": 107,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -135,18 +204,18 @@
     {
      "m": 53,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Harlen Castillo"
-    },
-    {
-     "m": 53,
-     "x": null,
      "s": "a",
      "t": "Var",
      "d": "Penalty confirmed",
      "p": "Santiago Germán Solari Ferreyra"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Harlen Castillo"
     },
     {
      "m": 55,
@@ -227,45 +296,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Agustin Auzmendi"
-    }
-   ]
-  },
-  {
-   "id": 1645549,
-   "league": "Bolivia - Primera División",
-   "home": "Universitario de Vinto",
-   "away": "Gualberto Villarroel SJ",
-   "hl": "https://media.api-sports.io/football/teams/17762.png",
-   "al": "https://media.api-sports.io/football/teams/22266.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T21:15:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Guilder Cuellar"
     },
     {
-     "m": 31,
+     "m": 97,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Jeronimo Russo"
+    },
+    {
+     "m": 99,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Franco Escobar"
+    },
+    {
+     "m": 103,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Martin Ortega"
+    },
+    {
+     "m": 104,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Guimer Justiniano"
+     "p": "Franco Escobar"
     },
     {
-     "m": 39,
+     "m": 105,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Gómez"
+     "p": "Juan Ignacio Ramírez"
     }
    ]
   }
