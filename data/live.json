@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T09:30:23+03:00",
- "ts": 1795415423,
+ "updated": "2026-11-23T09:40:27+03:00",
+ "ts": 1795416027,
  "matches": [
   {
    "id": 1560986,
@@ -9,14 +9,22 @@
    "away": "INAC Kobe Leonessa W",
    "hl": "https://media.api-sports.io/football/teams/16951.png",
    "al": "https://media.api-sports.io/football/teams/16947.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 37,
    "time": "2026-11-23T06:00:00+00:00",
    "ev": [
     {
      "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Moka Hiwatari"
+    },
+    {
+     "m": 35,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -33,9 +41,9 @@
    "hl": "https://media.api-sports.io/football/teams/16954.png",
    "al": "https://media.api-sports.io/football/teams/16952.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T05:00:00+00:00",
    "ev": [
     {
@@ -45,6 +53,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Chika Kato"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Akimi Kawafune"
     }
    ]
   }
