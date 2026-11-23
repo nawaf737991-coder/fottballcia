@@ -1,7 +1,52 @@
 {
- "updated": "2026-11-23T13:10:15+03:00",
- "ts": 1795428615,
+ "updated": "2026-11-23T13:20:20+03:00",
+ "ts": 1795429220,
  "matches": [
+  {
+   "id": 1646789,
+   "league": "Kenya - Super League",
+   "home": "Talanta",
+   "away": "Kibera Soccer",
+   "hl": "https://media.api-sports.io/football/teams/17897.png",
+   "al": "https://media.api-sports.io/football/teams/25751.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-23T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1634862,
+   "league": "Myanmar - National League",
+   "home": "Yangon Royals",
+   "away": "Hantharwady United",
+   "hl": "https://media.api-sports.io/football/teams/28338.png",
+   "al": "https://media.api-sports.io/football/teams/12525.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 62,
+   "time": "2026-11-23T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Khant Myat Kaung"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Rodrigues"
+    }
+   ]
+  },
   {
    "id": 1634863,
    "league": "Myanmar - National League",
@@ -11,8 +56,8 @@
    "al": "https://media.api-sports.io/football/teams/12523.png",
    "gh": 2,
    "ga": 2,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-23T09:30:00+00:00",
    "ev": [
     {
@@ -46,51 +91,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "C. Van Hming"
-    }
-   ]
-  },
-  {
-   "id": 1646789,
-   "league": "Kenya - Super League",
-   "home": "Talanta",
-   "away": "Kibera Soccer",
-   "hl": "https://media.api-sports.io/football/teams/17897.png",
-   "al": "https://media.api-sports.io/football/teams/25751.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-23T10:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1634862,
-   "league": "Myanmar - National League",
-   "home": "Yangon Royals",
-   "away": "Hantharwady United",
-   "hl": "https://media.api-sports.io/football/teams/28338.png",
-   "al": "https://media.api-sports.io/football/teams/12525.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 52,
-   "time": "2026-11-23T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Khant Myat Kaung"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Rodrigues"
     }
    ]
   }
