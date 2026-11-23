@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T01:20:21+03:00",
- "ts": 1795472421,
+ "updated": "2026-11-24T01:30:15+03:00",
+ "ts": 1795473015,
  "matches": [
   {
    "id": 1650517,
@@ -9,12 +9,29 @@
    "away": "Furia",
    "hl": "https://media.api-sports.io/football/teams/26896.png",
    "al": "https://media.api-sports.io/football/teams/26901.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-23T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Henrique"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ruan Major"
+    }
+   ]
   },
   {
    "id": 1598750,
@@ -23,10 +40,10 @@
    "away": "Marítimo U23",
    "hl": "https://media.api-sports.io/football/teams/21719.png",
    "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 3,
-   "ga": 0,
+   "gh": 4,
+   "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -52,6 +69,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -65,7 +98,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -93,11 +126,35 @@
      "p": "N. Rojas"
     },
     {
-     "m": 56,
+     "m": 55,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "M. Jimenez"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
      "p": null
     }
    ]
@@ -112,7 +169,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -122,6 +179,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Lucas Andres Cohener Gonzalez"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Matías Moya"
     }
    ]
   },
@@ -132,10 +197,10 @@
    "away": "Gualberto Villarroel SJ",
    "hl": "https://media.api-sports.io/football/teams/17762.png",
    "al": "https://media.api-sports.io/football/teams/22266.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T21:15:00+00:00",
    "ev": [
     {
@@ -161,6 +226,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Gómez"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Oswaldo Blanco"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Richard Dorrego"
     }
    ]
   },
@@ -174,7 +255,7 @@
    "gh": 3,
    "ga": 2,
    "status": "ET",
-   "minute": 107,
+   "minute": 110,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -204,18 +285,18 @@
     {
      "m": 53,
      "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Santiago Germán Solari Ferreyra"
-    },
-    {
-     "m": 53,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Harlen Castillo"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Santiago Germán Solari Ferreyra"
     },
     {
      "m": 55,
