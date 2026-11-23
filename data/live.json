@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T02:40:19+03:00",
- "ts": 1795477219,
+ "updated": "2026-11-24T02:50:22+03:00",
+ "ts": 1795477822,
  "matches": [
   {
    "id": 1492463,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -59,7 +59,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 34,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -96,9 +96,9 @@
    "hl": "https://media.api-sports.io/football/teams/26899.png",
    "al": "https://media.api-sports.io/football/teams/26897.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 3,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -116,6 +116,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gustavo Hungaro"
+    },
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gabriel Repulho"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lucas Guilherme"
     }
    ]
   },
@@ -129,7 +153,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -200,7 +224,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -210,6 +234,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Iker Zufiaurre"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
