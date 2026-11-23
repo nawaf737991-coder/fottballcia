@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T02:20:10+03:00",
- "ts": 1795476010,
+ "updated": "2026-11-24T02:30:19+03:00",
+ "ts": 1795476619,
  "matches": [
   {
    "id": 1492463,
@@ -10,11 +10,59 @@
    "hl": "https://media.api-sports.io/football/teams/120.png",
    "al": "https://media.api-sports.io/football/teams/126.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-23T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Newton"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Pedro Lima"
+    }
+   ]
+  },
+  {
+   "id": 1632064,
+   "league": "Paraguay - Division Profesional - Clausura",
+   "home": "Nacional Asuncion",
+   "away": "Cerro Porteno",
+   "hl": "https://media.api-sports.io/football/teams/1175.png",
+   "al": "https://media.api-sports.io/football/teams/1176.png",
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
-   "time": "2026-11-23T23:00:00+00:00",
-   "ev": []
+   "minute": 14,
+   "time": "2026-11-23T23:15:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hugo Valdez"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "carlos chena"
+    }
+   ]
   },
   {
    "id": 1492467,
@@ -25,7 +73,7 @@
    "al": "https://media.api-sports.io/football/teams/136.png",
    "gh": 1,
    "ga": 2,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
@@ -75,23 +123,17 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Carlos Renê de Sousa Ferreira"
+     "p": "Baralhas"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rafael dos Santos Lacerda"
     }
    ]
-  },
-  {
-   "id": 1632064,
-   "league": "Paraguay - Division Profesional - Clausura",
-   "home": "Nacional Asuncion",
-   "away": "Cerro Porteno",
-   "hl": "https://media.api-sports.io/football/teams/1175.png",
-   "al": "https://media.api-sports.io/football/teams/1176.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 4,
-   "time": "2026-11-23T23:15:00+00:00",
-   "ev": []
   },
   {
    "id": 1650507,
@@ -113,165 +155,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Iker Zufiaurre"
-    }
-   ]
-  },
-  {
-   "id": 1650517,
-   "league": "Brazil - Kings Cup",
-   "home": "Capim",
-   "away": "Furia",
-   "hl": "https://media.api-sports.io/football/teams/26896.png",
-   "al": "https://media.api-sports.io/football/teams/26901.png",
-   "gh": 5,
-   "ga": 5,
-   "status": "P",
-   "minute": null,
-   "time": "2026-11-23T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Henrique"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ruan Major"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Silva"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lipao Pinheiro"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Leleti Garcia"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Moreira"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Moreira"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "C. Guedes"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Racha"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Silva"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Lucas Hector"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Moreira"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dedo"
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Jeffinho Honorato"
     }
    ]
   }
