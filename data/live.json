@@ -1,46 +1,7 @@
 {
- "updated": "2026-11-23T04:50:27+03:00",
- "ts": 1795398627,
+ "updated": "2026-11-23T05:00:09+03:00",
+ "ts": 1795399209,
  "matches": [
-  {
-   "id": 1551046,
-   "league": "Mexico - Liga MX",
-   "home": "Club Queretaro",
-   "away": "Necaxa",
-   "hl": "https://media.api-sports.io/football/teams/2290.png",
-   "al": "https://media.api-sports.io/football/teams/2288.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T01:10:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ali Ávila"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Miguel Rodriguez"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Iker Benito Sánchez"
-    }
-   ]
-  },
   {
    "id": 1559712,
    "league": "Guatemala - Liga Nacional",
@@ -48,10 +9,10 @@
    "away": "Aurora",
    "hl": "https://media.api-sports.io/football/teams/3643.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
-   "gh": 0,
-   "ga": 2,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 43,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": [
     {
@@ -63,12 +24,12 @@
      "p": "V. Urias"
     },
     {
-     "m": 32,
+     "m": 39,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "D. Martinez"
     }
    ]
   },
@@ -82,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 30,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": [
     {
@@ -92,29 +53,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Antunez"
-    }
-   ]
-  },
-  {
-   "id": 1650841,
-   "league": "Nicaragua - Primera Division",
-   "home": "Diriangén",
-   "away": "Managua",
-   "hl": "https://media.api-sports.io/football/teams/4641.png",
-   "al": "https://media.api-sports.io/football/teams/4644.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T01:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 30,
+     "m": 24,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Bengtson"
     }
    ]
   },
@@ -128,7 +74,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T01:30:00+00:00",
    "ev": []
   },
@@ -142,7 +88,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T00:30:00+00:00",
    "ev": [
     {
@@ -176,6 +122,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Maciel"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -189,7 +143,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": [
     {
@@ -207,6 +161,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Olguin"
+    }
+   ]
+  },
+  {
+   "id": 1551046,
+   "league": "Mexico - Liga MX",
+   "home": "Club Queretaro",
+   "away": "Necaxa",
+   "hl": "https://media.api-sports.io/football/teams/2290.png",
+   "al": "https://media.api-sports.io/football/teams/2288.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T01:10:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ali Ávila"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Miguel Rodriguez"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Iker Benito Sánchez"
     }
    ]
   },
@@ -254,6 +247,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Federico Vera"
+    }
+   ]
+  },
+  {
+   "id": 1650841,
+   "league": "Nicaragua - Primera Division",
+   "home": "Diriangén",
+   "away": "Managua",
+   "hl": "https://media.api-sports.io/football/teams/4641.png",
+   "al": "https://media.api-sports.io/football/teams/4644.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
