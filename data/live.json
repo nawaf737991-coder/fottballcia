@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T00:15:18+03:00",
- "ts": 1795468518,
+ "updated": "2026-11-24T00:20:18+03:00",
+ "ts": 1795468818,
  "matches": [
   {
    "id": 1598750,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 23,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 24,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": []
   },
@@ -49,9 +49,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 20,
    "time": "2026-11-23T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Andres Cohener Gonzalez"
+    }
+   ]
   },
   {
    "id": 1645549,
@@ -63,7 +72,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 7,
    "time": "2026-11-23T21:15:00+00:00",
    "ev": []
   },
@@ -75,9 +84,9 @@
    "hl": "https://media.api-sports.io/football/teams/26900.png",
    "al": "https://media.api-sports.io/football/teams/26898.png",
    "gh": 3,
-   "ga": 2,
+   "ga": 1,
    "status": "1H",
-   "minute": 13,
+   "minute": 18,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -111,14 +120,6 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "M. Elias"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   },
@@ -132,7 +133,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 76,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -171,7 +172,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 78,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -234,7 +235,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 70,
+   "minute": 75,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -305,7 +306,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 53,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -360,7 +361,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 80,
+   "minute": 85,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -463,7 +464,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 62,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -502,7 +503,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 76,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -544,6 +545,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Diako"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -557,7 +566,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 73,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -580,7 +589,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 75,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -606,6 +615,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Boffelli"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Sidler"
     }
    ]
   },
@@ -619,7 +636,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 84,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -669,6 +686,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Vertainen"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Ferrari"
     }
    ]
   },
@@ -680,9 +705,9 @@
    "hl": "https://media.api-sports.io/football/teams/434.png",
    "al": "https://media.api-sports.io/football/teams/457.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 58,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -708,6 +733,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Lucas Janson"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Santiago Germán Solari Ferreyra"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Walter Mazzantti"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ignacio Fernández"
     }
    ]
   },
@@ -721,7 +770,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 89,
+   "minute": 90,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -811,6 +860,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mateo Caballero"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ramiro Miguel Peralta"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leonel Roldan"
     }
    ]
   }
