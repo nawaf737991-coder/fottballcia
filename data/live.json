@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T09:20:21+03:00",
- "ts": 1795414821,
+ "updated": "2026-11-23T09:30:23+03:00",
+ "ts": 1795415423,
  "matches": [
   {
    "id": 1560986,
@@ -9,12 +9,21 @@
    "away": "INAC Kobe Leonessa W",
    "hl": "https://media.api-sports.io/football/teams/16951.png",
    "al": "https://media.api-sports.io/football/teams/16947.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-23T06:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Moka Hiwatari"
+    }
+   ]
   },
   {
    "id": 1560989,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T05:00:00+00:00",
    "ev": [
     {
