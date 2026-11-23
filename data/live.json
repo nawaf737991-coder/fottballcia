@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T19:20:15+03:00",
- "ts": 1795450815,
+ "updated": "2026-11-23T19:30:19+03:00",
+ "ts": 1795451419,
  "matches": [
   {
    "id": 1551148,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": []
   },
@@ -23,12 +23,29 @@
    "away": "Bologna U20",
    "hl": "https://media.api-sports.io/football/teams/24742.png",
    "al": "https://media.api-sports.io/football/teams/24726.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-23T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Conzato"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1629976,
@@ -40,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": []
   },
@@ -54,7 +71,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -93,7 +110,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -115,71 +132,16 @@
    ]
   },
   {
-   "id": 1546170,
-   "league": "World - World Cup - U17",
-   "home": "Italy U17",
-   "away": "Côte d'Ivoire U17",
-   "hl": "https://media.api-sports.io/football/teams/12510.png",
-   "al": "https://media.api-sports.io/football/teams/25818.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "H. Diabate"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - offside",
-     "p": "D. Perillo"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Gasparello"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Olivieri"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Rigo"
-    }
-   ]
-  },
-  {
    "id": 1546174,
    "league": "World - World Cup - U17",
    "home": "Morocco U17",
    "away": "China PR U17",
    "hl": "https://media.api-sports.io/football/teams/21302.png",
    "al": "https://media.api-sports.io/football/teams/21449.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -197,6 +159,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Zhao Songyuan"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Bouahdadi"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nan Zixun"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Z. Baha"
     }
    ]
   },
@@ -210,7 +196,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -220,6 +206,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Alejandro·Mendez Garcia"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jeremy Petris"
     }
    ]
   },
@@ -233,7 +227,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -254,9 +248,9 @@
    "hl": "https://media.api-sports.io/football/teams/7466.png",
    "al": "https://media.api-sports.io/football/teams/2586.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -296,95 +290,24 @@
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "d": "Red Card",
+     "p": "S. Issah"
     },
     {
      "m": 58,
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
+     "p": "S. Issah"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1604064,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al Jeel",
-   "away": "Al Saqer",
-   "hl": "https://media.api-sports.io/football/teams/2955.png",
-   "al": "https://media.api-sports.io/football/teams/27480.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mbengue"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Assehnoun"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mbengue"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Kpatai"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "H. Al Sebyani"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Qassem"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mbengue"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Milani"
     }
    ]
   },
@@ -398,7 +321,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-23T15:15:00+00:00",
    "ev": [
     {
@@ -429,7 +352,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -476,7 +399,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -523,7 +446,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -562,7 +485,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
