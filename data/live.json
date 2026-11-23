@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T20:20:27+03:00",
- "ts": 1795454427,
+ "updated": "2026-11-23T20:30:11+03:00",
+ "ts": 1795455011,
  "matches": [
   {
    "id": 1548566,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -26,53 +26,6 @@
    ]
   },
   {
-   "id": 1558044,
-   "league": "Slovenia - 1. SNL",
-   "home": "Koper",
-   "away": "Aluminij",
-   "hl": "https://media.api-sports.io/football/teams/4374.png",
-   "al": "https://media.api-sports.io/football/teams/4358.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Ndiaye"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Schaubach"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - offside",
-     "p": "B. Irabor"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ilicic"
-    }
-   ]
-  },
-  {
    "id": 1558279,
    "league": "Poland - I Liga",
    "home": "Podbeskidzie",
@@ -82,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 28,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -92,6 +45,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Jimenez"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -103,11 +64,20 @@
    "hl": "https://media.api-sports.io/football/teams/564.png",
    "al": "https://media.api-sports.io/football/teams/6343.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Ramirez"
+    }
+   ]
   },
   {
    "id": 1585830,
@@ -119,7 +89,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 30,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -142,7 +112,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -165,7 +135,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 28,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -188,159 +158,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 33,
+   "minute": 43,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1546172,
-   "league": "World - World Cup - U17",
-   "home": "Mali U17",
-   "away": "Belgium U17",
-   "hl": "https://media.api-sports.io/football/teams/21298.png",
-   "al": "https://media.api-sports.io/football/teams/17942.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Filippo"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Koita"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Koita"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Niang"
-    }
-   ]
-  },
-  {
-   "id": 1546184,
-   "league": "World - World Cup - U17",
-   "home": "Vietnam U17",
-   "away": "New Zealand U17",
-   "hl": "https://media.api-sports.io/football/teams/21447.png",
-   "al": "https://media.api-sports.io/football/teams/12515.png",
-   "gh": 3,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Clegg"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Chu Ngoc Nguyen Luc"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Woldegiorgis"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. McIntyre"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Le Trong Dai Nhan"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Dyer"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Trenberth"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Shimokawa"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nguyen Manh Cuong"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Truong Nguyen Duy Khang"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Truong Nguyen Duy Khang"
-    }
-   ]
   },
   {
    "id": 1551148,
@@ -352,7 +172,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -373,9 +193,9 @@
    "hl": "https://media.api-sports.io/football/teams/24742.png",
    "al": "https://media.api-sports.io/football/teams/24726.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 68,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -393,6 +213,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Conzato"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -406,7 +234,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -458,10 +286,10 @@
    "away": "Al-Ahli Jeddah",
    "hl": "https://media.api-sports.io/football/teams/2916.png",
    "al": "https://media.api-sports.io/football/teams/2929.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -495,6 +323,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ivan Toney"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Baghdad Bounedjah"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ziyad Al-Johani"
     }
    ]
   },
@@ -506,9 +350,9 @@
    "hl": "https://media.api-sports.io/football/teams/2737.png",
    "al": "https://media.api-sports.io/football/teams/2872.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 67,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -542,6 +386,61 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Brahian Palacios"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gabriel dos Santos da Silva"
+    }
+   ]
+  },
+  {
+   "id": 1558044,
+   "league": "Slovenia - 1. SNL",
+   "home": "Koper",
+   "away": "Aluminij",
+   "hl": "https://media.api-sports.io/football/teams/4374.png",
+   "al": "https://media.api-sports.io/football/teams/4358.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Ndiaye"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Schaubach"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - offside",
+     "p": "B. Irabor"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Ilicic"
     }
    ]
   }
