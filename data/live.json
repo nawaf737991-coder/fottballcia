@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T21:30:16+03:00",
- "ts": 1795458616,
+ "updated": "2026-11-23T21:40:19+03:00",
+ "ts": 1795459219,
  "matches": [
   {
    "id": 1494341,
@@ -9,10 +9,10 @@
    "away": "IFK Goteborg",
    "hl": "https://media.api-sports.io/football/teams/363.png",
    "al": "https://media.api-sports.io/football/teams/366.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "markus karlsson"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nino Žugelj"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Paulos Abraham"
     }
    ]
   },
@@ -32,10 +48,10 @@
    "away": "Kalmar FF",
    "hl": "https://media.api-sports.io/football/teams/2166.png",
    "al": "https://media.api-sports.io/football/teams/374.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -45,6 +61,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "vilmer tyren"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Daniel Paulson"
     }
    ]
   },
@@ -58,7 +82,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -76,6 +100,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Friday Etim"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thomas Nørgaard"
     }
    ]
   },
@@ -89,7 +121,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -115,6 +147,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mateusz Wieteska"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ben Lederman"
     }
    ]
   },
@@ -128,7 +168,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -150,6 +190,20 @@
    ]
   },
   {
+   "id": 1571896,
+   "league": "Hungary - NB II",
+   "home": "Diosgyori VTK",
+   "away": "Karcag SE",
+   "hl": "https://media.api-sports.io/football/teams/2393.png",
+   "al": "https://media.api-sports.io/football/teams/17289.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1574653,
    "league": "Austria - Frauenliga",
    "home": "Austria Wien W",
@@ -159,7 +213,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": []
   },
@@ -173,7 +227,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -194,9 +248,9 @@
    "hl": "https://media.api-sports.io/football/teams/1577.png",
    "al": "https://media.api-sports.io/football/teams/1036.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 36,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -206,6 +260,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Marwan Attia"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Karim Hafez"
     }
    ]
   },
@@ -219,7 +281,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": [
     {
@@ -242,9 +304,32 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-23T18:15:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1650568,
+   "league": "Argentina - Primera C",
+   "home": "Sportivo Barracas",
+   "away": "Berazategui",
+   "hl": "https://media.api-sports.io/football/teams/1931.png",
+   "al": "https://media.api-sports.io/football/teams/8382.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-23T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1548566,
@@ -256,7 +341,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -274,6 +359,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Alen Grgić"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Antonio Jakir"
     }
    ]
   },
@@ -287,7 +380,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -329,6 +422,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Masoero"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Kubica"
     }
    ]
   },
@@ -339,10 +440,10 @@
    "away": "Çorum FK",
    "hl": "https://media.api-sports.io/football/teams/564.png",
    "al": "https://media.api-sports.io/football/teams/6343.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -368,6 +469,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Mahmic"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Shomurodov"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Gurluk"
     }
    ]
   },
@@ -378,10 +495,10 @@
    "away": "Vanspor FK",
    "hl": "https://media.api-sports.io/football/teams/3583.png",
    "al": "https://media.api-sports.io/football/teams/6342.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -407,6 +524,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Tenton Yenne"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kadir Seven"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Fernando"
     }
    ]
   },
@@ -420,7 +553,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -451,7 +584,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -522,7 +655,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": [
     {
