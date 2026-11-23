@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-23T13:40:24+03:00",
- "ts": 1795430424,
+ "updated": "2026-11-23T13:50:28+03:00",
+ "ts": 1795431028,
  "matches": [
-  {
-   "id": 1646789,
-   "league": "Kenya - Super League",
-   "home": "Talanta",
-   "away": "Kibera Soccer",
-   "hl": "https://media.api-sports.io/football/teams/17897.png",
-   "al": "https://media.api-sports.io/football/teams/25751.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T10:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1634862,
    "league": "Myanmar - National League",
@@ -26,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-23T09:00:00+00:00",
    "ev": [
     {
@@ -55,9 +41,9 @@
    "hl": "https://media.api-sports.io/football/teams/12533.png",
    "al": "https://media.api-sports.io/football/teams/12523.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 53,
+   "minute": 62,
    "time": "2026-11-23T09:30:00+00:00",
    "ev": [
     {
@@ -91,8 +77,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "C. Van Hming"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Z. Ko"
     }
    ]
+  },
+  {
+   "id": 1646789,
+   "league": "Kenya - Super League",
+   "home": "Talanta",
+   "away": "Kibera Soccer",
+   "hl": "https://media.api-sports.io/football/teams/17897.png",
+   "al": "https://media.api-sports.io/football/teams/25751.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T10:00:00+00:00",
+   "ev": []
   }
  ]
 }
