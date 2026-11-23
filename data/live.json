@@ -1,77 +1,7 @@
 {
- "updated": "2026-11-23T03:10:15+03:00",
- "ts": 1795392615,
+ "updated": "2026-11-23T03:20:20+03:00",
+ "ts": 1795393220,
  "matches": [
-  {
-   "id": 1505567,
-   "league": "Chile - Primera División",
-   "home": "Deportes Limache",
-   "away": "D. La Serena",
-   "hl": "https://media.api-sports.io/football/teams/16730.png",
-   "al": "https://media.api-sports.io/football/teams/2341.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-22T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tiago Hernández Galletto"
-    }
-   ]
-  },
-  {
-   "id": 1645547,
-   "league": "Bolivia - Primera División",
-   "home": "San Antonio Bulo Bulo",
-   "away": "Always Ready",
-   "hl": "https://media.api-sports.io/football/teams/17760.png",
-   "al": "https://media.api-sports.io/football/teams/3700.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-22T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Enrique Triverio"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Enrique Triverio"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Rambal"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Cristian Ricaldez Rojas"
-    }
-   ]
-  },
   {
    "id": 1649493,
    "league": "USA - Major League Soccer",
@@ -82,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": []
   },
@@ -96,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": []
   },
@@ -110,7 +40,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-22T22:30:00+00:00",
    "ev": [
     {
@@ -152,29 +82,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Paulo Henrique"
-    }
-   ]
-  },
-  {
-   "id": 1650520,
-   "league": "Argentina - Torneo Federal A",
-   "home": "Sarmiento de La Banda",
-   "away": "Cipolletti",
-   "hl": "https://media.api-sports.io/football/teams/23255.png",
-   "al": "https://media.api-sports.io/football/teams/1949.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 77,
-   "time": "2026-11-22T22:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 46,
+     "m": 81,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Wallace Yan"
     }
    ]
   },
@@ -187,8 +102,8 @@
    "al": "https://media.api-sports.io/football/teams/2295.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -226,8 +141,8 @@
    "al": "https://media.api-sports.io/football/teams/3656.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -281,8 +196,8 @@
    "al": "https://media.api-sports.io/football/teams/1051.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -307,6 +222,37 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "J. Portillo"
+    }
+   ]
+  },
+  {
+   "id": 1650520,
+   "league": "Argentina - Torneo Federal A",
+   "home": "Sarmiento de La Banda",
+   "away": "Cipolletti",
+   "hl": "https://media.api-sports.io/football/teams/23255.png",
+   "al": "https://media.api-sports.io/football/teams/1949.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 87,
+   "time": "2026-11-22T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -320,25 +266,25 @@
    "al": "https://media.api-sports.io/football/teams/2883.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
-     "m": 28,
+     "m": 29,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "I. Hernandez"
     },
     {
-     "m": 28,
+     "m": 30,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "E. Rose"
     },
     {
      "m": 35,
@@ -355,6 +301,76 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Hernandez"
+    }
+   ]
+  },
+  {
+   "id": 1505567,
+   "league": "Chile - Primera División",
+   "home": "Deportes Limache",
+   "away": "D. La Serena",
+   "hl": "https://media.api-sports.io/football/teams/16730.png",
+   "al": "https://media.api-sports.io/football/teams/2341.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tiago Hernández Galletto"
+    }
+   ]
+  },
+  {
+   "id": 1645547,
+   "league": "Bolivia - Primera División",
+   "home": "San Antonio Bulo Bulo",
+   "away": "Always Ready",
+   "hl": "https://media.api-sports.io/football/teams/17760.png",
+   "al": "https://media.api-sports.io/football/teams/3700.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-22T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Enrique Triverio"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Enrique Triverio"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Rambal"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Cristian Ricaldez Rojas"
     }
    ]
   }
