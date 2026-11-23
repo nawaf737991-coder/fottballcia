@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T03:50:10+03:00",
- "ts": 1795395010,
+ "updated": "2026-11-23T04:00:13+03:00",
+ "ts": 1795395613,
  "matches": [
   {
    "id": 1648334,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-23T00:30:00+00:00",
    "ev": [
     {
@@ -21,38 +21,23 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "P. Ratto"
     },
     {
-     "m": 19,
+     "m": 18,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1650243,
-   "league": "Argentina - Primera Nacional",
-   "home": "Gimnasia Y Tiro",
-   "away": "Tristan Suarez",
-   "hl": "https://media.api-sports.io/football/teams/1928.png",
-   "al": "https://media.api-sports.io/football/teams/1965.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 44,
-   "time": "2026-11-23T00:00:00+00:00",
-   "ev": [
+     "p": "V. Salazar"
+    },
     {
-     "m": 25,
+     "m": 24,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "A. Molina"
+     "p": "E. Maciel"
     }
    ]
   },
@@ -64,9 +49,9 @@
    "hl": "https://media.api-sports.io/football/teams/16730.png",
    "al": "https://media.api-sports.io/football/teams/2341.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -100,6 +85,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Misael Llantén"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Francis Mac Allister"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jeisson Vargas"
     }
    ]
   },
@@ -113,7 +114,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-22T23:07:00+00:00",
    "ev": [
     {
@@ -152,9 +153,9 @@
      "m": 73,
      "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Agustín Palavecino"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ángel Márquez"
     },
     {
      "m": 73,
@@ -168,9 +169,9 @@
      "m": 73,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ángel Márquez"
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Agustín Palavecino"
     }
    ]
   },
@@ -184,7 +185,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-22T23:05:00+00:00",
    "ev": [
     {
@@ -232,16 +233,24 @@
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "d": "Red Card",
+     "p": "C. Hernandez"
     },
     {
      "m": 69,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": "C. Hernandez"
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -252,10 +261,10 @@
    "away": "CD Olimpia",
    "hl": "https://media.api-sports.io/football/teams/1055.png",
    "al": "https://media.api-sports.io/football/teams/1051.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -289,6 +298,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Bennett"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Vega"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -302,7 +351,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -357,7 +406,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -380,7 +429,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-22T23:15:00+00:00",
    "ev": [
     {
@@ -438,6 +487,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Sanchez"
+    }
+   ]
+  },
+  {
+   "id": 1650243,
+   "league": "Argentina - Primera Nacional",
+   "home": "Gimnasia Y Tiro",
+   "away": "Tristan Suarez",
+   "hl": "https://media.api-sports.io/football/teams/1928.png",
+   "al": "https://media.api-sports.io/football/teams/1965.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Molina"
     }
    ]
   }
