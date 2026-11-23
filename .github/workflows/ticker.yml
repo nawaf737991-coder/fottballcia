@@ -31,7 +31,7 @@ jobs:
               h=$((10#$(date -u +%H))); m=$((10#$(date -u +%M)))
               [ $((m % 10)) -eq 0 ] && fire site.yml
               { [ $m -eq 7 ] || [ $m -eq 37 ]; } && fire matches-page.yml
-              [ $m -eq 47 ] && fire previews.yml
+              { [ $m -eq 47 ] || [ $m -eq 17 ]; } && fire previews.yml
               { [ $m -eq 17 ] && [ $((h % 2)) -eq 0 ]; } && fire seo.yml
             fi
             sleep 20
