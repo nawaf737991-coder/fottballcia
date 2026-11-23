@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T23:00:26+03:00",
- "ts": 1795464026,
+ "updated": "2026-11-23T23:10:11+03:00",
+ "ts": 1795464611,
  "matches": [
   {
    "id": 1550203,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -26,9 +26,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-23T19:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Grégory Poirier"
+    }
+   ]
   },
   {
    "id": 1552539,
@@ -40,7 +49,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -54,16 +63,30 @@
    ]
   },
   {
+   "id": 1557469,
+   "league": "England - Premier League",
+   "home": "Brentford",
+   "away": "Everton",
+   "hl": "https://media.api-sports.io/football/teams/55.png",
+   "al": "https://media.api-sports.io/football/teams/45.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1570029,
    "league": "Spain - Segunda División",
    "home": "AD Ceuta FC",
    "away": "Almeria",
    "hl": "https://media.api-sports.io/football/teams/10139.png",
    "al": "https://media.api-sports.io/football/teams/723.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -81,8 +104,46 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sergio Arribas Calvo"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cedric Teguia"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Stefan Džodić"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alexander Petxarroman Eizagirre"
     }
    ]
+  },
+  {
+   "id": 1570457,
+   "league": "Spain - La Liga",
+   "home": "Levante",
+   "away": "Elche",
+   "hl": "https://media.api-sports.io/football/teams/539.png",
+   "al": "https://media.api-sports.io/football/teams/797.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1574792,
@@ -94,7 +155,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 13,
+   "minute": 23,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -117,7 +178,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -131,7 +192,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": []
   },
@@ -145,7 +206,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -155,8 +216,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Ferrari"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Santoro"
     }
    ]
+  },
+  {
+   "id": 1649567,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Gimnasia L.P.",
+   "away": "Newells Old Boys",
+   "hl": "https://media.api-sports.io/football/teams/434.png",
+   "al": "https://media.api-sports.io/football/teams/457.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1650506,
@@ -168,7 +251,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -178,6 +261,100 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Patricio Ezequiel Pernicone"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1551885,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Jong Ajax",
+   "away": "Jong AZ",
+   "hl": "https://media.api-sports.io/football/teams/425.png",
+   "al": "https://media.api-sports.io/football/teams/418.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Jabou Abdalla"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mark Verkuijl"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Levi Acheampong"
+    }
+   ]
+  },
+  {
+   "id": 1551886,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Jong PSV U21",
+   "away": "Jong Utrecht",
+   "hl": "https://media.api-sports.io/football/teams/411.png",
+   "al": "https://media.api-sports.io/football/teams/428.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amir Bouhamdi"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jaygo van Ommeren"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Souleymane Sidibe"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wessel Kooy"
     }
    ]
   },
@@ -191,7 +368,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-23T18:30:00+00:00",
    "ev": [
     {
@@ -264,7 +441,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "G. Holdampf"
     },
     {
      "m": 68,
@@ -272,344 +449,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1612280,
-   "league": "Egypt - Premier League",
-   "home": "Al Ahly",
-   "away": "Pyramids FC",
-   "hl": "https://media.api-sports.io/football/teams/1577.png",
-   "al": "https://media.api-sports.io/football/teams/1036.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marwan Attia"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Karim Hafez"
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Achraf Bencharki"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mostafa Fathi"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Walid El Karti"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Omar El Saeey"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mahmoud Marie"
-    }
-   ]
-  },
-  {
-   "id": 1629979,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al-Ittihad FC",
-   "away": "Pakhtakor",
-   "hl": "https://media.api-sports.io/football/teams/2938.png",
-   "al": "https://media.api-sports.io/football/teams/4220.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-23T18:15:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Muhannad Al-Shanqeeti"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "George Ilenikhena"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Akmal Mozgovoy"
-    }
-   ]
-  },
-  {
-   "id": 1629980,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al Quwa Al Jawiya",
-   "away": "Al-Gharafa",
-   "hl": "https://media.api-sports.io/football/teams/8009.png",
-   "al": "https://media.api-sports.io/football/teams/2903.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-23T18:15:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Acheref Boudrama"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Yousef Saaed Ahmed"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohammed Salih"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Murad Subeh"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Mohammad Jawad"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hareth Hatem"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adam Ounas"
-    }
-   ]
-  },
-  {
-   "id": 1650568,
-   "league": "Argentina - Primera C",
-   "home": "Sportivo Barracas",
-   "away": "Berazategui",
-   "hl": "https://media.api-sports.io/football/teams/1931.png",
-   "al": "https://media.api-sports.io/football/teams/8382.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 63,
-   "time": "2026-11-23T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Mino"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "N. Durruty"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Duarte"
-    }
-   ]
-  },
-  {
-   "id": 1551875,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Vitesse",
-   "away": "De Graafschap",
-   "hl": "https://media.api-sports.io/football/teams/200.png",
-   "al": "https://media.api-sports.io/football/teams/199.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Solomon Bonnah"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Julian kania"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Naoufal Bannis"
-    }
-   ]
-  },
-  {
-   "id": 1551885,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Jong Ajax",
-   "away": "Jong AZ",
-   "hl": "https://media.api-sports.io/football/teams/425.png",
-   "al": "https://media.api-sports.io/football/teams/418.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Jabou Abdalla"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mark Verkuijl"
-    }
-   ]
-  },
-  {
-   "id": 1551886,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Jong PSV U21",
-   "away": "Jong Utrecht",
-   "hl": "https://media.api-sports.io/football/teams/411.png",
-   "al": "https://media.api-sports.io/football/teams/428.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Amir Bouhamdi"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jaygo van Ommeren"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Souleymane Sidibe"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wessel Kooy"
+     "p": "T. Galantai"
     }
    ]
   },
@@ -622,8 +462,8 @@
    "al": "https://media.api-sports.io/football/teams/1909.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -633,6 +473,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bicho"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Tamarit"
     }
    ]
   },
@@ -645,8 +493,8 @@
    "al": "https://media.api-sports.io/football/teams/19746.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -674,10 +522,10 @@
    "away": "Leicester City U21",
    "hl": "https://media.api-sports.io/football/teams/20000.png",
    "al": "https://media.api-sports.io/football/teams/7195.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "gh": 4,
+   "ga": 2,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -711,6 +559,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "H. William"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. King"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -723,8 +587,8 @@
    "al": "https://media.api-sports.io/football/teams/7203.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -746,8 +610,8 @@
    "al": "https://media.api-sports.io/football/teams/24847.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -769,8 +633,8 @@
    "al": "https://media.api-sports.io/football/teams/24848.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -792,8 +656,8 @@
    "al": "https://media.api-sports.io/football/teams/28224.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": []
   },
@@ -806,8 +670,8 @@
    "al": "https://media.api-sports.io/football/teams/3704.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -865,6 +729,92 @@
      "t": "Var",
      "d": "Goal cancelled",
      "p": "Leandro Corulo"
+    }
+   ]
+  },
+  {
+   "id": 1650568,
+   "league": "Argentina - Primera C",
+   "home": "Sportivo Barracas",
+   "away": "Berazategui",
+   "hl": "https://media.api-sports.io/football/teams/1931.png",
+   "al": "https://media.api-sports.io/football/teams/8382.png",
+   "gh": 1,
+   "ga": 3,
+   "status": "2H",
+   "minute": 73,
+   "time": "2026-11-23T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Mino"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "N. Durruty"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Duarte"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Mino"
+    }
+   ]
+  },
+  {
+   "id": 1551875,
+   "league": "Netherlands - Eerste Divisie",
+   "home": "Vitesse",
+   "away": "De Graafschap",
+   "hl": "https://media.api-sports.io/football/teams/200.png",
+   "al": "https://media.api-sports.io/football/teams/199.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Solomon Bonnah"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Julian kania"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Naoufal Bannis"
     }
    ]
   }
