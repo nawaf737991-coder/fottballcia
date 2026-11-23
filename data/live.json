@@ -1,59 +1,183 @@
 {
- "updated": "2026-11-23T21:00:26+03:00",
- "ts": 1795456826,
+ "updated": "2026-11-23T21:10:24+03:00",
+ "ts": 1795457424,
  "matches": [
   {
-   "id": 1551148,
-   "league": "Bulgaria - First League",
-   "home": "Ludogorets",
-   "away": "Dunav Ruse",
-   "hl": "https://media.api-sports.io/football/teams/566.png",
-   "al": "https://media.api-sports.io/football/teams/683.png",
+   "id": 1494341,
+   "league": "Sweden - Allsvenskan",
+   "home": "Hammarby FF",
+   "away": "IFK Goteborg",
+   "hl": "https://media.api-sports.io/football/teams/363.png",
+   "al": "https://media.api-sports.io/football/teams/366.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1494343,
+   "league": "Sweden - Allsvenskan",
+   "home": "Orgryte IS",
+   "away": "Kalmar FF",
+   "hl": "https://media.api-sports.io/football/teams/2166.png",
+   "al": "https://media.api-sports.io/football/teams/374.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "vilmer tyren"
+    }
+   ]
+  },
+  {
+   "id": 1549059,
+   "league": "Denmark - Superliga",
+   "home": "Brondby",
+   "away": "FC Midtjylland",
+   "hl": "https://media.api-sports.io/football/teams/407.png",
+   "al": "https://media.api-sports.io/football/teams/397.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jordi Vanlerberghe"
+    }
+   ]
+  },
+  {
+   "id": 1553233,
+   "league": "Poland - Ekstraklasa",
+   "home": "Wieczysta Kraków",
+   "away": "Motor Lublin",
+   "hl": "https://media.api-sports.io/football/teams/17115.png",
+   "al": "https://media.api-sports.io/football/teams/14562.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Tobias Christensen"
+    }
+   ]
+  },
+  {
+   "id": 1565309,
+   "league": "Romania - Liga I",
+   "home": "Sepsi OSK Sfantu Gheorghe",
+   "away": "Rapid",
+   "hl": "https://media.api-sports.io/football/teams/2585.png",
+   "al": "https://media.api-sports.io/football/teams/6231.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Dobre"
+    }
+   ]
+  },
+  {
+   "id": 1574653,
+   "league": "Austria - Frauenliga",
+   "home": "Austria Wien W",
+   "away": "First Vienna W",
+   "hl": "https://media.api-sports.io/football/teams/17575.png",
+   "al": "https://media.api-sports.io/football/teams/17576.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1611390,
+   "league": "Algeria - Ligue 1",
+   "home": "JS Kabylie",
+   "away": "MC Alger",
+   "hl": "https://media.api-sports.io/football/teams/918.png",
+   "al": "https://media.api-sports.io/football/teams/906.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1612280,
+   "league": "Egypt - Premier League",
+   "home": "Al Ahly",
+   "away": "Pyramids FC",
+   "hl": "https://media.api-sports.io/football/teams/1577.png",
+   "al": "https://media.api-sports.io/football/teams/1036.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-23T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1548566,
+   "league": "Croatia - HNL",
+   "home": "NK Slaven Belupo",
+   "away": "NK Osijek",
+   "hl": "https://media.api-sports.io/football/teams/1018.png",
+   "al": "https://media.api-sports.io/football/teams/616.png",
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T16:00:00+00:00",
+   "minute": 51,
+   "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
-     "m": 45,
-     "x": 7,
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Ilija Nestorovski"
+    },
+    {
+     "m": 44,
+     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Amir Hadžiahmetović"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "simeon shishkov"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bernard Tekpetey"
-    },
-    {
-     "m": 90,
-     "x": 4,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 90,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "p": "Alen Grgić"
     }
    ]
   },
@@ -67,7 +191,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 75,
    "time": "2026-11-23T16:30:00+00:00",
    "ev": [
     {
@@ -105,132 +229,6 @@
    ]
   },
   {
-   "id": 1629978,
-   "league": "World - AFC Champions League Elite",
-   "home": "Tractor Sazi",
-   "away": "Al-Wasl FC",
-   "hl": "https://media.api-sports.io/football/teams/2737.png",
-   "al": "https://media.api-sports.io/football/teams/2872.png",
-   "gh": 1,
-   "ga": 5,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Mohammad Daneshgar"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Mohammad Daneshgar"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mehdi Taremi"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Brahian Palacios"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gabriel dos Santos da Silva"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Amirhossein Hosseinzadeh"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mehdi Taremi"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Shoja Khalilzadeh"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Jorge Gonçalves Malheiro"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Renato Barbosa dos Santos Júnior"
-    }
-   ]
-  },
-  {
-   "id": 1548566,
-   "league": "Croatia - HNL",
-   "home": "NK Slaven Belupo",
-   "away": "NK Osijek",
-   "hl": "https://media.api-sports.io/football/teams/1018.png",
-   "al": "https://media.api-sports.io/football/teams/616.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Ilija Nestorovski"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alen Grgić"
-    }
-   ]
-  },
-  {
    "id": 1558279,
    "league": "Poland - I Liga",
    "home": "Podbeskidzie",
@@ -239,8 +237,8 @@
    "al": "https://media.api-sports.io/football/teams/3487.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -286,8 +284,8 @@
    "al": "https://media.api-sports.io/football/teams/6343.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -309,8 +307,8 @@
    "al": "https://media.api-sports.io/football/teams/6342.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -332,8 +330,8 @@
    "al": "https://media.api-sports.io/football/teams/1858.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -363,8 +361,8 @@
    "al": "https://media.api-sports.io/football/teams/2269.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -398,6 +396,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Ali"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -410,8 +416,8 @@
    "al": "https://media.api-sports.io/football/teams/910.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": [
     {
@@ -429,14 +435,6 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "A. Khaldi"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
     }
    ]
   }
