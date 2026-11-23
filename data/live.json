@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T01:40:17+03:00",
- "ts": 1795473617,
+ "updated": "2026-11-24T01:50:25+03:00",
+ "ts": 1795474225,
  "matches": [
   {
    "id": 1492467,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/119.png",
    "al": "https://media.api-sports.io/football/teams/136.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Carlos Renê de Sousa Ferreira"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Diego Tarzia"
     }
    ]
   },
@@ -35,62 +43,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T22:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1598750,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Santa Clara U23",
-   "away": "Marítimo U23",
-   "hl": "https://media.api-sports.io/football/teams/21719.png",
-   "al": "https://media.api-sports.io/football/teams/15466.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
-     "m": 12,
+     "m": 16,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Iker Zufiaurre"
     }
    ]
   },
@@ -104,7 +66,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -150,26 +112,26 @@
     {
      "m": 71,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 71,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
     },
     {
-     "m": 81,
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 80,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Hormazabal"
     }
    ]
   },
@@ -183,7 +145,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-23T21:00:00+00:00",
    "ev": [
     {
@@ -209,6 +171,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Pedro·Sosa"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Danilo Lerda"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Barrios"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Santiago Salcedo"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Wilson Brahian Gustavo Ayala Vera"
     }
    ]
   },
@@ -222,7 +216,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T21:15:00+00:00",
    "ev": [
     {
@@ -272,189 +266,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rodrigo Asur Orihuela Rivero"
-    }
-   ]
-  },
-  {
-   "id": 1649567,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Gimnasia L.P.",
-   "away": "Newells Old Boys",
-   "hl": "https://media.api-sports.io/football/teams/434.png",
-   "al": "https://media.api-sports.io/football/teams/457.png",
-   "gh": 4,
-   "ga": 2,
-   "status": "ET",
-   "minute": 120,
-   "time": "2026-11-23T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luca Regiardo"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ignacio Fernández"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Janson"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Santiago Germán Solari Ferreyra"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Harlen Castillo"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Walter Mazzantti"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ignacio Fernández"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Martin Ortega"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Germán Conti"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ignacio Miramon"
     },
     {
      "m": 80,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Walter Mazzantti"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jeronimo Russo"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Carrizo"
-    },
-    {
-     "m": 90,
-     "x": 1,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Facundo Di Biasi"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Agustin Auzmendi"
-    },
-    {
-     "m": 97,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Jeronimo Russo"
-    },
-    {
-     "m": 99,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Franco Escobar"
-    },
-    {
-     "m": 103,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Martin Ortega"
-    },
-    {
-     "m": 104,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Franco Escobar"
-    },
-    {
-     "m": 105,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Ignacio Ramírez"
-    },
-    {
-     "m": 113,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matías Melluso"
+     "p": "Andrés Veizaga"
     }
    ]
   },
@@ -466,9 +285,9 @@
    "hl": "https://media.api-sports.io/football/teams/26896.png",
    "al": "https://media.api-sports.io/football/teams/26901.png",
    "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-23T22:00:00+00:00",
    "ev": [
     {
@@ -486,6 +305,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ruan Major"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Silva"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lipao Pinheiro"
     }
    ]
   }
