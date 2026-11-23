@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T18:00:30+03:00",
- "ts": 1795446030,
+ "updated": "2026-11-23T18:10:11+03:00",
+ "ts": 1795446611,
  "matches": [
   {
    "id": 1546170,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -42,17 +42,156 @@
    ]
   },
   {
+   "id": 1546174,
+   "league": "World - World Cup - U17",
+   "home": "Morocco U17",
+   "away": "China PR U17",
+   "hl": "https://media.api-sports.io/football/teams/21302.png",
+   "al": "https://media.api-sports.io/football/teams/21449.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Zhao Songyuan"
+    }
+   ]
+  },
+  {
+   "id": 1593359,
+   "league": "Greece - Super League 1",
+   "home": "Asteras Tripolis",
+   "away": "Aris Thessalonikis",
+   "hl": "https://media.api-sports.io/football/teams/955.png",
+   "al": "https://media.api-sports.io/football/teams/1123.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1598743,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Sporting Braga U23",
+   "away": "Leixões U23",
+   "hl": "https://media.api-sports.io/football/teams/15469.png",
+   "al": "https://media.api-sports.io/football/teams/15465.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602561,
+   "league": "Romania - Liga II",
+   "home": "CSA Steaua Bucureşti",
+   "away": "Chindia Targoviste",
+   "hl": "https://media.api-sports.io/football/teams/7466.png",
+   "al": "https://media.api-sports.io/football/teams/2586.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1604064,
    "league": "Saudi-Arabia - Division 1",
    "home": "Al Jeel",
    "away": "Al Saqer",
    "hl": "https://media.api-sports.io/football/teams/2955.png",
    "al": "https://media.api-sports.io/football/teams/27480.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 40,
+   "time": "2026-11-23T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mbengue"
+    }
+   ]
+  },
+  {
+   "id": 1612279,
+   "league": "Egypt - Premier League",
+   "home": "El Gouna FC",
+   "away": "Zamalek SC",
+   "hl": "https://media.api-sports.io/football/teams/1574.png",
+   "al": "https://media.api-sports.io/football/teams/1040.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1612284,
+   "league": "Egypt - Premier League",
+   "home": "Wadi Degla",
+   "away": "Al Ittihad",
+   "hl": "https://media.api-sports.io/football/teams/1046.png",
+   "al": "https://media.api-sports.io/football/teams/1572.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
-   "time": "2026-11-23T14:30:00+00:00",
+   "minute": 7,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1628388,
+   "league": "Albania - 1st Division",
+   "home": "Flamurtari",
+   "away": "Bylis",
+   "hl": "https://media.api-sports.io/football/teams/3317.png",
+   "al": "https://media.api-sports.io/football/teams/3325.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1642133,
+   "league": "Oman - Professional League",
+   "home": "Bahla",
+   "away": "Smail",
+   "hl": "https://media.api-sports.io/football/teams/7505.png",
+   "al": "https://media.api-sports.io/football/teams/15962.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
   {
@@ -62,10 +201,10 @@
    "away": "Cuba U17",
    "hl": "https://media.api-sports.io/football/teams/12518.png",
    "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 8,
+   "gh": 9,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-23T13:30:00+00:00",
    "ev": [
     {
@@ -139,6 +278,76 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Sow"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Biaye"
+    }
+   ]
+  },
+  {
+   "id": 1569434,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Albinoleffe U20",
+   "away": "Genoa U20",
+   "hl": "https://media.api-sports.io/football/teams/27903.png",
+   "al": "https://media.api-sports.io/football/teams/24732.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-23T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mariotti"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Lafont"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Bellone"
+    }
+   ]
+  },
+  {
+   "id": 1577585,
+   "league": "Russia - First League",
+   "home": "Chelyabinsk",
+   "away": "Leningradets",
+   "hl": "https://media.api-sports.io/football/teams/6790.png",
+   "al": "https://media.api-sports.io/football/teams/6811.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-23T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Matvey Pershin"
     }
    ]
   },
@@ -152,7 +361,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": [
     {
@@ -178,37 +387,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Abrorbek ismoilov"
-    }
-   ]
-  },
-  {
-   "id": 1647896,
-   "league": "Iran - Azadegan League",
-   "home": "Novin Ahvaz",
-   "away": "Mes Rafsanjan",
-   "hl": "https://media.api-sports.io/football/teams/28321.png",
-   "al": "https://media.api-sports.io/football/teams/2706.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 90,
-     "x": 2,
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Alisher Odilov"
+    },
+    {
+     "m": 64,
+     "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Theo Hernandez"
     }
    ]
   },
@@ -222,125 +416,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1649973,
-   "league": "Tunisia - Ligue 2",
-   "home": "AS Agareb",
-   "away": "Sfax Railways",
-   "hl": "https://media.api-sports.io/football/teams/10595.png",
-   "al": "https://media.api-sports.io/football/teams/10633.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "W. Sioud"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Z. Gaied"
-    }
-   ]
-  },
-  {
-   "id": 1649975,
-   "league": "Tunisia - Ligue 2",
-   "home": "BS Bouhajla",
-   "away": "M'saken",
-   "hl": "https://media.api-sports.io/football/teams/10599.png",
-   "al": "https://media.api-sports.io/football/teams/10620.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ben Romdhane"
-    }
-   ]
-  },
-  {
-   "id": 1569434,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Albinoleffe U20",
-   "away": "Genoa U20",
-   "hl": "https://media.api-sports.io/football/teams/27903.png",
-   "al": "https://media.api-sports.io/football/teams/24732.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mariotti"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Lafont"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1577585,
-   "league": "Russia - First League",
-   "home": "Chelyabinsk",
-   "away": "Leningradets",
-   "hl": "https://media.api-sports.io/football/teams/6790.png",
-   "al": "https://media.api-sports.io/football/teams/6811.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matvey Pershin"
-    }
-   ]
   }
  ]
 }
