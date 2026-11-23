@@ -1,7 +1,30 @@
 {
- "updated": "2026-11-23T20:00:21+03:00",
- "ts": 1795453221,
+ "updated": "2026-11-23T20:10:22+03:00",
+ "ts": 1795453822,
  "matches": [
+  {
+   "id": 1548566,
+   "league": "Croatia - HNL",
+   "home": "NK Slaven Belupo",
+   "away": "NK Osijek",
+   "hl": "https://media.api-sports.io/football/teams/1018.png",
+   "al": "https://media.api-sports.io/football/teams/616.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ilija Nestorovski"
+    }
+   ]
+  },
   {
    "id": 1558044,
    "league": "Slovenia - 1. SNL",
@@ -12,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-23T16:30:00+00:00",
    "ev": [
     {
@@ -30,6 +53,120 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Schaubach"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - offside",
+     "p": "B. Irabor"
+    }
+   ]
+  },
+  {
+   "id": 1558279,
+   "league": "Poland - I Liga",
+   "home": "Podbeskidzie",
+   "away": "Nieciecza",
+   "hl": "https://media.api-sports.io/football/teams/3489.png",
+   "al": "https://media.api-sports.io/football/teams/3487.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Jimenez"
+    }
+   ]
+  },
+  {
+   "id": 1584467,
+   "league": "Turkey - Süper Lig",
+   "home": "Başakşehir",
+   "away": "Çorum FK",
+   "hl": "https://media.api-sports.io/football/teams/564.png",
+   "al": "https://media.api-sports.io/football/teams/6343.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585830,
+   "league": "Turkey - 1. Lig",
+   "home": "Bodrum FK",
+   "away": "Vanspor FK",
+   "hl": "https://media.api-sports.io/football/teams/3583.png",
+   "al": "https://media.api-sports.io/football/teams/6342.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Berşan Yavuzay"
+    }
+   ]
+  },
+  {
+   "id": 1593177,
+   "league": "Germany - Frauen Bundesliga",
+   "home": "Bayern Munich W",
+   "away": "1899 Hoffenheim W",
+   "hl": "https://media.api-sports.io/football/teams/1860.png",
+   "al": "https://media.api-sports.io/football/teams/1858.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Edna Imade"
+    }
+   ]
+  },
+  {
+   "id": 1603609,
+   "league": "Cyprus - 1. Division",
+   "home": "Krasava Ypsonas",
+   "away": "Anorthosis",
+   "hl": "https://media.api-sports.io/football/teams/3424.png",
+   "al": "https://media.api-sports.io/football/teams/2269.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-23T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Kiss"
     }
    ]
   },
@@ -43,7 +180,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 13,
+   "minute": 23,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": []
   },
@@ -57,7 +194,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -95,69 +232,6 @@
    ]
   },
   {
-   "id": 1546174,
-   "league": "World - World Cup - U17",
-   "home": "Morocco U17",
-   "away": "China PR U17",
-   "hl": "https://media.api-sports.io/football/teams/21302.png",
-   "al": "https://media.api-sports.io/football/teams/21449.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zhao Songyuan"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zhao Songyuan"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Bouahdadi"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nan Zixun"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Z. Baha"
-    },
-    {
-     "m": 90,
-     "x": 9,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Lougmani"
-    }
-   ]
-  },
-  {
    "id": 1546184,
    "league": "World - World Cup - U17",
    "home": "Vietnam U17",
@@ -167,7 +241,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-23T15:30:00+00:00",
    "ev": [
     {
@@ -225,6 +299,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Trenberth"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Shimokawa"
+    }
+   ]
+  },
+  {
+   "id": 1569442,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Torino U20",
+   "away": "Bologna U20",
+   "hl": "https://media.api-sports.io/football/teams/24742.png",
+   "al": "https://media.api-sports.io/football/teams/24726.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Banse"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Conzato"
     }
    ]
   },
@@ -238,7 +351,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-23T15:15:00+00:00",
    "ev": [
     {
@@ -272,107 +385,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Al Hawsawi"
-    }
-   ]
-  },
-  {
-   "id": 1612284,
-   "league": "Egypt - Premier League",
-   "home": "Wadi Degla",
-   "away": "Al Ittihad",
-   "hl": "https://media.api-sports.io/football/teams/1046.png",
-   "al": "https://media.api-sports.io/football/teams/1572.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T15:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 14,
-     "x": null,
+     "m": 90,
+     "x": 6,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Ibrahim Mohamed El Bahnasi"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ahmed Hamdi"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Omar Adly"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mostafa Ibrahim"
-    }
-   ]
-  },
-  {
-   "id": 1551148,
-   "league": "Bulgaria - First League",
-   "home": "Ludogorets",
-   "away": "Dunav Ruse",
-   "hl": "https://media.api-sports.io/football/teams/566.png",
-   "al": "https://media.api-sports.io/football/teams/683.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 45,
-     "x": 7,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Amir Hadžiahmetović"
-    }
-   ]
-  },
-  {
-   "id": 1569442,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Torino U20",
-   "away": "Bologna U20",
-   "hl": "https://media.api-sports.io/football/teams/24742.png",
-   "al": "https://media.api-sports.io/football/teams/24726.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Conzato"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Conzato"
+     "p": "H. Al Jubairi"
     }
    ]
   },
@@ -385,8 +405,8 @@
    "al": "https://media.api-sports.io/football/teams/2733.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -408,8 +428,8 @@
    "al": "https://media.api-sports.io/football/teams/2929.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -447,8 +467,8 @@
    "al": "https://media.api-sports.io/football/teams/2872.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-23T16:00:00+00:00",
    "ev": [
     {
@@ -474,6 +494,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mehdi Taremi"
+    }
+   ]
+  },
+  {
+   "id": 1551148,
+   "league": "Bulgaria - First League",
+   "home": "Ludogorets",
+   "away": "Dunav Ruse",
+   "hl": "https://media.api-sports.io/football/teams/566.png",
+   "al": "https://media.api-sports.io/football/teams/683.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 7,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amir Hadžiahmetović"
     }
    ]
   }
