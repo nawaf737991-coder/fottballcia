@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T18:20:12+03:00",
- "ts": 1795447212,
+ "updated": "2026-11-23T18:30:24+03:00",
+ "ts": 1795447824,
  "matches": [
   {
    "id": 1546174,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 30,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -49,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 30,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -63,48 +63,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 29,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1604064,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al Jeel",
-   "away": "Al Saqer",
-   "hl": "https://media.api-sports.io/football/teams/2955.png",
-   "al": "https://media.api-sports.io/football/teams/27480.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mbengue"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Assehnoun"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mbengue"
-    }
-   ]
   },
   {
    "id": 1604065,
@@ -116,9 +77,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 15,
    "time": "2026-11-23T15:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Shuqayyiqi"
+    }
+   ]
   },
   {
    "id": 1612279,
@@ -130,7 +100,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -161,7 +131,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -181,10 +151,10 @@
    "away": "Bylis",
    "hl": "https://media.api-sports.io/football/teams/3317.png",
    "al": "https://media.api-sports.io/football/teams/3325.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -193,7 +163,15 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "P. Vieira"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Pjeshka"
     }
    ]
   },
@@ -204,105 +182,19 @@
    "away": "Smail",
    "hl": "https://media.api-sports.io/football/teams/7505.png",
    "al": "https://media.api-sports.io/football/teams/15962.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-23T15:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1546176,
-   "league": "World - World Cup - U17",
-   "home": "Senegal U17",
-   "away": "Cuba U17",
-   "hl": "https://media.api-sports.io/football/teams/12518.png",
-   "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 9,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T13:30:00+00:00",
    "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Dione"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Faye"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Gonzalez"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Ndiaye"
-    },
     {
      "m": 24,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "S. Mbodji"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Dione"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Konte"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Mbodji"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Sow"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Biaye"
+     "p": null
     }
    ]
   },
@@ -314,9 +206,9 @@
    "hl": "https://media.api-sports.io/football/teams/27903.png",
    "al": "https://media.api-sports.io/football/teams/24732.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 61,
+   "minute": 72,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -342,6 +234,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Bellone"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -355,7 +255,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 70,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -386,7 +286,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": [
     {
@@ -449,7 +349,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": []
   },
@@ -489,6 +389,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Gasparello"
+    }
+   ]
+  },
+  {
+   "id": 1604064,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Jeel",
+   "away": "Al Saqer",
+   "hl": "https://media.api-sports.io/football/teams/2955.png",
+   "al": "https://media.api-sports.io/football/teams/27480.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mbengue"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Assehnoun"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mbengue"
     }
    ]
   }
