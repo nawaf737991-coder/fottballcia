@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T23:40:23+03:00",
- "ts": 1795466423,
+ "updated": "2026-11-23T23:50:26+03:00",
+ "ts": 1795467026,
  "matches": [
   {
    "id": 1557469,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
@@ -40,74 +40,20 @@
      "p": "Keane Lewis-Potter"
     },
     {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "James Tarkowski"
-    },
-    {
      "m": 39,
      "x": null,
      "s": "a",
      "t": "Var",
-     "d": "",
+     "d": "Card upgrade confirmed",
      "p": "James Tarkowski"
-    }
-   ]
-  },
-  {
-   "id": 1570457,
-   "league": "Spain - La Liga",
-   "home": "Levante",
-   "away": "Elche",
-   "hl": "https://media.api-sports.io/football/teams/539.png",
-   "al": "https://media.api-sports.io/football/teams/797.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-23T20:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luís Manuel Ferreira de Castro"
-    }
-   ]
-  },
-  {
-   "id": 1649567,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Gimnasia L.P.",
-   "away": "Newells Old Boys",
-   "hl": "https://media.api-sports.io/football/teams/434.png",
-   "al": "https://media.api-sports.io/football/teams/457.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
+     "m": 40,
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luca Regiardo"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ignacio Fernández"
+     "d": "Red Card",
+     "p": "James Tarkowski"
     }
    ]
   },
@@ -119,9 +65,9 @@
    "hl": "https://media.api-sports.io/football/teams/200.png",
    "al": "https://media.api-sports.io/football/teams/199.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -179,6 +125,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Marco Schikora"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Julian kania"
     }
    ]
   },
@@ -189,10 +143,10 @@
    "away": "Jong AZ",
    "hl": "https://media.api-sports.io/football/teams/425.png",
    "al": "https://media.api-sports.io/football/teams/418.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -226,6 +180,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Pharell Nash"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Fouad Zahouani"
     }
    ]
   },
@@ -239,7 +201,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -289,6 +251,124 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Souleymane Sidibe"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Austyn Jones"
+    }
+   ]
+  },
+  {
+   "id": 1552536,
+   "league": "France - Ligue 2",
+   "home": "Nantes",
+   "away": "Grenoble",
+   "hl": "https://media.api-sports.io/football/teams/83.png",
+   "al": "https://media.api-sports.io/football/teams/101.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-23T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Grégory Poirier"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nesta Zahui"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yvann Macon"
+    }
+   ]
+  },
+  {
+   "id": 1570029,
+   "league": "Spain - Segunda División",
+   "home": "AD Ceuta FC",
+   "away": "Almeria",
+   "hl": "https://media.api-sports.io/football/teams/10139.png",
+   "al": "https://media.api-sports.io/football/teams/723.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-23T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sergio Arribas Calvo"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sergio Arribas Calvo"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cedric Teguia"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Stefan Džodić"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alexander Petxarroman Eizagirre"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Federico Bonini"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Yann Bodiger"
     }
    ]
   },
@@ -299,10 +379,10 @@
    "away": "Valencia W",
    "hl": "https://media.api-sports.io/football/teams/1919.png",
    "al": "https://media.api-sports.io/football/teams/1909.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -344,6 +424,108 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Pauleta"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Y. K. Mrabet"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Browne"
+    }
+   ]
+  },
+  {
+   "id": 1574792,
+   "league": "France - Ligue 3",
+   "home": "Orleans",
+   "away": "Thionville Lusitanos",
+   "hl": "https://media.api-sports.io/football/teams/103.png",
+   "al": "https://media.api-sports.io/football/teams/22039.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-23T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Bouhmidi"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Kilic"
+    }
+   ]
+  },
+  {
+   "id": 1608753,
+   "league": "Italy - Serie C - Girone B",
+   "home": "Grosseto",
+   "away": "Guidonia Montecelio 1937",
+   "hl": "https://media.api-sports.io/football/teams/9499.png",
+   "al": "https://media.api-sports.io/football/teams/882.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-23T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Ferrari"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Santoro"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Gaddini"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "M. Gaddini"
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Baroni"
     }
    ]
   },
@@ -354,10 +536,10 @@
    "away": "Nottingham Forest U21",
    "hl": "https://media.api-sports.io/football/teams/7199.png",
    "al": "https://media.api-sports.io/football/teams/19746.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -383,6 +565,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Smith"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Ghanem"
     }
    ]
   },
@@ -396,7 +586,7 @@
    "gh": 5,
    "ga": 3,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -473,9 +663,9 @@
    "hl": "https://media.api-sports.io/football/teams/7191.png",
    "al": "https://media.api-sports.io/football/teams/7203.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 86,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -493,6 +683,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Y. Ibrahim"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Battrum"
     }
    ]
   },
@@ -506,7 +704,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -516,6 +714,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Ahmed"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "S. Lonmeni"
     }
    ]
   },
@@ -529,7 +735,7 @@
    "gh": 5,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -600,7 +806,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -623,7 +829,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -713,6 +919,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Castellón"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Milciades Portillo"
     }
    ]
   },
@@ -724,9 +938,9 @@
    "hl": "https://media.api-sports.io/football/teams/2353.png",
    "al": "https://media.api-sports.io/football/teams/2350.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -744,6 +958,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "German barrios"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Renzo Rabino"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ruben Sergio Soto Blanco"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Renzo Rabino"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Emmanuel Más"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Lautaro Navarro"
     }
    ]
   },
@@ -767,45 +1021,6 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Gustavo Varela"
-    }
-   ]
-  },
-  {
-   "id": 1552536,
-   "league": "France - Ligue 2",
-   "home": "Nantes",
-   "away": "Grenoble",
-   "hl": "https://media.api-sports.io/football/teams/83.png",
-   "al": "https://media.api-sports.io/football/teams/101.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Grégory Poirier"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nesta Zahui"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yvann Macon"
     }
    ]
   },
@@ -849,104 +1064,33 @@
    ]
   },
   {
-   "id": 1570029,
-   "league": "Spain - Segunda División",
-   "home": "AD Ceuta FC",
-   "away": "Almeria",
-   "hl": "https://media.api-sports.io/football/teams/10139.png",
-   "al": "https://media.api-sports.io/football/teams/723.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sergio Arribas Calvo"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sergio Arribas Calvo"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Cedric Teguia"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Stefan Džodić"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alexander Petxarroman Eizagirre"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Bonini"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Yann Bodiger"
-    }
-   ]
-  },
-  {
-   "id": 1574792,
-   "league": "France - Ligue 3",
-   "home": "Orleans",
-   "away": "Thionville Lusitanos",
-   "hl": "https://media.api-sports.io/football/teams/103.png",
-   "al": "https://media.api-sports.io/football/teams/22039.png",
+   "id": 1570457,
+   "league": "Spain - La Liga",
+   "home": "Levante",
+   "away": "Elche",
+   "hl": "https://media.api-sports.io/football/teams/539.png",
+   "al": "https://media.api-sports.io/football/teams/797.png",
    "gh": 0,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
+   "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
-     "m": 6,
+     "m": 28,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "K. Bouhmidi"
+     "p": "Luís Manuel Ferreira de Castro"
     },
     {
-     "m": 33,
+     "m": 40,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "S. Kilic"
+     "p": "Aïssa Mandi"
     }
    ]
   },
@@ -996,57 +1140,41 @@
    ]
   },
   {
-   "id": 1608753,
-   "league": "Italy - Serie C - Girone B",
-   "home": "Grosseto",
-   "away": "Guidonia Montecelio 1937",
-   "hl": "https://media.api-sports.io/football/teams/9499.png",
-   "al": "https://media.api-sports.io/football/teams/882.png",
+   "id": 1649567,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Gimnasia L.P.",
+   "away": "Newells Old Boys",
+   "hl": "https://media.api-sports.io/football/teams/434.png",
+   "al": "https://media.api-sports.io/football/teams/457.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-23T19:30:00+00:00",
+   "time": "2026-11-23T20:00:00+00:00",
    "ev": [
     {
-     "m": 8,
+     "m": 16,
      "x": null,
      "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luca Regiardo"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "F. Ferrari"
+     "p": "Ignacio Fernández"
     },
     {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Santoro"
-    },
-    {
-     "m": 42,
+     "m": 39,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Gaddini"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "M. Gaddini"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Baroni"
+     "p": "Lucas Janson"
     }
    ]
   }
