@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:00:19+03:00",
+ "updated": "2026-11-23T12:00:22+03:00",
  "leagues": [
   {
    "id": 39,
@@ -606,29 +606,29 @@
      "pen": 3
     },
     {
+     "n": "M. Zabiri",
+     "ph": "https://media.api-sports.io/football/players/457101.png",
+     "t": "Racing Santander",
+     "tl": "https://media.api-sports.io/football/teams/4665.png",
+     "g": 11,
+     "a": 0,
+     "pen": 0
+    },
+    {
      "n": "Lamine Yamal",
      "ph": "https://media.api-sports.io/football/players/386828.png",
      "t": "Barcelona",
      "tl": "https://media.api-sports.io/football/teams/529.png",
      "g": 10,
-     "a": 8,
+     "a": 9,
      "pen": 1
-    },
-    {
-     "n": "M. Zabiri",
-     "ph": "https://media.api-sports.io/football/players/457101.png",
-     "t": "Racing Santander",
-     "tl": "https://media.api-sports.io/football/teams/4665.png",
-     "g": 9,
-     "a": 0,
-     "pen": 0
     },
     {
      "n": "A. Budimir",
      "ph": "https://media.api-sports.io/football/players/46746.png",
      "t": "Osasuna",
      "tl": "https://media.api-sports.io/football/teams/727.png",
-     "g": 8,
+     "g": 9,
      "a": 0,
      "pen": 4
     },
@@ -637,7 +637,7 @@
      "ph": "https://media.api-sports.io/football/players/340626.png",
      "t": "Barcelona",
      "tl": "https://media.api-sports.io/football/teams/529.png",
-     "g": 7,
+     "g": 8,
      "a": 5,
      "pen": 0
     },
@@ -660,21 +660,21 @@
      "pen": 0
     },
     {
+     "n": "Álex Baena",
+     "ph": "https://media.api-sports.io/football/players/182219.png",
+     "t": "Atletico Madrid",
+     "tl": "https://media.api-sports.io/football/teams/530.png",
+     "g": 6,
+     "a": 3,
+     "pen": 0
+    },
+    {
      "n": "L. Boyé",
      "ph": "https://media.api-sports.io/football/players/608.png",
      "t": "Alaves",
      "tl": "https://media.api-sports.io/football/teams/542.png",
      "g": 6,
      "a": 1,
-     "pen": 1
-    },
-    {
-     "n": "Fer Niño",
-     "ph": "https://media.api-sports.io/football/players/184277.png",
-     "t": "Elche",
-     "tl": "https://media.api-sports.io/football/teams/797.png",
-     "g": 6,
-     "a": 0,
      "pen": 1
     }
    ]
@@ -1292,7 +1292,34 @@
      "t": "Inter",
      "tl": "https://media.api-sports.io/football/teams/505.png",
      "g": 6,
-     "a": 2,
+     "a": 3,
+     "pen": 0
+    },
+    {
+     "n": "F. Esposito",
+     "ph": "https://media.api-sports.io/football/players/345808.png",
+     "t": "Inter",
+     "tl": "https://media.api-sports.io/football/teams/505.png",
+     "g": 6,
+     "a": 1,
+     "pen": 0
+    },
+    {
+     "n": "M. Osmajić",
+     "ph": "https://media.api-sports.io/football/players/66761.png",
+     "t": "Genoa",
+     "tl": "https://media.api-sports.io/football/teams/495.png",
+     "g": 6,
+     "a": 1,
+     "pen": 0
+    },
+    {
+     "n": "A. Cissè",
+     "ph": "https://media.api-sports.io/football/players/359100.png",
+     "t": "AC Milan",
+     "tl": "https://media.api-sports.io/football/teams/489.png",
+     "g": 6,
+     "a": 0,
      "pen": 0
     },
     {
@@ -1301,34 +1328,7 @@
      "t": "AC Milan",
      "tl": "https://media.api-sports.io/football/teams/489.png",
      "g": 5,
-     "a": 4,
-     "pen": 0
-    },
-    {
-     "n": "D. Frattesi",
-     "ph": "https://media.api-sports.io/football/players/31173.png",
-     "t": "Lazio",
-     "tl": "https://media.api-sports.io/football/teams/487.png",
-     "g": 5,
-     "a": 0,
-     "pen": 0
-    },
-    {
-     "n": "T. Douvikas",
-     "ph": "https://media.api-sports.io/football/players/26845.png",
-     "t": "Como",
-     "tl": "https://media.api-sports.io/football/teams/895.png",
-     "g": 5,
-     "a": 0,
-     "pen": 0
-    },
-    {
-     "n": "Rodrigo Mora",
-     "ph": "https://media.api-sports.io/football/players/404097.png",
-     "t": "AS Roma",
-     "tl": "https://media.api-sports.io/football/teams/497.png",
-     "g": 5,
-     "a": 0,
+     "a": 6,
      "pen": 0
     }
    ]
@@ -1557,6 +1557,15 @@
    ],
    "scorers": [
     {
+     "n": "N. Füllkrug",
+     "ph": "https://media.api-sports.io/football/players/25391.png",
+     "t": "Werder Bremen",
+     "tl": "https://media.api-sports.io/football/teams/162.png",
+     "g": 10,
+     "a": 1,
+     "pen": 3
+    },
+    {
      "n": "P. Schick",
      "ph": "https://media.api-sports.io/football/players/794.png",
      "t": "Bayer Leverkusen",
@@ -1566,13 +1575,13 @@
      "pen": 0
     },
     {
-     "n": "N. Füllkrug",
-     "ph": "https://media.api-sports.io/football/players/25391.png",
-     "t": "Werder Bremen",
-     "tl": "https://media.api-sports.io/football/teams/162.png",
-     "g": 9,
+     "n": "M. Gregoritsch",
+     "ph": "https://media.api-sports.io/football/players/25297.png",
+     "t": "FC Augsburg",
+     "tl": "https://media.api-sports.io/football/teams/170.png",
+     "g": 7,
      "a": 0,
-     "pen": 3
+     "pen": 1
     },
     {
      "n": "M. Olise",
@@ -1635,15 +1644,6 @@
      "tl": "https://media.api-sports.io/football/teams/160.png",
      "g": 5,
      "a": 1,
-     "pen": 0
-    },
-    {
-     "n": "E. Demirović",
-     "ph": "https://media.api-sports.io/football/players/46930.png",
-     "t": "VfB Stuttgart",
-     "tl": "https://media.api-sports.io/football/teams/172.png",
-     "g": 5,
-     "a": 0,
      "pen": 0
     }
    ]
@@ -1885,8 +1885,8 @@
      "ph": "https://media.api-sports.io/football/players/85041.png",
      "t": "Marseille",
      "tl": "https://media.api-sports.io/football/teams/81.png",
-     "g": 7,
-     "a": 3,
+     "g": 8,
+     "a": 4,
      "pen": 1
     },
     {
@@ -1908,6 +1908,15 @@
      "pen": 0
     },
     {
+     "n": "B. Dia",
+     "ph": "https://media.api-sports.io/football/players/22015.png",
+     "t": "Rennes",
+     "tl": "https://media.api-sports.io/football/teams/94.png",
+     "g": 6,
+     "a": 0,
+     "pen": 1
+    },
+    {
      "n": "E. Wahi",
      "ph": "https://media.api-sports.io/football/players/162707.png",
      "t": "Nice",
@@ -1926,6 +1935,15 @@
      "pen": 0
     },
     {
+     "n": "L. Mafouta",
+     "ph": "https://media.api-sports.io/football/players/85558.png",
+     "t": "Le Mans",
+     "tl": "https://media.api-sports.io/football/teams/1298.png",
+     "g": 5,
+     "a": 1,
+     "pen": 1
+    },
+    {
      "n": "L. Ajorque",
      "ph": "https://media.api-sports.io/football/players/22264.png",
      "t": "Stade Brestois 29",
@@ -1942,24 +1960,6 @@
      "g": 5,
      "a": 0,
      "pen": 1
-    },
-    {
-     "n": "B. Dia",
-     "ph": "https://media.api-sports.io/football/players/22015.png",
-     "t": "Rennes",
-     "tl": "https://media.api-sports.io/football/teams/94.png",
-     "g": 5,
-     "a": 0,
-     "pen": 1
-    },
-    {
-     "n": "C. Tengstedt",
-     "ph": "https://media.api-sports.io/football/players/162703.png",
-     "t": "Toulouse",
-     "tl": "https://media.api-sports.io/football/teams/96.png",
-     "g": 5,
-     "a": 1,
-     "pen": 2
     }
    ]
   }
