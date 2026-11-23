@@ -1,59 +1,63 @@
 {
- "updated": "2026-11-23T23:50:26+03:00",
- "ts": 1795467026,
+ "updated": "2026-11-24T00:00:14+03:00",
+ "ts": 1795467614,
  "matches": [
   {
-   "id": 1557469,
-   "league": "England - Premier League",
-   "home": "Brentford",
-   "away": "Everton",
-   "hl": "https://media.api-sports.io/football/teams/55.png",
-   "al": "https://media.api-sports.io/football/teams/45.png",
-   "gh": 2,
+   "id": 1598750,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Santa Clara U23",
+   "away": "Marítimo U23",
+   "hl": "https://media.api-sports.io/football/teams/21719.png",
+   "al": "https://media.api-sports.io/football/teams/15466.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T20:00:00+00:00",
+   "minute": 3,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1600699,
+   "league": "Chile - Segunda División",
+   "home": "Real San Joaquín",
+   "away": "Colina",
+   "hl": "https://media.api-sports.io/football/teams/18779.png",
+   "al": "https://media.api-sports.io/football/teams/5634.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-23T21:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1550203,
+   "league": "Italy - Serie A",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "hl": "https://media.api-sports.io/football/teams/1579.png",
+   "al": "https://media.api-sports.io/football/teams/502.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 56,
+   "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
-     "m": 23,
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Gustavo Varela"
+    },
+    {
+     "m": 51,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Keane Lewis-Potter"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Vitaliy Mykolenko"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Keane Lewis-Potter"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "James Tarkowski"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "James Tarkowski"
+     "p": "Gustavo Varela"
     }
    ]
   },
@@ -67,7 +71,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-23T19:00:00+00:00",
    "ev": [
     {
@@ -137,132 +141,6 @@
    ]
   },
   {
-   "id": 1551885,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Jong Ajax",
-   "away": "Jong AZ",
-   "hl": "https://media.api-sports.io/football/teams/425.png",
-   "al": "https://media.api-sports.io/football/teams/418.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Jabou Abdalla"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mark Verkuijl"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Levi Acheampong"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pharell Nash"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Fouad Zahouani"
-    }
-   ]
-  },
-  {
-   "id": 1551886,
-   "league": "Netherlands - Eerste Divisie",
-   "home": "Jong PSV U21",
-   "away": "Jong Utrecht",
-   "hl": "https://media.api-sports.io/football/teams/411.png",
-   "al": "https://media.api-sports.io/football/teams/428.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Amir Bouhamdi"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jaygo van Ommeren"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Souleymane Sidibe"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wessel Kooy"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Shuryjano Cornecion"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Souleymane Sidibe"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Austyn Jones"
-    }
-   ]
-  },
-  {
    "id": 1552536,
    "league": "France - Ligue 2",
    "home": "Nantes",
@@ -272,7 +150,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -298,6 +176,61 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Yvann Macon"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lucas Perrin"
+    }
+   ]
+  },
+  {
+   "id": 1552539,
+   "league": "France - Ligue 2",
+   "home": "Sochaux",
+   "away": "Dunkerque",
+   "hl": "https://media.api-sports.io/football/teams/115.png",
+   "al": "https://media.api-sports.io/football/teams/1304.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-23T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Louicius Deedson"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Khalil Ayari"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Arthylio Nade"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abner"
     }
    ]
   },
@@ -311,7 +244,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -440,6 +373,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Browne"
+    },
+    {
+     "m": 90,
+     "x": 10,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Torras"
     }
    ]
   },
@@ -450,10 +391,10 @@
    "away": "Thionville Lusitanos",
    "hl": "https://media.api-sports.io/football/teams/103.png",
    "al": "https://media.api-sports.io/football/teams/22039.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-23T19:45:00+00:00",
    "ev": [
     {
@@ -465,12 +406,81 @@
      "p": "K. Bouhmidi"
     },
     {
-     "m": 33,
+     "m": 32,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Kilic"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Legendre"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Aubourg"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Diako"
+    }
+   ]
+  },
+  {
+   "id": 1588461,
+   "league": "England - National League - South",
+   "home": "Chelmsford City",
+   "away": "Maidstone Utd",
+   "hl": "https://media.api-sports.io/football/teams/4689.png",
+   "al": "https://media.api-sports.io/football/teams/1825.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-23T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1608377,
+   "league": "Italy - Serie C - Girone A",
+   "home": "Lecco",
+   "away": "Lumezzane",
+   "hl": "https://media.api-sports.io/football/teams/6379.png",
+   "al": "https://media.api-sports.io/football/teams/1689.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-23T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Baroncioni"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Urso"
     }
    ]
   },
@@ -482,9 +492,9 @@
    "hl": "https://media.api-sports.io/football/teams/9499.png",
    "al": "https://media.api-sports.io/football/teams/882.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -513,6 +523,14 @@
     },
     {
      "m": 45,
+     "x": 5,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Baroni"
+    },
+    {
+     "m": 45,
      "x": 1,
      "s": "h",
      "t": "Goal",
@@ -520,413 +538,12 @@
      "p": "M. Gaddini"
     },
     {
-     "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Baroni"
-    }
-   ]
-  },
-  {
-   "id": 1627073,
-   "league": "England - Premier League Cup",
-   "home": "Newcastle United U21",
-   "away": "Nottingham Forest U21",
-   "hl": "https://media.api-sports.io/football/teams/7199.png",
-   "al": "https://media.api-sports.io/football/teams/19746.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Ferreira"
-    },
-    {
-     "m": 39,
+     "m": 54,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "F. Smith"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Smith"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Ghanem"
-    }
-   ]
-  },
-  {
-   "id": 1627128,
-   "league": "England - Premier League Cup",
-   "home": "AFC Bournemouth U21",
-   "away": "Leicester City U21",
-   "hl": "https://media.api-sports.io/football/teams/20000.png",
-   "al": "https://media.api-sports.io/football/teams/7195.png",
-   "gh": 5,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Osazee"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Ndimukum"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Carr"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. William"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. King"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Stevens"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Azzouz Scafe"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "L. Hutchinson"
-    }
-   ]
-  },
-  {
-   "id": 1627129,
-   "league": "England - Premier League Cup",
-   "home": "Brighton U21",
-   "away": "West Ham United U21",
-   "hl": "https://media.api-sports.io/football/teams/7191.png",
-   "al": "https://media.api-sports.io/football/teams/7203.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Palmer"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Ibrahim"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Battrum"
-    }
-   ]
-  },
-  {
-   "id": 1627130,
-   "league": "England - Premier League Cup",
-   "home": "Reading U21",
-   "away": "Exeter U21",
-   "hl": "https://media.api-sports.io/football/teams/11914.png",
-   "al": "https://media.api-sports.io/football/teams/24847.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ahmed"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "S. Lonmeni"
-    }
-   ]
-  },
-  {
-   "id": 1627131,
-   "league": "England - Premier League Cup",
-   "home": "Wolves U21",
-   "away": "Preston North End U21",
-   "hl": "https://media.api-sports.io/football/teams/7204.png",
-   "al": "https://media.api-sports.io/football/teams/24848.png",
-   "gh": 5,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Kamara"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Edozie"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Abbey"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Edozie"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "T. Edozie"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "W. Okoduwa"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Gonzalez"
-    }
-   ]
-  },
-  {
-   "id": 1627167,
-   "league": "England - Premier League Cup",
-   "home": "Birmingham City U21",
-   "away": "Gillingham FC U21",
-   "hl": "https://media.api-sports.io/football/teams/20078.png",
-   "al": "https://media.api-sports.io/football/teams/28224.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Booth"
-    }
-   ]
-  },
-  {
-   "id": 1645548,
-   "league": "Bolivia - Primera División",
-   "home": "Real Oruro",
-   "away": "Guabirá",
-   "hl": "https://media.api-sports.io/football/teams/20252.png",
-   "al": "https://media.api-sports.io/football/teams/3704.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-23T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S.Garzón"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Barro"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Pablo Gómez Perez"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Gil"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thiago Chavez"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Anez"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Leandro Corulo"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yamil Vladimir Calle Villca"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Luciano Ursino"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luciano Ursino"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Castellón"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Milciades Portillo"
+     "p": "E. Vertainen"
     }
    ]
   },
@@ -940,7 +557,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T19:30:00+00:00",
    "ev": [
     {
@@ -998,68 +615,69 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Lautaro Navarro"
-    }
-   ]
-  },
-  {
-   "id": 1550203,
-   "league": "Italy - Serie A",
-   "home": "Monza",
-   "away": "Fiorentina",
-   "hl": "https://media.api-sports.io/football/teams/1579.png",
-   "al": "https://media.api-sports.io/football/teams/502.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Gustavo Varela"
-    }
-   ]
-  },
-  {
-   "id": 1552539,
-   "league": "France - Ligue 2",
-   "home": "Sochaux",
-   "away": "Dunkerque",
-   "hl": "https://media.api-sports.io/football/teams/115.png",
-   "al": "https://media.api-sports.io/football/teams/1304.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Louicius Deedson"
     },
     {
-     "m": 26,
+     "m": 70,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Khalil Ayari"
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1557469,
+   "league": "England - Premier League",
+   "home": "Brentford",
+   "away": "Everton",
+   "hl": "https://media.api-sports.io/football/teams/55.png",
+   "al": "https://media.api-sports.io/football/teams/45.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Keane Lewis-Potter"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Vitaliy Mykolenko"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Keane Lewis-Potter"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "James Tarkowski"
     },
     {
      "m": 40,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Arthylio Nade"
+     "t": "Card",
+     "d": "Red Card",
+     "p": "James Tarkowski"
     }
    ]
   },
@@ -1091,51 +709,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Aïssa Mandi"
-    }
-   ]
-  },
-  {
-   "id": 1588461,
-   "league": "England - National League - South",
-   "home": "Chelmsford City",
-   "away": "Maidstone Utd",
-   "hl": "https://media.api-sports.io/football/teams/4689.png",
-   "al": "https://media.api-sports.io/football/teams/1825.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1608377,
-   "league": "Italy - Serie C - Girone A",
-   "home": "Lecco",
-   "away": "Lumezzane",
-   "hl": "https://media.api-sports.io/football/teams/6379.png",
-   "al": "https://media.api-sports.io/football/teams/1689.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-23T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Baroncioni"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Urso"
     }
    ]
   },
