@@ -1,46 +1,7 @@
 {
- "updated": "2026-11-23T18:10:11+03:00",
- "ts": 1795446611,
+ "updated": "2026-11-23T18:20:12+03:00",
+ "ts": 1795447212,
  "matches": [
-  {
-   "id": 1546170,
-   "league": "World - World Cup - U17",
-   "home": "Italy U17",
-   "away": "Côte d'Ivoire U17",
-   "hl": "https://media.api-sports.io/football/teams/12510.png",
-   "al": "https://media.api-sports.io/football/teams/25818.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-23T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "H. Diabate"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - offside",
-     "p": "D. Perillo"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Gasparello"
-    }
-   ]
-  },
   {
    "id": 1546174,
    "league": "World - World Cup - U17",
@@ -51,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -74,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -88,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -102,7 +63,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -113,10 +74,10 @@
    "away": "Al Saqer",
    "hl": "https://media.api-sports.io/football/teams/2955.png",
    "al": "https://media.api-sports.io/football/teams/27480.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-23T14:30:00+00:00",
    "ev": [
     {
@@ -126,8 +87,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Mbengue"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Assehnoun"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mbengue"
     }
    ]
+  },
+  {
+   "id": 1604065,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Jeddah Club",
+   "away": "Damac",
+   "hl": "https://media.api-sports.io/football/teams/2947.png",
+   "al": "https://media.api-sports.io/football/teams/2956.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-23T15:15:00+00:00",
+   "ev": []
   },
   {
    "id": 1612279,
@@ -137,9 +128,9 @@
    "hl": "https://media.api-sports.io/football/teams/1574.png",
    "al": "https://media.api-sports.io/football/teams/1040.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": [
     {
@@ -148,7 +139,15 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Oday Dabbagh"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Oday Dabbagh"
     }
    ]
   },
@@ -162,9 +161,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-23T15:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ibrahim Mohamed El Bahnasi"
+    }
+   ]
   },
   {
    "id": 1628388,
@@ -174,11 +182,20 @@
    "hl": "https://media.api-sports.io/football/teams/3317.png",
    "al": "https://media.api-sports.io/football/teams/3325.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-23T15:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1642133,
@@ -190,7 +207,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T15:00:00+00:00",
    "ev": []
   },
@@ -204,7 +221,7 @@
    "gh": 9,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-23T13:30:00+00:00",
    "ev": [
     {
@@ -299,7 +316,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -338,7 +355,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 58,
    "time": "2026-11-23T14:00:00+00:00",
    "ev": [
     {
@@ -348,6 +365,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Matvey Pershin"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gleb Miroshnichenko"
     }
    ]
   },
@@ -358,10 +383,10 @@
    "away": "Al-Hilal Saudi FC",
    "hl": "https://media.api-sports.io/football/teams/4217.png",
    "al": "https://media.api-sports.io/football/teams/2932.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": [
     {
@@ -403,6 +428,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Theo Hernandez"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Yusuf Akcicek"
     }
    ]
   },
@@ -416,9 +449,48 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1546170,
+   "league": "World - World Cup - U17",
+   "home": "Italy U17",
+   "away": "Côte d'Ivoire U17",
+   "hl": "https://media.api-sports.io/football/teams/12510.png",
+   "al": "https://media.api-sports.io/football/teams/25818.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Diabate"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - offside",
+     "p": "D. Perillo"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Gasparello"
+    }
+   ]
   }
  ]
 }
