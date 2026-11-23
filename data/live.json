@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T04:20:20+03:00",
- "ts": 1795396820,
+ "updated": "2026-11-23T04:30:25+03:00",
+ "ts": 1795397425,
  "matches": [
   {
    "id": 1551046,
@@ -9,12 +9,29 @@
    "away": "Necaxa",
    "hl": "https://media.api-sports.io/football/teams/2290.png",
    "al": "https://media.api-sports.io/football/teams/2288.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T01:10:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ali Ávila"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Miguel Rodriguez"
+    }
+   ]
   },
   {
    "id": 1559712,
@@ -26,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 3,
+   "minute": 13,
    "time": "2026-11-23T01:10:00+00:00",
    "ev": []
   },
@@ -37,10 +54,10 @@
    "away": "Huracan",
    "hl": "https://media.api-sports.io/football/teams/478.png",
    "al": "https://media.api-sports.io/football/teams/445.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
@@ -58,6 +75,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Alex Luna"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Facundo Ezquel Suarez"
     }
    ]
   },
@@ -71,7 +96,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-23T01:00:00+00:00",
    "ev": [
     {
@@ -85,69 +110,6 @@
    ]
   },
   {
-   "id": 1505567,
-   "league": "Chile - Primera División",
-   "home": "Deportes Limache",
-   "away": "D. La Serena",
-   "hl": "https://media.api-sports.io/football/teams/16730.png",
-   "al": "https://media.api-sports.io/football/teams/2341.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-22T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tiago Hernández Galletto"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Diego Rubio"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Daniel Castro"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Misael Llantén"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Francis Mac Allister"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jeisson Vargas"
-    }
-   ]
-  },
-  {
    "id": 1649493,
    "league": "USA - Major League Soccer",
    "home": "Chicago Fire",
@@ -157,7 +119,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-22T23:30:00+00:00",
    "ev": [
     {
@@ -169,7 +131,7 @@
      "p": "Liel Abada"
     },
     {
-     "m": 68,
+     "m": 69,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -177,12 +139,28 @@
      "p": "Robert Lewandowski"
     },
     {
-     "m": 74,
+     "m": 75,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Harry Toffolo"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Morrison Agyemang"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Bamba"
     }
    ]
   },
@@ -196,7 +174,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T00:00:00+00:00",
    "ev": [
     {
