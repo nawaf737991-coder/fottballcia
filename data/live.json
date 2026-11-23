@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T16:50:23+03:00",
- "ts": 1795441823,
+ "updated": "2026-11-23T17:00:23+03:00",
+ "ts": 1795442423,
  "matches": [
   {
    "id": 1546176,
@@ -9,10 +9,10 @@
    "away": "Cuba U17",
    "hl": "https://media.api-sports.io/football/teams/12518.png",
    "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 2,
+   "gh": 4,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-23T13:30:00+00:00",
    "ev": [
     {
@@ -38,6 +38,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Y. Gonzalez"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Ndiaye"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Mbodji"
     }
    ]
   },
@@ -51,22 +67,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T13:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647896,
-   "league": "Iran - Azadegan League",
-   "home": "Novin Ahvaz",
-   "away": "Mes Rafsanjan",
-   "hl": "https://media.api-sports.io/football/teams/28321.png",
-   "al": "https://media.api-sports.io/football/teams/2706.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T13:00:00+00:00",
    "ev": []
   },
   {
@@ -79,78 +81,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 14,
    "time": "2026-11-23T13:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1649973,
-   "league": "Tunisia - Ligue 2",
-   "home": "AS Agareb",
-   "away": "Sfax Railways",
-   "hl": "https://media.api-sports.io/football/teams/10595.png",
-   "al": "https://media.api-sports.io/football/teams/10633.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 36,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649975,
-   "league": "Tunisia - Ligue 2",
-   "home": "BS Bouhajla",
-   "away": "M'saken",
-   "hl": "https://media.api-sports.io/football/teams/10599.png",
-   "al": "https://media.api-sports.io/football/teams/10620.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 43,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ben Romdhane"
-    }
-   ]
-  },
-  {
-   "id": 1649984,
-   "league": "Tunisia - Ligue 2",
-   "home": "Moknine",
-   "away": "CO Medenine",
-   "hl": "https://media.api-sports.io/football/teams/10624.png",
-   "al": "https://media.api-sports.io/football/teams/982.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 37,
-   "time": "2026-11-23T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "M. Terd"
-    }
-   ]
   },
   {
    "id": 1546178,
@@ -159,10 +92,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/12520.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 12,
+   "gh": 14,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -260,6 +193,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Cruz"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Cruz"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Dominguez"
     }
    ]
   },
@@ -273,7 +222,7 @@
    "gh": 0,
    "ga": 4,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -335,6 +284,53 @@
    ]
   },
   {
+   "id": 1565535,
+   "league": "Ukraine - Premier League",
+   "home": "LNZ Cherkasy",
+   "away": "Polessya",
+   "hl": "https://media.api-sports.io/football/teams/17161.png",
+   "al": "https://media.api-sports.io/football/teams/6496.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-23T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gennadiy Pasich"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eduard Sarapiy"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Papa Ndiaga Yade"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vladyslav Veleten"
+    }
+   ]
+  },
+  {
    "id": 1571629,
    "league": "Bulgaria - Second League",
    "home": "CSKA Sofia II",
@@ -344,7 +340,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 73,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -370,6 +366,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -380,10 +384,10 @@
    "away": "Iliria Fushë-Krujë",
    "hl": "https://media.api-sports.io/football/teams/3323.png",
    "al": "https://media.api-sports.io/football/teams/3330.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 71,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -395,12 +399,28 @@
      "p": "J. Adeniyi"
     },
     {
-     "m": 61,
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Selmani"
+    },
+    {
+     "m": 60,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Red Card",
-     "p": null
+     "p": "B. Selmani"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Ogungbire"
     }
    ]
   },
@@ -414,7 +434,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": [
     {
@@ -445,7 +465,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-23T12:45:00+00:00",
    "ev": []
   },
@@ -459,7 +479,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 57,
    "time": "2026-11-23T12:40:00+00:00",
    "ev": []
   },
@@ -470,10 +490,10 @@
    "away": "Spitfire FC",
    "hl": "https://media.api-sports.io/football/teams/28565.png",
    "al": "https://media.api-sports.io/football/teams/28563.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-23T12:30:00+00:00",
    "ev": []
   },
@@ -487,35 +507,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646787,
-   "league": "Kenya - Super League",
-   "home": "Kibera Black Stars",
-   "away": "Naivas",
-   "hl": "https://media.api-sports.io/football/teams/2497.png",
-   "al": "https://media.api-sports.io/football/teams/19488.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-23T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646788,
-   "league": "Kenya - Super League",
-   "home": "Nzoia Sugar",
-   "away": "Mfalme",
-   "hl": "https://media.api-sports.io/football/teams/2469.png",
-   "al": "https://media.api-sports.io/football/teams/27732.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
+   "minute": 90,
    "time": "2026-11-23T12:00:00+00:00",
    "ev": []
   },
@@ -668,6 +660,43 @@
    ]
   },
   {
+   "id": 1647896,
+   "league": "Iran - Azadegan League",
+   "home": "Novin Ahvaz",
+   "away": "Mes Rafsanjan",
+   "hl": "https://media.api-sports.io/football/teams/28321.png",
+   "al": "https://media.api-sports.io/football/teams/2706.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649973,
+   "league": "Tunisia - Ligue 2",
+   "home": "AS Agareb",
+   "away": "Sfax Railways",
+   "hl": "https://media.api-sports.io/football/teams/10595.png",
+   "al": "https://media.api-sports.io/football/teams/10633.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "W. Sioud"
+    }
+   ]
+  },
+  {
    "id": 1649974,
    "league": "Tunisia - Ligue 2",
    "home": "Bouchamma",
@@ -681,7 +710,7 @@
    "time": "2026-11-23T13:00:00+00:00",
    "ev": [
     {
-     "m": 19,
+     "m": 15,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -703,6 +732,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Ben Aziza"
+    }
+   ]
+  },
+  {
+   "id": 1649975,
+   "league": "Tunisia - Ligue 2",
+   "home": "BS Bouhajla",
+   "away": "M'saken",
+   "hl": "https://media.api-sports.io/football/teams/10599.png",
+   "al": "https://media.api-sports.io/football/teams/10620.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Ben Romdhane"
     }
    ]
   },
@@ -816,6 +868,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Mersni"
+    }
+   ]
+  },
+  {
+   "id": 1649984,
+   "league": "Tunisia - Ligue 2",
+   "home": "Moknine",
+   "away": "CO Medenine",
+   "hl": "https://media.api-sports.io/football/teams/10624.png",
+   "al": "https://media.api-sports.io/football/teams/982.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "M. Terd"
     }
    ]
   }
