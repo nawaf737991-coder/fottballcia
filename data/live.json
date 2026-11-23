@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T21:10:24+03:00",
- "ts": 1795457424,
+ "updated": "2026-11-23T21:20:11+03:00",
+ "ts": 1795458011,
  "matches": [
   {
    "id": 1494341,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -49,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -72,7 +72,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -92,10 +92,10 @@
    "away": "Rapid",
    "hl": "https://media.api-sports.io/football/teams/2585.png",
    "al": "https://media.api-sports.io/football/teams/6231.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": [
     {
@@ -105,6 +105,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Dobre"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Cmiljanic"
     }
    ]
   },
@@ -118,7 +126,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T18:00:00+00:00",
    "ev": []
   },
@@ -132,9 +140,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-23T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Bayazid"
+    }
+   ]
   },
   {
    "id": 1612280,
@@ -146,8 +163,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-23T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629979,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al-Ittihad FC",
+   "away": "Pakhtakor",
+   "hl": "https://media.api-sports.io/football/teams/2938.png",
+   "al": "https://media.api-sports.io/football/teams/4220.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-23T18:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629980,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al Quwa Al Jawiya",
+   "away": "Al-Gharafa",
+   "hl": "https://media.api-sports.io/football/teams/8009.png",
+   "al": "https://media.api-sports.io/football/teams/2903.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-23T18:15:00+00:00",
    "ev": []
   },
   {
@@ -160,7 +205,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -191,7 +236,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-23T16:30:00+00:00",
    "ev": [
     {
@@ -238,7 +283,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -285,7 +330,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -305,10 +350,10 @@
    "away": "Vanspor FK",
    "hl": "https://media.api-sports.io/football/teams/3583.png",
    "al": "https://media.api-sports.io/football/teams/6342.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -318,6 +363,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Berşan Yavuzay"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Yusuf Sertkaya"
     }
    ]
   },
@@ -331,7 +384,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -362,7 +415,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-23T17:00:00+00:00",
    "ev": [
     {
@@ -403,7 +456,7 @@
      "s": "h",
      "t": "Card",
      "d": "Red Card",
-     "p": null
+     "p": "L. de Lucas"
     }
    ]
   },
@@ -417,7 +470,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T16:45:00+00:00",
    "ev": [
     {
