@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T10:50:28+03:00",
- "ts": 1795506628,
+ "updated": "2026-11-24T11:00:13+03:00",
+ "ts": 1795507213,
  "matches": [
   {
    "id": 1629981,
@@ -10,11 +10,20 @@
    "hl": "https://media.api-sports.io/football/teams/946.png",
    "al": "https://media.api-sports.io/football/teams/281.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T07:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hinata Yamauchi"
+    }
+   ]
   }
  ]
 }
