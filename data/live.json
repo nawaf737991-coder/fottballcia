@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T13:20:19+03:00",
- "ts": 1795515619,
+ "updated": "2026-11-24T13:30:23+03:00",
+ "ts": 1795516223,
  "matches": [
   {
    "id": 1629982,
@@ -9,12 +9,21 @@
    "away": "Beijing Guoan",
    "hl": "https://media.api-sports.io/football/teams/2750.png",
    "al": "https://media.api-sports.io/football/teams/830.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Um Won-Sang"
+    }
+   ]
   },
   {
    "id": 1629983,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": []
   },
@@ -38,9 +47,9 @@
    "hl": "https://media.api-sports.io/football/teams/16553.png",
    "al": "https://media.api-sports.io/football/teams/28370.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -66,6 +75,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "H. Chooly"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Krapf"
     }
    ]
   },
@@ -77,9 +94,9 @@
    "hl": "https://media.api-sports.io/football/teams/3620.png",
    "al": "https://media.api-sports.io/football/teams/14433.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -97,29 +114,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Anatoliy Romanchenko"
-    }
-   ]
-  },
-  {
-   "id": 1640234,
-   "league": "Bangladesh - Federation Cup",
-   "home": "Chattogram",
-   "away": "Brothers Union",
-   "hl": "https://media.api-sports.io/football/teams/28428.png",
-   "al": "https://media.api-sports.io/football/teams/5013.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T08:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 89,
+     "m": 64,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Artur Bybik"
     }
    ]
   },
@@ -133,11 +135,11 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
-     "m": 29,
+     "m": 30,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -145,7 +147,7 @@
      "p": "A. Alfareza"
     },
     {
-     "m": 37,
+     "m": 38,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -153,7 +155,7 @@
      "p": "J. Jean"
     },
     {
-     "m": 40,
+     "m": 41,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -161,7 +163,7 @@
      "p": "A. Kaka"
     },
     {
-     "m": 42,
+     "m": 43,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -177,14 +179,14 @@
    "away": "PSBS Biak Numfor",
    "hl": "https://media.api-sports.io/football/teams/2446.png",
    "al": "https://media.api-sports.io/football/teams/4232.png",
-   "gh": 2,
+   "gh": 4,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
-     "m": 14,
+     "m": 15,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -192,7 +194,7 @@
      "p": "R. Pratama"
     },
     {
-     "m": 41,
+     "m": 42,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -200,7 +202,7 @@
      "p": "M. Madjar"
     },
     {
-     "m": 44,
+     "m": 45,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -222,6 +224,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Pratama"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Pratama"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "S. Ramdani"
     }
    ]
   },
@@ -235,7 +253,7 @@
    "gh": 6,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -293,6 +311,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "F. Sopiulloh"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Syayid"
     }
    ]
   }
