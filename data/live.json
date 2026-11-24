@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T03:40:19+03:00",
- "ts": 1795480819,
+ "updated": "2026-11-24T03:50:23+03:00",
+ "ts": 1795481423,
  "matches": [
   {
    "id": 1492469,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": [
     {
@@ -30,22 +30,16 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Erick Noriega"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "João Alencar"
     }
    ]
-  },
-  {
-   "id": 1650863,
-   "league": "Costa-Rica - Liga de Ascenso",
-   "home": "Pitbulls Santa Barbara FC",
-   "away": "ADR Jicaral",
-   "hl": "https://media.api-sports.io/football/teams/26343.png",
-   "al": "https://media.api-sports.io/football/teams/2043.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1651241,
@@ -57,7 +51,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": []
   },
@@ -68,10 +62,10 @@
    "away": "Sao Paulo",
    "hl": "https://media.api-sports.io/football/teams/120.png",
    "al": "https://media.api-sports.io/football/teams/126.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -113,6 +107,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Pedro Lima"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nahuel Ferraresi"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tiquinho Soares"
     }
    ]
   },
@@ -126,7 +136,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -172,123 +182,18 @@
    ]
   },
   {
-   "id": 1650519,
-   "league": "Brazil - Kings Cup",
-   "home": "Fluxo",
-   "away": "Dendele",
-   "hl": "https://media.api-sports.io/football/teams/26899.png",
-   "al": "https://media.api-sports.io/football/teams/26897.png",
-   "gh": 4,
-   "ga": 8,
-   "status": "2H",
-   "minute": 76,
-   "time": "2026-11-23T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gustavo Hungaro"
-    },
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joao Pedro"
-    },
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gabriel Repulho"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lucas Guilherme"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gustavo Hungaro"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Chaveirinho"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lyncoln Oliveira"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Christian Santos"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Chaveirinho"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lucas Guilherme"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "LuquEt4"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Cerol"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
+   "id": 1650863,
+   "league": "Costa-Rica - Liga de Ascenso",
+   "home": "Pitbulls Santa Barbara FC",
+   "away": "ADR Jicaral",
+   "hl": "https://media.api-sports.io/football/teams/26343.png",
+   "al": "https://media.api-sports.io/football/teams/2043.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T00:00:00+00:00",
+   "ev": []
   }
  ]
 }
