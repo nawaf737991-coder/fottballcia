@@ -1,7 +1,223 @@
 {
- "updated": "2026-11-24T21:50:17+03:00",
- "ts": 1795546217,
+ "updated": "2026-11-24T22:00:19+03:00",
+ "ts": 1795546819,
  "matches": [
+  {
+   "id": 1588868,
+   "league": "England - EFL Trophy",
+   "home": "Oxford United",
+   "away": "Tottenham Hotspur U21",
+   "hl": "https://media.api-sports.io/football/teams/1338.png",
+   "al": "https://media.api-sports.io/football/teams/7202.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629988,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al-Nassr",
+   "away": "Al Sadd",
+   "hl": "https://media.api-sports.io/football/teams/2939.png",
+   "al": "https://media.api-sports.io/football/teams/2895.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-24T18:15:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Boualem Khoukhi"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Cristiano Ronaldo"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mohamed Waad"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Cristiano Ronaldo"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Angelo Borges"
+    }
+   ]
+  },
+  {
+   "id": 1600377,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Durban City",
+   "away": "Polokwane City",
+   "hl": "https://media.api-sports.io/football/teams/24757.png",
+   "al": "https://media.api-sports.io/football/teams/2693.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 72,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edwin Ramaja"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Siphamandla Sakhile Ncanana"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "B. Poggenpoel"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gastón Sirino"
+    }
+   ]
+  },
+  {
+   "id": 1600381,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Orlando Pirates",
+   "away": "Golden Arrows",
+   "hl": "https://media.api-sports.io/football/teams/2700.png",
+   "al": "https://media.api-sports.io/football/teams/2690.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 72,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Philani Kumalo"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thalente Mbatha"
+    }
+   ]
+  },
+  {
+   "id": 1635641,
+   "league": "World - UEFA Champions League",
+   "home": "Bodo/Glimt",
+   "away": "Lask Linz",
+   "hl": "https://media.api-sports.io/football/teams/327.png",
+   "al": "https://media.api-sports.io/football/teams/1026.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 59,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635667,
+   "league": "World - UEFA Champions League",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "hl": "https://media.api-sports.io/football/teams/645.png",
+   "al": "https://media.api-sports.io/football/teams/66.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 59,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Jackson"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. McGinn"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Batrakov"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Joao Gomes"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Akgun"
+    }
+   ]
+  },
   {
    "id": 1601617,
    "league": "Italy - Serie B",
@@ -10,8 +226,8 @@
    "hl": "https://media.api-sports.io/football/teams/863.png",
    "al": "https://media.api-sports.io/football/teams/1687.png",
    "gh": 0,
-   "ga": 1,
-   "status": "1H",
+   "ga": 2,
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
@@ -46,317 +262,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ruggero Frosinini"
-    }
-   ]
-  },
-  {
-   "id": 1612285,
-   "league": "Egypt - Premier League",
-   "home": "El Mokawloon",
-   "away": "Olympic El Qanah",
-   "hl": "https://media.api-sports.io/football/teams/1575.png",
-   "al": "https://media.api-sports.io/football/teams/13822.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "mawuli wayo"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "mawuli wayo"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mostafa Gamal"
-    }
-   ]
-  },
-  {
-   "id": 1629988,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al-Nassr",
-   "away": "Al Sadd",
-   "hl": "https://media.api-sports.io/football/teams/2939.png",
-   "al": "https://media.api-sports.io/football/teams/2895.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 35,
-   "time": "2026-11-24T18:15:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Boualem Khoukhi"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Cristiano Ronaldo"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mohamed Waad"
-    }
-   ]
-  },
-  {
-   "id": 1598752,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Torreense U23",
-   "away": "Vizela U23",
-   "hl": "https://media.api-sports.io/football/teams/21720.png",
-   "al": "https://media.api-sports.io/football/teams/17475.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1600377,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Durban City",
-   "away": "Polokwane City",
-   "hl": "https://media.api-sports.io/football/teams/24757.png",
-   "al": "https://media.api-sports.io/football/teams/2693.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 61,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Edwin Ramaja"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Siphamandla Sakhile Ncanana"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "B. Poggenpoel"
-    }
-   ]
-  },
-  {
-   "id": 1600381,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Orlando Pirates",
-   "away": "Golden Arrows",
-   "hl": "https://media.api-sports.io/football/teams/2700.png",
-   "al": "https://media.api-sports.io/football/teams/2690.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 62,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Philani Kumalo"
     },
     {
      "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thalente Mbatha"
-    }
-   ]
-  },
-  {
-   "id": 1635641,
-   "league": "World - UEFA Champions League",
-   "home": "Bodo/Glimt",
-   "away": "Lask Linz",
-   "hl": "https://media.api-sports.io/football/teams/327.png",
-   "al": "https://media.api-sports.io/football/teams/1026.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 49,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635667,
-   "league": "World - UEFA Champions League",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "hl": "https://media.api-sports.io/football/teams/645.png",
-   "al": "https://media.api-sports.io/football/teams/66.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 49,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Jackson"
-    }
-   ]
-  },
-  {
-   "id": 1645616,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al-Duhail SC",
-   "away": "NEOM",
-   "hl": "https://media.api-sports.io/football/teams/2904.png",
-   "al": "https://media.api-sports.io/football/teams/10513.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Yansane"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Al Abdulla"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. O. Madibo"
-    },
-    {
-     "m": 49,
-     "x": null,
+     "x": 5,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "G. Masouras"
+     "p": "Emanuele Pecorino"
     },
     {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Benrahma"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Al Ghamdi"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Al Dawsari"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Bamba"
-    },
-    {
-     "m": 79,
-     "x": null,
+     "m": 45,
+     "x": 3,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "I. Bamba"
+     "p": "Marco Bellich"
     }
    ]
   },
@@ -412,6 +333,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hassan Ali"
+    }
+   ]
+  },
+  {
+   "id": 1612285,
+   "league": "Egypt - Premier League",
+   "home": "El Mokawloon",
+   "away": "Olympic El Qanah",
+   "hl": "https://media.api-sports.io/football/teams/1575.png",
+   "al": "https://media.api-sports.io/football/teams/13822.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "mawuli wayo"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "mawuli wayo"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mostafa Gamal"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abdel Naser Mohamed"
     }
    ]
   }
