@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T04:40:20+03:00",
- "ts": 1795484420,
+ "updated": "2026-11-24T04:50:26+03:00",
+ "ts": 1795485026,
  "matches": [
   {
    "id": 1649498,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-24T01:00:00+00:00",
    "ev": []
   },
@@ -24,9 +24,9 @@
    "hl": "https://media.api-sports.io/football/teams/128.png",
    "al": "https://media.api-sports.io/football/teams/130.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 83,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": [
     {
@@ -52,6 +52,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "João Alencar"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Martin Braithwaite"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Martin Braithwaite"
     }
    ]
   },
@@ -65,7 +81,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": []
   },
@@ -79,7 +95,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 62,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": [
     {
@@ -118,6 +134,14 @@
      "m": 41,
      "x": null,
      "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
