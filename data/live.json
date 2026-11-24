@@ -1,7 +1,60 @@
 {
- "updated": "2026-11-24T04:10:09+03:00",
- "ts": 1795482609,
+ "updated": "2026-11-24T04:20:16+03:00",
+ "ts": 1795483216,
  "matches": [
+  {
+   "id": 1492469,
+   "league": "Brazil - Serie A",
+   "home": "Santos",
+   "away": "Gremio",
+   "hl": "https://media.api-sports.io/football/teams/128.png",
+   "al": "https://media.api-sports.io/football/teams/130.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-24T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Francis Amuzu"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Erick Noriega"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "João Alencar"
+    }
+   ]
+  },
+  {
+   "id": 1650863,
+   "league": "Costa-Rica - Liga de Ascenso",
+   "home": "Pitbulls Santa Barbara FC",
+   "away": "ADR Jicaral",
+   "hl": "https://media.api-sports.io/football/teams/26343.png",
+   "al": "https://media.api-sports.io/football/teams/2043.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 61,
+   "time": "2026-11-24T00:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1651241,
    "league": "Colombia - Primera B",
@@ -11,8 +64,8 @@
    "al": "https://media.api-sports.io/football/teams/1461.png",
    "gh": 0,
    "ga": 2,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": [
     {
@@ -46,138 +99,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1632064,
-   "league": "Paraguay - Division Profesional - Clausura",
-   "home": "Nacional Asuncion",
-   "away": "Cerro Porteno",
-   "hl": "https://media.api-sports.io/football/teams/1175.png",
-   "al": "https://media.api-sports.io/football/teams/1176.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T23:15:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hugo Valdez"
     },
     {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "carlos chena"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hugo Valdez"
-    },
-    {
-     "m": 54,
+     "m": 41,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Carlos Espinola"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sebastian Vargas"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Fabricio Domínguez"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Fabricio Domínguez"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Cañete"
-    }
-   ]
-  },
-  {
-   "id": 1650863,
-   "league": "Costa-Rica - Liga de Ascenso",
-   "home": "Pitbulls Santa Barbara FC",
-   "away": "ADR Jicaral",
-   "hl": "https://media.api-sports.io/football/teams/26343.png",
-   "al": "https://media.api-sports.io/football/teams/2043.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 51,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1492469,
-   "league": "Brazil - Serie A",
-   "home": "Santos",
-   "away": "Gremio",
-   "hl": "https://media.api-sports.io/football/teams/128.png",
-   "al": "https://media.api-sports.io/football/teams/130.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Francis Amuzu"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Erick Noriega"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "João Alencar"
+     "p": null
     }
    ]
   }
