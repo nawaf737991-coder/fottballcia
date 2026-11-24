@@ -1,44 +1,7 @@
 {
- "updated": "2026-11-24T19:10:13+03:00",
- "ts": 1795536613,
+ "updated": "2026-11-24T19:20:20+03:00",
+ "ts": 1795537220,
  "matches": [
-  {
-   "id": 1546163,
-   "league": "World - World Cup - U17",
-   "home": "Algeria U17",
-   "away": "Montenegro U17",
-   "hl": "https://media.api-sports.io/football/teams/21295.png",
-   "al": "https://media.api-sports.io/football/teams/17966.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T15:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1546169,
-   "league": "World - World Cup - U17",
-   "home": "Honduras U17",
-   "away": "Colombia U17",
-   "hl": "https://media.api-sports.io/football/teams/20997.png",
-   "al": "https://media.api-sports.io/football/teams/20527.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Murillo"
-    }
-   ]
-  },
   {
    "id": 1571631,
    "league": "Bulgaria - Second League",
@@ -49,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -63,7 +26,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -75,12 +38,20 @@
      "p": "Julián Quiñones"
     },
     {
-     "m": 9,
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Suleman Sani"
+    },
+    {
+     "m": 13,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Mahamadou Sangaré"
+     "p": "Julián Quiñones"
     }
    ]
   },
@@ -94,7 +65,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -117,7 +88,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -156,7 +127,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -167,10 +138,10 @@
    "away": "Dinamo Tbilisi",
    "hl": "https://media.api-sports.io/football/teams/3505.png",
    "al": "https://media.api-sports.io/football/teams/2262.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -196,6 +167,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Algassime Bah"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Guram Goshteliani"
     }
    ]
   },
@@ -209,7 +188,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -240,7 +219,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -287,7 +266,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -310,7 +289,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -333,7 +312,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -370,11 +349,11 @@
     },
     {
      "m": 45,
-     "x": 5,
+     "x": 1,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Al Haj"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Yousef"
     },
     {
      "m": 45,
@@ -386,11 +365,11 @@
     },
     {
      "m": 45,
-     "x": 1,
+     "x": 5,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Yousef"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Al Haj"
     },
     {
      "m": 68,
@@ -411,6 +390,75 @@
    ]
   },
   {
+   "id": 1612281,
+   "league": "Egypt - Premier League",
+   "home": "Smouha SC",
+   "away": "National Bank of Egypt",
+   "hl": "https://media.api-sports.io/football/teams/1044.png",
+   "al": "https://media.api-sports.io/football/teams/15570.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ali Hamdy"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mahmoud El Gazzar"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abdel Aziz El Balouti"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Samir Fekri"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Attidjikou Samadou"
+    }
+   ]
+  },
+  {
+   "id": 1612282,
+   "league": "Egypt - Premier League",
+   "home": "Masr",
+   "away": "Abu Qair Semad",
+   "hl": "https://media.api-sports.io/football/teams/7520.png",
+   "al": "https://media.api-sports.io/football/teams/15731.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1637382,
    "league": "World - UEFA Youth League",
    "home": "Feyenoord U19",
@@ -420,7 +468,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -446,6 +494,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Lima"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Verdonk"
     }
    ]
   },
@@ -457,9 +513,9 @@
    "hl": "https://media.api-sports.io/football/teams/7914.png",
    "al": "https://media.api-sports.io/football/teams/7917.png",
    "gh": 3,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -493,6 +549,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "X. Parker"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Riccio"
     }
    ]
   },
@@ -504,9 +568,9 @@
    "hl": "https://media.api-sports.io/football/teams/7924.png",
    "al": "https://media.api-sports.io/football/teams/22372.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -524,6 +588,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Robbe"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Joursky"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Seddik"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Langsteiner"
     }
    ]
   },
@@ -537,7 +625,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -595,6 +683,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Colaes"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Buyens"
     }
    ]
   },
@@ -608,7 +704,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -687,7 +783,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -775,63 +871,56 @@
      "x": null,
      "s": "a",
      "t": "Var",
-     "d": "Goal Disallowed - video review",
+     "d": "Goal Disallowed - offside",
      "p": "A. Perez"
     }
    ]
   },
   {
-   "id": 1612281,
-   "league": "Egypt - Premier League",
-   "home": "Smouha SC",
-   "away": "National Bank of Egypt",
-   "hl": "https://media.api-sports.io/football/teams/1044.png",
-   "al": "https://media.api-sports.io/football/teams/15570.png",
+   "id": 1546163,
+   "league": "World - World Cup - U17",
+   "home": "Algeria U17",
+   "away": "Montenegro U17",
+   "hl": "https://media.api-sports.io/football/teams/21295.png",
+   "al": "https://media.api-sports.io/football/teams/17966.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-24T15:00:00+00:00",
+   "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
-     "m": 13,
+     "m": 41,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ali Hamdy"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mahmoud El Gazzar"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abdel Aziz El Balouti"
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Y. Tifrani"
     }
    ]
   },
   {
-   "id": 1612282,
-   "league": "Egypt - Premier League",
-   "home": "Masr",
-   "away": "Abu Qair Semad",
-   "hl": "https://media.api-sports.io/football/teams/7520.png",
-   "al": "https://media.api-sports.io/football/teams/15731.png",
+   "id": 1546169,
+   "league": "World - World Cup - U17",
+   "home": "Honduras U17",
+   "away": "Colombia U17",
+   "hl": "https://media.api-sports.io/football/teams/20997.png",
+   "al": "https://media.api-sports.io/football/teams/20527.png",
    "gh": 0,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": []
+   "time": "2026-11-24T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Murillo"
+    }
+   ]
   }
  ]
 }
