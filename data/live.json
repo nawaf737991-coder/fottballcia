@@ -1,38 +1,7 @@
 {
- "updated": "2026-11-24T18:40:13+03:00",
- "ts": 1795534813,
+ "updated": "2026-11-24T18:50:26+03:00",
+ "ts": 1795535426,
  "matches": [
-  {
-   "id": 1509229,
-   "league": "Georgia - Erovnuli Liga",
-   "home": "Gagra",
-   "away": "Dinamo Tbilisi",
-   "hl": "https://media.api-sports.io/football/teams/3505.png",
-   "al": "https://media.api-sports.io/football/teams/2262.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Borges"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
   {
    "id": 1546163,
    "league": "World - World Cup - U17",
@@ -43,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": []
   },
@@ -57,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -88,63 +57,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1598746,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Felgueiras U23",
-   "away": "Academico Viseu U23",
-   "hl": "https://media.api-sports.io/football/teams/28013.png",
-   "al": "https://media.api-sports.io/football/teams/21718.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1598748,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Portimonense U23",
-   "away": "Estrela U23",
-   "hl": "https://media.api-sports.io/football/teams/15467.png",
-   "al": "https://media.api-sports.io/football/teams/19824.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1598749,
@@ -156,7 +71,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -179,7 +94,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -189,6 +104,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ali Hamdy"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abdel Aziz El Balouti"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mahmoud El Gazzar"
     }
    ]
   },
@@ -202,48 +133,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1637382,
-   "league": "World - UEFA Youth League",
-   "home": "Feyenoord U19",
-   "away": "Porto U19",
-   "hl": "https://media.api-sports.io/football/teams/7981.png",
-   "al": "https://media.api-sports.io/football/teams/7922.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Cunha"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "K. Neijenhuis"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Lima"
-    }
-   ]
   },
   {
    "id": 1637384,
@@ -252,10 +144,10 @@
    "away": "Napoli U19",
    "hl": "https://media.api-sports.io/football/teams/7914.png",
    "al": "https://media.api-sports.io/football/teams/7917.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -281,92 +173,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "X. Parker"
-    }
-   ]
-  },
-  {
-   "id": 1637385,
-   "league": "World - UEFA Youth League",
-   "home": "RB Leipzig U19",
-   "away": "Lens U19",
-   "hl": "https://media.api-sports.io/football/teams/7924.png",
-   "al": "https://media.api-sports.io/football/teams/22372.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Langsteiner"
     },
     {
      "m": 38,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1637386,
-   "league": "World - UEFA Youth League",
-   "home": "Real Madrid U19",
-   "away": "PSV U19",
-   "hl": "https://media.api-sports.io/football/teams/7926.png",
-   "al": "https://media.api-sports.io/football/teams/7965.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Bro Hansen"
-    },
-    {
-     "m": 15,
-     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Ciria"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Yanez"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Martinez"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "X. Parker"
     }
    ]
   },
@@ -380,7 +194,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -397,7 +211,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "M. Al Sibyani"
     }
    ]
   },
@@ -411,7 +225,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -435,7 +249,7 @@
      "x": null,
      "s": "a",
      "t": "Goal",
-     "d": "Normal Goal",
+     "d": "Penalty",
      "p": "Ivan Oblyakov"
     },
     {
@@ -444,7 +258,15 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "João Victor da Silva Marcelino"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ionuț Nedelcearu"
     }
    ]
   },
@@ -458,7 +280,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -495,6 +317,14 @@
     },
     {
      "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Yousef"
+    },
+    {
+     "m": 45,
      "x": 2,
      "s": "h",
      "t": "Card",
@@ -508,14 +338,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "K. Al Haj"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Yousef"
     }
    ]
   },
@@ -529,7 +351,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -563,6 +385,93 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "T. Tchorz"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Nickson"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1645614,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Al Riffa",
+   "away": "Al Zawra'a",
+   "hl": "https://media.api-sports.io/football/teams/5482.png",
+   "al": "https://media.api-sports.io/football/teams/8010.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-24T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Meziani"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wellington"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -573,10 +482,10 @@
    "away": "Naft Masjed Soleyman",
    "hl": "https://media.api-sports.io/football/teams/16468.png",
    "al": "https://media.api-sports.io/football/teams/2707.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -594,6 +503,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Joukar"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Tahmasebi"
     }
    ]
   },
@@ -607,7 +524,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -660,9 +577,9 @@
    "hl": "https://media.api-sports.io/football/teams/4209.png",
    "al": "https://media.api-sports.io/football/teams/3695.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "ET",
-   "minute": 105,
+   "minute": 112,
    "time": "2026-11-24T13:15:00+00:00",
    "ev": [
     {
@@ -704,69 +621,248 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Reimov"
+    },
+    {
+     "m": 108,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Abdukholikov"
     }
    ]
   },
   {
-   "id": 1645614,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al Riffa",
-   "away": "Al Zawra'a",
-   "hl": "https://media.api-sports.io/football/teams/5482.png",
-   "al": "https://media.api-sports.io/football/teams/8010.png",
-   "gh": 2,
-   "ga": 0,
+   "id": 1509229,
+   "league": "Georgia - Erovnuli Liga",
+   "home": "Gagra",
+   "away": "Dinamo Tbilisi",
+   "hl": "https://media.api-sports.io/football/teams/3505.png",
+   "al": "https://media.api-sports.io/football/teams/2262.png",
+   "gh": 0,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-24T14:30:00+00:00",
+   "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
-     "m": 22,
+     "m": 32,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Meziani"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wellington"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Pedro Borges"
     },
     {
      "m": 37,
      "x": null,
-     "s": "h",
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Algassime Bah"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Algassime Bah"
+    }
+   ]
+  },
+  {
+   "id": 1598746,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Felgueiras U23",
+   "away": "Academico Viseu U23",
+   "hl": "https://media.api-sports.io/football/teams/28013.png",
+   "al": "https://media.api-sports.io/football/teams/21718.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     },
     {
      "m": 43,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
-    },
+    }
+   ]
+  },
+  {
+   "id": 1598748,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Portimonense U23",
+   "away": "Estrela U23",
+   "hl": "https://media.api-sports.io/football/teams/15467.png",
+   "al": "https://media.api-sports.io/football/teams/19824.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
     {
-     "m": 44,
+     "m": 39,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Missed Penalty",
+     "d": "Normal Goal",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1637382,
+   "league": "World - UEFA Youth League",
+   "home": "Feyenoord U19",
+   "away": "Porto U19",
+   "hl": "https://media.api-sports.io/football/teams/7981.png",
+   "al": "https://media.api-sports.io/football/teams/7922.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Cunha"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "K. Neijenhuis"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Lima"
+    }
+   ]
+  },
+  {
+   "id": 1637385,
+   "league": "World - UEFA Youth League",
+   "home": "RB Leipzig U19",
+   "away": "Lens U19",
+   "hl": "https://media.api-sports.io/football/teams/7924.png",
+   "al": "https://media.api-sports.io/football/teams/22372.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Langsteiner"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Robbe"
+    }
+   ]
+  },
+  {
+   "id": 1637386,
+   "league": "World - UEFA Youth League",
+   "home": "Real Madrid U19",
+   "away": "PSV U19",
+   "hl": "https://media.api-sports.io/football/teams/7926.png",
+   "al": "https://media.api-sports.io/football/teams/7965.png",
+   "gh": 2,
+   "ga": 3,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Bro Hansen"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Ciria"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Yanez"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Martinez"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Bro Hansen"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Bro Hansen"
     }
    ]
   }
