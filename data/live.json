@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T13:30:23+03:00",
- "ts": 1795516223,
+ "updated": "2026-11-24T13:40:19+03:00",
+ "ts": 1795516819,
  "matches": [
   {
    "id": 1629982,
@@ -9,10 +9,10 @@
    "away": "Beijing Guoan",
    "hl": "https://media.api-sports.io/football/teams/2750.png",
    "al": "https://media.api-sports.io/football/teams/830.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Um Won-Sang"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "João Victor"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Béni Nkololo"
     }
    ]
   },
@@ -35,7 +51,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": []
   },
@@ -49,7 +65,7 @@
    "gh": 1,
    "ga": 3,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -87,16 +103,30 @@
    ]
   },
   {
+   "id": 1646634,
+   "league": "India - I-League",
+   "home": "Samaleswari SC",
+   "away": "Bengaluru United",
+   "hl": "https://media.api-sports.io/football/teams/28560.png",
+   "al": "https://media.api-sports.io/football/teams/15748.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T10:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1581945,
    "league": "Ukraine - Persha Liga",
    "home": "Ahrobiznes Volochysk",
    "away": "Chernihiv",
    "hl": "https://media.api-sports.io/football/teams/3620.png",
    "al": "https://media.api-sports.io/football/teams/14433.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 80,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -122,6 +152,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Artur Bybik"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Andriy Riznyk"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Andriy Riznyk"
     }
    ]
   },
@@ -135,7 +181,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -182,7 +228,7 @@
    "gh": 4,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -253,7 +299,7 @@
    "gh": 6,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -319,6 +365,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Syayid"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
