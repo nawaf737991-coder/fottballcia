@@ -1,7 +1,72 @@
 {
- "updated": "2026-11-24T20:40:27+03:00",
- "ts": 1795542027,
+ "updated": "2026-11-24T20:50:11+03:00",
+ "ts": 1795542611,
  "matches": [
+  {
+   "id": 1600377,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Durban City",
+   "away": "Polokwane City",
+   "hl": "https://media.api-sports.io/football/teams/24757.png",
+   "al": "https://media.api-sports.io/football/teams/2693.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edwin Ramaja"
+    }
+   ]
+  },
+  {
+   "id": 1600381,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Orlando Pirates",
+   "away": "Golden Arrows",
+   "hl": "https://media.api-sports.io/football/teams/2700.png",
+   "al": "https://media.api-sports.io/football/teams/2690.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635641,
+   "league": "World - UEFA Champions League",
+   "home": "Bodo/Glimt",
+   "away": "Lask Linz",
+   "hl": "https://media.api-sports.io/football/teams/327.png",
+   "al": "https://media.api-sports.io/football/teams/1026.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635667,
+   "league": "World - UEFA Champions League",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "hl": "https://media.api-sports.io/football/teams/645.png",
+   "al": "https://media.api-sports.io/football/teams/66.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": []
+  },
   {
    "id": 1563682,
    "league": "Russia - Cup",
@@ -11,8 +76,8 @@
    "al": "https://media.api-sports.io/football/teams/1079.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 45,
+   "status": "2H",
+   "minute": 56,
    "time": "2026-11-24T16:30:00+00:00",
    "ev": [
     {
@@ -30,140 +95,11 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Nikita Chernov"
-    }
-   ]
-  },
-  {
-   "id": 1598752,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Torreense U23",
-   "away": "Vizela U23",
-   "hl": "https://media.api-sports.io/football/teams/21720.png",
-   "al": "https://media.api-sports.io/football/teams/17475.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 6,
+     "m": 53,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1600377,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Durban City",
-   "away": "Polokwane City",
-   "hl": "https://media.api-sports.io/football/teams/24757.png",
-   "al": "https://media.api-sports.io/football/teams/2693.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1600381,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Orlando Pirates",
-   "away": "Golden Arrows",
-   "hl": "https://media.api-sports.io/football/teams/2700.png",
-   "al": "https://media.api-sports.io/football/teams/2690.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1645616,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al-Duhail SC",
-   "away": "NEOM",
-   "hl": "https://media.api-sports.io/football/teams/2904.png",
-   "al": "https://media.api-sports.io/football/teams/10513.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Yansane"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Al Abdulla"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. O. Madibo"
-    }
-   ]
-  },
-  {
-   "id": 1571631,
-   "league": "Bulgaria - Second League",
-   "home": "Fratria",
-   "away": "Yantra 2019",
-   "hl": "https://media.api-sports.io/football/teams/21836.png",
-   "al": "https://media.api-sports.io/football/teams/8528.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
@@ -178,9 +114,9 @@
    "hl": "https://media.api-sports.io/football/teams/2870.png",
    "al": "https://media.api-sports.io/football/teams/2933.png",
    "gh": 1,
-   "ga": 4,
+   "ga": 5,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -246,6 +182,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tijjani Reijnders"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abdullah Al-Salem"
     }
    ]
   },
@@ -256,10 +200,10 @@
    "away": "Al Shorta",
    "hl": "https://media.api-sports.io/football/teams/7504.png",
    "al": "https://media.api-sports.io/football/teams/28571.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -309,6 +253,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Al Busaidi"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Busaidi"
     }
    ]
   },
@@ -322,7 +274,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-24T16:30:00+00:00",
    "ev": [
     {
@@ -336,18 +288,74 @@
    ]
   },
   {
-   "id": 1647176,
-   "league": "Slovakia - Cup",
-   "home": "Žilina",
-   "away": "Ružomberok",
-   "hl": "https://media.api-sports.io/football/teams/3554.png",
-   "al": "https://media.api-sports.io/football/teams/3549.png",
-   "gh": 0,
+   "id": 1598752,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Torreense U23",
+   "away": "Vizela U23",
+   "hl": "https://media.api-sports.io/football/teams/21720.png",
+   "al": "https://media.api-sports.io/football/teams/17475.png",
+   "gh": 2,
    "ga": 0,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": []
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1645616,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Al-Duhail SC",
+   "away": "NEOM",
+   "hl": "https://media.api-sports.io/football/teams/2904.png",
+   "al": "https://media.api-sports.io/football/teams/10513.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Yansane"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Al Abdulla"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. O. Madibo"
+    }
+   ]
   }
  ]
 }
