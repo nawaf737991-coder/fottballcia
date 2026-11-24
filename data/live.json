@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T21:20:23+03:00",
- "ts": 1795544423,
+ "updated": "2026-11-24T21:30:25+03:00",
+ "ts": 1795545025,
  "matches": [
   {
    "id": 1601617,
@@ -10,11 +10,28 @@
    "hl": "https://media.api-sports.io/football/teams/863.png",
    "al": "https://media.api-sports.io/football/teams/1687.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Emanuele Pecorino"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thomas Battistella"
+    }
+   ]
   },
   {
    "id": 1612283,
@@ -26,7 +43,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -44,6 +61,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Salah Mohsen"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ibrahim Abass"
     }
    ]
   },
@@ -57,7 +82,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -66,6 +91,14 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "mawuli wayo"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": "mawuli wayo"
     }
    ]
@@ -77,12 +110,29 @@
    "away": "Al Sadd",
    "hl": "https://media.api-sports.io/football/teams/2939.png",
    "al": "https://media.api-sports.io/football/teams/2895.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T18:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Boualem Khoukhi"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Cristiano Ronaldo"
+    }
+   ]
   },
   {
    "id": 1635641,
@@ -94,7 +144,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 45,
    "time": "2026-11-24T17:45:00+00:00",
    "ev": []
   },
@@ -108,54 +158,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-24T17:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1563682,
-   "league": "Russia - Cup",
-   "home": "Zenit",
-   "away": "Krylia Sovetov",
-   "hl": "https://media.api-sports.io/football/teams/596.png",
-   "al": "https://media.api-sports.io/football/teams/1079.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-24T16:30:00+00:00",
    "ev": [
     {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wendel"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nikita Chernov"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Vyacheslav Karavaev"
-    },
-    {
-     "m": 61,
+     "m": 41,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Maksim Vityugov"
+     "p": "N. Jackson"
     }
    ]
   },
@@ -169,7 +181,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -191,45 +203,6 @@
    ]
   },
   {
-   "id": 1632503,
-   "league": "Rwanda - National Soccer League",
-   "home": "Kiyovu Sports",
-   "away": "Al Hilal Omdurman",
-   "hl": "https://media.api-sports.io/football/teams/5317.png",
-   "al": "https://media.api-sports.io/football/teams/5237.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Kagayo"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Cole"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Adetunji"
-    }
-   ]
-  },
-  {
    "id": 1645616,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Al-Duhail SC",
@@ -239,7 +212,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
