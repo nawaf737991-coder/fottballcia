@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T12:30:24+03:00",
- "ts": 1795512624,
+ "updated": "2026-11-24T12:40:29+03:00",
+ "ts": 1795513229,
  "matches": [
   {
    "id": 1581945,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -21,6 +21,14 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "Anatoliy Romanchenko"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": "Anatoliy Romanchenko"
     }
    ]
@@ -32,10 +40,10 @@
    "away": "PSS Sleman",
    "hl": "https://media.api-sports.io/football/teams/26645.png",
    "al": "https://media.api-sports.io/football/teams/3882.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -44,6 +52,22 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "A. Alfareza"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -58,7 +82,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -81,7 +105,7 @@
    "gh": 4,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -122,62 +146,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1629981,
-   "league": "World - AFC Champions League Elite",
-   "home": "Newcastle Jets",
-   "away": "Kashiwa Reysol",
-   "hl": "https://media.api-sports.io/football/teams/946.png",
-   "al": "https://media.api-sports.io/football/teams/281.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-24T07:45:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hinata Yamauchi"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zach Clough"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Max Burgess"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kenshin Yuba"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thomas Aquilina"
+     "p": "R. Eksel"
     }
    ]
   },
@@ -190,8 +159,8 @@
    "al": "https://media.api-sports.io/football/teams/5013.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-24T08:30:00+00:00",
    "ev": []
   }
