@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T04:00:27+03:00",
- "ts": 1795482027,
+ "updated": "2026-11-24T04:10:09+03:00",
+ "ts": 1795482609,
  "matches": [
   {
    "id": 1651241,
@@ -10,96 +10,42 @@
    "hl": "https://media.api-sports.io/football/teams/1460.png",
    "al": "https://media.api-sports.io/football/teams/1461.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T00:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1492463,
-   "league": "Brazil - Serie A",
-   "home": "Botafogo",
-   "away": "Sao Paulo",
-   "hl": "https://media.api-sports.io/football/teams/120.png",
-   "al": "https://media.api-sports.io/football/teams/126.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T23:00:00+00:00",
    "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Newton"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pedro Lima"
-    },
     {
      "m": 31,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luis Osorio Messias De Oliveira"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Lloreda"
     },
     {
      "m": 33,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rafael"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Lima"
-    },
-    {
-     "m": 78,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Nahuel Ferraresi"
+     "p": null
     },
     {
-     "m": 81,
+     "m": 35,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Tiquinho Soares"
+     "p": "J. Lloreda"
     },
     {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Marçal"
-    },
-    {
-     "m": 90,
-     "x": 6,
+     "m": 38,
+     "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Wendell"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -113,7 +59,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -171,8 +117,30 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Fabricio Domínguez"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Cañete"
     }
    ]
+  },
+  {
+   "id": 1650863,
+   "league": "Costa-Rica - Liga de Ascenso",
+   "home": "Pitbulls Santa Barbara FC",
+   "away": "ADR Jicaral",
+   "hl": "https://media.api-sports.io/football/teams/26343.png",
+   "al": "https://media.api-sports.io/football/teams/2043.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-24T00:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1492469,
@@ -212,20 +180,6 @@
      "p": "João Alencar"
     }
    ]
-  },
-  {
-   "id": 1650863,
-   "league": "Costa-Rica - Liga de Ascenso",
-   "home": "Pitbulls Santa Barbara FC",
-   "away": "ADR Jicaral",
-   "hl": "https://media.api-sports.io/football/teams/26343.png",
-   "al": "https://media.api-sports.io/football/teams/2043.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": []
   }
  ]
 }
