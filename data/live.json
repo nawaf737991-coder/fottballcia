@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T02:20:21+03:00",
- "ts": 1795562421,
+ "updated": "2026-11-25T02:30:22+03:00",
+ "ts": 1795563022,
  "matches": [
   {
    "id": 1557234,
@@ -12,8 +12,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-24T23:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650513,
+   "league": "Colombia - Primera A",
+   "home": "Millonarios",
+   "away": "Bucaramanga",
+   "hl": "https://media.api-sports.io/football/teams/1125.png",
+   "al": "https://media.api-sports.io/football/teams/1131.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T23:20:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +40,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-24T22:00:00+00:00",
    "ev": [
     {
@@ -36,6 +50,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Campos"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Arancibia"
     }
    ]
   }
