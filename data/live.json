@@ -1,7 +1,44 @@
 {
- "updated": "2026-11-24T15:00:30+03:00",
- "ts": 1795521630,
+ "updated": "2026-11-24T15:10:10+03:00",
+ "ts": 1795522210,
  "matches": [
+  {
+   "id": 1602746,
+   "league": "Thailand - Thai League 2",
+   "home": "Nakhon Pathom",
+   "away": "Chainat",
+   "hl": "https://media.api-sports.io/football/teams/6578.png",
+   "al": "https://media.api-sports.io/football/teams/2781.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1646782,
+   "league": "Kenya - Super League",
+   "home": "Luanda Villa",
+   "away": "Equity Bank",
+   "hl": "https://media.api-sports.io/football/teams/22230.png",
+   "al": "https://media.api-sports.io/football/teams/21214.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1646786,
    "league": "Kenya - Super League",
@@ -9,10 +46,10 @@
    "away": "Fortune Sacco",
    "hl": "https://media.api-sports.io/football/teams/2468.png",
    "al": "https://media.api-sports.io/football/teams/19480.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 11,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -24,11 +61,110 @@
    "hl": "https://media.api-sports.io/football/teams/25364.png",
    "al": "https://media.api-sports.io/football/teams/2702.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 38,
+   "time": "2026-11-24T11:30:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1648379,
+   "league": "Indonesia - League Cup Indonesia",
+   "home": "Bhayangkara FC",
+   "away": "Semen Padang",
+   "hl": "https://media.api-sports.io/football/teams/2443.png",
+   "al": "https://media.api-sports.io/football/teams/2456.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
-   "time": "2026-11-24T11:30:00+00:00",
+   "minute": 10,
+   "time": "2026-11-24T12:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1648380,
+   "league": "Indonesia - League Cup Indonesia",
+   "home": "Persepam Madura Utd",
+   "away": "Persela Lamongan",
+   "hl": "https://media.api-sports.io/football/teams/2444.png",
+   "al": "https://media.api-sports.io/football/teams/2450.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602745,
+   "league": "Thailand - Thai League 2",
+   "home": "Chanthaburi",
+   "away": "Esan Pattaya",
+   "hl": "https://media.api-sports.io/football/teams/6557.png",
+   "al": "https://media.api-sports.io/football/teams/13309.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-24T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Nemati"
+    }
+   ]
+  },
+  {
+   "id": 1637383,
+   "league": "World - UEFA Youth League",
+   "home": "Galatasaray U19",
+   "away": "Aston Villa U19",
+   "hl": "https://media.api-sports.io/football/teams/7900.png",
+   "al": "https://media.api-sports.io/football/teams/24970.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-24T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Meade"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Yuzgec"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Yuzgec"
+    }
+   ]
   },
   {
    "id": 1646634,
@@ -38,9 +174,9 @@
    "hl": "https://media.api-sports.io/football/teams/28560.png",
    "al": "https://media.api-sports.io/football/teams/15748.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-24T10:30:00+00:00",
    "ev": [
     {
@@ -82,68 +218,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Pereyra"
-    }
-   ]
-  },
-  {
-   "id": 1602745,
-   "league": "Thailand - Thai League 2",
-   "home": "Chanthaburi",
-   "away": "Esan Pattaya",
-   "hl": "https://media.api-sports.io/football/teams/6557.png",
-   "al": "https://media.api-sports.io/football/teams/13309.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Nemati"
-    }
-   ]
-  },
-  {
-   "id": 1637383,
-   "league": "World - UEFA Youth League",
-   "home": "Galatasaray U19",
-   "away": "Aston Villa U19",
-   "hl": "https://media.api-sports.io/football/teams/7900.png",
-   "al": "https://media.api-sports.io/football/teams/24970.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
+     "m": 79,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "M. Meade"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Yuzgec"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Yuzgec"
+     "p": "A. Tyagi"
     }
    ]
   }
