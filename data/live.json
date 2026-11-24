@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T22:20:25+03:00",
- "ts": 1795548025,
+ "updated": "2026-11-24T22:30:27+03:00",
+ "ts": 1795548627,
  "matches": [
   {
    "id": 1588819,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -35,16 +35,16 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
-     "m": 19,
+     "m": 20,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Braiden Graham"
     }
    ]
   },
@@ -58,7 +58,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -81,7 +81,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -104,7 +104,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -114,6 +114,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jacopo Gelli"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergiu Perciun"
     }
    ]
   },
@@ -127,7 +135,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -150,7 +158,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -173,7 +181,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -191,6 +199,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Joel Pohjanpalo"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mattia Pellini"
     }
    ]
   },
@@ -204,7 +220,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -227,7 +243,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": []
   },
@@ -241,7 +257,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": []
   },
@@ -252,10 +268,10 @@
    "away": "Millwall U21",
    "hl": "https://media.api-sports.io/football/teams/20086.png",
    "al": "https://media.api-sports.io/football/teams/20095.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -273,108 +289,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "H. Taylor"
-    }
-   ]
-  },
-  {
-   "id": 1600377,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Durban City",
-   "away": "Polokwane City",
-   "hl": "https://media.api-sports.io/football/teams/24757.png",
-   "al": "https://media.api-sports.io/football/teams/2693.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Edwin Ramaja"
     },
     {
-     "m": 28,
+     "m": 23,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Siphamandla Sakhile Ncanana"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "B. Poggenpoel"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gastón Sirino"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Bokang Mokwena"
-    }
-   ]
-  },
-  {
-   "id": 1600381,
-   "league": "South-Africa - Premier Soccer League",
-   "home": "Orlando Pirates",
-   "away": "Golden Arrows",
-   "hl": "https://media.api-sports.io/football/teams/2700.png",
-   "al": "https://media.api-sports.io/football/teams/2690.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Philani Kumalo"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thalente Mbatha"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Simphiwe Selepe"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Boitumelo Lawrence Radiopane"
+     "p": "T. Howard"
     }
    ]
   },
@@ -388,7 +310,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -425,19 +347,19 @@
     },
     {
      "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marco Bellich"
-    },
-    {
-     "m": 45,
      "x": 5,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Emanuele Pecorino"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marco Bellich"
     },
     {
      "m": 49,
@@ -459,7 +381,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -522,7 +444,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -556,92 +478,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abdel Naser Mohamed"
-    }
-   ]
-  },
-  {
-   "id": 1635641,
-   "league": "World - UEFA Champions League",
-   "home": "Bodo/Glimt",
-   "away": "Lask Linz",
-   "hl": "https://media.api-sports.io/football/teams/327.png",
-   "al": "https://media.api-sports.io/football/teams/1026.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 79,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Danek"
-    }
-   ]
-  },
-  {
-   "id": 1635667,
-   "league": "World - UEFA Champions League",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "hl": "https://media.api-sports.io/football/teams/645.png",
-   "al": "https://media.api-sports.io/football/teams/66.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 79,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Jackson"
     },
     {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. McGinn"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Batrakov"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joao Gomes"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Akgun"
-    },
-    {
-     "m": 78,
+     "m": 57,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "D. Gul"
+     "p": "hassan hussein"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohammed Sandouqa"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "hassan hussein"
     }
    ]
   },
@@ -652,10 +512,10 @@
    "away": "Al Sadd",
    "hl": "https://media.api-sports.io/football/teams/2939.png",
    "al": "https://media.api-sports.io/football/teams/2895.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-24T18:15:00+00:00",
    "ev": [
     {
@@ -700,6 +560,14 @@
     },
     {
      "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Mohamed Waad"
+    },
+    {
+     "m": 45,
      "x": 4,
      "s": "h",
      "t": "Card",
@@ -715,12 +583,106 @@
      "p": "Mohamed Waad"
     },
     {
-     "m": 45,
-     "x": 2,
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joao Felix"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Joao Felix"
+    }
+   ]
+  },
+  {
+   "id": 1635641,
+   "league": "World - UEFA Champions League",
+   "home": "Bodo/Glimt",
+   "away": "Lask Linz",
+   "hl": "https://media.api-sports.io/football/teams/327.png",
+   "al": "https://media.api-sports.io/football/teams/1026.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 89,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 71,
+     "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Mohamed Waad"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Danek"
+    }
+   ]
+  },
+  {
+   "id": 1635667,
+   "league": "World - UEFA Champions League",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "hl": "https://media.api-sports.io/football/teams/645.png",
+   "al": "https://media.api-sports.io/football/teams/66.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 89,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Jackson"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. McGinn"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Batrakov"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Joao Gomes"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Akgun"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Gul"
     }
    ]
   }
