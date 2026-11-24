@@ -1,54 +1,7 @@
 {
- "updated": "2026-11-24T02:50:22+03:00",
- "ts": 1795477822,
+ "updated": "2026-11-24T03:00:24+03:00",
+ "ts": 1795478424,
  "matches": [
-  {
-   "id": 1492463,
-   "league": "Brazil - Serie A",
-   "home": "Botafogo",
-   "away": "Sao Paulo",
-   "hl": "https://media.api-sports.io/football/teams/120.png",
-   "al": "https://media.api-sports.io/football/teams/126.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-23T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Newton"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pedro Lima"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luis Osorio Messias De Oliveira"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rafael"
-    }
-   ]
-  },
   {
    "id": 1632064,
    "league": "Paraguay - Division Profesional - Clausura",
@@ -59,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -98,17 +51,9 @@
    "gh": 1,
    "ga": 3,
    "status": "1H",
-   "minute": 17,
+   "minute": 28,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joao Pedro"
-    },
     {
      "m": 1,
      "x": null,
@@ -116,6 +61,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gustavo Hungaro"
+    },
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joao Pedro"
     },
     {
      "m": 6,
@@ -151,9 +104,9 @@
    "hl": "https://media.api-sports.io/football/teams/119.png",
    "al": "https://media.api-sports.io/football/teams/136.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -211,6 +164,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rafael dos Santos Lacerda"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "José Carlos Ferreira Júnior"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ramon"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jamerson"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Emmanuel Martínez"
     }
    ]
   },
@@ -224,7 +209,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -241,7 +226,70 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Federico Puente"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Millán"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Enzo Cabrera"
+    }
+   ]
+  },
+  {
+   "id": 1492463,
+   "league": "Brazil - Serie A",
+   "home": "Botafogo",
+   "away": "Sao Paulo",
+   "hl": "https://media.api-sports.io/football/teams/120.png",
+   "al": "https://media.api-sports.io/football/teams/126.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-23T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Newton"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Pedro Lima"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luis Osorio Messias De Oliveira"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rafael"
     }
    ]
   }

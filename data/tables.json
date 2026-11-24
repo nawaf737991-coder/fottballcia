@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:00:19+03:00",
+ "updated": "2026-11-24T03:00:29+03:00",
  "leagues": [
   {
    "id": 39,
@@ -68,6 +68,18 @@
     },
     {
      "r": 6,
+     "t": "Brentford",
+     "l": "https://media.api-sports.io/football/teams/55.png",
+     "p": 11,
+     "w": 4,
+     "d": 5,
+     "ls": 2,
+     "gd": 9,
+     "pts": 17,
+     "f": "WLWDL"
+    },
+    {
+     "r": 7,
      "t": "Leeds",
      "l": "https://media.api-sports.io/football/teams/63.png",
      "p": 11,
@@ -77,18 +89,6 @@
      "gd": 5,
      "pts": 17,
      "f": "WWLDD"
-    },
-    {
-     "r": 7,
-     "t": "Everton",
-     "l": "https://media.api-sports.io/football/teams/45.png",
-     "p": 10,
-     "w": 4,
-     "d": 4,
-     "ls": 2,
-     "gd": 2,
-     "pts": 16,
-     "f": "WWLLD"
     },
     {
      "r": 8,
@@ -104,6 +104,18 @@
     },
     {
      "r": 9,
+     "t": "Everton",
+     "l": "https://media.api-sports.io/football/teams/45.png",
+     "p": 11,
+     "w": 4,
+     "d": 4,
+     "ls": 3,
+     "gd": -2,
+     "pts": 16,
+     "f": "LWWLL"
+    },
+    {
+     "r": 10,
      "t": "Tottenham",
      "l": "https://media.api-sports.io/football/teams/47.png",
      "p": 11,
@@ -113,18 +125,6 @@
      "gd": 1,
      "pts": 15,
      "f": "WLWWW"
-    },
-    {
-     "r": 10,
-     "t": "Brentford",
-     "l": "https://media.api-sports.io/football/teams/55.png",
-     "p": 10,
-     "w": 3,
-     "d": 5,
-     "ls": 2,
-     "gd": 5,
-     "pts": 14,
-     "f": "LWDLD"
     },
     {
      "r": 11,
@@ -515,6 +515,18 @@
     },
     {
      "r": 15,
+     "t": "Levante",
+     "l": "https://media.api-sports.io/football/teams/539.png",
+     "p": 13,
+     "w": 2,
+     "d": 6,
+     "ls": 5,
+     "gd": -5,
+     "pts": 12,
+     "f": "DDLLW"
+    },
+    {
+     "r": 16,
      "t": "Rayo Vallecano",
      "l": "https://media.api-sports.io/football/teams/728.png",
      "p": 12,
@@ -526,7 +538,7 @@
      "f": "LLWLD"
     },
     {
-     "r": 16,
+     "r": 17,
      "t": "Valencia",
      "l": "https://media.api-sports.io/football/teams/532.png",
      "p": 13,
@@ -538,7 +550,7 @@
      "f": "WLWLD"
     },
     {
-     "r": 17,
+     "r": 18,
      "t": "Getafe",
      "l": "https://media.api-sports.io/football/teams/546.png",
      "p": 13,
@@ -550,28 +562,16 @@
      "f": "LLWLD"
     },
     {
-     "r": 18,
-     "t": "Levante",
-     "l": "https://media.api-sports.io/football/teams/539.png",
-     "p": 12,
-     "w": 2,
-     "d": 5,
-     "ls": 5,
-     "gd": -5,
-     "pts": 11,
-     "f": "DLLWD"
-    },
-    {
      "r": 19,
      "t": "Elche",
      "l": "https://media.api-sports.io/football/teams/797.png",
-     "p": 12,
+     "p": 13,
      "w": 2,
-     "d": 4,
+     "d": 5,
      "ls": 6,
      "gd": -6,
-     "pts": 10,
-     "f": "LLWDD"
+     "pts": 11,
+     "f": "DLLWD"
     },
     {
      "r": 20,
@@ -1157,6 +1157,18 @@
     },
     {
      "r": 14,
+     "t": "Monza",
+     "l": "https://media.api-sports.io/football/teams/1579.png",
+     "p": 12,
+     "w": 3,
+     "d": 1,
+     "ls": 8,
+     "gd": -5,
+     "pts": 10,
+     "f": "WLLLL"
+    },
+    {
+     "r": 15,
      "t": "Lecce",
      "l": "https://media.api-sports.io/football/teams/867.png",
      "p": 12,
@@ -1168,19 +1180,19 @@
      "f": "LDLLL"
     },
     {
-     "r": 15,
+     "r": 16,
      "t": "Fiorentina",
      "l": "https://media.api-sports.io/football/teams/502.png",
-     "p": 11,
+     "p": 12,
      "w": 2,
      "d": 3,
-     "ls": 6,
-     "gd": -8,
+     "ls": 7,
+     "gd": -11,
      "pts": 9,
-     "f": "DWDLL"
+     "f": "LDWDL"
     },
     {
-     "r": 16,
+     "r": 17,
      "t": "Parma",
      "l": "https://media.api-sports.io/football/teams/523.png",
      "p": 12,
@@ -1192,7 +1204,7 @@
      "f": "LLWDL"
     },
     {
-     "r": 17,
+     "r": 18,
      "t": "Sassuolo",
      "l": "https://media.api-sports.io/football/teams/488.png",
      "p": 12,
@@ -1202,18 +1214,6 @@
      "gd": -15,
      "pts": 8,
      "f": "LLLLL"
-    },
-    {
-     "r": 18,
-     "t": "Monza",
-     "l": "https://media.api-sports.io/football/teams/1579.png",
-     "p": 11,
-     "w": 2,
-     "d": 1,
-     "ls": 8,
-     "gd": -8,
-     "pts": 7,
-     "f": "LLLLW"
     },
     {
      "r": 19,
