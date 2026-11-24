@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T03:20:14+03:00",
- "ts": 1795479614,
+ "updated": "2026-11-24T03:30:16+03:00",
+ "ts": 1795480216,
  "matches": [
   {
    "id": 1492469,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Francis Amuzu"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Erick Noriega"
     }
    ]
   },
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": []
   },
@@ -49,7 +57,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -83,6 +91,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rafael"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pedro Lima"
     }
    ]
   },
@@ -94,9 +110,9 @@
    "hl": "https://media.api-sports.io/football/teams/119.png",
    "al": "https://media.api-sports.io/football/teams/136.png",
    "gh": 2,
-   "ga": 3,
+   "ga": 5,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-23T22:30:00+00:00",
    "ev": [
     {
@@ -210,6 +226,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Zé Vitor"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Baralhas"
+    },
+    {
+     "m": 90,
+     "x": 5,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Renato Kayzer"
+    },
+    {
+     "m": 90,
+     "x": 4,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Renato Kayzer"
     }
    ]
   },
@@ -223,7 +263,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -249,101 +289,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Hugo Valdez"
-    }
-   ]
-  },
-  {
-   "id": 1650507,
-   "league": "Uruguay - Primera División",
-   "home": "Albion FC",
-   "away": "Danubio",
-   "hl": "https://media.api-sports.io/football/teams/2378.png",
-   "al": "https://media.api-sports.io/football/teams/2352.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T22:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 16,
+     "m": 54,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Iker Zufiaurre"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Puente"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joaquin Gabriel Trasante Hernandez"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Millán"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bautista Euclides Tomatis"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Alvaro Lopez"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sebastián Fernández"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leandro Sosa"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mateo peralta"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Moschión"
+     "p": "Carlos Espinola"
     }
    ]
   },
@@ -354,10 +307,10 @@
    "away": "Dendele",
    "hl": "https://media.api-sports.io/football/teams/26899.png",
    "al": "https://media.api-sports.io/football/teams/26897.png",
-   "gh": 3,
-   "ga": 7,
+   "gh": 4,
+   "ga": 8,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -447,6 +400,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "LuquEt4"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cerol"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
