@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T16:50:31+03:00",
- "ts": 1795528231,
+ "updated": "2026-11-24T17:00:11+03:00",
+ "ts": 1795528811,
  "matches": [
   {
    "id": 1546173,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T13:30:00+00:00",
    "ev": []
   },
@@ -26,56 +26,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T13:45:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1637379,
-   "league": "World - UEFA Youth League",
-   "home": "Arsenal U19",
-   "away": "Borussia Dortmund U19",
-   "hl": "https://media.api-sports.io/football/teams/22371.png",
-   "al": "https://media.api-sports.io/football/teams/7890.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "A. Held"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Hoy"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Degener"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1647106,
@@ -87,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 32,
+   "minute": 41,
    "time": "2026-11-24T13:15:00+00:00",
    "ev": []
   },
@@ -101,7 +54,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-24T13:15:00+00:00",
    "ev": [
     {
@@ -119,6 +72,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Kojo"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -132,7 +101,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 30,
    "time": "2026-11-24T13:30:00+00:00",
    "ev": [
     {
@@ -162,75 +131,6 @@
    ]
   },
   {
-   "id": 1649983,
-   "league": "Tunisia - Ligue 2",
-   "home": "Kalaâ Sport",
-   "away": "Korba",
-   "hl": "https://media.api-sports.io/football/teams/10614.png",
-   "al": "https://media.api-sports.io/football/teams/10617.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Zahraoui"
-    }
-   ]
-  },
-  {
-   "id": 1649985,
-   "league": "Tunisia - Ligue 2",
-   "home": "Redeyef",
-   "away": "EGS Gafsa",
-   "hl": "https://media.api-sports.io/football/teams/10665.png",
-   "al": "https://media.api-sports.io/football/teams/10604.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Yasser"
-    }
-   ]
-  },
-  {
-   "id": 1649986,
-   "league": "Tunisia - Ligue 2",
-   "home": "Stade Gabesien",
-   "away": "AS Kasserine",
-   "hl": "https://media.api-sports.io/football/teams/985.png",
-   "al": "https://media.api-sports.io/football/teams/10615.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1546165,
    "league": "World - World Cup - U17",
    "home": "Costa Rica U17",
@@ -238,9 +138,9 @@
    "hl": "https://media.api-sports.io/football/teams/20990.png",
    "al": "https://media.api-sports.io/football/teams/17972.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 64,
+   "minute": 73,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -266,6 +166,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Afonin"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Murphy"
     }
    ]
   },
@@ -276,10 +184,10 @@
    "away": "Romania U17",
    "hl": "https://media.api-sports.io/football/teams/21213.png",
    "al": "https://media.api-sports.io/football/teams/17973.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -297,29 +205,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Paul"
-    }
-   ]
-  },
-  {
-   "id": 1602746,
-   "league": "Thailand - Thai League 2",
-   "home": "Nakhon Pathom",
-   "away": "Chainat",
-   "hl": "https://media.api-sports.io/football/teams/6578.png",
-   "al": "https://media.api-sports.io/football/teams/2781.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 76,
+     "m": 64,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "M. M. Ahmed"
+     "p": "R. Lozada"
     }
    ]
   },
@@ -333,7 +226,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 84,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -385,10 +278,10 @@
    "away": "Al Zulfi",
    "hl": "https://media.api-sports.io/football/teams/2958.png",
    "al": "https://media.api-sports.io/football/teams/10524.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": [
     {
@@ -406,6 +299,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. A. Al Nakhli"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Khalifah"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Enio"
     }
    ]
   },
@@ -419,7 +328,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": [
     {
@@ -447,14 +356,14 @@
    "away": "Mathare United",
    "hl": "https://media.api-sports.io/football/teams/2460.png",
    "al": "https://media.api-sports.io/football/teams/2463.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 69,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
-     "m": 32,
+     "m": 68,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -473,7 +382,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -552,7 +461,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -586,6 +495,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Scott Allardice"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kevin Medina"
     }
    ]
   },
@@ -599,7 +516,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -665,176 +582,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Yang Xi Alex"
-    }
-   ]
-  },
-  {
-   "id": 1646782,
-   "league": "Kenya - Super League",
-   "home": "Luanda Villa",
-   "away": "Equity Bank",
-   "hl": "https://media.api-sports.io/football/teams/22230.png",
-   "al": "https://media.api-sports.io/football/teams/21214.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646786,
-   "league": "Kenya - Super League",
-   "home": "Kariobangi Sharks",
-   "away": "Fortune Sacco",
-   "hl": "https://media.api-sports.io/football/teams/2468.png",
-   "al": "https://media.api-sports.io/football/teams/19480.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648379,
-   "league": "Indonesia - League Cup Indonesia",
-   "home": "Bhayangkara FC",
-   "away": "Semen Padang",
-   "hl": "https://media.api-sports.io/football/teams/2443.png",
-   "al": "https://media.api-sports.io/football/teams/2456.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Rizki"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Maulana"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Andika"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Setiawan"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Kurnia"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Rizki"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "S. Rizki"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Savio Roberto"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1648380,
-   "league": "Indonesia - League Cup Indonesia",
-   "home": "Persepam Madura Utd",
-   "away": "Persela Lamongan",
-   "hl": "https://media.api-sports.io/football/teams/2444.png",
-   "al": "https://media.api-sports.io/football/teams/2450.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mendonca"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Rianto"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mendonca"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Santacruz"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Juninho"
     }
    ]
   },
@@ -1014,6 +761,53 @@
    "minute": 45,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1637379,
+   "league": "World - UEFA Youth League",
+   "home": "Arsenal U19",
+   "away": "Borussia Dortmund U19",
+   "hl": "https://media.api-sports.io/football/teams/22371.png",
+   "al": "https://media.api-sports.io/football/teams/7890.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "A. Held"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Hoy"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Degener"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1637381,
@@ -1208,6 +1002,75 @@
      "m": 36,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649983,
+   "league": "Tunisia - Ligue 2",
+   "home": "Kalaâ Sport",
+   "away": "Korba",
+   "hl": "https://media.api-sports.io/football/teams/10614.png",
+   "al": "https://media.api-sports.io/football/teams/10617.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Zahraoui"
+    }
+   ]
+  },
+  {
+   "id": 1649985,
+   "league": "Tunisia - Ligue 2",
+   "home": "Redeyef",
+   "away": "EGS Gafsa",
+   "hl": "https://media.api-sports.io/football/teams/10665.png",
+   "al": "https://media.api-sports.io/football/teams/10604.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Yasser"
+    }
+   ]
+  },
+  {
+   "id": 1649986,
+   "league": "Tunisia - Ligue 2",
+   "home": "Stade Gabesien",
+   "away": "AS Kasserine",
+   "hl": "https://media.api-sports.io/football/teams/985.png",
+   "al": "https://media.api-sports.io/football/teams/10615.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
