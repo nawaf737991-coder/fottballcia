@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T21:40:10+03:00",
- "ts": 1795545610,
+ "updated": "2026-11-24T21:50:17+03:00",
+ "ts": 1795546217,
  "matches": [
   {
    "id": 1601617,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -38,53 +38,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Matias Antonini Lui"
-    }
-   ]
-  },
-  {
-   "id": 1612283,
-   "league": "Egypt - Premier League",
-   "home": "AL Masry",
-   "away": "Asyut Petrol",
-   "hl": "https://media.api-sports.io/football/teams/1031.png",
-   "al": "https://media.api-sports.io/football/teams/18021.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Shokry"
     },
     {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Salah Mohsen"
-    },
-    {
-     "m": 21,
+     "m": 41,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Ibrahim Abass"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmed Magdy"
+     "p": "Ruggero Frosinini"
     }
    ]
   },
@@ -98,7 +59,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 42,
+   "minute": 45,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -137,7 +98,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-24T18:15:00+00:00",
    "ev": [
     {
@@ -174,9 +135,9 @@
    "hl": "https://media.api-sports.io/football/teams/21720.png",
    "al": "https://media.api-sports.io/football/teams/17475.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -194,6 +155,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -207,7 +176,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -246,7 +215,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -268,6 +237,43 @@
    ]
   },
   {
+   "id": 1635641,
+   "league": "World - UEFA Champions League",
+   "home": "Bodo/Glimt",
+   "away": "Lask Linz",
+   "hl": "https://media.api-sports.io/football/teams/327.png",
+   "al": "https://media.api-sports.io/football/teams/1026.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635667,
+   "league": "World - UEFA Champions League",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "hl": "https://media.api-sports.io/football/teams/645.png",
+   "al": "https://media.api-sports.io/football/teams/66.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Jackson"
+    }
+   ]
+  },
+  {
    "id": 1645616,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Al-Duhail SC",
@@ -277,7 +283,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -355,39 +361,57 @@
    ]
   },
   {
-   "id": 1635641,
-   "league": "World - UEFA Champions League",
-   "home": "Bodo/Glimt",
-   "away": "Lask Linz",
-   "hl": "https://media.api-sports.io/football/teams/327.png",
-   "al": "https://media.api-sports.io/football/teams/1026.png",
-   "gh": 0,
+   "id": 1612283,
+   "league": "Egypt - Premier League",
+   "home": "AL Masry",
+   "away": "Asyut Petrol",
+   "hl": "https://media.api-sports.io/football/teams/1031.png",
+   "al": "https://media.api-sports.io/football/teams/18021.png",
+   "gh": 1,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635667,
-   "league": "World - UEFA Champions League",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "hl": "https://media.api-sports.io/football/teams/645.png",
-   "al": "https://media.api-sports.io/football/teams/66.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T17:45:00+00:00",
+   "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
-     "m": 41,
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Shokry"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Salah Mohsen"
+    },
+    {
+     "m": 21,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "N. Jackson"
+     "p": "Ibrahim Abass"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Magdy"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hassan Ali"
     }
    ]
   }
