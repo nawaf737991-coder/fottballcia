@@ -1,38 +1,7 @@
 {
- "updated": "2026-11-24T16:10:13+03:00",
- "ts": 1795525813,
+ "updated": "2026-11-24T16:20:17+03:00",
+ "ts": 1795526417,
  "matches": [
-  {
-   "id": 1546165,
-   "league": "World - World Cup - U17",
-   "home": "Costa Rica U17",
-   "away": "Republic of Ireland U17",
-   "hl": "https://media.api-sports.io/football/teams/20990.png",
-   "al": "https://media.api-sports.io/football/teams/17972.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Goad"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Alfaro"
-    }
-   ]
-  },
   {
    "id": 1546171,
    "league": "World - World Cup - U17",
@@ -41,32 +10,18 @@
    "hl": "https://media.api-sports.io/football/teams/12511.png",
    "al": "https://media.api-sports.io/football/teams/17977.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1546183,
-   "league": "World - World Cup - U17",
-   "home": "Venezuela U17",
-   "away": "Romania U17",
-   "hl": "https://media.api-sports.io/football/teams/21213.png",
-   "al": "https://media.api-sports.io/football/teams/17973.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 11,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Corlat"
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "D. Anokic"
     }
    ]
   },
@@ -78,40 +33,26 @@
    "hl": "https://media.api-sports.io/football/teams/3742.png",
    "al": "https://media.api-sports.io/football/teams/3745.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1604066,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al Jabalain",
-   "away": "Al Zulfi",
-   "hl": "https://media.api-sports.io/football/teams/2958.png",
-   "al": "https://media.api-sports.io/football/teams/10524.png",
-   "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T12:20:00+00:00",
+   "minute": 20,
+   "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
-     "m": 18,
+     "m": 12,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "F. Gouveia"
+     "p": null
     },
     {
-     "m": 45,
-     "x": 1,
+     "m": 18,
+     "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. A. Al Nakhli"
+     "p": null
     }
    ]
   },
@@ -122,28 +63,14 @@
    "away": "Coventry City U21",
    "hl": "https://media.api-sports.io/football/teams/20082.png",
    "al": "https://media.api-sports.io/football/teams/20092.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1629134,
-   "league": "Kenya - FKF Premier League",
-   "home": "Bandari",
-   "away": "Mathare United",
-   "hl": "https://media.api-sports.io/football/teams/2460.png",
-   "al": "https://media.api-sports.io/football/teams/2463.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 37,
-   "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
-     "m": 32,
+     "m": 16,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -162,7 +89,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -176,16 +103,16 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 2,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Noll Ogwal"
     }
    ]
   },
@@ -199,7 +126,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -213,7 +140,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -227,7 +154,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -239,11 +166,28 @@
    "hl": "https://media.api-sports.io/football/teams/7934.png",
    "al": "https://media.api-sports.io/football/teams/25195.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. De Sa"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Treplan"
+    }
+   ]
   },
   {
    "id": 1646635,
@@ -255,8 +199,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647106,
+   "league": "Uzbekistan - Cup",
+   "home": "Andijan",
+   "away": "Lokomotiv",
+   "hl": "https://media.api-sports.io/football/teams/4209.png",
+   "al": "https://media.api-sports.io/football/teams/3695.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-24T13:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647107,
+   "league": "Uzbekistan - Cup",
+   "home": "Olmaliq",
+   "away": "Navbahor",
+   "hl": "https://media.api-sports.io/football/teams/4219.png",
+   "al": "https://media.api-sports.io/football/teams/4216.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-24T13:15:00+00:00",
    "ev": []
   },
   {
@@ -269,7 +241,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -280,12 +252,21 @@
    "away": "Jezero",
    "hl": "https://media.api-sports.io/football/teams/3740.png",
    "al": "https://media.api-sports.io/football/teams/3748.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1649981,
@@ -297,7 +278,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -311,7 +292,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -325,7 +306,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -339,7 +320,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -353,7 +334,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -367,7 +348,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -381,6 +362,84 @@
    ]
   },
   {
+   "id": 1629985,
+   "league": "World - AFC Champions League Elite",
+   "home": "Ratchaburi",
+   "away": "Johor Darul Takzim FC",
+   "hl": "https://media.api-sports.io/football/teams/2776.png",
+   "al": "https://media.api-sports.io/football/teams/2523.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Carlos Akapo"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marcos Guilherme"
+    }
+   ]
+  },
+  {
+   "id": 1629986,
+   "league": "World - AFC Champions League Elite",
+   "home": "SHANGHAI SIPG",
+   "away": "Buriram United",
+   "hl": "https://media.api-sports.io/football/teams/836.png",
+   "al": "https://media.api-sports.io/football/teams/2780.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Miguel Campos"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kenneth Dougall"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Liu Zhurun"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lucas Ahijado"
+    }
+   ]
+  },
+  {
    "id": 1646782,
    "league": "Kenya - Super League",
    "home": "Luanda Villa",
@@ -390,7 +449,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -404,7 +463,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -416,9 +475,9 @@
    "hl": "https://media.api-sports.io/football/teams/25364.png",
    "al": "https://media.api-sports.io/football/teams/2702.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-24T11:30:00+00:00",
    "ev": [
     {
@@ -442,8 +501,16 @@
      "x": null,
      "s": "h",
      "t": "Goal",
+     "d": "Penalty",
+     "p": "E. Gholaminejad"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Y. Delfi"
     }
    ]
   },
@@ -454,10 +521,10 @@
    "away": "Semen Padang",
    "hl": "https://media.api-sports.io/football/teams/2443.png",
    "al": "https://media.api-sports.io/football/teams/2456.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -485,12 +552,20 @@
      "p": "F. Andika"
     },
     {
-     "m": 54,
+     "m": 52,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "N. Setiawan"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Kurnia"
     }
    ]
   },
@@ -504,7 +579,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -534,6 +609,60 @@
    ]
   },
   {
+   "id": 1546165,
+   "league": "World - World Cup - U17",
+   "home": "Costa Rica U17",
+   "away": "Republic of Ireland U17",
+   "hl": "https://media.api-sports.io/football/teams/20990.png",
+   "al": "https://media.api-sports.io/football/teams/17972.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:30:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Goad"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Alfaro"
+    }
+   ]
+  },
+  {
+   "id": 1546183,
+   "league": "World - World Cup - U17",
+   "home": "Venezuela U17",
+   "away": "Romania U17",
+   "hl": "https://media.api-sports.io/football/teams/21213.png",
+   "al": "https://media.api-sports.io/football/teams/17973.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:30:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Corlat"
+    }
+   ]
+  },
+  {
    "id": 1604063,
    "league": "Saudi-Arabia - Division 1",
    "home": "Al-Raed",
@@ -557,6 +686,37 @@
    ]
   },
   {
+   "id": 1604066,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Jabalain",
+   "away": "Al Zulfi",
+   "hl": "https://media.api-sports.io/football/teams/2958.png",
+   "al": "https://media.api-sports.io/football/teams/10524.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:20:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Gouveia"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. A. Al Nakhli"
+    }
+   ]
+  },
+  {
    "id": 1604067,
    "league": "Saudi-Arabia - Division 1",
    "home": "Al Orubah",
@@ -569,6 +729,29 @@
    "minute": 45,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1629134,
+   "league": "Kenya - FKF Premier League",
+   "home": "Bandari",
+   "away": "Mathare United",
+   "hl": "https://media.api-sports.io/football/teams/2460.png",
+   "al": "https://media.api-sports.io/football/teams/2463.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1629984,
@@ -614,84 +797,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Stefan Mauk"
-    }
-   ]
-  },
-  {
-   "id": 1629985,
-   "league": "World - AFC Champions League Elite",
-   "home": "Ratchaburi",
-   "away": "Johor Darul Takzim FC",
-   "hl": "https://media.api-sports.io/football/teams/2776.png",
-   "al": "https://media.api-sports.io/football/teams/2523.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carlos Akapo"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Marcos Guilherme"
-    }
-   ]
-  },
-  {
-   "id": 1629986,
-   "league": "World - AFC Champions League Elite",
-   "home": "SHANGHAI SIPG",
-   "away": "Buriram United",
-   "hl": "https://media.api-sports.io/football/teams/836.png",
-   "al": "https://media.api-sports.io/football/teams/2780.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Miguel Campos"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kenneth Dougall"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Liu Zhurun"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lucas Ahijado"
     }
    ]
   }
