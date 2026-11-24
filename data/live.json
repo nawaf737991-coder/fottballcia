@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-25T01:40:26+03:00",
- "ts": 1795560026,
+ "updated": "2026-11-25T01:50:10+03:00",
+ "ts": 1795560610,
  "matches": [
-  {
-   "id": 1645381,
-   "league": "Chile - Copa Chile",
-   "home": "Coquimbo Unido",
-   "away": "Union La Calera",
-   "hl": "https://media.api-sports.io/football/teams/2330.png",
-   "al": "https://media.api-sports.io/football/teams/2326.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-24T22:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1492472,
    "league": "Brazil - Serie A",
@@ -26,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T21:00:00+00:00",
    "ev": [
     {
@@ -68,6 +54,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Miguel Cinoncelli Bilong"
+    }
+   ]
+  },
+  {
+   "id": 1645381,
+   "league": "Chile - Copa Chile",
+   "home": "Coquimbo Unido",
+   "away": "Union La Calera",
+   "hl": "https://media.api-sports.io/football/teams/2330.png",
+   "al": "https://media.api-sports.io/football/teams/2326.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Campos"
     }
    ]
   }
