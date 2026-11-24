@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-24T17:10:17+03:00",
- "ts": 1795529417,
+ "updated": "2026-11-24T17:20:19+03:00",
+ "ts": 1795530019,
  "matches": [
-  {
-   "id": 1546173,
-   "league": "World - World Cup - U17",
-   "home": "Mexico U17",
-   "away": "Cameroon U17",
-   "hl": "https://media.api-sports.io/football/teams/25551.png",
-   "al": "https://media.api-sports.io/football/teams/12503.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T13:30:00+00:00",
-   "ev": []
-  },
   {
    "id": 1563676,
    "league": "Russia - Cup",
@@ -26,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 18,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": []
   },
@@ -40,9 +26,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-24T13:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pedro Henrique"
+    }
+   ]
   },
   {
    "id": 1642200,
@@ -54,7 +49,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -63,7 +58,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "M. Aimen"
     }
    ]
   },
@@ -77,7 +72,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": []
   },
@@ -89,9 +84,9 @@
    "hl": "https://media.api-sports.io/football/teams/4242.png",
    "al": "https://media.api-sports.io/football/teams/17902.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 3,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-24T13:30:00+00:00",
    "ev": [
     {
@@ -117,6 +112,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Safri"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Kambuaya"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Febriansyah"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -130,7 +149,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -177,7 +196,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -216,7 +235,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -261,9 +280,9 @@
    "hl": "https://media.api-sports.io/football/teams/3742.png",
    "al": "https://media.api-sports.io/football/teams/3745.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -289,61 +308,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Pavlicevic"
-    }
-   ]
-  },
-  {
-   "id": 1604063,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al-Raed",
-   "away": "Al Okhdood",
-   "hl": "https://media.api-sports.io/football/teams/2935.png",
-   "al": "https://media.api-sports.io/football/teams/2977.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Narey"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Z. Gano"
     },
     {
      "m": 58,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Kone"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - handball",
-     "p": "M. Kone"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Al Harbi"
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -354,10 +326,10 @@
    "away": "Al Zulfi",
    "hl": "https://media.api-sports.io/football/teams/2958.png",
    "al": "https://media.api-sports.io/football/teams/10524.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": [
     {
@@ -399,45 +371,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Baker"
-    }
-   ]
-  },
-  {
-   "id": 1604067,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al Orubah",
-   "away": "Al Najma",
-   "hl": "https://media.api-sports.io/football/teams/2961.png",
-   "al": "https://media.api-sports.io/football/teams/2992.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:20:00+00:00",
-   "ev": [
-    {
-     "m": 50,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "H. Al Dubais"
     },
     {
-     "m": 68,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Harfi"
-    },
-    {
-     "m": 81,
+     "m": 89,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "A. Al Badah"
+     "p": "M. Baker"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "M. Baker"
+    },
+    {
+     "m": 90,
+     "x": 5,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "A. Al Anzy"
     }
    ]
   },
@@ -451,7 +408,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -476,7 +433,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "G. Shepherd"
     }
    ]
   },
@@ -490,7 +447,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 90,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -504,93 +461,6 @@
    ]
   },
   {
-   "id": 1629984,
-   "league": "World - AFC Champions League Elite",
-   "home": "Công An Nhân Dân",
-   "away": "Vissel Kobe",
-   "hl": "https://media.api-sports.io/football/teams/16400.png",
-   "al": "https://media.api-sports.io/football/teams/289.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kota Watanabe"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Alan Grafite"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Brayan Perea"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Stefan Mauk"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tetsushi Yamakawa"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Brayan Perea"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Erik Nascimento de Lima"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Brayan Perea"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leygley Adou Minh"
-    }
-   ]
-  },
-  {
    "id": 1632509,
    "league": "Rwanda - National Soccer League",
    "home": "Bugesera",
@@ -600,7 +470,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -631,7 +501,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -651,12 +521,21 @@
    "away": "Mbarara City",
    "hl": "https://media.api-sports.io/football/teams/12466.png",
    "al": "https://media.api-sports.io/football/teams/12455.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T13:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Taremwa"
+    }
+   ]
   },
   {
    "id": 1637379,
@@ -665,10 +544,10 @@
    "away": "Borussia Dortmund U19",
    "hl": "https://media.api-sports.io/football/teams/22371.png",
    "al": "https://media.api-sports.io/football/teams/7890.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -702,6 +581,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Salmon"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Munoz"
     }
    ]
   },
@@ -715,7 +602,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -740,7 +627,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "S. Arui"
     }
    ]
   },
@@ -754,7 +641,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -817,7 +704,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -840,7 +727,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
@@ -854,7 +741,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -863,7 +750,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Soussi"
     },
     {
      "m": 35,
@@ -882,14 +769,22 @@
    "away": "JS Kairouanaise",
    "hl": "https://media.api-sports.io/football/teams/10598.png",
    "al": "https://media.api-sports.io/football/teams/993.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
      "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Nasr"
+    },
+    {
+     "m": 63,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -908,7 +803,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -939,7 +834,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-24T13:00:00+00:00",
    "ev": [
     {
@@ -951,6 +846,66 @@
      "p": "M. Zahraoui"
     }
    ]
+  },
+  {
+   "id": 1649985,
+   "league": "Tunisia - Ligue 2",
+   "home": "Redeyef",
+   "away": "EGS Gafsa",
+   "hl": "https://media.api-sports.io/football/teams/10665.png",
+   "al": "https://media.api-sports.io/football/teams/10604.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Yasser"
+    }
+   ]
+  },
+  {
+   "id": 1649986,
+   "league": "Tunisia - Ligue 2",
+   "home": "Stade Gabesien",
+   "away": "AS Kasserine",
+   "hl": "https://media.api-sports.io/football/teams/985.png",
+   "al": "https://media.api-sports.io/football/teams/10615.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1546173,
+   "league": "World - World Cup - U17",
+   "home": "Mexico U17",
+   "away": "Cameroon U17",
+   "hl": "https://media.api-sports.io/football/teams/25551.png",
+   "al": "https://media.api-sports.io/football/teams/12503.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T13:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1647106,
@@ -1018,52 +973,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "I. Mamatkazin"
-    }
-   ]
-  },
-  {
-   "id": 1649985,
-   "league": "Tunisia - Ligue 2",
-   "home": "Redeyef",
-   "away": "EGS Gafsa",
-   "hl": "https://media.api-sports.io/football/teams/10665.png",
-   "al": "https://media.api-sports.io/football/teams/10604.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Yasser"
-    }
-   ]
-  },
-  {
-   "id": 1649986,
-   "league": "Tunisia - Ligue 2",
-   "home": "Stade Gabesien",
-   "away": "AS Kasserine",
-   "hl": "https://media.api-sports.io/football/teams/985.png",
-   "al": "https://media.api-sports.io/football/teams/10615.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   }
