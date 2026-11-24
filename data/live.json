@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T18:20:27+03:00",
- "ts": 1795533627,
+ "updated": "2026-11-24T18:30:29+03:00",
+ "ts": 1795534229,
  "matches": [
   {
    "id": 1509229,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -36,6 +36,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Richard Wendel"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Mihambo"
     }
    ]
   },
@@ -49,7 +57,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -80,7 +88,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -94,7 +102,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -108,77 +116,6 @@
    ]
   },
   {
-   "id": 1604068,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Hajer",
-   "away": "Al Taee",
-   "hl": "https://media.api-sports.io/football/teams/2948.png",
-   "al": "https://media.api-sports.io/football/teams/2942.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Al Zaaqi"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Alioui"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "A. Lopez"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Alawi"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Yousef"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Al Burayh"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Al Haj"
-    }
-   ]
-  },
-  {
    "id": 1612281,
    "league": "Egypt - Premier League",
    "home": "Smouha SC",
@@ -188,7 +125,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -211,7 +148,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -225,7 +162,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -235,6 +172,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Cunha"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "K. Neijenhuis"
     }
    ]
   },
@@ -248,7 +193,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -279,7 +224,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -299,10 +244,10 @@
    "away": "PSV U19",
    "hl": "https://media.api-sports.io/football/teams/7926.png",
    "al": "https://media.api-sports.io/football/teams/7965.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -320,110 +265,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Ciria"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Yanez"
     }
    ]
   },
   {
-   "id": 1645614,
+   "id": 1645615,
    "league": "World - AGCFF Gulf Champions League",
-   "home": "Al Riffa",
-   "away": "Al Zawra'a",
-   "hl": "https://media.api-sports.io/football/teams/5482.png",
-   "al": "https://media.api-sports.io/football/teams/8010.png",
-   "gh": 2,
+   "home": "Ajman",
+   "away": "Al-Ettifaq",
+   "hl": "https://media.api-sports.io/football/teams/2879.png",
+   "al": "https://media.api-sports.io/football/teams/2934.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1546173,
-   "league": "World - World Cup - U17",
-   "home": "Mexico U17",
-   "away": "Cameroon U17",
-   "hl": "https://media.api-sports.io/football/teams/25551.png",
-   "al": "https://media.api-sports.io/football/teams/12503.png",
-   "gh": 4,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Rivera"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "A. Sanchez"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Gutierrez"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Gutierrez"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Soudeisse"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-24T15:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1563676,
@@ -435,7 +300,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -444,7 +309,15 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Rodrigo Escoval"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Artem Bandikyan"
     }
    ]
   },
@@ -458,7 +331,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-24T13:45:00+00:00",
    "ev": [
     {
@@ -476,6 +349,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Lalhlansanga"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Al Mardi"
     }
    ]
   },
@@ -489,7 +370,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -536,7 +417,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T14:00:00+00:00",
    "ev": [
     {
@@ -567,7 +448,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-24T13:30:00+00:00",
    "ev": [
     {
@@ -604,6 +485,14 @@
     },
     {
      "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Deni Junior"
+    },
+    {
+     "m": 45,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -611,12 +500,12 @@
      "p": "E. Febriansyah"
     },
     {
-     "m": 45,
-     "x": 2,
+     "m": 58,
+     "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Deni Junior"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Buffon"
     },
     {
      "m": 59,
@@ -641,14 +530,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Deni Junior"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     }
    ]
   },
@@ -661,8 +542,8 @@
    "al": "https://media.api-sports.io/football/teams/3695.png",
    "gh": 0,
    "ga": 0,
-   "status": "BT",
-   "minute": null,
+   "status": "ET",
+   "minute": 96,
    "time": "2026-11-24T13:15:00+00:00",
    "ev": [
     {
@@ -696,6 +577,140 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Turgunboev"
+    }
+   ]
+  },
+  {
+   "id": 1604068,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Hajer",
+   "away": "Al Taee",
+   "hl": "https://media.api-sports.io/football/teams/2948.png",
+   "al": "https://media.api-sports.io/football/teams/2942.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Al Zaaqi"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Alioui"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "A. Lopez"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Alawi"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Al Burayh"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Yousef"
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Al Haj"
+    }
+   ]
+  },
+  {
+   "id": 1645614,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Al Riffa",
+   "away": "Al Zawra'a",
+   "hl": "https://media.api-sports.io/football/teams/5482.png",
+   "al": "https://media.api-sports.io/football/teams/8010.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Meziani"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wellington"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
     }
    ]
   },
