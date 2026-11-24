@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T04:50:26+03:00",
- "ts": 1795485026,
+ "updated": "2026-11-24T05:00:28+03:00",
+ "ts": 1795485628,
  "matches": [
   {
    "id": 1649498,
@@ -9,12 +9,21 @@
    "away": "Los Angeles FC",
    "hl": "https://media.api-sports.io/football/teams/20787.png",
    "al": "https://media.api-sports.io/football/teams/1616.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 36,
    "time": "2026-11-24T01:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1492469,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": [
     {
@@ -72,20 +81,6 @@
    ]
   },
   {
-   "id": 1650863,
-   "league": "Costa-Rica - Liga de Ascenso",
-   "home": "Pitbulls Santa Barbara FC",
-   "away": "ADR Jicaral",
-   "hl": "https://media.api-sports.io/football/teams/26343.png",
-   "al": "https://media.api-sports.io/football/teams/2043.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1651241,
    "league": "Colombia - Primera B",
    "home": "Popayan",
@@ -95,7 +90,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": [
     {
