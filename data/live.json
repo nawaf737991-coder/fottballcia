@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T19:40:30+03:00",
- "ts": 1795538430,
+ "updated": "2026-11-24T19:50:10+03:00",
+ "ts": 1795539010,
  "matches": [
   {
    "id": 1563682,
@@ -12,110 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 17,
    "time": "2026-11-24T16:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1571631,
-   "league": "Bulgaria - Second League",
-   "home": "Fratria",
-   "away": "Yantra 2019",
-   "hl": "https://media.api-sports.io/football/teams/21836.png",
-   "al": "https://media.api-sports.io/football/teams/8528.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1629987,
-   "league": "World - AFC Champions League Elite",
-   "home": "Shabab Al Ahli Dubai",
-   "away": "Al-Qadisiyah FC",
-   "hl": "https://media.api-sports.io/football/teams/2870.png",
-   "al": "https://media.api-sports.io/football/teams/2933.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Julián Quiñones"
-    },
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Suleman Sani"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Julián Quiñones"
-    }
-   ]
-  },
-  {
-   "id": 1630406,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Seeb",
-   "away": "Al Shorta",
-   "hl": "https://media.api-sports.io/football/teams/7504.png",
-   "al": "https://media.api-sports.io/football/teams/28571.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Jabbar"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Oladapo"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Al Riyami"
-    }
-   ]
   },
   {
    "id": 1632503,
@@ -127,22 +26,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647176,
-   "league": "Slovakia - Cup",
-   "home": "Žilina",
-   "away": "Ružomberok",
-   "hl": "https://media.api-sports.io/football/teams/3554.png",
-   "al": "https://media.api-sports.io/football/teams/3549.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
   {
@@ -155,7 +40,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -197,6 +82,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Welton Júnior"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mate Vatsadze"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lyes Houri"
     }
    ]
   },
@@ -210,7 +111,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -220,6 +121,14 @@
      "t": "Goal",
      "d": "Own Goal",
      "p": "Y. Tifrani"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Y. Abed"
     }
    ]
   },
@@ -233,7 +142,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -251,6 +160,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "H. Mihambo"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eduardo Pape"
     }
    ]
   },
@@ -264,7 +181,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -282,6 +199,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Arzu"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "D. Matute"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Mosquera"
     }
    ]
   },
@@ -295,7 +228,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -350,7 +283,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -370,14 +303,30 @@
    "away": "União Leiria U23",
    "hl": "https://media.api-sports.io/football/teams/15468.png",
    "al": "https://media.api-sports.io/football/teams/26257.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
      "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 81,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -396,7 +345,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -454,6 +403,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Karim Hamed"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Karim Hamed"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pape Abasse Badji"
     }
    ]
   },
@@ -467,7 +432,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -481,7 +446,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -523,6 +488,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Ferreira"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Slory"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Agboluaje"
     }
    ]
   },
@@ -536,7 +517,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -602,6 +583,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Oliver"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Gorman"
     }
    ]
   },
@@ -612,10 +601,10 @@
    "away": "Lens U19",
    "hl": "https://media.api-sports.io/football/teams/7924.png",
    "al": "https://media.api-sports.io/football/teams/22372.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -673,6 +662,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Manoir"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Mendy"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "S. Dioumanara"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "D. Klapija"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -686,7 +707,7 @@
    "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -813,7 +834,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 47,
+   "minute": 56,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -844,11 +865,158 @@
      "m": 46,
      "x": null,
      "s": "a",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": "S. Harun"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Kante"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Harun"
+    }
+   ]
+  },
+  {
+   "id": 1571631,
+   "league": "Bulgaria - Second League",
+   "home": "Fratria",
+   "away": "Yantra 2019",
+   "hl": "https://media.api-sports.io/football/teams/21836.png",
+   "al": "https://media.api-sports.io/football/teams/8528.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
     }
    ]
+  },
+  {
+   "id": 1629987,
+   "league": "World - AFC Champions League Elite",
+   "home": "Shabab Al Ahli Dubai",
+   "away": "Al-Qadisiyah FC",
+   "hl": "https://media.api-sports.io/football/teams/2870.png",
+   "al": "https://media.api-sports.io/football/teams/2933.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Julián Quiñones"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Suleman Sani"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Julián Quiñones"
+    }
+   ]
+  },
+  {
+   "id": 1630406,
+   "league": "World - AFC Champions League Two",
+   "home": "Al Seeb",
+   "away": "Al Shorta",
+   "hl": "https://media.api-sports.io/football/teams/7504.png",
+   "al": "https://media.api-sports.io/football/teams/28571.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Jabbar"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Oladapo"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Riyami"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Moumouni"
+    }
+   ]
+  },
+  {
+   "id": 1647176,
+   "league": "Slovakia - Cup",
+   "home": "Žilina",
+   "away": "Ružomberok",
+   "hl": "https://media.api-sports.io/football/teams/3554.png",
+   "al": "https://media.api-sports.io/football/teams/3549.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T16:00:00+00:00",
+   "ev": []
   }
  ]
 }
