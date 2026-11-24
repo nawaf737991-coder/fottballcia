@@ -1,20 +1,65 @@
 {
- "updated": "2026-11-24T13:00:24+03:00",
- "ts": 1795514424,
+ "updated": "2026-11-24T13:10:27+03:00",
+ "ts": 1795515027,
  "matches": [
   {
-   "id": 1640234,
-   "league": "Bangladesh - Federation Cup",
-   "home": "Chattogram",
-   "away": "Brothers Union",
-   "hl": "https://media.api-sports.io/football/teams/28428.png",
-   "al": "https://media.api-sports.io/football/teams/5013.png",
+   "id": 1629982,
+   "league": "World - AFC Champions League Elite",
+   "home": "Daejeon Citizen",
+   "away": "Beijing Guoan",
+   "hl": "https://media.api-sports.io/football/teams/2750.png",
+   "al": "https://media.api-sports.io/football/teams/830.png",
    "gh": 0,
    "ga": 0,
-   "status": "2H",
-   "minute": 71,
-   "time": "2026-11-24T08:30:00+00:00",
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-24T10:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1629983,
+   "league": "World - AFC Champions League Elite",
+   "home": "Kyoto Sanga",
+   "away": "Pohang Steelers",
+   "hl": "https://media.api-sports.io/football/teams/302.png",
+   "al": "https://media.api-sports.io/football/teams/2764.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1637380,
+   "league": "World - UEFA Youth League",
+   "home": "Bodø / Glimt U19",
+   "away": "LASK U19",
+   "hl": "https://media.api-sports.io/football/teams/16553.png",
+   "al": "https://media.api-sports.io/football/teams/28370.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-24T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Bozsoki"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Krapf"
+    }
+   ]
   },
   {
    "id": 1581945,
@@ -25,8 +70,8 @@
    "al": "https://media.api-sports.io/football/teams/14433.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -48,6 +93,20 @@
    ]
   },
   {
+   "id": 1640234,
+   "league": "Bangladesh - Federation Cup",
+   "home": "Chattogram",
+   "away": "Brothers Union",
+   "hl": "https://media.api-sports.io/football/teams/28428.png",
+   "al": "https://media.api-sports.io/football/teams/5013.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 80,
+   "time": "2026-11-24T08:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1648376,
    "league": "Indonesia - League Cup Indonesia",
    "home": "Garudayaksa",
@@ -56,8 +115,8 @@
    "al": "https://media.api-sports.io/football/teams/3882.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -101,10 +160,10 @@
    "away": "PSBS Biak Numfor",
    "hl": "https://media.api-sports.io/football/teams/2446.png",
    "al": "https://media.api-sports.io/football/teams/4232.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -124,9 +183,25 @@
      "p": "M. Madjar"
     },
     {
-     "m": 45,
+     "m": 44,
      "x": null,
      "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Rumere"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Pratama"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
@@ -142,8 +217,8 @@
    "al": "https://media.api-sports.io/football/teams/26647.png",
    "gh": 5,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
