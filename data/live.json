@@ -1,7 +1,68 @@
 {
- "updated": "2026-11-25T01:00:10+03:00",
- "ts": 1795557610,
+ "updated": "2026-11-25T01:10:14+03:00",
+ "ts": 1795558214,
  "matches": [
+  {
+   "id": 1645381,
+   "league": "Chile - Copa Chile",
+   "home": "Coquimbo Unido",
+   "away": "Union La Calera",
+   "hl": "https://media.api-sports.io/football/teams/2330.png",
+   "al": "https://media.api-sports.io/football/teams/2326.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T22:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1492472,
+   "league": "Brazil - Serie A",
+   "home": "Chapecoense-sc",
+   "away": "Palmeiras",
+   "hl": "https://media.api-sports.io/football/teams/132.png",
+   "al": "https://media.api-sports.io/football/teams/121.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-24T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Camilo Reijers de Oliveira"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Camilo Reijers de Oliveira"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bruno Pacheco"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Max"
+    }
+   ]
+  },
   {
    "id": 1647222,
    "league": "Northern-Ireland - League Cup",
@@ -12,7 +73,7 @@
    "gh": 2,
    "ga": 2,
    "status": "ET",
-   "minute": 109,
+   "minute": 119,
    "time": "2026-11-24T19:45:00+00:00",
    "ev": [
     {
@@ -54,53 +115,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Mountney"
-    }
-   ]
-  },
-  {
-   "id": 1492472,
-   "league": "Brazil - Serie A",
-   "home": "Chapecoense-sc",
-   "away": "Palmeiras",
-   "hl": "https://media.api-sports.io/football/teams/132.png",
-   "al": "https://media.api-sports.io/football/teams/121.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Camilo Reijers de Oliveira"
     },
     {
-     "m": 15,
+     "m": 111,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Camilo Reijers de Oliveira"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bruno Pacheco"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Max"
+     "d": "Red Card",
+     "p": "C. Hawthorne"
     }
    ]
   }
