@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T19:20:20+03:00",
- "ts": 1795537220,
+ "updated": "2026-11-24T19:30:21+03:00",
+ "ts": 1795537821,
  "matches": [
   {
    "id": 1571631,
@@ -9,12 +9,21 @@
    "away": "Yantra 2019",
    "hl": "https://media.api-sports.io/football/teams/21836.png",
    "al": "https://media.api-sports.io/football/teams/8528.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1629987,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -65,7 +74,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -75,45 +84,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Jabbar"
-    }
-   ]
-  },
-  {
-   "id": 1645615,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Ajman",
-   "away": "Al-Ettifaq",
-   "hl": "https://media.api-sports.io/football/teams/2879.png",
-   "al": "https://media.api-sports.io/football/teams/2934.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Harun"
     },
     {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Al Sibyani"
-    },
-    {
-     "m": 24,
+     "m": 20,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "V. Henrique"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Oladapo"
     }
    ]
   },
@@ -127,7 +105,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -141,7 +119,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -188,7 +166,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -216,10 +194,10 @@
    "away": "Academico Viseu U23",
    "hl": "https://media.api-sports.io/football/teams/28013.png",
    "al": "https://media.api-sports.io/football/teams/21718.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -253,6 +231,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -266,7 +252,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -289,7 +275,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -309,10 +295,10 @@
    "away": "Al Taee",
    "hl": "https://media.api-sports.io/football/teams/2948.png",
    "al": "https://media.api-sports.io/football/teams/2942.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -386,6 +372,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Qarradi"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "A. Al Yousef"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Coulibaly"
     }
    ]
   },
@@ -397,9 +399,9 @@
    "hl": "https://media.api-sports.io/football/teams/1044.png",
    "al": "https://media.api-sports.io/football/teams/15570.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -435,12 +437,28 @@
      "p": "Samir Fekri"
     },
     {
-     "m": 51,
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Attidjikou Samadou"
+    },
+    {
+     "m": 54,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": "Attidjikou Samadou"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Karim Hamed"
     }
    ]
   },
@@ -454,7 +472,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -468,7 +486,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -515,7 +533,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -568,9 +586,9 @@
    "hl": "https://media.api-sports.io/football/teams/7924.png",
    "al": "https://media.api-sports.io/football/teams/22372.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -612,6 +630,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "T. Langsteiner"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Rocolat"
     }
    ]
   },
@@ -622,10 +648,10 @@
    "away": "PSV U19",
    "hl": "https://media.api-sports.io/football/teams/7926.png",
    "al": "https://media.api-sports.io/football/teams/7965.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -691,6 +717,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Buyens"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Ciria"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Siani"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Santamaria"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Colaes"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "J. Colaes"
     }
    ]
   },
@@ -701,10 +767,10 @@
    "away": "Al Zawra'a",
    "hl": "https://media.api-sports.io/football/teams/5482.png",
    "al": "https://media.api-sports.io/football/teams/8010.png",
-   "gh": 3,
-   "ga": 0,
+   "gh": 4,
+   "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -770,109 +836,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "T. Meziani"
-    }
-   ]
-  },
-  {
-   "id": 1650237,
-   "league": "World - World Cup - U17",
-   "home": "Dominican Republic U17",
-   "away": "Chile U17",
-   "hl": "https://media.api-sports.io/football/teams/20993.png",
-   "al": "https://media.api-sports.io/football/teams/12505.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Luis"
     },
     {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "A. Riveros"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Fernandez"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Munoz"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Florentino"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Jaquez"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Martinez"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "B. Barrera"
-    },
-    {
-     "m": 73,
+     "m": 85,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Perez"
+     "p": null
     },
     {
-     "m": 74,
+     "m": 85,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Acevedo"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal Disallowed - offside",
-     "p": "A. Perez"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -919,6 +898,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Murillo"
+    }
+   ]
+  },
+  {
+   "id": 1645615,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Ajman",
+   "away": "Al-Ettifaq",
+   "hl": "https://media.api-sports.io/football/teams/2879.png",
+   "al": "https://media.api-sports.io/football/teams/2934.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Harun"
+    },
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Al Sibyani"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "V. Henrique"
     }
    ]
   }
