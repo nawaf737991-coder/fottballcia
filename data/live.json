@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T15:40:23+03:00",
- "ts": 1795524023,
+ "updated": "2026-11-24T15:50:26+03:00",
+ "ts": 1795524626,
  "matches": [
   {
    "id": 1546165,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T12:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Goad"
+    }
+   ]
   },
   {
    "id": 1546183,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -40,41 +49,27 @@
    ]
   },
   {
-   "id": 1602746,
-   "league": "Thailand - Thai League 2",
-   "home": "Nakhon Pathom",
-   "away": "Chainat",
-   "hl": "https://media.api-sports.io/football/teams/6578.png",
-   "al": "https://media.api-sports.io/football/teams/2781.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1604063,
    "league": "Saudi-Arabia - Division 1",
    "home": "Al-Raed",
    "away": "Al Okhdood",
    "hl": "https://media.api-sports.io/football/teams/2935.png",
    "al": "https://media.api-sports.io/football/teams/2977.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 35,
    "time": "2026-11-24T12:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Narey"
+    }
+   ]
   },
   {
    "id": 1604066,
@@ -86,9 +81,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:20:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Gouveia"
+    }
+   ]
   },
   {
    "id": 1604067,
@@ -100,7 +104,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": []
   },
@@ -114,7 +118,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": []
   },
@@ -128,7 +132,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -146,6 +150,14 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Alan Grafite"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Brayan Perea"
     }
    ]
   },
@@ -159,7 +171,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -179,10 +191,10 @@
    "away": "Buriram United",
    "hl": "https://media.api-sports.io/football/teams/836.png",
    "al": "https://media.api-sports.io/football/teams/2780.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -200,6 +212,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kenneth Dougall"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Liu Zhurun"
     }
    ]
   },
@@ -213,54 +233,9 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1646786,
-   "league": "Kenya - Super League",
-   "home": "Kariobangi Sharks",
-   "away": "Fortune Sacco",
-   "hl": "https://media.api-sports.io/football/teams/2468.png",
-   "al": "https://media.api-sports.io/football/teams/19480.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648379,
-   "league": "Indonesia - League Cup Indonesia",
-   "home": "Bhayangkara FC",
-   "away": "Semen Padang",
-   "hl": "https://media.api-sports.io/football/teams/2443.png",
-   "al": "https://media.api-sports.io/football/teams/2456.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Rizki"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Maulana"
-    }
-   ]
   },
   {
    "id": 1648380,
@@ -272,7 +247,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 41,
+   "minute": 45,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -308,10 +283,10 @@
    "away": "Esan Pattaya",
    "hl": "https://media.api-sports.io/football/teams/6557.png",
    "al": "https://media.api-sports.io/football/teams/13309.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -321,6 +296,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Nemati"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Bruno Catanhede"
     }
    ]
   },
@@ -334,7 +317,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -395,9 +378,9 @@
    "hl": "https://media.api-sports.io/football/teams/25364.png",
    "al": "https://media.api-sports.io/football/teams/2702.png",
    "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-24T11:30:00+00:00",
    "ev": [
     {
@@ -407,6 +390,90 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "H. Zamehran"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1602746,
+   "league": "Thailand - Thai League 2",
+   "home": "Nakhon Pathom",
+   "away": "Chainat",
+   "hl": "https://media.api-sports.io/football/teams/6578.png",
+   "al": "https://media.api-sports.io/football/teams/2781.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1646786,
+   "league": "Kenya - Super League",
+   "home": "Kariobangi Sharks",
+   "away": "Fortune Sacco",
+   "hl": "https://media.api-sports.io/football/teams/2468.png",
+   "al": "https://media.api-sports.io/football/teams/19480.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1648379,
+   "league": "Indonesia - League Cup Indonesia",
+   "home": "Bhayangkara FC",
+   "away": "Semen Padang",
+   "hl": "https://media.api-sports.io/football/teams/2443.png",
+   "al": "https://media.api-sports.io/football/teams/2456.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Rizki"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Maulana"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Andika"
     }
    ]
   }
