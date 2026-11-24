@@ -1,7 +1,46 @@
 {
- "updated": "2026-11-24T05:50:23+03:00",
- "ts": 1795488623,
+ "updated": "2026-11-24T06:00:31+03:00",
+ "ts": 1795489231,
  "matches": [
+  {
+   "id": 1649498,
+   "league": "USA - Major League Soccer",
+   "home": "St. Louis City",
+   "away": "Los Angeles FC",
+   "hl": "https://media.api-sports.io/football/teams/20787.png",
+   "al": "https://media.api-sports.io/football/teams/1616.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 78,
+   "time": "2026-11-24T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Daniel Edelman"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sang-bin Jung"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sergi Palencia"
+    }
+   ]
+  },
   {
    "id": 1551727,
    "league": "Costa-Rica - Primera División",
@@ -11,7 +50,7 @@
    "al": "https://media.api-sports.io/football/teams/820.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-24T02:00:00+00:00",
    "ev": [
@@ -34,7 +73,7 @@
    "al": "https://media.api-sports.io/football/teams/15937.png",
    "gh": 2,
    "ga": 1,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-24T02:05:00+00:00",
    "ev": [
@@ -61,45 +100,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649498,
-   "league": "USA - Major League Soccer",
-   "home": "St. Louis City",
-   "away": "Los Angeles FC",
-   "hl": "https://media.api-sports.io/football/teams/20787.png",
-   "al": "https://media.api-sports.io/football/teams/1616.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 67,
-   "time": "2026-11-24T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Edelman"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sang-bin Jung"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sergi Palencia"
     }
    ]
   }
