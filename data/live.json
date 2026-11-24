@@ -1,7 +1,30 @@
 {
- "updated": "2026-11-24T06:00:31+03:00",
- "ts": 1795489231,
+ "updated": "2026-11-24T06:10:32+03:00",
+ "ts": 1795489832,
  "matches": [
+  {
+   "id": 1551727,
+   "league": "Costa-Rica - Primera División",
+   "home": "LD Alajuelense",
+   "away": "CS Cartagines",
+   "hl": "https://media.api-sports.io/football/teams/822.png",
+   "al": "https://media.api-sports.io/football/teams/820.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-24T02:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Molina"
+    }
+   ]
+  },
   {
    "id": 1649498,
    "league": "USA - Major League Soccer",
@@ -9,10 +32,10 @@
    "away": "Los Angeles FC",
    "hl": "https://media.api-sports.io/football/teams/20787.png",
    "al": "https://media.api-sports.io/football/teams/1616.png",
-   "gh": 2,
-   "ga": 1,
+   "gh": 3,
+   "ga": 2,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-24T01:00:00+00:00",
    "ev": [
     {
@@ -38,29 +61,46 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sergi Palencia"
-    }
-   ]
-  },
-  {
-   "id": 1551727,
-   "league": "Costa-Rica - Primera División",
-   "home": "LD Alajuelense",
-   "away": "CS Cartagines",
-   "hl": "https://media.api-sports.io/football/teams/822.png",
-   "al": "https://media.api-sports.io/football/teams/820.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T02:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 45,
-     "x": 3,
+     "m": 78,
+     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Y. Molina"
+     "p": "Simon Becher"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eddie Segura"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yoann Damet"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Denis Bouanga"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tomas Ostrak"
     }
    ]
   },
