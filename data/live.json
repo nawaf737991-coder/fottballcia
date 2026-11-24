@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T22:10:20+03:00",
- "ts": 1795547420,
+ "updated": "2026-11-24T22:20:25+03:00",
+ "ts": 1795548025,
  "matches": [
   {
    "id": 1588819,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -33,11 +33,20 @@
    "hl": "https://media.api-sports.io/football/teams/1381.png",
    "al": "https://media.api-sports.io/football/teams/7193.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1588868,
@@ -47,11 +56,20 @@
    "hl": "https://media.api-sports.io/football/teams/1338.png",
    "al": "https://media.api-sports.io/football/teams/7202.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tyler Tingey"
+    }
+   ]
   },
   {
    "id": 1601613,
@@ -63,7 +81,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -86,7 +104,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -107,11 +125,20 @@
    "hl": "https://media.api-sports.io/football/teams/527.png",
    "al": "https://media.api-sports.io/football/teams/504.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amin Sarr"
+    }
+   ]
   },
   {
    "id": 1601618,
@@ -123,7 +150,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -143,10 +170,10 @@
    "away": "Sudtirol",
    "hl": "https://media.api-sports.io/football/teams/522.png",
    "al": "https://media.api-sports.io/football/teams/1578.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
@@ -156,6 +183,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Dennis Johnsen"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joel Pohjanpalo"
     }
    ]
   },
@@ -167,11 +202,20 @@
    "hl": "https://media.api-sports.io/football/teams/20017.png",
    "al": "https://media.api-sports.io/football/teams/11912.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Lloyd"
+    }
+   ]
   },
   {
    "id": 1627133,
@@ -183,7 +227,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": []
   },
@@ -197,7 +241,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": []
   },
@@ -208,12 +252,29 @@
    "away": "Millwall U21",
    "hl": "https://media.api-sports.io/football/teams/20086.png",
    "al": "https://media.api-sports.io/football/teams/20095.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Eadie"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Taylor"
+    }
+   ]
   },
   {
    "id": 1600377,
@@ -222,10 +283,10 @@
    "away": "Polokwane City",
    "hl": "https://media.api-sports.io/football/teams/24757.png",
    "al": "https://media.api-sports.io/football/teams/2693.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -259,6 +320,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gastón Sirino"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bokang Mokwena"
     }
    ]
   },
@@ -269,10 +338,10 @@
    "away": "Golden Arrows",
    "hl": "https://media.api-sports.io/football/teams/2700.png",
    "al": "https://media.api-sports.io/football/teams/2690.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -298,6 +367,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Simphiwe Selepe"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Boitumelo Lawrence Radiopane"
     }
    ]
   },
@@ -309,9 +386,9 @@
    "hl": "https://media.api-sports.io/football/teams/863.png",
    "al": "https://media.api-sports.io/football/teams/1687.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -348,6 +425,14 @@
     },
     {
      "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marco Bellich"
+    },
+    {
+     "m": 45,
      "x": 5,
      "s": "a",
      "t": "Goal",
@@ -355,12 +440,12 @@
      "p": "Emanuele Pecorino"
     },
     {
-     "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marco Bellich"
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marco Ruggero"
     }
    ]
   },
@@ -374,7 +459,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -416,6 +501,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hassan Ali"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Shokry"
     }
    ]
   },
@@ -426,10 +519,10 @@
    "away": "Olympic El Qanah",
    "hl": "https://media.api-sports.io/football/teams/1575.png",
    "al": "https://media.api-sports.io/football/teams/13822.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -476,9 +569,18 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-24T17:45:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Danek"
+    }
+   ]
   },
   {
    "id": 1635667,
@@ -487,10 +589,10 @@
    "away": "Aston Villa",
    "hl": "https://media.api-sports.io/football/teams/645.png",
    "al": "https://media.api-sports.io/football/teams/66.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-24T17:45:00+00:00",
    "ev": [
     {
@@ -532,6 +634,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Y. Akgun"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Gul"
     }
    ]
   },
@@ -590,6 +700,14 @@
     },
     {
      "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nawaf Boushal"
+    },
+    {
+     "m": 45,
      "x": 2,
      "s": "a",
      "t": "Card",
@@ -598,19 +716,11 @@
     },
     {
      "m": 45,
-     "x": 3,
+     "x": 2,
      "s": "a",
      "t": "Var",
      "d": "Card upgrade confirmed",
      "p": "Mohamed Waad"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nawaf Boushal"
     }
    ]
   }
