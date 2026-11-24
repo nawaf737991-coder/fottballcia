@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T02:30:22+03:00",
- "ts": 1795563022,
+ "updated": "2026-11-25T02:40:28+03:00",
+ "ts": 1795563628,
  "matches": [
   {
    "id": 1557234,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 22,
+   "minute": 33,
    "time": "2026-11-24T23:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Shepherd"
+    }
+   ]
   },
   {
    "id": 1650513,
@@ -23,11 +32,42 @@
    "away": "Bucaramanga",
    "hl": "https://media.api-sports.io/football/teams/1125.png",
    "al": "https://media.api-sports.io/football/teams/1131.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-24T23:20:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Chaverra"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Contreras"
+    }
+   ]
+  },
+  {
+   "id": 1651652,
+   "league": "Venezuela - Copa Venezuela",
+   "home": "UCV",
+   "away": "Anzoátegui FC",
+   "hl": "https://media.api-sports.io/football/teams/2840.png",
+   "al": "https://media.api-sports.io/football/teams/18806.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
    "minute": 10,
-   "time": "2026-11-24T23:20:00+00:00",
+   "time": "2026-11-24T23:30:00+00:00",
    "ev": []
   },
   {
@@ -37,10 +77,10 @@
    "away": "Union La Calera",
    "hl": "https://media.api-sports.io/football/teams/2330.png",
    "al": "https://media.api-sports.io/football/teams/2326.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 79,
    "time": "2026-11-24T22:00:00+00:00",
    "ev": [
     {
@@ -58,6 +98,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Arancibia"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Palma"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "F. Pons"
     }
    ]
   }
