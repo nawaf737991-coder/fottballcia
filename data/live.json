@@ -1,7 +1,44 @@
 {
- "updated": "2026-11-24T22:00:19+03:00",
- "ts": 1795546819,
+ "updated": "2026-11-24T22:10:20+03:00",
+ "ts": 1795547420,
  "matches": [
+  {
+   "id": 1588819,
+   "league": "England - EFL Trophy",
+   "home": "Salford City",
+   "away": "Sunderland U21",
+   "hl": "https://media.api-sports.io/football/teams/1844.png",
+   "al": "https://media.api-sports.io/football/teams/11915.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Paolo Mariani"
+    }
+   ]
+  },
+  {
+   "id": 1588839,
+   "league": "England - EFL Trophy",
+   "home": "Tranmere",
+   "away": "Everton U21",
+   "hl": "https://media.api-sports.io/football/teams/1381.png",
+   "al": "https://media.api-sports.io/football/teams/7193.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1588868,
    "league": "England - EFL Trophy",
@@ -12,64 +49,171 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-24T19:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1629988,
-   "league": "World - AFC Champions League Elite",
-   "home": "Al-Nassr",
-   "away": "Al Sadd",
-   "hl": "https://media.api-sports.io/football/teams/2939.png",
-   "al": "https://media.api-sports.io/football/teams/2895.png",
+   "id": 1601613,
+   "league": "Italy - Serie B",
+   "home": "Benevento",
+   "away": "Empoli",
+   "hl": "https://media.api-sports.io/football/teams/506.png",
+   "al": "https://media.api-sports.io/football/teams/511.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T18:15:00+00:00",
+   "minute": 8,
+   "time": "2026-11-24T19:00:00+00:00",
    "ev": [
     {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Boualem Khoukhi"
-    },
-    {
-     "m": 13,
+     "m": 4,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Penalty",
-     "p": "Cristiano Ronaldo"
-    },
+     "d": "Normal Goal",
+     "p": "David Okereke"
+    }
+   ]
+  },
+  {
+   "id": 1601614,
+   "league": "Italy - Serie B",
+   "home": "Cesena",
+   "away": "Ascoli",
+   "hl": "https://media.api-sports.io/football/teams/509.png",
+   "al": "https://media.api-sports.io/football/teams/507.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
     {
-     "m": 22,
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jacopo Gelli"
+    }
+   ]
+  },
+  {
+   "id": 1601616,
+   "league": "Italy - Serie B",
+   "home": "Virtus Entella",
+   "away": "Hellas Verona",
+   "hl": "https://media.api-sports.io/football/teams/527.png",
+   "al": "https://media.api-sports.io/football/teams/504.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601618,
+   "league": "Italy - Serie B",
+   "home": "Vicenza Virtus",
+   "away": "Carrarese",
+   "hl": "https://media.api-sports.io/football/teams/1584.png",
+   "al": "https://media.api-sports.io/football/teams/1581.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Mohamed Waad"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Cristiano Ronaldo"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Angelo Borges"
+     "p": "Nicolas Schiavi"
     }
    ]
+  },
+  {
+   "id": 1601621,
+   "league": "Italy - Serie B",
+   "home": "Palermo",
+   "away": "Sudtirol",
+   "hl": "https://media.api-sports.io/football/teams/522.png",
+   "al": "https://media.api-sports.io/football/teams/1578.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dennis Johnsen"
+    }
+   ]
+  },
+  {
+   "id": 1627132,
+   "league": "England - Premier League Cup",
+   "home": "Huddersfield Town U21",
+   "away": "Swansea City U21",
+   "hl": "https://media.api-sports.io/football/teams/20017.png",
+   "al": "https://media.api-sports.io/football/teams/11912.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627133,
+   "league": "England - Premier League Cup",
+   "home": "Ipswich Town U21",
+   "away": "Bromley U21",
+   "hl": "https://media.api-sports.io/football/teams/20094.png",
+   "al": "https://media.api-sports.io/football/teams/24846.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627134,
+   "league": "England - Premier League Cup",
+   "home": "Queens Park Rangers U21",
+   "away": "Southampton U21",
+   "hl": "https://media.api-sports.io/football/teams/20085.png",
+   "al": "https://media.api-sports.io/football/teams/7201.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627135,
+   "league": "England - Premier League Cup",
+   "home": "Sheffield United U21",
+   "away": "Millwall U21",
+   "hl": "https://media.api-sports.io/football/teams/20086.png",
+   "al": "https://media.api-sports.io/football/teams/20095.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1600377,
@@ -81,7 +225,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -128,7 +272,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -146,75 +290,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Thalente Mbatha"
-    }
-   ]
-  },
-  {
-   "id": 1635641,
-   "league": "World - UEFA Champions League",
-   "home": "Bodo/Glimt",
-   "away": "Lask Linz",
-   "hl": "https://media.api-sports.io/football/teams/327.png",
-   "al": "https://media.api-sports.io/football/teams/1026.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 59,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635667,
-   "league": "World - UEFA Champions League",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "hl": "https://media.api-sports.io/football/teams/645.png",
-   "al": "https://media.api-sports.io/football/teams/66.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 59,
-   "time": "2026-11-24T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Jackson"
     },
     {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. McGinn"
-    },
-    {
-     "m": 53,
+     "m": 77,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "A. Batrakov"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joao Gomes"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Akgun"
+     "p": "Simphiwe Selepe"
     }
    ]
   },
@@ -227,8 +310,8 @@
    "al": "https://media.api-sports.io/football/teams/1687.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -290,8 +373,8 @@
    "al": "https://media.api-sports.io/football/teams/18021.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -345,8 +428,8 @@
    "al": "https://media.api-sports.io/football/teams/13822.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -380,6 +463,154 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abdel Naser Mohamed"
+    }
+   ]
+  },
+  {
+   "id": 1635641,
+   "league": "World - UEFA Champions League",
+   "home": "Bodo/Glimt",
+   "away": "Lask Linz",
+   "hl": "https://media.api-sports.io/football/teams/327.png",
+   "al": "https://media.api-sports.io/football/teams/1026.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 69,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635667,
+   "league": "World - UEFA Champions League",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "hl": "https://media.api-sports.io/football/teams/645.png",
+   "al": "https://media.api-sports.io/football/teams/66.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 69,
+   "time": "2026-11-24T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Jackson"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. McGinn"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Batrakov"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Joao Gomes"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Akgun"
+    }
+   ]
+  },
+  {
+   "id": 1629988,
+   "league": "World - AFC Champions League Elite",
+   "home": "Al-Nassr",
+   "away": "Al Sadd",
+   "hl": "https://media.api-sports.io/football/teams/2939.png",
+   "al": "https://media.api-sports.io/football/teams/2895.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T18:15:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Boualem Khoukhi"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Cristiano Ronaldo"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mohamed Waad"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Cristiano Ronaldo"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Angelo Borges"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Mohamed Waad"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Mohamed Waad"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nawaf Boushal"
     }
    ]
   }
