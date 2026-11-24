@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T14:10:09+03:00",
- "ts": 1795518609,
+ "updated": "2026-11-24T14:20:13+03:00",
+ "ts": 1795519213,
  "matches": [
   {
    "id": 1602745,
@@ -9,12 +9,21 @@
    "away": "Esan Pattaya",
    "hl": "https://media.api-sports.io/football/teams/6557.png",
    "al": "https://media.api-sports.io/football/teams/13309.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T11:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1637383,
@@ -24,48 +33,18 @@
    "hl": "https://media.api-sports.io/football/teams/7900.png",
    "al": "https://media.api-sports.io/football/teams/24970.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 9,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1646634,
-   "league": "India - I-League",
-   "home": "Samaleswari SC",
-   "away": "Bengaluru United",
-   "hl": "https://media.api-sports.io/football/teams/28560.png",
-   "al": "https://media.api-sports.io/football/teams/15748.png",
-   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T10:30:00+00:00",
+   "minute": 19,
+   "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 17,
+     "m": 11,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Sardesai"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Murmu"
+     "p": "M. Meade"
     }
    ]
   },
@@ -77,9 +56,9 @@
    "hl": "https://media.api-sports.io/football/teams/2750.png",
    "al": "https://media.api-sports.io/football/teams/830.png",
    "gh": 3,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -121,6 +100,30 @@
      "t": "Var",
      "d": "Goal cancelled",
      "p": "João Victor"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Chadrac Akolo"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Cho Sung-gwon"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Park Kyu-Hyun"
     }
    ]
   },
@@ -134,7 +137,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -157,7 +160,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -191,6 +194,61 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Krapf"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Wimmer"
+    }
+   ]
+  },
+  {
+   "id": 1646634,
+   "league": "India - I-League",
+   "home": "Samaleswari SC",
+   "away": "Bengaluru United",
+   "hl": "https://media.api-sports.io/football/teams/28560.png",
+   "al": "https://media.api-sports.io/football/teams/15748.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T10:30:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Sardesai"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Murmu"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Pereyra"
     }
    ]
   }
