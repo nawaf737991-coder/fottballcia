@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T12:10:23+03:00",
- "ts": 1795511423,
+ "updated": "2026-11-24T12:20:23+03:00",
+ "ts": 1795512023,
  "matches": [
   {
    "id": 1581945,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -26,20 +26,6 @@
    ]
   },
   {
-   "id": 1640234,
-   "league": "Bangladesh - Federation Cup",
-   "home": "Chattogram",
-   "away": "Brothers Union",
-   "hl": "https://media.api-sports.io/football/teams/28428.png",
-   "al": "https://media.api-sports.io/football/teams/5013.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T08:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1648376,
    "league": "Indonesia - League Cup Indonesia",
    "home": "Garudayaksa",
@@ -49,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": []
   },
@@ -60,12 +46,21 @@
    "away": "PSBS Biak Numfor",
    "hl": "https://media.api-sports.io/football/teams/2446.png",
    "al": "https://media.api-sports.io/football/teams/4232.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Pratama"
+    }
+   ]
   },
   {
    "id": 1648378,
@@ -77,7 +72,7 @@
    "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -122,9 +117,9 @@
    "hl": "https://media.api-sports.io/football/teams/946.png",
    "al": "https://media.api-sports.io/football/teams/281.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-24T07:45:00+00:00",
    "ev": [
     {
@@ -150,8 +145,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Max Burgess"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kenshin Yuba"
     }
    ]
+  },
+  {
+   "id": 1640234,
+   "league": "Bangladesh - Federation Cup",
+   "home": "Chattogram",
+   "away": "Brothers Union",
+   "hl": "https://media.api-sports.io/football/teams/28428.png",
+   "al": "https://media.api-sports.io/football/teams/5013.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T08:30:00+00:00",
+   "ev": []
   }
  ]
 }
