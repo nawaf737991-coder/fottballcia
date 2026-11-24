@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T13:10:27+03:00",
- "ts": 1795515027,
+ "updated": "2026-11-24T13:20:19+03:00",
+ "ts": 1795515619,
  "matches": [
   {
    "id": 1629982,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": []
   },
@@ -37,10 +37,10 @@
    "away": "LASK U19",
    "hl": "https://media.api-sports.io/football/teams/16553.png",
    "al": "https://media.api-sports.io/football/teams/28370.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -58,6 +58,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Krapf"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Chooly"
     }
    ]
   },
@@ -69,9 +77,9 @@
    "hl": "https://media.api-sports.io/football/teams/3620.png",
    "al": "https://media.api-sports.io/football/teams/14433.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 61,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -99,12 +107,21 @@
    "away": "Brothers Union",
    "hl": "https://media.api-sports.io/football/teams/28428.png",
    "al": "https://media.api-sports.io/football/teams/5013.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648376,
@@ -116,7 +133,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -163,7 +180,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -204,7 +221,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "R. Pratama"
     }
    ]
   },
@@ -215,14 +232,14 @@
    "away": "Sumsel United",
    "hl": "https://media.api-sports.io/football/teams/10134.png",
    "al": "https://media.api-sports.io/football/teams/26647.png",
-   "gh": 5,
+   "gh": 6,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
-     "m": 1,
+     "m": 2,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -230,7 +247,7 @@
      "p": "R. Eksel"
     },
     {
-     "m": 5,
+     "m": 6,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -238,7 +255,7 @@
      "p": "R. Hannan"
     },
     {
-     "m": 6,
+     "m": 7,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -254,7 +271,7 @@
      "p": "D. Atapelwa"
     },
     {
-     "m": 28,
+     "m": 29,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -262,12 +279,20 @@
      "p": "R. Eksel"
     },
     {
-     "m": 40,
+     "m": 41,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": "K. Memija"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Sopiulloh"
     }
    ]
   }
