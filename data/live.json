@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T15:10:10+03:00",
- "ts": 1795522210,
+ "updated": "2026-11-24T15:20:16+03:00",
+ "ts": 1795522816,
  "matches": [
   {
    "id": 1602746,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -26,6 +26,62 @@
    ]
   },
   {
+   "id": 1604063,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al-Raed",
+   "away": "Al Okhdood",
+   "hl": "https://media.api-sports.io/football/teams/2935.png",
+   "al": "https://media.api-sports.io/football/teams/2977.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629984,
+   "league": "World - AFC Champions League Elite",
+   "home": "Công An Nhân Dân",
+   "away": "Vissel Kobe",
+   "hl": "https://media.api-sports.io/football/teams/16400.png",
+   "al": "https://media.api-sports.io/football/teams/289.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629985,
+   "league": "World - AFC Champions League Elite",
+   "home": "Ratchaburi",
+   "away": "Johor Darul Takzim FC",
+   "hl": "https://media.api-sports.io/football/teams/2776.png",
+   "al": "https://media.api-sports.io/football/teams/2523.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629986,
+   "league": "World - AFC Champions League Elite",
+   "home": "SHANGHAI SIPG",
+   "away": "Buriram United",
+   "hl": "https://media.api-sports.io/football/teams/836.png",
+   "al": "https://media.api-sports.io/football/teams/2780.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T12:15:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1646782,
    "league": "Kenya - Super League",
    "home": "Luanda Villa",
@@ -35,7 +91,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -49,7 +105,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -63,7 +119,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-24T11:30:00+00:00",
    "ev": [
     {
@@ -72,7 +128,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "H. Zamehran"
     }
    ]
   },
@@ -86,7 +142,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -100,9 +156,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mendonca"
+    }
+   ]
   },
   {
    "id": 1602745,
@@ -114,7 +179,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -134,10 +199,10 @@
    "away": "Aston Villa U19",
    "hl": "https://media.api-sports.io/football/teams/7900.png",
    "al": "https://media.api-sports.io/football/teams/24970.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -163,6 +228,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Yuzgec"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": null
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Karasu"
     }
    ]
   },
@@ -176,7 +257,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T10:30:00+00:00",
    "ev": [
     {
