@@ -1,96 +1,1076 @@
 {
- "updated": "2026-11-24T22:40:13+03:00",
- "ts": 1795549213,
+ "updated": "2026-11-24T22:50:18+03:00",
+ "ts": 1795549818,
  "matches": [
   {
-   "id": 1588819,
-   "league": "England - EFL Trophy",
-   "home": "Salford City",
-   "away": "Sunderland U21",
-   "hl": "https://media.api-sports.io/football/teams/1844.png",
-   "al": "https://media.api-sports.io/football/teams/11915.png",
-   "gh": 1,
-   "ga": 1,
+   "id": 1556696,
+   "league": "Scotland - Premiership",
+   "home": "Hibernian",
+   "away": "Dundee",
+   "hl": "https://media.api-sports.io/football/teams/249.png",
+   "al": "https://media.api-sports.io/football/teams/253.png",
+   "gh": 0,
+   "ga": 0,
    "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T19:00:00+00:00",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563275,
+   "league": "England - Championship",
+   "home": "Bristol City",
+   "away": "Wrexham",
+   "hl": "https://media.api-sports.io/football/teams/56.png",
+   "al": "https://media.api-sports.io/football/teams/1837.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
    "ev": [
     {
-     "m": 2,
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Cameron Pring"
+    }
+   ]
+  },
+  {
+   "id": 1563276,
+   "league": "England - Championship",
+   "home": "Cardiff",
+   "away": "Preston",
+   "hl": "https://media.api-sports.io/football/teams/43.png",
+   "al": "https://media.api-sports.io/football/teams/59.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563277,
+   "league": "England - Championship",
+   "home": "Charlton",
+   "away": "Lincoln",
+   "hl": "https://media.api-sports.io/football/teams/1335.png",
+   "al": "https://media.api-sports.io/football/teams/1379.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563278,
+   "league": "England - Championship",
+   "home": "Middlesbrough",
+   "away": "Swansea",
+   "hl": "https://media.api-sports.io/football/teams/70.png",
+   "al": "https://media.api-sports.io/football/teams/76.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563279,
+   "league": "England - Championship",
+   "home": "Norwich",
+   "away": "QPR",
+   "hl": "https://media.api-sports.io/football/teams/71.png",
+   "al": "https://media.api-sports.io/football/teams/72.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563280,
+   "league": "England - Championship",
+   "home": "Portsmouth",
+   "away": "West Ham",
+   "hl": "https://media.api-sports.io/football/teams/1355.png",
+   "al": "https://media.api-sports.io/football/teams/48.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563281,
+   "league": "England - Championship",
+   "home": "Sheffield Utd",
+   "away": "Southampton",
+   "hl": "https://media.api-sports.io/football/teams/62.png",
+   "al": "https://media.api-sports.io/football/teams/41.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563769,
+   "league": "England - League Two",
+   "home": "Crawley Town",
+   "away": "Barnet",
+   "hl": "https://media.api-sports.io/football/teams/1362.png",
+   "al": "https://media.api-sports.io/football/teams/1369.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563773,
+   "league": "England - League Two",
+   "home": "Port Vale",
+   "away": "Northampton",
+   "hl": "https://media.api-sports.io/football/teams/1351.png",
+   "al": "https://media.api-sports.io/football/teams/1337.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1564319,
+   "league": "England - League One",
+   "home": "Bradford",
+   "away": "Barnsley",
+   "hl": "https://media.api-sports.io/football/teams/1343.png",
+   "al": "https://media.api-sports.io/football/teams/747.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1564328,
+   "league": "England - League One",
+   "home": "Stevenage",
+   "away": "Sheffield Wednesday",
+   "hl": "https://media.api-sports.io/football/teams/1368.png",
+   "al": "https://media.api-sports.io/football/teams/74.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1564333,
+   "league": "England - League One",
+   "home": "Blackpool",
+   "away": "Leicester",
+   "hl": "https://media.api-sports.io/football/teams/1356.png",
+   "al": "https://media.api-sports.io/football/teams/46.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1564334,
+   "league": "England - League One",
+   "home": "Bromley",
+   "away": "Wycombe",
+   "hl": "https://media.api-sports.io/football/teams/1832.png",
+   "al": "https://media.api-sports.io/football/teams/1358.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1575993,
+   "league": "Wales - Premier League",
+   "home": "Holywell",
+   "away": "Penybont",
+   "hl": "https://media.api-sports.io/football/teams/6459.png",
+   "al": "https://media.api-sports.io/football/teams/2191.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585353,
+   "league": "England - National League",
+   "home": "AFC Fylde",
+   "away": "FC Halifax Town",
+   "hl": "https://media.api-sports.io/football/teams/1839.png",
+   "al": "https://media.api-sports.io/football/teams/1841.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585354,
+   "league": "England - National League",
+   "home": "Altrincham",
+   "away": "Wealdstone",
+   "hl": "https://media.api-sports.io/football/teams/4700.png",
+   "al": "https://media.api-sports.io/football/teams/8663.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585355,
+   "league": "England - National League",
+   "home": "Boston United",
+   "away": "Barrow",
+   "hl": "https://media.api-sports.io/football/teams/8146.png",
+   "al": "https://media.api-sports.io/football/teams/1819.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585356,
+   "league": "England - National League",
+   "home": "Carlisle",
+   "away": "Tamworth",
+   "hl": "https://media.api-sports.io/football/teams/1371.png",
+   "al": "https://media.api-sports.io/football/teams/7752.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585357,
+   "league": "England - National League",
+   "home": "Eastleigh",
+   "away": "Yeovil Town",
+   "hl": "https://media.api-sports.io/football/teams/1822.png",
+   "al": "https://media.api-sports.io/football/teams/1377.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585358,
+   "league": "England - National League",
+   "home": "Forest Green",
+   "away": "Southend",
+   "hl": "https://media.api-sports.io/football/teams/1378.png",
+   "al": "https://media.api-sports.io/football/teams/1341.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585359,
+   "league": "England - National League",
+   "home": "AFC Hornchurch",
+   "away": "Sutton Utd",
+   "hl": "https://media.api-sports.io/football/teams/7690.png",
+   "al": "https://media.api-sports.io/football/teams/1835.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585360,
+   "league": "England - National League",
+   "home": "Scunthorpe",
+   "away": "Gateshead",
+   "hl": "https://media.api-sports.io/football/teams/1340.png",
+   "al": "https://media.api-sports.io/football/teams/1823.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585361,
+   "league": "England - National League",
+   "home": "Woking",
+   "away": "Worthing",
+   "hl": "https://media.api-sports.io/football/teams/1836.png",
+   "al": "https://media.api-sports.io/football/teams/7761.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587909,
+   "league": "England - National League - North",
+   "home": "AFC Telford United",
+   "away": "Buxton",
+   "hl": "https://media.api-sports.io/football/teams/4688.png",
+   "al": "https://media.api-sports.io/football/teams/7706.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587910,
+   "league": "England - National League - North",
+   "home": "Brackley Town",
+   "away": "Hereford",
+   "hl": "https://media.api-sports.io/football/teams/4701.png",
+   "al": "https://media.api-sports.io/football/teams/4692.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 3,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Paolo Mariani"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jaydon Jones"
+     "p": null
     }
    ]
   },
   {
-   "id": 1588839,
-   "league": "England - EFL Trophy",
-   "home": "Tranmere",
-   "away": "Everton U21",
-   "hl": "https://media.api-sports.io/football/teams/1381.png",
-   "al": "https://media.api-sports.io/football/teams/7193.png",
+   "id": 1587911,
+   "league": "England - National League - North",
+   "home": "Chorley",
+   "away": "Hebburn Town",
+   "hl": "https://media.api-sports.io/football/teams/4679.png",
+   "al": "https://media.api-sports.io/football/teams/8822.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587912,
+   "league": "England - National League - North",
+   "home": "Darlington 1883",
+   "away": "Southport",
+   "hl": "https://media.api-sports.io/football/teams/10157.png",
+   "al": "https://media.api-sports.io/football/teams/1826.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587913,
+   "league": "England - National League - North",
+   "home": "Harborough Town",
+   "away": "Chester",
+   "hl": "https://media.api-sports.io/football/teams/8812.png",
+   "al": "https://media.api-sports.io/football/teams/1820.png",
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T19:00:00+00:00",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
    "ev": [
     {
-     "m": 20,
+     "m": 3,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Braiden Graham"
+     "p": null
     }
    ]
   },
   {
-   "id": 1588868,
-   "league": "England - EFL Trophy",
-   "home": "Oxford United",
-   "away": "Tottenham Hotspur U21",
-   "hl": "https://media.api-sports.io/football/teams/1338.png",
-   "al": "https://media.api-sports.io/football/teams/7202.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tyler Tingey"
-    }
-   ]
-  },
-  {
-   "id": 1601613,
-   "league": "Italy - Serie B",
-   "home": "Benevento",
-   "away": "Empoli",
-   "hl": "https://media.api-sports.io/football/teams/506.png",
-   "al": "https://media.api-sports.io/football/teams/511.png",
-   "gh": 2,
+   "id": 1587914,
+   "league": "England - National League - North",
+   "home": "Hednesford Town",
+   "away": "Oxford City",
+   "hl": "https://media.api-sports.io/football/teams/7721.png",
+   "al": "https://media.api-sports.io/football/teams/4684.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
-   "time": "2026-11-24T19:00:00+00:00",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587915,
+   "league": "England - National League - North",
+   "home": "King's Lynn Town",
+   "away": "Radcliffe",
+   "hl": "https://media.api-sports.io/football/teams/8655.png",
+   "al": "https://media.api-sports.io/football/teams/7740.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587916,
+   "league": "England - National League - North",
+   "home": "Macclesfield",
+   "away": "Morecambe",
+   "hl": "https://media.api-sports.io/football/teams/1380.png",
+   "al": "https://media.api-sports.io/football/teams/1375.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587918,
+   "league": "England - National League - North",
+   "home": "Merthyr Town",
+   "away": "Bedford Town",
+   "hl": "https://media.api-sports.io/football/teams/7732.png",
+   "al": "https://media.api-sports.io/football/teams/7616.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587919,
+   "league": "England - National League - North",
+   "home": "Scarborough Athletic",
+   "away": "Spalding United",
+   "hl": "https://media.api-sports.io/football/teams/7745.png",
+   "al": "https://media.api-sports.io/football/teams/7671.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1587920,
+   "league": "England - National League - North",
+   "home": "South Shields",
+   "away": "Worksop Town",
+   "hl": "https://media.api-sports.io/football/teams/7746.png",
+   "al": "https://media.api-sports.io/football/teams/7266.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588462,
+   "league": "England - National League - South",
+   "home": "Dagenham & Redbridge",
+   "away": "Tonbridge Angels",
+   "hl": "https://media.api-sports.io/football/teams/1821.png",
+   "al": "https://media.api-sports.io/football/teams/8662.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588464,
+   "league": "England - National League - South",
+   "home": "Farnham Town",
+   "away": "Maidenhead",
+   "hl": "https://media.api-sports.io/football/teams/8783.png",
+   "al": "https://media.api-sports.io/football/teams/1838.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588466,
+   "league": "England - National League - South",
+   "home": "Hampton & Richmond",
+   "away": "Dover",
+   "hl": "https://media.api-sports.io/football/teams/4680.png",
+   "al": "https://media.api-sports.io/football/teams/1829.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588468,
+   "league": "England - National League - South",
+   "home": "Horsham",
+   "away": "Truro City",
+   "hl": "https://media.api-sports.io/football/teams/7723.png",
+   "al": "https://media.api-sports.io/football/teams/4699.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588469,
+   "league": "England - National League - South",
+   "home": "Salisbury",
+   "away": "AFC Totton",
+   "hl": "https://media.api-sports.io/football/teams/7744.png",
+   "al": "https://media.api-sports.io/football/teams/7612.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588470,
+   "league": "England - National League - South",
+   "home": "Slough Town",
+   "away": "Farnborough",
+   "hl": "https://media.api-sports.io/football/teams/4685.png",
+   "al": "https://media.api-sports.io/football/teams/7715.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588471,
+   "league": "England - National League - South",
+   "home": "Torquay",
+   "away": "Chesham United",
+   "hl": "https://media.api-sports.io/football/teams/1827.png",
+   "al": "https://media.api-sports.io/football/teams/4702.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588472,
+   "league": "England - National League - South",
+   "home": "Weston-super-Mare",
+   "away": "Walton & Hersham",
+   "hl": "https://media.api-sports.io/football/teams/4687.png",
+   "al": "https://media.api-sports.io/football/teams/8986.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596048,
+   "league": "England - Non League Premier - Isthmian",
+   "home": "Cray Wanderers",
+   "away": "Wingate & Finchley",
+   "hl": "https://media.api-sports.io/football/teams/7711.png",
+   "al": "https://media.api-sports.io/football/teams/7759.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596050,
+   "league": "England - Non League Premier - Isthmian",
+   "home": "Eastbourne Borough",
+   "away": "Aveley",
+   "hl": "https://media.api-sports.io/football/teams/4704.png",
+   "al": "https://media.api-sports.io/football/teams/7207.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596052,
+   "league": "England - Non League Premier - Isthmian",
+   "home": "Leatherhead",
+   "away": "Ramsgate",
+   "hl": "https://media.api-sports.io/football/teams/4696.png",
+   "al": "https://media.api-sports.io/football/teams/7665.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596513,
+   "league": "England - Non League Premier - Northern",
+   "home": "Leek Town",
+   "away": "Gainsborough Trinity",
+   "hl": "https://media.api-sports.io/football/teams/7239.png",
+   "al": "https://media.api-sports.io/football/teams/4691.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Griffiths"
+    }
+   ]
+  },
+  {
+   "id": 1596818,
+   "league": "England - Non League Premier - Southern Central",
+   "home": "Halesowen Town",
+   "away": "Stourbridge",
+   "hl": "https://media.api-sports.io/football/teams/7644.png",
+   "al": "https://media.api-sports.io/football/teams/4710.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596931,
+   "league": "England - Non League Premier - Southern Central",
+   "home": "Leighton Town",
+   "away": "Racing Club Warwick",
+   "hl": "https://media.api-sports.io/football/teams/8846.png",
+   "al": "https://media.api-sports.io/football/teams/8904.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596936,
+   "league": "England - Non League Premier - Southern Central",
+   "home": "Anstey Nomads",
+   "away": "Redditch United",
+   "hl": "https://media.api-sports.io/football/teams/8681.png",
+   "al": "https://media.api-sports.io/football/teams/7741.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596944,
+   "league": "England - Non League Premier - Southern Central",
+   "home": "Peterborough Sports",
+   "away": "Alvechurch",
+   "hl": "https://media.api-sports.io/football/teams/7737.png",
+   "al": "https://media.api-sports.io/football/teams/7692.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1596985,
+   "league": "England - Non League Premier - Southern Central",
+   "home": "Hitchin Town",
+   "away": "Worcester City",
+   "hl": "https://media.api-sports.io/football/teams/4682.png",
+   "al": "https://media.api-sports.io/football/teams/9010.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1597353,
+   "league": "England - Non League Premier - Southern South",
+   "home": "Yate Town",
+   "away": "Evesham United",
+   "hl": "https://media.api-sports.io/football/teams/7762.png",
+   "al": "https://media.api-sports.io/football/teams/7640.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1597365,
+   "league": "England - Non League Premier - Southern South",
+   "home": "Basingstoke Town",
+   "away": "Sholing",
+   "hl": "https://media.api-sports.io/football/teams/7615.png",
+   "al": "https://media.api-sports.io/football/teams/7668.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1597369,
+   "league": "England - Non League Premier - Southern South",
+   "home": "Chippenham Town",
+   "away": "Havant & Wville",
+   "hl": "https://media.api-sports.io/football/teams/8147.png",
+   "al": "https://media.api-sports.io/football/teams/1843.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1597371,
+   "league": "England - Non League Premier - Southern South",
+   "home": "Malvern Town",
+   "away": "Hanworth Villa",
+   "hl": "https://media.api-sports.io/football/teams/8870.png",
+   "al": "https://media.api-sports.io/football/teams/8811.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1597685,
+   "league": "England - Non League Premier - Southern South",
+   "home": "Bracknell Town",
+   "away": "Berkhamsted",
+   "hl": "https://media.api-sports.io/football/teams/7619.png",
+   "al": "https://media.api-sports.io/football/teams/7214.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647222,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Carrick Rangers",
+   "away": "Glenavon FC",
+   "hl": "https://media.api-sports.io/football/teams/5350.png",
+   "al": "https://media.api-sports.io/football/teams/2275.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1647223,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Dungannon Swifts",
+   "away": "Coleraine FC",
+   "hl": "https://media.api-sports.io/football/teams/5351.png",
+   "al": "https://media.api-sports.io/football/teams/669.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647224,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Glentoran",
+   "away": "Larne",
+   "hl": "https://media.api-sports.io/football/teams/5352.png",
+   "al": "https://media.api-sports.io/football/teams/5354.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647225,
+   "league": "Northern-Ireland - League Cup",
+   "home": "H&W Welders",
+   "away": "Linfield",
+   "hl": "https://media.api-sports.io/football/teams/5343.png",
+   "al": "https://media.api-sports.io/football/teams/583.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647226,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Limavady United",
+   "away": "Rathfriland",
+   "hl": "https://media.api-sports.io/football/teams/11114.png",
+   "al": "https://media.api-sports.io/football/teams/17241.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647227,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Loughgall",
+   "away": "Queen's University",
+   "hl": "https://media.api-sports.io/football/teams/5345.png",
+   "al": "https://media.api-sports.io/football/teams/5349.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647228,
+   "league": "Northern-Ireland - League Cup",
+   "home": "Moyola Park",
+   "away": "Ballymena United",
+   "hl": "https://media.api-sports.io/football/teams/11117.png",
+   "al": "https://media.api-sports.io/football/teams/668.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649154,
+   "league": "Scotland - Challenge Cup",
+   "home": "Arbroath",
+   "away": "Airdrie United",
+   "hl": "https://media.api-sports.io/football/teams/4249.png",
+   "al": "https://media.api-sports.io/football/teams/4668.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "C. Burnside"
+    }
+   ]
+  },
+  {
+   "id": 1649155,
+   "league": "Scotland - Challenge Cup",
+   "home": "Ayr Utd",
+   "away": "Inverness CT",
+   "hl": "https://media.api-sports.io/football/teams/1387.png",
+   "al": "https://media.api-sports.io/football/teams/903.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649156,
+   "league": "Scotland - Challenge Cup",
+   "home": "Clydebank",
+   "away": "Queen's Park",
+   "hl": "https://media.api-sports.io/football/teams/17025.png",
+   "al": "https://media.api-sports.io/football/teams/6778.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649157,
+   "league": "Scotland - Challenge Cup",
+   "home": "Dunfermline",
+   "away": "Kelty Hearts",
+   "hl": "https://media.api-sports.io/football/teams/1388.png",
+   "al": "https://media.api-sports.io/football/teams/6773.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649158,
+   "league": "Scotland - Challenge Cup",
+   "home": "East Kilbride",
+   "away": "Partick",
+   "hl": "https://media.api-sports.io/football/teams/6765.png",
+   "al": "https://media.api-sports.io/football/teams/901.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649159,
+   "league": "Scotland - Challenge Cup",
+   "home": "Hamilton Academical",
+   "away": "Cove Rangers",
+   "hl": "https://media.api-sports.io/football/teams/248.png",
+   "al": "https://media.api-sports.io/football/teams/6763.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649160,
+   "league": "Scotland - Challenge Cup",
+   "home": "Livingston",
+   "away": "Peterhead",
+   "hl": "https://media.api-sports.io/football/teams/255.png",
+   "al": "https://media.api-sports.io/football/teams/6777.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649161,
+   "league": "Scotland - Challenge Cup",
+   "home": "Ross County",
+   "away": "Stenhousemuir",
+   "hl": "https://media.api-sports.io/football/teams/902.png",
+   "al": "https://media.api-sports.io/football/teams/6784.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-24T19:45:00+00:00",
    "ev": [
     {
      "m": 4,
@@ -98,253 +1078,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "David Okereke"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Antonio prisco"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Edoardo Biondini"
-    }
-   ]
-  },
-  {
-   "id": 1601614,
-   "league": "Italy - Serie B",
-   "home": "Cesena",
-   "away": "Ascoli",
-   "hl": "https://media.api-sports.io/football/teams/509.png",
-   "al": "https://media.api-sports.io/football/teams/507.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jacopo Gelli"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sergiu Perciun"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Maat Daniel Caprini"
-    }
-   ]
-  },
-  {
-   "id": 1601616,
-   "league": "Italy - Serie B",
-   "home": "Virtus Entella",
-   "away": "Hellas Verona",
-   "hl": "https://media.api-sports.io/football/teams/527.png",
-   "al": "https://media.api-sports.io/football/teams/504.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Amin Sarr"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Giacomo Corona"
-    }
-   ]
-  },
-  {
-   "id": 1601618,
-   "league": "Italy - Serie B",
-   "home": "Vicenza Virtus",
-   "away": "Carrarese",
-   "hl": "https://media.api-sports.io/football/teams/1584.png",
-   "al": "https://media.api-sports.io/football/teams/1581.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Nicolas Schiavi"
-    }
-   ]
-  },
-  {
-   "id": 1601621,
-   "league": "Italy - Serie B",
-   "home": "Palermo",
-   "away": "Sudtirol",
-   "hl": "https://media.api-sports.io/football/teams/522.png",
-   "al": "https://media.api-sports.io/football/teams/1578.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dennis Johnsen"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joel Pohjanpalo"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mattia Pellini"
-    }
-   ]
-  },
-  {
-   "id": 1627132,
-   "league": "England - Premier League Cup",
-   "home": "Huddersfield Town U21",
-   "away": "Swansea City U21",
-   "hl": "https://media.api-sports.io/football/teams/20017.png",
-   "al": "https://media.api-sports.io/football/teams/11912.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Lloyd"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "J. Ebanks-Blake"
-    }
-   ]
-  },
-  {
-   "id": 1627133,
-   "league": "England - Premier League Cup",
-   "home": "Ipswich Town U21",
-   "away": "Bromley U21",
-   "hl": "https://media.api-sports.io/football/teams/20094.png",
-   "al": "https://media.api-sports.io/football/teams/24846.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1627134,
-   "league": "England - Premier League Cup",
-   "home": "Queens Park Rangers U21",
-   "away": "Southampton U21",
-   "hl": "https://media.api-sports.io/football/teams/20085.png",
-   "al": "https://media.api-sports.io/football/teams/7201.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1627135,
-   "league": "England - Premier League Cup",
-   "home": "Sheffield United U21",
-   "away": "Millwall U21",
-   "hl": "https://media.api-sports.io/football/teams/20086.png",
-   "al": "https://media.api-sports.io/football/teams/20095.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Eadie"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Taylor"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Howard"
+     "p": "K. Phillips"
     }
    ]
   },
@@ -358,7 +1092,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -445,7 +1179,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -521,10 +1255,10 @@
    "away": "Olympic El Qanah",
    "hl": "https://media.api-sports.io/football/teams/1575.png",
    "al": "https://media.api-sports.io/football/teams/13822.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": [
     {
@@ -590,6 +1324,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mohamed Ahmed El Kott"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Islam Gaber"
     }
    ]
   },
@@ -603,7 +1345,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-24T18:15:00+00:00",
    "ev": [
     {
@@ -685,6 +1427,426 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Joao Felix"
+    }
+   ]
+  },
+  {
+   "id": 1588819,
+   "league": "England - EFL Trophy",
+   "home": "Salford City",
+   "away": "Sunderland U21",
+   "hl": "https://media.api-sports.io/football/teams/1844.png",
+   "al": "https://media.api-sports.io/football/teams/11915.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Paolo Mariani"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jaydon Jones"
+    }
+   ]
+  },
+  {
+   "id": 1588839,
+   "league": "England - EFL Trophy",
+   "home": "Tranmere",
+   "away": "Everton U21",
+   "hl": "https://media.api-sports.io/football/teams/1381.png",
+   "al": "https://media.api-sports.io/football/teams/7193.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Braiden Graham"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "David Kamara"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sam Finley"
+    }
+   ]
+  },
+  {
+   "id": 1588868,
+   "league": "England - EFL Trophy",
+   "home": "Oxford United",
+   "away": "Tottenham Hotspur U21",
+   "hl": "https://media.api-sports.io/football/teams/1338.png",
+   "al": "https://media.api-sports.io/football/teams/7202.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tyler Tingey"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Junai Byfield"
+    }
+   ]
+  },
+  {
+   "id": 1601613,
+   "league": "Italy - Serie B",
+   "home": "Benevento",
+   "away": "Empoli",
+   "hl": "https://media.api-sports.io/football/teams/506.png",
+   "al": "https://media.api-sports.io/football/teams/511.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "David Okereke"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Antonio prisco"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edoardo Biondini"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edoardo Saporiti"
+    }
+   ]
+  },
+  {
+   "id": 1601614,
+   "league": "Italy - Serie B",
+   "home": "Cesena",
+   "away": "Ascoli",
+   "hl": "https://media.api-sports.io/football/teams/509.png",
+   "al": "https://media.api-sports.io/football/teams/507.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jacopo Gelli"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergiu Perciun"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Maat Daniel Caprini"
+    }
+   ]
+  },
+  {
+   "id": 1601616,
+   "league": "Italy - Serie B",
+   "home": "Virtus Entella",
+   "away": "Hellas Verona",
+   "hl": "https://media.api-sports.io/football/teams/527.png",
+   "al": "https://media.api-sports.io/football/teams/504.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Amin Sarr"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Giacomo Corona"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tommaso Annoni"
+    }
+   ]
+  },
+  {
+   "id": 1601618,
+   "league": "Italy - Serie B",
+   "home": "Vicenza Virtus",
+   "away": "Carrarese",
+   "hl": "https://media.api-sports.io/football/teams/1584.png",
+   "al": "https://media.api-sports.io/football/teams/1581.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nicolas Schiavi"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Claudio Morra"
+    }
+   ]
+  },
+  {
+   "id": 1601621,
+   "league": "Italy - Serie B",
+   "home": "Palermo",
+   "away": "Sudtirol",
+   "hl": "https://media.api-sports.io/football/teams/522.png",
+   "al": "https://media.api-sports.io/football/teams/1578.png",
+   "gh": 3,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dennis Johnsen"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joel Pohjanpalo"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mattia Pellini"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dominic Vavassori"
+    }
+   ]
+  },
+  {
+   "id": 1627132,
+   "league": "England - Premier League Cup",
+   "home": "Huddersfield Town U21",
+   "away": "Swansea City U21",
+   "hl": "https://media.api-sports.io/football/teams/20017.png",
+   "al": "https://media.api-sports.io/football/teams/11912.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Lloyd"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "J. Ebanks-Blake"
+    }
+   ]
+  },
+  {
+   "id": 1627133,
+   "league": "England - Premier League Cup",
+   "home": "Ipswich Town U21",
+   "away": "Bromley U21",
+   "hl": "https://media.api-sports.io/football/teams/20094.png",
+   "al": "https://media.api-sports.io/football/teams/24846.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Z. Campbell"
+    }
+   ]
+  },
+  {
+   "id": 1627134,
+   "league": "England - Premier League Cup",
+   "home": "Queens Park Rangers U21",
+   "away": "Southampton U21",
+   "hl": "https://media.api-sports.io/football/teams/20085.png",
+   "al": "https://media.api-sports.io/football/teams/7201.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Mcmullan"
+    }
+   ]
+  },
+  {
+   "id": 1627135,
+   "league": "England - Premier League Cup",
+   "home": "Sheffield United U21",
+   "away": "Millwall U21",
+   "hl": "https://media.api-sports.io/football/teams/20086.png",
+   "al": "https://media.api-sports.io/football/teams/20095.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Eadie"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Taylor"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Howard"
     }
    ]
   }
