@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-24T12:40:29+03:00",
- "ts": 1795513229,
+ "updated": "2026-11-24T12:50:15+03:00",
+ "ts": 1795513815,
  "matches": [
+  {
+   "id": 1640234,
+   "league": "Bangladesh - Federation Cup",
+   "home": "Chattogram",
+   "away": "Brothers Union",
+   "hl": "https://media.api-sports.io/football/teams/28428.png",
+   "al": "https://media.api-sports.io/football/teams/5013.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 61,
+   "time": "2026-11-24T08:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1581945,
    "league": "Ukraine - Persha Liga",
@@ -11,8 +25,8 @@
    "al": "https://media.api-sports.io/football/teams/14433.png",
    "gh": 0,
    "ga": 1,
-   "status": "1H",
-   "minute": 37,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -42,8 +56,8 @@
    "al": "https://media.api-sports.io/football/teams/3882.png",
    "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -55,12 +69,12 @@
      "p": "A. Alfareza"
     },
     {
-     "m": 38,
+     "m": 37,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "J. Jean"
     },
     {
      "m": 40,
@@ -68,7 +82,15 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Kaka"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Drajad"
     }
    ]
   },
@@ -81,8 +103,8 @@
    "al": "https://media.api-sports.io/football/teams/4232.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -92,6 +114,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Pratama"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Madjar"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -102,10 +140,10 @@
    "away": "Sumsel United",
    "hl": "https://media.api-sports.io/football/teams/10134.png",
    "al": "https://media.api-sports.io/football/teams/26647.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -147,22 +185,16 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Eksel"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Memija"
     }
    ]
-  },
-  {
-   "id": 1640234,
-   "league": "Bangladesh - Federation Cup",
-   "home": "Chattogram",
-   "away": "Brothers Union",
-   "hl": "https://media.api-sports.io/football/teams/28428.png",
-   "al": "https://media.api-sports.io/football/teams/5013.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 51,
-   "time": "2026-11-24T08:30:00+00:00",
-   "ev": []
   }
  ]
 }
