@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T19:08:35+03:00",
- "ts": 1795536515,
+ "updated": "2026-11-24T19:10:13+03:00",
+ "ts": 1795536613,
  "matches": [
   {
    "id": 1546163,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 40,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": []
   },
@@ -26,9 +26,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 40,
    "time": "2026-11-24T15:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Murillo"
+    }
+   ]
   },
   {
    "id": 1571631,
@@ -40,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 11,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -52,9 +61,9 @@
    "hl": "https://media.api-sports.io/football/teams/2870.png",
    "al": "https://media.api-sports.io/football/teams/2933.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 8,
+   "minute": 10,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -64,6 +73,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Julián Quiñones"
+    },
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mahamadou Sangaré"
     }
    ]
   },
@@ -77,9 +94,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 9,
    "time": "2026-11-24T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Jabbar"
+    }
+   ]
   },
   {
    "id": 1645615,
@@ -91,7 +117,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 39,
+   "minute": 40,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -130,7 +156,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 10,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -144,7 +170,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 52,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -183,7 +209,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 50,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -214,7 +240,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 51,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -261,11 +287,34 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 52,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
      "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1598749,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Rio Ave U23",
+   "away": "União Leiria U23",
+   "hl": "https://media.api-sports.io/football/teams/15468.png",
+   "al": "https://media.api-sports.io/football/teams/26257.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-24T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -284,7 +333,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 74,
+   "minute": 76,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -350,6 +399,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Al Mayad"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Qarradi"
     }
    ]
   },
@@ -363,7 +420,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 52,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -402,7 +459,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 50,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -449,7 +506,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 51,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -480,7 +537,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 50,
+   "minute": 52,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -551,7 +608,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 67,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -628,9 +685,9 @@
    "hl": "https://media.api-sports.io/football/teams/20993.png",
    "al": "https://media.api-sports.io/football/teams/12505.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 82,
    "time": "2026-11-24T14:30:00+00:00",
    "ev": [
     {
@@ -717,32 +774,9 @@
      "m": 80,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
      "p": "A. Perez"
-    }
-   ]
-  },
-  {
-   "id": 1598749,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Rio Ave U23",
-   "away": "União Leiria U23",
-   "hl": "https://media.api-sports.io/football/teams/15468.png",
-   "al": "https://media.api-sports.io/football/teams/26257.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   },
