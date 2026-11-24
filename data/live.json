@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T15:50:26+03:00",
- "ts": 1795524626,
+ "updated": "2026-11-24T16:00:29+03:00",
+ "ts": 1795525229,
  "matches": [
   {
    "id": 1546165,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Goad"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Alfaro"
     }
    ]
   },
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": [
     {
@@ -58,7 +66,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -81,7 +89,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": [
     {
@@ -104,7 +112,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T12:20:00+00:00",
    "ev": []
   },
@@ -118,7 +126,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 28,
    "time": "2026-11-24T12:30:00+00:00",
    "ev": []
   },
@@ -132,7 +140,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -169,9 +177,9 @@
    "hl": "https://media.api-sports.io/football/teams/2776.png",
    "al": "https://media.api-sports.io/football/teams/2523.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -181,6 +189,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Carlos Akapo"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Marcos Guilherme"
     }
    ]
   },
@@ -192,9 +208,9 @@
    "hl": "https://media.api-sports.io/football/teams/836.png",
    "al": "https://media.api-sports.io/football/teams/2780.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-24T12:15:00+00:00",
    "ev": [
     {
@@ -220,155 +236,58 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Liu Zhurun"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lucas Ahijado"
     }
    ]
   },
   {
-   "id": 1646782,
-   "league": "Kenya - Super League",
-   "home": "Luanda Villa",
-   "away": "Equity Bank",
-   "hl": "https://media.api-sports.io/football/teams/22230.png",
-   "al": "https://media.api-sports.io/football/teams/21214.png",
+   "id": 1637381,
+   "league": "World - UEFA Youth League",
+   "home": "Como U19",
+   "away": "AEK Athens U19",
+   "hl": "https://media.api-sports.io/football/teams/17728.png",
+   "al": "https://media.api-sports.io/football/teams/7944.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T12:00:00+00:00",
+   "minute": 1,
+   "time": "2026-11-24T13:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1648380,
-   "league": "Indonesia - League Cup Indonesia",
-   "home": "Persepam Madura Utd",
-   "away": "Persela Lamongan",
-   "hl": "https://media.api-sports.io/football/teams/2444.png",
-   "al": "https://media.api-sports.io/football/teams/2450.png",
-   "gh": 1,
+   "id": 1637387,
+   "league": "World - UEFA Youth League",
+   "home": "Slovan Bratislava U19",
+   "away": "Real Betis U19",
+   "hl": "https://media.api-sports.io/football/teams/7934.png",
+   "al": "https://media.api-sports.io/football/teams/25195.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mendonca"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Rianto"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mendonca"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": []
   },
   {
-   "id": 1602745,
-   "league": "Thailand - Thai League 2",
-   "home": "Chanthaburi",
-   "away": "Esan Pattaya",
-   "hl": "https://media.api-sports.io/football/teams/6557.png",
-   "al": "https://media.api-sports.io/football/teams/13309.png",
-   "gh": 2,
+   "id": 1649981,
+   "league": "Tunisia - Ligue 2",
+   "home": "Ariana",
+   "away": "JS Kairouanaise",
+   "hl": "https://media.api-sports.io/football/teams/10598.png",
+   "al": "https://media.api-sports.io/football/teams/993.png",
+   "gh": 0,
    "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Nemati"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Bruno Catanhede"
-    }
-   ]
-  },
-  {
-   "id": 1637383,
-   "league": "World - UEFA Youth League",
-   "home": "Galatasaray U19",
-   "away": "Aston Villa U19",
-   "hl": "https://media.api-sports.io/football/teams/7900.png",
-   "al": "https://media.api-sports.io/football/teams/24970.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Meade"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Tagay"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Tagay"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal Disallowed - video review",
-     "p": null
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Karasu"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Boyd"
-    }
-   ]
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-24T13:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1647899,
@@ -380,7 +299,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 54,
+   "minute": 65,
    "time": "2026-11-24T11:30:00+00:00",
    "ev": [
     {
@@ -392,12 +311,12 @@
      "p": "H. Zamehran"
     },
     {
-     "m": 54,
+     "m": 55,
      "x": null,
      "s": "a",
      "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "d": "Own Goal",
+     "p": "A. Aghaei"
     }
    ]
   },
@@ -423,6 +342,20 @@
      "p": null
     }
    ]
+  },
+  {
+   "id": 1646782,
+   "league": "Kenya - Super League",
+   "home": "Luanda Villa",
+   "away": "Equity Bank",
+   "hl": "https://media.api-sports.io/football/teams/22230.png",
+   "al": "https://media.api-sports.io/football/teams/21214.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1646786,
@@ -474,6 +407,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Andika"
+    }
+   ]
+  },
+  {
+   "id": 1648380,
+   "league": "Indonesia - League Cup Indonesia",
+   "home": "Persepam Madura Utd",
+   "away": "Persela Lamongan",
+   "hl": "https://media.api-sports.io/football/teams/2444.png",
+   "al": "https://media.api-sports.io/football/teams/2450.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mendonca"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Rianto"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mendonca"
     }
    ]
   }
