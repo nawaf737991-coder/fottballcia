@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T05:10:28+03:00",
- "ts": 1795486228,
+ "updated": "2026-11-24T05:20:12+03:00",
+ "ts": 1795486812,
  "matches": [
   {
    "id": 1551727,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T02:00:00+00:00",
    "ev": []
   },
@@ -23,33 +23,27 @@
    "away": "Reboceros La Piedad",
    "hl": "https://media.api-sports.io/football/teams/19907.png",
    "al": "https://media.api-sports.io/football/teams/15937.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 5,
-   "time": "2026-11-24T02:05:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1649498,
-   "league": "USA - Major League Soccer",
-   "home": "St. Louis City",
-   "away": "Los Angeles FC",
-   "hl": "https://media.api-sports.io/football/teams/20787.png",
-   "al": "https://media.api-sports.io/football/teams/1616.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T01:00:00+00:00",
+   "minute": 15,
+   "time": "2026-11-24T02:05:00+00:00",
    "ev": [
     {
-     "m": 34,
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 12,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Daniel Edelman"
+     "p": null
     }
    ]
   },
@@ -63,7 +57,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": [
     {
@@ -113,6 +107,37 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649498,
+   "league": "USA - Major League Soccer",
+   "home": "St. Louis City",
+   "away": "Los Angeles FC",
+   "hl": "https://media.api-sports.io/football/teams/20787.png",
+   "al": "https://media.api-sports.io/football/teams/1616.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Daniel Edelman"
     }
    ]
   }
