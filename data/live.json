@@ -1,107 +1,7 @@
 {
- "updated": "2026-11-24T13:40:19+03:00",
- "ts": 1795516819,
+ "updated": "2026-11-24T13:50:24+03:00",
+ "ts": 1795517424,
  "matches": [
-  {
-   "id": 1629982,
-   "league": "World - AFC Champions League Elite",
-   "home": "Daejeon Citizen",
-   "away": "Beijing Guoan",
-   "hl": "https://media.api-sports.io/football/teams/2750.png",
-   "al": "https://media.api-sports.io/football/teams/830.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-24T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Um Won-Sang"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "João Victor"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Béni Nkololo"
-    }
-   ]
-  },
-  {
-   "id": 1629983,
-   "league": "World - AFC Champions League Elite",
-   "home": "Kyoto Sanga",
-   "away": "Pohang Steelers",
-   "hl": "https://media.api-sports.io/football/teams/302.png",
-   "al": "https://media.api-sports.io/football/teams/2764.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T10:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1637380,
-   "league": "World - UEFA Youth League",
-   "home": "Bodø / Glimt U19",
-   "away": "LASK U19",
-   "hl": "https://media.api-sports.io/football/teams/16553.png",
-   "al": "https://media.api-sports.io/football/teams/28370.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-24T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Bozsoki"
-    },
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Krapf"
-    },
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Chooly"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Krapf"
-    }
-   ]
-  },
   {
    "id": 1646634,
    "league": "India - I-League",
@@ -110,11 +10,28 @@
    "hl": "https://media.api-sports.io/football/teams/28560.png",
    "al": "https://media.api-sports.io/football/teams/15748.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T10:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Sardesai"
+    }
+   ]
   },
   {
    "id": 1581945,
@@ -123,10 +40,10 @@
    "away": "Chernihiv",
    "hl": "https://media.api-sports.io/football/teams/3620.png",
    "al": "https://media.api-sports.io/football/teams/14433.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -168,6 +85,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Andriy Riznyk"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Volodymyr Rudyuk"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dmytro vitaliy teplyi"
     }
    ]
   },
@@ -181,7 +114,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -215,6 +148,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Drajad"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Ricardo"
     }
    ]
   },
@@ -225,10 +166,10 @@
    "away": "PSBS Biak Numfor",
    "hl": "https://media.api-sports.io/football/teams/2446.png",
    "al": "https://media.api-sports.io/football/teams/4232.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -286,6 +227,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "S. Ramdani"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Suaib"
     }
    ]
   },
@@ -299,7 +248,7 @@
    "gh": 6,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -372,7 +321,132 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "D. Hartono"
+    }
+   ]
+  },
+  {
+   "id": 1629982,
+   "league": "World - AFC Champions League Elite",
+   "home": "Daejeon Citizen",
+   "away": "Beijing Guoan",
+   "hl": "https://media.api-sports.io/football/teams/2750.png",
+   "al": "https://media.api-sports.io/football/teams/830.png",
+   "gh": 3,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Um Won-Sang"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "João Victor"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Béni Nkololo"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Masatoshi Ishida"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "João Victor"
+    }
+   ]
+  },
+  {
+   "id": 1629983,
+   "league": "World - AFC Champions League Elite",
+   "home": "Kyoto Sanga",
+   "away": "Pohang Steelers",
+   "hl": "https://media.api-sports.io/football/teams/302.png",
+   "al": "https://media.api-sports.io/football/teams/2764.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Hisashi Appiah Tawiah"
+    }
+   ]
+  },
+  {
+   "id": 1637380,
+   "league": "World - UEFA Youth League",
+   "home": "Bodø / Glimt U19",
+   "away": "LASK U19",
+   "hl": "https://media.api-sports.io/football/teams/16553.png",
+   "al": "https://media.api-sports.io/football/teams/28370.png",
+   "gh": 1,
+   "ga": 3,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Bozsoki"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Krapf"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Chooly"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Krapf"
     }
    ]
   }
