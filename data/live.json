@@ -1,46 +1,7 @@
 {
- "updated": "2026-11-24T03:50:23+03:00",
- "ts": 1795481423,
+ "updated": "2026-11-24T04:00:27+03:00",
+ "ts": 1795482027,
  "matches": [
-  {
-   "id": 1492469,
-   "league": "Brazil - Serie A",
-   "home": "Santos",
-   "away": "Gremio",
-   "hl": "https://media.api-sports.io/football/teams/128.png",
-   "al": "https://media.api-sports.io/football/teams/130.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Francis Amuzu"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Erick Noriega"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "João Alencar"
-    }
-   ]
-  },
   {
    "id": 1651241,
    "league": "Colombia - Primera B",
@@ -51,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T00:30:00+00:00",
    "ev": []
   },
@@ -65,7 +26,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -123,6 +84,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tiquinho Soares"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Marçal"
+    },
+    {
+     "m": 90,
+     "x": 6,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Wendell"
     }
    ]
   },
@@ -136,7 +113,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -178,6 +155,61 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Sebastian Vargas"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Fabricio Domínguez"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Fabricio Domínguez"
+    }
+   ]
+  },
+  {
+   "id": 1492469,
+   "league": "Brazil - Serie A",
+   "home": "Santos",
+   "away": "Gremio",
+   "hl": "https://media.api-sports.io/football/teams/128.png",
+   "al": "https://media.api-sports.io/football/teams/130.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Francis Amuzu"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Erick Noriega"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "João Alencar"
     }
    ]
   },
