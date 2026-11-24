@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T21:00:15+03:00",
- "ts": 1795543215,
+ "updated": "2026-11-24T21:10:16+03:00",
+ "ts": 1795543816,
  "matches": [
   {
    "id": 1600377,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T17:30:00+00:00",
    "ev": [
     {
@@ -43,8 +43,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T17:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601617,
+   "league": "Italy - Serie B",
+   "home": "Juve Stabia",
+   "away": "Catanzaro",
+   "hl": "https://media.api-sports.io/football/teams/863.png",
+   "al": "https://media.api-sports.io/football/teams/1687.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T18:00:00+00:00",
    "ev": []
   },
   {
@@ -57,7 +71,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-24T18:00:00+00:00",
    "ev": []
   },
@@ -69,11 +83,20 @@
    "hl": "https://media.api-sports.io/football/teams/1575.png",
    "al": "https://media.api-sports.io/football/teams/13822.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-24T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "mawuli wayo"
+    }
+   ]
   },
   {
    "id": 1635641,
@@ -85,7 +108,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-24T17:45:00+00:00",
    "ev": []
   },
@@ -99,7 +122,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-24T17:45:00+00:00",
    "ev": []
   },
@@ -113,7 +136,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-24T16:30:00+00:00",
    "ev": [
     {
@@ -146,30 +169,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1632503,
-   "league": "Rwanda - National Soccer League",
-   "home": "Kiyovu Sports",
-   "away": "Al Hilal Omdurman",
-   "hl": "https://media.api-sports.io/football/teams/5317.png",
-   "al": "https://media.api-sports.io/football/teams/5237.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 73,
-   "time": "2026-11-24T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Kagayo"
+     "p": "Maksim Vityugov"
     }
    ]
   },
@@ -182,8 +182,8 @@
    "al": "https://media.api-sports.io/football/teams/17475.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -205,6 +205,29 @@
    ]
   },
   {
+   "id": 1632503,
+   "league": "Rwanda - National Soccer League",
+   "home": "Kiyovu Sports",
+   "away": "Al Hilal Omdurman",
+   "hl": "https://media.api-sports.io/football/teams/5317.png",
+   "al": "https://media.api-sports.io/football/teams/5237.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 83,
+   "time": "2026-11-24T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Kagayo"
+    }
+   ]
+  },
+  {
    "id": 1645616,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Al-Duhail SC",
@@ -212,9 +235,9 @@
    "hl": "https://media.api-sports.io/football/teams/2904.png",
    "al": "https://media.api-sports.io/football/teams/10513.png",
    "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "ga": 1,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -240,6 +263,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. O. Madibo"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Masouras"
     }
    ]
   }
