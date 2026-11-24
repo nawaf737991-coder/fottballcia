@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-24T19:30:21+03:00",
- "ts": 1795537821,
+ "updated": "2026-11-24T19:40:30+03:00",
+ "ts": 1795538430,
  "matches": [
+  {
+   "id": 1563682,
+   "league": "Russia - Cup",
+   "home": "Zenit",
+   "away": "Krylia Sovetov",
+   "hl": "https://media.api-sports.io/football/teams/596.png",
+   "al": "https://media.api-sports.io/football/teams/1079.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-24T16:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1571631,
    "league": "Bulgaria - Second League",
@@ -12,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -35,7 +49,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -71,10 +85,10 @@
    "away": "Al Shorta",
    "hl": "https://media.api-sports.io/football/teams/7504.png",
    "al": "https://media.api-sports.io/football/teams/28571.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -92,8 +106,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Oladapo"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Riyami"
     }
    ]
+  },
+  {
+   "id": 1632503,
+   "league": "Rwanda - National Soccer League",
+   "home": "Kiyovu Sports",
+   "away": "Al Hilal Omdurman",
+   "hl": "https://media.api-sports.io/football/teams/5317.png",
+   "al": "https://media.api-sports.io/football/teams/5237.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1647176,
@@ -105,7 +141,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   },
@@ -117,9 +153,9 @@
    "hl": "https://media.api-sports.io/football/teams/3505.png",
    "al": "https://media.api-sports.io/football/teams/2262.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -153,6 +189,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Guram Goshteliani"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Welton Júnior"
+    }
+   ]
+  },
+  {
+   "id": 1546163,
+   "league": "World - World Cup - U17",
+   "home": "Algeria U17",
+   "away": "Montenegro U17",
+   "hl": "https://media.api-sports.io/football/teams/21295.png",
+   "al": "https://media.api-sports.io/football/teams/17966.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-24T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Y. Tifrani"
     }
    ]
   },
@@ -166,7 +233,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -188,6 +255,37 @@
    ]
   },
   {
+   "id": 1546169,
+   "league": "World - World Cup - U17",
+   "home": "Honduras U17",
+   "away": "Colombia U17",
+   "hl": "https://media.api-sports.io/football/teams/20997.png",
+   "al": "https://media.api-sports.io/football/teams/20527.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-24T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Murillo"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Arzu"
+    }
+   ]
+  },
+  {
    "id": 1598746,
    "league": "Portugal - Liga Revelação U23",
    "home": "Felgueiras U23",
@@ -197,7 +295,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -252,7 +350,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -275,7 +373,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -289,109 +387,6 @@
    ]
   },
   {
-   "id": 1604068,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Hajer",
-   "away": "Al Taee",
-   "hl": "https://media.api-sports.io/football/teams/2948.png",
-   "al": "https://media.api-sports.io/football/teams/2942.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Al Zaaqi"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Alioui"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "A. Lopez"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Alawi"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Yousef"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Al Burayh"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Al Haj"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Al Mayad"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Qarradi"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "A. Al Yousef"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Coulibaly"
-    }
-   ]
-  },
-  {
    "id": 1612281,
    "league": "Egypt - Premier League",
    "home": "Smouha SC",
@@ -401,7 +396,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -472,7 +467,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": []
   },
@@ -486,7 +481,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -520,6 +515,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Verdonk"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Ferreira"
     }
    ]
   },
@@ -530,10 +533,10 @@
    "away": "Napoli U19",
    "hl": "https://media.api-sports.io/football/teams/7914.png",
    "al": "https://media.api-sports.io/football/teams/7917.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 81,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -575,6 +578,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "L. Riccio"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Miles"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Lamb"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Oliver"
     }
    ]
   },
@@ -586,9 +613,9 @@
    "hl": "https://media.api-sports.io/football/teams/7924.png",
    "al": "https://media.api-sports.io/football/teams/22372.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -638,6 +665,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Rocolat"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Manoir"
     }
    ]
   },
@@ -651,7 +686,7 @@
    "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T15:00:00+00:00",
    "ev": [
     {
@@ -757,147 +792,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "J. Colaes"
-    }
-   ]
-  },
-  {
-   "id": 1645614,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al Riffa",
-   "away": "Al Zawra'a",
-   "hl": "https://media.api-sports.io/football/teams/5482.png",
-   "al": "https://media.api-sports.io/football/teams/8010.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-24T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Meziani"
     },
     {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wellington"
-    },
-    {
-     "m": 31,
+     "m": 76,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Meziani"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1546163,
-   "league": "World - World Cup - U17",
-   "home": "Algeria U17",
-   "away": "Montenegro U17",
-   "hl": "https://media.api-sports.io/football/teams/21295.png",
-   "al": "https://media.api-sports.io/football/teams/17966.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Y. Tifrani"
-    }
-   ]
-  },
-  {
-   "id": 1546169,
-   "league": "World - World Cup - U17",
-   "home": "Honduras U17",
-   "away": "Colombia U17",
-   "hl": "https://media.api-sports.io/football/teams/20997.png",
-   "al": "https://media.api-sports.io/football/teams/20527.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Murillo"
+     "p": "L. Schakenraad"
     }
    ]
   },
@@ -909,9 +811,9 @@
    "hl": "https://media.api-sports.io/football/teams/2879.png",
    "al": "https://media.api-sports.io/football/teams/2934.png",
    "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -937,6 +839,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "V. Henrique"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
