@@ -1,7 +1,38 @@
 {
- "updated": "2026-11-24T20:30:23+03:00",
- "ts": 1795541423,
+ "updated": "2026-11-24T20:40:27+03:00",
+ "ts": 1795542027,
  "matches": [
+  {
+   "id": 1563682,
+   "league": "Russia - Cup",
+   "home": "Zenit",
+   "away": "Krylia Sovetov",
+   "hl": "https://media.api-sports.io/football/teams/596.png",
+   "al": "https://media.api-sports.io/football/teams/1079.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-24T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wendel"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nikita Chernov"
+    }
+   ]
+  },
   {
    "id": 1598752,
    "league": "Portugal - Liga Revelação U23",
@@ -12,7 +43,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 39,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -34,6 +65,34 @@
    ]
   },
   {
+   "id": 1600377,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Durban City",
+   "away": "Polokwane City",
+   "hl": "https://media.api-sports.io/football/teams/24757.png",
+   "al": "https://media.api-sports.io/football/teams/2693.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1600381,
+   "league": "South-Africa - Premier Soccer League",
+   "home": "Orlando Pirates",
+   "away": "Golden Arrows",
+   "hl": "https://media.api-sports.io/football/teams/2700.png",
+   "al": "https://media.api-sports.io/football/teams/2690.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T17:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1645616,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Al-Duhail SC",
@@ -43,7 +102,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -82,7 +141,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -118,10 +177,10 @@
    "away": "Al-Qadisiyah FC",
    "hl": "https://media.api-sports.io/football/teams/2870.png",
    "al": "https://media.api-sports.io/football/teams/2933.png",
-   "gh": 0,
-   "ga": 3,
+   "gh": 1,
+   "ga": 4,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -163,6 +222,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gastón Álvarez"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mateus Dias Lima"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Turki Al-Ammar"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tijjani Reijnders"
     }
    ]
   },
@@ -176,7 +259,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -218,101 +301,37 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Barco"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Busaidi"
     }
    ]
   },
   {
-   "id": 1645615,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Ajman",
-   "away": "Al-Ettifaq",
-   "hl": "https://media.api-sports.io/football/teams/2879.png",
-   "al": "https://media.api-sports.io/football/teams/2934.png",
+   "id": 1632503,
+   "league": "Rwanda - National Soccer League",
+   "home": "Kiyovu Sports",
+   "away": "Al Hilal Omdurman",
+   "hl": "https://media.api-sports.io/football/teams/5317.png",
+   "al": "https://media.api-sports.io/football/teams/5237.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T15:30:00+00:00",
+   "minute": 52,
+   "time": "2026-11-24T16:30:00+00:00",
    "ev": [
     {
-     "m": 4,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Harun"
-    },
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Al Sibyani"
-    },
-    {
-     "m": 24,
+     "m": 36,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "V. Henrique"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal Disallowed - video review",
-     "p": "S. Harun"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Kante"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Harun"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Victor Hugo"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Medran"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. A. Khateeb"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yuri Matias"
+     "p": "S. Kagayo"
     }
    ]
   },
@@ -326,63 +345,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1563682,
-   "league": "Russia - Cup",
-   "home": "Zenit",
-   "away": "Krylia Sovetov",
-   "hl": "https://media.api-sports.io/football/teams/596.png",
-   "al": "https://media.api-sports.io/football/teams/1079.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wendel"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nikita Chernov"
-    }
-   ]
-  },
-  {
-   "id": 1632503,
-   "league": "Rwanda - National Soccer League",
-   "home": "Kiyovu Sports",
-   "away": "Al Hilal Omdurman",
-   "hl": "https://media.api-sports.io/football/teams/5317.png",
-   "al": "https://media.api-sports.io/football/teams/5237.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Kagayo"
-    }
-   ]
   }
  ]
 }
