@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T01:10:14+03:00",
- "ts": 1795558214,
+ "updated": "2026-11-25T01:20:24+03:00",
+ "ts": 1795558824,
  "matches": [
   {
    "id": 1645381,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-24T22:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T21:00:00+00:00",
    "ev": [
     {
@@ -72,8 +72,8 @@
    "al": "https://media.api-sports.io/football/teams/2275.png",
    "gh": 2,
    "ga": 2,
-   "status": "ET",
-   "minute": 119,
+   "status": "P",
+   "minute": null,
    "time": "2026-11-24T19:45:00+00:00",
    "ev": [
     {
@@ -123,6 +123,54 @@
      "t": "Card",
      "d": "Red Card",
      "p": "C. Hawthorne"
+    },
+    {
+     "m": 120,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
     }
    ]
   }
