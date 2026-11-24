@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T14:40:21+03:00",
- "ts": 1795520421,
+ "updated": "2026-11-24T14:50:23+03:00",
+ "ts": 1795521023,
  "matches": [
   {
    "id": 1602745,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -26,37 +26,6 @@
    ]
   },
   {
-   "id": 1637383,
-   "league": "World - UEFA Youth League",
-   "home": "Galatasaray U19",
-   "away": "Aston Villa U19",
-   "hl": "https://media.api-sports.io/football/teams/7900.png",
-   "al": "https://media.api-sports.io/football/teams/24970.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-24T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Meade"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Yuzgec"
-    }
-   ]
-  },
-  {
    "id": 1647899,
    "league": "Iran - Azadegan League",
    "home": "Fard Alborz",
@@ -66,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-24T11:30:00+00:00",
    "ev": []
   },
@@ -80,7 +49,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -168,7 +137,15 @@
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
+     "p": "Boubacar Konte"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Red card cancelled",
      "p": "Boubacar Konte"
     }
    ]
@@ -183,7 +160,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -219,10 +196,10 @@
    "away": "LASK U19",
    "hl": "https://media.api-sports.io/football/teams/16553.png",
    "al": "https://media.api-sports.io/football/teams/28370.png",
-   "gh": 1,
-   "ga": 5,
+   "gh": 2,
+   "ga": 6,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -288,6 +265,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Wimmer"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Chooly"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -301,7 +294,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-24T10:30:00+00:00",
    "ev": [
     {
@@ -335,6 +328,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Pereyra"
+    }
+   ]
+  },
+  {
+   "id": 1637383,
+   "league": "World - UEFA Youth League",
+   "home": "Galatasaray U19",
+   "away": "Aston Villa U19",
+   "hl": "https://media.api-sports.io/football/teams/7900.png",
+   "al": "https://media.api-sports.io/football/teams/24970.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Meade"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Yuzgec"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Yuzgec"
     }
    ]
   }
