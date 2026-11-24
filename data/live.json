@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T20:00:17+03:00",
- "ts": 1795539617,
+ "updated": "2026-11-24T20:10:17+03:00",
+ "ts": 1795540217,
  "matches": [
   {
    "id": 1563682,
@@ -12,9 +12,40 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-24T16:30:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1598752,
+   "league": "Portugal - Liga Revelação U23",
+   "home": "Torreense U23",
+   "away": "Vizela U23",
+   "hl": "https://media.api-sports.io/football/teams/21720.png",
+   "al": "https://media.api-sports.io/football/teams/17475.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1632503,
@@ -23,12 +54,44 @@
    "away": "Al Hilal Omdurman",
    "hl": "https://media.api-sports.io/football/teams/5317.png",
    "al": "https://media.api-sports.io/football/teams/5237.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1645616,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Al-Duhail SC",
+   "away": "NEOM",
+   "hl": "https://media.api-sports.io/football/teams/2904.png",
+   "al": "https://media.api-sports.io/football/teams/10513.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Yansane"
+    }
+   ]
   },
   {
    "id": 1546163,
@@ -37,10 +100,10 @@
    "away": "Montenegro U17",
    "hl": "https://media.api-sports.io/football/teams/21295.png",
    "al": "https://media.api-sports.io/football/teams/17966.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -66,6 +129,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Y. Abed"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Abed"
     }
    ]
   },
@@ -77,9 +148,9 @@
    "hl": "https://media.api-sports.io/football/teams/20997.png",
    "al": "https://media.api-sports.io/football/teams/20527.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -113,40 +184,40 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Mosquera"
-    }
-   ]
-  },
-  {
-   "id": 1598749,
-   "league": "Portugal - Liga Revelação U23",
-   "home": "Rio Ave U23",
-   "away": "União Leiria U23",
-   "hl": "https://media.api-sports.io/football/teams/15468.png",
-   "al": "https://media.api-sports.io/football/teams/26257.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 79,
+     "m": 76,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "M. Caicedo"
+    }
+   ]
+  },
+  {
+   "id": 1571631,
+   "league": "Bulgaria - Second League",
+   "home": "Fratria",
+   "away": "Yantra 2019",
+   "hl": "https://media.api-sports.io/football/teams/21836.png",
+   "al": "https://media.api-sports.io/football/teams/8528.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-24T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     },
     {
-     "m": 81,
+     "m": 45,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -156,112 +227,88 @@
    ]
   },
   {
-   "id": 1612281,
-   "league": "Egypt - Premier League",
-   "home": "Smouha SC",
-   "away": "National Bank of Egypt",
-   "hl": "https://media.api-sports.io/football/teams/1044.png",
-   "al": "https://media.api-sports.io/football/teams/15570.png",
+   "id": 1629987,
+   "league": "World - AFC Champions League Elite",
+   "home": "Shabab Al Ahli Dubai",
+   "away": "Al-Qadisiyah FC",
+   "hl": "https://media.api-sports.io/football/teams/2870.png",
+   "al": "https://media.api-sports.io/football/teams/2933.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T15:00:00+00:00",
+   "minute": 51,
+   "time": "2026-11-24T16:00:00+00:00",
    "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Julián Quiñones"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Suleman Sani"
+    },
     {
      "m": 13,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ali Hamdy"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mahmoud El Gazzar"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abdel Aziz El Balouti"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Samir Fekri"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Attidjikou Samadou"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Attidjikou Samadou"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Karim Hamed"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Karim Hamed"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pape Abasse Badji"
+     "p": "Julián Quiñones"
     }
    ]
   },
   {
-   "id": 1612282,
-   "league": "Egypt - Premier League",
-   "home": "Masr",
-   "away": "Abu Qair Semad",
-   "hl": "https://media.api-sports.io/football/teams/7520.png",
-   "al": "https://media.api-sports.io/football/teams/15731.png",
-   "gh": 0,
+   "id": 1630406,
+   "league": "World - AFC Champions League Two",
+   "home": "Al Seeb",
+   "away": "Al Shorta",
+   "hl": "https://media.api-sports.io/football/teams/7504.png",
+   "al": "https://media.api-sports.io/football/teams/28571.png",
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T15:00:00+00:00",
+   "minute": 50,
+   "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
-     "m": 83,
+     "m": 8,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Seif Shika"
+     "p": "M. Jabbar"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Oladapo"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Riyami"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Moumouni"
     }
    ]
   },
@@ -275,7 +322,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 67,
+   "minute": 76,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -340,124 +387,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1571631,
-   "league": "Bulgaria - Second League",
-   "home": "Fratria",
-   "away": "Yantra 2019",
-   "hl": "https://media.api-sports.io/football/teams/21836.png",
-   "al": "https://media.api-sports.io/football/teams/8528.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1629987,
-   "league": "World - AFC Champions League Elite",
-   "home": "Shabab Al Ahli Dubai",
-   "away": "Al-Qadisiyah FC",
-   "hl": "https://media.api-sports.io/football/teams/2870.png",
-   "al": "https://media.api-sports.io/football/teams/2933.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Julián Quiñones"
-    },
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Suleman Sani"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Julián Quiñones"
-    }
-   ]
-  },
-  {
-   "id": 1630406,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Seeb",
-   "away": "Al Shorta",
-   "hl": "https://media.api-sports.io/football/teams/7504.png",
-   "al": "https://media.api-sports.io/football/teams/28571.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-24T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Jabbar"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Oladapo"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Al Riyami"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Moumouni"
+     "p": "Victor Hugo"
     }
    ]
   },
@@ -470,8 +400,8 @@
    "al": "https://media.api-sports.io/football/teams/3549.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
   }
