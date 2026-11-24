@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T12:20:23+03:00",
- "ts": 1795512023,
+ "updated": "2026-11-24T12:30:24+03:00",
+ "ts": 1795512624,
  "matches": [
   {
    "id": 1581945,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -35,9 +35,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648377,
@@ -49,7 +58,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -69,10 +78,10 @@
    "away": "Sumsel United",
    "hl": "https://media.api-sports.io/football/teams/10134.png",
    "al": "https://media.api-sports.io/football/teams/26647.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T09:00:00+00:00",
    "ev": [
     {
@@ -106,6 +115,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Atapelwa"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -119,7 +136,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-24T07:45:00+00:00",
    "ev": [
     {
@@ -153,6 +170,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kenshin Yuba"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thomas Aquilina"
     }
    ]
   },
