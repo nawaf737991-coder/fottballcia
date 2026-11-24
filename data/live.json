@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T14:30:18+03:00",
- "ts": 1795519818,
+ "updated": "2026-11-24T14:40:21+03:00",
+ "ts": 1795520421,
  "matches": [
   {
    "id": 1602745,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -57,6 +57,20 @@
    ]
   },
   {
+   "id": 1647899,
+   "league": "Iran - Azadegan League",
+   "home": "Fard Alborz",
+   "away": "Pars Jonoubi JAM",
+   "hl": "https://media.api-sports.io/football/teams/25364.png",
+   "al": "https://media.api-sports.io/football/teams/2702.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-24T11:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1629982,
    "league": "World - AFC Champions League Elite",
    "home": "Daejeon Citizen",
@@ -66,7 +80,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -140,6 +154,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Lee Soon-min"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dawhan Fran Urano da Purificação Oliveira"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Boubacar Konte"
     }
    ]
   },
@@ -150,10 +180,10 @@
    "away": "Pohang Steelers",
    "hl": "https://media.api-sports.io/football/teams/302.png",
    "al": "https://media.api-sports.io/football/teams/2764.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -171,6 +201,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kim Dong-Jin"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Masaya Okugawa"
     }
    ]
   },
@@ -182,9 +220,9 @@
    "hl": "https://media.api-sports.io/football/teams/16553.png",
    "al": "https://media.api-sports.io/football/teams/28370.png",
    "gh": 1,
-   "ga": 3,
+   "ga": 5,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-24T10:00:00+00:00",
    "ev": [
     {
@@ -234,6 +272,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Linaker Jenssen"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Miksch"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Wimmer"
     }
    ]
   },
@@ -246,8 +300,8 @@
    "al": "https://media.api-sports.io/football/teams/15748.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-24T10:30:00+00:00",
    "ev": [
     {
