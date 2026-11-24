@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T03:30:16+03:00",
- "ts": 1795480216,
+ "updated": "2026-11-24T03:40:19+03:00",
+ "ts": 1795480819,
  "matches": [
   {
    "id": 1492469,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-24T00:00:00+00:00",
    "ev": [
     {
@@ -43,8 +43,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T00:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651241,
+   "league": "Colombia - Primera B",
+   "home": "Popayan",
+   "away": "Quindio",
+   "hl": "https://media.api-sports.io/football/teams/1460.png",
+   "al": "https://media.api-sports.io/football/teams/1461.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-24T00:30:00+00:00",
    "ev": []
   },
   {
@@ -57,7 +71,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
@@ -103,157 +117,6 @@
    ]
   },
   {
-   "id": 1492467,
-   "league": "Brazil - Serie A",
-   "home": "Internacional",
-   "away": "Vitoria",
-   "hl": "https://media.api-sports.io/football/teams/119.png",
-   "al": "https://media.api-sports.io/football/teams/136.png",
-   "gh": 2,
-   "ga": 5,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-23T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Carlos Renê de Sousa Ferreira"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Diego Tarzia"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yuri Sena"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matheus Bahia"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Vitinho"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Baralhas"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rafael dos Santos Lacerda"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "José Carlos Ferreira Júnior"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ramon"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jamerson"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Emmanuel Martínez"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alerrandro"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alerrandro"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Zé Vitor"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Baralhas"
-    },
-    {
-     "m": 90,
-     "x": 5,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Renato Kayzer"
-    },
-    {
-     "m": 90,
-     "x": 4,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Renato Kayzer"
-    }
-   ]
-  },
-  {
    "id": 1632064,
    "league": "Paraguay - Division Profesional - Clausura",
    "home": "Nacional Asuncion",
@@ -263,7 +126,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 67,
    "time": "2026-11-23T23:15:00+00:00",
    "ev": [
     {
@@ -297,6 +160,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Carlos Espinola"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastian Vargas"
     }
    ]
   },
@@ -310,7 +181,7 @@
    "gh": 4,
    "ga": 8,
    "status": "2H",
-   "minute": 65,
+   "minute": 76,
    "time": "2026-11-23T23:00:00+00:00",
    "ev": [
     {
