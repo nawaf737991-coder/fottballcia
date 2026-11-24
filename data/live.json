@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T20:10:17+03:00",
- "ts": 1795540217,
+ "updated": "2026-11-24T20:20:29+03:00",
+ "ts": 1795540829,
  "matches": [
   {
    "id": 1563682,
@@ -9,12 +9,21 @@
    "away": "Krylia Sovetov",
    "hl": "https://media.api-sports.io/football/teams/596.png",
    "al": "https://media.api-sports.io/football/teams/1079.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-24T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wendel"
+    }
+   ]
   },
   {
    "id": 1598752,
@@ -26,7 +35,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 19,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -48,29 +57,6 @@
    ]
   },
   {
-   "id": 1632503,
-   "league": "Rwanda - National Soccer League",
-   "home": "Kiyovu Sports",
-   "away": "Al Hilal Omdurman",
-   "hl": "https://media.api-sports.io/football/teams/5317.png",
-   "al": "https://media.api-sports.io/football/teams/5237.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1645616,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Al-Duhail SC",
@@ -80,7 +66,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-24T17:00:00+00:00",
    "ev": [
     {
@@ -103,7 +89,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -137,6 +123,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Y. Abed"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Ajkovic"
     }
    ]
   },
@@ -148,9 +142,9 @@
    "hl": "https://media.api-sports.io/football/teams/20997.png",
    "al": "https://media.api-sports.io/football/teams/20527.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -192,6 +186,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Caicedo"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Escorcia"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Romero"
     }
    ]
   },
@@ -205,7 +215,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -223,6 +233,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -234,9 +252,9 @@
    "hl": "https://media.api-sports.io/football/teams/2870.png",
    "al": "https://media.api-sports.io/football/teams/2933.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -275,7 +293,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": [
     {
@@ -309,6 +327,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Moumouni"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "C. Barco"
     }
    ]
   },
@@ -322,7 +348,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-24T15:30:00+00:00",
    "ev": [
     {
@@ -388,6 +414,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Victor Hugo"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. A. Khateeb"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yuri Matias"
     }
    ]
   },
@@ -401,9 +443,32 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 64,
    "time": "2026-11-24T16:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1632503,
+   "league": "Rwanda - National Soccer League",
+   "home": "Kiyovu Sports",
+   "away": "Al Hilal Omdurman",
+   "hl": "https://media.api-sports.io/football/teams/5317.png",
+   "al": "https://media.api-sports.io/football/teams/5237.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Kagayo"
+    }
+   ]
   }
  ]
 }
