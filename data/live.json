@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T15:20:16+03:00",
- "ts": 1795522816,
+ "updated": "2026-11-24T15:30:18+03:00",
+ "ts": 1795523418,
  "matches": [
   {
    "id": 1602746,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -35,8 +35,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1604066,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Jabalain",
+   "away": "Al Zulfi",
+   "hl": "https://media.api-sports.io/football/teams/2958.png",
+   "al": "https://media.api-sports.io/football/teams/10524.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T12:20:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1604067,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Orubah",
+   "away": "Al Najma",
+   "hl": "https://media.api-sports.io/football/teams/2961.png",
+   "al": "https://media.api-sports.io/football/teams/2992.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-24T12:20:00+00:00",
    "ev": []
   },
   {
@@ -49,9 +77,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-24T12:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kota Watanabe"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Alan Grafite"
+    }
+   ]
   },
   {
    "id": 1629985,
@@ -63,9 +108,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-24T12:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Carlos Akapo"
+    }
+   ]
   },
   {
    "id": 1629986,
@@ -77,9 +131,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-24T12:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Miguel Campos"
+    }
+   ]
   },
   {
    "id": 1646782,
@@ -89,9 +152,9 @@
    "hl": "https://media.api-sports.io/football/teams/22230.png",
    "al": "https://media.api-sports.io/football/teams/21214.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
   },
@@ -105,32 +168,9 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1647899,
-   "league": "Iran - Azadegan League",
-   "home": "Fard Alborz",
-   "away": "Pars Jonoubi JAM",
-   "hl": "https://media.api-sports.io/football/teams/25364.png",
-   "al": "https://media.api-sports.io/football/teams/2702.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-24T11:30:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Zamehran"
-    }
-   ]
   },
   {
    "id": 1648379,
@@ -142,9 +182,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648380,
@@ -153,10 +202,10 @@
    "away": "Persela Lamongan",
    "hl": "https://media.api-sports.io/football/teams/2444.png",
    "al": "https://media.api-sports.io/football/teams/2450.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T12:00:00+00:00",
    "ev": [
     {
@@ -165,6 +214,22 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Mendonca"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Rianto"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Mendonca"
     }
    ]
@@ -179,7 +244,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -202,7 +267,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-24T11:00:00+00:00",
    "ev": [
     {
@@ -219,7 +284,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Yuzgec"
+     "p": "A. Tagay"
     },
     {
      "m": 39,
@@ -227,7 +292,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Yuzgec"
+     "p": "A. Tagay"
     },
     {
      "m": 51,
@@ -244,69 +309,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Karasu"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Boyd"
     }
    ]
   },
   {
-   "id": 1646634,
-   "league": "India - I-League",
-   "home": "Samaleswari SC",
-   "away": "Bengaluru United",
-   "hl": "https://media.api-sports.io/football/teams/28560.png",
-   "al": "https://media.api-sports.io/football/teams/15748.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T10:30:00+00:00",
+   "id": 1647899,
+   "league": "Iran - Azadegan League",
+   "home": "Fard Alborz",
+   "away": "Pars Jonoubi JAM",
+   "hl": "https://media.api-sports.io/football/teams/25364.png",
+   "al": "https://media.api-sports.io/football/teams/2702.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T11:30:00+00:00",
    "ev": [
     {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 17,
+     "m": 31,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Sardesai"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Murmu"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Pereyra"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Pereyra"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Tyagi"
+     "p": "H. Zamehran"
     }
    ]
   }
