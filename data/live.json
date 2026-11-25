@@ -1,85 +1,7 @@
 {
- "updated": "2026-11-25T23:30:22+03:00",
- "ts": 1795638622,
+ "updated": "2026-11-25T23:40:28+03:00",
+ "ts": 1795639228,
  "matches": [
-  {
-   "id": 1563283,
-   "league": "England - Championship",
-   "home": "Bolton",
-   "away": "West Brom",
-   "hl": "https://media.api-sports.io/football/teams/68.png",
-   "al": "https://media.api-sports.io/football/teams/60.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Brayann Pereira"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aune Heggebo"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Akin Famewo"
-    }
-   ]
-  },
-  {
-   "id": 1563284,
-   "league": "England - Championship",
-   "home": "Burnley",
-   "away": "Birmingham",
-   "hl": "https://media.api-sports.io/football/teams/44.png",
-   "al": "https://media.api-sports.io/football/teams/54.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 43,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "August Priske"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jhon Elmer Solís Romero"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jaydon Banel"
-    }
-   ]
-  },
   {
    "id": 1563285,
    "league": "England - Championship",
@@ -87,10 +9,10 @@
    "away": "Millwall",
    "hl": "https://media.api-sports.io/football/teams/75.png",
    "al": "https://media.api-sports.io/football/teams/58.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -100,107 +22,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "George Hirst"
-    }
-   ]
-  },
-  {
-   "id": 1563286,
-   "league": "England - Championship",
-   "home": "Watford",
-   "away": "Blackburn",
-   "hl": "https://media.api-sports.io/football/teams/38.png",
-   "al": "https://media.api-sports.io/football/teams/67.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
+    },
     {
-     "m": 25,
+     "m": 34,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Jordan Zemura"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hayden Carter"
+     "p": "Luke Graham"
     },
     {
      "m": 40,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Moussa·Baradji"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Iker Bravo"
-    }
-   ]
-  },
-  {
-   "id": 1585363,
-   "league": "England - National League",
-   "home": "Harrogate Town",
-   "away": "Kidderminster Harriers",
-   "hl": "https://media.api-sports.io/football/teams/1842.png",
-   "al": "https://media.api-sports.io/football/teams/4695.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Brogan"
-    }
-   ]
-  },
-  {
-   "id": 1585364,
-   "league": "England - National League",
-   "home": "Hartlepool",
-   "away": "Solihull Moors",
-   "hl": "https://media.api-sports.io/football/teams/1366.png",
-   "al": "https://media.api-sports.io/football/teams/1834.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "L. Charman"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Sheron"
+     "p": "George Hirst"
     }
    ]
   },
@@ -214,7 +51,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -245,7 +82,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -268,7 +105,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -291,7 +128,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -311,10 +148,10 @@
    "away": "AS Roma",
    "hl": "https://media.api-sports.io/football/teams/85.png",
    "al": "https://media.api-sports.io/football/teams/497.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -324,6 +161,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mario Hermoso"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ilya Zabarnyi"
     }
    ]
   },
@@ -337,7 +182,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -357,92 +202,35 @@
    "away": "Manchester United",
    "hl": "https://media.api-sports.io/football/teams/228.png",
    "al": "https://media.api-sports.io/football/teams/33.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-25T20:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648100,
-   "league": "San-Marino - Coppa Titano",
-   "home": "Domagnano",
-   "away": "Tre Fiori",
-   "hl": "https://media.api-sports.io/football/teams/5299.png",
-   "al": "https://media.api-sports.io/football/teams/2260.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
-     "m": 5,
+     "m": 30,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Menini"
-    }
-   ]
-  },
-  {
-   "id": 1648101,
-   "league": "San-Marino - Coppa Titano",
-   "home": "Folgore",
-   "away": "Virtus",
-   "hl": "https://media.api-sports.io/football/teams/672.png",
-   "al": "https://media.api-sports.io/football/teams/5308.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648102,
-   "league": "San-Marino - Coppa Titano",
-   "home": "La Fiorita",
-   "away": "Cosmos",
-   "hl": "https://media.api-sports.io/football/teams/2249.png",
-   "al": "https://media.api-sports.io/football/teams/5298.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648103,
-   "league": "San-Marino - Coppa Titano",
-   "home": "Tre Penne",
-   "away": "Pennarossa",
-   "hl": "https://media.api-sports.io/football/teams/700.png",
-   "al": "https://media.api-sports.io/football/teams/5306.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 44,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Pieri"
+     "d": "Missed Penalty",
+     "p": "Luis Suárez"
     },
     {
-     "m": 16,
+     "m": 31,
      "x": null,
      "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Senne Lammens"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Penalty",
-     "p": "S. Abouzziane"
+     "p": "Luis Suárez"
     }
    ]
   },
@@ -454,11 +242,20 @@
    "hl": "https://media.api-sports.io/football/teams/25269.png",
    "al": "https://media.api-sports.io/football/teams/22487.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1572698,
@@ -470,7 +267,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
@@ -484,7 +281,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -534,6 +331,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Rush"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Stickland"
     }
    ]
   },
@@ -544,10 +349,10 @@
    "away": "Leeds United U21",
    "hl": "https://media.api-sports.io/football/teams/1336.png",
    "al": "https://media.api-sports.io/football/teams/14430.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -565,6 +370,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jayden Lienou"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aaron Loupalo-Bi"
     }
    ]
   },
@@ -575,10 +388,10 @@
    "away": "Arezzo",
    "hl": "https://media.api-sports.io/football/teams/1693.png",
    "al": "https://media.api-sports.io/football/teams/876.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -628,6 +441,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Rachid Kouda"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "matteo gilli"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Davide Bragantini"
     }
    ]
   },
@@ -641,7 +470,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -696,7 +525,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -730,6 +559,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Alessandro Bianco"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Giuseppe Ambrosino"
+    }
+   ]
+  },
+  {
+   "id": 1642049,
+   "league": "Lebanon - Premier League",
+   "home": "Safa",
+   "away": "Al Nejmeh",
+   "hl": "https://media.api-sports.io/football/teams/4573.png",
+   "al": "https://media.api-sports.io/football/teams/4570.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-25T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ibrahim"
     }
    ]
   },
@@ -740,10 +600,10 @@
    "away": "AZ U19",
    "hl": "https://media.api-sports.io/football/teams/7925.png",
    "al": "https://media.api-sports.io/football/teams/16384.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -792,7 +652,15 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "K. Glasgow"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Glasgow"
     }
    ]
   },
@@ -803,10 +671,10 @@
    "away": "Central SC",
    "hl": "https://media.api-sports.io/football/teams/7819.png",
    "al": "https://media.api-sports.io/football/teams/2210.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -839,7 +707,15 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Emerson"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gilvan"
     }
    ]
   },
@@ -853,7 +729,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -892,7 +768,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -930,25 +806,226 @@
    ]
   },
   {
-   "id": 1642049,
-   "league": "Lebanon - Premier League",
-   "home": "Safa",
-   "away": "Al Nejmeh",
-   "hl": "https://media.api-sports.io/football/teams/4573.png",
-   "al": "https://media.api-sports.io/football/teams/4570.png",
+   "id": 1563283,
+   "league": "England - Championship",
+   "home": "Bolton",
+   "away": "West Brom",
+   "hl": "https://media.api-sports.io/football/teams/68.png",
+   "al": "https://media.api-sports.io/football/teams/60.png",
    "gh": 0,
    "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T19:30:00+00:00",
+   "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
-     "m": 20,
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Brayann Pereira"
+    },
+    {
+     "m": 21,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Aune Heggebo"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Akin Famewo"
+    }
+   ]
+  },
+  {
+   "id": 1563284,
+   "league": "England - Championship",
+   "home": "Burnley",
+   "away": "Birmingham",
+   "hl": "https://media.api-sports.io/football/teams/44.png",
+   "al": "https://media.api-sports.io/football/teams/54.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "August Priske"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jhon Elmer Solís Romero"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jaydon Banel"
+    }
+   ]
+  },
+  {
+   "id": 1563286,
+   "league": "England - Championship",
+   "home": "Watford",
+   "away": "Blackburn",
+   "hl": "https://media.api-sports.io/football/teams/38.png",
+   "al": "https://media.api-sports.io/football/teams/67.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jordan Zemura"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hayden Carter"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Moussa·Baradji"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Iker Bravo"
+    }
+   ]
+  },
+  {
+   "id": 1585363,
+   "league": "England - National League",
+   "home": "Harrogate Town",
+   "away": "Kidderminster Harriers",
+   "hl": "https://media.api-sports.io/football/teams/1842.png",
+   "al": "https://media.api-sports.io/football/teams/4695.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Brogan"
+    }
+   ]
+  },
+  {
+   "id": 1585364,
+   "league": "England - National League",
+   "home": "Hartlepool",
+   "away": "Solihull Moors",
+   "hl": "https://media.api-sports.io/football/teams/1366.png",
+   "al": "https://media.api-sports.io/football/teams/1834.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Charman"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Sheron"
+    }
+   ]
+  },
+  {
+   "id": 1648102,
+   "league": "San-Marino - Coppa Titano",
+   "home": "La Fiorita",
+   "away": "Cosmos",
+   "hl": "https://media.api-sports.io/football/teams/2249.png",
+   "al": "https://media.api-sports.io/football/teams/5298.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1648103,
+   "league": "San-Marino - Coppa Titano",
+   "home": "Tre Penne",
+   "away": "Pennarossa",
+   "hl": "https://media.api-sports.io/football/teams/700.png",
+   "al": "https://media.api-sports.io/football/teams/5306.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Pieri"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "S. Abouzziane"
     }
    ]
   }
