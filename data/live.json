@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T17:50:12+03:00",
- "ts": 1795618212,
+ "updated": "2026-11-25T18:00:19+03:00",
+ "ts": 1795618819,
  "matches": [
   {
    "id": 1546192,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": [
     {
@@ -33,10 +33,33 @@
    "hl": "https://media.api-sports.io/football/teams/21000.png",
    "al": "https://media.api-sports.io/football/teams/25819.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 31,
+   "time": "2026-11-25T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Youssef Rabie"
+    }
+   ]
+  },
+  {
+   "id": 1592048,
+   "league": "Portugal - Júniores U19",
+   "home": "União Leiria U19",
+   "away": "Benfica U19",
+   "hl": "https://media.api-sports.io/football/teams/26302.png",
+   "al": "https://media.api-sports.io/football/teams/7888.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
-   "time": "2026-11-25T14:30:00+00:00",
+   "minute": 1,
+   "time": "2026-11-25T15:00:00+00:00",
    "ev": []
   },
   {
@@ -49,9 +72,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T14:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1611461,
@@ -61,10 +93,33 @@
    "hl": "https://media.api-sports.io/football/teams/904.png",
    "al": "https://media.api-sports.io/football/teams/911.png",
    "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 34,
+   "time": "2026-11-07T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1612286,
+   "league": "Egypt - Premier League",
+   "home": "El Geish",
+   "away": "Future FC",
+   "hl": "https://media.api-sports.io/football/teams/1039.png",
+   "al": "https://media.api-sports.io/football/teams/16431.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
-   "time": "2026-11-07T16:00:00+00:00",
+   "minute": 1,
+   "time": "2026-11-25T15:00:00+00:00",
    "ev": []
   },
   {
@@ -77,72 +132,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1645617,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Kazma",
-   "away": "Erbil",
-   "hl": "https://media.api-sports.io/football/teams/3540.png",
-   "al": "https://media.api-sports.io/football/teams/11070.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Miullen"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Olberkis"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Ndaw"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Al Khaldi"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Al Shammari"
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1645886,
@@ -154,7 +146,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": [
     {
@@ -185,7 +177,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -235,6 +227,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Abdullah Al Dawsari"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Miguel Joseph"
     }
    ]
   },
@@ -248,7 +248,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -295,7 +295,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -316,18 +316,18 @@
     },
     {
      "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Gambale"
-    },
-    {
-     "m": 45,
      "x": 1,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "D. Gambale"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "D. Gambale"
     },
     {
@@ -344,7 +344,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "G. Volpe"
     }
    ]
   },
@@ -355,10 +355,10 @@
    "away": "Khalidiya",
    "hl": "https://media.api-sports.io/football/teams/4215.png",
    "al": "https://media.api-sports.io/football/teams/17666.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-25T13:45:00+00:00",
    "ev": [
     {
@@ -376,6 +376,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Umar Eshmurodov"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abbos Gulomov"
     }
    ]
   },
@@ -389,476 +397,9 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630646,
-   "league": "Zambia - Super League",
-   "home": "NAPSA Stars",
-   "away": "Konkola Blades",
-   "hl": "https://media.api-sports.io/football/teams/5207.png",
-   "al": "https://media.api-sports.io/football/teams/5514.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630649,
-   "league": "Zambia - Super League",
-   "home": "Roan United",
-   "away": "Mufulira Wanderers",
-   "hl": "https://media.api-sports.io/football/teams/11273.png",
-   "al": "https://media.api-sports.io/football/teams/5206.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
    "minute": 89,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1630651,
-   "league": "Zambia - Super League",
-   "home": "Zanaco",
-   "away": "Nkana",
-   "hl": "https://media.api-sports.io/football/teams/5215.png",
-   "al": "https://media.api-sports.io/football/teams/5209.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1632512,
-   "league": "Rwanda - National Soccer League",
-   "home": "Al Merreikh",
-   "away": "AS Kigali",
-   "hl": "https://media.api-sports.io/football/teams/5239.png",
-   "al": "https://media.api-sports.io/football/teams/5310.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Ba"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Morrison"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1635336,
-   "league": "Uganda - Premier League",
-   "home": "NEC",
-   "away": "Kataka",
-   "hl": "https://media.api-sports.io/football/teams/22699.png",
-   "al": "https://media.api-sports.io/football/teams/28319.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Basangwa"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Basangwa"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1635337,
-   "league": "Uganda - Premier League",
-   "home": "Ntugasaze",
-   "away": "Police",
-   "hl": "https://media.api-sports.io/football/teams/28318.png",
-   "al": "https://media.api-sports.io/football/teams/12461.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Kaye"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Kiwanuka"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1635339,
-   "league": "Uganda - Premier League",
-   "home": "Maroons",
-   "away": "SC Villa",
-   "hl": "https://media.api-sports.io/football/teams/12454.png",
-   "al": "https://media.api-sports.io/football/teams/12457.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Kakande"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Kasinde"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Asiku"
-    }
-   ]
-  },
-  {
-   "id": 1637396,
-   "league": "World - UEFA Youth League",
-   "home": "Sporting CP U19",
-   "away": "Manchester United U19",
-   "hl": "https://media.api-sports.io/football/teams/7997.png",
-   "al": "https://media.api-sports.io/football/teams/7960.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Thwaites"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Helafu"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Silva"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Zekri"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Grombahi"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Grombahi"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Armer"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Camacho"
-    }
-   ]
-  },
-  {
-   "id": 1646637,
-   "league": "India - I-League",
-   "home": "Shillong Lajong",
-   "away": "Nagaland United",
-   "hl": "https://media.api-sports.io/football/teams/3470.png",
-   "al": "https://media.api-sports.io/football/teams/28559.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zomuansanga"
-    },
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Laldawngzuala"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Laldanmawia"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Arthur Pangaro"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Lamurong"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Laltlanzova"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "D. Lyngdoh"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Vanlalhriatzula"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649071,
-   "league": "World - UEFA Youth League",
-   "home": "Salzburg U19",
-   "away": "Crvena Zvezda U18",
-   "hl": "https://media.api-sports.io/football/teams/7928.png",
-   "al": "https://media.api-sports.io/football/teams/23030.png",
-   "gh": 5,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Adejenughure"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Vranic"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "O. Adejenughure"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Mitrovic"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Matjasec"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Pejakovic"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Onwuzulike"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Nisic"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Matjasec"
-    }
-   ]
   },
   {
    "id": 1637389,
@@ -1022,6 +563,77 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Y. Gashi"
+    }
+   ]
+  },
+  {
+   "id": 1645617,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Kazma",
+   "away": "Erbil",
+   "hl": "https://media.api-sports.io/football/teams/3540.png",
+   "al": "https://media.api-sports.io/football/teams/11070.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Miullen"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Olberkis"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Ndaw"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Al Khaldi"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Al Shammari"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 7,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
