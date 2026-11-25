@@ -1,30 +1,7 @@
 {
- "updated": "2026-11-25T21:20:15+03:00",
- "ts": 1795630815,
+ "updated": "2026-11-25T21:30:11+03:00",
+ "ts": 1795631411,
  "matches": [
-  {
-   "id": 1563681,
-   "league": "Russia - Cup",
-   "home": "Rubin",
-   "away": "Rodina Moskva",
-   "hl": "https://media.api-sports.io/football/teams/1083.png",
-   "al": "https://media.api-sports.io/football/teams/6822.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Artem Maksimenko"
-    }
-   ]
-  },
   {
    "id": 1601615,
    "league": "Italy - Serie B",
@@ -35,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": []
   },
@@ -49,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -58,7 +35,15 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Hossam Gahnem"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hossam Gahnem"
     }
    ]
   },
@@ -72,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": []
   },
@@ -86,7 +71,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-25T18:15:00+00:00",
    "ev": []
   },
@@ -100,7 +85,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -123,7 +108,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -159,10 +144,10 @@
    "away": "FC Levante Badalona W",
    "hl": "https://media.api-sports.io/football/teams/1916.png",
    "al": "https://media.api-sports.io/football/teams/19896.png",
-   "gh": 2,
-   "ga": 1,
+   "gh": 3,
+   "ga": 3,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -188,6 +173,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Haizea Aretxabala"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nerea Carmona"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Chinyere Kalu"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "alba quintana"
     }
    ]
   },
@@ -201,7 +210,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -237,7 +246,7 @@
    "away": "Al-Markhiya",
    "hl": "https://media.api-sports.io/football/teams/2925.png",
    "al": "https://media.api-sports.io/football/teams/2908.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
    "minute": 90,
@@ -274,33 +283,10 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1606563,
-   "league": "Qatar - Second Division",
-   "home": "Al-Khor",
-   "away": "Al Shamal II",
-   "hl": "https://media.api-sports.io/football/teams/2901.png",
-   "al": "https://media.api-sports.io/football/teams/11909.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
      "m": 90,
-     "x": 1,
+     "x": 3,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
@@ -318,7 +304,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -356,51 +342,6 @@
    ]
   },
   {
-   "id": 1627335,
-   "league": "Angola - Girabola",
-   "home": "Petro de Luanda",
-   "away": "Sporting de Cabinda",
-   "hl": "https://media.api-sports.io/football/teams/4922.png",
-   "al": "https://media.api-sports.io/football/teams/4926.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1638250,
-   "league": "Rwanda - National Soccer League",
-   "home": "APR",
-   "away": "Musanze",
-   "hl": "https://media.api-sports.io/football/teams/5309.png",
-   "al": "https://media.api-sports.io/football/teams/5321.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Kiwanuka"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. P. Rubuguza"
-    }
-   ]
-  },
-  {
    "id": 1645619,
    "league": "World - AGCFF Gulf Champions League",
    "home": "Qatar SC",
@@ -410,7 +351,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 70,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -443,7 +384,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Gunnarsson"
     }
    ]
   },
@@ -457,7 +398,7 @@
    "gh": 5,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -543,45 +484,6 @@
    ]
   },
   {
-   "id": 1649066,
-   "league": "World - UEFA Youth League",
-   "home": "Flora III",
-   "away": "St Patrick's U19",
-   "hl": "https://media.api-sports.io/football/teams/14288.png",
-   "al": "https://media.api-sports.io/football/teams/17700.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Hayes"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Sullivan"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Kukkonen"
-    }
-   ]
-  },
-  {
    "id": 1649068,
    "league": "World - UEFA Youth League",
    "home": "Hoffenheim U19",
@@ -591,7 +493,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 72,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -665,6 +567,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Kyriazidis"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Kramer"
     }
    ]
   },
@@ -676,11 +586,20 @@
    "hl": "https://media.api-sports.io/football/teams/28672.png",
    "al": "https://media.api-sports.io/football/teams/28666.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-25T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Bravo"
+    }
+   ]
   },
   {
    "id": 1563679,
@@ -726,6 +645,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Igor Telelyaev"
+    }
+   ]
+  },
+  {
+   "id": 1563681,
+   "league": "Russia - Cup",
+   "home": "Rubin",
+   "away": "Rodina Moskva",
+   "hl": "https://media.api-sports.io/football/teams/1083.png",
+   "al": "https://media.api-sports.io/football/teams/6822.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Artem Maksimenko"
     }
    ]
   }
