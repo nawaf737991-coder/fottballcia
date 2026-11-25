@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T20:20:35+03:00",
- "ts": 1795627235,
+ "updated": "2026-11-25T20:30:18+03:00",
+ "ts": 1795627818,
  "matches": [
   {
    "id": 1573043,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -26,53 +26,6 @@
    ]
   },
   {
-   "id": 1606561,
-   "league": "Qatar - Second Division",
-   "home": "Al Bidda SC",
-   "away": "Al-Markhiya",
-   "hl": "https://media.api-sports.io/football/teams/2925.png",
-   "al": "https://media.api-sports.io/football/teams/2908.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1608741,
    "league": "Italy - Serie C - Girone B",
    "home": "Atalanta II",
@@ -82,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -92,6 +45,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Puljic"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Idele"
     }
    ]
   },
@@ -102,12 +63,29 @@
    "away": "Al Nasr",
    "hl": "https://media.api-sports.io/football/teams/2907.png",
    "al": "https://media.api-sports.io/football/teams/10155.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Hoibraaten"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "F. Selemani"
+    }
+   ]
   },
   {
    "id": 1647525,
@@ -117,9 +95,9 @@
    "hl": "https://media.api-sports.io/football/teams/4359.png",
    "al": "https://media.api-sports.io/football/teams/6722.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -137,6 +115,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Nuhanovic"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Horvat"
     }
    ]
   },
@@ -150,7 +136,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -173,231 +159,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1546190,
-   "league": "World - World Cup - U17",
-   "home": "Denmark U17",
-   "away": "Argentina U17",
-   "hl": "https://media.api-sports.io/football/teams/17948.png",
-   "al": "https://media.api-sports.io/football/teams/12500.png",
-   "gh": 3,
-   "ga": 3,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Bautista Giménez"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bautista Giménez"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Frederik Vestergaard"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Noah Madsen"
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ekene Chukwuani"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Diego Rodolfo Placente"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Elvin Mehičić"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Giovanni Baroni"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Juan Cruz Policella"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alan Alcaraz"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alan Alcaraz"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mateo Sanchez"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Omran Khatar"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thiago Pérez Ferreira"
-    }
-   ]
-  },
-  {
-   "id": 1546327,
-   "league": "World - World Cup - U17",
-   "home": "Australia U17",
-   "away": "Mozambique U17",
-   "hl": "https://media.api-sports.io/football/teams/12501.png",
-   "al": "https://media.api-sports.io/football/teams/27742.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Luke Becvinovski"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Antonio Junior Nhampule"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Antonio Junior Nhampule"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Khensane Mpusane Eustaquio Machel"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Khensane Mpusane Eustaquio Machel"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luke Becvinovski"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sajjad Nasiri"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Georgio Hassarati"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Georgio Hassarati"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Júlio Herculano Boas Júnior"
-    }
-   ]
   },
   {
    "id": 1630409,
@@ -409,7 +173,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -440,7 +204,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -492,10 +256,10 @@
    "away": "Arkadag",
    "hl": "https://media.api-sports.io/football/teams/5488.png",
    "al": "https://media.api-sports.io/football/teams/21232.png",
-   "gh": 1,
-   "ga": 3,
+   "gh": 2,
+   "ga": 4,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -526,16 +290,16 @@
      "m": 15,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": "Dayanch Meredov"
     },
     {
      "m": 15,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Dayanch Meredov"
     },
     {
@@ -553,6 +317,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abdy Byashimov"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Arthur Rezende"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mekan Saparov"
     }
    ]
   },
@@ -564,9 +344,9 @@
    "hl": "https://media.api-sports.io/football/teams/3535.png",
    "al": "https://media.api-sports.io/football/teams/2875.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -584,85 +364,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ebrahim Kameel"
-    }
-   ]
-  },
-  {
-   "id": 1645618,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al Sha'ab Hadhramaut",
-   "away": "Al-Shabab",
-   "hl": "https://media.api-sports.io/football/teams/23356.png",
-   "al": "https://media.api-sports.io/football/teams/5329.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 4,
+     "m": 63,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Mabrook"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Sabarah"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Dahman"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. K. Al Douh"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. H. Al-Tairi"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Al Mamari"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Al Dugin"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Saeed"
+     "p": "Facundo Kruspzky"
     }
    ]
   },
@@ -676,7 +385,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -689,19 +398,19 @@
     },
     {
      "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Al Rashedi"
-    },
-    {
-     "m": 45,
      "x": 4,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Breno Calixto"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Al Rashedi"
     }
    ]
   },
@@ -712,10 +421,10 @@
    "away": "Stabæk U19",
    "hl": "https://media.api-sports.io/football/teams/7952.png",
    "al": "https://media.api-sports.io/football/teams/16563.png",
-   "gh": 2,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -765,6 +474,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Kroupkin"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Zaitra"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Palmula"
     }
    ]
   },
@@ -778,7 +503,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -841,7 +566,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -890,6 +615,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "N. Kuzera"
+    }
+   ]
+  },
+  {
+   "id": 1606561,
+   "league": "Qatar - Second Division",
+   "home": "Al Bidda SC",
+   "away": "Al-Markhiya",
+   "hl": "https://media.api-sports.io/football/teams/2925.png",
+   "al": "https://media.api-sports.io/football/teams/2908.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
