@@ -1,7 +1,58 @@
 {
- "updated": "2026-11-25T22:40:16+03:00",
- "ts": 1795635616,
+ "updated": "2026-11-25T22:50:21+03:00",
+ "ts": 1795636221,
  "matches": [
+  {
+   "id": 1563283,
+   "league": "England - Championship",
+   "home": "Bolton",
+   "away": "West Brom",
+   "hl": "https://media.api-sports.io/football/teams/68.png",
+   "al": "https://media.api-sports.io/football/teams/60.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Brayann Pereira"
+    }
+   ]
+  },
+  {
+   "id": 1563284,
+   "league": "England - Championship",
+   "home": "Burnley",
+   "away": "Birmingham",
+   "hl": "https://media.api-sports.io/football/teams/44.png",
+   "al": "https://media.api-sports.io/football/teams/54.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1563286,
+   "league": "England - Championship",
+   "home": "Watford",
+   "away": "Blackburn",
+   "hl": "https://media.api-sports.io/football/teams/38.png",
+   "al": "https://media.api-sports.io/football/teams/67.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
   {
    "id": 1572698,
    "league": "Spain - Segunda División RFEF - Group 3",
@@ -12,63 +63,37 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1585362,
+   "id": 1585363,
    "league": "England - National League",
-   "home": "Boreham Wood",
-   "away": "Aldershot Town",
-   "hl": "https://media.api-sports.io/football/teams/1830.png",
-   "al": "https://media.api-sports.io/football/teams/1818.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Whitfield"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Cummings"
-    }
-   ]
-  },
-  {
-   "id": 1588855,
-   "league": "England - EFL Trophy",
-   "home": "Fleetwood Town",
-   "away": "Leeds United U21",
-   "hl": "https://media.api-sports.io/football/teams/1336.png",
-   "al": "https://media.api-sports.io/football/teams/14430.png",
+   "home": "Harrogate Town",
+   "away": "Kidderminster Harriers",
+   "hl": "https://media.api-sports.io/football/teams/1842.png",
+   "al": "https://media.api-sports.io/football/teams/4695.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "harvey vincent"
-    }
-   ]
+   "minute": 5,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585364,
+   "league": "England - National League",
+   "home": "Hartlepool",
+   "away": "Solihull Moors",
+   "hl": "https://media.api-sports.io/football/teams/1366.png",
+   "al": "https://media.api-sports.io/football/teams/1834.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
   },
   {
    "id": 1601619,
@@ -80,7 +105,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -98,6 +123,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Christian Bucchi"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Camillo Tavernelli"
     }
    ]
   },
@@ -111,7 +144,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -137,22 +170,16 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Giovanni·Giunti"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Liam Henderson"
     }
    ]
-  },
-  {
-   "id": 1601622,
-   "league": "Italy - Serie B",
-   "home": "Pisa",
-   "away": "Modena",
-   "hl": "https://media.api-sports.io/football/teams/801.png",
-   "al": "https://media.api-sports.io/football/teams/899.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1642049,
@@ -164,32 +191,51 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-25T19:30:00+00:00",
    "ev": []
   },
   {
-   "id": 1649070,
-   "league": "World - UEFA Youth League",
-   "home": "Rangers U19",
-   "away": "AZ U19",
-   "hl": "https://media.api-sports.io/football/teams/7925.png",
-   "al": "https://media.api-sports.io/football/teams/16384.png",
-   "gh": 1,
+   "id": 1648101,
+   "league": "San-Marino - Coppa Titano",
+   "home": "Folgore",
+   "away": "Virtus",
+   "hl": "https://media.api-sports.io/football/teams/672.png",
+   "al": "https://media.api-sports.io/football/teams/5308.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Stewart"
-    }
-   ]
+   "minute": 5,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1648102,
+   "league": "San-Marino - Coppa Titano",
+   "home": "La Fiorita",
+   "away": "Cosmos",
+   "hl": "https://media.api-sports.io/football/teams/2249.png",
+   "al": "https://media.api-sports.io/football/teams/5298.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1648103,
+   "league": "San-Marino - Coppa Titano",
+   "home": "Tre Penne",
+   "away": "Pennarossa",
+   "hl": "https://media.api-sports.io/football/teams/700.png",
+   "al": "https://media.api-sports.io/football/teams/5306.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
   },
   {
    "id": 1650573,
@@ -199,9 +245,9 @@
    "hl": "https://media.api-sports.io/football/teams/7819.png",
    "al": "https://media.api-sports.io/football/teams/2210.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -219,6 +265,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Hitalo"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -232,7 +286,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -254,45 +308,6 @@
    ]
   },
   {
-   "id": 1651385,
-   "league": "Argentina - Reserve League",
-   "home": "Lanús Res.",
-   "away": "River Plate Res.",
-   "hl": "https://media.api-sports.io/football/teams/18690.png",
-   "al": "https://media.api-sports.io/football/teams/18695.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1573339,
    "league": "Spain - Segunda División RFEF - Group 5",
    "home": "CF Talavera",
@@ -302,7 +317,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 62,
    "time": "2026-11-25T18:30:00+00:00",
    "ev": []
   },
@@ -316,7 +331,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -355,7 +370,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -399,10 +414,10 @@
    "away": "Petrojet",
    "hl": "https://media.api-sports.io/football/teams/13819.png",
    "al": "https://media.api-sports.io/football/teams/1041.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -420,6 +435,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Amr Gomaa"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hazem Mohamed Mohamed Hosny Ismail"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hazem Mohamed Mohamed Hosny Ismail"
     }
    ]
   },
@@ -433,7 +464,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 58,
    "time": "2026-11-25T18:30:00+00:00",
    "ev": [
     {
@@ -456,7 +487,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-25T18:15:00+00:00",
    "ev": [
     {
@@ -479,7 +510,7 @@
    "gh": 3,
    "ga": 4,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -545,6 +576,168 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Laura Sanchez Requena"
+    }
+   ]
+  },
+  {
+   "id": 1585362,
+   "league": "England - National League",
+   "home": "Boreham Wood",
+   "away": "Aldershot Town",
+   "hl": "https://media.api-sports.io/football/teams/1830.png",
+   "al": "https://media.api-sports.io/football/teams/1818.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Whitfield"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Cummings"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Whitfield"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1588855,
+   "league": "England - EFL Trophy",
+   "home": "Fleetwood Town",
+   "away": "Leeds United U21",
+   "hl": "https://media.api-sports.io/football/teams/1336.png",
+   "al": "https://media.api-sports.io/football/teams/14430.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "harvey vincent"
+    }
+   ]
+  },
+  {
+   "id": 1601622,
+   "league": "Italy - Serie B",
+   "home": "Pisa",
+   "away": "Modena",
+   "hl": "https://media.api-sports.io/football/teams/801.png",
+   "al": "https://media.api-sports.io/football/teams/899.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649070,
+   "league": "World - UEFA Youth League",
+   "home": "Rangers U19",
+   "away": "AZ U19",
+   "hl": "https://media.api-sports.io/football/teams/7925.png",
+   "al": "https://media.api-sports.io/football/teams/16384.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Stewart"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "G. Groot"
+    }
+   ]
+  },
+  {
+   "id": 1651385,
+   "league": "Argentina - Reserve League",
+   "home": "Lanús Res.",
+   "away": "River Plate Res.",
+   "hl": "https://media.api-sports.io/football/teams/18690.png",
+   "al": "https://media.api-sports.io/football/teams/18695.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
     }
    ]
   }
