@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-25T03:10:20+03:00",
- "ts": 1795565420,
+ "updated": "2026-11-25T03:20:23+03:00",
+ "ts": 1795566023,
  "matches": [
-  {
-   "id": 1651652,
-   "league": "Venezuela - Copa Venezuela",
-   "home": "UCV",
-   "away": "Anzoátegui FC",
-   "hl": "https://media.api-sports.io/football/teams/2840.png",
-   "al": "https://media.api-sports.io/football/teams/18806.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-24T23:30:00+00:00",
-   "ev": []
-  },
   {
    "id": 1557234,
    "league": "USA - USL Super League",
@@ -25,8 +11,8 @@
    "al": "https://media.api-sports.io/football/teams/24660.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-24T23:00:00+00:00",
    "ev": [
     {
@@ -85,6 +71,20 @@
      "p": "M. Garcia"
     }
    ]
+  },
+  {
+   "id": 1651652,
+   "league": "Venezuela - Copa Venezuela",
+   "home": "UCV",
+   "away": "Anzoátegui FC",
+   "hl": "https://media.api-sports.io/football/teams/2840.png",
+   "al": "https://media.api-sports.io/football/teams/18806.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T23:30:00+00:00",
+   "ev": []
   }
  ]
 }
