@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T19:40:16+03:00",
- "ts": 1795624816,
+ "updated": "2026-11-25T19:50:18+03:00",
+ "ts": 1795625418,
  "matches": [
   {
    "id": 1561728,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Letniowski"
+    }
+   ]
   },
   {
    "id": 1606561,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
@@ -40,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
@@ -51,10 +60,10 @@
    "away": "Sporting de Cabinda",
    "hl": "https://media.api-sports.io/football/teams/4922.png",
    "al": "https://media.api-sports.io/football/teams/4926.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
@@ -68,7 +77,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -96,10 +105,10 @@
    "away": "Gol Gohar",
    "hl": "https://media.api-sports.io/football/teams/2871.png",
    "al": "https://media.api-sports.io/football/teams/2714.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -117,84 +126,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ersin Destanoglu"
-    }
-   ]
-  },
-  {
-   "id": 1630411,
-   "league": "World - AFC Champions League Two",
-   "home": "Muharraq",
-   "away": "Arkadag",
-   "hl": "https://media.api-sports.io/football/teams/5488.png",
-   "al": "https://media.api-sports.io/football/teams/21232.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Bruno Santos"
     },
     {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ahmet Atayew"
-    },
-    {
-     "m": 10,
+     "m": 40,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Elliot Simoes"
+     "p": "Anderson Talisca"
     },
     {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dayanch Meredov"
-    },
-    {
-     "m": 15,
+     "m": 42,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Dayanch Meredov"
-    }
-   ]
-  },
-  {
-   "id": 1630412,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Kuwait",
-   "away": "Al Wahda FC",
-   "hl": "https://media.api-sports.io/football/teams/3535.png",
-   "al": "https://media.api-sports.io/football/teams/2875.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
+     "p": "Alireza Alizadeh"
+    },
     {
-     "m": 1,
+     "m": 42,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Omar Kharbin"
+     "p": "Abdallah Ramadan"
     }
    ]
   },
@@ -208,7 +163,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
@@ -219,15 +174,31 @@
    "away": "Al Fahaheel",
    "hl": "https://media.api-sports.io/football/teams/3537.png",
    "al": "https://media.api-sports.io/football/teams/3533.png",
-   "gh": 0,
-   "ga": 1,
+   "gh": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
      "m": 36,
      "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 4,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
@@ -245,118 +216,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 19,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1649067,
-   "league": "World - UEFA Youth League",
-   "home": "HJK U19",
-   "away": "Stabæk U19",
-   "hl": "https://media.api-sports.io/football/teams/7952.png",
-   "al": "https://media.api-sports.io/football/teams/16563.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Myklebust"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Le Goff-Conan"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "R. Ferrington"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Palmula"
-    }
-   ]
-  },
-  {
-   "id": 1649069,
-   "league": "World - UEFA Youth League",
-   "home": "Hradec Králové U19",
-   "away": "Kairat U19",
-   "hl": "https://media.api-sports.io/football/teams/14831.png",
-   "al": "https://media.api-sports.io/football/teams/7984.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Abish"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Vanek"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Kenesbekov"
-    }
-   ]
-  },
-  {
-   "id": 1649072,
-   "league": "World - UEFA Youth League",
-   "home": "Sheriff U19",
-   "away": "Maccabi Tel Aviv U19",
-   "hl": "https://media.api-sports.io/football/teams/7930.png",
-   "al": "https://media.api-sports.io/football/teams/7959.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Yosef"
-    }
-   ]
   },
   {
    "id": 1509230,
@@ -368,7 +230,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -426,6 +288,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "jean"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Erekle jijavadze"
     }
    ]
   },
@@ -439,7 +309,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-25T15:30:00+00:00",
    "ev": [
     {
@@ -481,6 +351,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ekene Chukwuani"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Diego Rodolfo Placente"
     }
    ]
   },
@@ -494,7 +372,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-25T15:30:00+00:00",
    "ev": [
     {
@@ -563,9 +441,9 @@
    "hl": "https://media.api-sports.io/football/teams/1085.png",
    "al": "https://media.api-sports.io/football/teams/621.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 3,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -606,6 +484,38 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Daniil Utkin"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Christian"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Maksim Samorodov"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Olaza"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -617,10 +527,10 @@
    "away": "Baltika",
    "hl": "https://media.api-sports.io/football/teams/6813.png",
    "al": "https://media.api-sports.io/football/teams/2006.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -638,61 +548,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mutalip Alibekov"
-    }
-   ]
-  },
-  {
-   "id": 1571580,
-   "league": "Bulgaria - Second League",
-   "home": "Ludogorets II",
-   "away": "Etar Veliko Tarnovo",
-   "hl": "https://media.api-sports.io/football/teams/1409.png",
-   "al": "https://media.api-sports.io/football/teams/855.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-25T15:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 6,
+     "m": 84,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Ilya Porokhov"
     },
     {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 44,
+     "m": 86,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "p": "Vladimir Khubulov"
     }
    ]
   },
@@ -704,9 +575,9 @@
    "hl": "https://media.api-sports.io/football/teams/6801.png",
    "al": "https://media.api-sports.io/football/teams/1089.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -740,6 +611,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Merabi Uridia"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aleksandr Lomakin"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "David Kokoev"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nikita Bogatyrev"
     }
    ]
   },
@@ -753,7 +648,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -781,10 +676,10 @@
    "away": "Gil Vicente U23",
    "hl": "https://media.api-sports.io/football/teams/15464.png",
    "al": "https://media.api-sports.io/football/teams/19825.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -826,6 +721,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -839,7 +742,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -870,7 +773,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 78,
    "time": "2026-11-25T15:10:00+00:00",
    "ev": [
     {
@@ -917,7 +820,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -947,30 +850,16 @@
    ]
   },
   {
-   "id": 1627336,
-   "league": "Angola - Girabola",
-   "home": "1º de Agosto",
-   "away": "Kabuscorp",
-   "hl": "https://media.api-sports.io/football/teams/4913.png",
-   "al": "https://media.api-sports.io/football/teams/4929.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 46,
-   "time": "2026-11-25T14:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1637388,
    "league": "World - UEFA Youth League",
    "home": "Atlético Madrid U19",
    "away": "Viking U19",
    "hl": "https://media.api-sports.io/football/teams/7884.png",
    "al": "https://media.api-sports.io/football/teams/16567.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -1004,6 +893,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "G. Gross"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -1017,7 +914,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -1088,7 +985,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T15:30:00+00:00",
    "ev": [
     {
@@ -1122,85 +1019,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. K. Al Douh"
-    }
-   ]
-  },
-  {
-   "id": 1647530,
-   "league": "Slovenia - Cup",
-   "home": "Tabor Sežana",
-   "away": "Fužinar",
-   "hl": "https://media.api-sports.io/football/teams/4362.png",
-   "al": "https://media.api-sports.io/football/teams/4373.png",
-   "gh": 6,
-   "ga": 1,
-   "status": "2H",
-   "minute": 83,
-   "time": "2026-11-25T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. O. Ocen"
     },
     {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Vezaj"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Baruca"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Spoljaric"
-    },
-    {
-     "m": 42,
+     "m": 56,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "R. Ljutic"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Mlakar"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. O. Ocen"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Spoljaric"
+     "p": "M. H. Al-Tairi"
     }
    ]
   },
@@ -1214,7 +1040,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -1266,12 +1092,12 @@
      "p": "S. Cianciulli"
     },
     {
-     "m": 82,
+     "m": 81,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "N. Aduashvili"
     }
    ]
   },
@@ -1285,7 +1111,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -1318,7 +1144,202 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "S. Ganz"
+    }
+   ]
+  },
+  {
+   "id": 1630411,
+   "league": "World - AFC Champions League Two",
+   "home": "Muharraq",
+   "away": "Arkadag",
+   "hl": "https://media.api-sports.io/football/teams/5488.png",
+   "al": "https://media.api-sports.io/football/teams/21232.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Bruno Santos"
+    },
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ahmet Atayew"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Elliot Simoes"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dayanch Meredov"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dayanch Meredov"
+    }
+   ]
+  },
+  {
+   "id": 1630412,
+   "league": "World - AFC Champions League Two",
+   "home": "Al Kuwait",
+   "away": "Al Wahda FC",
+   "hl": "https://media.api-sports.io/football/teams/3535.png",
+   "al": "https://media.api-sports.io/football/teams/2875.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Omar Kharbin"
+    }
+   ]
+  },
+  {
+   "id": 1649067,
+   "league": "World - UEFA Youth League",
+   "home": "HJK U19",
+   "away": "Stabæk U19",
+   "hl": "https://media.api-sports.io/football/teams/7952.png",
+   "al": "https://media.api-sports.io/football/teams/16563.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Myklebust"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Le Goff-Conan"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Ferrington"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Palmula"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Kroupkin"
+    }
+   ]
+  },
+  {
+   "id": 1649069,
+   "league": "World - UEFA Youth League",
+   "home": "Hradec Králové U19",
+   "away": "Kairat U19",
+   "hl": "https://media.api-sports.io/football/teams/14831.png",
+   "al": "https://media.api-sports.io/football/teams/7984.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Abish"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Vanek"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Kenesbekov"
+    }
+   ]
+  },
+  {
+   "id": 1649072,
+   "league": "World - UEFA Youth League",
+   "home": "Sheriff U19",
+   "away": "Maccabi Tel Aviv U19",
+   "hl": "https://media.api-sports.io/football/teams/7930.png",
+   "al": "https://media.api-sports.io/football/teams/7959.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Yosef"
     }
    ]
   }
