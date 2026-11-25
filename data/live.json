@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T21:40:16+03:00",
- "ts": 1795632016,
+ "updated": "2026-11-25T21:50:20+03:00",
+ "ts": 1795632620,
  "matches": [
   {
    "id": 1573339,
@@ -12,71 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 19,
    "time": "2026-11-25T18:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1601615,
-   "league": "Italy - Serie B",
-   "home": "Cremonese",
-   "away": "Avellino",
-   "hl": "https://media.api-sports.io/football/teams/520.png",
-   "al": "https://media.api-sports.io/football/teams/528.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tommaso Cancellotti"
-    }
-   ]
-  },
-  {
-   "id": 1612287,
-   "league": "Egypt - Premier League",
-   "home": "Enppi",
-   "away": "Ceramica Cleopatra",
-   "hl": "https://media.api-sports.io/football/teams/1037.png",
-   "al": "https://media.api-sports.io/football/teams/14651.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hossam Gahnem"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hossam Gahnem"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Reda"
-    }
-   ]
   },
   {
    "id": 1612288,
@@ -88,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": []
   },
@@ -102,7 +40,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-25T18:30:00+00:00",
    "ev": [
     {
@@ -125,7 +63,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-25T18:15:00+00:00",
    "ev": []
   },
@@ -139,7 +77,7 @@
    "gh": 3,
    "ga": 3,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -210,7 +148,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -244,6 +182,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Igor Telelyaev"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -257,7 +203,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -280,7 +226,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -319,7 +265,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -353,6 +299,92 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Manzoni"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Pellegrino"
+    }
+   ]
+  },
+  {
+   "id": 1635718,
+   "league": "World - UEFA Champions League",
+   "home": "Sabah FA",
+   "away": "Barcelona",
+   "hl": "https://media.api-sports.io/football/teams/13976.png",
+   "al": "https://media.api-sports.io/football/teams/529.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-25T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Anthony Gordon"
+    }
+   ]
+  },
+  {
+   "id": 1635728,
+   "league": "World - UEFA Champions League",
+   "home": "Slavia Praha",
+   "away": "Villarreal",
+   "hl": "https://media.api-sports.io/football/teams/560.png",
+   "al": "https://media.api-sports.io/football/teams/533.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-25T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Michal Sadílek"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergi Cardona Bermúdez"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ange N'Guessan"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Var",
+     "d": "Red card cancelled",
+     "p": "Renato Veiga"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Renato Veiga"
     }
    ]
   },
@@ -366,7 +398,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -404,109 +436,6 @@
    ]
   },
   {
-   "id": 1647525,
-   "league": "Slovenia - Cup",
-   "home": "Bravo",
-   "away": "Odranci",
-   "hl": "https://media.api-sports.io/football/teams/4359.png",
-   "al": "https://media.api-sports.io/football/teams/6722.png",
-   "gh": 6,
-   "ga": 1,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Nuhanovic"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Nuhanovic"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Horvat"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Kalamar"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Vori"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Kumer Celik"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Pecar"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Tucic"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ficko"
-    }
-   ]
-  },
-  {
    "id": 1649068,
    "league": "World - UEFA Youth League",
    "home": "Hoffenheim U19",
@@ -516,7 +445,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -611,7 +540,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -623,90 +552,74 @@
      "p": "R. Bravo"
     },
     {
-     "m": 78,
+     "m": 77,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "K. Rossell"
     }
    ]
   },
   {
-   "id": 1635718,
-   "league": "World - UEFA Champions League",
-   "home": "Sabah FA",
-   "away": "Barcelona",
-   "hl": "https://media.api-sports.io/football/teams/13976.png",
-   "al": "https://media.api-sports.io/football/teams/529.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Anthony Gordon"
-    }
-   ]
-  },
-  {
-   "id": 1635728,
-   "league": "World - UEFA Champions League",
-   "home": "Slavia Praha",
-   "away": "Villarreal",
-   "hl": "https://media.api-sports.io/football/teams/560.png",
-   "al": "https://media.api-sports.io/football/teams/533.png",
+   "id": 1601615,
+   "league": "Italy - Serie B",
+   "home": "Cremonese",
+   "away": "Avellino",
+   "hl": "https://media.api-sports.io/football/teams/520.png",
+   "al": "https://media.api-sports.io/football/teams/528.png",
    "gh": 0,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T17:45:00+00:00",
+   "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
-     "m": 4,
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tommaso Cancellotti"
+    }
+   ]
+  },
+  {
+   "id": 1612287,
+   "league": "Egypt - Premier League",
+   "home": "Enppi",
+   "away": "Ceramica Cleopatra",
+   "hl": "https://media.api-sports.io/football/teams/1037.png",
+   "al": "https://media.api-sports.io/football/teams/14651.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hossam Gahnem"
+    },
+    {
+     "m": 25,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Michal Sadílek"
+     "p": "Hossam Gahnem"
     },
     {
-     "m": 12,
+     "m": 39,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Sergi Cardona Bermúdez"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ange N'Guessan"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Var",
-     "d": "Red card cancelled",
-     "p": "Renato Veiga"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Renato Veiga"
+     "p": "Mohamed Reda"
     }
    ]
   }
