@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-25T21:30:11+03:00",
- "ts": 1795631411,
+ "updated": "2026-11-25T21:40:16+03:00",
+ "ts": 1795632016,
  "matches": [
+  {
+   "id": 1573339,
+   "league": "Spain - Segunda División RFEF - Group 5",
+   "home": "CF Talavera",
+   "away": "Conquense",
+   "hl": "https://media.api-sports.io/football/teams/5253.png",
+   "al": "https://media.api-sports.io/football/teams/5257.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-25T18:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1601615,
    "league": "Italy - Serie B",
@@ -12,9 +26,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-25T18:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tommaso Cancellotti"
+    }
+   ]
   },
   {
    "id": 1612287,
@@ -26,7 +49,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -44,6 +67,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hossam Gahnem"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Reda"
     }
    ]
   },
@@ -57,9 +88,32 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1615513,
+   "league": "Spain - Tercera División RFEF - Group 10",
+   "home": "Utrera",
+   "away": "Córdoba II",
+   "hl": "https://media.api-sports.io/football/teams/9769.png",
+   "al": "https://media.api-sports.io/football/teams/9759.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-25T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1630413,
@@ -71,71 +125,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-25T18:15:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1635718,
-   "league": "World - UEFA Champions League",
-   "home": "Sabah FA",
-   "away": "Barcelona",
-   "hl": "https://media.api-sports.io/football/teams/13976.png",
-   "al": "https://media.api-sports.io/football/teams/529.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Anthony Gordon"
-    }
-   ]
-  },
-  {
-   "id": 1635728,
-   "league": "World - UEFA Champions League",
-   "home": "Slavia Praha",
-   "away": "Villarreal",
-   "hl": "https://media.api-sports.io/football/teams/560.png",
-   "al": "https://media.api-sports.io/football/teams/533.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Michal Sadílek"
-    },
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sergi Cardona Bermúdez"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ange N'Guessan"
-    }
-   ]
   },
   {
    "id": 1647651,
@@ -147,7 +139,7 @@
    "gh": 3,
    "ga": 3,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -197,6 +189,84 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "alba quintana"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vicky Losada"
+    }
+   ]
+  },
+  {
+   "id": 1563679,
+   "league": "Russia - Cup",
+   "home": "Lokomotiv",
+   "away": "FC Rostov",
+   "hl": "https://media.api-sports.io/football/teams/597.png",
+   "al": "https://media.api-sports.io/football/teams/779.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-25T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Imran Aznaurov"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Zelimkhan Bakaev"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kirill Cheburakov"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Igor Telelyaev"
+    }
+   ]
+  },
+  {
+   "id": 1563681,
+   "league": "Russia - Cup",
+   "home": "Rubin",
+   "away": "Rodina Moskva",
+   "hl": "https://media.api-sports.io/football/teams/1083.png",
+   "al": "https://media.api-sports.io/football/teams/6822.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-25T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Artem Maksimenko"
     }
    ]
   },
@@ -210,7 +280,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -240,61 +310,6 @@
    ]
   },
   {
-   "id": 1606561,
-   "league": "Qatar - Second Division",
-   "home": "Al Bidda SC",
-   "away": "Al-Markhiya",
-   "hl": "https://media.api-sports.io/football/teams/2925.png",
-   "al": "https://media.api-sports.io/football/teams/2908.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1608741,
    "league": "Italy - Serie C - Girone B",
    "home": "Atalanta II",
@@ -304,7 +319,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -351,7 +366,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -395,10 +410,10 @@
    "away": "Odranci",
    "hl": "https://media.api-sports.io/football/teams/4359.png",
    "al": "https://media.api-sports.io/football/teams/6722.png",
-   "gh": 5,
+   "gh": 6,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -480,6 +495,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Ficko"
     }
    ]
   },
@@ -493,7 +516,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 83,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -585,10 +608,10 @@
    "away": "Cajabamba",
    "hl": "https://media.api-sports.io/football/teams/28672.png",
    "al": "https://media.api-sports.io/football/teams/28666.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -598,29 +621,68 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Bravo"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
   {
-   "id": 1563679,
-   "league": "Russia - Cup",
-   "home": "Lokomotiv",
-   "away": "FC Rostov",
-   "hl": "https://media.api-sports.io/football/teams/597.png",
-   "al": "https://media.api-sports.io/football/teams/779.png",
+   "id": 1635718,
+   "league": "World - UEFA Champions League",
+   "home": "Sabah FA",
+   "away": "Barcelona",
+   "hl": "https://media.api-sports.io/football/teams/13976.png",
+   "al": "https://media.api-sports.io/football/teams/529.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T17:30:00+00:00",
+   "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
-     "m": 2,
+     "m": 31,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Imran Aznaurov"
+     "p": "Anthony Gordon"
+    }
+   ]
+  },
+  {
+   "id": 1635728,
+   "league": "World - UEFA Champions League",
+   "home": "Slavia Praha",
+   "away": "Villarreal",
+   "hl": "https://media.api-sports.io/football/teams/560.png",
+   "al": "https://media.api-sports.io/football/teams/533.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Michal Sadílek"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergi Cardona Bermúdez"
     },
     {
      "m": 29,
@@ -628,46 +690,23 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Zelimkhan Bakaev"
+     "p": "Ange N'Guessan"
     },
     {
-     "m": 35,
-     "x": null,
+     "m": 45,
+     "x": 1,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kirill Cheburakov"
+     "t": "Var",
+     "d": "Red card cancelled",
+     "p": "Renato Veiga"
     },
     {
-     "m": 43,
-     "x": null,
-     "s": "h",
+     "m": 45,
+     "x": 2,
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Igor Telelyaev"
-    }
-   ]
-  },
-  {
-   "id": 1563681,
-   "league": "Russia - Cup",
-   "home": "Rubin",
-   "away": "Rodina Moskva",
-   "hl": "https://media.api-sports.io/football/teams/1083.png",
-   "al": "https://media.api-sports.io/football/teams/6822.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Artem Maksimenko"
+     "p": "Renato Veiga"
     }
    ]
   }
