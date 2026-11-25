@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T12:10:15+03:00",
- "ts": 1795597815,
+ "updated": "2026-11-25T12:16:27+03:00",
+ "ts": 1795598187,
  "matches": [
   {
    "id": 1555827,
@@ -10,11 +10,20 @@
    "hl": "https://media.api-sports.io/football/teams/7117.png",
    "al": "https://media.api-sports.io/football/teams/7129.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 13,
    "time": "2026-11-25T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "K. Aoto"
+    }
+   ]
   },
   {
    "id": 1634844,
@@ -26,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 17,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -49,7 +58,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 16,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -72,7 +81,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T08:30:00+00:00",
    "ev": [
     {
@@ -95,7 +104,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T08:30:00+00:00",
    "ev": []
   },
@@ -109,7 +118,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 75,
    "time": "2026-11-25T07:45:00+00:00",
    "ev": [
     {
@@ -119,6 +128,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Clarismario"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Paulinho Curua"
     }
    ]
   }
