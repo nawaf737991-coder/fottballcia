@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T00:20:25+03:00",
- "ts": 1795641625,
+ "updated": "2026-11-26T00:30:25+03:00",
+ "ts": 1795642225,
  "matches": [
   {
    "id": 1651248,
@@ -12,8 +12,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-25T21:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651386,
+   "league": "Argentina - Reserve League",
+   "home": "Talleres Córdoba Res.",
+   "away": "Estudiantes La Plata Res",
+   "hl": "https://media.api-sports.io/football/teams/18699.png",
+   "al": "https://media.api-sports.io/football/teams/18685.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-25T21:30:00+00:00",
    "ev": []
   },
   {
@@ -24,9 +38,9 @@
    "hl": "https://media.api-sports.io/football/teams/68.png",
    "al": "https://media.api-sports.io/football/teams/60.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -84,6 +98,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Felix Horn Myhre"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Aune Heggebo"
     }
    ]
   },
@@ -97,7 +119,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -147,6 +169,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Largie Ramazani"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ugo Raghouber"
     }
    ]
   },
@@ -160,7 +190,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -194,6 +224,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Derek Mazou Sacko"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Kelly"
     }
    ]
   },
@@ -207,7 +245,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -283,10 +321,10 @@
    "away": "Kidderminster Harriers",
    "hl": "https://media.api-sports.io/football/teams/1842.png",
    "al": "https://media.api-sports.io/football/teams/4695.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -311,7 +349,23 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "W. McGowan"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Dreyer"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Taylor"
     }
    ]
   },
@@ -325,7 +379,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -359,6 +413,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Andrews"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Hunter"
     }
    ]
   },
@@ -372,7 +434,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -419,7 +481,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -429,6 +491,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Alexander Isak"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Andoni Iraola Sagarna"
     }
    ]
   },
@@ -442,7 +512,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -486,10 +556,10 @@
    "away": "Bayern München",
    "hl": "https://media.api-sports.io/football/teams/79.png",
    "al": "https://media.api-sports.io/football/teams/157.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -531,6 +601,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ayase Ueda"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Aleksandar Pavlović"
     }
    ]
   },
@@ -541,10 +619,10 @@
    "away": "AS Roma",
    "hl": "https://media.api-sports.io/football/teams/85.png",
    "al": "https://media.api-sports.io/football/teams/497.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -578,6 +656,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Wesley Vinícius França Lima"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Ousmane Dembélé"
     }
    ]
   },
@@ -591,7 +677,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -617,6 +703,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Vedat Muriqi"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Valeriy Bondar"
     }
    ]
   },
@@ -630,7 +724,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -701,7 +795,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-25T19:30:00+00:00",
    "ev": [
     {
@@ -724,7 +818,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": []
   },
@@ -735,10 +829,10 @@
    "away": "Pennarossa",
    "hl": "https://media.api-sports.io/football/teams/700.png",
    "al": "https://media.api-sports.io/football/teams/5306.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -756,6 +850,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "S. Abouzziane"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Carrer"
     }
    ]
   },
@@ -766,10 +868,10 @@
    "away": "Sociedad de Tiro 28",
    "hl": "https://media.api-sports.io/football/teams/25269.png",
    "al": "https://media.api-sports.io/football/teams/22487.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -779,6 +881,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Torres"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
