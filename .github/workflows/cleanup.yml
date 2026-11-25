@@ -1,32 +1,22 @@
-name: cleanup-weak-posts
+name: cleanup
 on:
   workflow_dispatch:
     inputs:
       dry:
-        description: "1 = تجربة بدون تعديل"
+        description: "1 = عرض فقط، 0 = حذف"
         default: "1"
-      min_words:
-        description: "أقل عدد كلمات مقبول"
-        default: "250"
-permissions:
-  contents: read
-concurrency:
-  group: seo-posts
-  cancel-in-progress: false
 jobs:
-  cleanup:
+  run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     env:
       BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
       GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
       GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
       GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-      DRY_RUN: ${{ inputs.dry }}
-      MIN_WORDS: ${{ inputs.min_words }}
+      DRY: ${{ inputs.dry }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python3 -u cleanup_posts.py
+      - run: python3 -u cleanup.py
