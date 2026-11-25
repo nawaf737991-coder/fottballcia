@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T01:10:22+03:00",
- "ts": 1795644622,
+ "updated": "2026-11-26T01:20:27+03:00",
+ "ts": 1795645227,
  "matches": [
   {
    "id": 1631762,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -21,29 +21,6 @@
      "s": "a",
      "t": "Card",
      "d": "Red Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651386,
-   "league": "Argentina - Reserve League",
-   "home": "Talleres Córdoba Res.",
-   "away": "Estudiantes La Plata Res",
-   "hl": "https://media.api-sports.io/football/teams/18699.png",
-   "al": "https://media.api-sports.io/football/teams/18685.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T21:30:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -58,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": []
   },
@@ -72,46 +49,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T22:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1651655,
-   "league": "Peru - Copa Perú",
-   "home": "Viargoca",
-   "away": "Sociedad de Tiro 28",
-   "hl": "https://media.api-sports.io/football/teams/25269.png",
-   "al": "https://media.api-sports.io/football/teams/22487.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
-     "m": 25,
+     "m": 12,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Torres"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Cancapa"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Valdivia"
+     "p": null
     }
    ]
   },
@@ -124,8 +71,8 @@
    "al": "https://media.api-sports.io/football/teams/2364.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-25T21:00:00+00:00",
    "ev": [
     {
@@ -142,7 +89,38 @@
      "s": "a",
      "t": "Card",
      "d": "Red Card",
-     "p": null
+     "p": "P. Fagundez"
+    }
+   ]
+  },
+  {
+   "id": 1651386,
+   "league": "Argentina - Reserve League",
+   "home": "Talleres Córdoba Res.",
+   "away": "Estudiantes La Plata Res",
+   "hl": "https://media.api-sports.io/football/teams/18699.png",
+   "al": "https://media.api-sports.io/football/teams/18685.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T21:30:00+00:00",
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Basualdo"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Gallard"
     }
    ]
   }
