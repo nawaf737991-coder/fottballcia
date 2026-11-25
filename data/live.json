@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T08:40:28+03:00",
- "ts": 1795585228,
+ "updated": "2026-11-25T08:50:12+03:00",
+ "ts": 1795585812,
  "matches": [
   {
    "id": 1555822,
@@ -11,10 +11,19 @@
    "al": "https://media.api-sports.io/football/teams/300.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 37,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-25T05:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Haruki Izawa"
+    }
+   ]
   }
  ]
 }
