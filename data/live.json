@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T22:20:11+03:00",
- "ts": 1795634411,
+ "updated": "2026-11-25T22:25:37+03:00",
+ "ts": 1795634737,
  "matches": [
   {
    "id": 1572698,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 22,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
@@ -24,9 +24,9 @@
    "hl": "https://media.api-sports.io/football/teams/1830.png",
    "al": "https://media.api-sports.io/football/teams/1818.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 25,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -36,6 +36,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Whitfield"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -49,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 26,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -72,7 +80,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 22,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -93,9 +101,9 @@
    "hl": "https://media.api-sports.io/football/teams/870.png",
    "al": "https://media.api-sports.io/football/teams/498.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 16,
+   "minute": 22,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -105,6 +113,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kevin Mbabu"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lorenzo Mezzotero"
     }
    ]
   },
@@ -118,7 +134,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 24,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
@@ -132,7 +148,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 25,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -155,7 +171,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 21,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -172,7 +188,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Hitalo"
     }
    ]
   },
@@ -186,7 +202,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 19,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -209,7 +225,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 26,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -231,93 +247,6 @@
    ]
   },
   {
-   "id": 1563679,
-   "league": "Russia - Cup",
-   "home": "Lokomotiv",
-   "away": "FC Rostov",
-   "hl": "https://media.api-sports.io/football/teams/597.png",
-   "al": "https://media.api-sports.io/football/teams/779.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T17:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Imran Aznaurov"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Zelimkhan Bakaev"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kirill Cheburakov"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Igor Telelyaev"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Vadim Rakov"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yaroslav Mikhailov"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mikhail Shchetinin"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mikhail Samorokovskiy"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Danila Godyaev"
-    }
-   ]
-  },
-  {
    "id": 1563681,
    "league": "Russia - Cup",
    "home": "Rubin",
@@ -327,7 +256,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -390,7 +319,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 64,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -400,6 +329,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Tommaso Cancellotti"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jari Vandeputte"
     }
    ]
   },
@@ -413,7 +350,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 66,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -452,7 +389,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 58,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": []
   },
@@ -466,7 +403,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 51,
    "time": "2026-11-25T18:15:00+00:00",
    "ev": []
   },
@@ -480,7 +417,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 78,
+   "minute": 83,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -543,7 +480,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 82,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -572,18 +509,18 @@
     },
     {
      "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Var",
-     "d": "Red card cancelled",
-     "p": "Renato Veiga"
-    },
-    {
-     "m": 45,
      "x": 2,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Renato Veiga"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Var",
+     "d": "Red card cancelled",
      "p": "Renato Veiga"
     },
     {
@@ -593,6 +530,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tajon Buchanan"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pape Gueye"
     }
    ]
   },
@@ -604,9 +549,9 @@
    "hl": "https://media.api-sports.io/football/teams/1916.png",
    "al": "https://media.api-sports.io/football/teams/19896.png",
    "gh": 3,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 57,
+   "minute": 62,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -700,197 +645,6 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651654,
-   "league": "Peru - Copa Perú",
-   "home": "Minas Pamputa",
-   "away": "Cajabamba",
-   "hl": "https://media.api-sports.io/football/teams/28672.png",
-   "al": "https://media.api-sports.io/football/teams/28666.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "P",
-   "minute": null,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Bravo"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Rossell"
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "H. Campos"
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "L. Flores"
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "L. De la Cruz"
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Tingal"
-    },
-    {
-     "m": 120,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "F. Ventura"
-    },
-    {
-     "m": 120,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "G. Cavero"
-    },
-    {
-     "m": 120,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "K. Rossell"
-    },
-    {
-     "m": 120,
-     "x": 4,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "J. Alaya"
-    },
-    {
-     "m": 120,
-     "x": 5,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Carranza"
-    },
-    {
-     "m": 120,
-     "x": 5,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "R. Paredes"
-    },
-    {
-     "m": 120,
-     "x": 6,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Zurita"
-    },
-    {
-     "m": 120,
-     "x": 6,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Serrato"
-    },
-    {
-     "m": 120,
-     "x": 7,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Y. Bobadilla"
-    },
-    {
-     "m": 120,
-     "x": 7,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "A. Huaripata"
-    },
-    {
-     "m": 120,
-     "x": 8,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Rosario"
-    },
-    {
-     "m": 120,
-     "x": 8,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "O. Roncal"
-    },
-    {
-     "m": 120,
-     "x": 9,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Racchumick"
-    },
-    {
-     "m": 120,
-     "x": 9,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 10,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 10,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
      "p": null
     }
    ]
