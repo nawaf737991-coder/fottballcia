@@ -10,6 +10,21 @@ BIG_AR = ["الهلال", "النصر", "الاتحاد", "الأهلي", "ال�
 KEEP_LABELS = {"مباريات الفرق"}
 
 
+STRICT = ["الهلال", "النصر", "الاتحاد", "الأهلي", "ريال مدريد", "برشلونة", "أتلتيكو", "ليفربول", "مانشستر", "أرسنال",
+          "تشيلسي", "توتنهام", "بايرن", "دورتموند", "ليفركوزن", "باريس سان جيرمان", "إنتر", "ميلان", "يوفنتوس", "نابولي",
+          "أبطال أوروبا", "أبطال آسيا", "كأس العالم"]
+NOT_BIG = ["المنستيري", "الأهلي طرابلس", "الأهلي بنغازي", "الاتحاد السكندري", "الاتحاد المنستيري", "ميلان بي"]
+
+
+def weak_report(p):
+    t = p.get("title", "")
+    lab = " ".join(p.get("labels") or [])
+    if "تقارير المباريات" not in lab:
+        return False
+    hit = any(b in t for b in STRICT) and not any(n in t for n in NOT_BIG)
+    return not hit
+
+
 def all_posts(status="live"):
     out, tok = [], None
     while True:
@@ -37,6 +52,10 @@ def main():
         if set(labels) & {"تقارير المباريات", "معاينات المباريات", "معاينة"} or "معاينة" in t or "موعد" in t or "مباراة" in t and "تشكيل" in t:
             if not any(b in t or b in " ".join(labels) for b in BIG_AR):
                 dele.append((p, "أقل أهمية"))
+    ids = {p["id"] for p, _ in dele}
+    for p in posts:
+        if p["id"] not in ids and not (KEEP_LABELS & set(p.get("labels") or [])) and weak_report(p):
+            dele.append((p, "تقرير ضعيف"))
     for p, why in dele:
         print(why, "|", p["title"], "|", p.get("labels"), "|", p.get("url"))
     print("للحذف:", len(dele), "من", len(posts))
