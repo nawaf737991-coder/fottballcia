@@ -31,6 +31,10 @@ jobs:
         if: always()
         continue-on-error: true
         run: python3 -u team_pages.py
+      - name: Fill team names
+        if: always()
+        continue-on-error: true
+        run: python3 -u names_fill.py
       - name: Commit state
         if: always()
         run: |

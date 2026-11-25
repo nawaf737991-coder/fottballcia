@@ -267,6 +267,7 @@ def match_facts(fx):
             "player": (e.get("player") or {}).get("name"),
         })
     return {
+        "fid": fx["fixture"]["id"], "lid": fx["league"]["id"], "hid": hid, "aid": fx["teams"]["away"]["id"],
         "league": fx["league"]["name"],
         "round": fx["league"].get("round"),
         "home": home,
@@ -322,9 +323,50 @@ def match_lineups(fid):
     return out
 
 
+TABLE_SLUG = {307: "saudi-league-table", 39: "premier-league-table", 140: "laliga-table", 135: "serie-table",
+              78: "bundesliga-table", 61: "ligue1-table", 2: "champions-league-table", 12: "caf-champions-league-table",
+              17: "afc-champions-league-table"}
+def tweets_html(fid):
+    """تضمين تغريدات رسمية فقط من data/embed_tweets.json: {fixture_id: [روابط]} (التضمين فقط، بلا تحميل فيديو)"""
+    try:
+        with open(os.path.join(ROOT, "data", "embed_tweets.json"), encoding="utf-8") as f:
+            urls = (json.load(f).get(str(fid)) or [])[:4]
+    except Exception:
+        return ""
+    ok = [u for u in urls if re.match(r"^https://(x|twitter)\.com/(beINSPORTS|beINSPORTS_EN|[A-Za-z0-9_]+)/status/\d+", u)]
+    return "".join(f'<blockquote class="twitter-tweet" data-lang="ar"><a href="{html.escape(u)}"></a></blockquote>' for u in ok)
+def extras_html(facts, data, league_ar):
+    """صندوق المباريات القادمة + روابط + زر تفاصيل المباراة"""
+    esc = html.escape
+    out = ['<h2>المباريات القادمة</h2>']
+    names = {facts.get("hid"): data.get("home_ar") or facts["home"], facts.get("aid"): data.get("away_ar") or facts["away"]}
+    rows = []
+    for tid, nm in names.items():
+        try:
+            nx = sb.football("fixtures", team=tid, next=1)
+        except Exception:
+            nx = []
+        if nx:
+            f = nx[0]
+            dt = datetime.fromisoformat(f["fixture"]["date"]).astimezone(sb.TZ).strftime("%Y-%m-%d %H:%M")
+            vs = f["teams"]["away"]["name"] if f["teams"]["home"]["id"] == tid else f["teams"]["home"]["name"]
+            rows.append(f'<li><strong>{esc(nm)}</strong> يلاقي {esc(vs)} ({esc(f["league"]["name"])}) - {dt} بتوقيت السعودية '
+                        f'<a href="{SITE_URL.rstrip("/")}/p/match.html?id={f["fixture"]["id"]}">تفاصيل</a></li>')
+    out.append("<ul>" + "".join(rows) + "</ul>" if rows else "<p>لم يُحدَّد موعد المباراة القادمة بعد.</p>")
+    links = [f'<a href="{SITE_URL.rstrip("/")}/p/matches-today.html">مباريات اليوم</a>']
+    if TABLE_SLUG.get(facts.get("lid")):
+        links.append(f'<a href="{SITE_URL.rstrip("/")}/p/{TABLE_SLUG[facts["lid"]]}.html">ترتيب {esc(league_ar)}</a>')
+    out.append("<p>" + " · ".join(links) + "</p>")
+    if facts.get("fid"):
+        out.append(f'<p style="text-align:center"><a href="{SITE_URL.rstrip("/")}/p/match.html?id={facts["fid"]}" '
+                   'style="display:inline-block;background:#153a5b;color:#fff;padding:10px 26px;border-radius:24px;'
+                   'font-weight:800;text-decoration:none">تفاصيل المباراة</a></p>')
+    return "\n".join(out)
 def report_html(facts, data, league_ar):
     esc = html.escape
-    parts = [f"<p>{esc(data['intro'])}</p>"]
+    parts = [f'<p style="font-size:13px;color:#5b6b7c;margin:0 0 8px">بقلم: <strong>فريق عالم المستديرة</strong> · '
+             f'آخر تحديث: {datetime.now(sb.TZ).strftime("%Y-%m-%d %H:%M")} بتوقيت السعودية</p>',
+             f"<p><strong>{esc(data['intro'])}</strong></p>"]
     parts.append("<h2>ملخص المباراة</h2>")
     parts += [f"<p>{esc(p)}</p>" for p in data.get("paragraphs", [])]
     goals = [e for e in facts["events"] if e["type"] == "Goal"]
@@ -344,7 +386,7 @@ def report_html(facts, data, league_ar):
     stats = facts.get("stats") or {}
     if stats:
         hn, an = esc(data.get("home_ar") or facts["home"]), esc(data.get("away_ar") or facts["away"])
-        parts.append("<h2>إحصائيات المباراة</h2>")
+        parts.append("<h2>أرقام المباراة</h2>")
         parts.append('<table style="width:100%;border-collapse:collapse;text-align:center">'
                      f'<thead><tr><th style="padding:6px;border-bottom:2px solid #ccc">{hn}</th>'
                      '<th style="padding:6px;border-bottom:2px solid #ccc">الإحصائية</th>'
@@ -371,6 +413,8 @@ def report_html(facts, data, league_ar):
     if data.get("conclusion"):
         parts.append("<h2>ماذا تعني النتيجة؟</h2>")
         parts.append(f"<p>{esc(data['conclusion'])}</p>")
+    parts.append(tweets_html(facts.get("fid")))
+    parts.append(extras_html(facts, data, league_ar))
     parts.append(
         f'<p><small>{esc(league_ar)} - آخر تحديث: {datetime.now(sb.TZ).strftime("%Y-%m-%d %H:%M")} بتوقيت الرياض. '
         "تابع نتائج المباريات المباشرة على الصفحة الرئيسية لعالم المستديرة.</small></p>"

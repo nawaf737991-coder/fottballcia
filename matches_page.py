@@ -121,7 +121,7 @@ def league_block(lid, items, cache):
             f"<tr><td style='{TD};font-weight:700'>{home}</td>"
             f"<td style='{TD};font-weight:800;color:#153a5b;white-space:nowrap'>{a}</td>"
             f"<td style='{TD};font-weight:700'>{away}</td>"
-            f"<td style='{TD};color:#5b6b7c;font-size:13px'>{b}</td></tr>"
+            f"<td style='{TD};color:#5b6b7c;font-size:13px'>{b}<br><a href='{SITE}/p/match.html?id={f['fixture']['id']}' style='font-weight:700;color:#153a5b'>تفاصيل المباراة</a></td></tr>"
             + (f"<tr><td colspan='4' style='padding:0 6px 8px;text-align:center;font-size:12px;color:#8a97a6;border-bottom:1px solid #e6ebf1'>الملعب: {venue}</td></tr>" if venue else "")
         )
     return (f"<h3 style='margin:22px 0 8px;font-size:19px'>{html.escape(LNAME[lid])}"
