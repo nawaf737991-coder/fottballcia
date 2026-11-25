@@ -222,7 +222,7 @@ def run_news():
             title = (item.findtext("title") or "").strip()
             desc = re.sub(r"<[^>]+>", "", item.findtext("description") or "").strip()
             import quality as Q
-            if Q.is_women(title, desc, link) or Q.news_score(title, desc) < 1:
+            if Q.is_women(title, desc, link) or Q.news_score(title, desc) < 2:
                 continue
             try:
                 text = sb.claude(
