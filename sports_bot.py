@@ -38,7 +38,8 @@ CLAUDE_MODEL = "claude-sonnet-5-5"
 # مصادر الأخبار (RSS) - عدّلها كما تحب
 NEWS_FEEDS = [
     "https://feeds.bbci.co.uk/sport/football/rss.xml",
-    "https://www.espn.com/espn/rss/soccer/news",
+    "https://www.skysports.com/rss/12040",
+    "https://www.theguardian.com/football/championsleague/rss",
     "https://www.skysports.com/rss/11095",
     "https://www.theguardian.com/football/rss",
     "https://feeds.bbci.co.uk/sport/football/european/rss.xml",
