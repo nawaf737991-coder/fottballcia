@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T12:16:27+03:00",
- "ts": 1795598187,
+ "updated": "2026-11-25T12:20:20+03:00",
+ "ts": 1795598420,
  "matches": [
   {
    "id": 1555827,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 13,
+   "minute": 17,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -56,9 +56,9 @@
    "hl": "https://media.api-sports.io/football/teams/8015.png",
    "al": "https://media.api-sports.io/football/teams/24091.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 16,
+   "minute": 19,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -68,6 +68,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Aung Ye Yint"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1630407,
+   "league": "World - AFC Champions League Two",
+   "home": "Melbourne Victory",
+   "away": "Viettel",
+   "hl": "https://media.api-sports.io/football/teams/944.png",
+   "al": "https://media.api-sports.io/football/teams/3681.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 79,
+   "time": "2026-11-25T07:45:00+00:00",
+   "ev": [
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Clarismario"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Paulinho Curua"
     }
    ]
   },
@@ -80,7 +119,7 @@
    "al": "https://media.api-sports.io/football/teams/4235.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-25T08:30:00+00:00",
    "ev": [
@@ -103,41 +142,10 @@
    "al": "https://media.api-sports.io/football/teams/28719.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-25T08:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1630407,
-   "league": "World - AFC Champions League Two",
-   "home": "Melbourne Victory",
-   "away": "Viettel",
-   "hl": "https://media.api-sports.io/football/teams/944.png",
-   "al": "https://media.api-sports.io/football/teams/3681.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 75,
-   "time": "2026-11-25T07:45:00+00:00",
-   "ev": [
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Clarismario"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Paulinho Curua"
-    }
-   ]
   }
  ]
 }
