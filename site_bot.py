@@ -216,12 +216,15 @@ def run_news():
             link = (item.findtext("link") or "").strip()
             if not re.match(r"^https?://", link):
                 continue
-            key = hashlib.md5(link.encode()).hexdigest()
-            if key in seen:
+            import quality as Q
+            key = hashlib.md5(Q.norm_link(link).encode()).hexdigest()
+            if key in seen or hashlib.md5(link.encode()).hexdigest() in seen:
                 continue
             title = (item.findtext("title") or "").strip()
             desc = re.sub(r"<[^>]+>", "", item.findtext("description") or "").strip()
-            import quality as Q
+            if Q.is_dup(title, [i.get("src", "") for i in items[:80]]):
+                seen.add(key)
+                continue
             if Q.is_women(title, desc, link) or Q.news_score(title, desc) < 2:
                 continue
             try:
@@ -246,6 +249,7 @@ def run_news():
                 "title": head,
                 "body": body,
                 "source": urllib.parse.urlparse(link).netloc,
+                "src": title,
                 "link": link,
                 "date": now_iso(),
             })

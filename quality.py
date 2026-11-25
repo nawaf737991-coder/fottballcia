@@ -115,3 +115,31 @@ def spread_allowed(cap):
     """توزيع الحصة على اليوم: لا نستهلك كل شيء في أول ساعات"""
     h = datetime.now(sb.TZ).hour
     return min(cap, math.ceil(cap * (h + 1) / 20))
+
+
+# ---------- منع تكرار نفس الخبر بروابط مختلفة ----------
+_STOP = set("the a an of to in on for and at is with as by from after over into his her their its be has have will are was were "
+            "that this it vs v not but new says say could would out up down more than who what when how why".split())
+
+
+def norm_link(u):
+    u = (u or "").split("#")[0].split("?")[0].lower().rstrip("/")
+    return re.sub(r"^https?://(www\.|m\.)?", "", u)
+
+
+def title_words(t):
+    ws = re.findall(r"[a-z0-9]+", (t or "").lower())
+    return {w for w in ws if w not in _STOP and len(w) > 2}
+
+
+def same_story(a, b):
+    """true إذا العنوانان لنفس الخبر تقريبًا (تقاطع كلمات مرتفع)"""
+    wa, wb = title_words(a), title_words(b)
+    if len(wa) < 3 or len(wb) < 3:
+        return False
+    inter = len(wa & wb)
+    return inter >= 4 and inter / min(len(wa), len(wb)) >= 0.6 or inter / len(wa | wb) >= 0.55
+
+
+def is_dup(title, recent):
+    return any(same_story(title, r) for r in recent)

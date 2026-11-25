@@ -543,8 +543,9 @@ def run_news():
     finally:
         st["news"] = list(seen)
         save(st)
-def _collect(seen):
+def _collect(seen, recent):
     cands = []
+    keys_n = set()
     for feed in sb.NEWS_FEEDS:
         try:
             req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
@@ -559,11 +560,15 @@ def _collect(seen):
                 continue
             if "/live/" in link or not re.search(r"football|soccer", link):
                 continue
-            key = hashlib.md5(link.encode()).hexdigest()
-            if key in seen:
+            key = hashlib.md5(Q.norm_link(link).encode()).hexdigest()
+            if key in seen or hashlib.md5(link.encode()).hexdigest() in seen or key in keys_n:
                 continue
             title = (item.findtext("title") or "").strip()
             desc = re.sub(r"<[^>]+>", "", item.findtext("description") or "").strip()
+            if Q.is_dup(title, recent) or any(Q.same_story(title, c[3]) for c in cands):
+                seen.add(key)
+                continue
+            keys_n.add(key)
             if len(desc) < 40:
                 seen.add(key)
                 continue
@@ -582,7 +587,8 @@ def _news_loop(seen, st):
     cap_live = int(os.environ.get("DAILY_NEWS", "2"))
     cap_draft = int(os.environ.get("DAILY_DRAFTS", "3"))
     per_run = int(os.environ.get("MAX_NEWS", "1"))
-    cands = _collect(seen)
+    recent = st.setdefault("titles", [])
+    cands = _collect(seen, recent)
     print("أخبار مرشحة:", len(cands), flush=True)
     for sc, link, key, title, desc in cands:
         if made >= per_run:
@@ -652,6 +658,8 @@ def _news_loop(seen, st):
                 publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug, draft=want_draft)
                 seen.add(key)
                 dc["draft" if want_draft else "pub"] += 1
+                recent.append(title)
+                del recent[:-300]
                 made += 1
             except Exception as e:
                 check_billing(e)
