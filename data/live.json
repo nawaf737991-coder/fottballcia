@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T20:40:15+03:00",
- "ts": 1795628415,
+ "updated": "2026-11-25T20:50:17+03:00",
+ "ts": 1795629017,
  "matches": [
   {
    "id": 1563679,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -35,40 +35,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1573043,
-   "league": "Spain - Segunda División RFEF - Group 4",
-   "home": "Sevilla Atletico",
-   "away": "Recreativo Huelva",
-   "hl": "https://media.api-sports.io/football/teams/730.png",
-   "al": "https://media.api-sports.io/football/teams/9410.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Alonso"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Munoz"
-    }
-   ]
   },
   {
    "id": 1608741,
@@ -80,7 +49,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -106,139 +75,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Ghislandi"
-    }
-   ]
-  },
-  {
-   "id": 1645619,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Qatar SC",
-   "away": "Al Nasr",
-   "hl": "https://media.api-sports.io/football/teams/2907.png",
-   "al": "https://media.api-sports.io/football/teams/10155.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 20,
+     "m": 38,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Hoibraaten"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "F. Selemani"
+     "p": "A. Manzoni"
     }
    ]
   },
   {
-   "id": 1647525,
-   "league": "Slovenia - Cup",
-   "home": "Bravo",
-   "away": "Odranci",
-   "hl": "https://media.api-sports.io/football/teams/4359.png",
-   "al": "https://media.api-sports.io/football/teams/6722.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Nuhanovic"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Nuhanovic"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Horvat"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649068,
-   "league": "World - UEFA Youth League",
-   "home": "Hoffenheim U19",
-   "away": "PAOK U19",
-   "hl": "https://media.api-sports.io/football/teams/7955.png",
-   "al": "https://media.api-sports.io/football/teams/7920.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Avgitidis"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Creta"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Cizek"
-    }
-   ]
-  },
-  {
-   "id": 1651654,
-   "league": "Peru - Copa Perú",
-   "home": "Minas Pamputa",
-   "away": "Cajabamba",
-   "hl": "https://media.api-sports.io/football/teams/28672.png",
-   "al": "https://media.api-sports.io/football/teams/28666.png",
+   "id": 1635718,
+   "league": "World - UEFA Champions League",
+   "home": "Sabah FA",
+   "away": "Barcelona",
+   "hl": "https://media.api-sports.io/football/teams/13976.png",
+   "al": "https://media.api-sports.io/football/teams/529.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T17:00:00+00:00",
+   "minute": 5,
+   "time": "2026-11-25T17:45:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1635728,
+   "league": "World - UEFA Champions League",
+   "home": "Slavia Praha",
+   "away": "Villarreal",
+   "hl": "https://media.api-sports.io/football/teams/560.png",
+   "al": "https://media.api-sports.io/football/teams/533.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-25T17:45:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Michal Sadílek"
+    }
+   ]
   },
   {
    "id": 1561728,
@@ -250,7 +133,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -268,6 +151,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "N. Kuzera"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Kisly"
     }
    ]
   },
@@ -278,10 +169,10 @@
    "away": "Al-Markhiya",
    "hl": "https://media.api-sports.io/football/teams/2925.png",
    "al": "https://media.api-sports.io/football/teams/2908.png",
-   "gh": 3,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -315,14 +206,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   },
@@ -333,12 +216,21 @@
    "away": "Al Shamal II",
    "hl": "https://media.api-sports.io/football/teams/2901.png",
    "al": "https://media.api-sports.io/football/teams/11909.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1627335,
@@ -350,7 +242,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
@@ -364,7 +256,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -390,6 +282,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jassem Gaber"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yousef Ayman"
     }
    ]
   },
@@ -403,7 +303,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -453,6 +353,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mohammadreza Bordbar"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohammad Erfan Masoumi"
     }
    ]
   },
@@ -466,7 +374,7 @@
    "gh": 2,
    "ga": 4,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -559,9 +467,9 @@
    "hl": "https://media.api-sports.io/football/teams/3535.png",
    "al": "https://media.api-sports.io/football/teams/2875.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -587,6 +495,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Facundo Kruspzky"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abdulla Hamad"
     }
    ]
   },
@@ -597,12 +513,21 @@
    "away": "Musanze",
    "hl": "https://media.api-sports.io/football/teams/5309.png",
    "al": "https://media.api-sports.io/football/teams/5321.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Kiwanuka"
+    }
+   ]
   },
   {
    "id": 1647532,
@@ -611,10 +536,10 @@
    "away": "Al Fahaheel",
    "hl": "https://media.api-sports.io/football/teams/3537.png",
    "al": "https://media.api-sports.io/football/teams/3533.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -648,6 +573,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -661,9 +594,26 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Hayes"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Sullivan"
+    }
+   ]
   },
   {
    "id": 1649067,
@@ -675,7 +625,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -741,6 +691,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "L. Palmula"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Zaberxha"
     }
    ]
   },
@@ -754,7 +712,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -808,51 +766,190 @@
    ]
   },
   {
-   "id": 1649072,
-   "league": "World - UEFA Youth League",
-   "home": "Sheriff U19",
-   "away": "Maccabi Tel Aviv U19",
-   "hl": "https://media.api-sports.io/football/teams/7930.png",
-   "al": "https://media.api-sports.io/football/teams/7959.png",
-   "gh": 0,
-   "ga": 4,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-25T16:00:00+00:00",
+   "id": 1573043,
+   "league": "Spain - Segunda División RFEF - Group 4",
+   "home": "Sevilla Atletico",
+   "away": "Recreativo Huelva",
+   "hl": "https://media.api-sports.io/football/teams/730.png",
+   "al": "https://media.api-sports.io/football/teams/9410.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
-     "m": 12,
+     "m": 14,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "I. Yosef"
+     "p": "A. Alonso"
     },
     {
-     "m": 53,
+     "m": 34,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "I. Ben Simon"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Azrane"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Ben Simon"
+     "p": "I. Munoz"
     }
    ]
+  },
+  {
+   "id": 1645619,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Qatar SC",
+   "away": "Al Nasr",
+   "hl": "https://media.api-sports.io/football/teams/2907.png",
+   "al": "https://media.api-sports.io/football/teams/10155.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Hoibraaten"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "F. Selemani"
+    }
+   ]
+  },
+  {
+   "id": 1647525,
+   "league": "Slovenia - Cup",
+   "home": "Bravo",
+   "away": "Odranci",
+   "hl": "https://media.api-sports.io/football/teams/4359.png",
+   "al": "https://media.api-sports.io/football/teams/6722.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Nuhanovic"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Nuhanovic"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Horvat"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649068,
+   "league": "World - UEFA Youth League",
+   "home": "Hoffenheim U19",
+   "away": "PAOK U19",
+   "hl": "https://media.api-sports.io/football/teams/7955.png",
+   "al": "https://media.api-sports.io/football/teams/7920.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "C. Avgitidis"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Creta"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Cizek"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Tidjani"
+    }
+   ]
+  },
+  {
+   "id": 1651654,
+   "league": "Peru - Copa Perú",
+   "home": "Minas Pamputa",
+   "away": "Cajabamba",
+   "hl": "https://media.api-sports.io/football/teams/28672.png",
+   "al": "https://media.api-sports.io/football/teams/28666.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": []
   }
  ]
 }
