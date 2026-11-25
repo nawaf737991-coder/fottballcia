@@ -1,53 +1,7 @@
 {
- "updated": "2026-11-25T23:50:11+03:00",
- "ts": 1795639811,
+ "updated": "2026-11-26T00:00:16+03:00",
+ "ts": 1795640416,
  "matches": [
-  {
-   "id": 1635642,
-   "league": "World - UEFA Champions League",
-   "home": "Club Brugge KV",
-   "away": "Liverpool",
-   "hl": "https://media.api-sports.io/football/teams/569.png",
-   "al": "https://media.api-sports.io/football/teams/40.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alexander Isak"
-    }
-   ]
-  },
-  {
-   "id": 1651655,
-   "league": "Peru - Copa Perú",
-   "home": "Viargoca",
-   "away": "Sociedad de Tiro 28",
-   "hl": "https://media.api-sports.io/football/teams/25269.png",
-   "al": "https://media.api-sports.io/football/teams/22487.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
   {
    "id": 1563283,
    "league": "England - Championship",
@@ -58,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -88,6 +42,53 @@
    ]
   },
   {
+   "id": 1563284,
+   "league": "England - Championship",
+   "home": "Burnley",
+   "away": "Birmingham",
+   "hl": "https://media.api-sports.io/football/teams/44.png",
+   "al": "https://media.api-sports.io/football/teams/54.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "August Priske"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jhon Elmer Solís Romero"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jaydon Banel"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Jaydon Banel"
+    }
+   ]
+  },
+  {
    "id": 1563286,
    "league": "England - Championship",
    "home": "Watford",
@@ -95,9 +96,9 @@
    "hl": "https://media.api-sports.io/football/teams/38.png",
    "al": "https://media.api-sports.io/football/teams/67.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -131,91 +132,22 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Iker Bravo"
-    }
-   ]
-  },
-  {
-   "id": 1572698,
-   "league": "Spain - Segunda División RFEF - Group 3",
-   "home": "Intercity",
-   "away": "Real Murcia II",
-   "hl": "https://media.api-sports.io/football/teams/8160.png",
-   "al": "https://media.api-sports.io/football/teams/9820.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1585362,
-   "league": "England - National League",
-   "home": "Boreham Wood",
-   "away": "Aldershot Town",
-   "hl": "https://media.api-sports.io/football/teams/1830.png",
-   "al": "https://media.api-sports.io/football/teams/1818.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 14,
+     "m": 56,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Whitfield"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Cummings"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Whitfield"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "B. Peart"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Z. Brunt"
+     "p": "Matthew Pollock"
     },
     {
      "m": 57,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Rush"
-    },
-    {
-     "m": 78,
-     "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Stickland"
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Todd Cantwell"
     }
    ]
   },
@@ -229,7 +161,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -252,7 +184,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -274,266 +206,6 @@
    ]
   },
   {
-   "id": 1588855,
-   "league": "England - EFL Trophy",
-   "home": "Fleetwood Town",
-   "away": "Leeds United U21",
-   "hl": "https://media.api-sports.io/football/teams/1336.png",
-   "al": "https://media.api-sports.io/football/teams/14430.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "harvey vincent"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jayden Lienou"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aaron Loupalo-Bi"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Josh Robertson"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Carrick Njinko"
-    }
-   ]
-  },
-  {
-   "id": 1601619,
-   "league": "Italy - Serie B",
-   "home": "Mantova",
-   "away": "Arezzo",
-   "hl": "https://media.api-sports.io/football/teams/1693.png",
-   "al": "https://media.api-sports.io/football/teams/876.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "matteo spinacce"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Christian Bucchi"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Camillo Tavernelli"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Simone Trimboli"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alessio Castellini"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Rachid Kouda"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "matteo gilli"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Davide Bragantini"
-    }
-   ]
-  },
-  {
-   "id": 1601620,
-   "league": "Italy - Serie B",
-   "home": "Padova",
-   "away": "Sampdoria",
-   "hl": "https://media.api-sports.io/football/teams/870.png",
-   "al": "https://media.api-sports.io/football/teams/498.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kevin Mbabu"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lorenzo Mezzotero"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Giovanni·Giunti"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Liam Henderson"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pietro Fusi"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lorenzo Mezzotero"
-    }
-   ]
-  },
-  {
-   "id": 1601622,
-   "league": "Italy - Serie B",
-   "home": "Pisa",
-   "away": "Modena",
-   "hl": "https://media.api-sports.io/football/teams/801.png",
-   "al": "https://media.api-sports.io/football/teams/899.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tommaso Marras"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Antonio Caracciolo"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Filippo Pittarello"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alessandro Bianco"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Giuseppe Ambrosino"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mehdi Léris"
-    }
-   ]
-  },
-  {
    "id": 1642049,
    "league": "Lebanon - Premier League",
    "home": "Safa",
@@ -543,7 +215,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-25T19:30:00+00:00",
    "ev": [
     {
@@ -566,7 +238,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": []
   },
@@ -580,7 +252,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -602,85 +274,6 @@
    ]
   },
   {
-   "id": 1649070,
-   "league": "World - UEFA Youth League",
-   "home": "Rangers U19",
-   "away": "AZ U19",
-   "hl": "https://media.api-sports.io/football/teams/7925.png",
-   "al": "https://media.api-sports.io/football/teams/16384.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Stewart"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "G. Groot"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Groot"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Sijbrands"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Van der Lijcke"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Glasgow"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Glasgow"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Reid"
-    }
-   ]
-  },
-  {
    "id": 1650573,
    "league": "Brazil - Pernambucano - 1",
    "home": "América PE",
@@ -690,7 +283,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -745,7 +338,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -779,92 +372,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651385,
-   "league": "Argentina - Reserve League",
-   "home": "Lanús Res.",
-   "away": "River Plate Res.",
-   "hl": "https://media.api-sports.io/football/teams/18690.png",
-   "al": "https://media.api-sports.io/football/teams/18695.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1563284,
-   "league": "England - Championship",
-   "home": "Burnley",
-   "away": "Birmingham",
-   "hl": "https://media.api-sports.io/football/teams/44.png",
-   "al": "https://media.api-sports.io/football/teams/54.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "August Priske"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jhon Elmer Solís Romero"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jaydon Banel"
     }
    ]
   },
@@ -943,6 +450,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Julián Álvarez"
+    }
+   ]
+  },
+  {
+   "id": 1635642,
+   "league": "World - UEFA Champions League",
+   "home": "Club Brugge KV",
+   "away": "Liverpool",
+   "hl": "https://media.api-sports.io/football/teams/569.png",
+   "al": "https://media.api-sports.io/football/teams/40.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alexander Isak"
     }
    ]
   },
@@ -1098,6 +628,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Youri Tielemans"
+    }
+   ]
+  },
+  {
+   "id": 1651655,
+   "league": "Peru - Copa Perú",
+   "home": "Viargoca",
+   "away": "Sociedad de Tiro 28",
+   "hl": "https://media.api-sports.io/football/teams/25269.png",
+   "al": "https://media.api-sports.io/football/teams/22487.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
