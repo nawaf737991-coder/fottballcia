@@ -1,7 +1,44 @@
 {
- "updated": "2026-11-25T20:30:18+03:00",
- "ts": 1795627818,
+ "updated": "2026-11-25T20:40:15+03:00",
+ "ts": 1795628415,
  "matches": [
+  {
+   "id": 1563679,
+   "league": "Russia - Cup",
+   "home": "Lokomotiv",
+   "away": "FC Rostov",
+   "hl": "https://media.api-sports.io/football/teams/597.png",
+   "al": "https://media.api-sports.io/football/teams/779.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T17:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Imran Aznaurov"
+    }
+   ]
+  },
+  {
+   "id": 1563681,
+   "league": "Russia - Cup",
+   "home": "Rubin",
+   "away": "Rodina Moskva",
+   "hl": "https://media.api-sports.io/football/teams/1083.png",
+   "al": "https://media.api-sports.io/football/teams/6822.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-25T17:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1573043,
    "league": "Spain - Segunda División RFEF - Group 4",
@@ -9,10 +46,10 @@
    "away": "Recreativo Huelva",
    "hl": "https://media.api-sports.io/football/teams/730.png",
    "al": "https://media.api-sports.io/football/teams/9410.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 41,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -22,6 +59,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Alonso"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Munoz"
     }
    ]
   },
@@ -32,10 +77,10 @@
    "away": "Pineto",
    "hl": "https://media.api-sports.io/football/teams/22104.png",
    "al": "https://media.api-sports.io/football/teams/9514.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -53,6 +98,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Idele"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Ghislandi"
     }
    ]
   },
@@ -66,7 +119,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -97,7 +150,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -123,6 +176,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Horvat"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -133,10 +194,10 @@
    "away": "PAOK U19",
    "hl": "https://media.api-sports.io/football/teams/7955.png",
    "al": "https://media.api-sports.io/football/teams/7920.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T17:00:00+00:00",
    "ev": [
     {
@@ -146,6 +207,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Avgitidis"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Creta"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Cizek"
     }
    ]
   },
@@ -159,8 +236,122 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-25T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1561728,
+   "league": "Poland - II Liga - East",
+   "home": "Resovia Rzeszów",
+   "away": "Świt Skolwin",
+   "hl": "https://media.api-sports.io/football/teams/6951.png",
+   "al": "https://media.api-sports.io/football/teams/12902.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Letniowski"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Kuzera"
+    }
+   ]
+  },
+  {
+   "id": 1606561,
+   "league": "Qatar - Second Division",
+   "home": "Al Bidda SC",
+   "away": "Al-Markhiya",
+   "hl": "https://media.api-sports.io/football/teams/2925.png",
+   "al": "https://media.api-sports.io/football/teams/2908.png",
+   "gh": 3,
+   "ga": 2,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1606563,
+   "league": "Qatar - Second Division",
+   "home": "Al-Khor",
+   "away": "Al Shamal II",
+   "hl": "https://media.api-sports.io/football/teams/2901.png",
+   "al": "https://media.api-sports.io/football/teams/11909.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1627335,
+   "league": "Angola - Girabola",
+   "home": "Petro de Luanda",
+   "away": "Sporting de Cabinda",
+   "hl": "https://media.api-sports.io/football/teams/4922.png",
+   "al": "https://media.api-sports.io/football/teams/4926.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 47,
+   "time": "2026-11-25T16:30:00+00:00",
    "ev": []
   },
   {
@@ -173,7 +364,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -191,6 +382,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Aleksandar Mitrović"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jassem Gaber"
     }
    ]
   },
@@ -204,7 +403,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -246,6 +445,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abdallah Ramadan"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohammadreza Bordbar"
     }
    ]
   },
@@ -259,7 +466,7 @@
    "gh": 2,
    "ga": 4,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -290,16 +497,16 @@
      "m": 15,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Dayanch Meredov"
     },
     {
      "m": 15,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": "Dayanch Meredov"
     },
     {
@@ -333,6 +540,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mekan Saparov"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ybraýym Mämmedow"
     }
    ]
   },
@@ -346,7 +561,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -376,6 +591,20 @@
    ]
   },
   {
+   "id": 1638250,
+   "league": "Rwanda - National Soccer League",
+   "home": "APR",
+   "away": "Musanze",
+   "hl": "https://media.api-sports.io/football/teams/5309.png",
+   "al": "https://media.api-sports.io/football/teams/5321.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1647532,
    "league": "Kuwait - Emir Cup",
    "home": "Al Qadsia",
@@ -383,9 +612,9 @@
    "hl": "https://media.api-sports.io/football/teams/3537.png",
    "al": "https://media.api-sports.io/football/teams/3533.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -398,6 +627,14 @@
     },
     {
      "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Al Rashedi"
+    },
+    {
+     "m": 45,
      "x": 4,
      "s": "a",
      "t": "Goal",
@@ -405,14 +642,28 @@
      "p": "Breno Calixto"
     },
     {
-     "m": 45,
-     "x": 1,
-     "s": "h",
+     "m": 71,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "E. Al Rashedi"
+     "p": null
     }
    ]
+  },
+  {
+   "id": 1649066,
+   "league": "World - UEFA Youth League",
+   "home": "Flora III",
+   "away": "St Patrick's U19",
+   "hl": "https://media.api-sports.io/football/teams/14288.png",
+   "al": "https://media.api-sports.io/football/teams/17700.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1649067,
@@ -424,7 +675,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -503,7 +754,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -564,9 +815,9 @@
    "hl": "https://media.api-sports.io/football/teams/7930.png",
    "al": "https://media.api-sports.io/football/teams/7959.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 4,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -584,142 +835,24 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Ben Simon"
-    }
-   ]
-  },
-  {
-   "id": 1561728,
-   "league": "Poland - II Liga - East",
-   "home": "Resovia Rzeszów",
-   "away": "Świt Skolwin",
-   "hl": "https://media.api-sports.io/football/teams/6951.png",
-   "al": "https://media.api-sports.io/football/teams/12902.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Letniowski"
     },
     {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Kuzera"
-    }
-   ]
-  },
-  {
-   "id": 1606561,
-   "league": "Qatar - Second Division",
-   "home": "Al Bidda SC",
-   "away": "Al-Markhiya",
-   "hl": "https://media.api-sports.io/football/teams/2925.png",
-   "al": "https://media.api-sports.io/football/teams/2908.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
+     "m": 76,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "N. Azrane"
     },
     {
-     "m": 41,
+     "m": 81,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 3,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "I. Ben Simon"
     }
    ]
-  },
-  {
-   "id": 1606563,
-   "league": "Qatar - Second Division",
-   "home": "Al-Khor",
-   "away": "Al Shamal II",
-   "hl": "https://media.api-sports.io/football/teams/2901.png",
-   "al": "https://media.api-sports.io/football/teams/11909.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1627335,
-   "league": "Angola - Girabola",
-   "home": "Petro de Luanda",
-   "away": "Sporting de Cabinda",
-   "hl": "https://media.api-sports.io/football/teams/4922.png",
-   "al": "https://media.api-sports.io/football/teams/4926.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1638250,
-   "league": "Rwanda - National Soccer League",
-   "home": "APR",
-   "away": "Musanze",
-   "hl": "https://media.api-sports.io/football/teams/5309.png",
-   "al": "https://media.api-sports.io/football/teams/5321.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1649066,
-   "league": "World - UEFA Youth League",
-   "home": "Flora III",
-   "away": "St Patrick's U19",
-   "hl": "https://media.api-sports.io/football/teams/14288.png",
-   "al": "https://media.api-sports.io/football/teams/17700.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
   }
  ]
 }
