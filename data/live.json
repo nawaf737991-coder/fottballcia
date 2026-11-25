@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T20:50:17+03:00",
- "ts": 1795629017,
+ "updated": "2026-11-25T21:00:23+03:00",
+ "ts": 1795629623,
  "matches": [
   {
    "id": 1563679,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -35,56 +35,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 27,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1608741,
-   "league": "Italy - Serie C - Girone B",
-   "home": "Atalanta II",
-   "away": "Pineto",
-   "hl": "https://media.api-sports.io/football/teams/22104.png",
-   "al": "https://media.api-sports.io/football/teams/9514.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Puljic"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Idele"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Ghislandi"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Manzoni"
-    }
-   ]
   },
   {
    "id": 1635718,
@@ -96,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": []
   },
@@ -110,7 +63,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -120,6 +73,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Michal Sadílek"
+    },
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sergi Cardona Bermúdez"
     }
    ]
   },
@@ -133,7 +94,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -170,9 +131,9 @@
    "hl": "https://media.api-sports.io/football/teams/2925.png",
    "al": "https://media.api-sports.io/football/teams/2908.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 60,
+   "minute": 71,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -193,6 +154,14 @@
     },
     {
      "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -200,8 +169,8 @@
      "p": null
     },
     {
-     "m": 45,
-     "x": 3,
+     "m": 69,
+     "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
@@ -216,14 +185,22 @@
    "away": "Al Shamal II",
    "hl": "https://media.api-sports.io/football/teams/2901.png",
    "al": "https://media.api-sports.io/football/teams/11909.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
      "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 69,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -239,272 +216,12 @@
    "away": "Sporting de Cabinda",
    "hl": "https://media.api-sports.io/football/teams/4922.png",
    "al": "https://media.api-sports.io/football/teams/4926.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 57,
-   "time": "2026-11-25T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630409,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Faisaly",
-   "away": "Al-Rayyan SC",
-   "hl": "https://media.api-sports.io/football/teams/4531.png",
-   "al": "https://media.api-sports.io/football/teams/2897.png",
-   "gh": 0,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 89,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmad Abd Rabbo"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aleksandar Mitrović"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jassem Gaber"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yousef Ayman"
-    }
-   ]
-  },
-  {
-   "id": 1630410,
-   "league": "World - AFC Champions League Two",
-   "home": "Al-Jazira",
-   "away": "Gol Gohar",
-   "hl": "https://media.api-sports.io/football/teams/2871.png",
-   "al": "https://media.api-sports.io/football/teams/2714.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mamadou Coulibaly"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ersin Destanoglu"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Anderson Talisca"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alireza Alizadeh"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abdallah Ramadan"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohammadreza Bordbar"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohammad Erfan Masoumi"
-    }
-   ]
-  },
-  {
-   "id": 1630411,
-   "league": "World - AFC Champions League Two",
-   "home": "Muharraq",
-   "away": "Arkadag",
-   "hl": "https://media.api-sports.io/football/teams/5488.png",
-   "al": "https://media.api-sports.io/football/teams/21232.png",
-   "gh": 2,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Bruno Santos"
-    },
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ahmet Atayew"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Elliot Simoes"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dayanch Meredov"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dayanch Meredov"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dayanch Meredov"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abdy Byashimov"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Arthur Rezende"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mekan Saparov"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ybraýym Mämmedow"
-    }
-   ]
-  },
-  {
-   "id": 1630412,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Kuwait",
-   "away": "Al Wahda FC",
-   "hl": "https://media.api-sports.io/football/teams/3535.png",
-   "al": "https://media.api-sports.io/football/teams/2875.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Omar Kharbin"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ebrahim Kameel"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Facundo Kruspzky"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Abdulla Hamad"
-    }
-   ]
+   "minute": 67,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1638250,
@@ -516,7 +233,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -539,7 +256,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -594,7 +311,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T16:30:00+00:00",
    "ev": [
     {
@@ -612,156 +329,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "N. Sullivan"
-    }
-   ]
-  },
-  {
-   "id": 1649067,
-   "league": "World - UEFA Youth League",
-   "home": "HJK U19",
-   "away": "Stabæk U19",
-   "hl": "https://media.api-sports.io/football/teams/7952.png",
-   "al": "https://media.api-sports.io/football/teams/16563.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Myklebust"
     },
     {
-     "m": 16,
+     "m": 69,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "I. Nyback"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "R. Ferrington"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Palmula"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Kroupkin"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Kroupkin"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Zaitra"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Palmula"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Zaberxha"
-    }
-   ]
-  },
-  {
-   "id": 1649069,
-   "league": "World - UEFA Youth League",
-   "home": "Hradec Králové U19",
-   "away": "Kairat U19",
-   "hl": "https://media.api-sports.io/football/teams/14831.png",
-   "al": "https://media.api-sports.io/football/teams/7984.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Abish"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Vanek"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Kenesbekov"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Abish"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "M. Abish"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Vanek"
+     "p": "M. Kukkonen"
     }
    ]
   },
@@ -793,6 +368,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Munoz"
+    }
+   ]
+  },
+  {
+   "id": 1608741,
+   "league": "Italy - Serie C - Girone B",
+   "home": "Atalanta II",
+   "away": "Pineto",
+   "hl": "https://media.api-sports.io/football/teams/22104.png",
+   "al": "https://media.api-sports.io/football/teams/9514.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Puljic"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Idele"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Ghislandi"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Manzoni"
     }
    ]
   },
