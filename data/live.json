@@ -1,30 +1,7 @@
 {
- "updated": "2026-11-25T02:50:13+03:00",
- "ts": 1795564213,
+ "updated": "2026-11-25T03:00:16+03:00",
+ "ts": 1795564816,
  "matches": [
-  {
-   "id": 1557234,
-   "league": "USA - USL Super League",
-   "home": "Tampa Bay Sun W",
-   "away": "Dallas Trinity W",
-   "hl": "https://media.api-sports.io/football/teams/24663.png",
-   "al": "https://media.api-sports.io/football/teams/24660.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-24T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Shepherd"
-    }
-   ]
-  },
   {
    "id": 1650513,
    "league": "Colombia - Primera A",
@@ -35,7 +12,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-24T23:20:00+00:00",
    "ev": [
     {
@@ -74,54 +51,30 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-24T23:30:00+00:00",
    "ev": []
   },
   {
-   "id": 1645381,
-   "league": "Chile - Copa Chile",
-   "home": "Coquimbo Unido",
-   "away": "Union La Calera",
-   "hl": "https://media.api-sports.io/football/teams/2330.png",
-   "al": "https://media.api-sports.io/football/teams/2326.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-24T22:00:00+00:00",
+   "id": 1557234,
+   "league": "USA - USL Super League",
+   "home": "Tampa Bay Sun W",
+   "away": "Dallas Trinity W",
+   "hl": "https://media.api-sports.io/football/teams/24663.png",
+   "al": "https://media.api-sports.io/football/teams/24660.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-24T23:00:00+00:00",
    "ev": [
     {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Campos"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Arancibia"
-    },
-    {
-     "m": 69,
+     "m": 24,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "N. Palma"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "F. Pons"
+     "p": "J. Shepherd"
     }
    ]
   }
