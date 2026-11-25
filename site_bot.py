@@ -80,6 +80,9 @@ def events(fx):
     return out
 
 
+def _w(fx):
+    import quality as Q
+    return Q.is_women(fx["teams"]["home"]["name"], fx["teams"]["away"]["name"], fx["league"].get("name"))
 def slim(fx):
     st = fx["fixture"]["status"]
     return {
@@ -100,7 +103,7 @@ def slim(fx):
 
 # ---------- المباشر ----------
 def run_live():
-    fx = [slim(f) for f in sb.fetch_live()]
+    fx = [slim(f) for f in sb.fetch_live() if not _w(f)]
     old = read("live.json", {})
     # لو ما فيه مباريات قبل وبعد، نحدّث الملف مرة في الساعة فقط (لتقليل الـ commits)
     if not fx and not old.get("matches") and old.get("ts") and time.time() - old["ts"] < 3600:
@@ -135,7 +138,7 @@ def run_matches():
     days = {d["date"]: d for d in results.get("days", [])}
 
     for date in dates:
-        fx = [slim(f) for f in sb.football("fixtures", date=date, timezone="Asia/Riyadh")]
+        fx = [slim(f) for f in sb.football("fixtures", date=date, timezone="Asia/Riyadh") if not _w(f)]
         fx.sort(key=lambda m: m["time"])
         if date == dates[-1]:
             write("today.json", {"date": date, "updated": now_iso(), "matches": fx})
@@ -171,7 +174,7 @@ def run_days():
         if off < -1 and os.path.exists(path):
             continue
         try:
-            fx = [slim(f) for f in sb.football("fixtures", date=date, timezone="Asia/Riyadh")]
+            fx = [slim(f) for f in sb.football("fixtures", date=date, timezone="Asia/Riyadh") if not _w(f)]
         except Exception as e:
             print("تعذر جلب", date, e)
             continue
