@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T22:10:25+03:00",
- "ts": 1795633825,
+ "updated": "2026-11-25T22:20:11+03:00",
+ "ts": 1795634411,
  "matches": [
   {
    "id": 1572698,
@@ -12,22 +12,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1573339,
-   "league": "Spain - Segunda División RFEF - Group 5",
-   "home": "CF Talavera",
-   "away": "Conquense",
-   "hl": "https://media.api-sports.io/football/teams/5253.png",
-   "al": "https://media.api-sports.io/football/teams/5257.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-25T18:30:00+00:00",
    "ev": []
   },
   {
@@ -37,12 +23,21 @@
    "away": "Aldershot Town",
    "hl": "https://media.api-sports.io/football/teams/1830.png",
    "al": "https://media.api-sports.io/football/teams/1818.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Whitfield"
+    }
+   ]
   },
   {
    "id": 1588855,
@@ -54,9 +49,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "harvey vincent"
+    }
+   ]
   },
   {
    "id": 1601619,
@@ -65,12 +69,21 @@
    "away": "Arezzo",
    "hl": "https://media.api-sports.io/football/teams/1693.png",
    "al": "https://media.api-sports.io/football/teams/876.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 16,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "matteo spinacce"
+    }
+   ]
   },
   {
    "id": 1601620,
@@ -82,9 +95,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 16,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kevin Mbabu"
+    }
+   ]
   },
   {
    "id": 1601622,
@@ -96,32 +118,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 18,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1615513,
-   "league": "Spain - Tercera División RFEF - Group 10",
-   "home": "Utrera",
-   "away": "Córdoba II",
-   "hl": "https://media.api-sports.io/football/teams/9769.png",
-   "al": "https://media.api-sports.io/football/teams/9759.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-25T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1649070,
@@ -130,12 +129,21 @@
    "away": "AZ U19",
    "hl": "https://media.api-sports.io/football/teams/7925.png",
    "al": "https://media.api-sports.io/football/teams/16384.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Stewart"
+    }
+   ]
   },
   {
    "id": 1650573,
@@ -144,10 +152,10 @@
    "away": "Central SC",
    "hl": "https://media.api-sports.io/football/teams/7819.png",
    "al": "https://media.api-sports.io/football/teams/2210.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 16,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -157,6 +165,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gilvan"
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -167,12 +183,21 @@
    "away": "Íbis",
    "hl": "https://media.api-sports.io/football/teams/12299.png",
    "al": "https://media.api-sports.io/football/teams/18319.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Pedro Henrique"
+    }
+   ]
   },
   {
    "id": 1651385,
@@ -181,12 +206,29 @@
    "away": "River Plate Res.",
    "hl": "https://media.api-sports.io/football/teams/18690.png",
    "al": "https://media.api-sports.io/football/teams/18695.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-25T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1563679,
@@ -198,7 +240,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 88,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -264,6 +306,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mikhail Samorokovskiy"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Danila Godyaev"
     }
    ]
   },
@@ -277,7 +327,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 88,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -340,7 +390,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -363,7 +413,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 60,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -393,6 +443,34 @@
    ]
   },
   {
+   "id": 1612288,
+   "league": "Egypt - Premier League",
+   "home": "Ghazl El Mehalla",
+   "away": "Petrojet",
+   "hl": "https://media.api-sports.io/football/teams/13819.png",
+   "al": "https://media.api-sports.io/football/teams/1041.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-25T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630413,
+   "league": "World - AFC Champions League Two",
+   "home": "Al Taawon",
+   "away": "Al-Nahda",
+   "hl": "https://media.api-sports.io/football/teams/2936.png",
+   "al": "https://media.api-sports.io/football/teams/5327.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-25T18:15:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1635718,
    "league": "World - UEFA Champions League",
    "home": "Sabah FA",
@@ -402,7 +480,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -444,6 +522,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Joy Lance Mickels"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ivan Lepinjica"
     }
    ]
   },
@@ -457,7 +543,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 76,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -486,18 +572,18 @@
     },
     {
      "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Renato Veiga"
-    },
-    {
-     "m": 45,
      "x": 1,
      "s": "a",
      "t": "Var",
      "d": "Red card cancelled",
+     "p": "Renato Veiga"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": "Renato Veiga"
     },
     {
@@ -520,7 +606,7 @@
    "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -582,32 +668,41 @@
    ]
   },
   {
-   "id": 1612288,
-   "league": "Egypt - Premier League",
-   "home": "Ghazl El Mehalla",
-   "away": "Petrojet",
-   "hl": "https://media.api-sports.io/football/teams/13819.png",
-   "al": "https://media.api-sports.io/football/teams/1041.png",
+   "id": 1573339,
+   "league": "Spain - Segunda División RFEF - Group 5",
+   "home": "CF Talavera",
+   "away": "Conquense",
+   "hl": "https://media.api-sports.io/football/teams/5253.png",
+   "al": "https://media.api-sports.io/football/teams/5257.png",
    "gh": 0,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T18:00:00+00:00",
+   "time": "2026-11-25T18:30:00+00:00",
    "ev": []
   },
   {
-   "id": 1630413,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Taawon",
-   "away": "Al-Nahda",
-   "hl": "https://media.api-sports.io/football/teams/2936.png",
-   "al": "https://media.api-sports.io/football/teams/5327.png",
+   "id": 1615513,
+   "league": "Spain - Tercera División RFEF - Group 10",
+   "home": "Utrera",
+   "away": "Córdoba II",
+   "hl": "https://media.api-sports.io/football/teams/9769.png",
+   "al": "https://media.api-sports.io/football/teams/9759.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T18:15:00+00:00",
-   "ev": []
+   "time": "2026-11-25T18:30:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651654,
@@ -660,7 +755,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Penalty",
-     "p": null
+     "p": "L. De la Cruz"
     },
     {
      "m": 120,
@@ -668,7 +763,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Penalty",
-     "p": null
+     "p": "J. Tingal"
     },
     {
      "m": 120,
@@ -676,7 +771,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Missed Penalty",
-     "p": null
+     "p": "F. Ventura"
     },
     {
      "m": 120,
@@ -684,7 +779,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Penalty",
-     "p": null
+     "p": "G. Cavero"
     },
     {
      "m": 120,
@@ -692,7 +787,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Penalty",
-     "p": null
+     "p": "K. Rossell"
     },
     {
      "m": 120,
@@ -700,7 +795,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Missed Penalty",
-     "p": null
+     "p": "J. Alaya"
     },
     {
      "m": 120,
@@ -708,6 +803,94 @@
      "s": "h",
      "t": "Goal",
      "d": "Penalty",
+     "p": "J. Carranza"
+    },
+    {
+     "m": 120,
+     "x": 5,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Paredes"
+    },
+    {
+     "m": 120,
+     "x": 6,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Zurita"
+    },
+    {
+     "m": 120,
+     "x": 6,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Serrato"
+    },
+    {
+     "m": 120,
+     "x": 7,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Y. Bobadilla"
+    },
+    {
+     "m": 120,
+     "x": 7,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "A. Huaripata"
+    },
+    {
+     "m": 120,
+     "x": 8,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Rosario"
+    },
+    {
+     "m": 120,
+     "x": 8,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "O. Roncal"
+    },
+    {
+     "m": 120,
+     "x": 9,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Racchumick"
+    },
+    {
+     "m": 120,
+     "x": 9,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 10,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 10,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
      "p": null
     }
    ]
