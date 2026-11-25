@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T13:20:21+03:00",
- "ts": 1795602021,
+ "updated": "2026-11-25T13:30:29+03:00",
+ "ts": 1795602629,
  "matches": [
   {
    "id": 1527766,
@@ -9,12 +9,29 @@
    "away": "Istaravshan",
    "hl": "https://media.api-sports.io/football/teams/8012.png",
    "al": "https://media.api-sports.io/football/teams/12264.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 32,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1555821,
@@ -26,9 +43,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Yokoyama"
+    }
+   ]
   },
   {
    "id": 1555823,
@@ -40,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -54,7 +80,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -68,7 +94,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -78,6 +104,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "K. Ikoma"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Yasunaga"
     }
    ]
   },
@@ -91,7 +125,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -105,7 +139,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -119,7 +153,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -129,6 +163,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Werik Popo"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Takumi Kamijima"
     }
    ]
   },
@@ -142,7 +184,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -173,7 +215,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -196,24 +238,32 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
      "m": 15,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
      "p": "Yuta Arai"
     },
     {
-     "m": 15,
+     "m": 17,
      "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "",
+     "t": "Card",
+     "d": "Red Card",
      "p": "Yuta Arai"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yu Funabashi"
     }
    ]
   },
@@ -227,7 +277,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -238,12 +288,29 @@
    "away": "Kawasaki Frontale",
    "hl": "https://media.api-sports.io/football/teams/285.png",
    "al": "https://media.api-sports.io/football/teams/294.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Yuto Iwasaki"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Filip Uremović"
+    }
+   ]
   },
   {
    "id": 1565097,
@@ -253,27 +320,13 @@
    "hl": "https://media.api-sports.io/football/teams/7970.png",
    "al": "https://media.api-sports.io/football/teams/7995.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 17,
-   "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1565108,
-   "league": "Czech-Republic - 1. Liga U19",
-   "home": "Sigma Olomouc U19",
-   "away": "Baník Ostrava U19",
-   "hl": "https://media.api-sports.io/football/teams/7969.png",
-   "al": "https://media.api-sports.io/football/teams/14830.png",
-   "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 16,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
-     "m": 8,
+     "m": 27,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -283,49 +336,33 @@
    ]
   },
   {
-   "id": 1606777,
-   "league": "Japan - J2 League",
-   "home": "Imabari",
-   "away": "Tegevajaro Miyazaki",
-   "hl": "https://media.api-sports.io/football/teams/10075.png",
-   "al": "https://media.api-sports.io/football/teams/10409.png",
-   "gh": 1,
-   "ga": 0,
+   "id": 1565108,
+   "league": "Czech-Republic - 1. Liga U19",
+   "home": "Sigma Olomouc U19",
+   "away": "Baník Ostrava U19",
+   "hl": "https://media.api-sports.io/football/teams/7969.png",
+   "al": "https://media.api-sports.io/football/teams/14830.png",
+   "gh": 0,
+   "ga": 2,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T09:30:00+00:00",
+   "minute": 26,
+   "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
-     "m": 30,
+     "m": 8,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "J. Kato"
+     "p": null
     },
     {
-     "m": 39,
+     "m": 25,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Matsumoto"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Tachikawa"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Yamauchi"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -339,7 +376,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -353,7 +390,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -364,12 +401,29 @@
    "away": "Vegalta Sendai",
    "hl": "https://media.api-sports.io/football/teams/307.png",
    "al": "https://media.api-sports.io/football/teams/286.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Ogura"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Yamada"
+    }
+   ]
   },
   {
    "id": 1606781,
@@ -381,7 +435,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -404,7 +458,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -415,10 +469,10 @@
    "away": "Oita Trinita",
    "hl": "https://media.api-sports.io/football/teams/295.png",
    "al": "https://media.api-sports.io/football/teams/298.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -428,6 +482,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Yoshida"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Suzuki"
     }
    ]
   },
@@ -441,7 +503,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -455,7 +517,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -476,11 +538,20 @@
    "hl": "https://media.api-sports.io/football/teams/23078.png",
    "al": "https://media.api-sports.io/football/teams/23081.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1611802,
@@ -492,9 +563,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-25T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1611889,
@@ -506,7 +586,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -537,7 +617,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": []
   },
@@ -551,7 +631,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T10:00:00+00:00",
    "ev": [
     {
@@ -574,7 +654,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -597,7 +677,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -618,9 +698,9 @@
    "hl": "https://media.api-sports.io/football/teams/8015.png",
    "al": "https://media.api-sports.io/football/teams/24091.png",
    "gh": 4,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T09:00:00+00:00",
    "ev": [
     {
@@ -670,84 +750,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Sekyi"
-    }
-   ]
-  },
-  {
-   "id": 1648382,
-   "league": "Indonesia - League Cup Indonesia",
-   "home": "Persiku Kudus",
-   "away": "PSIM Yogyakarta",
-   "hl": "https://media.api-sports.io/football/teams/24997.png",
-   "al": "https://media.api-sports.io/football/teams/4235.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Barata"
     },
     {
-     "m": 82,
+     "m": 70,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "M. Iqbal"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Teddy"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Iqbal"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1650704,
-   "league": "Indonesia - Liga Nusantara",
-   "home": "Batavia",
-   "away": "Pesik",
-   "hl": "https://media.api-sports.io/football/teams/28708.png",
-   "al": "https://media.api-sports.io/football/teams/28719.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "Aung Shine Wanna"
     }
    ]
   },
@@ -816,6 +826,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Takayoshi"
+    }
+   ]
+  },
+  {
+   "id": 1606777,
+   "league": "Japan - J2 League",
+   "home": "Imabari",
+   "away": "Tegevajaro Miyazaki",
+   "hl": "https://media.api-sports.io/football/teams/10075.png",
+   "al": "https://media.api-sports.io/football/teams/10409.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Kato"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Matsumoto"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Tachikawa"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Yamauchi"
     }
    ]
   }
