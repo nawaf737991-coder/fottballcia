@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T17:20:11+03:00",
- "ts": 1795616411,
+ "updated": "2026-11-25T17:30:19+03:00",
+ "ts": 1795617019,
  "matches": [
   {
    "id": 1606562,
@@ -12,56 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-25T14:15:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1609121,
-   "league": "Italy - Serie C - Girone C",
-   "home": "Audace Cerignola",
-   "away": "Inter U23",
-   "hl": "https://media.api-sports.io/football/teams/9539.png",
-   "al": "https://media.api-sports.io/football/teams/26355.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Meli"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Mancuso"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Gambale"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Gambale"
-    }
-   ]
   },
   {
    "id": 1630408,
@@ -73,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-25T13:45:00+00:00",
    "ev": [
     {
@@ -104,7 +57,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -114,6 +67,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Van Britsom"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Delorge"
     }
    ]
   },
@@ -127,7 +88,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -155,10 +116,10 @@
    "away": "Bayern München U19",
    "hl": "https://media.api-sports.io/football/teams/7908.png",
    "al": "https://media.api-sports.io/football/teams/7887.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -184,6 +145,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Matosevic"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Nkounkou"
     }
    ]
   },
@@ -197,7 +166,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -215,6 +184,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Olberkis"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Ndaw"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Al Khaldi"
     }
    ]
   },
@@ -228,215 +213,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1546191,
-   "league": "World - World Cup - U17",
-   "home": "Ecuador U17",
-   "away": "Korea Republic U17",
-   "hl": "https://media.api-sports.io/football/teams/12506.png",
-   "al": "https://media.api-sports.io/football/teams/12512.png",
-   "gh": 2,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Carlos Medina"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Nam Ian"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nam Ian"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade cancelled",
-     "p": "Nam Ian"
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Choi Jae-hyeok"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Jhon Chica"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "luis Fragozo"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jhon Guerrero"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Edwin Quintero"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jhon Guerrero"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Jhon Guerrero"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "luis Fragozo"
-    }
-   ]
-  },
-  {
-   "id": 1546328,
-   "league": "World - World Cup - U17",
-   "home": "Uganda U17",
-   "away": "New Caledonia U17",
-   "hl": "https://media.api-sports.io/football/teams/25821.png",
-   "al": "https://media.api-sports.io/football/teams/22503.png",
-   "gh": 6,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-25T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Junior Ofoyrwth"
-    },
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Owen Mukisa"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Owen Mukisa"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joseph Dorongin"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pahaze Qaeze"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Junior Ofoyrwth"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Isima Magala"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Junior Ofoyrwth"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Owen Mukisa"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Owen Mukisa"
-    }
-   ]
   },
   {
    "id": 1558532,
@@ -448,7 +227,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -474,6 +253,69 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1565476,
+   "league": "Ukraine - Premier League",
+   "home": "Kryvbas KR",
+   "away": "FC Kharkiv",
+   "hl": "https://media.api-sports.io/football/teams/6489.png",
+   "al": "https://media.api-sports.io/football/teams/3628.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 84,
+   "time": "2026-11-25T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ilya Krupskyi"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ermir Rashica"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Volodymyr Vilivald"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Roy Ben Navi"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Artem Hennadiiovych Smoliakov"
     }
    ]
   },
@@ -487,7 +329,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -509,30 +351,16 @@
    ]
   },
   {
-   "id": 1629140,
-   "league": "Kenya - FKF Premier League",
-   "home": "Ulinzi Stars",
-   "away": "AFC Leopards",
-   "hl": "https://media.api-sports.io/football/teams/2474.png",
-   "al": "https://media.api-sports.io/football/teams/2472.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T12:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1630645,
    "league": "Zambia - Super League",
    "home": "Kabwe Warriors",
    "away": "Nkwazi",
    "hl": "https://media.api-sports.io/football/teams/5201.png",
    "al": "https://media.api-sports.io/football/teams/5210.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -546,7 +374,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -560,7 +388,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -574,7 +402,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -585,14 +413,22 @@
    "away": "AS Kigali",
    "hl": "https://media.api-sports.io/football/teams/5239.png",
    "al": "https://media.api-sports.io/football/teams/5310.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
      "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 67,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -611,7 +447,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -642,7 +478,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -681,7 +517,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -712,7 +548,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -754,6 +590,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "C. Grombahi"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "C. Grombahi"
     }
    ]
   },
@@ -764,10 +608,10 @@
    "away": "Nagaland United",
    "hl": "https://media.api-sports.io/football/teams/3470.png",
    "al": "https://media.api-sports.io/football/teams/28559.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -801,6 +645,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Arthur Pangaro"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Lamurong"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Laltlanzova"
     }
    ]
   },
@@ -814,7 +674,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -856,6 +716,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Matjasec"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Pejakovic"
     }
    ]
   },
@@ -884,16 +752,16 @@
      "m": 28,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Var",
+     "d": "Goal confirmed",
      "p": "Stephen Ramos"
     },
     {
      "m": 28,
      "x": null,
      "s": "h",
-     "t": "Var",
-     "d": "Goal confirmed",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Stephen Ramos"
     }
    ]
@@ -926,6 +794,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Aly Traore"
+    }
+   ]
+  },
+  {
+   "id": 1609121,
+   "league": "Italy - Serie C - Girone C",
+   "home": "Audace Cerignola",
+   "away": "Inter U23",
+   "hl": "https://media.api-sports.io/football/teams/9539.png",
+   "al": "https://media.api-sports.io/football/teams/26355.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Meli"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Mancuso"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Gambale"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Gambale"
     }
    ]
   }
