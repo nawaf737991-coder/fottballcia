@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T05:00:17+03:00",
- "ts": 1795572017,
+ "updated": "2026-11-25T05:10:22+03:00",
+ "ts": 1795572622,
  "matches": [
   {
    "id": 1650514,
@@ -9,10 +9,10 @@
    "away": "Deportivo Cali",
    "hl": "https://media.api-sports.io/football/teams/1138.png",
    "al": "https://media.api-sports.io/football/teams/1127.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-25T01:30:00+00:00",
    "ev": [
     {
@@ -30,6 +30,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Pajaro"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Angel"
     }
    ]
   },
@@ -41,9 +49,9 @@
    "hl": "https://media.api-sports.io/football/teams/12973.png",
    "al": "https://media.api-sports.io/football/teams/12952.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 2,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-25T00:30:00+00:00",
    "ev": [
     {
@@ -53,6 +61,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Jonathan"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Caua"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
