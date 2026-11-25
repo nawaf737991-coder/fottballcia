@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-25T22:00:23+03:00",
- "ts": 1795633223,
+ "updated": "2026-11-25T22:10:25+03:00",
+ "ts": 1795633825,
  "matches": [
+  {
+   "id": 1572698,
+   "league": "Spain - Segunda División RFEF - Group 3",
+   "home": "Intercity",
+   "away": "Real Murcia II",
+   "hl": "https://media.api-sports.io/football/teams/8160.png",
+   "al": "https://media.api-sports.io/football/teams/9820.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1573339,
    "league": "Spain - Segunda División RFEF - Group 5",
@@ -12,8 +26,78 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T18:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585362,
+   "league": "England - National League",
+   "home": "Boreham Wood",
+   "away": "Aldershot Town",
+   "hl": "https://media.api-sports.io/football/teams/1830.png",
+   "al": "https://media.api-sports.io/football/teams/1818.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1588855,
+   "league": "England - EFL Trophy",
+   "home": "Fleetwood Town",
+   "away": "Leeds United U21",
+   "hl": "https://media.api-sports.io/football/teams/1336.png",
+   "al": "https://media.api-sports.io/football/teams/14430.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601619,
+   "league": "Italy - Serie B",
+   "home": "Mantova",
+   "away": "Arezzo",
+   "hl": "https://media.api-sports.io/football/teams/1693.png",
+   "al": "https://media.api-sports.io/football/teams/876.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601620,
+   "league": "Italy - Serie B",
+   "home": "Padova",
+   "away": "Sampdoria",
+   "hl": "https://media.api-sports.io/football/teams/870.png",
+   "al": "https://media.api-sports.io/football/teams/498.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1601622,
+   "league": "Italy - Serie B",
+   "home": "Pisa",
+   "away": "Modena",
+   "hl": "https://media.api-sports.io/football/teams/801.png",
+   "al": "https://media.api-sports.io/football/teams/899.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +110,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T18:30:00+00:00",
    "ev": [
     {
@@ -40,17 +124,54 @@
    ]
   },
   {
-   "id": 1630413,
-   "league": "World - AFC Champions League Two",
-   "home": "Al Taawon",
-   "away": "Al-Nahda",
-   "hl": "https://media.api-sports.io/football/teams/2936.png",
-   "al": "https://media.api-sports.io/football/teams/5327.png",
+   "id": 1649070,
+   "league": "World - UEFA Youth League",
+   "home": "Rangers U19",
+   "away": "AZ U19",
+   "hl": "https://media.api-sports.io/football/teams/7925.png",
+   "al": "https://media.api-sports.io/football/teams/16384.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T18:15:00+00:00",
+   "minute": 11,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650573,
+   "league": "Brazil - Pernambucano - 1",
+   "home": "América PE",
+   "away": "Central SC",
+   "hl": "https://media.api-sports.io/football/teams/7819.png",
+   "al": "https://media.api-sports.io/football/teams/2210.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gilvan"
+    }
+   ]
+  },
+  {
+   "id": 1650574,
+   "league": "Brazil - Pernambucano - 1",
+   "home": "Petrolina",
+   "away": "Íbis",
+   "hl": "https://media.api-sports.io/football/teams/12299.png",
+   "al": "https://media.api-sports.io/football/teams/18319.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
   {
@@ -63,7 +184,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
   },
@@ -77,7 +198,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -135,6 +256,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mikhail Shchetinin"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mikhail Samorokovskiy"
     }
    ]
   },
@@ -145,10 +274,10 @@
    "away": "Rodina Moskva",
    "hl": "https://media.api-sports.io/football/teams/1083.png",
    "al": "https://media.api-sports.io/football/teams/6822.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T17:30:00+00:00",
    "ev": [
     {
@@ -181,7 +310,85 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Veldin Hodza"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Eddie Salcedo"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dmitriy Tananeev"
+    }
+   ]
+  },
+  {
+   "id": 1601615,
+   "league": "Italy - Serie B",
+   "home": "Cremonese",
+   "away": "Avellino",
+   "hl": "https://media.api-sports.io/football/teams/520.png",
+   "al": "https://media.api-sports.io/football/teams/528.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-25T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tommaso Cancellotti"
+    }
+   ]
+  },
+  {
+   "id": 1612287,
+   "league": "Egypt - Premier League",
+   "home": "Enppi",
+   "away": "Ceramica Cleopatra",
+   "hl": "https://media.api-sports.io/football/teams/1037.png",
+   "al": "https://media.api-sports.io/football/teams/14651.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-25T18:00:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hossam Gahnem"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hossam Gahnem"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Reda"
     }
    ]
   },
@@ -192,10 +399,10 @@
    "away": "Barcelona",
    "hl": "https://media.api-sports.io/football/teams/13976.png",
    "al": "https://media.api-sports.io/football/teams/529.png",
-   "gh": 0,
-   "ga": 3,
+   "gh": 1,
+   "ga": 4,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -221,6 +428,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Karim Adeyemi"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gabriel Jesus"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joy Lance Mickels"
     }
    ]
   },
@@ -232,9 +455,9 @@
    "hl": "https://media.api-sports.io/football/teams/560.png",
    "al": "https://media.api-sports.io/football/teams/533.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-25T17:45:00+00:00",
    "ev": [
     {
@@ -276,115 +499,16 @@
      "t": "Var",
      "d": "Red card cancelled",
      "p": "Renato Veiga"
-    }
-   ]
-  },
-  {
-   "id": 1651654,
-   "league": "Peru - Copa Perú",
-   "home": "Minas Pamputa",
-   "away": "Cajabamba",
-   "hl": "https://media.api-sports.io/football/teams/28672.png",
-   "al": "https://media.api-sports.io/football/teams/28666.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "BT",
-   "minute": null,
-   "time": "2026-11-25T17:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 66,
+     "m": 62,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Bravo"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Rossell"
+     "p": "Tajon Buchanan"
     }
    ]
-  },
-  {
-   "id": 1601615,
-   "league": "Italy - Serie B",
-   "home": "Cremonese",
-   "away": "Avellino",
-   "hl": "https://media.api-sports.io/football/teams/520.png",
-   "al": "https://media.api-sports.io/football/teams/528.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tommaso Cancellotti"
-    }
-   ]
-  },
-  {
-   "id": 1612287,
-   "league": "Egypt - Premier League",
-   "home": "Enppi",
-   "away": "Ceramica Cleopatra",
-   "hl": "https://media.api-sports.io/football/teams/1037.png",
-   "al": "https://media.api-sports.io/football/teams/14651.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hossam Gahnem"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hossam Gahnem"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Reda"
-    }
-   ]
-  },
-  {
-   "id": 1612288,
-   "league": "Egypt - Premier League",
-   "home": "Ghazl El Mehalla",
-   "away": "Petrojet",
-   "hl": "https://media.api-sports.io/football/teams/13819.png",
-   "al": "https://media.api-sports.io/football/teams/1041.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T18:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1647651,
@@ -395,8 +519,8 @@
    "al": "https://media.api-sports.io/football/teams/19896.png",
    "gh": 3,
    "ga": 3,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-25T18:00:00+00:00",
    "ev": [
     {
@@ -454,6 +578,137 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Vicky Losada"
+    }
+   ]
+  },
+  {
+   "id": 1612288,
+   "league": "Egypt - Premier League",
+   "home": "Ghazl El Mehalla",
+   "away": "Petrojet",
+   "hl": "https://media.api-sports.io/football/teams/13819.png",
+   "al": "https://media.api-sports.io/football/teams/1041.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T18:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630413,
+   "league": "World - AFC Champions League Two",
+   "home": "Al Taawon",
+   "away": "Al-Nahda",
+   "hl": "https://media.api-sports.io/football/teams/2936.png",
+   "al": "https://media.api-sports.io/football/teams/5327.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T18:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651654,
+   "league": "Peru - Copa Perú",
+   "home": "Minas Pamputa",
+   "away": "Cajabamba",
+   "hl": "https://media.api-sports.io/football/teams/28672.png",
+   "al": "https://media.api-sports.io/football/teams/28666.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "P",
+   "minute": null,
+   "time": "2026-11-25T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Bravo"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Rossell"
+    },
+    {
+     "m": 120,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "H. Campos"
+    },
+    {
+     "m": 120,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "L. Flores"
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 4,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 5,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
     }
    ]
   }
