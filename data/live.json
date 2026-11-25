@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T02:10:26+03:00",
- "ts": 1795648226,
+ "updated": "2026-11-26T02:20:30+03:00",
+ "ts": 1795648830,
  "matches": [
   {
    "id": 1492461,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -40,36 +40,52 @@
    ]
   },
   {
-   "id": 1651653,
-   "league": "Venezuela - Copa Venezuela",
-   "home": "Deportivo Tachira FC",
-   "away": "Carabobo FC",
-   "hl": "https://media.api-sports.io/football/teams/2807.png",
-   "al": "https://media.api-sports.io/football/teams/2810.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-25T22:30:00+00:00",
+   "id": 1631762,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros",
+   "away": "Héroes de Zaci",
+   "hl": "https://media.api-sports.io/football/teams/26426.png",
+   "al": "https://media.api-sports.io/football/teams/26526.png",
+   "gh": 4,
+   "ga": 0,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
-     "m": 4,
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 17,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Penaranda"
+     "p": null
     },
     {
-     "m": 35,
+     "m": 27,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "M. Nunez"
+     "p": null
     },
     {
-     "m": 39,
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 47,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -88,7 +104,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-25T21:30:00+00:00",
    "ev": [
     {
@@ -127,7 +143,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -156,9 +172,9 @@
    "hl": "https://media.api-sports.io/football/teams/4647.png",
    "al": "https://media.api-sports.io/football/teams/17135.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -184,53 +200,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "G. Umanzor"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
   {
-   "id": 1631762,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Guerreros",
-   "away": "Héroes de Zaci",
-   "hl": "https://media.api-sports.io/football/teams/26426.png",
-   "al": "https://media.api-sports.io/football/teams/26526.png",
-   "gh": 3,
-   "ga": 0,
+   "id": 1651653,
+   "league": "Venezuela - Copa Venezuela",
+   "home": "Deportivo Tachira FC",
+   "away": "Carabobo FC",
+   "hl": "https://media.api-sports.io/football/teams/2807.png",
+   "al": "https://media.api-sports.io/football/teams/2810.png",
+   "gh": 2,
+   "ga": 1,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T22:00:00+00:00",
+   "time": "2026-11-25T22:30:00+00:00",
    "ev": [
     {
-     "m": 2,
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Penaranda"
+    },
+    {
+     "m": 35,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Nunez"
     },
     {
-     "m": 17,
+     "m": 39,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "F. Provenzano"
     }
    ]
   }
