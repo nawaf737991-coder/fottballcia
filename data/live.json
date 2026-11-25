@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-26T00:00:16+03:00",
- "ts": 1795640416,
+ "updated": "2026-11-26T00:10:22+03:00",
+ "ts": 1795641022,
  "matches": [
+  {
+   "id": 1651248,
+   "league": "Uruguay - Segunda División",
+   "home": "Colón",
+   "away": "Atenas",
+   "hl": "https://media.api-sports.io/football/teams/15628.png",
+   "al": "https://media.api-sports.io/football/teams/2364.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-25T21:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1563283,
    "league": "England - Championship",
@@ -9,10 +23,10 @@
    "away": "West Brom",
    "hl": "https://media.api-sports.io/football/teams/68.png",
    "al": "https://media.api-sports.io/football/teams/60.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -38,6 +52,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Akin Famewo"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Ruben Rodrigues"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rabby Nzingoula"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Callum Styles"
     }
    ]
   },
@@ -51,7 +89,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -85,6 +123,61 @@
      "t": "Goal",
      "d": "Own Goal",
      "p": "Jaydon Banel"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Cochrane"
+    }
+   ]
+  },
+  {
+   "id": 1563285,
+   "league": "England - Championship",
+   "home": "Stoke City",
+   "away": "Millwall",
+   "hl": "https://media.api-sports.io/football/teams/75.png",
+   "al": "https://media.api-sports.io/football/teams/58.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-25T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "George Hirst"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luke Graham"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "George Hirst"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Derek Mazou Sacko"
     }
    ]
   },
@@ -98,7 +191,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -148,6 +241,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Todd Cantwell"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Jordan Zemura"
     }
    ]
   },
@@ -158,10 +259,10 @@
    "away": "Kidderminster Harriers",
    "hl": "https://media.api-sports.io/football/teams/1842.png",
    "al": "https://media.api-sports.io/football/teams/4695.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -171,6 +272,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Brogan"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Dolaghan"
     }
    ]
   },
@@ -181,10 +290,10 @@
    "away": "Solihull Moors",
    "hl": "https://media.api-sports.io/football/teams/1366.png",
    "al": "https://media.api-sports.io/football/teams/1834.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -202,223 +311,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "N. Sheron"
-    }
-   ]
-  },
-  {
-   "id": 1642049,
-   "league": "Lebanon - Premier League",
-   "home": "Safa",
-   "away": "Al Nejmeh",
-   "hl": "https://media.api-sports.io/football/teams/4573.png",
-   "al": "https://media.api-sports.io/football/teams/4570.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 66,
-   "time": "2026-11-25T19:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ibrahim"
-    }
-   ]
-  },
-  {
-   "id": 1648102,
-   "league": "San-Marino - Coppa Titano",
-   "home": "La Fiorita",
-   "away": "Cosmos",
-   "hl": "https://media.api-sports.io/football/teams/2249.png",
-   "al": "https://media.api-sports.io/football/teams/5298.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 60,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648103,
-   "league": "San-Marino - Coppa Titano",
-   "home": "Tre Penne",
-   "away": "Pennarossa",
-   "hl": "https://media.api-sports.io/football/teams/700.png",
-   "al": "https://media.api-sports.io/football/teams/5306.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 58,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 12,
+     "m": 61,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Pieri"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "S. Abouzziane"
-    }
-   ]
-  },
-  {
-   "id": 1650573,
-   "league": "Brazil - Pernambucano - 1",
-   "home": "América PE",
-   "away": "Central SC",
-   "hl": "https://media.api-sports.io/football/teams/7819.png",
-   "al": "https://media.api-sports.io/football/teams/2210.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gilvan"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hitalo"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Filipe Ramon"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Emerson"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gilvan"
-    }
-   ]
-  },
-  {
-   "id": 1650574,
-   "league": "Brazil - Pernambucano - 1",
-   "home": "Petrolina",
-   "away": "Íbis",
-   "hl": "https://media.api-sports.io/football/teams/12299.png",
-   "al": "https://media.api-sports.io/football/teams/18319.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pedro Henrique"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Cordeiro"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1563285,
-   "league": "England - Championship",
-   "home": "Stoke City",
-   "away": "Millwall",
-   "hl": "https://media.api-sports.io/football/teams/75.png",
-   "al": "https://media.api-sports.io/football/teams/58.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "George Hirst"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luke Graham"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "George Hirst"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Derek Mazou Sacko"
+     "p": "W. Harris"
     }
    ]
   },
@@ -431,8 +331,8 @@
    "al": "https://media.api-sports.io/football/teams/759.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -450,6 +350,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Julián Álvarez"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gianni Stensness"
     }
    ]
   },
@@ -462,8 +370,8 @@
    "al": "https://media.api-sports.io/football/teams/40.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -485,8 +393,8 @@
    "al": "https://media.api-sports.io/football/teams/172.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -496,6 +404,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Marcus Thuram"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Finn Jeltsch"
     }
    ]
   },
@@ -508,8 +424,8 @@
    "al": "https://media.api-sports.io/football/teams/157.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -519,6 +435,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Dayot Upamecano"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Joshua Kimmich"
     }
    ]
   },
@@ -531,8 +455,8 @@
    "al": "https://media.api-sports.io/football/teams/497.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -570,8 +494,8 @@
    "al": "https://media.api-sports.io/football/teams/611.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -592,9 +516,9 @@
    "hl": "https://media.api-sports.io/football/teams/228.png",
    "al": "https://media.api-sports.io/football/teams/33.png",
    "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -628,6 +552,67 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Youri Tielemans"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Bruno Fernandes"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bruno Fernandes"
+    }
+   ]
+  },
+  {
+   "id": 1648102,
+   "league": "San-Marino - Coppa Titano",
+   "home": "La Fiorita",
+   "away": "Cosmos",
+   "hl": "https://media.api-sports.io/football/teams/2249.png",
+   "al": "https://media.api-sports.io/football/teams/5298.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 70,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1648103,
+   "league": "San-Marino - Coppa Titano",
+   "home": "Tre Penne",
+   "away": "Pennarossa",
+   "hl": "https://media.api-sports.io/football/teams/700.png",
+   "al": "https://media.api-sports.io/football/teams/5306.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 69,
+   "time": "2026-11-25T19:45:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Pieri"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "S. Abouzziane"
     }
    ]
   },
