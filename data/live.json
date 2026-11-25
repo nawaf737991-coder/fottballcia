@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T15:10:20+03:00",
- "ts": 1795608620,
+ "updated": "2026-11-25T15:20:27+03:00",
+ "ts": 1795609227,
  "matches": [
   {
    "id": 1553905,
@@ -10,11 +10,20 @@
    "hl": "https://media.api-sports.io/football/teams/2254.png",
    "al": "https://media.api-sports.io/football/teams/12360.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kwaku Karikari"
+    }
+   ]
   },
   {
    "id": 1568868,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -40,45 +49,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1602749,
-   "league": "Thailand - Thai League 2",
-   "home": "Muangthong United",
-   "away": "Nakhon Ratchasima FC",
-   "hl": "https://media.api-sports.io/football/teams/2786.png",
-   "al": "https://media.api-sports.io/football/teams/2773.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T11:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Wonggorn"
-    }
-   ]
-  },
-  {
-   "id": 1602750,
-   "league": "Thailand - Thai League 2",
-   "home": "Satun",
-   "away": "Police Tero",
-   "hl": "https://media.api-sports.io/football/teams/22348.png",
-   "al": "https://media.api-sports.io/football/teams/2775.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T11:30:00+00:00",
    "ev": []
   },
   {
@@ -88,11 +60,34 @@
    "away": "Kanchanaburi",
    "hl": "https://media.api-sports.io/football/teams/10086.png",
    "al": "https://media.api-sports.io/football/teams/18051.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-25T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1604069,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Anwar",
+   "away": "Al Jandal",
+   "hl": "https://media.api-sports.io/football/teams/10503.png",
+   "al": "https://media.api-sports.io/football/teams/10507.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
    "minute": 10,
-   "time": "2026-11-25T12:00:00+00:00",
+   "time": "2026-11-25T12:10:00+00:00",
    "ev": []
   },
   {
@@ -105,7 +100,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-25T12:10:00+00:00",
    "ev": []
   },
@@ -119,7 +114,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -133,7 +128,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -144,12 +139,21 @@
    "away": "Fenerbahce U19",
    "hl": "https://media.api-sports.io/football/teams/7929.png",
    "al": "https://media.api-sports.io/football/teams/28245.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1637395,
@@ -161,8 +165,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-25T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1637495,
+   "league": "World - AFC Champions League Two",
+   "home": "Persib Bandung",
+   "away": "FC Seoul",
+   "hl": "https://media.api-sports.io/football/teams/2445.png",
+   "al": "https://media.api-sports.io/football/teams/2766.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-25T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1642048,
+   "league": "Lebanon - Premier League",
+   "home": "Shabab Al Sahel",
+   "away": "Al Ansar",
+   "hl": "https://media.api-sports.io/football/teams/4576.png",
+   "al": "https://media.api-sports.io/football/teams/4569.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-25T12:15:00+00:00",
    "ev": []
   },
   {
@@ -175,7 +207,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -198,7 +230,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -212,7 +244,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -222,6 +254,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hariono"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -235,7 +275,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -249,7 +289,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -263,9 +303,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648778,
@@ -277,7 +326,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -299,6 +348,34 @@
    ]
   },
   {
+   "id": 1650555,
+   "league": "Zimbabwe - Premier Soccer League",
+   "home": "Herentals",
+   "away": "Kariba",
+   "hl": "https://media.api-sports.io/football/teams/5223.png",
+   "al": "https://media.api-sports.io/football/teams/5226.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-25T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650556,
+   "league": "Zimbabwe - Premier Soccer League",
+   "home": "Agama",
+   "away": "Highlanders",
+   "hl": "https://media.api-sports.io/football/teams/27273.png",
+   "al": "https://media.api-sports.io/football/teams/5224.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-25T12:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1556156,
    "league": "Japan - J1 League",
    "home": "Urawa",
@@ -308,7 +385,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 90,
    "time": "2026-11-25T10:30:00+00:00",
    "ev": [
     {
@@ -342,6 +419,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Solomon Sakuragawa"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dion Cools"
     }
    ]
   },
@@ -355,7 +440,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -386,7 +471,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -409,7 +494,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -429,10 +514,10 @@
    "away": "Shabana",
    "hl": "https://media.api-sports.io/football/teams/2462.png",
    "al": "https://media.api-sports.io/football/teams/19489.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T10:30:00+00:00",
    "ev": [
     {
@@ -466,6 +551,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -479,7 +572,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -495,7 +588,7 @@
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
+     "d": "Red Card",
      "p": "A. E. Bakare"
     },
     {
@@ -503,7 +596,7 @@
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
+     "d": "Yellow Card",
      "p": "A. E. Bakare"
     }
    ]
@@ -518,7 +611,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T10:30:00+00:00",
    "ev": [
     {
@@ -557,7 +650,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T10:30:00+00:00",
    "ev": [
     {
@@ -604,7 +697,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -629,15 +722,15 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "M. Pienczak"
     },
     {
-     "m": 53,
+     "m": 55,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Pienczak"
+     "p": "P. Skrobosinski"
     }
    ]
   },
@@ -651,7 +744,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -669,39 +762,61 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "K. Ositis"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "G. Bombans"
     }
    ]
   },
   {
-   "id": 1650648,
-   "league": "Hong-Kong - Premier League U22",
-   "home": "Kowloon City U22",
-   "away": "Shatin U22",
-   "hl": "https://media.api-sports.io/football/teams/28702.png",
-   "al": "https://media.api-sports.io/football/teams/28705.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T10:30:00+00:00",
+   "id": 1602749,
+   "league": "Thailand - Thai League 2",
+   "home": "Muangthong United",
+   "away": "Nakhon Ratchasima FC",
+   "hl": "https://media.api-sports.io/football/teams/2786.png",
+   "al": "https://media.api-sports.io/football/teams/2773.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T11:30:00+00:00",
    "ev": [
     {
-     "m": 55,
+     "m": 3,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "J. Wonggorn"
     },
     {
-     "m": 57,
-     "x": null,
-     "s": "h",
+     "m": 45,
+     "x": 2,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
     }
    ]
+  },
+  {
+   "id": 1602750,
+   "league": "Thailand - Thai League 2",
+   "home": "Satun",
+   "away": "Police Tero",
+   "hl": "https://media.api-sports.io/football/teams/22348.png",
+   "al": "https://media.api-sports.io/football/teams/2775.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T11:30:00+00:00",
+   "ev": []
   }
  ]
 }
