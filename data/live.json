@@ -1,7 +1,44 @@
 {
- "updated": "2026-11-25T17:30:19+03:00",
- "ts": 1795617019,
+ "updated": "2026-11-25T17:40:18+03:00",
+ "ts": 1795617618,
  "matches": [
+  {
+   "id": 1546192,
+   "league": "World - World Cup - U17",
+   "home": "Greece U17",
+   "away": "Qatar U17",
+   "hl": "https://media.api-sports.io/football/teams/17956.png",
+   "al": "https://media.api-sports.io/football/teams/21443.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-25T14:30:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Omar Ayman Mahmoud"
+    }
+   ]
+  },
+  {
+   "id": 1546200,
+   "league": "World - World Cup - U17",
+   "home": "Panama U17",
+   "away": "Egypt U17",
+   "hl": "https://media.api-sports.io/football/teams/21000.png",
+   "al": "https://media.api-sports.io/football/teams/25819.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-25T14:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1606562,
    "league": "Qatar - Second Division",
@@ -12,40 +49,23 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-25T14:15:00+00:00",
    "ev": []
   },
   {
-   "id": 1630408,
-   "league": "World - AFC Champions League Two",
-   "home": "Nasaf",
-   "away": "Khalidiya",
-   "hl": "https://media.api-sports.io/football/teams/4215.png",
-   "al": "https://media.api-sports.io/football/teams/17666.png",
+   "id": 1627336,
+   "league": "Angola - Girabola",
+   "home": "1º de Agosto",
+   "away": "Kabuscorp",
+   "hl": "https://media.api-sports.io/football/teams/4913.png",
+   "al": "https://media.api-sports.io/football/teams/4929.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 44,
-   "time": "2026-11-25T13:45:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adenis Shala"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Umar Eshmurodov"
-    }
-   ]
+   "minute": 10,
+   "time": "2026-11-25T14:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1637389,
@@ -54,10 +74,10 @@
    "away": "Liverpool U19",
    "hl": "https://media.api-sports.io/football/teams/7893.png",
    "al": "https://media.api-sports.io/football/teams/7909.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 2,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -75,6 +95,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Delorge"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Sonni-Lambie"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Ndiaye"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Van Britsom"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -88,7 +140,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -106,6 +158,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Yigit"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Zezelj"
     }
    ]
   },
@@ -117,9 +177,9 @@
    "hl": "https://media.api-sports.io/football/teams/7908.png",
    "al": "https://media.api-sports.io/football/teams/7887.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -153,6 +213,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Nkounkou"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Gashi"
     }
    ]
   },
@@ -166,7 +234,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -204,6 +272,20 @@
    ]
   },
   {
+   "id": 1645886,
+   "league": "Cameroon - Elite One",
+   "home": "Victoria United",
+   "away": "Aigle Royal",
+   "hl": "https://media.api-sports.io/football/teams/20800.png",
+   "al": "https://media.api-sports.io/football/teams/5556.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-25T14:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1651246,
    "league": "Russia - Youth Championship",
    "home": "Krylya Sovetov U19",
@@ -211,11 +293,114 @@
    "hl": "https://media.api-sports.io/football/teams/17150.png",
    "al": "https://media.api-sports.io/football/teams/27236.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-25T14:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1546193,
+   "league": "World - World Cup - U17",
+   "home": "Haiti U17",
+   "away": "Saudi Arabia U17",
+   "hl": "https://media.api-sports.io/football/teams/12508.png",
+   "al": "https://media.api-sports.io/football/teams/21444.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-25T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leonardo Dieujuste"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Stephen Ramos"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Stephen Ramos"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Jourdlyn Clervilus"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Faris Bu Shaqraa"
+    }
+   ]
+  },
+  {
+   "id": 1546203,
+   "league": "World - World Cup - U17",
+   "home": "Uruguay U17",
+   "away": "France U17",
+   "hl": "https://media.api-sports.io/football/teams/21212.png",
+   "al": "https://media.api-sports.io/football/teams/12507.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-25T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aymen Amaaouch"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aly Traore"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Idrissa Aissaoui"
+    }
+   ]
   },
   {
    "id": 1558532,
@@ -227,7 +412,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -261,61 +446,61 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
   {
-   "id": 1565476,
-   "league": "Ukraine - Premier League",
-   "home": "Kryvbas KR",
-   "away": "FC Kharkiv",
-   "hl": "https://media.api-sports.io/football/teams/6489.png",
-   "al": "https://media.api-sports.io/football/teams/3628.png",
-   "gh": 0,
-   "ga": 2,
+   "id": 1609121,
+   "league": "Italy - Serie C - Girone C",
+   "home": "Audace Cerignola",
+   "away": "Inter U23",
+   "hl": "https://media.api-sports.io/football/teams/9539.png",
+   "al": "https://media.api-sports.io/football/teams/26355.png",
+   "gh": 1,
+   "ga": 0,
    "status": "2H",
-   "minute": 84,
-   "time": "2026-11-25T11:00:00+00:00",
+   "minute": 48,
+   "time": "2026-11-25T13:30:00+00:00",
    "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ilya Krupskyi"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ermir Rashica"
-    },
     {
      "m": 24,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": "Volodymyr Vilivald"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
      "d": "Yellow Card",
-     "p": "Roy Ben Navi"
+     "p": "M. Meli"
     },
     {
-     "m": 82,
+     "m": 30,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Artem Hennadiiovych Smoliakov"
+     "p": "M. Mancuso"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Gambale"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Gambale"
     }
    ]
   },
@@ -329,7 +514,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -360,7 +545,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -374,7 +559,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -388,7 +573,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -402,7 +587,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -416,7 +601,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -425,14 +610,22 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "D. Ba"
     },
     {
-     "m": 67,
+     "m": 66,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "E. Morrison"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
      "p": null
     }
    ]
@@ -445,9 +638,9 @@
    "hl": "https://media.api-sports.io/football/teams/22699.png",
    "al": "https://media.api-sports.io/football/teams/28319.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -465,6 +658,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Basangwa"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -476,9 +677,9 @@
    "hl": "https://media.api-sports.io/football/teams/28318.png",
    "al": "https://media.api-sports.io/football/teams/12461.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -504,6 +705,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -515,9 +724,9 @@
    "hl": "https://media.api-sports.io/football/teams/12454.png",
    "al": "https://media.api-sports.io/football/teams/12457.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -535,6 +744,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Kasinde"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -546,9 +763,9 @@
    "hl": "https://media.api-sports.io/football/teams/7997.png",
    "al": "https://media.api-sports.io/football/teams/7960.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -598,6 +815,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Grombahi"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Armer"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Camacho"
     }
    ]
   },
@@ -611,7 +844,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -671,10 +904,10 @@
    "away": "Crvena Zvezda U18",
    "hl": "https://media.api-sports.io/football/teams/7928.png",
    "al": "https://media.api-sports.io/football/teams/23030.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -724,123 +957,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Pejakovic"
-    }
-   ]
-  },
-  {
-   "id": 1546193,
-   "league": "World - World Cup - U17",
-   "home": "Haiti U17",
-   "away": "Saudi Arabia U17",
-   "hl": "https://media.api-sports.io/football/teams/12508.png",
-   "al": "https://media.api-sports.io/football/teams/21444.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leonardo Dieujuste"
     },
     {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Stephen Ramos"
-    },
-    {
-     "m": 28,
+     "m": 79,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Stephen Ramos"
+     "p": "I. Onwuzulike"
     }
    ]
   },
   {
-   "id": 1546203,
-   "league": "World - World Cup - U17",
-   "home": "Uruguay U17",
-   "away": "France U17",
-   "hl": "https://media.api-sports.io/football/teams/21212.png",
-   "al": "https://media.api-sports.io/football/teams/12507.png",
+   "id": 1630408,
+   "league": "World - AFC Champions League Two",
+   "home": "Nasaf",
+   "away": "Khalidiya",
+   "hl": "https://media.api-sports.io/football/teams/4215.png",
+   "al": "https://media.api-sports.io/football/teams/17666.png",
    "gh": 0,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aymen Amaaouch"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aly Traore"
-    }
-   ]
-  },
-  {
-   "id": 1609121,
-   "league": "Italy - Serie C - Girone C",
-   "home": "Audace Cerignola",
-   "away": "Inter U23",
-   "hl": "https://media.api-sports.io/football/teams/9539.png",
-   "al": "https://media.api-sports.io/football/teams/26355.png",
-   "gh": 1,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T13:30:00+00:00",
+   "time": "2026-11-25T13:45:00+00:00",
    "ev": [
     {
-     "m": 24,
+     "m": 31,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Meli"
+     "p": "Adenis Shala"
     },
     {
-     "m": 30,
+     "m": 33,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Mancuso"
-    },
-    {
-     "m": 45,
-     "x": 1,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "D. Gambale"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Gambale"
+     "p": "Umar Eshmurodov"
     }
    ]
   }
