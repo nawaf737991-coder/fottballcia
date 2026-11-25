@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T01:30:09+03:00",
- "ts": 1795645809,
+ "updated": "2026-11-26T01:40:14+03:00",
+ "ts": 1795646414,
  "matches": [
   {
    "id": 1631762,
@@ -9,10 +9,10 @@
    "away": "Héroes de Zaci",
    "hl": "https://media.api-sports.io/football/teams/26426.png",
    "al": "https://media.api-sports.io/football/teams/26526.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -25,6 +25,14 @@
     },
     {
      "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 27,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -43,9 +51,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651512,
@@ -57,7 +74,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -71,6 +88,29 @@
    ]
   },
   {
+   "id": 1651653,
+   "league": "Venezuela - Copa Venezuela",
+   "home": "Deportivo Tachira FC",
+   "away": "Carabobo FC",
+   "hl": "https://media.api-sports.io/football/teams/2807.png",
+   "al": "https://media.api-sports.io/football/teams/2810.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-25T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Penaranda"
+    }
+   ]
+  },
+  {
    "id": 1651248,
    "league": "Uruguay - Segunda División",
    "home": "Colón",
@@ -78,9 +118,9 @@
    "hl": "https://media.api-sports.io/football/teams/15628.png",
    "al": "https://media.api-sports.io/football/teams/2364.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T21:00:00+00:00",
    "ev": [
     {
@@ -98,6 +138,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "P. Fagundez"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -110,8 +158,8 @@
    "al": "https://media.api-sports.io/football/teams/18685.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-25T21:30:00+00:00",
    "ev": [
     {
