@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-25T06:00:23+03:00",
- "ts": 1795575623,
+ "updated": "2026-11-25T06:10:26+03:00",
+ "ts": 1795576226,
  "matches": [
+  {
+   "id": 1555829,
+   "league": "Japan - J3 League",
+   "home": "FC Ryukyu",
+   "away": "Roasso Kumamoto",
+   "hl": "https://media.api-sports.io/football/teams/2235.png",
+   "al": "https://media.api-sports.io/football/teams/314.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-25T03:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1650514,
    "league": "Colombia - Primera A",
@@ -12,7 +26,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-25T01:30:00+00:00",
    "ev": [
     {
@@ -70,6 +84,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Titi"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Martinez"
     }
    ]
   }
