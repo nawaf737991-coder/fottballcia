@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T09:00:16+03:00",
- "ts": 1795586416,
+ "updated": "2026-11-25T09:10:19+03:00",
+ "ts": 1795587019,
  "matches": [
   {
    "id": 1555822,
@@ -9,10 +9,10 @@
    "away": "Kanazawa",
    "hl": "https://media.api-sports.io/football/teams/805.png",
    "al": "https://media.api-sports.io/football/teams/300.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-25T05:00:00+00:00",
    "ev": [
     {
@@ -21,6 +21,14 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "H. Izawa"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "H. Izawa"
     }
    ]
