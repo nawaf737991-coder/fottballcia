@@ -1,108 +1,20 @@
 {
- "updated": "2026-11-25T19:10:20+03:00",
- "ts": 1795623020,
+ "updated": "2026-11-25T19:30:12+03:00",
+ "ts": 1795624212,
  "matches": [
   {
-   "id": 1546190,
-   "league": "World - World Cup - U17",
-   "home": "Denmark U17",
-   "away": "Argentina U17",
-   "hl": "https://media.api-sports.io/football/teams/17948.png",
-   "al": "https://media.api-sports.io/football/teams/12500.png",
-   "gh": 1,
+   "id": 1561728,
+   "league": "Poland - II Liga - East",
+   "home": "Resovia Rzeszów",
+   "away": "Świt Skolwin",
+   "hl": "https://media.api-sports.io/football/teams/6951.png",
+   "al": "https://media.api-sports.io/football/teams/12902.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Bautista Giménez"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Bautista Giménez"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Frederik Vestergaard"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Noah Madsen"
-    }
-   ]
-  },
-  {
-   "id": 1546327,
-   "league": "World - World Cup - U17",
-   "home": "Australia U17",
-   "away": "Mozambique U17",
-   "hl": "https://media.api-sports.io/football/teams/12501.png",
-   "al": "https://media.api-sports.io/football/teams/27742.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Luke Becvinovski"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Antonio Junior Nhampule"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Antonio Junior Nhampule"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Khensane Mpusane Eustaquio Machel"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Khensane Mpusane Eustaquio Machel"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-25T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1630409,
@@ -114,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 31,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": []
   },
@@ -128,16 +40,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 12,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mamadou Coulibaly"
     }
    ]
   },
@@ -149,9 +61,9 @@
    "hl": "https://media.api-sports.io/football/teams/5488.png",
    "al": "https://media.api-sports.io/football/teams/21232.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 10,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -169,6 +81,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ahmet Atayew"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Elliot Simoes"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dayanch Meredov"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dayanch Meredov"
     }
    ]
   },
@@ -182,7 +118,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 31,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -196,20 +132,6 @@
    ]
   },
   {
-   "id": 1645618,
-   "league": "World - AGCFF Gulf Champions League",
-   "home": "Al Sha'ab Hadhramaut",
-   "away": "Al-Shabab",
-   "hl": "https://media.api-sports.io/football/teams/23356.png",
-   "al": "https://media.api-sports.io/football/teams/5329.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T15:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1647532,
    "league": "Kuwait - Emir Cup",
    "home": "Al Qadsia",
@@ -219,7 +141,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": []
   },
@@ -230,10 +152,10 @@
    "away": "Stabæk U19",
    "hl": "https://media.api-sports.io/football/teams/7952.png",
    "al": "https://media.api-sports.io/football/teams/16563.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
    "ev": [
     {
@@ -243,6 +165,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Myklebust"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Le Goff-Conan"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Ferrington"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Palmula"
     }
    ]
   },
@@ -256,9 +202,34 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Abish"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Vanek"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Kenesbekov"
+    }
+   ]
   },
   {
    "id": 1649072,
@@ -268,11 +239,20 @@
    "hl": "https://media.api-sports.io/football/teams/7930.png",
    "al": "https://media.api-sports.io/football/teams/7959.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 30,
    "time": "2026-11-25T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Yosef"
+    }
+   ]
   },
   {
    "id": 1509230,
@@ -281,10 +261,10 @@
    "away": "Meshakhte",
    "hl": "https://media.api-sports.io/football/teams/3501.png",
    "al": "https://media.api-sports.io/football/teams/13847.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 69,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -310,116 +290,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Avtandil gujabidze"
-    }
-   ]
-  },
-  {
-   "id": 1546192,
-   "league": "World - World Cup - U17",
-   "home": "Greece U17",
-   "away": "Qatar U17",
-   "hl": "https://media.api-sports.io/football/teams/17956.png",
-   "al": "https://media.api-sports.io/football/teams/21443.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-25T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Omar Ayman Mahmoud"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dhiaeddine Benyatla"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Konstantinos Souvlatzis"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Argyris Argyriou"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Konstantinos Karangelis"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Dhiaeddine Benyatla"
-    }
-   ]
-  },
-  {
-   "id": 1546200,
-   "league": "World - World Cup - U17",
-   "home": "Panama U17",
-   "away": "Egypt U17",
-   "hl": "https://media.api-sports.io/football/teams/21000.png",
-   "al": "https://media.api-sports.io/football/teams/25819.png",
-   "gh": 1,
-   "ga": 4,
-   "status": "2H",
-   "minute": 81,
-   "time": "2026-11-25T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Youssef Rabie"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Youssef Rabie"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jose Asprilla"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Youssef Rabie"
     },
     {
      "m": 50,
@@ -427,39 +297,15 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Thiago Chalmers López"
+     "p": "kenio jackson"
     },
     {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Khaled Mokhtar"
-    },
-    {
-     "m": 61,
+     "m": 65,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Thiago Chalmers López"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Mohamed Gamal"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Norte"
+     "p": "Luka·Parkadze"
     }
    ]
   },
@@ -473,7 +319,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 71,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -491,6 +337,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Eldar Guseynov"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Arsen Adamov"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lechi Sadulaev"
     }
    ]
   },
@@ -501,10 +363,10 @@
    "away": "Baltika",
    "hl": "https://media.api-sports.io/football/teams/6813.png",
    "al": "https://media.api-sports.io/football/teams/2006.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 70,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -514,6 +376,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Razhab Magomedov"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mutalip Alibekov"
     }
    ]
   },
@@ -525,9 +395,9 @@
    "hl": "https://media.api-sports.io/football/teams/1409.png",
    "al": "https://media.api-sports.io/football/teams/855.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 75,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -553,6 +423,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -566,7 +444,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 69,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -611,15 +489,23 @@
    "hl": "https://media.api-sports.io/football/teams/26302.png",
    "al": "https://media.api-sports.io/football/teams/7888.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 73,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
      "m": 48,
      "x": null,
      "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -633,10 +519,10 @@
    "away": "Gil Vicente U23",
    "hl": "https://media.api-sports.io/football/teams/15464.png",
    "al": "https://media.api-sports.io/football/teams/19825.png",
-   "gh": 1,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 69,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -654,6 +540,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -664,12 +574,76 @@
    "away": "Penafiel U23",
    "hl": "https://media.api-sports.io/football/teams/28014.png",
    "al": "https://media.api-sports.io/football/teams/28015.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 71,
    "time": "2026-11-25T15:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1604071,
+   "league": "Saudi-Arabia - Division 1",
+   "home": "Al Ula",
+   "away": "Al-Adalah",
+   "hl": "https://media.api-sports.io/football/teams/26357.png",
+   "al": "https://media.api-sports.io/football/teams/2950.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 59,
+   "time": "2026-11-25T15:10:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Al Nabit"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Al Basha"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Al Nabit"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Y. Ibrahim"
+    }
+   ]
   },
   {
    "id": 1612286,
@@ -681,7 +655,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 70,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -691,6 +665,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Karim Tarek"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yehia Mostafa"
     }
    ]
   },
@@ -701,10 +683,10 @@
    "away": "Kabuscorp",
    "hl": "https://media.api-sports.io/football/teams/4913.png",
    "al": "https://media.api-sports.io/football/teams/4929.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 90,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": []
   },
@@ -718,7 +700,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 74,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -749,7 +731,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 73,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -803,55 +785,16 @@
    ]
   },
   {
-   "id": 1645886,
-   "league": "Cameroon - Elite One",
-   "home": "Victoria United",
-   "away": "Aigle Royal",
-   "hl": "https://media.api-sports.io/football/teams/20800.png",
-   "al": "https://media.api-sports.io/football/teams/5556.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 80,
-   "time": "2026-11-25T14:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1647530,
    "league": "Slovenia - Cup",
    "home": "Tabor Sežana",
    "away": "Fužinar",
    "hl": "https://media.api-sports.io/football/teams/4362.png",
    "al": "https://media.api-sports.io/football/teams/4373.png",
-   "gh": 3,
+   "gh": 6,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 73,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -893,6 +836,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Ljutic"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Mlakar"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. O. Ocen"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Spoljaric"
     }
    ]
   },
@@ -906,7 +873,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 72,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -940,6 +907,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Mataran"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "G. Forte"
     }
    ]
   },
@@ -953,7 +928,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 72,
    "time": "2026-11-25T15:00:00+00:00",
    "ev": [
     {
@@ -983,33 +958,151 @@
    ]
   },
   {
-   "id": 1604071,
-   "league": "Saudi-Arabia - Division 1",
-   "home": "Al Ula",
-   "away": "Al-Adalah",
-   "hl": "https://media.api-sports.io/football/teams/26357.png",
-   "al": "https://media.api-sports.io/football/teams/2950.png",
-   "gh": 1,
+   "id": 1546190,
+   "league": "World - World Cup - U17",
+   "home": "Denmark U17",
+   "away": "Argentina U17",
+   "hl": "https://media.api-sports.io/football/teams/17948.png",
+   "al": "https://media.api-sports.io/football/teams/12500.png",
+   "gh": 2,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T15:10:00+00:00",
+   "time": "2026-11-25T15:30:00+00:00",
    "ev": [
     {
-     "m": 31,
+     "m": 24,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Al Nabit"
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Bautista Giménez"
     },
     {
-     "m": 44,
+     "m": 25,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "A. Al Basha"
+     "p": "Bautista Giménez"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Frederik Vestergaard"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Noah Madsen"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ekene Chukwuani"
+    }
+   ]
+  },
+  {
+   "id": 1546327,
+   "league": "World - World Cup - U17",
+   "home": "Australia U17",
+   "away": "Mozambique U17",
+   "hl": "https://media.api-sports.io/football/teams/12501.png",
+   "al": "https://media.api-sports.io/football/teams/27742.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Luke Becvinovski"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Antonio Junior Nhampule"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Antonio Junior Nhampule"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Khensane Mpusane Eustaquio Machel"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Khensane Mpusane Eustaquio Machel"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luke Becvinovski"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sajjad Nasiri"
+    }
+   ]
+  },
+  {
+   "id": 1645618,
+   "league": "World - AGCFF Gulf Champions League",
+   "home": "Al Sha'ab Hadhramaut",
+   "away": "Al-Shabab",
+   "hl": "https://media.api-sports.io/football/teams/23356.png",
+   "al": "https://media.api-sports.io/football/teams/5329.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 9,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
