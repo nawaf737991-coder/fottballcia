@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T23:20:12+03:00",
- "ts": 1795638012,
+ "updated": "2026-11-25T23:30:22+03:00",
+ "ts": 1795638622,
  "matches": [
   {
    "id": 1563283,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -51,7 +51,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 33,
+   "minute": 43,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -69,6 +69,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jhon Elmer Solís Romero"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jaydon Banel"
     }
    ]
   },
@@ -82,7 +90,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -105,7 +113,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -123,6 +131,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hayden Carter"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Moussa·Baradji"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Iker Bravo"
     }
    ]
   },
@@ -136,7 +160,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -145,7 +169,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "M. Brogan"
     }
    ]
   },
@@ -159,7 +183,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -169,6 +193,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "L. Charman"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Sheron"
     }
    ]
   },
@@ -179,12 +211,29 @@
    "away": "Viking",
    "hl": "https://media.api-sports.io/football/teams/530.png",
    "al": "https://media.api-sports.io/football/teams/759.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 30,
    "time": "2026-11-25T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alexander Sørloth"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Julián Álvarez"
+    }
+   ]
   },
   {
    "id": 1635642,
@@ -196,7 +245,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 18,
+   "minute": 29,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -219,7 +268,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -242,7 +291,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 30,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -265,7 +314,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -286,17 +335,17 @@
    "hl": "https://media.api-sports.io/football/teams/550.png",
    "al": "https://media.api-sports.io/football/teams/611.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 29,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
-     "m": 17,
+     "m": 19,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Var",
+     "d": "Goal cancelled",
      "p": "Vedat Muriqi"
     }
    ]
@@ -311,32 +360,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1642049,
-   "league": "Lebanon - Premier League",
-   "home": "Safa",
-   "away": "Al Nejmeh",
-   "hl": "https://media.api-sports.io/football/teams/4573.png",
-   "al": "https://media.api-sports.io/football/teams/4570.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-25T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1648100,
@@ -348,7 +374,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -371,7 +397,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": []
   },
@@ -385,7 +411,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 45,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": []
   },
@@ -399,7 +425,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -430,7 +456,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": []
   },
@@ -444,32 +470,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1573339,
-   "league": "Spain - Segunda División RFEF - Group 5",
-   "home": "CF Talavera",
-   "away": "Conquense",
-   "hl": "https://media.api-sports.io/football/teams/5253.png",
-   "al": "https://media.api-sports.io/football/teams/5257.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T18:30:00+00:00",
-   "ev": [
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1585362,
@@ -481,7 +484,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 71,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -544,7 +547,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -572,10 +575,10 @@
    "away": "Arezzo",
    "hl": "https://media.api-sports.io/football/teams/1693.png",
    "al": "https://media.api-sports.io/football/teams/876.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -617,6 +620,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Alessio Castellini"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Rachid Kouda"
     }
    ]
   },
@@ -630,7 +641,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -683,9 +694,9 @@
    "hl": "https://media.api-sports.io/football/teams/801.png",
    "al": "https://media.api-sports.io/football/teams/899.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 73,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -703,6 +714,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Antonio Caracciolo"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Filippo Pittarello"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alessandro Bianco"
     }
    ]
   },
@@ -714,9 +741,9 @@
    "hl": "https://media.api-sports.io/football/teams/7925.png",
    "al": "https://media.api-sports.io/football/teams/16384.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 64,
+   "minute": 75,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -742,6 +769,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "G. Groot"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Sijbrands"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Van der Lijcke"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -753,9 +804,9 @@
    "hl": "https://media.api-sports.io/football/teams/7819.png",
    "al": "https://media.api-sports.io/football/teams/2210.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -781,6 +832,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Filipe Ramon"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -794,7 +853,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -833,7 +892,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-25T19:00:00+00:00",
    "ev": [
     {
@@ -866,6 +925,29 @@
      "s": "h",
      "t": "Goal",
      "d": "Missed Penalty",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1642049,
+   "league": "Lebanon - Premier League",
+   "home": "Safa",
+   "away": "Al Nejmeh",
+   "hl": "https://media.api-sports.io/football/teams/4573.png",
+   "al": "https://media.api-sports.io/football/teams/4570.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
