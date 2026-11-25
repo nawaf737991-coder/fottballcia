@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T00:10:22+03:00",
- "ts": 1795641022,
+ "updated": "2026-11-26T00:20:25+03:00",
+ "ts": 1795641625,
  "matches": [
   {
    "id": 1651248,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-25T21:00:00+00:00",
    "ev": []
   },
@@ -24,9 +24,9 @@
    "hl": "https://media.api-sports.io/football/teams/68.png",
    "al": "https://media.api-sports.io/football/teams/60.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -56,18 +56,18 @@
     {
      "m": 63,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Ruben Rodrigues"
-    },
-    {
-     "m": 63,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rabby Nzingoula"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Ruben Rodrigues"
     },
     {
      "m": 66,
@@ -76,6 +76,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Callum Styles"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Felix Horn Myhre"
     }
    ]
   },
@@ -89,7 +97,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -131,6 +139,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Alex Cochrane"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Largie Ramazani"
     }
    ]
   },
@@ -144,7 +160,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -191,7 +207,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -249,6 +265,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Jordan Zemura"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kristi Montgomery"
     }
    ]
   },
@@ -259,10 +283,10 @@
    "away": "Kidderminster Harriers",
    "hl": "https://media.api-sports.io/football/teams/1842.png",
    "al": "https://media.api-sports.io/football/teams/4695.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -280,6 +304,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Dolaghan"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -293,7 +325,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -319,6 +351,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "W. Harris"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Andrews"
     }
    ]
   },
@@ -332,7 +372,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -358,6 +398,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gianni Stensness"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Johnny Cardoso"
     }
    ]
   },
@@ -371,7 +419,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -391,10 +439,10 @@
    "away": "VfB Stuttgart",
    "hl": "https://media.api-sports.io/football/teams/505.png",
    "al": "https://media.api-sports.io/football/teams/172.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -412,6 +460,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Finn Jeltsch"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Federico Dimarco"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Petar Sučić"
     }
    ]
   },
@@ -422,10 +486,10 @@
    "away": "Bayern München",
    "hl": "https://media.api-sports.io/football/teams/79.png",
    "al": "https://media.api-sports.io/football/teams/157.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -443,6 +507,30 @@
      "t": "Var",
      "d": "Goal cancelled",
      "p": "Joshua Kimmich"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Konrad Laimer"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Davide Ancelotti"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ayase Ueda"
     }
    ]
   },
@@ -456,7 +544,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -482,6 +570,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gianluca Mancini"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Wesley Vinícius França Lima"
     }
    ]
   },
@@ -493,9 +589,9 @@
    "hl": "https://media.api-sports.io/football/teams/550.png",
    "al": "https://media.api-sports.io/football/teams/611.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -504,6 +600,22 @@
      "s": "a",
      "t": "Var",
      "d": "Goal cancelled",
+     "p": "Vedat Muriqi"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ismail Yüksek"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Vedat Muriqi"
     }
    ]
@@ -518,7 +630,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -568,6 +680,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Bruno Fernandes"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eduardo Quaresma"
+    }
+   ]
+  },
+  {
+   "id": 1642049,
+   "league": "Lebanon - Premier League",
+   "home": "Safa",
+   "away": "Al Nejmeh",
+   "hl": "https://media.api-sports.io/football/teams/4573.png",
+   "al": "https://media.api-sports.io/football/teams/4570.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 87,
+   "time": "2026-11-25T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ibrahim"
     }
    ]
   },
@@ -581,7 +724,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": []
   },
@@ -595,7 +738,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -625,17 +768,17 @@
    "al": "https://media.api-sports.io/football/teams/22487.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
-     "m": 24,
+     "m": 25,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "R. Torres"
     }
    ]
   }
