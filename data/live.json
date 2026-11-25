@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T00:30:25+03:00",
- "ts": 1795642225,
+ "updated": "2026-11-26T00:40:09+03:00",
+ "ts": 1795642809,
  "matches": [
   {
    "id": 1651248,
@@ -9,12 +9,21 @@
    "away": "Atenas",
    "hl": "https://media.api-sports.io/football/teams/15628.png",
    "al": "https://media.api-sports.io/football/teams/2364.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 35,
    "time": "2026-11-25T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651386,
@@ -26,88 +35,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 10,
    "time": "2026-11-25T21:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1563283,
-   "league": "England - Championship",
-   "home": "Bolton",
-   "away": "West Brom",
-   "hl": "https://media.api-sports.io/football/teams/68.png",
-   "al": "https://media.api-sports.io/football/teams/60.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Brayann Pereira"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aune Heggebo"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Akin Famewo"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rabby Nzingoula"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Ruben Rodrigues"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Callum Styles"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Felix Horn Myhre"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Aune Heggebo"
-    }
-   ]
   },
   {
    "id": 1563284,
@@ -119,7 +49,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -177,6 +107,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ugo Raghouber"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Max Alleyne"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Demarai Gray"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Marcus Edwards"
     }
    ]
   },
@@ -190,7 +144,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 81,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -245,7 +199,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-25T19:45:00+00:00",
    "ev": [
     {
@@ -315,116 +269,6 @@
    ]
   },
   {
-   "id": 1585363,
-   "league": "England - National League",
-   "home": "Harrogate Town",
-   "away": "Kidderminster Harriers",
-   "hl": "https://media.api-sports.io/football/teams/1842.png",
-   "al": "https://media.api-sports.io/football/teams/4695.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Brogan"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Dolaghan"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "W. McGowan"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Dreyer"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Taylor"
-    }
-   ]
-  },
-  {
-   "id": 1585364,
-   "league": "England - National League",
-   "home": "Hartlepool",
-   "away": "Solihull Moors",
-   "hl": "https://media.api-sports.io/football/teams/1366.png",
-   "al": "https://media.api-sports.io/football/teams/1834.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Charman"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Sheron"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "W. Harris"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Andrews"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Hunter"
-    }
-   ]
-  },
-  {
    "id": 1635625,
    "league": "World - UEFA Champions League",
    "home": "Atletico Madrid",
@@ -434,7 +278,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -481,7 +325,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -509,10 +353,10 @@
    "away": "VfB Stuttgart",
    "hl": "https://media.api-sports.io/football/teams/505.png",
    "al": "https://media.api-sports.io/football/teams/172.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 81,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -546,6 +390,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Petar Sučić"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lautaro Martínez"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Manuel Akanji"
     }
    ]
   },
@@ -559,7 +419,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -620,9 +480,9 @@
    "hl": "https://media.api-sports.io/football/teams/85.png",
    "al": "https://media.api-sports.io/football/teams/497.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 81,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -664,6 +524,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Ousmane Dembélé"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Matias Soule"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Donyell Malen"
     }
    ]
   },
@@ -677,7 +553,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -711,6 +587,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Valeriy Bondar"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pedro Henrique"
     }
    ]
   },
@@ -721,10 +605,10 @@
    "away": "Manchester United",
    "hl": "https://media.api-sports.io/football/teams/228.png",
    "al": "https://media.api-sports.io/football/teams/33.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 81,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -782,6 +666,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Eduardo Quaresma"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luis Suárez"
     }
    ]
   },
@@ -795,7 +687,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 90,
+   "minute": 46,
    "time": "2026-11-25T19:30:00+00:00",
    "ev": [
     {
@@ -809,59 +701,6 @@
    ]
   },
   {
-   "id": 1648102,
-   "league": "San-Marino - Coppa Titano",
-   "home": "La Fiorita",
-   "away": "Cosmos",
-   "hl": "https://media.api-sports.io/football/teams/2249.png",
-   "al": "https://media.api-sports.io/football/teams/5298.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1648103,
-   "league": "San-Marino - Coppa Titano",
-   "home": "Tre Penne",
-   "away": "Pennarossa",
-   "hl": "https://media.api-sports.io/football/teams/700.png",
-   "al": "https://media.api-sports.io/football/teams/5306.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-25T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Pieri"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "S. Abouzziane"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Carrer"
-    }
-   ]
-  },
-  {
    "id": 1651655,
    "league": "Peru - Copa Perú",
    "home": "Viargoca",
@@ -871,7 +710,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
@@ -888,7 +727,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "F. Cancapa"
     },
     {
      "m": 55,
@@ -896,7 +735,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "P. Valdivia"
     }
    ]
   }
