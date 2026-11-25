@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T04:00:20+03:00",
- "ts": 1795568420,
+ "updated": "2026-11-25T04:10:22+03:00",
+ "ts": 1795569022,
  "matches": [
   {
    "id": 1649153,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-25T00:30:00+00:00",
    "ev": [
     {
@@ -26,53 +26,6 @@
    ]
   },
   {
-   "id": 1557234,
-   "league": "USA - USL Super League",
-   "home": "Tampa Bay Sun W",
-   "away": "Dallas Trinity W",
-   "hl": "https://media.api-sports.io/football/teams/24663.png",
-   "al": "https://media.api-sports.io/football/teams/24660.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-24T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Shepherd"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Zschuppe"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Hill"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Lancaster"
-    }
-   ]
-  },
-  {
    "id": 1650513,
    "league": "Colombia - Primera A",
    "home": "Millonarios",
@@ -82,7 +35,7 @@
    "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-24T23:20:00+00:00",
    "ev": [
     {
@@ -148,6 +101,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "R. Contreras"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Pons"
     }
    ]
   },
@@ -161,7 +122,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-24T23:30:00+00:00",
    "ev": []
   }
