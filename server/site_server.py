@@ -153,6 +153,12 @@ class Handler(BaseHTTPRequestHandler):
                 print("تعذر جلب أحداث المباراة:", e, flush=True)
                 self.respond_json(502, {"error": "events_provider_unavailable"})
             return
+        if name == "match.json":
+            import match_center
+            query = urllib.parse.parse_qs(parsed.query)
+            code, payload = match_center.handle(api, DATA, (query.get("id") or [""])[0])
+            self.respond_json(code, payload)
+            return
         if name not in ("live.json", "today.json"):
             self.send_response(404)
             self.end_headers()

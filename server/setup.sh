@@ -9,6 +9,7 @@ apt-get install -y python3 curl caddy
 
 mkdir -p /opt/fottballcia /var/lib/fottballcia
 curl -fsSL "$REPO_RAW/site_server.py" -o /opt/fottballcia/site_server.py
+curl -fsSL "$REPO_RAW/match_center.py" -o /opt/fottballcia/match_center.py
 
 read -rsp "الصق مفتاح API-Football (ما يظهر وانت تكتب) ثم Enter: " KEY </dev/tty
 echo
