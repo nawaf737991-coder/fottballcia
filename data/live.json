@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T17:40:18+03:00",
- "ts": 1795617618,
+ "updated": "2026-11-25T17:50:12+03:00",
+ "ts": 1795618212,
  "matches": [
   {
    "id": 1546192,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": []
   },
@@ -49,8 +49,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-25T14:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1611461,
+   "league": "Algeria - Ligue 1",
+   "home": "CR Belouizdad",
+   "away": "CS Constantine",
+   "hl": "https://media.api-sports.io/football/teams/904.png",
+   "al": "https://media.api-sports.io/football/teams/911.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 24,
+   "time": "2026-11-07T16:00:00+00:00",
    "ev": []
   },
   {
@@ -63,166 +77,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T14:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1637389,
-   "league": "World - UEFA Youth League",
-   "home": "Club Brugge U19",
-   "away": "Liverpool U19",
-   "hl": "https://media.api-sports.io/football/teams/7893.png",
-   "al": "https://media.api-sports.io/football/teams/7909.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Van Britsom"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Delorge"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Sonni-Lambie"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Ndiaye"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Van Britsom"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1637390,
-   "league": "World - UEFA Youth League",
-   "home": "Internazionale U19",
-   "away": "Stuttgart U19",
-   "hl": "https://media.api-sports.io/football/teams/7903.png",
-   "al": "https://media.api-sports.io/football/teams/10273.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-25T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Kenmoe"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Yigit"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Zezelj"
-    }
-   ]
-  },
-  {
-   "id": 1637391,
-   "league": "World - UEFA Youth League",
-   "home": "Lille U19",
-   "away": "Bayern München U19",
-   "hl": "https://media.api-sports.io/football/teams/7908.png",
-   "al": "https://media.api-sports.io/football/teams/7887.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Assomo"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Y. Traore"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Matosevic"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Nkounkou"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Gashi"
-    }
-   ]
   },
   {
    "id": 1645617,
@@ -231,10 +88,10 @@
    "away": "Erbil",
    "hl": "https://media.api-sports.io/football/teams/3540.png",
    "al": "https://media.api-sports.io/football/teams/11070.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-25T14:00:00+00:00",
    "ev": [
     {
@@ -268,6 +125,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Al Khaldi"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Al Shammari"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -278,30 +151,24 @@
    "away": "Aigle Royal",
    "hl": "https://media.api-sports.io/football/teams/20800.png",
    "al": "https://media.api-sports.io/football/teams/5556.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-25T14:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1651246,
-   "league": "Russia - Youth Championship",
-   "home": "Krylya Sovetov U19",
-   "away": "Dynamo Makhachkala U19",
-   "hl": "https://media.api-sports.io/football/teams/17150.png",
-   "al": "https://media.api-sports.io/football/teams/27236.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 38,
-   "time": "2026-11-25T14:00:00+00:00",
+   "minute": 20,
+   "time": "2026-11-25T14:30:00+00:00",
    "ev": [
     {
-     "m": 29,
+     "m": 13,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -316,9 +183,9 @@
    "hl": "https://media.api-sports.io/football/teams/12508.png",
    "al": "https://media.api-sports.io/football/teams/21444.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -360,6 +227,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Faris Bu Shaqraa"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abdullah Al Dawsari"
     }
    ]
   },
@@ -373,7 +248,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -399,61 +274,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Idrissa Aissaoui"
-    }
-   ]
-  },
-  {
-   "id": 1558532,
-   "league": "Montenegro - First League",
-   "home": "Bokelj",
-   "away": "Petrovac",
-   "hl": "https://media.api-sports.io/football/teams/3744.png",
-   "al": "https://media.api-sports.io/football/teams/3741.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-25T13:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 17,
+     "m": 60,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "p": "Facundo Rodriguez"
     }
    ]
   },
@@ -464,10 +292,10 @@
    "away": "Inter U23",
    "hl": "https://media.api-sports.io/football/teams/9539.png",
    "al": "https://media.api-sports.io/football/teams/26355.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-25T13:30:00+00:00",
    "ev": [
     {
@@ -501,37 +329,53 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Gambale"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Jakirovic"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
   {
-   "id": 1619197,
-   "league": "England - Professional Development League",
-   "home": "Peterborough United U21",
-   "away": "Hull City U21",
-   "hl": "https://media.api-sports.io/football/teams/20018.png",
-   "al": "https://media.api-sports.io/football/teams/20084.png",
-   "gh": 2,
+   "id": 1630408,
+   "league": "World - AFC Champions League Two",
+   "home": "Nasaf",
+   "away": "Khalidiya",
+   "hl": "https://media.api-sports.io/football/teams/4215.png",
+   "al": "https://media.api-sports.io/football/teams/17666.png",
+   "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 85,
-   "time": "2026-11-25T13:00:00+00:00",
+   "minute": 46,
+   "time": "2026-11-25T13:45:00+00:00",
    "ev": [
     {
-     "m": 21,
+     "m": 31,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Sykut"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adenis Shala"
     },
     {
-     "m": 56,
+     "m": 33,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Conn-Clarke"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Umar Eshmurodov"
     }
    ]
   },
@@ -545,7 +389,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -559,7 +403,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -573,7 +417,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -587,7 +431,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": []
   },
@@ -601,7 +445,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -640,7 +484,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -676,10 +520,10 @@
    "away": "Police",
    "hl": "https://media.api-sports.io/football/teams/28318.png",
    "al": "https://media.api-sports.io/football/teams/12461.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -704,12 +548,20 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "R. Kiwanuka"
     },
     {
      "m": 79,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -726,7 +578,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -751,7 +603,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "T. Asiku"
     }
    ]
   },
@@ -765,7 +617,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -844,7 +696,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -894,6 +746,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Laltlanzova"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "D. Lyngdoh"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Vanlalhriatzula"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -904,10 +780,10 @@
    "away": "Crvena Zvezda U18",
    "hl": "https://media.api-sports.io/football/teams/7928.png",
    "al": "https://media.api-sports.io/football/teams/23030.png",
-   "gh": 3,
+   "gh": 5,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T13:00:00+00:00",
    "ev": [
     {
@@ -965,37 +841,218 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Onwuzulike"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Nisic"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Matjasec"
     }
    ]
   },
   {
-   "id": 1630408,
-   "league": "World - AFC Champions League Two",
-   "home": "Nasaf",
-   "away": "Khalidiya",
-   "hl": "https://media.api-sports.io/football/teams/4215.png",
-   "al": "https://media.api-sports.io/football/teams/17666.png",
-   "gh": 0,
-   "ga": 0,
+   "id": 1637389,
+   "league": "World - UEFA Youth League",
+   "home": "Club Brugge U19",
+   "away": "Liverpool U19",
+   "hl": "https://media.api-sports.io/football/teams/7893.png",
+   "al": "https://media.api-sports.io/football/teams/7909.png",
+   "gh": 2,
+   "ga": 2,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-25T13:45:00+00:00",
+   "time": "2026-11-25T14:00:00+00:00",
    "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Van Britsom"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Delorge"
+    },
     {
      "m": 31,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adenis Shala"
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Sonni-Lambie"
     },
     {
-     "m": 33,
+     "m": 34,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Umar Eshmurodov"
+     "p": "T. Ndiaye"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Van Britsom"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "W. Wright"
+    }
+   ]
+  },
+  {
+   "id": 1637390,
+   "league": "World - UEFA Youth League",
+   "home": "Internazionale U19",
+   "away": "Stuttgart U19",
+   "hl": "https://media.api-sports.io/football/teams/7903.png",
+   "al": "https://media.api-sports.io/football/teams/10273.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Kenmoe"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Yigit"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Zezelj"
+    }
+   ]
+  },
+  {
+   "id": 1637391,
+   "league": "World - UEFA Youth League",
+   "home": "Lille U19",
+   "away": "Bayern München U19",
+   "hl": "https://media.api-sports.io/football/teams/7908.png",
+   "al": "https://media.api-sports.io/football/teams/7887.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Assomo"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Y. Traore"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Matosevic"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Nkounkou"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Gashi"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Gashi"
+    }
+   ]
+  },
+  {
+   "id": 1651246,
+   "league": "Russia - Youth Championship",
+   "home": "Krylya Sovetov U19",
+   "away": "Dynamo Makhachkala U19",
+   "hl": "https://media.api-sports.io/football/teams/17150.png",
+   "al": "https://media.api-sports.io/football/teams/27236.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
