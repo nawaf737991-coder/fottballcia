@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T03:41:03+03:00",
- "ts": 1795567263,
+ "updated": "2026-11-25T03:50:17+03:00",
+ "ts": 1795567817,
  "matches": [
   {
    "id": 1649153,
@@ -9,12 +9,21 @@
    "away": "Atlético Mineiro U20",
    "hl": "https://media.api-sports.io/football/teams/12973.png",
    "al": "https://media.api-sports.io/football/teams/12952.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-25T00:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Jonathan"
+    }
+   ]
   },
   {
    "id": 1557234,
@@ -24,9 +33,9 @@
    "hl": "https://media.api-sports.io/football/teams/24663.png",
    "al": "https://media.api-sports.io/football/teams/24660.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 84,
    "time": "2026-11-24T23:00:00+00:00",
    "ev": [
     {
@@ -44,6 +53,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Zschuppe"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Hill"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Lancaster"
     }
    ]
   },
@@ -57,7 +82,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 70,
    "time": "2026-11-24T23:20:00+00:00",
    "ev": [
     {
@@ -99,6 +124,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Urena"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Hinestroza"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Ortiz"
     }
    ]
   },
@@ -112,7 +153,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-24T23:30:00+00:00",
    "ev": []
   }
