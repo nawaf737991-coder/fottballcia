@@ -1,7 +1,30 @@
 {
- "updated": "2026-11-26T01:00:19+03:00",
- "ts": 1795644019,
+ "updated": "2026-11-26T01:10:22+03:00",
+ "ts": 1795644622,
  "matches": [
+  {
+   "id": 1631762,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros",
+   "away": "Héroes de Zaci",
+   "hl": "https://media.api-sports.io/football/teams/26426.png",
+   "al": "https://media.api-sports.io/football/teams/26526.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-25T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1651386,
    "league": "Argentina - Reserve League",
@@ -10,10 +33,47 @@
    "hl": "https://media.api-sports.io/football/teams/18699.png",
    "al": "https://media.api-sports.io/football/teams/18685.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 40,
+   "time": "2026-11-25T21:30:00+00:00",
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651510,
+   "league": "Brazil - Copa Fares Lopes",
+   "home": "Fortaleza B",
+   "away": "Ceara B",
+   "hl": "https://media.api-sports.io/football/teams/25383.png",
+   "al": "https://media.api-sports.io/football/teams/25382.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
-   "time": "2026-11-25T21:30:00+00:00",
+   "minute": 10,
+   "time": "2026-11-25T22:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651512,
+   "league": "Nicaragua - Primera Division",
+   "home": "UNAN Managua",
+   "away": "H&H Export",
+   "hl": "https://media.api-sports.io/football/teams/4647.png",
+   "al": "https://media.api-sports.io/football/teams/17135.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-25T22:00:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +86,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-25T20:00:00+00:00",
    "ev": [
     {
