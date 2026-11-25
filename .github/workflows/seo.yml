@@ -30,8 +30,11 @@ jobs:
       GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
       GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
       SEO_DRAFT: ${{ vars.SEO_DRAFT || '0' }}
-      MAX_REPORTS: ${{ vars.MAX_REPORTS || '2' }}
-      MAX_NEWS: '3'
+      MAX_REPORTS: '1'
+      DAILY_REPORTS: '2'
+      DAILY_NEWS: '2'
+      DAILY_DRAFTS: '3'
+      MAX_NEWS: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

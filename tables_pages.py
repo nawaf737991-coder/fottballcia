@@ -24,6 +24,9 @@ PAGES = {
     135: ("serie-table", "الدوري الإيطالي", "الكالتشيو"),
     78: ("bundesliga-table", "الدوري الألماني", "البوندسليغا"),
     61: ("ligue1-table", "الدوري الفرنسي", "الليغ 1"),
+    2: ("champions-league-table", "دوري أبطال أوروبا", "دوري الأبطال"),
+    12: ("caf-champions-league-table", "دوري أبطال أفريقيا", "أبطال أفريقيا"),
+    17: ("afc-champions-league-table", "دوري أبطال آسيا للنخبة", "أبطال آسيا"),
 }
 FORM = {"W": "ف", "D": "ت", "L": "خ"}
 
@@ -55,11 +58,21 @@ TH = "padding:8px 3px;font-size:12.5px;font-weight:700"
 TD = "padding:8px 3px;border-bottom:1px solid #e6ebf1;text-align:center;font-size:13.5px"
 
 
-def standings_table(rows, cache):
+def standings_table(rows, cache, lid=0):
     n = len(rows)
     out = []
+    last_g = None
+    cup = lid in (2, 12, 17)
     for r in rows:
-        bg = "#eafaf0" if r["r"] <= 4 else ("#fdecec" if r["r"] > n - 3 else "#fff")
+        if r.get("g") and r.get("g") != last_g:
+            out.append(f"<tr><td colspan='8' style='{TD};background:#153a5b;color:#fff;font-weight:800'>{html.escape(r['g'])}</td></tr>")
+        last_g = r.get("g")
+        if lid == 2:
+            bg = "#eafaf0" if r["r"] <= 8 else ("#fff7e0" if r["r"] <= 24 else "#fdecec")
+        elif cup:
+            bg = "#eafaf0" if r["r"] <= 2 else "#fff"
+        else:
+            bg = "#eafaf0" if r["r"] <= 4 else ("#fdecec" if r["r"] > n - 3 else "#fff")
         form = "".join(FORM.get(c, "") for c in (r.get("f") or "")[-5:])
         gd = r.get("gd") or 0
         out.append(
@@ -71,7 +84,11 @@ def standings_table(rows, cache):
     head = "".join(f"<th style='{TH}'>{h}</th>" for h in ["#", "الفريق", "نقاط", "لعب", "فوز", "تعادل", "خسارة", "+/-"])
     return ("<div style='overflow-x:auto'><table style='width:100%;border-collapse:collapse;border:1px solid #e6ebf1;table-layout:auto'>"
             f"<thead><tr style='background:#153a5b;color:#fff'>{head}</tr></thead><tbody>{''.join(out)}</tbody></table></div>"
-            "<p style='font-size:13px;color:#5b6b7c'>الأخضر: مراكز المقدمة الأربعة · الأحمر: آخر ثلاثة مراكز (منطقة الخطر).</p>")
+            "<p style='font-size:13px;color:#5b6b7c'>"
+            + ("الأخضر: التأهل المباشر لدور الـ16 (أول 8) · الأصفر: الملحق (من 9 إلى 24) · الأحمر: خارج المنافسة." if lid == 2 else
+               ("الأخضر: مراكز التأهل للأدوار الإقصائية." if lid in (12, 17) else
+                "الأخضر: مراكز المقدمة الأربعة · الأحمر: آخر ثلاثة مراكز (منطقة الخطر)."))
+            + "</p>")
 
 
 def scorers_table(sc, cache):
@@ -114,13 +131,15 @@ def title_of(lid, season):
 def build(lg, cache, now, others):
     lid, rows, sc = lg["id"], lg["table"], lg.get("scorers") or []
     slug, full, short = PAGES[lid]
+    g0 = rows[0].get("g") if rows else ""
+    top_rows = [r for r in rows if r.get("g") == g0] or rows
     season = season_label(lg["season"])
-    first, second = rows[0], rows[1] if len(rows) > 1 else None
+    first, second = top_rows[0], top_rows[1] if len(top_rows) > 1 else None
     gap = first["pts"] - second["pts"] if second else 0
     lead = (f"يتصدر <strong>{ar(first['t'], cache)}</strong> ترتيب {full} برصيد {pts(first['pts'])} بعد {cnt(first['p'], 'مباراة واحدة', 'مباراتين', 'مباريات', 'مباراة')}"
             + (f"، بفارق {pts(gap)} عن {ar(second['t'], cache)} صاحب المركز الثاني" if second and gap else
                (f"، ويتساوى بالنقاط مع {ar(second['t'], cache)}" if second else "")) + ".")
-    bottom = rows[-1]
+    bottom = top_rows[-1]
     lead += f" وفي ذيل الترتيب يأتي {ar(bottom['t'], cache)} برصيد {pts(bottom['pts'])}."
     top_sc = sc[0] if sc else None
     if top_sc:
@@ -142,7 +161,7 @@ def build(lg, cache, now, others):
 <p><strong>ترتيب {full} {season}</strong>: جدول ترتيب {short} كاملًا بعد آخر المباريات، مع عدد المباريات والانتصارات والتعادلات والهزائم وفارق الأهداف والنقاط، إضافة إلى قائمة هدافي الدوري. {lead}</p>
 <p style="font-size:13px;color:#5b6b7c">آخر تحديث: {now.strftime('%Y-%m-%d %H:%M')} بتوقيت السعودية.</p>
 <h2>جدول ترتيب {full} {season}</h2>
-{standings_table(rows, cache)}
+{standings_table(rows, cache, lid)}
 <h2>ترتيب هدافي {full} {season}</h2>
 {scorers_table(sc, cache)}
 {faq}
@@ -191,7 +210,7 @@ def main():
         slug = PAGES[lg["id"]][0]
         content = build(lg, cache, now, others)
         sig = hashlib.md5(json.dumps([lg["table"], lg.get("scorers"), sorted(others)], ensure_ascii=False).encode()
-                          + str(len(cache)).encode() + b"v4").hexdigest()
+                          + str(len(cache)).encode() + b"v5").hexdigest()
         if DRY:
             open(f"/tmp/table_{slug}.html", "w", encoding="utf-8").write(content)
             print("DRY:", slug)

@@ -36,6 +36,7 @@ DAYS_BACK, DAYS_AHEAD = 3, 7
 TABLE_LEAGUES = [
     (39, "الدوري الإنجليزي"), (140, "الدوري الإسباني"), (307, "الدوري السعودي"),
     (135, "الدوري الإيطالي"), (78, "الدوري الألماني"), (61, "الدوري الفرنسي"),
+    (2, "دوري أبطال أوروبا"), (12, "دوري أبطال أفريقيا"), (17, "دوري أبطال آسيا للنخبة"),
 ]
 KEEP_NEWS = 60
 KEEP_DAYS = 7
@@ -217,6 +218,9 @@ def run_news():
                 continue
             title = (item.findtext("title") or "").strip()
             desc = re.sub(r"<[^>]+>", "", item.findtext("description") or "").strip()
+            import quality as Q
+            if Q.is_women(title, desc, link) or Q.news_score(title, desc) < 1:
+                continue
             try:
                 text = sb.claude(
                     "أنت محرر رياضي. اكتب خبرًا قصيرًا بالعربي (80-120 كلمة) بأسلوبك الخاص بالكامل "
@@ -269,17 +273,23 @@ def run_tables():
             st = sb.football("standings", league=lid, season=season)
             groups = ((st[0].get("league") or {}).get("standings") if st else None) or []
             rows = []
-            for r in (groups[0] if groups else []):
+            multi = lid in (12, 17) and len(groups) > 1
+            flat = [(r, (r.get("group") or "")) for g in groups for r in g] if multi else [(r, "") for r in (groups[0] if groups else [])]
+            for r, gname in flat:
                 a = r.get("all") or {}
                 g = a.get("goals") or {}
                 rows.append({
                     "r": r.get("rank"), "t": (r.get("team") or {}).get("name"),
                     "l": (r.get("team") or {}).get("logo"), "p": a.get("played"),
                     "w": a.get("win"), "d": a.get("draw"), "ls": a.get("lose"),
-                    "gd": r.get("goalsDiff"), "pts": r.get("points"), "f": r.get("form") or "",
+                    "gd": r.get("goalsDiff"), "pts": r.get("points"), "f": r.get("form") or "", "g": gname,
                 })
             sc = []
-            for x in sb.football("players/topscorers", league=lid, season=season)[:10]:
+            try:
+                tops = sb.football("players/topscorers", league=lid, season=season)[:10]
+            except Exception:
+                tops = []
+            for x in tops:
                 pl = x.get("player") or {}
                 stt = (x.get("statistics") or [{}])[0]
                 sc.append({

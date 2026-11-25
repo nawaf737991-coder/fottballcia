@@ -139,12 +139,15 @@ def candidates(st):
             continue
         if f["fixture"]["id"] in done:
             continue
+        import quality as Q
+        if Q.is_women(f["teams"]["home"]["name"], f["teams"]["away"]["name"], f["league"].get("name")):
+            continue
         ko = datetime.fromisoformat(f["fixture"]["date"])
         hours = (ko - now).total_seconds() / 3600
         if not (3 <= hours <= 40):
             continue
         sc = importance(f, tbl)
-        if sc >= int(os.environ.get("MIN_SCORE", "55")):  # الدوري السعودي كامل + أبطال أوروبا + مباريات الكبار
+        if sc >= int(os.environ.get("MIN_SCORE", "75")):  # الدوري السعودي كامل + أبطال أوروبا + مباريات الكبار
             out.append((sc, f))
     out.sort(key=lambda x: -x[0])
     print("مباريات كبيرة مرشحة:", [(s, f["teams"]["home"]["name"], f["teams"]["away"]["name"]) for s, f in out][:10])

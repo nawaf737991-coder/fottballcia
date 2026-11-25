@@ -29,6 +29,7 @@ from datetime import datetime, timedelta
 
 import time
 import sports_bot as sb
+import quality as Q
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, "data", "seo_state.json")
@@ -45,6 +46,7 @@ LEAGUES = {
     3: "الدوري الأوروبي",
     848: "دوري المؤتمر الأوروبي",
     17: "دوري أبطال آسيا للنخبة",
+    12: "دوري أبطال أفريقيا",
     1: "كأس العالم",
     32: "تصفيات كأس العالم - أوروبا",
     30: "تصفيات كأس العالم - آسيا",
@@ -77,13 +79,14 @@ def slug_words(text, n=8):
     stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "at", "is", "with", "as", "by"}
     words = [w for w in words if w not in stop and (len(w) > 1 or w.isdigit())][:n]
     return " ".join(words) if len(words) >= 2 else ""
-def publish(title, content, labels, slug=""):
+def publish(title, content, labels, slug="", draft=None):
+    draft = DRAFT if draft is None else draft
     if DRY:
         print("=== DRY ===", title, "| slug:", slug, labels)
         print(content)
         return
-    first = slug if (slug and not DRAFT) else title
-    post = sb.publish(first, content, labels, draft=DRAFT)
+    first = slug if (slug and not draft) else title
+    post = sb.publish(first, content, labels, draft=draft)
     if first != title:
         # نرجع العنوان العربي فورًا ويبقى الرابط الإنجليزي
         for i in range(3):
@@ -95,7 +98,7 @@ def publish(title, content, labels, slug=""):
                 time.sleep(5)
         else:
             print("::warning::نُشر بعنوان إنجليزي ولم يُحدَّث: " + post.get("url", ""), flush=True)
-    print("نُشر" + (" (مسودة)" if DRAFT else "") + ":", title, post.get("url", ""))
+    print("نُشر" + (" (مسودة)" if draft else "") + ":", title, post.get("url", ""))
 
 
 class BillingStop(Exception):
@@ -378,7 +381,12 @@ def report_html(facts, data, league_ar):
 def run_reports():
     st = load()
     done = set(st["reports"])
-    limit = int(os.environ.get("MAX_REPORTS", "3"))
+    dc = Q.day_counts(st)
+    cap = int(os.environ.get("DAILY_REPORTS", "2"))
+    limit = min(int(os.environ.get("MAX_REPORTS", "1")), cap - dc["rep"])
+    if limit <= 0:
+        print("اكتملت حصة تقارير اليوم")
+        return
     made = 0
     fails = 0
     now = datetime.now(sb.TZ)
@@ -391,10 +399,12 @@ def run_reports():
     cands = [f for f in cands
              if f["fixture"]["status"]["short"] in FINISHED
              and f["league"]["id"] in LEAGUES
-             and f["fixture"]["id"] not in done]
+             and f["fixture"]["id"] not in done
+             and not Q.is_women(f["teams"]["home"]["name"], f["teams"]["away"]["name"], f["league"].get("name"))
+             and (Q.team_big(f) >= 1 or f["league"]["id"] in (2, 12, 17, 1))]
     # الأهم أولًا: حسب ترتيب الدوريات في القائمة
     order = list(LEAGUES)
-    cands.sort(key=lambda f: order.index(f["league"]["id"]))
+    cands.sort(key=lambda f: (-Q.team_big(f), order.index(f["league"]["id"])))
     print("مباريات مرشحة:", len(cands), flush=True)
     try:
         _reports_loop(st, cands, limit)
@@ -455,13 +465,14 @@ def _reports_loop(st, cands, limit):
                 ' "conclusion": "فقرة ختامية من 3 جمل عن دلالة النتيجة للفريقين دون تخمين ترتيب الدوري",'
                 ' "star_en": "عنوان صفحة ويكيبيديا الإنجليزية بالضبط لأبرز لاعب في الفريق الفائز من البيانات (صاحب هدف، أو أشهر لاعب فيه عند التعادل) مثل Erling Haaland، أو فارغ",'
                 ' "venue_en": "عنوان صفحة ويكيبيديا الإنجليزية لملعب المباراة إن وُجد في البيانات، أو فارغ"}\n'
-                "المطلوب أن يكون مجموع النص 350 كلمة على الأقل. إن لم توجد إحصائيات فاترك analysis فارغة وأطل الفقرات الأخرى.\n\n"
+                "اجعل التقرير مركزًا بلا حشو أو تكرار. المطلوب أن يكون مجموع النص 300 كلمة على الأقل. إن لم توجد إحصائيات فاترك analysis فارغة وأطل الفقرات الأخرى.\n\n"
                 f"البطولة: {league_ar}\nالبيانات: {json.dumps(facts, ensure_ascii=False)}",
                 max_tokens=4000,
             )
             data = parse_json(raw)
             if not data.get("title") or not data.get("intro"):
                 raise ValueError("مخرجات ناقصة")
+            data = Q.proofread(data)
             prose = " ".join([data.get("intro", ""), data.get("conclusion", "")] + list(data.get("paragraphs") or [])
                              + list(data.get("analysis") or []))
             if len(prose.split()) < 230:
@@ -482,6 +493,7 @@ def _reports_loop(st, cands, limit):
                 body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
             publish(title, body, ["تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar]), slug=slug)
             st["reports"].append(fid)
+            Q.day_counts(st)["rep"] += 1
             made += 1
         except Exception as e:
             check_billing(e)
@@ -526,19 +538,14 @@ def news_image(data, slug, key, ar_title, tags):
 def run_news():
     st = load()
     seen = set(st["news"])
-    limit = int(os.environ.get("MAX_NEWS", "2"))
     try:
-        _news_loop(seen, limit)
+        _news_loop(seen, st)
     finally:
         st["news"] = list(seen)
         save(st)
-
-
-def _news_loop(seen, limit):
-    made = 0
+def _collect(seen):
+    cands = []
     for feed in sb.NEWS_FEEDS:
-        if made >= limit:
-            break
         try:
             req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -547,8 +554,6 @@ def _news_loop(seen, limit):
             print("فشل الخلاصة", feed, e)
             continue
         for item in root.iter("item"):
-            if made >= limit:
-                break
             link = (item.findtext("link") or "").strip()
             if not re.match(r"^https?://", link):
                 continue
@@ -562,6 +567,33 @@ def _news_loop(seen, limit):
             if len(desc) < 40:
                 seen.add(key)
                 continue
+            if Q.is_women(title, desc, link):
+                seen.add(key)
+                continue
+            sc = Q.news_score(title, desc)
+            if sc < 1:
+                continue  # خبر غير مهم: لا نكتب عنه
+            cands.append((sc, link, key, title, desc))
+    cands.sort(key=lambda c: -c[0])
+    return cands
+def _news_loop(seen, st):
+    made = 0
+    dc = Q.day_counts(st)
+    cap_live = int(os.environ.get("DAILY_NEWS", "2"))
+    cap_draft = int(os.environ.get("DAILY_DRAFTS", "3"))
+    per_run = int(os.environ.get("MAX_NEWS", "1"))
+    cands = _collect(seen)
+    print("أخبار مرشحة:", len(cands), flush=True)
+    for sc, link, key, title, desc in cands:
+        if made >= per_run:
+            break
+        # المسودات للأهم (درجة 3+ أو الأعلى) وتُنشر يدويًا؛ والباقي ينشر مباشرة
+        want_draft = dc["draft"] < cap_draft and (sc >= 3 or dc["pub"] >= cap_live)
+        if not want_draft and dc["pub"] >= cap_live:
+            break
+        if not want_draft and dc["pub"] >= Q.spread_allowed(cap_live):
+            break
+        if True:
             try:
                 src = source_text(link, 7000)
                 if len(src or "") < 900:
@@ -570,7 +602,7 @@ def _news_loop(seen, limit):
                     continue
                 raw = sb.claude(
                     "أنت محرر رياضي عربي محترف في موقع عالم المستديرة. اكتب مقالًا إخباريًا أصليًا بالعربية "
-                    "الفصحى المبسطة بطول 400 إلى 600 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
+                    "الفصحى المبسطة مركزًا ومباشرًا بلا حشو ولا تكرار بطول 350 إلى 500 كلمة اعتمادًا فقط على المعلومات الموجودة في المصدر أدناه. "
                     "لا تترجم حرفيًا ولا تنسخ الجمل، بل أعد الصياغة بأسلوبك ورتّب المعلومات واشرح السياق للقارئ العربي، "
                     "وممنوع إضافة أي معلومة أو رقم أو تصريح أو تاريخ غير موجود في المصدر. "
                     "استخدم الأسماء العربية المعروفة للأندية واللاعبين.\n"
@@ -593,6 +625,7 @@ def _news_loop(seen, limit):
                 data = parse_json(raw)
                 if not data.get("title") or not data.get("sections"):
                     raise ValueError("مخرجات ناقصة")
+                data = Q.proofread(data)
                 esc = html.escape
                 ar_title = data["title"].strip()
                 body = f"<p>{esc(data.get('intro', ''))}</p>" if data.get("intro") else ""
@@ -604,7 +637,7 @@ def _news_loop(seen, limit):
                 if tk:
                     body += "<h2>أبرز النقاط</h2><ul>" + "".join(f"<li>{esc(t)}</li>" for t in tk) + "</ul>"
                 n_words = len(re.sub(r"<[^>]+>", " ", body).split())
-                if n_words < 280:
+                if n_words < 250:
                     seen.add(key)  # لا نعيد المحاولة على نفس الخبر
                     raise ValueError(f"المقال أقصر من المطلوب ({n_words} كلمة)")
                 body += (f'<p><small>المصدر: <a href="{esc(link)}" rel="nofollow noopener" target="_blank">'
@@ -616,8 +649,9 @@ def _news_loop(seen, limit):
                                     "أخبار كرة القدم", credit)
                 if LAST_IMAGE_KIND in ("photo", "teams"):
                     body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
-                publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug)
+                publish(ar_title, body, ["أخبار كرة القدم"] + tags, slug=slug, draft=want_draft)
                 seen.add(key)
+                dc["draft" if want_draft else "pub"] += 1
                 made += 1
             except Exception as e:
                 check_billing(e)
