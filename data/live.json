@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T15:20:27+03:00",
- "ts": 1795609227,
+ "updated": "2026-11-25T15:30:31+03:00",
+ "ts": 1795609831,
  "matches": [
   {
    "id": 1553905,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -26,6 +26,37 @@
    ]
   },
   {
+   "id": 1565476,
+   "league": "Ukraine - Premier League",
+   "home": "Kryvbas KR",
+   "away": "FC Kharkiv",
+   "hl": "https://media.api-sports.io/football/teams/6489.png",
+   "al": "https://media.api-sports.io/football/teams/3628.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 12,
+   "time": "2026-11-25T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ilya Krupskyi"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ermir Rashica"
+    }
+   ]
+  },
+  {
    "id": 1568868,
    "league": "Poland - III Liga - Group 2",
    "home": "Lech Poznań II",
@@ -35,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -49,7 +80,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -63,7 +94,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -72,7 +103,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "V. Aon-pean"
     }
    ]
   },
@@ -86,7 +117,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-25T12:10:00+00:00",
    "ev": []
   },
@@ -97,12 +128,29 @@
    "away": "Al Wehda Club",
    "hl": "https://media.api-sports.io/football/teams/2966.png",
    "al": "https://media.api-sports.io/football/teams/2937.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-25T12:10:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Kaabi"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Gonzalez"
+    }
+   ]
   },
   {
    "id": 1629132,
@@ -112,9 +160,32 @@
    "hl": "https://media.api-sports.io/football/teams/24667.png",
    "al": "https://media.api-sports.io/football/teams/22231.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 26,
+   "time": "2026-11-25T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1629133,
+   "league": "Kenya - FKF Premier League",
+   "home": "APS Bomet",
+   "away": "Migori Youth",
+   "hl": "https://media.api-sports.io/football/teams/19476.png",
+   "al": "https://media.api-sports.io/football/teams/19484.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 8,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -128,7 +199,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -139,10 +210,10 @@
    "away": "Fenerbahce U19",
    "hl": "https://media.api-sports.io/football/teams/7929.png",
    "al": "https://media.api-sports.io/football/teams/28245.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -151,7 +222,23 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "M. Tverdokhlib"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ryan Roberto"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Chornenkyi"
     }
    ]
   },
@@ -163,11 +250,20 @@
    "hl": "https://media.api-sports.io/football/teams/7933.png",
    "al": "https://media.api-sports.io/football/teams/17702.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Traore"
+    }
+   ]
   },
   {
    "id": 1637495,
@@ -176,12 +272,21 @@
    "away": "FC Seoul",
    "hl": "https://media.api-sports.io/football/teams/2445.png",
    "al": "https://media.api-sports.io/football/teams/2766.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-25T12:15:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mariano Peralta Bauer"
+    }
+   ]
   },
   {
    "id": 1642048,
@@ -193,7 +298,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-25T12:15:00+00:00",
    "ev": []
   },
@@ -207,7 +312,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -228,11 +333,20 @@
    "hl": "https://media.api-sports.io/football/teams/11133.png",
    "al": "https://media.api-sports.io/football/teams/2451.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648384,
@@ -244,7 +358,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -256,12 +370,12 @@
      "p": "Hariono"
     },
     {
-     "m": 16,
+     "m": 15,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "D. Pamungkas"
     }
    ]
   },
@@ -275,7 +389,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -286,12 +400,21 @@
    "away": "Persipura Jayapura",
    "hl": "https://media.api-sports.io/football/teams/2441.png",
    "al": "https://media.api-sports.io/football/teams/2440.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 29,
    "time": "2026-11-25T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648387,
@@ -300,19 +423,27 @@
    "away": "Isenmulang Kalteng",
    "hl": "https://media.api-sports.io/football/teams/2438.png",
    "al": "https://media.api-sports.io/football/teams/24993.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
-     "m": 18,
+     "m": 17,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "H. Sjahbandi"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tito Hamzah"
     }
    ]
   },
@@ -326,7 +457,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": [
     {
@@ -357,7 +488,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
   },
@@ -371,64 +502,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-25T12:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1556156,
-   "league": "Japan - J1 League",
-   "home": "Urawa",
-   "away": "Cerezo Osaka",
-   "hl": "https://media.api-sports.io/football/teams/287.png",
-   "al": "https://media.api-sports.io/football/teams/291.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T10:30:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ado Onaiwu"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Takuro Kaneko"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rikito Inoue"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Solomon Sakuragawa"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dion Cools"
-    }
-   ]
   },
   {
    "id": 1602747,
@@ -440,7 +516,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -471,7 +547,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 69,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -494,66 +570,11 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
      "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1629136,
-   "league": "Kenya - FKF Premier League",
-   "home": "Homeboyz",
-   "away": "Shabana",
-   "hl": "https://media.api-sports.io/football/teams/2462.png",
-   "al": "https://media.api-sports.io/football/teams/19489.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T10:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Orako"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Ndayala"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Orako"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 90,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -570,9 +591,9 @@
    "hl": "https://media.api-sports.io/football/teams/24986.png",
    "al": "https://media.api-sports.io/football/teams/7885.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -598,92 +619,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. E. Bakare"
-    }
-   ]
-  },
-  {
-   "id": 1639380,
-   "league": "Chinese-Taipei - Taiwan Football Premier League",
-   "home": "Tainan City",
-   "away": "Taichung Rock FC",
-   "hl": "https://media.api-sports.io/football/teams/12543.png",
-   "al": "https://media.api-sports.io/football/teams/26332.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T10:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1646636,
-   "league": "India - I-League",
-   "home": "Mohammedan",
-   "away": "Rajasthan United",
-   "hl": "https://media.api-sports.io/football/teams/15585.png",
-   "al": "https://media.api-sports.io/football/teams/18009.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T10:30:00+00:00",
-   "ev": [
-    {
-     "m": 63,
+     "m": 62,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Castellano"
+     "p": "P. Rodriguez"
     },
     {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Singh"
-    },
-    {
-     "m": 67,
+     "m": 65,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "B. Giri"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "J. Garcia"
+     "p": "A. Guerrero"
     }
    ]
   },
@@ -695,9 +646,9 @@
    "hl": "https://media.api-sports.io/football/teams/6948.png",
    "al": "https://media.api-sports.io/football/teams/16255.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -731,6 +682,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "P. Skrobosinski"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Adamski"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Marcinkowski"
     }
    ]
   },
@@ -744,7 +711,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-25T11:00:00+00:00",
    "ev": [
     {
@@ -770,6 +737,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "G. Bombans"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Gegermanis"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Mikanovich"
     }
    ]
   },
