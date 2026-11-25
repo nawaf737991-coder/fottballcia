@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T01:40:14+03:00",
- "ts": 1795646414,
+ "updated": "2026-11-26T01:50:20+03:00",
+ "ts": 1795647020,
  "matches": [
   {
    "id": 1631762,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-25T22:00:00+00:00",
    "ev": [
     {
@@ -42,52 +42,6 @@
    ]
   },
   {
-   "id": 1651510,
-   "league": "Brazil - Copa Fares Lopes",
-   "home": "Fortaleza B",
-   "away": "Ceara B",
-   "hl": "https://media.api-sports.io/football/teams/25383.png",
-   "al": "https://media.api-sports.io/football/teams/25382.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651512,
-   "league": "Nicaragua - Primera Division",
-   "home": "UNAN Managua",
-   "away": "H&H Export",
-   "hl": "https://media.api-sports.io/football/teams/4647.png",
-   "al": "https://media.api-sports.io/football/teams/17135.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-25T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1651653,
    "league": "Venezuela - Copa Venezuela",
    "home": "Deportivo Tachira FC",
@@ -97,7 +51,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-25T22:30:00+00:00",
    "ev": [
     {
@@ -118,9 +72,9 @@
    "hl": "https://media.api-sports.io/football/teams/15628.png",
    "al": "https://media.api-sports.io/football/teams/2364.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-25T21:00:00+00:00",
    "ev": [
     {
@@ -138,14 +92,6 @@
      "t": "Card",
      "d": "Red Card",
      "p": "P. Fagundez"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   },
@@ -159,7 +105,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-25T21:30:00+00:00",
    "ev": [
     {
@@ -177,6 +123,76 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Gallard"
+    }
+   ]
+  },
+  {
+   "id": 1651510,
+   "league": "Brazil - Copa Fares Lopes",
+   "home": "Fortaleza B",
+   "away": "Ceara B",
+   "hl": "https://media.api-sports.io/football/teams/25383.png",
+   "al": "https://media.api-sports.io/football/teams/25382.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651512,
+   "league": "Nicaragua - Primera Division",
+   "home": "UNAN Managua",
+   "away": "H&H Export",
+   "hl": "https://media.api-sports.io/football/teams/4647.png",
+   "al": "https://media.api-sports.io/football/teams/17135.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-25T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
