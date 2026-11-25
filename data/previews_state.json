@@ -3394,7 +3394,12 @@
     "G. Gasperini": "جان بييرو جاسبريني",
     "Parc des Princes": "حديقة الأمراء",
     "Paris": "باريس",
-    "G. Nyberg": "غلين نايبرغ"
+    "G. Nyberg": "غلين نايبرغ",
+    "Mario Hermoso": "ماريو هيرموسو",
+    "Matias Soule": "ماتياس سولي",
+    "Ilya Zabarnyi": "إيليا زابارني",
+    "Ousmane Dembélé": "عثمان ديمبيلي",
+    "Donyell Malen": "دونيل مالين"
    },
    "published": "2026-11-24T07:17:40+03:00",
    "official": true,
@@ -3462,7 +3467,78 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/paris-saint-germain-vs-roma-preview-8f5f0a-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 2,
+    "goals": [
+     {
+      "min": "5",
+      "player": "ماريو هيرموسو",
+      "assist": "ماتياس سولي",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 1,
+      "team": "روما"
+     },
+     {
+      "min": "31",
+      "player": "إيليا زابارني",
+      "assist": "سيني مايولو",
+      "kind": "",
+      "side": "home",
+      "gh": 1,
+      "ga": 1,
+      "team": "باريس سان جيرمان"
+     },
+     {
+      "min": "62",
+      "player": "عثمان ديمبيلي",
+      "assist": "",
+      "kind": "ركلة جزاء",
+      "side": "home",
+      "gh": 2,
+      "ga": 1,
+      "team": "باريس سان جيرمان"
+     },
+     {
+      "min": "78",
+      "player": "دونيل مالين",
+      "assist": "",
+      "kind": "ركلة جزاء",
+      "side": "away",
+      "gh": 2,
+      "ga": 2,
+      "team": "روما"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "66%",
+      "34%"
+     ],
+     "التسديدات": [
+      15,
+      13
+     ],
+     "على المرمى": [
+      4,
+      4
+     ],
+     "الركنيات": [
+      3,
+      4
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "1.86",
+      "2.76"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "باريس سان جيرمان 2-2 روما ⚽\nدوري أبطال أوروبا\nالأهداف: ماريو هيرموسو، إيليا زابارني، عثمان ديمبيلي، دونيل مالين\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#باريس_سان_جيرمان #روما #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/paris-saint-germain-vs-roma-preview-7830d9-result-tiktok.mp4"
   },
   {
    "fid": 1635625,
@@ -3503,7 +3579,10 @@
     "B. Aarsheim": "بارتن أورسهايم",
     "Metropolitano Stadium": "ملعب ميتروبوليتانو",
     "Madrid": "مدريد",
-    "E. Lambrechts": "إي. لامبريكتس"
+    "E. Lambrechts": "إي. لامبريكتس",
+    "Alexander Sørloth": "ألكسندر سرلوث",
+    "Alejandro Grimaldo": "أليخاندرو غريمالدو",
+    "Julián Álvarez": "جوليان ألفاريز"
    },
    "published": "2026-11-24T07:17:49+03:00",
    "official": true,
@@ -3571,7 +3650,58 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/atletico-madrid-vs-viking-preview-dd4730-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 0,
+    "goals": [
+     {
+      "min": "19",
+      "player": "ألكسندر سرلوث",
+      "assist": "أليخاندرو غريمالدو",
+      "kind": "",
+      "side": "home",
+      "gh": 1,
+      "ga": 0,
+      "team": "أتلتيكو مدريد"
+     },
+     {
+      "min": "24",
+      "player": "جوليان ألفاريز",
+      "assist": "",
+      "kind": "",
+      "side": "home",
+      "gh": 2,
+      "ga": 0,
+      "team": "أتلتيكو مدريد"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "48%",
+      "52%"
+     ],
+     "التسديدات": [
+      20,
+      9
+     ],
+     "على المرمى": [
+      9,
+      1
+     ],
+     "الركنيات": [
+      6,
+      1
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "1.96",
+      "0.68"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "أتلتيكو مدريد 2-0 فيكينغ ⚽\nدوري أبطال أوروبا\nالأهداف: ألكسندر سرلوث، جوليان ألفاريز\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#أتلتيكو_مدريد #فيكينغ #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/atletico-madrid-vs-viking-preview-c39981-result-tiktok.mp4"
   },
   {
    "fid": 1635642,
@@ -3616,7 +3746,11 @@
     "Andoni Iraola": "أندوني إريولا",
     "Jan Breydel Stadion": "ستاد يان بريدل",
     "Brugge": "بروج",
-    "A. Hernandez": "أليخاندرو هيرنانديز"
+    "A. Hernandez": "أليخاندرو هيرنانديز",
+    "Alexander Isak": "ألكسندر إسحاق",
+    "Dominik Szoboszlai": "دومينيك سوبوسلاي",
+    "Florian Wirtz": "فلوريان فيرتز",
+    "Rio Ngumoha": "ريو نجوموها"
    },
    "published": "2026-11-24T07:47:41+03:00",
    "official": true,
@@ -3684,7 +3818,68 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/club-brugge-kv-vs-liverpool-preview-29e300-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 0,
+    "ga": 3,
+    "goals": [
+     {
+      "min": "13",
+      "player": "ألكسندر إسحاق",
+      "assist": "دومينيك سوبوسلاي",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 1,
+      "team": "ليفربول"
+     },
+     {
+      "min": "79",
+      "player": "فلوريان فيرتز",
+      "assist": "ريو نجوموها",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 2,
+      "team": "ليفربول"
+     },
+     {
+      "min": "82",
+      "player": "ألكسندر إسحاق",
+      "assist": "أليسون بيكر",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 3,
+      "team": "ليفربول"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "54%",
+      "46%"
+     ],
+     "التسديدات": [
+      17,
+      13
+     ],
+     "على المرمى": [
+      5,
+      4
+     ],
+     "الركنيات": [
+      8,
+      4
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "1.18",
+      "2"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "كلوب بروج 0-3 ليفربول ⚽\nدوري أبطال أوروبا\nالأهداف: ألكسندر إسحاق، فلوريان فيرتز\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#كلوب_بروج #ليفربول #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/club-brugge-kv-vs-liverpool-preview-f4314e-result-tiktok.mp4"
   },
   {
    "fid": 1635673,
@@ -3726,7 +3921,10 @@
     "C. Chivu": "سي كيفو",
     "S. Hoeneb": "إس هونس",
     "Milan": "ميلان",
-    "F. Letexier": "فانسين ليتيصييه"
+    "F. Letexier": "فانسين ليتيصييه",
+    "Petar Sučić": "بيطار سوتشيتش",
+    "Lautaro Martínez": "لاوتارو مارتينيز",
+    "Federico Dimarco": "فيديريكو ديماركو"
    },
    "published": "2026-11-24T07:47:51+03:00",
    "official": true,
@@ -3794,7 +3992,58 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/inter-vs-vfb-stuttgart-preview-lineup-db31f9-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 0,
+    "goals": [
+     {
+      "min": "57",
+      "player": "بيطار سوتشيتش",
+      "assist": "",
+      "kind": "ركلة جزاء",
+      "side": "home",
+      "gh": 1,
+      "ga": 0,
+      "team": "إنتر ميلان"
+     },
+     {
+      "min": "74",
+      "player": "لاوتارو مارتينيز",
+      "assist": "فيديريكو ديماركو",
+      "kind": "",
+      "side": "home",
+      "gh": 2,
+      "ga": 0,
+      "team": "إنتر ميلان"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "51%",
+      "49%"
+     ],
+     "التسديدات": [
+      20,
+      13
+     ],
+     "على المرمى": [
+      5,
+      2
+     ],
+     "الركنيات": [
+      11,
+      6
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "2.77",
+      "1.08"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "إنتر ميلان 2-0 شتوتغارت ⚽\nدوري أبطال أوروبا\nالأهداف: بيطار سوتشيتش، لاوتارو مارتينيز\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#إنتر_ميلان #شتوتغارت #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/inter-vs-vfb-stuttgart-preview-lineup-eba26c-result-tiktok.mp4"
   },
   {
    "fid": 1635682,
@@ -3835,7 +4084,12 @@
     "Davide Ancelotti": "دافيدي أنشيلوتي",
     "V. Kompany": "فينسنت كومباني",
     "Stade Pierre-Mauroy": "ملعب بيير موروا",
-    "M. Guida": "ماركو غويدا"
+    "M. Guida": "ماركو غويدا",
+    "Dayot Upamecano": "دايوت أوباميكانو",
+    "Tom Bischof": "توم بيشوف",
+    "Ayase Ueda": "أياسي أويدا",
+    "Nathan Ngoy": "ناثان نغوي",
+    "Aleksandar Pavlović": "ألكسندر بافلوفيتش"
    },
    "published": "2026-11-24T07:48:02+03:00",
    "official": true,
@@ -3903,7 +4157,68 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/lille-vs-bayern-nchen-preview-lineup-60ed72-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 1,
+    "goals": [
+     {
+      "min": "15",
+      "player": "دايوت أوباميكانو",
+      "assist": "توم بيشوف",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 1,
+      "team": "بايرن ميونخ"
+     },
+     {
+      "min": "62",
+      "player": "أياسي أويدا",
+      "assist": "ناثان نغوي",
+      "kind": "",
+      "side": "home",
+      "gh": 1,
+      "ga": 1,
+      "team": "ليل"
+     },
+     {
+      "min": "65",
+      "player": "ألكسندر بافلوفيتش",
+      "assist": "",
+      "kind": "هدف عكسي",
+      "side": "home",
+      "gh": 2,
+      "ga": 1,
+      "team": "ليل"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "35%",
+      "65%"
+     ],
+     "التسديدات": [
+      15,
+      12
+     ],
+     "على المرمى": [
+      3,
+      7
+     ],
+     "الركنيات": [
+      3,
+      4
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "2.15",
+      "1.19"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "ليل 2-1 بايرن ميونخ ⚽\nدوري أبطال أوروبا\nالأهداف: دايوت أوباميكانو، أياسي أويدا\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#ليل #بايرن_ميونخ #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/lille-vs-bayern-nchen-preview-lineup-87f24f-result-tiktok.mp4"
   },
   {
    "fid": 1635735,
@@ -3947,7 +4262,9 @@
     "Paulo Fonseca": "باولو فونسيكا",
     "M. Pochettino": "ماوريسيو بوكيتينو",
     "Lisbon": "لشبونة",
-    "S. Marciniak": "سيمون مارتشينياك"
+    "S. Marciniak": "سيمون مارتشينياك",
+    "Luis Suárez": "لويس سواريز",
+    "Amad Diallo": "آماد ديالو"
    },
    "published": "2026-11-24T08:17:34+03:00",
    "official": true,
@@ -4015,7 +4332,78 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/sporting-cp-vs-manchester-united-fa28d1-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 2,
+    "ga": 2,
+    "goals": [
+     {
+      "min": "33",
+      "player": "لويس سواريز",
+      "assist": "",
+      "kind": "ركلة جزاء",
+      "side": "home",
+      "gh": 1,
+      "ga": 0,
+      "team": "سبورتنج لشبونة"
+     },
+     {
+      "min": "48",
+      "player": "برونو فيرنانديز",
+      "assist": "",
+      "kind": "ركلة جزاء",
+      "side": "away",
+      "gh": 1,
+      "ga": 1,
+      "team": "مانشستر يونايتد"
+     },
+     {
+      "min": "50",
+      "player": "برونو فيرنانديز",
+      "assist": "آماد ديالو",
+      "kind": "",
+      "side": "away",
+      "gh": 1,
+      "ga": 2,
+      "team": "مانشستر يونايتد"
+     },
+     {
+      "min": "80",
+      "player": "لويس سواريز",
+      "assist": "",
+      "kind": "",
+      "side": "home",
+      "gh": 2,
+      "ga": 2,
+      "team": "سبورتنج لشبونة"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "51%",
+      "49%"
+     ],
+     "التسديدات": [
+      11,
+      7
+     ],
+     "على المرمى": [
+      4,
+      2
+     ],
+     "الركنيات": [
+      3,
+      2
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "2.5",
+      "1.09"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "سبورتنج لشبونة 2-2 مانشستر يونايتد ⚽\nدوري أبطال أوروبا\nالأهداف: لويس سواريز، برونو فيرنانديز\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#سبورتنج_لشبونة #مانشستر_يونايتد #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/sporting-cp-vs-manchester-united-d07411-result-tiktok.mp4"
   },
   {
    "fid": 1635724,
@@ -4052,7 +4440,8 @@
     "Emre Belozoglu": "إمري بيلوز أوغلو",
     "Stamford Bridge": "ستامفورد بريدج",
     "London": "لندن",
-    "M. Oliver": "مايكل أوليفير"
+    "M. Oliver": "مايكل أوليفير",
+    "Vedat Muriqi": "فيدات موريكي"
    },
    "published": "2026-11-24T08:17:47+03:00",
    "official": true,
@@ -4120,7 +4509,48 @@
     "xi_title": "التشكيلة الرسمية"
    },
    "video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/shakhtar-donetsk-vs-fenerbah-preview-9da84d-tiktok.mp4",
-   "video_official": true
+   "video_official": true,
+   "result": {
+    "gh": 0,
+    "ga": 1,
+    "goals": [
+     {
+      "min": "56",
+      "player": "فيدات موريكي",
+      "assist": "",
+      "kind": "",
+      "side": "away",
+      "gh": 0,
+      "ga": 1,
+      "team": "فنربخشة"
+     }
+    ],
+    "stats": {
+     "الاستحواذ": [
+      "54%",
+      "46%"
+     ],
+     "التسديدات": [
+      8,
+      13
+     ],
+     "على المرمى": [
+      2,
+      5
+     ],
+     "الركنيات": [
+      3,
+      5
+     ],
+     "الأهداف المتوقعة (xG)": [
+      "0.58",
+      "1.75"
+     ]
+    },
+    "pens": ""
+   },
+   "result_caption": "شاختار دونيتسك 0-1 فنربخشة ⚽\nدوري أبطال أوروبا\nالأهداف: فيدات موريكي\nوش رأيك في النتيجة؟ 👇\nالتقرير الكامل على موقع عالم المستديرة - ابحث في قوقل: عالم المستديرة أو fottballcia.com\n#شاختار_دونيتسك #فنربخشة #دوري_أبطال_أوروبا #كرة_القدم #عالم_المستديرة #اكسبلور",
+   "result_video": "https://nawaf737991-coder.github.io/fottballcia/img/2026/11/shakhtar-donetsk-vs-fenerbah-preview-53c798-result-tiktok.mp4"
   },
   {
    "fid": 1603084,
