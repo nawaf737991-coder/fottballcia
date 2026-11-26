@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T17:50:35+03:00",
- "ts": 1795704635,
+ "updated": "2026-11-26T18:00:16+03:00",
+ "ts": 1795705216,
  "matches": [
   {
    "id": 1526253,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-26T14:20:00+00:00",
    "ev": [
     {
@@ -34,6 +34,157 @@
    ]
   },
   {
+   "id": 1602568,
+   "league": "Romania - Liga II",
+   "home": "Gloria Bistriţa",
+   "away": "Slatina",
+   "hl": "https://media.api-sports.io/football/teams/22824.png",
+   "al": "https://media.api-sports.io/football/teams/6898.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 16,
+   "time": "2026-11-26T14:45:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mihaiu"
+    },
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1603084,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Al-Fateh",
+   "away": "Al Riyadh",
+   "hl": "https://media.api-sports.io/football/teams/2931.png",
+   "al": "https://media.api-sports.io/football/teams/10511.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 34,
+   "time": "2026-11-26T14:25:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kennedy Boateng"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Awad Dahal"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Montadhar Al Shqaq"
+    }
+   ]
+  },
+  {
+   "id": 1606565,
+   "league": "Qatar - Second Division",
+   "home": "Muaither SC",
+   "away": "Al Waab",
+   "hl": "https://media.api-sports.io/football/teams/2902.png",
+   "al": "https://media.api-sports.io/football/teams/7577.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "1H",
+   "minute": 44,
+   "time": "2026-11-26T14:15:00+00:00",
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1630652,
+   "league": "Zambia - Super League",
+   "home": "Chirundu Utd",
+   "away": "ZESCO United",
+   "hl": "https://media.api-sports.io/football/teams/28278.png",
+   "al": "https://media.api-sports.io/football/teams/5214.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630653,
+   "league": "Zambia - Super League",
+   "home": "Makeni All Stars",
+   "away": "Power Dynamos",
+   "hl": "https://media.api-sports.io/football/teams/28279.png",
+   "al": "https://media.api-sports.io/football/teams/5211.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 87,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630654,
+   "league": "Zambia - Super League",
+   "home": "Mutondo Stars",
+   "away": "Green Eagles",
+   "hl": "https://media.api-sports.io/football/teams/21875.png",
+   "al": "https://media.api-sports.io/football/teams/5200.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1546196,
    "league": "World - World Cup - U17",
    "home": "Jamaica U17",
@@ -41,8 +192,8 @@
    "hl": "https://media.api-sports.io/football/teams/20998.png",
    "al": "https://media.api-sports.io/football/teams/25818.png",
    "gh": 0,
-   "ga": 2,
-   "status": "1H",
+   "ga": 3,
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
@@ -93,6 +244,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Drebo Koudougnon Christ"
+    },
+    {
+     "m": 45,
+     "x": 6,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Drebo Koudougnon Christ"
     }
    ]
   },
@@ -105,7 +264,7 @@
    "al": "https://media.api-sports.io/football/teams/12510.png",
    "gh": 0,
    "ga": 3,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
@@ -164,297 +323,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "thomas corigliano"
-    }
-   ]
-  },
-  {
-   "id": 1602568,
-   "league": "Romania - Liga II",
-   "home": "Gloria Bistriţa",
-   "away": "Slatina",
-   "hl": "https://media.api-sports.io/football/teams/22824.png",
-   "al": "https://media.api-sports.io/football/teams/6898.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 6,
-   "time": "2026-11-26T14:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1603084,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Al-Fateh",
-   "away": "Al Riyadh",
-   "hl": "https://media.api-sports.io/football/teams/2931.png",
-   "al": "https://media.api-sports.io/football/teams/10511.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 24,
-   "time": "2026-11-26T14:25:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kennedy Boateng"
-    }
-   ]
-  },
-  {
-   "id": 1606565,
-   "league": "Qatar - Second Division",
-   "home": "Muaither SC",
-   "away": "Al Waab",
-   "hl": "https://media.api-sports.io/football/teams/2902.png",
-   "al": "https://media.api-sports.io/football/teams/7577.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 34,
-   "time": "2026-11-26T14:15:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1546206,
-   "league": "World - World Cup - U17",
-   "home": "Vietnam U17",
-   "away": "Mali U17",
-   "hl": "https://media.api-sports.io/football/teams/21447.png",
-   "al": "https://media.api-sports.io/football/teams/21298.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nguyen Khac Minh Duc"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sanaba Keita"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Djigui Koita"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Aboubacar Keita"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dao Quy Vuong"
-    }
-   ]
-  },
-  {
-   "id": 1630652,
-   "league": "Zambia - Super League",
-   "home": "Chirundu Utd",
-   "away": "ZESCO United",
-   "hl": "https://media.api-sports.io/football/teams/28278.png",
-   "al": "https://media.api-sports.io/football/teams/5214.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630653,
-   "league": "Zambia - Super League",
-   "home": "Makeni All Stars",
-   "away": "Power Dynamos",
-   "hl": "https://media.api-sports.io/football/teams/28279.png",
-   "al": "https://media.api-sports.io/football/teams/5211.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 78,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630654,
-   "league": "Zambia - Super League",
-   "home": "Mutondo Stars",
-   "away": "Green Eagles",
-   "hl": "https://media.api-sports.io/football/teams/21875.png",
-   "al": "https://media.api-sports.io/football/teams/5200.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635338,
-   "league": "Uganda - Premier League",
-   "home": "KCCA",
-   "away": "BUL",
-   "hl": "https://media.api-sports.io/football/teams/6422.png",
-   "al": "https://media.api-sports.io/football/teams/12449.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1649593,
-   "league": "Iran - Persian Gulf Pro League",
-   "home": "Chadormalu SC",
-   "away": "Mes Shahr-e Babak",
-   "hl": "https://media.api-sports.io/football/teams/20299.png",
-   "al": "https://media.api-sports.io/football/teams/10388.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:45:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Ghojoghi"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Renny"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Anafjeh"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Jafari"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "A. Anafjeh"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Alborno"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Lashak"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Gholami"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ghezel"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     }
    ]
   },
