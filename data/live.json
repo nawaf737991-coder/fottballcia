@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T00:10:27+03:00",
- "ts": 1795727427,
+ "updated": "2026-11-27T00:20:27+03:00",
+ "ts": 1795728027,
  "matches": [
   {
    "id": 1610594,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-26T21:00:00+00:00",
    "ev": [
     {
@@ -33,9 +33,9 @@
    "hl": "https://media.api-sports.io/football/teams/1354.png",
    "al": "https://media.api-sports.io/football/teams/37.png",
    "gh": 1,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -77,6 +77,14 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Isaac Hutchinson"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ilias Bronkhorst"
     }
    ]
   },
@@ -90,7 +98,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 63,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -113,7 +121,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -136,7 +144,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 60,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -154,6 +162,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Oumar Diakité"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Albert Vallci"
     }
    ]
   },
@@ -167,7 +183,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -222,7 +238,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -240,6 +256,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gustav Kjolstad Nyheim"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Steeve Kango"
     }
    ]
   },
@@ -253,7 +277,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -287,6 +311,22 @@
      "t": "Var",
      "d": "Goal confirmed",
      "p": "Esteban Lepaul"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adrien Thomasson"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abdelhamid Aït Boudlal"
     }
    ]
   },
@@ -297,10 +337,10 @@
    "away": "Anderlecht",
    "hl": "https://media.api-sports.io/football/teams/1124.png",
    "al": "https://media.api-sports.io/football/teams/554.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 62,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -332,8 +372,16 @@
      "x": null,
      "s": "h",
      "t": "Var",
-     "d": "",
+     "d": "Penalty confirmed",
      "p": "Dimitris Nikolaou"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Taxiarchis Fountas"
     }
    ]
   },
@@ -347,7 +395,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -381,6 +429,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Peer Koopmeiners"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Peer Koopmeiners"
     }
    ]
   },
@@ -392,9 +448,9 @@
    "hl": "https://media.api-sports.io/football/teams/746.png",
    "al": "https://media.api-sports.io/football/teams/336.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -412,6 +468,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Timur Tutierov"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kamil Jóźwiak"
     }
    ]
   },
@@ -425,7 +489,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 57,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -472,7 +536,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -535,7 +599,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -561,6 +625,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Samuel Pasanen"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Valentin Gasc"
     }
    ]
   },
@@ -574,7 +646,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -600,6 +672,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Noah Saviolo"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bruno Jordão"
     }
    ]
   },
@@ -611,9 +691,9 @@
    "hl": "https://media.api-sports.io/football/teams/160.png",
    "al": "https://media.api-sports.io/football/teams/415.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -644,7 +724,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -689,9 +769,9 @@
    "hl": "https://media.api-sports.io/football/teams/608.png",
    "al": "https://media.api-sports.io/football/teams/735.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 49,
+   "minute": 58,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -717,6 +797,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Samed Baždar"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Shion Shinkawa"
     }
    ]
   },
@@ -727,10 +815,10 @@
    "away": "FC Copenhagen",
    "hl": "https://media.api-sports.io/football/teams/3342.png",
    "al": "https://media.api-sports.io/football/teams/400.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 63,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -748,6 +836,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Thomas Delaney"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Thomas Delaney"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Anwar Hernandez"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Akos Markgraf"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Faysal Chouaib Hassany"
     }
    ]
   },
@@ -758,10 +878,10 @@
    "away": "Panathinaikos",
    "hl": "https://media.api-sports.io/football/teams/398.png",
    "al": "https://media.api-sports.io/football/teams/617.png",
-   "gh": 0,
-   "ga": 1,
+   "gh": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -779,6 +899,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Adriano Jagusic"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Elmin Rastoder"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alexander Lind"
     }
    ]
   },
@@ -790,9 +926,9 @@
    "hl": "https://media.api-sports.io/football/teams/18702.png",
    "al": "https://media.api-sports.io/football/teams/18681.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T19:30:00+00:00",
    "ev": [
     {
@@ -825,6 +961,14 @@
      "s": "h",
      "t": "Card",
      "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
