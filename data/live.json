@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T12:40:27+03:00",
- "ts": 1795686027,
+ "updated": "2026-11-26T12:50:10+03:00",
+ "ts": 1795686610,
  "matches": [
   {
    "id": 1507259,
@@ -10,11 +10,20 @@
    "hl": "https://media.api-sports.io/football/teams/10015.png",
    "al": "https://media.api-sports.io/football/teams/10016.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T09:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Chumburidze"
+    }
+   ]
   },
   {
    "id": 1507260,
@@ -24,9 +33,9 @@
    "hl": "https://media.api-sports.io/football/teams/14860.png",
    "al": "https://media.api-sports.io/football/teams/581.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -35,7 +44,31 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "D. Zurabiani"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Kalandadze"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Chikovani"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Gvasalia"
     }
    ]
   },
@@ -49,22 +82,8 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-26T09:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1527769,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Parvoz",
-   "away": "CSKA Pomir",
-   "hl": "https://media.api-sports.io/football/teams/12271.png",
-   "al": "https://media.api-sports.io/football/teams/12261.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T09:00:00+00:00",
    "ev": []
   },
   {
@@ -77,7 +96,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-26T09:00:00+00:00",
    "ev": [
     {
@@ -97,10 +116,10 @@
    "away": "Persita",
    "hl": "https://media.api-sports.io/football/teams/2442.png",
    "al": "https://media.api-sports.io/football/teams/4244.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -125,7 +144,23 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "D. Sonriza"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Jardel"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Mendonca"
     }
    ]
   },
@@ -139,7 +174,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -170,7 +205,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -193,7 +228,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 61,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -216,7 +251,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 62,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -237,9 +272,9 @@
    "hl": "https://media.api-sports.io/football/teams/15803.png",
    "al": "https://media.api-sports.io/football/teams/28710.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -249,8 +284,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Rifki"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
+  },
+  {
+   "id": 1527769,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Parvoz",
+   "away": "CSKA Pomir",
+   "hl": "https://media.api-sports.io/football/teams/12271.png",
+   "al": "https://media.api-sports.io/football/teams/12261.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1651254,
