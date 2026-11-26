@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "updated": "2026-11-26T03:10:27+03:00",
+ "updated": "2026-11-26T03:40:20+03:00",
  "matches": [
   {
    "id": 1632068,
@@ -109,8 +109,8 @@
    "al": "https://media.api-sports.io/football/teams/25382.png",
    "gh": 1,
    "ga": 1,
-   "status": "P",
-   "minute": null,
+   "status": "PEN",
+   "minute": 120,
    "time": "2026-11-26T01:00:00+03:00",
    "ev": []
   },
@@ -137,8 +137,8 @@
    "al": "https://media.api-sports.io/football/teams/2810.png",
    "gh": 3,
    "ga": 1,
-   "status": "2H",
-   "minute": 81,
+   "status": "FT",
+   "minute": 90,
    "time": "2026-11-26T01:30:00+03:00",
    "ev": []
   },
@@ -150,9 +150,9 @@
    "hl": "https://media.api-sports.io/football/teams/1062.png",
    "al": "https://media.api-sports.io/football/teams/131.png",
    "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "ga": 1,
+   "status": "2H",
+   "minute": 73,
    "time": "2026-11-26T02:00:00+03:00",
    "ev": []
   },
@@ -166,7 +166,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 79,
    "time": "2026-11-26T02:00:00+03:00",
    "ev": []
   },
@@ -179,8 +179,8 @@
    "al": "https://media.api-sports.io/football/teams/1136.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 59,
    "time": "2026-11-26T02:20:00+03:00",
    "ev": []
   },
@@ -205,10 +205,10 @@
    "away": "Independ. Rivadavia",
    "hl": "https://media.api-sports.io/football/teams/451.png",
    "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 39,
    "time": "2026-11-26T03:00:00+03:00",
    "ev": []
   },

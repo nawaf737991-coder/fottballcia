@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T03:30:15+03:00",
- "ts": 1795653015,
+ "updated": "2026-11-26T03:40:20+03:00",
+ "ts": 1795653620,
  "matches": [
   {
    "id": 1649565,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Leandro Paredes"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Arce"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leandro Lozano"
     }
    ]
   },
@@ -41,9 +57,9 @@
    "hl": "https://media.api-sports.io/football/teams/1062.png",
    "al": "https://media.api-sports.io/football/teams/131.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -53,6 +69,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ruan Tressoldi"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Thiago Borbas"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Thiago Borbas"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kaio César"
     }
    ]
   },
@@ -64,9 +104,9 @@
    "hl": "https://media.api-sports.io/football/teams/3708.png",
    "al": "https://media.api-sports.io/football/teams/3700.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -121,9 +161,25 @@
      "m": 68,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Var",
+     "d": "Goal Disallowed - Foul",
      "p": "C. Rodriguez"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Lima"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "G. Anasgo"
     }
    ]
   },
@@ -137,7 +193,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T23:20:00+00:00",
    "ev": [
     {
