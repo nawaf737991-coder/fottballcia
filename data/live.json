@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T22:30:29+03:00",
- "ts": 1795721429,
+ "updated": "2026-11-26T22:40:11+03:00",
+ "ts": 1795722011,
  "matches": [
   {
    "id": 1623288,
@@ -9,10 +9,10 @@
    "away": "Milan II",
    "hl": "https://media.api-sports.io/football/teams/11911.png",
    "al": "https://media.api-sports.io/football/teams/24205.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Osei"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Pinder"
     }
    ]
   },
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 39,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
@@ -58,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 10,
    "time": "2026-11-26T19:30:00+00:00",
    "ev": []
   },
@@ -72,7 +80,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-26T18:00:00+00:00",
    "ev": [
     {
@@ -122,6 +130,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Ampofo"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Tiedemann"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. A. Arnorsson"
     }
    ]
   },
@@ -132,10 +156,10 @@
    "away": "Hapoel Marmorek",
    "hl": "https://media.api-sports.io/football/teams/6163.png",
    "al": "https://media.api-sports.io/football/teams/4498.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -177,6 +201,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -190,7 +222,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -220,203 +252,6 @@
    ]
   },
   {
-   "id": 1636244,
-   "league": "World - UEFA Europa League",
-   "home": "Celta Vigo",
-   "away": "Bournemouth",
-   "hl": "https://media.api-sports.io/football/teams/538.png",
-   "al": "https://media.api-sports.io/football/teams/35.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Iago Aspas"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Bafode Diakite"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Bafode Diakite"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Álvaro Rodríguez"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Scott"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Álvaro Rodríguez"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Javier Rodríguez Galiano"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Javier Rueda García"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rayan Vitor Simplício Rocha"
-    }
-   ]
-  },
-  {
-   "id": 1636255,
-   "league": "World - UEFA Europa League",
-   "home": "Dinamo Zagreb",
-   "away": "Bayer Leverkusen",
-   "hl": "https://media.api-sports.io/football/teams/620.png",
-   "al": "https://media.api-sports.io/football/teams/168.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Malik Tillman"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jarell Quansah"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lukas Kacavenda"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luka Stojkovic"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kirill Kravtsov"
-    }
-   ]
-  },
-  {
-   "id": 1636298,
-   "league": "World - UEFA Europa League",
-   "home": "Marseille",
-   "away": "Levski Sofia",
-   "hl": "https://media.api-sports.io/football/teams/81.png",
-   "al": "https://media.api-sports.io/football/teams/646.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Aldair"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Amine Gouiri"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Amine Gouiri"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Álex Centelles"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Neal Maupay"
-    }
-   ]
-  },
-  {
    "id": 1636307,
    "league": "World - UEFA Europa League",
    "home": "Olympiakos Piraeus",
@@ -424,9 +259,9 @@
    "hl": "https://media.api-sports.io/football/teams/553.png",
    "al": "https://media.api-sports.io/football/teams/489.png",
    "gh": 2,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 87,
+   "minute": 90,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -508,227 +343,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Christian Pulisic"
-    }
-   ]
-  },
-  {
-   "id": 1636315,
-   "league": "World - UEFA Europa League",
-   "home": "Plzen",
-   "away": "Benfica",
-   "hl": "https://media.api-sports.io/football/teams/567.png",
-   "al": "https://media.api-sports.io/football/teams/211.png",
-   "gh": 4,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Patrik Hrošovský"
     },
     {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Prince Kwabena Adu"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Christopher Kabongo"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Christopher Kabongo"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adam Gabriel"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Andreas Schjelderup"
-    }
-   ]
-  },
-  {
-   "id": 1636329,
-   "league": "World - UEFA Europa League",
-   "home": "Union St. Gilloise",
-   "away": "Lech Poznan",
-   "hl": "https://media.api-sports.io/football/teams/1393.png",
-   "al": "https://media.api-sports.io/football/teams/347.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
+     "m": 90,
+     "x": 5,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Y. Agnero"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luis Palma"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Raul Florucz"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Raul Florucz"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ross Sykes"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Guilherme Smith"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Robert Gumny"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Raul Florucz"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kevin Rodriguez"
-    }
-   ]
-  },
-  {
-   "id": 1636334,
-   "league": "World - UEFA Europa League",
-   "home": "Red Bull Salzburg",
-   "away": "Ararat-Armenia",
-   "hl": "https://media.api-sports.io/football/teams/571.png",
-   "al": "https://media.api-sports.io/football/teams/3683.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Karen Muradyan"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Bartosz Mazurek"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gaoussou Diakité"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Bartosz Mazurek"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alexandros Malis"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Zhirayr Shaghoyan"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Zidane Banjaqui"
+     "p": "Diego Moreira"
     }
    ]
   },
@@ -739,10 +361,10 @@
    "away": "FC Thun",
    "hl": "https://media.api-sports.io/football/teams/194.png",
    "al": "https://media.api-sports.io/football/teams/1012.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 0,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -800,203 +422,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Fabio Fehr"
-    }
-   ]
-  },
-  {
-   "id": 1636393,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Brann",
-   "away": "Aarhus",
-   "hl": "https://media.api-sports.io/football/teams/319.png",
-   "al": "https://media.api-sports.io/football/teams/406.png",
-   "gh": 1,
-   "ga": 4,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tobias Bech Kristensen"
     },
     {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Leo Gretarsson"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Kristall Mani Ingason"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Niklas Castro"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Stefen Tchamche"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Magnus Knudsen"
-    }
-   ]
-  },
-  {
-   "id": 1636395,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Brighton",
-   "away": "Universitatea Craiova",
-   "hl": "https://media.api-sports.io/football/teams/51.png",
-   "al": "https://media.api-sports.io/football/teams/632.png",
-   "gh": 4,
-   "ga": 0,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 3,
+     "m": 89,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Ibrahim Osman"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Maxim De Cuyper"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Vladimir Screciu"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Vladimir Screciu"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yasin Ayari"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Charalampos Kostoulas"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ibrahim Osman"
-    }
-   ]
-  },
-  {
-   "id": 1636405,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Egnatia Rrogozhinë",
-   "away": "Lincoln Red Imps FC",
-   "hl": "https://media.api-sports.io/football/teams/3327.png",
-   "al": "https://media.api-sports.io/football/teams/667.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alessandro Albanese"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nano"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Altin Kryeziu"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Guillem Jaime"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Yussef Flalhi Idrissi"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Fernando Medeiros"
+     "p": "Steven Berghuis"
     }
    ]
   },
@@ -1010,7 +443,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -1092,140 +525,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jordi Altena"
-    }
-   ]
-  },
-  {
-   "id": 1636426,
-   "league": "World - UEFA Europa Conference League",
-   "home": "FC Iberia 1999",
-   "away": "Getafe",
-   "hl": "https://media.api-sports.io/football/teams/3502.png",
-   "al": "https://media.api-sports.io/football/teams/546.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
+    },
     {
-     "m": 22,
+     "m": 84,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Lucas Oliveira Brune"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "giorgi kobuladze"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ramón Terrats"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "David Cordón Mancha"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Orel Mangala"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Orel Mangala"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "giorgi kobuladze"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Andrés García"
-    }
-   ]
-  },
-  {
-   "id": 1636431,
-   "league": "World - UEFA Europa Conference League",
-   "home": "FK Jablonec",
-   "away": "FC Lugano",
-   "hl": "https://media.api-sports.io/football/teams/1122.png",
-   "al": "https://media.api-sports.io/football/teams/606.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nelson Okeke"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joel Bichsel"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Martin Cedidla"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jiri Slama"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lamin Jawo"
+     "p": "Pierre Landry Kabore"
     }
    ]
   },
@@ -1239,7 +546,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
     {
@@ -1301,69 +608,6 @@
    ]
   },
   {
-   "id": 1636460,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Pafos",
-   "away": "FC Midtjylland",
-   "hl": "https://media.api-sports.io/football/teams/3403.png",
-   "al": "https://media.api-sports.io/football/teams/397.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T17:45:00+00:00",
-   "ev": [
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ivan Šunjić"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "David Goldar"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mileta Rajovic"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Bravo"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mikael Uhre"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mikel Gogorza"
-    }
-   ]
-  },
-  {
    "id": 1526252,
    "league": "Kuwait - Emir Cup",
    "home": "Al Arabi",
@@ -1373,7 +617,7 @@
    "gh": 2,
    "ga": 2,
    "status": "ET",
-   "minute": 102,
+   "minute": 111,
    "time": "2026-11-26T17:20:00+00:00",
    "ev": [
     {
