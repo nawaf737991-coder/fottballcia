@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T18:30:23+03:00",
- "ts": 1795707023,
+ "updated": "2026-11-26T18:40:28+03:00",
+ "ts": 1795707628,
  "matches": [
   {
    "id": 1546186,
@@ -9,10 +9,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/21449.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -46,6 +46,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Wan Xiang"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Sialesi Vatanatawake"
     }
    ]
   },
@@ -59,7 +67,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -85,53 +93,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ebrima Tunkara"
-    }
-   ]
-  },
-  {
-   "id": 1602568,
-   "league": "Romania - Liga II",
-   "home": "Gloria Bistriţa",
-   "away": "Slatina",
-   "hl": "https://media.api-sports.io/football/teams/22824.png",
-   "al": "https://media.api-sports.io/football/teams/6898.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T14:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mihaiu"
     },
     {
-     "m": 7,
+     "m": 32,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "p": "Nassim Laarej"
     }
    ]
   },
@@ -145,7 +114,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": []
   },
@@ -159,8 +128,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-26T15:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1636435,
+   "league": "World - UEFA Europa Conference League",
+   "home": "Kairat Almaty",
+   "away": "Mjallby AIF",
+   "hl": "https://media.api-sports.io/football/teams/664.png",
+   "al": "https://media.api-sports.io/football/teams/2240.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T15:30:00+00:00",
    "ev": []
   },
   {
@@ -171,9 +154,9 @@
    "hl": "https://media.api-sports.io/football/teams/4530.png",
    "al": "https://media.api-sports.io/football/teams/4533.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -183,6 +166,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Y. Bakheet"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Harahsheh"
     }
    ]
   },
@@ -196,7 +187,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -210,7 +201,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T14:20:00+00:00",
    "ev": [
     {
@@ -241,7 +232,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -317,10 +308,10 @@
    "away": "Italy U17",
    "hl": "https://media.api-sports.io/football/teams/21446.png",
    "al": "https://media.api-sports.io/football/teams/12510.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -394,6 +385,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Riccardo Cassano"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sukhrob Sadirzhonov"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Khabibullokh Tokhirov"
     }
    ]
   },
@@ -407,7 +414,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -427,12 +434,20 @@
      "p": "Christopher Wooh"
     },
     {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ildar Akhmetzyanov"
+    },
+    {
      "m": 66,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Renat Golybin"
     }
    ]
   },
@@ -446,7 +461,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -463,6 +478,14 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "Daniil Plotnikov"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -477,7 +500,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-26T14:25:00+00:00",
    "ev": [
     {
@@ -511,6 +534,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Hussain Qasim"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ali Al-Hassan"
     }
    ]
   },
@@ -522,9 +553,9 @@
    "hl": "https://media.api-sports.io/football/teams/2902.png",
    "al": "https://media.api-sports.io/football/teams/7577.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T14:15:00+00:00",
    "ev": [
     {
@@ -557,6 +588,61 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1602568,
+   "league": "Romania - Liga II",
+   "home": "Gloria Bistriţa",
+   "away": "Slatina",
+   "hl": "https://media.api-sports.io/football/teams/22824.png",
+   "al": "https://media.api-sports.io/football/teams/6898.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T14:45:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mihaiu"
+    },
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
