@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T14:20:28+03:00",
- "ts": 1795692028,
+ "updated": "2026-11-26T14:30:26+03:00",
+ "ts": 1795692626,
  "matches": [
   {
    "id": 1507263,
@@ -9,10 +9,10 @@
    "away": "Gori",
    "hl": "https://media.api-sports.io/football/teams/3511.png",
    "al": "https://media.api-sports.io/football/teams/14861.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -26,18 +26,26 @@
     {
      "m": 10,
      "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Gabitashvili"
+    },
+    {
+     "m": 10,
+     "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Penalty",
      "p": "G. Kurmashvili"
     },
     {
-     "m": 10,
+     "m": 23,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Gabitashvili"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Zhividze"
     }
    ]
   },
@@ -51,7 +59,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -65,267 +73,6 @@
    ]
   },
   {
-   "id": 1507259,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Aragvi Dusheti",
-   "away": "Merani Martvili",
-   "hl": "https://media.api-sports.io/football/teams/10015.png",
-   "al": "https://media.api-sports.io/football/teams/10016.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Chumburidze"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Esonkulov"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Molashvili"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Chkhaidze"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Esonkulov"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "T. Bregvadze"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Ugrekhelidze"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Esonkulov"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Bzekalava"
-    }
-   ]
-  },
-  {
-   "id": 1507260,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Gareji",
-   "away": "Samtredia",
-   "hl": "https://media.api-sports.io/football/teams/14860.png",
-   "al": "https://media.api-sports.io/football/teams/581.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Zurabiani"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Kalandadze"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Chikovani"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Gvasalia"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Jangidze"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Tsulaia"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Tolordava"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Mandzhgaladze"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Gvishiani"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "L. Tsulaia"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Tsulaia"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1507262,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Odishi 1919",
-   "away": "Shturmi",
-   "hl": "https://media.api-sports.io/football/teams/13856.png",
-   "al": "https://media.api-sports.io/football/teams/16516.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Z. Sikharulia"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Z. Sekhniashvili"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Koberidze"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Gabedava"
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Lebedev"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Gabisonia"
-    }
-   ]
-  },
-  {
    "id": 1630414,
    "league": "World - AFC Champions League Two",
    "home": "Gangwon FC",
@@ -335,7 +82,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -398,7 +145,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -424,6 +171,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ramadhan Saifullah Usman"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kaishu Yamazaki"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Raul Feher"
     }
    ]
   },
@@ -437,7 +200,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -522,9 +285,9 @@
    "hl": "https://media.api-sports.io/football/teams/4222.png",
    "al": "https://media.api-sports.io/football/teams/23309.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -542,6 +305,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Mukarov"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Abdumannonov"
     }
    ]
   },
@@ -554,8 +325,8 @@
    "al": "https://media.api-sports.io/football/teams/3808.png",
    "gh": 3,
    "ga": 3,
-   "status": "ET",
-   "minute": 118,
+   "status": "BT",
+   "minute": null,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
