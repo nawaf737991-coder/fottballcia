@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T04:30:16+03:00",
- "ts": 1795656616,
+ "updated": "2026-11-26T04:40:21+03:00",
+ "ts": 1795657221,
  "matches": [
   {
    "id": 1639789,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/1152.png",
    "al": "https://media.api-sports.io/football/teams/1153.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -42,6 +42,20 @@
    ]
   },
   {
+   "id": 1650516,
+   "league": "Colombia - Primera A",
+   "home": "Atletico Nacional",
+   "away": "Independiente Medellin",
+   "hl": "https://media.api-sports.io/football/teams/1137.png",
+   "al": "https://media.api-sports.io/football/teams/1128.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-26T01:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1651499,
    "league": "El-Salvador - Primera Division",
    "home": "Platense",
@@ -51,7 +65,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 37,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": []
   },
@@ -65,7 +79,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -96,7 +110,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 39,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": []
   },
@@ -110,7 +124,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 38,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -141,7 +155,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -191,6 +205,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Sheyko Darko Studer"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leonard Costa"
     }
    ]
   }
