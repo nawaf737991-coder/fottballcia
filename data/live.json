@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-26T15:40:15+03:00",
- "ts": 1795696815,
+ "updated": "2026-11-26T15:50:23+03:00",
+ "ts": 1795697423,
  "matches": [
-  {
-   "id": 1507261,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Kolkheti Poti",
-   "away": "Sioni",
-   "hl": "https://media.api-sports.io/football/teams/3507.png",
-   "al": "https://media.api-sports.io/football/teams/3503.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T12:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1594913,
    "league": "Egypt - Second League",
@@ -26,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -49,6 +35,20 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
+   "minute": 18,
+   "time": "2026-11-26T12:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1594915,
+   "league": "Egypt - Second League",
+   "home": "Dayrout",
+   "away": "El Dakhleya",
+   "hl": "https://media.api-sports.io/football/teams/18022.png",
+   "al": "https://media.api-sports.io/football/teams/1032.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
    "minute": 8,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
@@ -63,9 +63,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-26T12:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1595151,
@@ -77,32 +86,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 11,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1602753,
-   "league": "Thailand - Thai League 2",
-   "home": "Nong Bua Pitchaya",
-   "away": "Muang Loei United",
-   "hl": "https://media.api-sports.io/football/teams/2796.png",
-   "al": "https://media.api-sports.io/football/teams/6573.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 1,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Lee"
-    }
-   ]
   },
   {
    "id": 1629137,
@@ -114,32 +100,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1629138,
-   "league": "Kenya - FKF Premier League",
-   "home": "Murang'a SEAL",
-   "away": "KCB",
-   "hl": "https://media.api-sports.io/football/teams/19486.png",
-   "al": "https://media.api-sports.io/football/teams/2476.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-26T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mambote"
-    }
-   ]
   },
   {
    "id": 1630417,
@@ -151,7 +114,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": [
     {
@@ -174,7 +137,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": []
   },
@@ -188,7 +151,7 @@
    "gh": 0,
    "ga": 3,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": [
     {
@@ -218,35 +181,18 @@
    ]
   },
   {
-   "id": 1650710,
-   "league": "Indonesia - Liga Nusantara",
-   "home": "Persika Karanganyar",
-   "away": "Persipa Pati",
-   "hl": "https://media.api-sports.io/football/teams/28715.png",
-   "al": "https://media.api-sports.io/football/teams/20076.png",
-   "gh": 2,
+   "id": 1649593,
+   "league": "Iran - Persian Gulf Pro League",
+   "home": "Chadormalu SC",
+   "away": "Mes Shahr-e Babak",
+   "hl": "https://media.api-sports.io/football/teams/20299.png",
+   "al": "https://media.api-sports.io/football/teams/10388.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T12:00:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Aslam"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-26T12:45:00+00:00",
+   "ev": []
   },
   {
    "id": 1507263,
@@ -258,7 +204,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 80,
+   "minute": 89,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -300,6 +246,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "E. Tabatadze"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Akhalkatsi"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -313,7 +275,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -331,6 +293,122 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Chandaeng"
+    }
+   ]
+  },
+  {
+   "id": 1507261,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Kolkheti Poti",
+   "away": "Sioni",
+   "hl": "https://media.api-sports.io/football/teams/3507.png",
+   "al": "https://media.api-sports.io/football/teams/3503.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Dvalishvili"
+    }
+   ]
+  },
+  {
+   "id": 1602753,
+   "league": "Thailand - Thai League 2",
+   "home": "Nong Bua Pitchaya",
+   "away": "Muang Loei United",
+   "hl": "https://media.api-sports.io/football/teams/2796.png",
+   "al": "https://media.api-sports.io/football/teams/6573.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Lee"
+    }
+   ]
+  },
+  {
+   "id": 1629138,
+   "league": "Kenya - FKF Premier League",
+   "home": "Murang'a SEAL",
+   "away": "KCB",
+   "hl": "https://media.api-sports.io/football/teams/19486.png",
+   "al": "https://media.api-sports.io/football/teams/2476.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mambote"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1650710,
+   "league": "Indonesia - Liga Nusantara",
+   "home": "Persika Karanganyar",
+   "away": "Persipa Pati",
+   "hl": "https://media.api-sports.io/football/teams/28715.png",
+   "al": "https://media.api-sports.io/football/teams/20076.png",
+   "gh": 3,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Aslam"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Yanto"
     }
    ]
   }
