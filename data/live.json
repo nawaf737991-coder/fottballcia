@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T18:20:20+03:00",
- "ts": 1795706420,
+ "updated": "2026-11-26T18:30:23+03:00",
+ "ts": 1795707023,
  "matches": [
   {
    "id": 1546186,
@@ -9,10 +9,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/21449.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,22 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Wan Xiang"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kuang Zhaolei"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wan Xiang"
     }
    ]
   },
@@ -43,7 +59,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -82,7 +98,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-26T14:45:00+00:00",
    "ev": [
     {
@@ -108,6 +124,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -121,7 +145,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": []
   },
@@ -135,7 +159,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -147,11 +171,20 @@
    "hl": "https://media.api-sports.io/football/teams/4530.png",
    "al": "https://media.api-sports.io/football/teams/4533.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T15:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Bakheet"
+    }
+   ]
   },
   {
    "id": 1645705,
@@ -163,9 +196,40 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1526253,
+   "league": "Kuwait - Emir Cup",
+   "home": "Al Salmiyah",
+   "away": "Al Tadhamon",
+   "hl": "https://media.api-sports.io/football/teams/3538.png",
+   "al": "https://media.api-sports.io/football/teams/3539.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-26T14:20:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1546196,
@@ -177,7 +241,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -256,7 +320,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -322,6 +386,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Abubakir Rakhimov"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Riccardo Cassano"
     }
    ]
   },
@@ -332,10 +404,10 @@
    "away": "Spartak Moscow",
    "hl": "https://media.api-sports.io/football/teams/1080.png",
    "al": "https://media.api-sports.io/football/teams/558.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -353,6 +425,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Christopher Wooh"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -364,46 +444,23 @@
    "hl": "https://media.api-sports.io/football/teams/1084.png",
    "al": "https://media.api-sports.io/football/teams/1077.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
-     "m": 54,
+     "m": 53,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1526253,
-   "league": "Kuwait - Emir Cup",
-   "home": "Al Salmiyah",
-   "away": "Al Tadhamon",
-   "hl": "https://media.api-sports.io/football/teams/3538.png",
-   "al": "https://media.api-sports.io/football/teams/3539.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T14:20:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "Léo Cordeiro"
     },
     {
-     "m": 13,
+     "m": 63,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -419,8 +476,8 @@
    "al": "https://media.api-sports.io/football/teams/10511.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-26T14:25:00+00:00",
    "ev": [
     {
@@ -466,8 +523,8 @@
    "al": "https://media.api-sports.io/football/teams/7577.png",
    "gh": 2,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T14:15:00+00:00",
    "ev": [
     {
