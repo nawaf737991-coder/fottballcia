@@ -8,6 +8,9 @@ on:
       mode:
         description: "reports | news | all"
         default: "all"
+      force_urls:
+        description: "روابط أخبار محددة تُكتب كمسودات (مسافة بينها)"
+        default: ""
 
 permissions:
   contents: write
@@ -35,6 +38,7 @@ jobs:
       DAILY_NEWS: '2'
       DAILY_DRAFTS: '3'
       MAX_NEWS: '1'
+      FORCE_URLS: ${{ inputs.force_urls || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

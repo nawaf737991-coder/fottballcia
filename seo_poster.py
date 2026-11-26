@@ -642,6 +642,24 @@ def _collect(seen, recent):
             cands.append((sc, link, key, title, desc))
     cands.sort(key=lambda c: -c[0])
     return cands
+def _forced(urls):
+    """روابط يحددها المالك يدويًا: تُكتب كمسودات بغض النظر عن الحد اليومي"""
+    items = {}
+    for feed in sb.NEWS_FEEDS:
+        try:
+            req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                for item in ET.fromstring(r.read()).iter("item"):
+                    items[Q.norm_link((item.findtext("link") or "").strip())] = item
+        except Exception as e:
+            print("فشل الخلاصة", feed, e)
+    out = []
+    for u in urls:
+        it = items.get(Q.norm_link(u))
+        title = (it.findtext("title") if it is not None else "") or u
+        desc = re.sub(r"<[^>]+>", "", (it.findtext("description") if it is not None else "") or "").strip()
+        out.append((9, u, hashlib.md5(Q.norm_link(u).encode()).hexdigest(), title, desc))
+    return out
 def _news_loop(seen, st):
     made = 0
     dc = Q.day_counts(st)
@@ -649,16 +667,17 @@ def _news_loop(seen, st):
     cap_draft = int(os.environ.get("DAILY_DRAFTS", "3"))
     per_run = int(os.environ.get("MAX_NEWS", "1"))
     recent = st.setdefault("titles", [])
-    cands = _collect(seen, recent)
+    force = [u.strip() for u in os.environ.get("FORCE_URLS", "").split() if u.strip()]
+    cands = _forced(force) if force else _collect(seen, recent)
     print("أخبار مرشحة:", len(cands), flush=True)
     for sc, link, key, title, desc in cands:
-        if made >= per_run:
+        if made >= (len(force) if force else per_run):
             break
         # المسودات للأهم (درجة 3+ أو الأعلى) وتُنشر يدويًا؛ والباقي ينشر مباشرة
-        want_draft = dc["draft"] < cap_draft and (sc >= 3 or dc["pub"] >= cap_live)
-        if not want_draft and dc["pub"] >= cap_live:
+        want_draft = True if force else (dc["draft"] < cap_draft and (sc >= 3 or dc["pub"] >= cap_live))
+        if not force and not want_draft and dc["pub"] >= cap_live:
             break
-        if not want_draft and dc["pub"] >= Q.spread_allowed(cap_live):
+        if not force and not want_draft and dc["pub"] >= Q.spread_allowed(cap_live):
             break
         if True:
             try:
