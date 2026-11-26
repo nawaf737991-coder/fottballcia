@@ -40,6 +40,8 @@ else:
         j = json.load(urllib.request.urlopen(req, timeout=25))
     except Exception as e:
         die(f"التغريدة غير موجودة أو محذوفة أو محمية ({e})")
+    if "pic.twitter.com" not in (j.get("html") or "") and os.environ.get("ALLOW_LINK") != "1":
+        die("التغريدة بدون صورة أو فيديو داخل X (رابط فقط لموقع آخر)، فلن يظهر فيها مقطع. اختر تغريدة فيها الفيديو نفسه")
     au = (j.get("author_url") or "").rstrip("/").split("/")[-1]
     if au.lower() != handle.lower(): die("صاحب التغريدة لا يطابق الحساب في الرابط")
     if not any(x["u"] == url for x in lst):
