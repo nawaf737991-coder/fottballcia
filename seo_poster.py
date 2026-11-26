@@ -79,6 +79,7 @@ def slug_words(text, n=8):
     stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "at", "is", "with", "as", "by"}
     words = [w for w in words if w not in stop and (len(w) > 1 or w.isdigit())][:n]
     return " ".join(words) if len(words) >= 2 else ""
+_last = {}
 def publish(title, content, labels, slug="", draft=None):
     draft = DRAFT if draft is None else draft
     if DRY:
@@ -87,6 +88,7 @@ def publish(title, content, labels, slug="", draft=None):
         return
     first = slug if (slug and not draft) else title
     post = sb.publish(first, content, labels, draft=draft)
+    _last["post"] = post
     if first != title:
         # نرجع العنوان العربي فورًا ويبقى الرابط الإنجليزي
         for i in range(3):
@@ -547,6 +549,11 @@ def _reports_loop(st, cands, limit):
                 body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
             publish(title, body, ["تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar]), slug=slug)
             st["reports"].append(fid)
+            try:
+                st.setdefault("report_posts", {})[str(fid)] = _last["post"]["id"]
+                st["report_posts"] = dict(list(st["report_posts"].items())[-60:])
+            except Exception:
+                pass
             Q.day_counts(st)["rep"] += 1
             made += 1
         except Exception as e:

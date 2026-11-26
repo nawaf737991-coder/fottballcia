@@ -5,7 +5,8 @@
   var SITE = "https://www.fottballcia.com";
   var NAMES_URL = "https://nawaf737991-coder.github.io/fottballcia/data/names_cache.json";
   var TW_URL = "https://nawaf737991-coder.github.io/fottballcia/data/embed_tweets.json";
-  var tweets = [], lastKey = "";
+  var tweets = [], videos = [], lastKey = "";
+  var VID_URL = "https://nawaf737991-coder.github.io/fottballcia/data/embed_videos.json";
   var TW_RE = /^https:\/\/(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+$/;
   function twBlock(t) {
     return "<div class='mc-tw'><blockquote class='twitter-tweet' data-lang='ar' data-dnt='true'><a href='" + esc(t.u) + "'></a></blockquote></div>";
@@ -44,6 +45,7 @@
     ".mc-tabs button.on{background:#153a5b;color:#fff}" +
     ".mc-card{background:#fff;border:1px solid #e6ebf1;border-radius:14px;padding:12px 14px;margin:0 0 12px}" +
     ".mc-card h2{font-size:17px;margin:0 0 8px;color:#153a5b}" +
+    ".mc-yt{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;margin:6px 0;background:#000}.mc-yt iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}" +
     ".mc-tw{margin:8px auto;max-width:550px;min-height:60px}.mc-tw .twitter-tweet{margin:0 auto!important}" +
     ".mc-ev{display:grid;grid-template-columns:1fr 46px 1fr;gap:4px;align-items:center;padding:6px 0;border-bottom:1px dashed #e6ebf1;font-size:14px}" +
     ".mc-ev:last-child{border:0}.mc-ev .m{text-align:center;font-weight:800;color:#5b6b7c;font-size:13px}" +
@@ -139,6 +141,11 @@
         (d.venue ? "<div class='mc-mini'>الملعب: " + esc(d.venue) + (d.city ? " - " + esc(d.city) : "") + "</div>" : "") +
         (d.referee ? "<div class='mc-mini'>الحكم: " + esc(d.referee) + "</div>" : "") + "</div>";
     } else h += "<div class='mc-card'><div class='mc-note'>لا توجد أحداث مسجلة حتى الآن.</div></div>";
+    if (videos.length && (d.status === "FT" || d.status === "AET" || d.status === "PEN")) {
+      h += "<div class='mc-card'><h2>ملخص المباراة بالفيديو</h2>" + videos.map(function (v) {
+        return "<div class='mc-yt'><iframe src='https://www.youtube.com/embed/" + v.v + "' allowfullscreen loading='lazy' title='ملخص المباراة'></iframe></div><div class='mc-note'>المصدر: قناة " + esc(v.c) + " الرسمية على يوتيوب.</div>";
+      }).join("") + "</div>";
+    }
     var rest = tweets.filter(function (t) { return !t.used; });
     if (rest.length) h += "<div class='mc-card'><h2>مقاطع المباراة</h2>" + rest.map(twBlock).join("") + "<div class='mc-note'>مقاطع مضمّنة من حسابات رسمية على X.</div></div>";
     if (d.prediction && d.prediction.home) {
@@ -266,7 +273,8 @@
   if (!id) { root.innerHTML = "<div class='mc-err'>اختر مباراة من <a href='" + SITE + "/p/matches-today.html'>صفحة مباريات اليوم</a> لعرض تفاصيلها.</div>"; return; }
   root.innerHTML = "<div class='mc-err'>جاري تحميل تفاصيل المباراة...</div>";
   var J = function (u) { return fetch(u).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }); };
-  Promise.all([J(NAMES_URL), J("https://nawaf737991-coder.github.io/fottballcia/names_ar.json"), J(TW_URL + "?t=" + Math.floor(Date.now() / 60000))]).then(function (a) {
+  Promise.all([J(NAMES_URL), J("https://nawaf737991-coder.github.io/fottballcia/names_ar.json"), J(TW_URL + "?t=" + Math.floor(Date.now() / 60000)), J(VID_URL + "?t=" + Math.floor(Date.now() / 60000))]).then(function (a) {
+    var vd = ((a[3] || {}).matches || {})[id] || []; videos = vd.filter(function (v) { return /^[\w-]{11}$/.test(v.v || ""); }).slice(0, 2);
     var tw = a[2] || {}; tw = tw.matches || tw;
     tweets = ((tw[id] || []).map(function (x) { return typeof x === "string" ? {u: x} : x; })).filter(function (t) { return t && TW_RE.test(t.u || ""); }).slice(0, 12);
     var st2 = (a[1] && a[1].teams) || {}, ct = (a[1] && a[1].countries) || {};
