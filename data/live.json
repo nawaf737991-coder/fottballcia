@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T14:30:26+03:00",
- "ts": 1795692626,
+ "updated": "2026-11-26T14:40:16+03:00",
+ "ts": 1795693216,
  "matches": [
   {
    "id": 1507263,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 2,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -59,7 +59,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -82,7 +82,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -142,10 +142,10 @@
    "away": "Phnom Penh Crown",
    "hl": "https://media.api-sports.io/football/teams/10108.png",
    "al": "https://media.api-sports.io/football/teams/5394.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -187,6 +187,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Raul Feher"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jerome etame mpacko"
     }
    ]
   },
@@ -198,9 +206,9 @@
    "hl": "https://media.api-sports.io/football/teams/4206.png",
    "al": "https://media.api-sports.io/football/teams/833.png",
    "gh": 1,
-   "ga": 4,
+   "ga": 6,
    "status": "2H",
-   "minute": 71,
+   "minute": 80,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -274,8 +282,38 @@
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Wilson Manafá"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Rafael Ratão"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Xie Pengfei"
     }
    ]
+  },
+  {
+   "id": 1630470,
+   "league": "Azerbaijan - Birinci Dasta",
+   "home": "Baku Sportinq",
+   "away": "Şahdağ",
+   "hl": "https://media.api-sports.io/football/teams/22788.png",
+   "al": "https://media.api-sports.io/football/teams/5576.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-26T10:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1649632,
@@ -287,7 +325,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 76,
+   "minute": 85,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -315,83 +353,6 @@
      "p": "R. Abdumannonov"
     }
    ]
-  },
-  {
-   "id": 1651254,
-   "league": "Australia - Australian Championship",
-   "home": "South Melbourne",
-   "away": "Oakleigh Cannons",
-   "hl": "https://media.api-sports.io/football/teams/3811.png",
-   "al": "https://media.api-sports.io/football/teams/3808.png",
-   "gh": 3,
-   "ga": 3,
-   "status": "BT",
-   "minute": null,
-   "time": "2026-11-26T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 14,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1630470,
-   "league": "Azerbaijan - Birinci Dasta",
-   "home": "Baku Sportinq",
-   "away": "Şahdağ",
-   "hl": "https://media.api-sports.io/football/teams/22788.png",
-   "al": "https://media.api-sports.io/football/teams/5576.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T10:30:00+00:00",
-   "ev": []
   }
  ]
 }
