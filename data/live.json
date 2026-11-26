@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T19:20:24+03:00",
- "ts": 1795710024,
+ "updated": "2026-11-26T19:30:27+03:00",
+ "ts": 1795710627,
  "matches": [
   {
    "id": 1546189,
@@ -9,10 +9,10 @@
    "away": "Cuba U17",
    "hl": "https://media.api-sports.io/football/teams/17945.png",
    "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -21,6 +21,14 @@
      "s": "h",
      "t": "Goal",
      "d": "Penalty",
+     "p": "Toni Ruso"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": "Toni Ruso"
     }
    ]
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": []
   },
@@ -49,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -72,7 +80,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": []
   },
@@ -86,7 +94,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -106,10 +114,10 @@
    "away": "Kigezi HomeBoyz",
    "hl": "https://media.api-sports.io/football/teams/12459.png",
    "al": "https://media.api-sports.io/football/teams/28320.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -119,6 +127,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "G. Sekibengo"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Kisiriko"
     }
    ]
   },
@@ -129,10 +145,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/21449.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 5,
+   "gh": 6,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -182,6 +198,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kuang Zhaolei"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Zhang Junhao"
     }
    ]
   },
@@ -193,9 +217,9 @@
    "hl": "https://media.api-sports.io/football/teams/21302.png",
    "al": "https://media.api-sports.io/football/teams/12520.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -229,6 +253,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Nassim Laarej"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Guillermo Trujillano"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Guillermo Trujillano"
     }
    ]
   },
@@ -242,7 +282,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T14:45:00+00:00",
    "ev": [
     {
@@ -297,7 +337,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": [
     {
@@ -331,6 +371,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mamadou Thierno Barry"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abdulbaset Al-Hindi"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Mamadou Thierno Barry"
     }
    ]
   },
@@ -344,7 +400,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -358,7 +414,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -389,7 +445,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
