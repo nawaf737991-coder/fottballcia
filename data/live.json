@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T22:50:15+03:00",
- "ts": 1795722615,
+ "updated": "2026-11-26T23:00:17+03:00",
+ "ts": 1795723217,
  "matches": [
   {
    "id": 1651387,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T19:30:00+00:00",
    "ev": [
     {
@@ -26,105 +26,18 @@
    ]
   },
   {
-   "id": 1551383,
-   "league": "Denmark - 1. Division",
-   "home": "Aalborg",
-   "away": "Esbjerg",
-   "hl": "https://media.api-sports.io/football/teams/402.png",
-   "al": "https://media.api-sports.io/football/teams/403.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T18:00:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Strand"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Jasson"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Brajanac"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "M. Kubel"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ampofo"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Ampofo"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Tiedemann"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. A. Arnorsson"
-    }
-   ]
-  },
-  {
    "id": 1636231,
    "league": "World - UEFA Europa League",
    "home": "Beşiktaş",
    "away": "Hapoel Beer Sheva",
    "hl": "https://media.api-sports.io/football/teams/549.png",
    "al": "https://media.api-sports.io/football/teams/563.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T17:45:00+00:00",
    "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yonas Malede"
-    },
     {
      "m": 22,
      "x": null,
@@ -134,59 +47,52 @@
      "p": "Salih Özcan"
     },
     {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yonas Malede"
+    },
+    {
      "m": 45,
      "x": 4,
      "s": "h",
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Orkun Kökçü"
-    }
-   ]
-  },
-  {
-   "id": 1526252,
-   "league": "Kuwait - Emir Cup",
-   "home": "Al Arabi",
-   "away": "Khaitan",
-   "hl": "https://media.api-sports.io/football/teams/3532.png",
-   "al": "https://media.api-sports.io/football/teams/3545.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "ET",
-   "minute": 118,
-   "time": "2026-11-26T17:20:00+00:00",
-   "ev": [
+    },
     {
-     "m": 54,
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Forson Amankwah"
+    },
+    {
+     "m": 75,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Z. Qunbar"
+     "p": "Junior Olaitan"
     },
     {
-     "m": 63,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Mendy"
-    },
-    {
-     "m": 79,
+     "m": 76,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Al Doukhi"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Junior Olaitan"
     },
     {
-     "m": 89,
+     "m": 81,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Mahop"
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Dušan Vlahović"
     }
    ]
   },
@@ -257,6 +163,53 @@
      "t": "Goal",
      "d": "Own Goal",
      "p": "M. Campbell"
+    }
+   ]
+  },
+  {
+   "id": 1526252,
+   "league": "Kuwait - Emir Cup",
+   "home": "Al Arabi",
+   "away": "Khaitan",
+   "hl": "https://media.api-sports.io/football/teams/3532.png",
+   "al": "https://media.api-sports.io/football/teams/3545.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "P",
+   "minute": null,
+   "time": "2026-11-26T17:20:00+00:00",
+   "ev": [
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Z. Qunbar"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Mendy"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Al Doukhi"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Mahop"
     }
    ]
   }
