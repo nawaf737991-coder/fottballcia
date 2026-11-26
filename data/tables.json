@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:29:56+03:00",
+ "updated": "2026-11-26T03:00:26+03:00",
  "leagues": [
   {
    "id": 39,
@@ -2099,13 +2099,13 @@
      "r": 2,
      "t": "Paris Saint Germain",
      "l": "https://media.api-sports.io/football/teams/85.png",
-     "p": 4,
+     "p": 5,
      "w": 4,
-     "d": 0,
+     "d": 1,
      "ls": 0,
      "gd": 15,
-     "pts": 12,
-     "f": "WWWW",
+     "pts": 13,
+     "f": "DWWWW",
      "g": ""
     },
     {
@@ -2136,6 +2136,19 @@
     },
     {
      "r": 5,
+     "t": "Liverpool",
+     "l": "https://media.api-sports.io/football/teams/40.png",
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "ls": 1,
+     "gd": 7,
+     "pts": 12,
+     "f": "WLWWW",
+     "g": ""
+    },
+    {
+     "r": 6,
      "t": "Real Betis",
      "l": "https://media.api-sports.io/football/teams/543.png",
      "p": 5,
@@ -2148,7 +2161,7 @@
      "g": ""
     },
     {
-     "r": 6,
+     "r": 7,
      "t": "Arsenal",
      "l": "https://media.api-sports.io/football/teams/42.png",
      "p": 5,
@@ -2161,7 +2174,7 @@
      "g": ""
     },
     {
-     "r": 7,
+     "r": 8,
      "t": "Manchester City",
      "l": "https://media.api-sports.io/football/teams/50.png",
      "p": 5,
@@ -2174,7 +2187,20 @@
      "g": ""
     },
     {
-     "r": 8,
+     "r": 9,
+     "t": "Sporting CP",
+     "l": "https://media.api-sports.io/football/teams/228.png",
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "ls": 1,
+     "gd": 4,
+     "pts": 10,
+     "f": "DWLWW",
+     "g": ""
+    },
+    {
+     "r": 10,
      "t": "Borussia Dortmund",
      "l": "https://media.api-sports.io/football/teams/165.png",
      "p": 5,
@@ -2187,7 +2213,7 @@
      "g": ""
     },
     {
-     "r": 9,
+     "r": 11,
      "t": "Aston Villa",
      "l": "https://media.api-sports.io/football/teams/66.png",
      "p": 5,
@@ -2200,46 +2226,33 @@
      "g": ""
     },
     {
-     "r": 10,
-     "t": "Liverpool",
-     "l": "https://media.api-sports.io/football/teams/40.png",
-     "p": 4,
-     "w": 3,
-     "d": 0,
-     "ls": 1,
-     "gd": 4,
-     "pts": 9,
-     "f": "LWWW",
-     "g": ""
-    },
-    {
-     "r": 11,
-     "t": "Club Brugge KV",
-     "l": "https://media.api-sports.io/football/teams/569.png",
-     "p": 4,
-     "w": 3,
-     "d": 0,
-     "ls": 1,
-     "gd": 4,
-     "pts": 9,
-     "f": "WWWL",
-     "g": ""
-    },
-    {
      "r": 12,
-     "t": "Sporting CP",
-     "l": "https://media.api-sports.io/football/teams/228.png",
-     "p": 4,
+     "t": "Inter",
+     "l": "https://media.api-sports.io/football/teams/505.png",
+     "p": 5,
      "w": 3,
      "d": 0,
-     "ls": 1,
+     "ls": 2,
      "gd": 4,
      "pts": 9,
-     "f": "WLWW",
+     "f": "WWWLL",
      "g": ""
     },
     {
      "r": 13,
+     "t": "Club Brugge KV",
+     "l": "https://media.api-sports.io/football/teams/569.png",
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "ls": 2,
+     "gd": 1,
+     "pts": 9,
+     "f": "LWWWL",
+     "g": ""
+    },
+    {
+     "r": 14,
      "t": "Galatasaray",
      "l": "https://media.api-sports.io/football/teams/645.png",
      "p": 5,
@@ -2252,33 +2265,72 @@
      "g": ""
     },
     {
-     "r": 14,
+     "r": 15,
      "t": "Bayern München",
      "l": "https://media.api-sports.io/football/teams/157.png",
-     "p": 4,
+     "p": 5,
      "w": 2,
      "d": 2,
-     "ls": 0,
-     "gd": 7,
-     "pts": 8,
-     "f": "WDDW",
-     "g": ""
-    },
-    {
-     "r": 15,
-     "t": "VfB Stuttgart",
-     "l": "https://media.api-sports.io/football/teams/172.png",
-     "p": 4,
-     "w": 2,
-     "d": 1,
      "ls": 1,
-     "gd": 3,
-     "pts": 7,
-     "f": "LDWW",
+     "gd": 6,
+     "pts": 8,
+     "f": "LWDDW",
      "g": ""
     },
     {
      "r": 16,
+     "t": "Fenerbahçe",
+     "l": "https://media.api-sports.io/football/teams/611.png",
+     "p": 5,
+     "w": 2,
+     "d": 2,
+     "ls": 1,
+     "gd": -4,
+     "pts": 8,
+     "f": "WWDLD",
+     "g": ""
+    },
+    {
+     "r": 17,
+     "t": "VfB Stuttgart",
+     "l": "https://media.api-sports.io/football/teams/172.png",
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "ls": 2,
+     "gd": 1,
+     "pts": 7,
+     "f": "LLDWW",
+     "g": ""
+    },
+    {
+     "r": 18,
+     "t": "Atletico Madrid",
+     "l": "https://media.api-sports.io/football/teams/530.png",
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "ls": 2,
+     "gd": 1,
+     "pts": 7,
+     "f": "WLDWL",
+     "g": ""
+    },
+    {
+     "r": 19,
+     "t": "Manchester United",
+     "l": "https://media.api-sports.io/football/teams/33.png",
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "ls": 2,
+     "gd": 0,
+     "pts": 7,
+     "f": "DWLLW",
+     "g": ""
+    },
+    {
+     "r": 20,
      "t": "Bodo/Glimt",
      "l": "https://media.api-sports.io/football/teams/327.png",
      "p": 5,
@@ -2291,20 +2343,7 @@
      "g": ""
     },
     {
-     "r": 17,
-     "t": "Inter",
-     "l": "https://media.api-sports.io/football/teams/505.png",
-     "p": 4,
-     "w": 2,
-     "d": 0,
-     "ls": 2,
-     "gd": 2,
-     "pts": 6,
-     "f": "WWLL",
-     "g": ""
-    },
-    {
-     "r": 18,
+     "r": 21,
      "t": "Lask Linz",
      "l": "https://media.api-sports.io/football/teams/1026.png",
      "p": 5,
@@ -2317,20 +2356,7 @@
      "g": ""
     },
     {
-     "r": 19,
-     "t": "Manchester United",
-     "l": "https://media.api-sports.io/football/teams/33.png",
-     "p": 4,
-     "w": 2,
-     "d": 0,
-     "ls": 2,
-     "gd": 0,
-     "pts": 6,
-     "f": "WLLW",
-     "g": ""
-    },
-    {
-     "r": 20,
+     "r": 22,
      "t": "FC Porto",
      "l": "https://media.api-sports.io/football/teams/212.png",
      "p": 5,
@@ -2343,7 +2369,7 @@
      "g": ""
     },
     {
-     "r": 21,
+     "r": 23,
      "t": "RB Leipzig",
      "l": "https://media.api-sports.io/football/teams/173.png",
      "p": 5,
@@ -2356,7 +2382,7 @@
      "g": ""
     },
     {
-     "r": 22,
+     "r": 24,
      "t": "Villarreal",
      "l": "https://media.api-sports.io/football/teams/533.png",
      "p": 5,
@@ -2369,68 +2395,42 @@
      "g": ""
     },
     {
-     "r": 23,
-     "t": "Fenerbahçe",
-     "l": "https://media.api-sports.io/football/teams/611.png",
-     "p": 4,
-     "w": 1,
-     "d": 2,
-     "ls": 1,
-     "gd": -5,
-     "pts": 5,
-     "f": "WDLD",
-     "g": ""
-    },
-    {
-     "r": 24,
+     "r": 25,
      "t": "AS Roma",
      "l": "https://media.api-sports.io/football/teams/497.png",
-     "p": 4,
+     "p": 5,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "ls": 2,
      "gd": 2,
-     "pts": 4,
-     "f": "LWLD",
-     "g": ""
-    },
-    {
-     "r": 25,
-     "t": "Shakhtar Donetsk",
-     "l": "https://media.api-sports.io/football/teams/550.png",
-     "p": 4,
-     "w": 1,
-     "d": 1,
-     "ls": 2,
-     "gd": 0,
-     "pts": 4,
-     "f": "LLWD",
+     "pts": 5,
+     "f": "DLWLD",
      "g": ""
     },
     {
      "r": 26,
-     "t": "Viking",
-     "l": "https://media.api-sports.io/football/teams/759.png",
-     "p": 4,
+     "t": "Shakhtar Donetsk",
+     "l": "https://media.api-sports.io/football/teams/550.png",
+     "p": 5,
      "w": 1,
      "d": 1,
-     "ls": 2,
+     "ls": 3,
      "gd": -1,
      "pts": 4,
-     "f": "WLDL",
+     "f": "LLLWD",
      "g": ""
     },
     {
      "r": 27,
-     "t": "Atletico Madrid",
-     "l": "https://media.api-sports.io/football/teams/530.png",
-     "p": 4,
+     "t": "Viking",
+     "l": "https://media.api-sports.io/football/teams/759.png",
+     "p": 5,
      "w": 1,
      "d": 1,
-     "ls": 2,
-     "gd": -1,
+     "ls": 3,
+     "gd": -3,
      "pts": 4,
-     "f": "LDWL",
+     "f": "LWLDL",
      "g": ""
     },
     {
@@ -2448,6 +2448,19 @@
     },
     {
      "r": 29,
+     "t": "Lille",
+     "l": "https://media.api-sports.io/football/teams/79.png",
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "ls": 3,
+     "gd": -5,
+     "pts": 4,
+     "f": "WDLLL",
+     "g": ""
+    },
+    {
+     "r": 30,
      "t": "PSV Eindhoven",
      "l": "https://media.api-sports.io/football/teams/197.png",
      "p": 5,
@@ -2460,7 +2473,7 @@
      "g": ""
     },
     {
-     "r": 30,
+     "r": 31,
      "t": "AEK Athens FC",
      "l": "https://media.api-sports.io/football/teams/575.png",
      "p": 5,
@@ -2473,7 +2486,7 @@
      "g": ""
     },
     {
-     "r": 31,
+     "r": 32,
      "t": "Feyenoord",
      "l": "https://media.api-sports.io/football/teams/209.png",
      "p": 5,
@@ -2486,7 +2499,7 @@
      "g": ""
     },
     {
-     "r": 32,
+     "r": 33,
      "t": "Sabah FA",
      "l": "https://media.api-sports.io/football/teams/13976.png",
      "p": 5,
@@ -2499,7 +2512,7 @@
      "g": ""
     },
     {
-     "r": 33,
+     "r": 34,
      "t": "Lens",
      "l": "https://media.api-sports.io/football/teams/116.png",
      "p": 5,
@@ -2512,7 +2525,7 @@
      "g": ""
     },
     {
-     "r": 34,
+     "r": 35,
      "t": "Slavia Praha",
      "l": "https://media.api-sports.io/football/teams/560.png",
      "p": 5,
@@ -2522,19 +2535,6 @@
      "gd": -5,
      "pts": 1,
      "f": "LLDLL",
-     "g": ""
-    },
-    {
-     "r": 35,
-     "t": "Lille",
-     "l": "https://media.api-sports.io/football/teams/79.png",
-     "p": 4,
-     "w": 0,
-     "d": 1,
-     "ls": 3,
-     "gd": -6,
-     "pts": 1,
-     "f": "DLLL",
      "g": ""
     },
     {
