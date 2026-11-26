@@ -670,6 +670,7 @@ def _news_loop(seen, st):
     force = [u.strip() for u in os.environ.get("FORCE_URLS", "").split() if u.strip()]
     cands = _forced(force) if force else _collect(seen, recent)
     print("أخبار مرشحة:", len(cands), flush=True)
+    on_site = Q.site_titles(3)
     for sc, link, key, title, desc in cands:
         if made >= (len(force) if force else per_run):
             break
@@ -714,6 +715,11 @@ def _news_loop(seen, st):
                 data = Q.proofread(data)
                 esc = html.escape
                 ar_title = data["title"].strip()
+                if Q.dup_site(ar_title, on_site):
+                    seen.add(key)
+                    print("تخطي خبر منشور سابقًا في الموقع:", ar_title, flush=True)
+                    continue
+                on_site.append(ar_title)
                 body = f"<p>{esc(data.get('intro', ''))}</p>" if data.get("intro") else ""
                 for sec in data["sections"]:
                     if sec.get("heading"):

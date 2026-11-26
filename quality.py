@@ -143,3 +143,31 @@ def same_story(a, b):
 
 def is_dup(title, recent):
     return any(same_story(title, r) for r in recent)
+
+
+GENERIC_AR = set("""دوري أبطال أوروبا آسيا أفريقيا مباراة المباراة التعادل تعادل فوز يفوز يهزم أمام ضد على في من مع بعد قبل
+الدوري الممتاز الإنجليزي الإسباني الإيطالي الألماني الفرنسي السعودي للمحترفين اليوم والقنوات الناقلة والتشكيلة المتوقعة موعد
+نتيجة هدف هدفين بثلاثية برباعية بخماسية بهدف ثمينة نقطة الأبطال قمة يتعادل يتجاوز يكتسح سقوط فخ""".split())
+def _sig(t):
+    import re as _re
+    w = _re.findall(r"[\u0600-\u06ff]{3,}", t or "")
+    return {x for x in w if x not in GENERIC_AR}
+def dup_site(ar_title, site_titles):
+    """نفس الخبر منشور في الموقع؟ (3 كلمات مميزة مشتركة أو أكثر)"""
+    a = _sig(ar_title)
+    return any(len(a & _sig(t)) >= 3 for t in site_titles)
+def site_titles(days=3):
+    import json as _j, urllib.request as _u
+    from datetime import datetime as _d, timedelta as _t, timezone as _z
+    out = []
+    try:
+        for kind in ("default", "summary"):
+            pass
+        d = _j.load(_u.urlopen("https://www.fottballcia.com/feeds/posts/summary?alt=json&max-results=60", timeout=30))
+        lim = _d.now(_z.utc) - _t(days=days)
+        for e in d["feed"].get("entry", []):
+            if _d.fromisoformat(e["published"]["$t"]) >= lim:
+                out.append(e["title"]["$t"])
+    except Exception as ex:
+        print("تعذر قراءة عناوين الموقع", ex)
+    return out
