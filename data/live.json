@@ -1,7 +1,38 @@
 {
- "updated": "2026-11-26T04:50:26+03:00",
- "ts": 1795657826,
+ "updated": "2026-11-26T05:00:25+03:00",
+ "ts": 1795658425,
  "matches": [
+  {
+   "id": 1650516,
+   "league": "Colombia - Primera A",
+   "home": "Atletico Nacional",
+   "away": "Independiente Medellin",
+   "hl": "https://media.api-sports.io/football/teams/1137.png",
+   "al": "https://media.api-sports.io/football/teams/1128.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 29,
+   "time": "2026-11-26T01:30:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jorman Campuzano"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Keiner David Klinger Vasquez"
+    }
+   ]
+  },
   {
    "id": 1639789,
    "league": "Ecuador - Liga Pro",
@@ -11,8 +42,8 @@
    "al": "https://media.api-sports.io/football/teams/1153.png",
    "gh": 0,
    "ga": 1,
-   "status": "1H",
-   "minute": 41,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -46,139 +77,14 @@
      "t": "Goal",
      "d": "Own Goal",
      "p": "Byron Castillo"
-    }
-   ]
-  },
-  {
-   "id": 1650516,
-   "league": "Colombia - Primera A",
-   "home": "Atletico Nacional",
-   "away": "Independiente Medellin",
-   "hl": "https://media.api-sports.io/football/teams/1137.png",
-   "al": "https://media.api-sports.io/football/teams/1128.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 19,
-   "time": "2026-11-26T01:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 12,
-     "x": null,
+     "m": 45,
+     "x": 3,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Jorman Campuzano"
-    }
-   ]
-  },
-  {
-   "id": 1651514,
-   "league": "Nicaragua - Primera Division",
-   "home": "Managua",
-   "away": "Walter Ferretti",
-   "hl": "https://media.api-sports.io/football/teams/4644.png",
-   "al": "https://media.api-sports.io/football/teams/4648.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649565,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Boca Juniors",
-   "away": "Independ. Rivadavia",
-   "hl": "https://media.api-sports.io/football/teams/451.png",
-   "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Sebastián Villa"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Leandro Paredes"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Arce"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leandro Lozano"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Miguel Merentiel"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sheyko Darko Studer"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leonard Costa"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leandro Paredes"
+     "p": "Christian Javier Báez"
     }
    ]
   },
@@ -254,6 +160,37 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651514,
+   "league": "Nicaragua - Primera Division",
+   "home": "Managua",
+   "away": "Walter Ferretti",
+   "hl": "https://media.api-sports.io/football/teams/4644.png",
+   "al": "https://media.api-sports.io/football/teams/4648.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
