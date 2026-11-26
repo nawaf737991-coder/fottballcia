@@ -1,7 +1,210 @@
 {
- "updated": "2026-11-26T23:40:16+03:00",
- "ts": 1795725616,
+ "updated": "2026-11-26T23:50:17+03:00",
+ "ts": 1795726217,
  "matches": [
+  {
+   "id": 1636349,
+   "league": "World - UEFA Europa League",
+   "home": "Torreense",
+   "away": "Celtic",
+   "hl": "https://media.api-sports.io/football/teams/4799.png",
+   "al": "https://media.api-sports.io/football/teams/247.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-26T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Javi Vazquez"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dany Jean"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jota"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Javi Vazquez"
+    }
+   ]
+  },
+  {
+   "id": 1636420,
+   "league": "World - UEFA Europa Conference League",
+   "home": "HNK Hajduk Split",
+   "away": "St. Truiden",
+   "hl": "https://media.api-sports.io/football/teams/608.png",
+   "al": "https://media.api-sports.io/football/teams/735.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-26T20:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Joedrick Pupe"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dalisson De Almeida Leite"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Samed Baždar"
+    }
+   ]
+  },
+  {
+   "id": 1623288,
+   "league": "World - Premier League International Cup",
+   "home": "Stoke City U21",
+   "away": "Milan II",
+   "hl": "https://media.api-sports.io/football/teams/11911.png",
+   "al": "https://media.api-sports.io/football/teams/24205.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 89,
+   "time": "2026-11-26T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Osei"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Pinder"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Balentien"
+    }
+   ]
+  },
+  {
+   "id": 1627136,
+   "league": "England - Premier League Cup",
+   "home": "Burnley U21",
+   "away": "Wolves U21",
+   "hl": "https://media.api-sports.io/football/teams/20081.png",
+   "al": "https://media.api-sports.io/football/teams/7204.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-26T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Ballard-Matthews"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Bradbury"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "M. Campbell"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "L. Rawlings"
+    }
+   ]
+  },
+  {
+   "id": 1651387,
+   "league": "Argentina - Reserve League",
+   "home": "Vélez Sársfield Res.",
+   "away": "Boca Juniors Res.",
+   "hl": "https://media.api-sports.io/football/teams/18702.png",
+   "al": "https://media.api-sports.io/football/teams/18681.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 61,
+   "time": "2026-11-26T19:30:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1564429,
    "league": "England - League One",
@@ -11,8 +214,8 @@
    "al": "https://media.api-sports.io/football/teams/37.png",
    "gh": 1,
    "ga": 2,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -66,8 +269,8 @@
    "al": "https://media.api-sports.io/football/teams/548.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -89,10 +292,19 @@
    "al": "https://media.api-sports.io/football/teams/4360.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Artemijus Tutyskinas"
+    }
+   ]
   },
   {
    "id": 1636270,
@@ -102,9 +314,9 @@
    "hl": "https://media.api-sports.io/football/teams/167.png",
    "al": "https://media.api-sports.io/football/teams/637.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -114,6 +326,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Luis Balbo"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Oumar Diakité"
     }
    ]
   },
@@ -124,10 +344,10 @@
    "away": "Omonia Nicosia",
    "hl": "https://media.api-sports.io/football/teams/496.png",
    "al": "https://media.api-sports.io/football/teams/3402.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
-   "status": "1H",
-   "minute": 39,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -161,6 +381,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Andrea Cambiaso"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jeff Ekhator"
     }
    ]
   },
@@ -173,17 +401,17 @@
    "al": "https://media.api-sports.io/football/teams/321.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
-     "m": 21,
+     "m": 43,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Felix Vá"
     }
    ]
   },
@@ -196,8 +424,8 @@
    "al": "https://media.api-sports.io/football/teams/94.png",
    "gh": 1,
    "ga": 1,
-   "status": "1H",
-   "minute": 39,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -242,9 +470,9 @@
    "hl": "https://media.api-sports.io/football/teams/1124.png",
    "al": "https://media.api-sports.io/football/teams/554.png",
    "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -262,6 +490,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tawfik Bentayeb"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Thelo Aasgaard"
     }
    ]
   },
@@ -274,8 +510,8 @@
    "al": "https://media.api-sports.io/football/teams/201.png",
    "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -293,6 +529,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Patrik Vydra"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Josimar Alcocer"
     }
    ]
   },
@@ -305,8 +549,8 @@
    "al": "https://media.api-sports.io/football/teams/336.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -320,45 +564,6 @@
    ]
   },
   {
-   "id": 1636349,
-   "league": "World - UEFA Europa League",
-   "home": "Torreense",
-   "away": "Celtic",
-   "hl": "https://media.api-sports.io/football/teams/4799.png",
-   "al": "https://media.api-sports.io/football/teams/247.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-26T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Javi Vazquez"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dany Jean"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jota"
-    }
-   ]
-  },
-  {
    "id": 1636386,
    "league": "World - UEFA Europa Conference League",
    "home": "Borac Banja Luka",
@@ -367,8 +572,8 @@
    "al": "https://media.api-sports.io/football/teams/499.png",
    "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -402,6 +607,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Omar Sarif Sijaric"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Rowe"
     }
    ]
   },
@@ -414,8 +627,8 @@
    "al": "https://media.api-sports.io/football/teams/1165.png",
    "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -453,8 +666,8 @@
    "al": "https://media.api-sports.io/football/teams/998.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -492,8 +705,8 @@
    "al": "https://media.api-sports.io/football/teams/415.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -503,6 +716,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Cyriaque Irié"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Christian Günter"
     }
    ]
   },
@@ -515,8 +736,8 @@
    "al": "https://media.api-sports.io/football/teams/598.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 38,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -542,29 +763,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tiago Araújo"
-    }
-   ]
-  },
-  {
-   "id": 1636420,
-   "league": "World - UEFA Europa Conference League",
-   "home": "HNK Hajduk Split",
-   "away": "St. Truiden",
-   "hl": "https://media.api-sports.io/football/teams/608.png",
-   "al": "https://media.api-sports.io/football/teams/735.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-26T20:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 9,
+     "m": 41,
      "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Joedrick Pupe"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Matej Gashtarov"
     }
    ]
   },
@@ -577,8 +783,8 @@
    "al": "https://media.api-sports.io/football/teams/400.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -599,9 +805,9 @@
    "hl": "https://media.api-sports.io/football/teams/398.png",
    "al": "https://media.api-sports.io/football/teams/617.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -611,123 +817,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Adriano Jagusic"
-    }
-   ]
-  },
-  {
-   "id": 1623288,
-   "league": "World - Premier League International Cup",
-   "home": "Stoke City U21",
-   "away": "Milan II",
-   "hl": "https://media.api-sports.io/football/teams/11911.png",
-   "al": "https://media.api-sports.io/football/teams/24205.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 79,
-   "time": "2026-11-26T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Osei"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Pinder"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1627136,
-   "league": "England - Premier League Cup",
-   "home": "Burnley U21",
-   "away": "Wolves U21",
-   "hl": "https://media.api-sports.io/football/teams/20081.png",
-   "al": "https://media.api-sports.io/football/teams/7204.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 80,
-   "time": "2026-11-26T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Ballard-Matthews"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Bradbury"
     },
     {
      "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "M. Campbell"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "L. Rawlings"
-    }
-   ]
-  },
-  {
-   "id": 1651387,
-   "league": "Argentina - Reserve League",
-   "home": "Vélez Sársfield Res.",
-   "away": "Boca Juniors Res.",
-   "hl": "https://media.api-sports.io/football/teams/18702.png",
-   "al": "https://media.api-sports.io/football/teams/18681.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 52,
-   "time": "2026-11-26T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 15,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "Adriano Jagusic"
     }
    ]
   }
