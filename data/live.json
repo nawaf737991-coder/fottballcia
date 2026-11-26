@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T02:30:13+03:00",
- "ts": 1795735813,
+ "updated": "2026-11-27T02:40:18+03:00",
+ "ts": 1795736418,
  "matches": [
   {
    "id": 1492478,
@@ -9,10 +9,10 @@
    "away": "Remo",
    "hl": "https://media.api-sports.io/football/teams/126.png",
    "al": "https://media.api-sports.io/football/teams/1198.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Antonio Galeano"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jonathan Calleri"
     }
    ]
   },
@@ -32,10 +40,10 @@
    "away": "Operário PR U20",
    "hl": "https://media.api-sports.io/football/teams/12968.png",
    "al": "https://media.api-sports.io/football/teams/13036.png",
-   "gh": 2,
-   "ga": 0,
+   "gh": 3,
+   "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -53,6 +61,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Pablo Santos"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Antonio"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -63,10 +87,10 @@
    "away": "Recoleta",
    "hl": "https://media.api-sports.io/football/teams/2333.png",
    "al": "https://media.api-sports.io/football/teams/5644.png",
-   "gh": 0,
-   "ga": 2,
+   "gh": 1,
+   "ga": 4,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -124,6 +148,61 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Flores"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Alarcon"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Flores"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651123,
+   "league": "Paraguay - Copa Paraguay",
+   "home": "Cerro Porteno",
+   "away": "Libertad Asuncion",
+   "hl": "https://media.api-sports.io/football/teams/1176.png",
+   "al": "https://media.api-sports.io/football/teams/1179.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 50,
+   "time": "2026-11-26T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Martinez"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. R. Vera"
     }
    ]
   },
@@ -137,7 +216,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -162,7 +241,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "L. Garay"
     }
    ]
   },
@@ -176,7 +255,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -215,7 +294,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -225,37 +304,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Paterson"
-    }
-   ]
-  },
-  {
-   "id": 1651123,
-   "league": "Paraguay - Copa Paraguay",
-   "home": "Cerro Porteno",
-   "away": "Libertad Asuncion",
-   "hl": "https://media.api-sports.io/football/teams/1176.png",
-   "al": "https://media.api-sports.io/football/teams/1179.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Martinez"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. R. Vera"
     }
    ]
   }
