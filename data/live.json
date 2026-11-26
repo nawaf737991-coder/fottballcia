@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T15:10:22+03:00",
- "ts": 1795695022,
+ "updated": "2026-11-26T15:20:28+03:00",
+ "ts": 1795695628,
  "matches": [
   {
    "id": 1507261,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -49,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": []
   },
@@ -60,10 +60,10 @@
    "away": "KCB",
    "hl": "https://media.api-sports.io/football/teams/19486.png",
    "al": "https://media.api-sports.io/football/teams/2476.png",
-   "gh": 1,
+   "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -73,14 +73,74 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    },
+    }
+   ]
+  },
+  {
+   "id": 1630417,
+   "league": "World - AFC Champions League Two",
+   "home": "BG Pathum United",
+   "away": "Home United",
+   "hl": "https://media.api-sports.io/football/teams/2769.png",
+   "al": "https://media.api-sports.io/football/teams/4204.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-26T12:15:00+00:00",
+   "ev": [
     {
-     "m": 10,
+     "m": 5,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1630418,
+   "league": "World - AFC Champions League Two",
+   "home": "Svay Rieng",
+   "away": "Machida Zelvia",
+   "hl": "https://media.api-sports.io/football/teams/5396.png",
+   "al": "https://media.api-sports.io/football/teams/303.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-26T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630419,
+   "league": "World - AFC Champions League Two",
+   "home": "Wofoo Tai Po",
+   "away": "Adelaide United",
+   "hl": "https://media.api-sports.io/football/teams/4457.png",
+   "al": "https://media.api-sports.io/football/teams/948.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-26T12:15:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jay Barnett"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brody Burkitt"
     }
    ]
   },
@@ -91,12 +151,21 @@
    "away": "Persipa Pati",
    "hl": "https://media.api-sports.io/football/teams/28715.png",
    "al": "https://media.api-sports.io/football/teams/20076.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 21,
    "time": "2026-11-26T12:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1507263,
@@ -108,7 +177,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 49,
+   "minute": 60,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -161,9 +230,9 @@
    "hl": "https://media.api-sports.io/football/teams/6610.png",
    "al": "https://media.api-sports.io/football/teams/6604.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 62,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -173,6 +242,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Raksachum"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -184,11 +261,20 @@
    "hl": "https://media.api-sports.io/football/teams/22788.png",
    "al": "https://media.api-sports.io/football/teams/5576.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-26T10:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 90,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Dauda"
+    }
+   ]
   }
  ]
 }
