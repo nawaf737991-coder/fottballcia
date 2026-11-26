@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T03:10:26+03:00",
- "ts": 1795651826,
+ "updated": "2026-11-26T03:20:12+03:00",
+ "ts": 1795652412,
  "matches": [
   {
    "id": 1649565,
@@ -9,12 +9,52 @@
    "away": "Independ. Rivadavia",
    "hl": "https://media.api-sports.io/football/teams/451.png",
    "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T00:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Sebastián Villa"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Leandro Paredes"
+    }
+   ]
+  },
+  {
+   "id": 1492461,
+   "league": "Brazil - Serie A",
+   "home": "Atletico-MG",
+   "away": "Corinthians",
+   "hl": "https://media.api-sports.io/football/teams/1062.png",
+   "al": "https://media.api-sports.io/football/teams/131.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-25T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ruan Tressoldi"
+    }
+   ]
   },
   {
    "id": 1650231,
@@ -26,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -81,7 +121,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-25T22:30:00+00:00",
    "ev": [
     {
@@ -114,30 +154,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1492461,
-   "league": "Brazil - Serie A",
-   "home": "Atletico-MG",
-   "away": "Corinthians",
-   "hl": "https://media.api-sports.io/football/teams/1062.png",
-   "al": "https://media.api-sports.io/football/teams/131.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-25T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ruan Tressoldi"
+     "p": "F. Provenzano"
     }
    ]
   },
@@ -177,101 +194,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Franco Fagúndez"
-    }
-   ]
-  },
-  {
-   "id": 1651510,
-   "league": "Brazil - Copa Fares Lopes",
-   "home": "Fortaleza B",
-   "away": "Ceara B",
-   "hl": "https://media.api-sports.io/football/teams/25383.png",
-   "al": "https://media.api-sports.io/football/teams/25382.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "P",
-   "minute": null,
-   "time": "2026-11-25T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
     },
     {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pinna"
-    },
-    {
-     "m": 90,
-     "x": 5,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kaua Ziegler"
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 3,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 120,
+     "m": 45,
      "x": 4,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Pablo Eduardo Repetto Aquino"
     }
    ]
   }
