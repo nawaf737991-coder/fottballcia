@@ -1,37 +1,20 @@
 {
- "updated": "2026-11-26T18:50:12+03:00",
- "ts": 1795708212,
+ "updated": "2026-11-26T19:00:16+03:00",
+ "ts": 1795708816,
  "matches": [
   {
-   "id": 1603080,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Abha",
-   "away": "Al Shabab",
-   "hl": "https://media.api-sports.io/football/teams/2951.png",
-   "al": "https://media.api-sports.io/football/teams/2940.png",
+   "id": 1621398,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Nazareth Illit",
+   "away": "Maccabi K. Ata Bialik",
+   "hl": "https://media.api-sports.io/football/teams/4487.png",
+   "al": "https://media.api-sports.io/football/teams/20291.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T15:05:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Josh Brownhill"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Alimani Gory"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1636435,
@@ -43,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T15:30:00+00:00",
    "ev": [
     {
@@ -57,20 +40,6 @@
    ]
   },
   {
-   "id": 1645705,
-   "league": "Syria - Premier League",
-   "home": "Tishreen",
-   "away": "Wathba",
-   "hl": "https://media.api-sports.io/football/teams/9117.png",
-   "al": "https://media.api-sports.io/football/teams/9118.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1526253,
    "league": "Kuwait - Emir Cup",
    "home": "Al Salmiyah",
@@ -80,7 +49,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T14:20:00+00:00",
    "ev": [
     {
@@ -102,290 +71,6 @@
    ]
   },
   {
-   "id": 1546196,
-   "league": "World - World Cup - U17",
-   "home": "Jamaica U17",
-   "away": "Côte d'Ivoire U17",
-   "hl": "https://media.api-sports.io/football/teams/20998.png",
-   "al": "https://media.api-sports.io/football/teams/25818.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Kouadio Koffi"
-    },
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Harafat Diabate"
-    },
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jalani Bradshaw"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Abdoul Doumbia"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Aziz Diabagate"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Drebo Koudougnon Christ"
-    },
-    {
-     "m": 45,
-     "x": 6,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Drebo Koudougnon Christ"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jamone Lyle"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Salia Traore"
-    }
-   ]
-  },
-  {
-   "id": 1546204,
-   "league": "World - World Cup - U17",
-   "home": "Uzbekistan U17",
-   "away": "Italy U17",
-   "hl": "https://media.api-sports.io/football/teams/21446.png",
-   "al": "https://media.api-sports.io/football/teams/12510.png",
-   "gh": 1,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "tommaso casagrande"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Federico Croci"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Mirjamol Anvarov"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mirjamol Anvarov"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Asilbek Aliev"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Riccardo Cassano"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "thomas corigliano"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abubakir Rakhimov"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Riccardo Cassano"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sukhrob Sadirzhonov"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Khabibullokh Tokhirov"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "",
-     "p": "Khabibullokh Tokhirov"
-    }
-   ]
-  },
-  {
-   "id": 1563680,
-   "league": "Russia - Cup",
-   "home": "FC Orenburg",
-   "away": "Spartak Moscow",
-   "hl": "https://media.api-sports.io/football/teams/1080.png",
-   "al": "https://media.api-sports.io/football/teams/558.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Victor Parada"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Christopher Wooh"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ildar Akhmetzyanov"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Renat Golybin"
-    }
-   ]
-  },
-  {
-   "id": 1577602,
-   "league": "Russia - First League",
-   "home": "Ural",
-   "away": "Arsenal Tula",
-   "hl": "https://media.api-sports.io/football/teams/1084.png",
-   "al": "https://media.api-sports.io/football/teams/1077.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Léo Cordeiro"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniil Plotnikov"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nikita morozov"
-    }
-   ]
-  },
-  {
    "id": 1602568,
    "league": "Romania - Liga II",
    "home": "Gloria Bistriţa",
@@ -395,7 +80,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T14:45:00+00:00",
    "ev": [
     {
@@ -439,10 +124,10 @@
    "away": "Al Riyadh",
    "hl": "https://media.api-sports.io/football/teams/2931.png",
    "al": "https://media.api-sports.io/football/teams/10511.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-26T14:25:00+00:00",
    "ev": [
     {
@@ -492,6 +177,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Zaydou Youssouf"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mourad Batna"
     }
    ]
   },
@@ -505,7 +198,7 @@
    "gh": 3,
    "ga": 3,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T14:15:00+00:00",
    "ev": [
     {
@@ -661,6 +354,45 @@
    ]
   },
   {
+   "id": 1603080,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Abha",
+   "away": "Al Shabab",
+   "hl": "https://media.api-sports.io/football/teams/2951.png",
+   "al": "https://media.api-sports.io/football/teams/2940.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T15:05:00+00:00",
+   "ev": [
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Josh Brownhill"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Alimani Gory"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Daniel Podence"
+    }
+   ]
+  },
+  {
    "id": 1630471,
    "league": "Azerbaijan - Birinci Dasta",
    "home": "Cəbrayıl",
@@ -704,6 +436,20 @@
      "p": "A. Al Harahsheh"
     }
    ]
+  },
+  {
+   "id": 1645705,
+   "league": "Syria - Premier League",
+   "home": "Tishreen",
+   "away": "Wathba",
+   "hl": "https://media.api-sports.io/football/teams/9117.png",
+   "al": "https://media.api-sports.io/football/teams/9118.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T15:00:00+00:00",
+   "ev": []
   }
  ]
 }
