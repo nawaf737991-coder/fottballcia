@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T23:17:28+03:00",
- "ts": 1795724248,
+ "updated": "2026-11-26T23:20:28+03:00",
+ "ts": 1795724428,
  "matches": [
   {
    "id": 1564429,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 18,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -57,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -71,7 +71,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -94,7 +94,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -125,7 +125,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -139,7 +139,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -162,7 +162,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -185,7 +185,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -208,7 +208,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -222,7 +222,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 16,
+   "minute": 19,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -245,9 +245,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bart Meijers"
+    }
+   ]
   },
   {
    "id": 1636389,
@@ -256,12 +265,21 @@
    "away": "KuPS",
    "hl": "https://media.api-sports.io/football/teams/217.png",
    "al": "https://media.api-sports.io/football/teams/1165.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Pau Victor"
+    }
+   ]
   },
   {
    "id": 1636402,
@@ -273,7 +291,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -296,7 +314,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -319,7 +337,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 19,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -342,7 +360,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -362,12 +380,21 @@
    "away": "FC Copenhagen",
    "hl": "https://media.api-sports.io/football/teams/3342.png",
    "al": "https://media.api-sports.io/football/teams/400.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "David López"
+    }
+   ]
   },
   {
    "id": 1636457,
@@ -379,7 +406,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -393,7 +420,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 56,
+   "minute": 60,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
@@ -424,7 +451,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 61,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
