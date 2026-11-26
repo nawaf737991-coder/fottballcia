@@ -1,7 +1,158 @@
 {
- "updated": "2026-11-26T17:00:29+03:00",
- "ts": 1795701629,
+ "updated": "2026-11-26T17:10:13+03:00",
+ "ts": 1795702213,
  "matches": [
+  {
+   "id": 1546196,
+   "league": "World - World Cup - U17",
+   "home": "Jamaica U17",
+   "away": "Côte d'Ivoire U17",
+   "hl": "https://media.api-sports.io/football/teams/20998.png",
+   "al": "https://media.api-sports.io/football/teams/25818.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1546204,
+   "league": "World - World Cup - U17",
+   "home": "Uzbekistan U17",
+   "away": "Italy U17",
+   "hl": "https://media.api-sports.io/football/teams/21446.png",
+   "al": "https://media.api-sports.io/football/teams/12510.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "tommaso casagrande"
+    }
+   ]
+  },
+  {
+   "id": 1563680,
+   "league": "Russia - Cup",
+   "home": "FC Orenburg",
+   "away": "Spartak Moscow",
+   "hl": "https://media.api-sports.io/football/teams/1080.png",
+   "al": "https://media.api-sports.io/football/teams/558.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1577602,
+   "league": "Russia - First League",
+   "home": "Ural",
+   "away": "Arsenal Tula",
+   "hl": "https://media.api-sports.io/football/teams/1084.png",
+   "al": "https://media.api-sports.io/football/teams/1077.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1546199,
+   "league": "World - World Cup - U17",
+   "home": "New Zealand U17",
+   "away": "Belgium U17",
+   "hl": "https://media.api-sports.io/football/teams/12515.png",
+   "al": "https://media.api-sports.io/football/teams/17942.png",
+   "gh": 0,
+   "ga": 6,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Preben Blondeel"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matteo Soria"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matteo Soria"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tinus Moorthamer"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kiyan Achahbar"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jelle Driessen"
+    }
+   ]
+  },
+  {
+   "id": 1546206,
+   "league": "World - World Cup - U17",
+   "home": "Vietnam U17",
+   "away": "Mali U17",
+   "hl": "https://media.api-sports.io/football/teams/21447.png",
+   "al": "https://media.api-sports.io/football/teams/21298.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nguyen Khac Minh Duc"
+    }
+   ]
+  },
   {
    "id": 1594913,
    "league": "Egypt - Second League",
@@ -10,13 +161,21 @@
    "hl": "https://media.api-sports.io/football/teams/2617.png",
    "al": "https://media.api-sports.io/football/teams/15739.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
      "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 63,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -35,7 +194,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
@@ -47,11 +206,20 @@
    "hl": "https://media.api-sports.io/football/teams/18022.png",
    "al": "https://media.api-sports.io/football/teams/1032.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T12:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1594916,
@@ -63,7 +231,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -92,9 +260,9 @@
    "hl": "https://media.api-sports.io/football/teams/28011.png",
    "al": "https://media.api-sports.io/football/teams/16436.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -104,90 +272,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1629137,
-   "league": "Kenya - FKF Premier League",
-   "home": "Mara Sugar",
-   "away": "Kenya Police",
-   "hl": "https://media.api-sports.io/football/teams/19483.png",
-   "al": "https://media.api-sports.io/football/teams/2485.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630417,
-   "league": "World - AFC Champions League Two",
-   "home": "BG Pathum United",
-   "away": "Home United",
-   "hl": "https://media.api-sports.io/football/teams/2769.png",
-   "al": "https://media.api-sports.io/football/teams/4204.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-26T12:15:00+00:00",
-   "ev": [
+    },
     {
-     "m": 5,
+     "m": 63,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Ilhan Fandi"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Waris Chuthong"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hugo Gomes"
-    }
-   ]
-  },
-  {
-   "id": 1630418,
-   "league": "World - AFC Champions League Two",
-   "home": "Svay Rieng",
-   "away": "Machida Zelvia",
-   "hl": "https://media.api-sports.io/football/teams/5396.png",
-   "al": "https://media.api-sports.io/football/teams/303.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Martins Júnior"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tiago Alves"
+     "p": null
     }
    ]
   },
@@ -199,9 +291,9 @@
    "hl": "https://media.api-sports.io/football/teams/4457.png",
    "al": "https://media.api-sports.io/football/teams/948.png",
    "gh": 1,
-   "ga": 6,
+   "ga": 7,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": [
     {
@@ -283,8 +375,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Brody Burkitt"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brody Burkitt"
     }
    ]
+  },
+  {
+   "id": 1635338,
+   "league": "Uganda - Premier League",
+   "home": "KCCA",
+   "away": "BUL",
+   "hl": "https://media.api-sports.io/football/teams/6422.png",
+   "al": "https://media.api-sports.io/football/teams/12449.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-26T13:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1649593,
@@ -294,9 +408,9 @@
    "hl": "https://media.api-sports.io/football/teams/20299.png",
    "al": "https://media.api-sports.io/football/teams/10388.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 58,
    "time": "2026-11-26T12:45:00+00:00",
    "ev": [
     {
@@ -322,84 +436,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Anafjeh"
-    }
-   ]
-  },
-  {
-   "id": 1546199,
-   "league": "World - World Cup - U17",
-   "home": "New Zealand U17",
-   "away": "Belgium U17",
-   "hl": "https://media.api-sports.io/football/teams/12515.png",
-   "al": "https://media.api-sports.io/football/teams/17942.png",
-   "gh": 0,
-   "ga": 5,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Preben Blondeel"
     },
     {
-     "m": 15,
+     "m": 52,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Matteo Soria"
+     "p": "S. Jafari"
     },
     {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matteo Soria"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tinus Moorthamer"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kiyan Achahbar"
-    }
-   ]
-  },
-  {
-   "id": 1546206,
-   "league": "World - World Cup - U17",
-   "home": "Vietnam U17",
-   "away": "Mali U17",
-   "hl": "https://media.api-sports.io/football/teams/21447.png",
-   "al": "https://media.api-sports.io/football/teams/21298.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
+     "m": 54,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nguyen Khac Minh Duc"
+     "d": "Red Card",
+     "p": "A. Anafjeh"
     }
    ]
   },
@@ -440,20 +492,6 @@
    "al": "https://media.api-sports.io/football/teams/5200.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635338,
-   "league": "Uganda - Premier League",
-   "home": "KCCA",
-   "away": "BUL",
-   "hl": "https://media.api-sports.io/football/teams/6422.png",
-   "al": "https://media.api-sports.io/football/teams/12449.png",
-   "gh": 0,
-   "ga": 0,
    "status": "HT",
    "minute": 45,
    "time": "2026-11-26T13:00:00+00:00",
