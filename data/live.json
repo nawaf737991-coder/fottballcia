@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T01:10:24+03:00",
- "ts": 1795731024,
+ "updated": "2026-11-27T01:20:29+03:00",
+ "ts": 1795731629,
  "matches": [
   {
    "id": 1650552,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 19,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": []
   },
@@ -23,12 +23,21 @@
    "away": "Gimnasia Mendoza 2",
    "hl": "https://media.api-sports.io/football/teams/18689.png",
    "al": "https://media.api-sports.io/football/teams/27272.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-26T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651511,
@@ -37,12 +46,29 @@
    "away": "Guarani De Juazeiro",
    "hl": "https://media.api-sports.io/football/teams/18799.png",
    "al": "https://media.api-sports.io/football/teams/1216.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 17,
    "time": "2026-11-26T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651515,
@@ -54,7 +80,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": []
   },
@@ -68,7 +94,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-26T21:00:00+00:00",
    "ev": [
     {
@@ -102,6 +128,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Pizarro"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
