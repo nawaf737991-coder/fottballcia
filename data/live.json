@@ -1,7 +1,30 @@
 {
- "updated": "2026-11-26T17:20:21+03:00",
- "ts": 1795702821,
+ "updated": "2026-11-26T17:30:22+03:00",
+ "ts": 1795703422,
  "matches": [
+  {
+   "id": 1526253,
+   "league": "Kuwait - Emir Cup",
+   "home": "Al Salmiyah",
+   "away": "Al Tadhamon",
+   "hl": "https://media.api-sports.io/football/teams/3538.png",
+   "al": "https://media.api-sports.io/football/teams/3539.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-26T14:20:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1546196,
    "league": "World - World Cup - U17",
@@ -10,9 +33,9 @@
    "hl": "https://media.api-sports.io/football/teams/20998.png",
    "al": "https://media.api-sports.io/football/teams/25818.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -38,6 +61,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jalani Bradshaw"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abdoul Doumbia"
     }
    ]
   },
@@ -51,7 +82,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -74,7 +105,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 28,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -83,7 +114,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Victor Parada"
     }
    ]
   },
@@ -97,8 +128,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-26T14:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1603084,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Al-Fateh",
+   "away": "Al Riyadh",
+   "hl": "https://media.api-sports.io/football/teams/2931.png",
+   "al": "https://media.api-sports.io/football/teams/10511.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-26T14:25:00+00:00",
    "ev": []
   },
   {
@@ -111,7 +156,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-26T14:15:00+00:00",
    "ev": []
   },
@@ -125,7 +170,7 @@
    "gh": 0,
    "ga": 6,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -188,7 +233,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -219,7 +264,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -241,13 +286,21 @@
     {
      "m": 77,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Red Card",
      "p": null
     },
     {
      "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 82,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -266,7 +319,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
@@ -277,10 +330,10 @@
    "away": "El Dakhleya",
    "hl": "https://media.api-sports.io/football/teams/18022.png",
    "al": "https://media.api-sports.io/football/teams/1032.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -298,32 +351,9 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1594916,
-   "league": "Egypt - Second League",
-   "home": "El Entag EL Harby",
-   "away": "Kahraba Ismailia",
-   "hl": "https://media.api-sports.io/football/teams/1034.png",
-   "al": "https://media.api-sports.io/football/teams/20458.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-26T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
     },
     {
-     "m": 60,
+     "m": 81,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -342,7 +372,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -381,7 +411,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -395,7 +425,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -409,7 +439,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -423,7 +453,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -437,7 +467,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-26T12:45:00+00:00",
    "ev": [
     {
@@ -487,6 +517,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "R. Alborno"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Lashak"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
