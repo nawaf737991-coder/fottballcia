@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T12:50:10+03:00",
- "ts": 1795686610,
+ "updated": "2026-11-26T13:00:17+03:00",
+ "ts": 1795687217,
  "matches": [
   {
    "id": 1507259,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -82,32 +82,40 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-26T09:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1527771,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Regar-TadAZ",
-   "away": "Sardor Tursunzoda",
-   "hl": "https://media.api-sports.io/football/teams/12268.png",
-   "al": "https://media.api-sports.io/football/teams/27266.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T09:00:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 23,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
+  },
+  {
+   "id": 1649632,
+   "league": "Uzbekistan - Pro League A",
+   "home": "Shortan",
+   "away": "Olimpik-Mobiuz",
+   "hl": "https://media.api-sports.io/football/teams/4222.png",
+   "al": "https://media.api-sports.io/football/teams/23309.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-26T10:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1622807,
@@ -119,7 +127,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -161,6 +169,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Mendonca"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -174,7 +190,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -205,7 +221,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -228,7 +244,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -238,6 +254,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Sentosa"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -251,7 +275,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -274,7 +298,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -296,20 +320,6 @@
    ]
   },
   {
-   "id": 1527769,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Parvoz",
-   "away": "CSKA Pomir",
-   "hl": "https://media.api-sports.io/football/teams/12271.png",
-   "al": "https://media.api-sports.io/football/teams/12261.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T09:00:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1651254,
    "league": "Australia - Australian Championship",
    "home": "South Melbourne",
@@ -318,8 +328,8 @@
    "al": "https://media.api-sports.io/football/teams/3808.png",
    "gh": 1,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -341,6 +351,43 @@
     {
      "m": 45,
      "x": 14,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1527769,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Parvoz",
+   "away": "CSKA Pomir",
+   "hl": "https://media.api-sports.io/football/teams/12271.png",
+   "al": "https://media.api-sports.io/football/teams/12261.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1527771,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Regar-TadAZ",
+   "away": "Sardor Tursunzoda",
+   "hl": "https://media.api-sports.io/football/teams/12268.png",
+   "al": "https://media.api-sports.io/football/teams/27266.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
