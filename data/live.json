@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-27T02:00:21+03:00",
- "ts": 1795734021,
+ "updated": "2026-11-27T02:10:25+03:00",
+ "ts": 1795734625,
  "matches": [
+  {
+   "id": 1492478,
+   "league": "Brazil - Serie A",
+   "home": "Sao Paulo",
+   "away": "Remo",
+   "hl": "https://media.api-sports.io/football/teams/126.png",
+   "al": "https://media.api-sports.io/football/teams/1198.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T23:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1649152,
    "league": "Brazil - Copa do Brasil U20",
@@ -12,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 10,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": []
   },
@@ -26,7 +40,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T22:30:00+00:00",
    "ev": [
     {
@@ -56,8 +70,8 @@
    "al": "https://media.api-sports.io/football/teams/5644.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -103,8 +117,8 @@
    "al": "https://media.api-sports.io/football/teams/27272.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -113,7 +127,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "S. Viollaz"
     },
     {
      "m": 31,
@@ -121,7 +135,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "M. De Las Carreras"
     }
    ]
   },
@@ -134,8 +148,8 @@
    "al": "https://media.api-sports.io/football/teams/1216.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -165,8 +179,8 @@
    "al": "https://media.api-sports.io/football/teams/28553.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -175,7 +189,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "R. Paterson"
     }
    ]
   }
