@@ -1,93 +1,7 @@
 {
- "updated": "2026-11-26T13:10:17+03:00",
- "ts": 1795687817,
+ "updated": "2026-11-26T13:20:24+03:00",
+ "ts": 1795688424,
  "matches": [
-  {
-   "id": 1507259,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Aragvi Dusheti",
-   "away": "Merani Martvili",
-   "hl": "https://media.api-sports.io/football/teams/10015.png",
-   "al": "https://media.api-sports.io/football/teams/10016.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Chumburidze"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Esonkulov"
-    }
-   ]
-  },
-  {
-   "id": 1507260,
-   "league": "Georgia - Erovnuli Liga 2",
-   "home": "Gareji",
-   "away": "Samtredia",
-   "hl": "https://media.api-sports.io/football/teams/14860.png",
-   "al": "https://media.api-sports.io/football/teams/581.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Zurabiani"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Kalandadze"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Chikovani"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Gvasalia"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Jangidze"
-    }
-   ]
-  },
   {
    "id": 1507262,
    "league": "Georgia - Erovnuli Liga 2",
@@ -98,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -129,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -152,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": []
   },
@@ -166,7 +80,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -175,7 +89,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Xie Pengfei"
     }
    ]
   },
@@ -186,10 +100,10 @@
    "away": "Olimpik-Mobiuz",
    "hl": "https://media.api-sports.io/football/teams/4222.png",
    "al": "https://media.api-sports.io/football/teams/23309.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 12,
+   "minute": 23,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -199,6 +113,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Bahodirov"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Mukarov"
     }
    ]
   },
@@ -209,12 +131,21 @@
    "away": "CSKA Pomir",
    "hl": "https://media.api-sports.io/football/teams/12271.png",
    "al": "https://media.api-sports.io/football/teams/12261.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1527771,
@@ -223,14 +154,22 @@
    "away": "Sardor Tursunzoda",
    "hl": "https://media.api-sports.io/football/teams/12268.png",
    "al": "https://media.api-sports.io/football/teams/27266.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-26T09:00:00+00:00",
    "ev": [
     {
      "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -247,9 +186,9 @@
    "hl": "https://media.api-sports.io/football/teams/2442.png",
    "al": "https://media.api-sports.io/football/teams/4244.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -307,6 +246,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Ramalingom"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Rodriguez"
     }
    ]
   },
@@ -317,10 +264,10 @@
    "away": "Persikutim",
    "hl": "https://media.api-sports.io/football/teams/28709.png",
    "al": "https://media.api-sports.io/football/teams/28714.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -346,6 +293,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -359,7 +314,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -377,6 +332,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   },
@@ -390,7 +353,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -421,7 +384,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -444,7 +407,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -472,10 +435,10 @@
    "away": "Oakleigh Cannons",
    "hl": "https://media.api-sports.io/football/teams/3811.png",
    "al": "https://media.api-sports.io/football/teams/3808.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -501,6 +464,116 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1507259,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Aragvi Dusheti",
+   "away": "Merani Martvili",
+   "hl": "https://media.api-sports.io/football/teams/10015.png",
+   "al": "https://media.api-sports.io/football/teams/10016.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Chumburidze"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Esonkulov"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Molashvili"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1507260,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Gareji",
+   "away": "Samtredia",
+   "hl": "https://media.api-sports.io/football/teams/14860.png",
+   "al": "https://media.api-sports.io/football/teams/581.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Zurabiani"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Kalandadze"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Chikovani"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Gvasalia"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Jangidze"
     }
    ]
   }
