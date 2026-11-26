@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T20:10:22+03:00",
- "ts": 1795713022,
+ "updated": "2026-11-26T20:20:26+03:00",
+ "ts": 1795713626,
  "matches": [
   {
    "id": 1563678,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": [
     {
@@ -26,53 +26,16 @@
    ]
   },
   {
-   "id": 1606564,
-   "league": "Qatar - Second Division",
-   "home": "Al Mesaimeer",
-   "away": "Qatar U23",
-   "hl": "https://media.api-sports.io/football/teams/2915.png",
-   "al": "https://media.api-sports.io/football/teams/10954.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1606566,
-   "league": "Qatar - Second Division",
-   "home": "UMM Salal",
-   "away": "Al Rayyan SC B",
-   "hl": "https://media.api-sports.io/football/teams/2899.png",
-   "al": "https://media.api-sports.io/football/teams/2909.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T16:30:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1546189,
    "league": "World - World Cup - U17",
    "home": "Croatia U17",
    "away": "Cuba U17",
    "hl": "https://media.api-sports.io/football/teams/17945.png",
    "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 4,
+   "gh": 5,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -114,6 +77,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Vito Jakovljevic"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Israel Entenza"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Izak Ježić"
     }
    ]
   },
@@ -124,10 +103,10 @@
    "away": "Senegal U17",
    "hl": "https://media.api-sports.io/football/teams/12521.png",
    "al": "https://media.api-sports.io/football/teams/12518.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -137,6 +116,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sidy Ndiaye"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Moussa Cisse"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Parviz Bobonazarov"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Mehrubon Odilzoda"
     }
    ]
   },
@@ -150,7 +153,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -200,6 +203,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Maksim Kriushichev"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -213,7 +224,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 64,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -236,7 +247,7 @@
    "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -275,7 +286,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -306,7 +317,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-26T15:30:00+00:00",
    "ev": [
     {
@@ -332,6 +343,51 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Viktor Gustafson"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Damir Kasabulat"
+    }
+   ]
+  },
+  {
+   "id": 1606564,
+   "league": "Qatar - Second Division",
+   "home": "Al Mesaimeer",
+   "away": "Qatar U23",
+   "hl": "https://media.api-sports.io/football/teams/2915.png",
+   "al": "https://media.api-sports.io/football/teams/10954.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1606566,
+   "league": "Qatar - Second Division",
+   "home": "UMM Salal",
+   "away": "Al Rayyan SC B",
+   "hl": "https://media.api-sports.io/football/teams/2899.png",
+   "al": "https://media.api-sports.io/football/teams/2909.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
