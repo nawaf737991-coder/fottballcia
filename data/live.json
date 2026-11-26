@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T17:30:22+03:00",
- "ts": 1795703422,
+ "updated": "2026-11-26T17:40:26+03:00",
+ "ts": 1795704026,
  "matches": [
   {
    "id": 1526253,
@@ -9,16 +9,24 @@
    "away": "Al Tadhamon",
    "hl": "https://media.api-sports.io/football/teams/3538.png",
    "al": "https://media.api-sports.io/football/teams/3539.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-26T14:20:00+00:00",
    "ev": [
     {
      "m": 6,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -80,9 +88,9 @@
    "hl": "https://media.api-sports.io/football/teams/21446.png",
    "al": "https://media.api-sports.io/football/teams/12510.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 29,
+   "minute": 41,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -92,6 +100,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "tommaso casagrande"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Federico Croci"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Mirjamol Anvarov"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mirjamol Anvarov"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Asilbek Aliev"
     }
    ]
   },
@@ -105,7 +145,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 36,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -128,7 +168,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": []
   },
@@ -142,9 +182,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-26T14:25:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kennedy Boateng"
+    }
+   ]
   },
   {
    "id": 1606565,
@@ -156,7 +205,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-26T14:15:00+00:00",
    "ev": []
   },
@@ -170,7 +219,7 @@
    "gh": 0,
    "ga": 6,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -231,9 +280,9 @@
    "hl": "https://media.api-sports.io/football/teams/21447.png",
    "al": "https://media.api-sports.io/football/teams/21298.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -251,6 +300,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sanaba Keita"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Djigui Koita"
     }
    ]
   },
@@ -264,7 +321,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -286,7 +343,7 @@
     {
      "m": 77,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Card",
      "d": "Red Card",
      "p": null
@@ -294,7 +351,7 @@
     {
      "m": 77,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Red Card",
      "p": null
@@ -310,20 +367,6 @@
    ]
   },
   {
-   "id": 1594914,
-   "league": "Egypt - Second League",
-   "home": "El Seka El Hadid",
-   "away": "Proxy",
-   "hl": "https://media.api-sports.io/football/teams/18031.png",
-   "al": "https://media.api-sports.io/football/teams/20461.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1594915,
    "league": "Egypt - Second League",
    "home": "Dayrout",
@@ -333,7 +376,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -363,45 +406,6 @@
    ]
   },
   {
-   "id": 1595151,
-   "league": "Egypt - Second League",
-   "home": "Mega Sport",
-   "away": "La Viena FC",
-   "hl": "https://media.api-sports.io/football/teams/28011.png",
-   "al": "https://media.api-sports.io/football/teams/16436.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1630652,
    "league": "Zambia - Super League",
    "home": "Chirundu Utd",
@@ -411,7 +415,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -425,7 +429,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -439,7 +443,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 71,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -453,7 +457,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -465,9 +469,9 @@
    "hl": "https://media.api-sports.io/football/teams/20299.png",
    "al": "https://media.api-sports.io/football/teams/10388.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 88,
    "time": "2026-11-26T12:45:00+00:00",
    "ev": [
     {
@@ -532,7 +536,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "A. Gholami"
     },
     {
      "m": 78,
@@ -540,6 +544,14 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
