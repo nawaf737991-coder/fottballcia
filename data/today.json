@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "updated": "2026-11-26T02:40:16+03:00",
+ "updated": "2026-11-26T03:10:27+03:00",
  "matches": [
   {
    "id": 1632068,
@@ -93,10 +93,10 @@
    "away": "Héroes de Zaci",
    "hl": "https://media.api-sports.io/football/teams/26426.png",
    "al": "https://media.api-sports.io/football/teams/26526.png",
-   "gh": 6,
+   "gh": 7,
    "ga": 0,
-   "status": "2H",
-   "minute": 69,
+   "status": "FT",
+   "minute": 90,
    "time": "2026-11-26T01:00:00+03:00",
    "ev": []
   },
@@ -108,9 +108,9 @@
    "hl": "https://media.api-sports.io/football/teams/25383.png",
    "al": "https://media.api-sports.io/football/teams/25382.png",
    "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 81,
+   "ga": 1,
+   "status": "P",
+   "minute": null,
    "time": "2026-11-26T01:00:00+03:00",
    "ev": []
   },
@@ -123,8 +123,8 @@
    "al": "https://media.api-sports.io/football/teams/17135.png",
    "gh": 0,
    "ga": 4,
-   "status": "2H",
-   "minute": 83,
+   "status": "FT",
+   "minute": 90,
    "time": "2026-11-26T01:00:00+03:00",
    "ev": []
   },
@@ -135,10 +135,10 @@
    "away": "Carabobo FC",
    "hl": "https://media.api-sports.io/football/teams/2807.png",
    "al": "https://media.api-sports.io/football/teams/2810.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 81,
    "time": "2026-11-26T01:30:00+03:00",
    "ev": []
   },
@@ -151,8 +151,8 @@
    "al": "https://media.api-sports.io/football/teams/131.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 36,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T02:00:00+03:00",
    "ev": []
   },
@@ -165,8 +165,8 @@
    "al": "https://media.api-sports.io/football/teams/3700.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 39,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-26T02:00:00+03:00",
    "ev": []
   },
@@ -177,10 +177,10 @@
    "away": "Once Caldas",
    "hl": "https://media.api-sports.io/football/teams/1139.png",
    "al": "https://media.api-sports.io/football/teams/1136.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 19,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-26T02:20:00+03:00",
    "ev": []
   },
@@ -205,10 +205,10 @@
    "away": "Independ. Rivadavia",
    "hl": "https://media.api-sports.io/football/teams/451.png",
    "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
    "time": "2026-11-26T03:00:00+03:00",
    "ev": []
   },
@@ -759,6 +759,20 @@
    "ev": []
   },
   {
+   "id": 1645705,
+   "league": "Syria - Premier League",
+   "home": "Tishreen",
+   "away": "Wathba",
+   "hl": "https://media.api-sports.io/football/teams/9117.png",
+   "al": "https://media.api-sports.io/football/teams/9118.png",
+   "gh": null,
+   "ga": null,
+   "status": "NS",
+   "minute": null,
+   "time": "2026-11-26T15:00:00+03:00",
+   "ev": []
+  },
+  {
    "id": 1650710,
    "league": "Indonesia - Liga Nusantara",
    "home": "Persika Karanganyar",
@@ -1137,20 +1151,6 @@
    "ev": []
   },
   {
-   "id": 1645705,
-   "league": "Syria - Premier League",
-   "home": "Tishreen",
-   "away": "Wathba",
-   "hl": "https://media.api-sports.io/football/teams/9117.png",
-   "al": "https://media.api-sports.io/football/teams/9118.png",
-   "gh": null,
-   "ga": null,
-   "status": "NS",
-   "minute": null,
-   "time": "2026-11-26T16:00:00+03:00",
-   "ev": []
-  },
-  {
    "id": 1546196,
    "league": "World - World Cup - U17",
    "home": "Jamaica U17",
@@ -1229,7 +1229,7 @@
    "al": "https://media.api-sports.io/football/teams/12424.png",
    "gh": null,
    "ga": null,
-   "status": "NS",
+   "status": "PST",
    "minute": null,
    "time": "2026-11-26T17:00:00+03:00",
    "ev": []
