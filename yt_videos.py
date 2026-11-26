@@ -10,10 +10,10 @@ KEY = os.environ.get("YOUTUBE_API_KEY", "")
 if not KEY:
     print("YOUTUBE_API_KEY غير موجود"); sys.exit(0)
 API = "https://www.googleapis.com/youtube/v3/"
-# (handle, نص يجب أن يظهر في اسم القناة) - لا يُقبل إلا إذا تطابق الاسم وعدد المشتركين >= 100 ألف
-CHANNELS = [("beINSPORTS", "bein"), ("beINSPORTSArabia", "bein"), ("beINSPORTSEN", "bein"), ("SPL", "saudi"), ("SaudiProLeague", "saudi"),
-            ("ChampionsLeague", "champions league"), ("UEFA", "uefa"), ("LaLiga", "laliga"), ("premierleague", "premier league"),
-            ("SerieA", "serie a"), ("bundesliga", "bundesliga"), ("AFCChampionsLeague", "afc"), ("CAFOnline", "caf"), ("fifa", "fifa")]
+# (معرّف قناة أو @handle، نص يجب أن يظهر في اسم القناة) - لا يُقبل إلا إذا تطابق الاسم وعدد المشتركين >= 100 ألف
+CHANNELS = [("UCJUCcJUeh0Cz2xyKwkw5Q1w", "bein"), ("UCqXAWrjSgLb0EPa_icPt-pw", "saudi pro league"), ("UCyGa1YEx9ST66rYrJTGIKOw", "uefa"),
+            ("@LaLiga", "laliga"), ("@premierleague", "premier league"), ("@SerieA", "serie a"), ("@bundesliga", "bundesliga"),
+            ("UCr5K057x3mHroPHsNk9OiwA", "caf"), ("UChM_8YeNCava2-OSbgbpe_w", "hilal"), ("UCHEQtltsiDd3p8ga-5nC-ow", "nassr"), ("@fifa", "fifa")]
 GOOD = re.compile(r"highlight|goals|all goals|extended|summary|ملخص|أهداف|اهداف|الأهداف", re.I)
 BAD = re.compile(r"press conference|preview|reaction|interview|predict|women|femin|مؤتمر|تصريحات|نسائ|سيدات|live\b|بث مباشر", re.I)
 STOP = {"fc", "cf", "club", "afc", "sc", "ac", "al", "de", "the", "city", "united", "real", "manchester", "sporting", "saint", "borussia", "olympique", "athletic", "atletico", "inter", "san", "st"}
@@ -87,7 +87,7 @@ videos = []
 if todo:
     for handle, must in CHANNELS:
         try:
-            c = api("channels", part="snippet,statistics,contentDetails", forHandle="@" + handle).get("items") or []
+            c = (api("channels", part="snippet,statistics,contentDetails", id=handle) if handle.startswith("UC") else api("channels", part="snippet,statistics,contentDetails", forHandle=handle)).get("items") or []
             if not c: continue
             c = c[0]; title = c["snippet"]["title"]; subs = int(c["statistics"].get("subscriberCount", 0))
             if must not in title.lower() or subs < 100000:
