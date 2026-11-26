@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T11:50:11+03:00",
- "ts": 1795683011,
+ "updated": "2026-11-26T12:00:16+03:00",
+ "ts": 1795683616,
  "matches": [
   {
    "id": 1622807,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": []
   },
@@ -52,11 +52,20 @@
    "hl": "https://media.api-sports.io/football/teams/15809.png",
    "al": "https://media.api-sports.io/football/teams/28720.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1650712,
@@ -68,7 +77,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": []
   },
@@ -82,7 +91,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -103,11 +112,28 @@
    "hl": "https://media.api-sports.io/football/teams/3811.png",
    "al": "https://media.api-sports.io/football/teams/3808.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-26T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   }
  ]
 }
