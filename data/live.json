@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T20:00:26+03:00",
- "ts": 1795712426,
+ "updated": "2026-11-26T20:10:22+03:00",
+ "ts": 1795713022,
  "matches": [
   {
    "id": 1563678,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 38,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": []
   },
@@ -46,78 +46,16 @@
    "away": "Al Rayyan SC B",
    "hl": "https://media.api-sports.io/football/teams/2899.png",
    "al": "https://media.api-sports.io/football/teams/2909.png",
-   "gh": 1,
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": [
     {
      "m": 30,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1636435,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Kairat Almaty",
-   "away": "Mjallby AIF",
-   "hl": "https://media.api-sports.io/football/teams/664.png",
-   "al": "https://media.api-sports.io/football/teams/2240.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 74,
-   "time": "2026-11-26T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Erkin Tapalov"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luis Mata"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Viktor Gustafson"
-    }
-   ]
-  },
-  {
-   "id": 1645705,
-   "league": "Syria - Premier League",
-   "home": "Tishreen",
-   "away": "Wathba",
-   "hl": "https://media.api-sports.io/football/teams/9117.png",
-   "al": "https://media.api-sports.io/football/teams/9118.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -133,8 +71,8 @@
    "al": "https://media.api-sports.io/football/teams/20991.png",
    "gh": 4,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -188,8 +126,8 @@
    "al": "https://media.api-sports.io/football/teams/12518.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -210,9 +148,9 @@
    "hl": "https://media.api-sports.io/football/teams/2011.png",
    "al": "https://media.api-sports.io/football/teams/3984.png",
    "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -238,6 +176,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Nikolay Ishchenko"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kirill Nikitin"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Maksim Kriushichev"
     }
    ]
   },
@@ -250,12 +212,12 @@
    "al": "https://media.api-sports.io/football/teams/20291.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
-     "m": 37,
+     "m": 38,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -273,8 +235,8 @@
    "al": "https://media.api-sports.io/football/teams/19485.png",
    "gh": 3,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -312,8 +274,8 @@
    "al": "https://media.api-sports.io/football/teams/28320.png",
    "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -331,6 +293,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Kisiriko"
+    }
+   ]
+  },
+  {
+   "id": 1636435,
+   "league": "World - UEFA Europa Conference League",
+   "home": "Kairat Almaty",
+   "away": "Mjallby AIF",
+   "hl": "https://media.api-sports.io/football/teams/664.png",
+   "al": "https://media.api-sports.io/football/teams/2240.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 84,
+   "time": "2026-11-26T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Erkin Tapalov"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luis Mata"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Viktor Gustafson"
     }
    ]
   }
