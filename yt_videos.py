@@ -20,6 +20,7 @@ STOP = {"fc", "cf", "club", "afc", "sc", "ac", "al", "de", "the", "city", "unite
 ALIAS = {"manchester united": ["man united", "man utd"], "manchester city": ["man city"], "tottenham": ["spurs"], "paris saint germain": ["psg", "paris sg"],
          "atletico madrid": ["atletico", "atleti"], "inter": ["inter milan", "internazionale"], "bayern munich": ["bayern"], "newcastle": ["newcastle"],
          "real madrid": ["real madrid"], "borussia dortmund": ["dortmund"], "al nassr": ["nassr"], "al hilal": ["hilal"], "al ittihad": ["ittihad"], "al ahli": ["ahli"]}
+AR = {"al hilal": "الهلال", "al nassr": "النصر", "al ittihad": "الاتحاد", "al ahli": "الأهلي", "real madrid": "ريال مدريد", "barcelona": "برشلونة"}
 
 def norm(s):
     s = unicodedata.normalize("NFKD", s or "")
@@ -41,13 +42,13 @@ def keys(team):
     out = {n} | set(ALIAS.get(n, []))
     toks = [t for t in n.split() if t not in STOP and len(t) >= 4]
     out |= set(toks)
-    ar = ar_names.get(team)
+    ar = ar_names.get(team) or AR.get(n)
     if ar: out.add(norm(ar)); out |= {t for t in norm(ar).split() if len(t) >= 4 and t not in ("الاتحاد", "نادي")}
     return {k for k in out if k}
 
 def has(title, team):
     t = " " + norm(title) + " "
-    return any(" " + k + " " in t for k in keys(team))
+    return any((k in t) if re.search(r"[\u0600-\u06ff]", k) else (" " + k + " " in t) for k in keys(team))
 
 # ---- المباريات المرشحة: تقارير ومعاينات (مباريات قوية فقط) ----
 st = json.load(open(D("seo_state.json"), encoding="utf-8"))
