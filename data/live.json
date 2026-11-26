@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T06:20:25+03:00",
- "ts": 1795663225,
+ "updated": "2026-11-26T06:30:28+03:00",
+ "ts": 1795663828,
  "matches": [
   {
    "id": 1651503,
@@ -12,9 +12,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-26T03:10:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Ricardo Chávez"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Ricardo Chávez"
+    }
+   ]
   },
   {
    "id": 1559702,
@@ -23,10 +40,10 @@
    "away": "Aurora",
    "hl": "https://media.api-sports.io/football/teams/3665.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -76,149 +93,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "J. Martinez"
-    }
-   ]
-  },
-  {
-   "id": 1650516,
-   "league": "Colombia - Primera A",
-   "home": "Atletico Nacional",
-   "away": "Independiente Medellin",
-   "hl": "https://media.api-sports.io/football/teams/1137.png",
-   "al": "https://media.api-sports.io/football/teams/1128.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T01:30:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jorman Campuzano"
     },
     {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Keiner David Klinger Vasquez"
-    },
-    {
-     "m": 31,
+     "m": 62,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "William Tesillo"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alfonso Simarra Valdez"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Jeison Medina"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Jeison Medina"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Eder Chaux"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Léider Berrío"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Elías Cabrera"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Agustín Martegani"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Elías Cabrera"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Quintero"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Neider Parra"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alfredo Morelos"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joaquin Varela"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "William Tesillo"
+     "p": "R. Barrientos"
     }
    ]
   },
@@ -232,7 +114,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": []
   }
