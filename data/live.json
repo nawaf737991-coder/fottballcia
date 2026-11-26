@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T05:20:23+03:00",
- "ts": 1795659623,
+ "updated": "2026-11-26T05:22:55+03:00",
+ "ts": 1795659775,
  "matches": [
   {
    "id": 1559702,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 18,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -26,93 +26,6 @@
    ]
   },
   {
-   "id": 1650516,
-   "league": "Colombia - Primera A",
-   "home": "Atletico Nacional",
-   "away": "Independiente Medellin",
-   "hl": "https://media.api-sports.io/football/teams/1137.png",
-   "al": "https://media.api-sports.io/football/teams/1128.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T01:30:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jorman Campuzano"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Keiner David Klinger Vasquez"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "William Tesillo"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alfonso Simarra Valdez"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Jeison Medina"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Jeison Medina"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Eder Chaux"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Elías Cabrera"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Léider Berrío"
-    }
-   ]
-  },
-  {
    "id": 1651498,
    "league": "El-Salvador - Primera Division",
    "home": "Inter",
@@ -122,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 20,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": []
   },
@@ -136,7 +49,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 53,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -207,7 +120,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 63,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -230,7 +143,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 61,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -274,10 +187,10 @@
    "away": "Rancho Santana",
    "hl": "https://media.api-sports.io/football/teams/4645.png",
    "al": "https://media.api-sports.io/football/teams/24510.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 65,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -290,6 +203,14 @@
     },
     {
      "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 62,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -308,7 +229,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 62,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -342,6 +263,93 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1650516,
+   "league": "Colombia - Primera A",
+   "home": "Atletico Nacional",
+   "away": "Independiente Medellin",
+   "hl": "https://media.api-sports.io/football/teams/1137.png",
+   "al": "https://media.api-sports.io/football/teams/1128.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T01:30:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jorman Campuzano"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Keiner David Klinger Vasquez"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "William Tesillo"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alfonso Simarra Valdez"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
+     "p": "Jeison Medina"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Jeison Medina"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eder Chaux"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Elías Cabrera"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Léider Berrío"
     }
    ]
   }
