@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T19:30:27+03:00",
- "ts": 1795710627,
+ "updated": "2026-11-26T19:40:10+03:00",
+ "ts": 1795711210,
  "matches": [
   {
    "id": 1546189,
@@ -9,10 +9,10 @@
    "away": "Cuba U17",
    "hl": "https://media.api-sports.io/football/teams/17945.png",
    "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Toni Ruso"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Izak Ježić"
     }
    ]
   },
@@ -41,10 +49,33 @@
    "hl": "https://media.api-sports.io/football/teams/12521.png",
    "al": "https://media.api-sports.io/football/teams/12518.png",
    "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 41,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sidy Ndiaye"
+    }
+   ]
+  },
+  {
+   "id": 1563678,
+   "league": "Russia - Cup",
+   "home": "Dynamo",
+   "away": "Fakel",
+   "hl": "https://media.api-sports.io/football/teams/1088.png",
+   "al": "https://media.api-sports.io/football/teams/1993.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
-   "time": "2026-11-26T16:00:00+00:00",
+   "minute": 6,
+   "time": "2026-11-26T16:30:00+00:00",
    "ev": []
   },
   {
@@ -54,10 +85,10 @@
    "away": "Tekstilshchik",
    "hl": "https://media.api-sports.io/football/teams/2011.png",
    "al": "https://media.api-sports.io/football/teams/3984.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 39,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -67,8 +98,44 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gleb Popolitov"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vyacheslav Grulev"
     }
    ]
+  },
+  {
+   "id": 1606564,
+   "league": "Qatar - Second Division",
+   "home": "Al Mesaimeer",
+   "away": "Qatar U23",
+   "hl": "https://media.api-sports.io/football/teams/2915.png",
+   "al": "https://media.api-sports.io/football/teams/10954.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T16:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1606566,
+   "league": "Qatar - Second Division",
+   "home": "UMM Salal",
+   "away": "Al Rayyan SC B",
+   "hl": "https://media.api-sports.io/football/teams/2899.png",
+   "al": "https://media.api-sports.io/football/teams/2909.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1621398,
@@ -77,12 +144,21 @@
    "away": "Maccabi K. Ata Bialik",
    "hl": "https://media.api-sports.io/football/teams/4487.png",
    "al": "https://media.api-sports.io/football/teams/20291.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Rayan"
+    }
+   ]
   },
   {
    "id": 1629135,
@@ -91,10 +167,10 @@
    "away": "Mombasa Elite",
    "hl": "https://media.api-sports.io/football/teams/2467.png",
    "al": "https://media.api-sports.io/football/teams/19485.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -104,6 +180,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Assifuah"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -117,7 +201,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
@@ -145,10 +229,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/21449.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 6,
+   "gh": 7,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 82,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -206,6 +290,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Zhang Junhao"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Wan Xiang"
     }
    ]
   },
@@ -219,7 +311,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -269,61 +361,14 @@
      "t": "Var",
      "d": "Goal confirmed",
      "p": "Guillermo Trujillano"
-    }
-   ]
-  },
-  {
-   "id": 1602568,
-   "league": "Romania - Liga II",
-   "home": "Gloria Bistriţa",
-   "away": "Slatina",
-   "hl": "https://media.api-sports.io/football/teams/22824.png",
-   "al": "https://media.api-sports.io/football/teams/6898.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T14:45:00+00:00",
-   "ev": [
+    },
     {
-     "m": 6,
+     "m": 75,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Mihaiu"
-    },
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Owen Mira Emeka"
     }
    ]
   },
@@ -337,7 +382,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 76,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": [
     {
@@ -387,6 +432,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Mamadou Thierno Barry"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Ricardo Mathias"
     }
    ]
   },
@@ -400,9 +453,32 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1636435,
+   "league": "World - UEFA Europa Conference League",
+   "home": "Kairat Almaty",
+   "away": "Mjallby AIF",
+   "hl": "https://media.api-sports.io/football/teams/664.png",
+   "al": "https://media.api-sports.io/football/teams/2240.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-26T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Erkin Tapalov"
+    }
+   ]
   },
   {
    "id": 1643381,
@@ -414,7 +490,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -432,6 +508,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Al Harahsheh"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "M. Al Eikish"
     }
    ]
   },
@@ -445,32 +529,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1636435,
-   "league": "World - UEFA Europa Conference League",
-   "home": "Kairat Almaty",
-   "away": "Mjallby AIF",
-   "hl": "https://media.api-sports.io/football/teams/664.png",
-   "al": "https://media.api-sports.io/football/teams/2240.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Erkin Tapalov"
-    }
-   ]
   }
  ]
 }
