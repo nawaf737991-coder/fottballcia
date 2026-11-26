@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T02:10:25+03:00",
- "ts": 1795734625,
+ "updated": "2026-11-27T02:20:29+03:00",
+ "ts": 1795735229,
  "matches": [
   {
    "id": 1492478,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": []
   },
@@ -26,40 +26,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1651123,
-   "league": "Paraguay - Copa Paraguay",
-   "home": "Cerro Porteno",
-   "away": "Libertad Asuncion",
-   "hl": "https://media.api-sports.io/football/teams/1176.png",
-   "al": "https://media.api-sports.io/football/teams/1179.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Martinez"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. R. Vera"
-    }
-   ]
   },
   {
    "id": 1650552,
@@ -71,7 +40,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -105,6 +74,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Sanchez"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Lara"
     }
    ]
   },
@@ -118,7 +95,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -146,10 +123,10 @@
    "away": "Guarani De Juazeiro",
    "hl": "https://media.api-sports.io/football/teams/18799.png",
    "al": "https://media.api-sports.io/football/teams/1216.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -167,6 +144,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kaio Castro"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -180,7 +165,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -190,6 +175,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Paterson"
+    }
+   ]
+  },
+  {
+   "id": 1651123,
+   "league": "Paraguay - Copa Paraguay",
+   "home": "Cerro Porteno",
+   "away": "Libertad Asuncion",
+   "hl": "https://media.api-sports.io/football/teams/1176.png",
+   "al": "https://media.api-sports.io/football/teams/1179.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Martinez"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. R. Vera"
     }
    ]
   }
