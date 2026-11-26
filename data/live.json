@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T06:40:12+03:00",
- "ts": 1795664412,
+ "updated": "2026-11-26T06:50:22+03:00",
+ "ts": 1795665022,
  "matches": [
   {
    "id": 1651503,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-26T03:10:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -119,10 +119,10 @@
    "away": "Águila",
    "hl": "https://media.api-sports.io/football/teams/26154.png",
    "al": "https://media.api-sports.io/football/teams/4310.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -130,8 +130,16 @@
      "x": null,
      "s": "h",
      "t": "Goal",
+     "d": "Penalty",
+     "p": "E. Mauricio"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "M. Hernandez"
     }
    ]
   }
