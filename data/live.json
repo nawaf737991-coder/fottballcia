@@ -1,53 +1,20 @@
 {
- "updated": "2026-11-26T03:50:23+03:00",
- "ts": 1795654223,
+ "updated": "2026-11-26T04:00:26+03:00",
+ "ts": 1795654826,
  "matches": [
   {
-   "id": 1649565,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Boca Juniors",
-   "away": "Independ. Rivadavia",
-   "hl": "https://media.api-sports.io/football/teams/451.png",
-   "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": 1,
+   "id": 1651513,
+   "league": "Nicaragua - Primera Division",
+   "home": "Real Estelí",
+   "away": "Rancho Santana",
+   "hl": "https://media.api-sports.io/football/teams/4645.png",
+   "al": "https://media.api-sports.io/football/teams/24510.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Sebastián Villa"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Leandro Paredes"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Arce"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leandro Lozano"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-26T01:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1492461,
@@ -56,10 +23,10 @@
    "away": "Corinthians",
    "hl": "https://media.api-sports.io/football/teams/1062.png",
    "al": "https://media.api-sports.io/football/teams/131.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -109,93 +76,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Tomás Pérez"
-    }
-   ]
-  },
-  {
-   "id": 1650231,
-   "league": "Bolivia - Copa de la División Profesional",
-   "home": "Real Potosí",
-   "away": "Always Ready",
-   "hl": "https://media.api-sports.io/football/teams/3708.png",
-   "al": "https://media.api-sports.io/football/teams/3700.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-25T23:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 6,
+     "m": 85,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "C. Rodriguez"
+     "p": "Pedro Milans"
     },
     {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Godoy"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "P. Godoy"
-    },
-    {
-     "m": 41,
-     "x": null,
+     "m": 90,
+     "x": 2,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Villegas"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Alipaz"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Torrico"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal Disallowed - Foul",
-     "p": "C. Rodriguez"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Lima"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Anasgo"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tomás Cuello"
     }
    ]
   },
@@ -209,7 +105,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-25T23:20:00+00:00",
    "ev": [
     {
@@ -259,6 +155,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Emanuel Olivera"
+    }
+   ]
+  },
+  {
+   "id": 1649565,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Boca Juniors",
+   "away": "Independ. Rivadavia",
+   "hl": "https://media.api-sports.io/football/teams/451.png",
+   "al": "https://media.api-sports.io/football/teams/473.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Sebastián Villa"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Leandro Paredes"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Arce"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leandro Lozano"
     }
    ]
   }
