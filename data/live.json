@@ -1,7 +1,49 @@
 {
- "updated": "2026-11-26T04:00:26+03:00",
- "ts": 1795654826,
+ "updated": "2026-11-26T04:10:15+03:00",
+ "ts": 1795655415,
  "matches": [
+  {
+   "id": 1639789,
+   "league": "Ecuador - Liga Pro",
+   "home": "Barcelona SC",
+   "away": "Independiente del Valle",
+   "hl": "https://media.api-sports.io/football/teams/1152.png",
+   "al": "https://media.api-sports.io/football/teams/1153.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-26T00:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651499,
+   "league": "El-Salvador - Primera Division",
+   "home": "Platense",
+   "away": "FAS",
+   "hl": "https://media.api-sports.io/football/teams/19763.png",
+   "al": "https://media.api-sports.io/football/teams/4302.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-26T01:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651505,
+   "league": "Mexico - Liga MX",
+   "home": "Toluca",
+   "away": "Atlas",
+   "hl": "https://media.api-sports.io/football/teams/2281.png",
+   "al": "https://media.api-sports.io/football/teams/2283.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T01:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1651513,
    "league": "Nicaragua - Primera Division",
@@ -12,86 +54,68 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1492461,
-   "league": "Brazil - Serie A",
-   "home": "Atletico-MG",
-   "away": "Corinthians",
-   "hl": "https://media.api-sports.io/football/teams/1062.png",
-   "al": "https://media.api-sports.io/football/teams/131.png",
+   "id": 1651514,
+   "league": "Nicaragua - Primera Division",
+   "home": "Managua",
+   "away": "Walter Ferretti",
+   "hl": "https://media.api-sports.io/football/teams/4644.png",
+   "al": "https://media.api-sports.io/football/teams/4648.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T01:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649565,
+   "league": "Argentina - Liga Profesional Argentina",
+   "home": "Boca Juniors",
+   "away": "Independ. Rivadavia",
+   "hl": "https://media.api-sports.io/football/teams/451.png",
+   "al": "https://media.api-sports.io/football/teams/473.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T23:00:00+00:00",
+   "minute": 49,
+   "time": "2026-11-26T00:00:00+00:00",
    "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Sebastián Villa"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Leandro Paredes"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Arce"
+    },
     {
      "m": 36,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Ruan Tressoldi"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Thiago Borbas"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Thiago Borbas"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kaio César"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alexsander Cristhian Gomes da Costa"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tomás Pérez"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Milans"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tomás Cuello"
+     "p": "Leandro Lozano"
     }
    ]
   },
@@ -102,10 +126,10 @@
    "away": "Once Caldas",
    "hl": "https://media.api-sports.io/football/teams/1139.png",
    "al": "https://media.api-sports.io/football/teams/1136.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-25T23:20:00+00:00",
    "ev": [
     {
@@ -155,53 +179,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Emanuel Olivera"
-    }
-   ]
-  },
-  {
-   "id": 1649565,
-   "league": "Argentina - Liga Profesional Argentina",
-   "home": "Boca Juniors",
-   "away": "Independ. Rivadavia",
-   "hl": "https://media.api-sports.io/football/teams/451.png",
-   "al": "https://media.api-sports.io/football/teams/473.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Sebastián Villa"
     },
     {
-     "m": 18,
+     "m": 79,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Penalty",
-     "p": "Leandro Paredes"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Arce"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leandro Lozano"
+     "d": "Normal Goal",
+     "p": "Hugo Rodallega"
     }
    ]
   }
