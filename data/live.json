@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T13:00:17+03:00",
- "ts": 1795687217,
+ "updated": "2026-11-26T13:10:17+03:00",
+ "ts": 1795687817,
  "matches": [
   {
    "id": 1507259,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/10015.png",
    "al": "https://media.api-sports.io/football/teams/10016.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Chumburidze"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Esonkulov"
     }
    ]
   },
@@ -35,7 +43,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -69,6 +77,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. Gvasalia"
+    },
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Jangidze"
     }
    ]
   },
@@ -82,7 +98,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -91,7 +107,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Z. Sekhniashvili"
     },
     {
      "m": 23,
@@ -99,6 +115,66 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Z. Sikharulia"
+    }
+   ]
+  },
+  {
+   "id": 1630414,
+   "league": "World - AFC Champions League Two",
+   "home": "Gangwon FC",
+   "away": "Kitchee",
+   "hl": "https://media.api-sports.io/football/teams/2746.png",
+   "al": "https://media.api-sports.io/football/teams/4453.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Everton Camargo"
+    }
+   ]
+  },
+  {
+   "id": 1630415,
+   "league": "World - AFC Champions League Two",
+   "home": "Kuching FA",
+   "away": "Phnom Penh Crown",
+   "hl": "https://media.api-sports.io/football/teams/10108.png",
+   "al": "https://media.api-sports.io/football/teams/5394.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630416,
+   "league": "World - AFC Champions League Two",
+   "home": "Tampines Rovers",
+   "away": "Shanghai Shenhua",
+   "hl": "https://media.api-sports.io/football/teams/4206.png",
+   "al": "https://media.api-sports.io/football/teams/833.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -111,11 +187,57 @@
    "hl": "https://media.api-sports.io/football/teams/4222.png",
    "al": "https://media.api-sports.io/football/teams/23309.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-26T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Bahodirov"
+    }
+   ]
+  },
+  {
+   "id": 1527769,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Parvoz",
+   "away": "CSKA Pomir",
+   "hl": "https://media.api-sports.io/football/teams/12271.png",
+   "al": "https://media.api-sports.io/football/teams/12261.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 51,
+   "time": "2026-11-26T09:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1527771,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Regar-TadAZ",
+   "away": "Sardor Tursunzoda",
+   "hl": "https://media.api-sports.io/football/teams/12268.png",
+   "al": "https://media.api-sports.io/football/teams/27266.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1622807,
@@ -125,9 +247,9 @@
    "hl": "https://media.api-sports.io/football/teams/2442.png",
    "al": "https://media.api-sports.io/football/teams/4244.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -176,7 +298,15 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "K. Teguh"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Ramalingom"
     }
    ]
   },
@@ -188,9 +318,9 @@
    "hl": "https://media.api-sports.io/football/teams/28709.png",
    "al": "https://media.api-sports.io/football/teams/28714.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -208,6 +338,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Muis"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -218,10 +356,10 @@
    "away": "Persibangga Purbalingga",
    "hl": "https://media.api-sports.io/football/teams/15800.png",
    "al": "https://media.api-sports.io/football/teams/15810.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -231,6 +369,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "U. Ahmad Raihan"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -244,7 +390,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -275,7 +421,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -298,7 +444,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -329,7 +475,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -351,43 +497,6 @@
     {
      "m": 45,
      "x": 14,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1527769,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Parvoz",
-   "away": "CSKA Pomir",
-   "hl": "https://media.api-sports.io/football/teams/12271.png",
-   "al": "https://media.api-sports.io/football/teams/12261.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T09:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1527771,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Regar-TadAZ",
-   "away": "Sardor Tursunzoda",
-   "hl": "https://media.api-sports.io/football/teams/12268.png",
-   "al": "https://media.api-sports.io/football/teams/27266.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
