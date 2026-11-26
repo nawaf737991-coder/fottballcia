@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T18:10:16+03:00",
- "ts": 1795705816,
+ "updated": "2026-11-26T18:20:20+03:00",
+ "ts": 1795706420,
  "matches": [
   {
    "id": 1546186,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Zhao Songyuan"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Wan Xiang"
     }
    ]
   },
@@ -33,9 +41,9 @@
    "hl": "https://media.api-sports.io/football/teams/21302.png",
    "al": "https://media.api-sports.io/football/teams/12520.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -45,6 +53,22 @@
      "t": "Var",
      "d": "Card upgrade confirmed",
      "p": "Ismail El Aoud"
+    },
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ismail El Aoud"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ebrima Tunkara"
     }
    ]
   },
@@ -58,7 +82,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-26T14:45:00+00:00",
    "ev": [
     {
@@ -71,6 +95,14 @@
     },
     {
      "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 35,
      "x": null,
      "s": "h",
      "t": "Card",
@@ -89,56 +121,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1603084,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Al-Fateh",
-   "away": "Al Riyadh",
-   "hl": "https://media.api-sports.io/football/teams/2931.png",
-   "al": "https://media.api-sports.io/football/teams/10511.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 44,
-   "time": "2026-11-26T14:25:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kennedy Boateng"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Awad Dahal"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Montadhar Al Shqaq"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hussain Qasim"
-    }
-   ]
   },
   {
    "id": 1630471,
@@ -150,7 +135,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -164,7 +149,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -178,7 +163,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -192,7 +177,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -271,7 +256,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -329,6 +314,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "thomas corigliano"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Abubakir Rakhimov"
     }
    ]
   },
@@ -342,7 +335,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -352,6 +345,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Victor Parada"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Christopher Wooh"
     }
    ]
   },
@@ -362,12 +363,21 @@
    "away": "Arsenal Tula",
    "hl": "https://media.api-sports.io/football/teams/1084.png",
    "al": "https://media.api-sports.io/football/teams/1077.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T14:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 54,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1526253,
@@ -397,6 +407,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1603084,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Al-Fateh",
+   "away": "Al Riyadh",
+   "hl": "https://media.api-sports.io/football/teams/2931.png",
+   "al": "https://media.api-sports.io/football/teams/10511.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T14:25:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kennedy Boateng"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Awad Dahal"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Montadhar Al Shqaq"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hussain Qasim"
     }
    ]
   },
