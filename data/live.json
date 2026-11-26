@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T03:20:12+03:00",
- "ts": 1795652412,
+ "updated": "2026-11-26T03:30:15+03:00",
+ "ts": 1795653015,
  "matches": [
   {
    "id": 1649565,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -64,9 +64,9 @@
    "hl": "https://media.api-sports.io/football/teams/3708.png",
    "al": "https://media.api-sports.io/football/teams/3700.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-25T23:00:00+00:00",
    "ev": [
     {
@@ -108,53 +108,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Alipaz"
-    }
-   ]
-  },
-  {
-   "id": 1651653,
-   "league": "Venezuela - Copa Venezuela",
-   "home": "Deportivo Tachira FC",
-   "away": "Carabobo FC",
-   "hl": "https://media.api-sports.io/football/teams/2807.png",
-   "al": "https://media.api-sports.io/football/teams/2810.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-25T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Penaranda"
     },
     {
-     "m": 35,
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Torrico"
+    },
+    {
+     "m": 68,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "M. Nunez"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Provenzano"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Provenzano"
+     "p": "C. Rodriguez"
     }
    ]
   },
@@ -167,8 +136,8 @@
    "al": "https://media.api-sports.io/football/teams/1136.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-25T23:20:00+00:00",
    "ev": [
     {
@@ -202,6 +171,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Pablo Eduardo Repetto Aquino"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Daniel Torres"
     }
    ]
   }
