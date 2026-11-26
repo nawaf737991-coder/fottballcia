@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-26T12:20:21+03:00",
- "ts": 1795684821,
+ "updated": "2026-11-26T12:30:23+03:00",
+ "ts": 1795685423,
  "matches": [
+  {
+   "id": 1507260,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Gareji",
+   "away": "Samtredia",
+   "hl": "https://media.api-sports.io/football/teams/14860.png",
+   "al": "https://media.api-sports.io/football/teams/581.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-26T09:30:00+00:00",
+   "ev": []
+  },
   {
    "id": 1527769,
    "league": "Tajikistan - Vysshaya Liga",
@@ -12,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T09:00:00+00:00",
    "ev": []
   },
@@ -26,7 +40,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T09:00:00+00:00",
    "ev": [
     {
@@ -36,29 +50,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1650817,
-   "league": "Indonesia - Liga Nusantara",
-   "home": "Persekabpas Pasuruan",
-   "away": "Ngada",
-   "hl": "https://media.api-sports.io/football/teams/15803.png",
-   "al": "https://media.api-sports.io/football/teams/28710.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Rifki"
     }
    ]
   },
@@ -214,6 +205,29 @@
    "minute": 45,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1650817,
+   "league": "Indonesia - Liga Nusantara",
+   "home": "Persekabpas Pasuruan",
+   "away": "Ngada",
+   "hl": "https://media.api-sports.io/football/teams/15803.png",
+   "al": "https://media.api-sports.io/football/teams/28710.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Rifki"
+    }
+   ]
   }
  ]
 }
