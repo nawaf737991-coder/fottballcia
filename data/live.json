@@ -1,69 +1,7 @@
 {
- "updated": "2026-11-26T19:40:10+03:00",
- "ts": 1795711210,
+ "updated": "2026-11-26T19:50:17+03:00",
+ "ts": 1795711817,
  "matches": [
-  {
-   "id": 1546189,
-   "league": "World - World Cup - U17",
-   "home": "Croatia U17",
-   "away": "Cuba U17",
-   "hl": "https://media.api-sports.io/football/teams/17945.png",
-   "al": "https://media.api-sports.io/football/teams/20991.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-26T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Toni Ruso"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Toni Ruso"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Izak Ježić"
-    }
-   ]
-  },
-  {
-   "id": 1546202,
-   "league": "World - World Cup - U17",
-   "home": "Tajikistan U17",
-   "away": "Senegal U17",
-   "hl": "https://media.api-sports.io/football/teams/12521.png",
-   "al": "https://media.api-sports.io/football/teams/12518.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-26T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sidy Ndiaye"
-    }
-   ]
-  },
   {
    "id": 1563678,
    "league": "Russia - Cup",
@@ -74,38 +12,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 17,
    "time": "2026-11-26T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1577598,
-   "league": "Russia - First League",
-   "home": "Nizhny Novgorod",
-   "away": "Tekstilshchik",
-   "hl": "https://media.api-sports.io/football/teams/2011.png",
-   "al": "https://media.api-sports.io/football/teams/3984.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
-     "m": 9,
+     "m": 15,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gleb Popolitov"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Vyacheslav Grulev"
+     "p": null
     }
    ]
   },
@@ -119,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": []
   },
@@ -133,92 +49,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T16:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1621398,
-   "league": "Israel - Liga Alef",
-   "home": "Hapoel Nazareth Illit",
-   "away": "Maccabi K. Ata Bialik",
-   "hl": "https://media.api-sports.io/football/teams/4487.png",
-   "al": "https://media.api-sports.io/football/teams/20291.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-26T16:00:00+00:00",
    "ev": [
     {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Rayan"
-    }
-   ]
-  },
-  {
-   "id": 1629135,
-   "league": "Kenya - FKF Premier League",
-   "home": "GOR Mahia",
-   "away": "Mombasa Elite",
-   "hl": "https://media.api-sports.io/football/teams/2467.png",
-   "al": "https://media.api-sports.io/football/teams/19485.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Assifuah"
-    },
-    {
-     "m": 31,
+     "m": 16,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1635340,
-   "league": "Uganda - Premier League",
-   "home": "URA",
-   "away": "Kigezi HomeBoyz",
-   "hl": "https://media.api-sports.io/football/teams/12459.png",
-   "al": "https://media.api-sports.io/football/teams/28320.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Sekibengo"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Kisiriko"
     }
    ]
   },
@@ -229,10 +69,10 @@
    "away": "Fiji U17",
    "hl": "https://media.api-sports.io/football/teams/21449.png",
    "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 7,
+   "gh": 8,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -298,6 +138,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Wan Xiang"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Liang Shiyu"
     }
    ]
   },
@@ -311,7 +159,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": [
     {
@@ -382,7 +230,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 87,
    "time": "2026-11-26T15:05:00+00:00",
    "ev": [
     {
@@ -453,7 +301,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
   },
@@ -467,7 +315,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 64,
    "time": "2026-11-26T15:30:00+00:00",
    "ev": [
     {
@@ -477,45 +325,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Erkin Tapalov"
-    }
-   ]
-  },
-  {
-   "id": 1643381,
-   "league": "Jordan - League",
-   "home": "Al Buqa'a",
-   "away": "Al Jazeera",
-   "hl": "https://media.api-sports.io/football/teams/4530.png",
-   "al": "https://media.api-sports.io/football/teams/4533.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 83,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Bakheet"
     },
     {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Al Harahsheh"
-    },
-    {
-     "m": 74,
+     "m": 55,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": "M. Al Eikish"
+     "d": "Yellow Card",
+     "p": "Luis Mata"
     }
    ]
   },
@@ -529,9 +346,219 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-26T15:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1546189,
+   "league": "World - World Cup - U17",
+   "home": "Croatia U17",
+   "away": "Cuba U17",
+   "hl": "https://media.api-sports.io/football/teams/17945.png",
+   "al": "https://media.api-sports.io/football/teams/20991.png",
+   "gh": 4,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Toni Ruso"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Toni Ruso"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Izak Ježić"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Yojanny González"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vito Jakovljevic"
+    }
+   ]
+  },
+  {
+   "id": 1546202,
+   "league": "World - World Cup - U17",
+   "home": "Tajikistan U17",
+   "away": "Senegal U17",
+   "hl": "https://media.api-sports.io/football/teams/12521.png",
+   "al": "https://media.api-sports.io/football/teams/12518.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sidy Ndiaye"
+    }
+   ]
+  },
+  {
+   "id": 1577598,
+   "league": "Russia - First League",
+   "home": "Nizhny Novgorod",
+   "away": "Tekstilshchik",
+   "hl": "https://media.api-sports.io/football/teams/2011.png",
+   "al": "https://media.api-sports.io/football/teams/3984.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gleb Popolitov"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Vyacheslav Grulev"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nikolay Ishchenko"
+    }
+   ]
+  },
+  {
+   "id": 1621398,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Nazareth Illit",
+   "away": "Maccabi K. Ata Bialik",
+   "hl": "https://media.api-sports.io/football/teams/4487.png",
+   "al": "https://media.api-sports.io/football/teams/20291.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Rayan"
+    }
+   ]
+  },
+  {
+   "id": 1629135,
+   "league": "Kenya - FKF Premier League",
+   "home": "GOR Mahia",
+   "away": "Mombasa Elite",
+   "hl": "https://media.api-sports.io/football/teams/2467.png",
+   "al": "https://media.api-sports.io/football/teams/19485.png",
+   "gh": 3,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Assifuah"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Musa"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1635340,
+   "league": "Uganda - Premier League",
+   "home": "URA",
+   "away": "Kigezi HomeBoyz",
+   "hl": "https://media.api-sports.io/football/teams/12459.png",
+   "al": "https://media.api-sports.io/football/teams/28320.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Sekibengo"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Kisiriko"
+    }
+   ]
   }
  ]
 }
