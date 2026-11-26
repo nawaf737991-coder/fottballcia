@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T01:30:12+03:00",
- "ts": 1795732212,
+ "updated": "2026-11-27T01:40:16+03:00",
+ "ts": 1795732816,
  "matches": [
   {
    "id": 1650552,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/2333.png",
    "al": "https://media.api-sports.io/football/teams/5644.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. San Martin"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Carvajal"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Sanchez"
+    }
+   ]
+  },
+  {
+   "id": 1651123,
+   "league": "Paraguay - Copa Paraguay",
+   "home": "Cerro Porteno",
+   "away": "Libertad Asuncion",
+   "hl": "https://media.api-sports.io/football/teams/1176.png",
+   "al": "https://media.api-sports.io/football/teams/1179.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -40,14 +79,22 @@
    "away": "Gimnasia Mendoza 2",
    "hl": "https://media.api-sports.io/football/teams/18689.png",
    "al": "https://media.api-sports.io/football/teams/27272.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
      "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 31,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -66,7 +113,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": [
     {
@@ -83,7 +130,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "C. Kaio"
+     "p": "Kaio Castro"
     }
    ]
   },
@@ -97,7 +144,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T22:00:00+00:00",
    "ev": []
   },
@@ -111,7 +158,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-26T21:00:00+00:00",
    "ev": [
     {
