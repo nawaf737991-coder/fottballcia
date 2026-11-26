@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T23:20:28+03:00",
- "ts": 1795724428,
+ "updated": "2026-11-26T23:30:29+03:00",
+ "ts": 1795725029,
  "matches": [
   {
    "id": 1564429,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/1354.png",
    "al": "https://media.api-sports.io/football/teams/37.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bali Mumba"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Joe Taylor"
     }
    ]
   },
@@ -43,7 +51,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -57,7 +65,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -71,7 +79,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -94,7 +102,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -125,9 +133,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1636301,
@@ -136,10 +153,10 @@
    "away": "Rennes",
    "hl": "https://media.api-sports.io/football/teams/413.png",
    "al": "https://media.api-sports.io/football/teams/94.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -149,6 +166,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Deveron Fonville"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bryan Linssen"
     }
    ]
   },
@@ -160,9 +185,9 @@
    "hl": "https://media.api-sports.io/football/teams/1124.png",
    "al": "https://media.api-sports.io/football/teams/554.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -172,6 +197,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Konstantinos Kostoulas"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tawfik Bentayeb"
     }
    ]
   },
@@ -182,10 +215,10 @@
    "away": "AZ Alkmaar",
    "hl": "https://media.api-sports.io/football/teams/628.png",
    "al": "https://media.api-sports.io/football/teams/201.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -195,6 +228,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jonatan Braut Brunes"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Patrik Vydra"
     }
    ]
   },
@@ -208,7 +249,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -219,10 +260,10 @@
    "away": "Celtic",
    "hl": "https://media.api-sports.io/football/teams/4799.png",
    "al": "https://media.api-sports.io/football/teams/247.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -232,6 +273,14 @@
      "t": "Goal",
      "d": "Own Goal",
      "p": "Javi Vazquez"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Dany Jean"
     }
    ]
   },
@@ -242,10 +291,10 @@
    "away": "Atalanta",
    "hl": "https://media.api-sports.io/football/teams/3364.png",
    "al": "https://media.api-sports.io/football/teams/499.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -255,6 +304,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bart Meijers"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luka Juricic"
     }
    ]
   },
@@ -268,7 +325,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -291,7 +348,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -314,7 +371,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -334,10 +391,10 @@
    "away": "FK Crvena Zvezda",
    "hl": "https://media.api-sports.io/football/teams/631.png",
    "al": "https://media.api-sports.io/football/teams/598.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -347,6 +404,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Siebe Van Der Heyden"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rade Krunić"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tiago Araújo"
     }
    ]
   },
@@ -360,7 +433,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -383,7 +456,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -406,7 +479,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": []
   },
@@ -420,7 +493,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
@@ -451,7 +524,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T19:00:00+00:00",
    "ev": [
     {
