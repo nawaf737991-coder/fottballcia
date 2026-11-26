@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T16:10:25+03:00",
- "ts": 1795698625,
+ "updated": "2026-11-26T16:20:29+03:00",
+ "ts": 1795699229,
  "matches": [
   {
    "id": 1546199,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/12515.png",
    "al": "https://media.api-sports.io/football/teams/17942.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 3,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Preben Blondeel"
+    },
+    {
+     "m": 15,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matteo Soria"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matteo Soria"
     }
    ]
   },
@@ -35,9 +51,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-26T13:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nguyen Khac Minh Duc"
+    }
+   ]
   },
   {
    "id": 1594913,
@@ -49,7 +74,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -72,7 +97,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
@@ -86,7 +111,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
@@ -100,7 +125,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": [
     {
@@ -123,7 +148,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 42,
    "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
@@ -134,10 +159,10 @@
    "away": "ZESCO United",
    "hl": "https://media.api-sports.io/football/teams/28278.png",
    "al": "https://media.api-sports.io/football/teams/5214.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -151,7 +176,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 3,
+   "minute": 13,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -163,9 +188,9 @@
    "hl": "https://media.api-sports.io/football/teams/21875.png",
    "al": "https://media.api-sports.io/football/teams/5200.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -179,7 +204,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -193,7 +218,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-26T12:45:00+00:00",
    "ev": [
     {
@@ -214,9 +239,9 @@
    "hl": "https://media.api-sports.io/football/teams/3507.png",
    "al": "https://media.api-sports.io/football/teams/3503.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -233,7 +258,15 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "G. Ubilava"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Leo Silva"
     }
    ]
   },
@@ -244,10 +277,10 @@
    "away": "Muang Loei United",
    "hl": "https://media.api-sports.io/football/teams/2796.png",
    "al": "https://media.api-sports.io/football/teams/6573.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 50,
+   "minute": 61,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -257,6 +290,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Lee"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -270,7 +311,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 47,
+   "minute": 58,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": []
   },
@@ -284,7 +325,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -306,6 +347,67 @@
    ]
   },
   {
+   "id": 1630418,
+   "league": "World - AFC Champions League Two",
+   "home": "Svay Rieng",
+   "away": "Machida Zelvia",
+   "hl": "https://media.api-sports.io/football/teams/5396.png",
+   "al": "https://media.api-sports.io/football/teams/303.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-26T12:15:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1630419,
+   "league": "World - AFC Champions League Two",
+   "home": "Wofoo Tai Po",
+   "away": "Adelaide United",
+   "hl": "https://media.api-sports.io/football/teams/4457.png",
+   "al": "https://media.api-sports.io/football/teams/948.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "2H",
+   "minute": 48,
+   "time": "2026-11-26T12:15:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jay Barnett"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brody Burkitt"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brody Burkitt"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Craig Goodwin"
+    }
+   ]
+  },
+  {
    "id": 1650710,
    "league": "Indonesia - Liga Nusantara",
    "home": "Persika Karanganyar",
@@ -315,7 +417,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -372,67 +474,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ilhan Fandi"
-    }
-   ]
-  },
-  {
-   "id": 1630418,
-   "league": "World - AFC Champions League Two",
-   "home": "Svay Rieng",
-   "away": "Machida Zelvia",
-   "hl": "https://media.api-sports.io/football/teams/5396.png",
-   "al": "https://media.api-sports.io/football/teams/303.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T12:15:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630419,
-   "league": "World - AFC Champions League Two",
-   "home": "Wofoo Tai Po",
-   "away": "Adelaide United",
-   "hl": "https://media.api-sports.io/football/teams/4457.png",
-   "al": "https://media.api-sports.io/football/teams/948.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-26T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jay Barnett"
-    },
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Brody Burkitt"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Brody Burkitt"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Craig Goodwin"
     }
    ]
   }
