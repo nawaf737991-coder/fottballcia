@@ -642,6 +642,22 @@ def _collect(seen, recent):
             cands.append((sc, link, key, title, desc))
     cands.sort(key=lambda c: -c[0])
     return cands
+def ai_dup(title, intro, titles):
+    """يسأل الذكاء الاصطناعي: هل الخبر الجديد نفس قصة أحد العناوين المنشورة (حتى لو اختلفت الصياغة)؟"""
+    if not titles:
+        return False
+    try:
+        lst = "\n".join(f"- {t}" for t in titles[-60:])
+        raw = sb.claude(
+            "أنت محرر يمنع تكرار الأخبار. هذه عناوين منشورة في الموقع خلال آخر 3 أيام:\n" + lst +
+            f"\n\nالخبر الجديد:\nالعنوان: {title}\nالمقدمة: {intro}\n\n"
+            "هل الخبر الجديد يغطي نفس الحدث أو نفس المباراة أو نفس القصة لأي عنوان أعلاه، حتى لو اختلفت الصياغة أو الزاوية؟ "
+            "مقالات المراجعة العامة التي تذكر المباراة نفسها تعتبر تكرارًا. أجب بكلمة واحدة فقط: نعم أو لا.",
+            max_tokens=10)
+        return "نعم" in (raw or "")
+    except Exception as e:
+        print("تعذر فحص التكرار بالذكاء الاصطناعي", e)
+        return False
 def _forced(urls):
     """روابط يحددها المالك يدويًا: تُكتب كمسودات بغض النظر عن الحد اليومي"""
     items = {}
@@ -671,6 +687,8 @@ def _news_loop(seen, st):
     cands = _forced(force) if force else _collect(seen, recent)
     print("أخبار مرشحة:", len(cands), flush=True)
     on_site = Q.site_titles(3)
+    mine = [t for t, ts in st.get("ar_titles", []) if time.time() - ts < 3 * 86400]
+    on_site += mine
     for sc, link, key, title, desc in cands:
         if made >= (len(force) if force else per_run):
             break
@@ -715,11 +733,13 @@ def _news_loop(seen, st):
                 data = Q.proofread(data)
                 esc = html.escape
                 ar_title = data["title"].strip()
-                if Q.dup_site(ar_title, on_site):
+                if Q.dup_site(ar_title, on_site) or ai_dup(ar_title, data.get("intro", ""), on_site):
                     seen.add(key)
                     print("تخطي خبر منشور سابقًا في الموقع:", ar_title, flush=True)
                     continue
                 on_site.append(ar_title)
+                st.setdefault("ar_titles", []).append([ar_title, time.time()])
+                st["ar_titles"] = [x for x in st["ar_titles"] if time.time() - x[1] < 4 * 86400]
                 body = f"<p>{esc(data.get('intro', ''))}</p>" if data.get("intro") else ""
                 for sec in data["sections"]:
                     if sec.get("heading"):
