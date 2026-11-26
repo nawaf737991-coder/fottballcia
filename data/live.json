@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T06:30:28+03:00",
- "ts": 1795663828,
+ "updated": "2026-11-26T06:40:12+03:00",
+ "ts": 1795664412,
  "matches": [
   {
    "id": 1651503,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-26T03:10:00+00:00",
    "ev": [
     {
@@ -41,9 +41,9 @@
    "hl": "https://media.api-sports.io/football/teams/3665.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
    "gh": 3,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -101,6 +101,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Barrientos"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Ruiz"
     }
    ]
   },
@@ -111,12 +119,21 @@
    "away": "Águila",
    "hl": "https://media.api-sports.io/football/teams/26154.png",
    "al": "https://media.api-sports.io/football/teams/4310.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-26T02:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   }
  ]
 }
