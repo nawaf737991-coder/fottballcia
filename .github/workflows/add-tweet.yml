@@ -1,0 +1,29 @@
+name: add-tweet
+on:
+  workflow_dispatch:
+    inputs:
+      fid: {description: "رقم المباراة (الرقم بعد id= في رابط مركز المباراة)", required: true}
+      url: {description: "رابط التغريدة الرسمية", required: true}
+      minute: {description: "دقيقة الحدث (اختياري، مثال 17)", required: false, default: ""}
+      kind: {description: "نوع الحدث (اختياري: هدف / ركلة جزاء / بطاقة حمراء / VAR)", required: false, default: ""}
+      new_account: {description: "اسم حساب نادي رسمي جديد للسماح به (اختياري)", required: false, default: ""}
+      remove: {description: "اكتب 1 لحذف التغريدة", required: false, default: ""}
+permissions: {contents: write}
+concurrency: {group: tweets, cancel-in-progress: false}
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 add_tweet.py
+        env:
+          FID: ${{ inputs.fid }}
+          URL: ${{ inputs.url }}
+          MIN: ${{ inputs.minute }}
+          KIND: ${{ inputs.kind }}
+          NEW_ACCOUNT: ${{ inputs.new_account }}
+          REMOVE: ${{ inputs.remove }}
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add data; git commit -m "tweet embed" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push && break; sleep 3; done

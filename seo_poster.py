@@ -327,14 +327,24 @@ TABLE_SLUG = {307: "saudi-league-table", 39: "premier-league-table", 140: "lalig
               78: "bundesliga-table", 61: "ligue1-table", 2: "champions-league-table", 12: "caf-champions-league-table",
               17: "afc-champions-league-table"}
 def tweets_html(fid):
-    """تضمين تغريدات رسمية فقط من data/embed_tweets.json: {fixture_id: [روابط]} (التضمين فقط، بلا تحميل فيديو)"""
+    """تضمين تغريدات رسمية فقط من data/embed_tweets.json (التضمين فقط، بلا تحميل فيديو)"""
     try:
         with open(os.path.join(ROOT, "data", "embed_tweets.json"), encoding="utf-8") as f:
-            urls = (json.load(f).get(str(fid)) or [])[:4]
+            d = json.load(f)
+        d = d.get("matches", d)
+        items = [x if isinstance(x, dict) else {"u": x} for x in (d.get(str(fid)) or [])][:4]
+        with open(os.path.join(ROOT, "data", "official_accounts.json"), encoding="utf-8") as f:
+            official = {x.lower() for x in json.load(f)["accounts"]}
     except Exception:
         return ""
-    ok = [u for u in urls if re.match(r"^https://(x|twitter)\.com/(beINSPORTS|beINSPORTS_EN|[A-Za-z0-9_]+)/status/\d+", u)]
-    return "".join(f'<blockquote class="twitter-tweet" data-lang="ar"><a href="{html.escape(u)}"></a></blockquote>' for u in ok)
+    out = []
+    for it in items:
+        m = re.match(r"^https://(?:x|twitter)\.com/([A-Za-z0-9_]{1,15})/status/\d+$", it.get("u", ""))
+        if m and m.group(1).lower() in official:
+            out.append(f'<blockquote class="twitter-tweet" data-lang="ar" data-dnt="true"><a href="{html.escape(it["u"])}"></a></blockquote>')
+    if not out:
+        return ""
+    return "<h2>مقاطع المباراة</h2>" + "".join(out)
 def extras_html(facts, data, league_ar):
     """صندوق المباريات القادمة + روابط + زر تفاصيل المباراة"""
     esc = html.escape

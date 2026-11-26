@@ -4,6 +4,12 @@
   var SERVER = "https://178-62-45-69.sslip.io";
   var SITE = "https://www.fottballcia.com";
   var NAMES_URL = "https://nawaf737991-coder.github.io/fottballcia/data/names_cache.json";
+  var TW_URL = "https://nawaf737991-coder.github.io/fottballcia/data/embed_tweets.json";
+  var tweets = [], lastKey = "";
+  var TW_RE = /^https:\/\/(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+$/;
+  function twBlock(t) {
+    return "<div class='mc-tw'><blockquote class='twitter-tweet' data-lang='ar' data-dnt='true'><a href='" + esc(t.u) + "'></a></blockquote></div>";
+  }
   var DISQUS = ""; // ضع اسم موقعك في Disqus هنا لتفعيل قسم النقاش، مثال: "fottballcia"
   var TABLES = {307: "saudi-league-table", 39: "premier-league-table", 140: "laliga-table", 135: "serie-table",
     78: "bundesliga-table", 61: "ligue1-table", 2: "champions-league-table", 12: "caf-champions-league-table",
@@ -38,6 +44,7 @@
     ".mc-tabs button.on{background:#153a5b;color:#fff}" +
     ".mc-card{background:#fff;border:1px solid #e6ebf1;border-radius:14px;padding:12px 14px;margin:0 0 12px}" +
     ".mc-card h2{font-size:17px;margin:0 0 8px;color:#153a5b}" +
+    ".mc-tw{margin:8px auto;max-width:550px;min-height:60px}.mc-tw .twitter-tweet{margin:0 auto!important}" +
     ".mc-ev{display:grid;grid-template-columns:1fr 46px 1fr;gap:4px;align-items:center;padding:6px 0;border-bottom:1px dashed #e6ebf1;font-size:14px}" +
     ".mc-ev:last-child{border:0}.mc-ev .m{text-align:center;font-weight:800;color:#5b6b7c;font-size:13px}" +
     ".mc-ev .h{text-align:right}.mc-ev .a{text-align:left}.mc-ev small{display:block;color:#7a8a99;font-size:12px}" +
@@ -124,6 +131,7 @@
       ev.forEach(function (e) {
         var home = e.team === d.home.id, cell = "<span>" + icon(e) + "</span> " + evText(e);
         h += "<div class='mc-ev'><div class='h'>" + (home ? cell : "") + "</div><div class='m'>" + min(e) + "</div><div class='a'>" + (home ? "" : cell) + "</div></div>";
+        tweets.forEach(function (t) { if (!t.used && t.m != null && Number(t.m) === Number(e.m)) { t.used = 1; h += twBlock(t); } });
       });
       h += "</div>";
     } else if (d.status === "NS" || d.status === "TBD") {
@@ -131,6 +139,8 @@
         (d.venue ? "<div class='mc-mini'>الملعب: " + esc(d.venue) + (d.city ? " - " + esc(d.city) : "") + "</div>" : "") +
         (d.referee ? "<div class='mc-mini'>الحكم: " + esc(d.referee) + "</div>" : "") + "</div>";
     } else h += "<div class='mc-card'><div class='mc-note'>لا توجد أحداث مسجلة حتى الآن.</div></div>";
+    var rest = tweets.filter(function (t) { return !t.used; });
+    if (rest.length) h += "<div class='mc-card'><h2>مقاطع المباراة</h2>" + rest.map(twBlock).join("") + "<div class='mc-note'>مقاطع مضمّنة من حسابات رسمية على X.</div></div>";
     if (d.prediction && d.prediction.home) {
       var p = d.prediction, n = function (x) { return parseFloat(x) || 0; };
       h += "<div class='mc-card'><h2>توقع الفائز</h2><div class='mc-pr'><div style='background:#153a5b;flex:" + Math.max(n(p.home), 8) + "'>" + esc(p.home) + "</div><div style='background:#8a97a6;flex:" + Math.max(n(p.draw), 8) + "'>" + esc(p.draw) + "</div><div style='background:#c9902b;flex:" + Math.max(n(p.away), 8) + "'>" + esc(p.away) + "</div></div>" +
@@ -222,11 +232,16 @@
   }
 
   function render() {
+    tweets.forEach(function (t) { t.used = 0; });
     var d = data, body = tab === "sum" ? summary(d) : tab === "lu" ? lineups(d) : tab === "st" ? stats(d) : table(d);
     var tabs = [["sum", "الملخص"], ["lu", "التشكيلة"], ["st", "الإحصائيات"], ["tb", "الترتيب"]];
     root.innerHTML = head(d) + "<div class='mc-tabs'>" + tabs.map(function (t) { return "<button data-t='" + t[0] + "' class='" + (t[0] === tab ? "on" : "") + "'>" + t[1] + "</button>"; }).join("") + "</div>" + body + links(d) +
       "<div class='mc-note'>" + (isLive(d) ? "المباراة مباشرة: تتحدث الصفحة تلقائيًا كل 60 ثانية. " : "") + "المصدر: API-Football. جميع المواعيد بتوقيت السعودية.</div>" + discuss();
     root.querySelectorAll(".mc-tabs button").forEach(function (b) { b.onclick = function () { tab = b.getAttribute("data-t"); render(); }; });
+    if (tab === "sum" && tweets.length) {
+      if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(root);
+      else if (!window.TW_LOADING) { window.TW_LOADING = 1; var ws = document.createElement("script"); ws.async = true; ws.src = "https://platform.twitter.com/widgets.js"; document.body.appendChild(ws); }
+    }
     document.title = (names[d.home.name] || d.home.name) + " × " + (names[d.away.name] || d.away.name) + " | مركز المباراة | عالم المستديرة";
     if (DISQUS && !window.DISQUS_LOADED) {
       window.DISQUS_LOADED = 1; window.disqus_config = function () { this.page.identifier = "match-" + id; this.page.url = location.href; };
@@ -240,7 +255,9 @@
       if (!r.ok) throw new Error("err");
       return r.json();
     }).then(function (d) {
-      data = d; lastOk = Date.now(); render();
+      var k = JSON.stringify(d, function (kk, v) { return kk === "generated" ? 0 : v; });
+      data = d; lastOk = Date.now();
+      if (k !== lastKey) { lastKey = k; render(); }
       clearInterval(timer);
       if (isLive(d)) timer = setInterval(function () { if (!document.hidden) load().catch(function () {}); }, 60000);
       else if (d.status === "NS") timer = setInterval(function () { if (!document.hidden) load().catch(function () {}); }, 300000);
@@ -249,7 +266,9 @@
   if (!id) { root.innerHTML = "<div class='mc-err'>اختر مباراة من <a href='" + SITE + "/p/matches-today.html'>صفحة مباريات اليوم</a> لعرض تفاصيلها.</div>"; return; }
   root.innerHTML = "<div class='mc-err'>جاري تحميل تفاصيل المباراة...</div>";
   var J = function (u) { return fetch(u).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }); };
-  Promise.all([J(NAMES_URL), J("https://nawaf737991-coder.github.io/fottballcia/names_ar.json")]).then(function (a) {
+  Promise.all([J(NAMES_URL), J("https://nawaf737991-coder.github.io/fottballcia/names_ar.json"), J(TW_URL + "?t=" + Math.floor(Date.now() / 60000))]).then(function (a) {
+    var tw = a[2] || {}; tw = tw.matches || tw;
+    tweets = ((tw[id] || []).map(function (x) { return typeof x === "string" ? {u: x} : x; })).filter(function (t) { return t && TW_RE.test(t.u || ""); }).slice(0, 12);
     var st2 = (a[1] && a[1].teams) || {}, ct = (a[1] && a[1].countries) || {};
     names = Object.assign({}, ct, st2, a[0] || {}); return load(); })
     .catch(function (e) { root.innerHTML = "<div class='mc-err'>" + (e.message === "nf" ? "هذه المباراة غير متاحة." : "تعذر تحميل المباراة الآن، حاول بعد قليل.") + "<br><a href='" + SITE + "/p/matches-today.html'>العودة لمباريات اليوم</a></div>"; });
