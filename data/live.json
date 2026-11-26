@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T13:30:25+03:00",
- "ts": 1795689025,
+ "updated": "2026-11-26T13:40:30+03:00",
+ "ts": 1795689630,
  "matches": [
   {
    "id": 1630414,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -32,10 +32,10 @@
    "away": "Phnom Penh Crown",
    "hl": "https://media.api-sports.io/football/teams/10108.png",
    "al": "https://media.api-sports.io/football/teams/5394.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -45,6 +45,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Chanpolin Orn"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Safawi Rasid"
     }
    ]
   },
@@ -56,9 +64,9 @@
    "hl": "https://media.api-sports.io/football/teams/4206.png",
    "al": "https://media.api-sports.io/football/teams/833.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -84,8 +92,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gao Tianyi"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Rafael Ratão"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luis Asue"
     }
    ]
+  },
+  {
+   "id": 1630470,
+   "league": "Azerbaijan - Birinci Dasta",
+   "home": "Baku Sportinq",
+   "away": "Şahdağ",
+   "hl": "https://media.api-sports.io/football/teams/22788.png",
+   "al": "https://media.api-sports.io/football/teams/5576.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T10:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1649632,
@@ -97,7 +135,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 33,
+   "minute": 43,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -119,115 +157,6 @@
    ]
   },
   {
-   "id": 1527769,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Parvoz",
-   "away": "CSKA Pomir",
-   "hl": "https://media.api-sports.io/football/teams/12271.png",
-   "al": "https://media.api-sports.io/football/teams/12261.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 71,
-   "time": "2026-11-26T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1527771,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Regar-TadAZ",
-   "away": "Sardor Tursunzoda",
-   "hl": "https://media.api-sports.io/football/teams/12268.png",
-   "al": "https://media.api-sports.io/football/teams/27266.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 68,
-   "time": "2026-11-26T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651254,
-   "league": "Australia - Australian Championship",
-   "home": "South Melbourne",
-   "away": "Oakleigh Cannons",
-   "hl": "https://media.api-sports.io/football/teams/3811.png",
-   "al": "https://media.api-sports.io/football/teams/3808.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-26T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 14,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1507259,
    "league": "Georgia - Erovnuli Liga 2",
    "home": "Aragvi Dusheti",
@@ -236,8 +165,8 @@
    "al": "https://media.api-sports.io/football/teams/10016.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -270,7 +199,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "R. Chkhaidze"
     }
    ]
   },
@@ -283,8 +212,8 @@
    "al": "https://media.api-sports.io/football/teams/581.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -338,8 +267,8 @@
    "al": "https://media.api-sports.io/football/teams/16516.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -357,6 +286,131 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Z. Sikharulia"
+    }
+   ]
+  },
+  {
+   "id": 1527769,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Parvoz",
+   "away": "CSKA Pomir",
+   "hl": "https://media.api-sports.io/football/teams/12271.png",
+   "al": "https://media.api-sports.io/football/teams/12261.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 81,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1527771,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Regar-TadAZ",
+   "away": "Sardor Tursunzoda",
+   "hl": "https://media.api-sports.io/football/teams/12268.png",
+   "al": "https://media.api-sports.io/football/teams/27266.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 78,
+   "time": "2026-11-26T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651254,
+   "league": "Australia - Australian Championship",
+   "home": "South Melbourne",
+   "away": "Oakleigh Cannons",
+   "hl": "https://media.api-sports.io/football/teams/3811.png",
+   "al": "https://media.api-sports.io/football/teams/3808.png",
+   "gh": 3,
+   "ga": 3,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-26T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 14,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
