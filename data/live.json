@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T05:40:11+03:00",
- "ts": 1795660811,
+ "updated": "2026-11-26T05:50:15+03:00",
+ "ts": 1795661415,
  "matches": [
   {
    "id": 1559702,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/3665.png",
    "al": "https://media.api-sports.io/football/teams/10154.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
@@ -40,12 +40,20 @@
      "p": "J. Martinez"
     },
     {
-     "m": 32,
+     "m": 33,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "C. Flores"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Morales"
     }
    ]
   },
@@ -59,7 +67,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-26T02:00:00+00:00",
    "ev": []
   },
@@ -70,10 +78,10 @@
    "away": "Independiente del Valle",
    "hl": "https://media.api-sports.io/football/teams/1152.png",
    "al": "https://media.api-sports.io/football/teams/1153.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -139,6 +147,30 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Jhegson Mendez Carabali"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Jhonny Quinonez"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "",
+     "p": "Jhonny Quinonez"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Jhonny Quinonez"
     }
    ]
   },
@@ -149,10 +181,10 @@
    "away": "Independiente Medellin",
    "hl": "https://media.api-sports.io/football/teams/1137.png",
    "al": "https://media.api-sports.io/football/teams/1128.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-26T01:30:00+00:00",
    "ev": [
     {
@@ -226,6 +258,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Léider Berrío"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Agustín Martegani"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Elías Cabrera"
     }
    ]
   },
@@ -239,7 +287,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -262,7 +310,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
@@ -300,45 +348,6 @@
    ]
   },
   {
-   "id": 1651513,
-   "league": "Nicaragua - Primera Division",
-   "home": "Real Estelí",
-   "away": "Rancho Santana",
-   "hl": "https://media.api-sports.io/football/teams/4645.png",
-   "al": "https://media.api-sports.io/football/teams/24510.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 83,
-   "time": "2026-11-26T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1651514,
    "league": "Nicaragua - Primera Division",
    "home": "Managua",
@@ -348,7 +357,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-26T01:00:00+00:00",
    "ev": [
     {
