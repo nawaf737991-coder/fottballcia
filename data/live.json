@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T14:10:22+03:00",
- "ts": 1795691422,
+ "updated": "2026-11-26T14:17:37+03:00",
+ "ts": 1795691857,
  "matches": [
   {
    "id": 1507263,
@@ -10,18 +10,34 @@
    "hl": "https://media.api-sports.io/football/teams/3511.png",
    "al": "https://media.api-sports.io/football/teams/14861.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 9,
+   "minute": 16,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
-     "m": 6,
+     "m": 5,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "G. Kurmashvili"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Gabitashvili"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "G. Kurmashvili"
     }
    ]
   },
@@ -35,7 +51,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 17,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -44,23 +60,9 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "N. Raksachum"
     }
    ]
-  },
-  {
-   "id": 1630470,
-   "league": "Azerbaijan - Birinci Dasta",
-   "home": "Baku Sportinq",
-   "away": "Şahdağ",
-   "hl": "https://media.api-sports.io/football/teams/22788.png",
-   "al": "https://media.api-sports.io/football/teams/5576.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-26T10:30:00+00:00",
-   "ev": []
   },
   {
    "id": 1507259,
@@ -72,7 +74,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -159,7 +161,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 89,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -233,6 +235,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "G. Gvishiani"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "L. Tsulaia"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Tsulaia"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -243,20 +269,12 @@
    "away": "Shturmi",
    "hl": "https://media.api-sports.io/football/teams/13856.png",
    "al": "https://media.api-sports.io/football/teams/16516.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 78,
+   "minute": 85,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Z. Sekhniashvili"
-    },
     {
      "m": 23,
      "x": null,
@@ -264,6 +282,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Z. Sikharulia"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Z. Sekhniashvili"
     },
     {
      "m": 71,
@@ -279,6 +305,22 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "G. Gabedava"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -290,10 +332,10 @@
    "away": "Kitchee",
    "hl": "https://media.api-sports.io/football/teams/2746.png",
    "al": "https://media.api-sports.io/football/teams/4453.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 60,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -335,6 +377,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Asier Illarramendi"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kim Dae-won"
     }
    ]
   },
@@ -348,7 +398,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 60,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -387,7 +437,7 @@
    "gh": 1,
    "ga": 4,
    "status": "2H",
-   "minute": 50,
+   "minute": 58,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -445,6 +495,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Luis Asue"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Amirul Haikal"
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Wilson Manafá"
     }
    ]
   },
@@ -458,7 +524,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 63,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -489,7 +555,7 @@
    "gh": 3,
    "ga": 3,
    "status": "ET",
-   "minute": 95,
+   "minute": 115,
    "time": "2026-11-26T08:30:00+00:00",
    "ev": [
     {
@@ -541,6 +607,20 @@
      "p": null
     }
    ]
+  },
+  {
+   "id": 1630470,
+   "league": "Azerbaijan - Birinci Dasta",
+   "home": "Baku Sportinq",
+   "away": "Şahdağ",
+   "hl": "https://media.api-sports.io/football/teams/22788.png",
+   "al": "https://media.api-sports.io/football/teams/5576.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T10:30:00+00:00",
+   "ev": []
   }
  ]
 }
