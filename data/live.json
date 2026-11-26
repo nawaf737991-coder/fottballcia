@@ -1,76 +1,7 @@
 {
- "updated": "2026-11-26T05:50:15+03:00",
- "ts": 1795661415,
+ "updated": "2026-11-26T06:00:20+03:00",
+ "ts": 1795662020,
  "matches": [
-  {
-   "id": 1559702,
-   "league": "Guatemala - Liga Nacional",
-   "home": "Municipal",
-   "away": "Aurora",
-   "hl": "https://media.api-sports.io/football/teams/3665.png",
-   "al": "https://media.api-sports.io/football/teams/10154.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T02:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Elington"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Garcia"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Martinez"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Flores"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Morales"
-    }
-   ]
-  },
-  {
-   "id": 1651498,
-   "league": "El-Salvador - Primera Division",
-   "home": "Inter",
-   "away": "Águila",
-   "hl": "https://media.api-sports.io/football/teams/26154.png",
-   "al": "https://media.api-sports.io/football/teams/4310.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T02:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1639789,
    "league": "Ecuador - Liga Pro",
@@ -81,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-26T00:00:00+00:00",
    "ev": [
     {
@@ -184,7 +115,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-26T01:30:00+00:00",
    "ev": [
     {
@@ -223,16 +154,16 @@
      "m": 40,
      "x": null,
      "s": "a",
-     "t": "Card",
-     "d": "Red Card",
+     "t": "Var",
+     "d": "Card upgrade confirmed",
      "p": "Jeison Medina"
     },
     {
      "m": 40,
      "x": null,
      "s": "a",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
+     "t": "Card",
+     "d": "Red Card",
      "p": "Jeison Medina"
     },
     {
@@ -245,19 +176,19 @@
     },
     {
      "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Elías Cabrera"
-    },
-    {
-     "m": 45,
      "x": 2,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Léider Berrío"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Elías Cabrera"
     },
     {
      "m": 48,
@@ -274,6 +205,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Elías Cabrera"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Quintero"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Neider Parra"
     }
    ]
   },
@@ -301,82 +248,73 @@
    ]
   },
   {
-   "id": 1651505,
-   "league": "Mexico - Liga MX",
-   "home": "Toluca",
-   "away": "Atlas",
-   "hl": "https://media.api-sports.io/football/teams/2281.png",
-   "al": "https://media.api-sports.io/football/teams/2283.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-26T01:00:00+00:00",
+   "id": 1559702,
+   "league": "Guatemala - Liga Nacional",
+   "home": "Municipal",
+   "away": "Aurora",
+   "hl": "https://media.api-sports.io/football/teams/3665.png",
+   "al": "https://media.api-sports.io/football/teams/10154.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T02:00:00+00:00",
    "ev": [
     {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hélio Júnio Nunes de Castro"
-    },
-    {
-     "m": 21,
+     "m": 8,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Alexis Vega"
+     "p": "E. Elington"
     },
     {
-     "m": 50,
+     "m": 19,
      "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "João Paulo Dias Fernandes"
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Garcia"
     },
     {
-     "m": 54,
+     "m": 26,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Penalty",
-     "p": "Hélio Júnio Nunes de Castro"
+     "d": "Normal Goal",
+     "p": "J. Martinez"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "C. Flores"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Morales"
     }
    ]
   },
   {
-   "id": 1651514,
-   "league": "Nicaragua - Primera Division",
-   "home": "Managua",
-   "away": "Walter Ferretti",
-   "hl": "https://media.api-sports.io/football/teams/4644.png",
-   "al": "https://media.api-sports.io/football/teams/4648.png",
+   "id": 1651498,
+   "league": "El-Salvador - Primera Division",
+   "home": "Inter",
+   "away": "Águila",
+   "hl": "https://media.api-sports.io/football/teams/26154.png",
+   "al": "https://media.api-sports.io/football/teams/4310.png",
    "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T02:00:00+00:00",
+   "ev": []
   }
  ]
 }
