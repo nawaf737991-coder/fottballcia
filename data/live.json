@@ -1,7 +1,58 @@
 {
- "updated": "2026-11-26T15:00:23+03:00",
- "ts": 1795694423,
+ "updated": "2026-11-26T15:10:22+03:00",
+ "ts": 1795695022,
  "matches": [
+  {
+   "id": 1507261,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Kolkheti Poti",
+   "away": "Sioni",
+   "hl": "https://media.api-sports.io/football/teams/3507.png",
+   "al": "https://media.api-sports.io/football/teams/3503.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602753,
+   "league": "Thailand - Thai League 2",
+   "home": "Nong Bua Pitchaya",
+   "away": "Muang Loei United",
+   "hl": "https://media.api-sports.io/football/teams/2796.png",
+   "al": "https://media.api-sports.io/football/teams/6573.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 1,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Lee"
+    }
+   ]
+  },
+  {
+   "id": 1629137,
+   "league": "Kenya - FKF Premier League",
+   "home": "Mara Sugar",
+   "away": "Kenya Police",
+   "hl": "https://media.api-sports.io/football/teams/19483.png",
+   "al": "https://media.api-sports.io/football/teams/2485.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1629138,
    "league": "Kenya - FKF Premier League",
@@ -9,25 +60,42 @@
    "away": "KCB",
    "hl": "https://media.api-sports.io/football/teams/19486.png",
    "al": "https://media.api-sports.io/football/teams/2476.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-26T12:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1650710,
+   "league": "Indonesia - Liga Nusantara",
+   "home": "Persika Karanganyar",
+   "away": "Persipa Pati",
+   "hl": "https://media.api-sports.io/football/teams/28715.png",
+   "al": "https://media.api-sports.io/football/teams/20076.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 10,
    "time": "2026-11-26T12:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1630470,
-   "league": "Azerbaijan - Birinci Dasta",
-   "home": "Baku Sportinq",
-   "away": "Şahdağ",
-   "hl": "https://media.api-sports.io/football/teams/22788.png",
-   "al": "https://media.api-sports.io/football/teams/5576.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 74,
-   "time": "2026-11-26T10:30:00+00:00",
    "ev": []
   },
   {
@@ -39,8 +107,8 @@
    "al": "https://media.api-sports.io/football/teams/14861.png",
    "gh": 1,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -81,7 +149,7 @@
      "s": "a",
      "t": "Card",
      "d": "Red Card",
-     "p": null
+     "p": "E. Tabatadze"
     }
    ]
   },
@@ -94,8 +162,8 @@
    "al": "https://media.api-sports.io/football/teams/6604.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -107,6 +175,20 @@
      "p": "N. Raksachum"
     }
    ]
+  },
+  {
+   "id": 1630470,
+   "league": "Azerbaijan - Birinci Dasta",
+   "home": "Baku Sportinq",
+   "away": "Şahdağ",
+   "hl": "https://media.api-sports.io/football/teams/22788.png",
+   "al": "https://media.api-sports.io/football/teams/5576.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 84,
+   "time": "2026-11-26T10:30:00+00:00",
+   "ev": []
   }
  ]
 }
