@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T15:30:31+03:00",
- "ts": 1795696231,
+ "updated": "2026-11-26T15:40:15+03:00",
+ "ts": 1795696815,
  "matches": [
   {
    "id": 1507261,
@@ -12,8 +12,73 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1594913,
+   "league": "Egypt - Second League",
+   "home": "AL Nasr SC",
+   "away": "Tersana",
+   "hl": "https://media.api-sports.io/football/teams/2617.png",
+   "al": "https://media.api-sports.io/football/teams/15739.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-26T12:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1594914,
+   "league": "Egypt - Second League",
+   "home": "El Seka El Hadid",
+   "away": "Proxy",
+   "hl": "https://media.api-sports.io/football/teams/18031.png",
+   "al": "https://media.api-sports.io/football/teams/20461.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-26T12:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1594916,
+   "league": "Egypt - Second League",
+   "home": "El Entag EL Harby",
+   "away": "Kahraba Ismailia",
+   "hl": "https://media.api-sports.io/football/teams/1034.png",
+   "al": "https://media.api-sports.io/football/teams/20458.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-26T12:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1595151,
+   "league": "Egypt - Second League",
+   "home": "Mega Sport",
+   "away": "La Viena FC",
+   "hl": "https://media.api-sports.io/football/teams/28011.png",
+   "al": "https://media.api-sports.io/football/teams/16436.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-26T12:30:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +91,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -49,7 +114,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": []
   },
@@ -63,7 +128,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
@@ -86,7 +151,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": [
     {
@@ -109,7 +174,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": []
   },
@@ -121,9 +186,9 @@
    "hl": "https://media.api-sports.io/football/teams/4457.png",
    "al": "https://media.api-sports.io/football/teams/948.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-26T12:15:00+00:00",
    "ev": [
     {
@@ -141,6 +206,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Brody Burkitt"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Brody Burkitt"
     }
    ]
   },
@@ -151,14 +224,22 @@
    "away": "Persipa Pati",
    "hl": "https://media.api-sports.io/football/teams/28715.png",
    "al": "https://media.api-sports.io/football/teams/20076.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 40,
    "time": "2026-11-26T12:00:00+00:00",
    "ev": [
     {
      "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Aslam"
+    },
+    {
+     "m": 34,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -177,7 +258,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
@@ -232,7 +313,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T11:00:00+00:00",
    "ev": [
     {
