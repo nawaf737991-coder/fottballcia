@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T00:20:27+03:00",
- "ts": 1795728027,
+ "updated": "2026-11-27T00:30:35+03:00",
+ "ts": 1795728635,
  "matches": [
   {
    "id": 1610594,
@@ -10,9 +10,9 @@
    "hl": "https://media.api-sports.io/football/teams/5634.png",
    "al": "https://media.api-sports.io/football/teams/5639.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 17,
+   "minute": 28,
    "time": "2026-11-26T21:00:00+00:00",
    "ev": [
     {
@@ -22,6 +22,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Riquelme"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -35,7 +43,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 61,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -85,6 +93,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ilias Bronkhorst"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Robbie Gotts"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ryan Ledson"
     }
    ]
   },
@@ -95,10 +119,10 @@
    "away": "Real Sociedad",
    "hl": "https://media.api-sports.io/football/teams/52.png",
    "al": "https://media.api-sports.io/football/teams/548.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 74,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -108,6 +132,46 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Axel Disasi"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jon Martin"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mamadou Sarr"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Jon Martin"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Unai Marrero"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Jean-Philippe Mateta"
     }
    ]
   },
@@ -121,7 +185,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -144,7 +208,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 71,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -180,10 +244,10 @@
    "away": "Omonia Nicosia",
    "hl": "https://media.api-sports.io/football/teams/496.png",
    "al": "https://media.api-sports.io/football/teams/3402.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -225,6 +289,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jeff Ekhator"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Francisco Conceicao"
     }
    ]
   },
@@ -238,7 +310,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -277,7 +349,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -340,7 +412,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 73,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -382,6 +454,38 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Taxiarchis Fountas"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ali Maamar"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mihajlo Cvetkovic"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nikolaos Athanasiou"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Giulian Biancone"
     }
    ]
   },
@@ -393,9 +497,9 @@
    "hl": "https://media.api-sports.io/football/teams/628.png",
    "al": "https://media.api-sports.io/football/teams/201.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -437,6 +541,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Peer Koopmeiners"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ayoub Oufkir"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ro Zangelo Daal"
     }
    ]
   },
@@ -450,7 +570,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -476,6 +596,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kamil Jóźwiak"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Eryk Kozlowski"
     }
    ]
   },
@@ -489,7 +617,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -523,6 +651,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Javi Vazquez"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mohamed Ali Diadie"
     }
    ]
   },
@@ -536,7 +672,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 73,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -586,6 +722,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mario Pašalić"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastian Herera"
     }
    ]
   },
@@ -596,10 +740,10 @@
    "away": "KuPS",
    "hl": "https://media.api-sports.io/football/teams/217.png",
    "al": "https://media.api-sports.io/football/teams/1165.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -633,6 +777,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Valentin Gasc"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mario Dorgeles"
     }
    ]
   },
@@ -646,7 +798,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -680,6 +832,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Bruno Jordão"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Stefano Sensi"
     }
    ]
   },
@@ -693,7 +853,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -711,6 +871,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Christian Günter"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Younes Taha El Idrissi"
     }
    ]
   },
@@ -724,7 +892,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 72,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -771,7 +939,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 58,
+   "minute": 69,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -818,7 +986,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 74,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -881,7 +1049,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-26T20:00:00+00:00",
    "ev": [
     {
@@ -915,61 +1083,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Alexander Lind"
-    }
-   ]
-  },
-  {
-   "id": 1651387,
-   "league": "Argentina - Reserve League",
-   "home": "Vélez Sársfield Res.",
-   "away": "Boca Juniors Res.",
-   "hl": "https://media.api-sports.io/football/teams/18702.png",
-   "al": "https://media.api-sports.io/football/teams/18681.png",
-   "gh": 0,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T19:30:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   }
