@@ -1,7 +1,53 @@
 {
- "updated": "2026-11-26T14:00:19+03:00",
- "ts": 1795690819,
+ "updated": "2026-11-26T14:10:22+03:00",
+ "ts": 1795691422,
  "matches": [
+  {
+   "id": 1507263,
+   "league": "Georgia - Erovnuli Liga 2",
+   "home": "Telavi",
+   "away": "Gori",
+   "hl": "https://media.api-sports.io/football/teams/3511.png",
+   "al": "https://media.api-sports.io/football/teams/14861.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-26T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1602752,
+   "league": "Thailand - Thai League 2",
+   "home": "Uttaradit",
+   "away": "Songkhla",
+   "hl": "https://media.api-sports.io/football/teams/6610.png",
+   "al": "https://media.api-sports.io/football/teams/6604.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-26T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 5,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1630470,
    "league": "Azerbaijan - Birinci Dasta",
@@ -12,7 +58,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-26T10:30:00+00:00",
    "ev": []
   },
@@ -26,7 +72,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -99,7 +145,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "T. Bzekalava"
     }
    ]
   },
@@ -113,7 +159,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -179,6 +225,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "G. Mandzhgaladze"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "G. Gvishiani"
     }
    ]
   },
@@ -192,7 +246,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-26T09:30:00+00:00",
    "ev": [
     {
@@ -210,68 +264,21 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Z. Sikharulia"
-    }
-   ]
-  },
-  {
-   "id": 1651254,
-   "league": "Australia - Australian Championship",
-   "home": "South Melbourne",
-   "away": "Oakleigh Cannons",
-   "hl": "https://media.api-sports.io/football/teams/3811.png",
-   "al": "https://media.api-sports.io/football/teams/3808.png",
-   "gh": 3,
-   "ga": 3,
-   "status": "ET",
-   "minute": 104,
-   "time": "2026-11-26T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 14,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 66,
+     "m": 71,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Koberidze"
     },
     {
-     "m": 81,
+     "m": 76,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -284,9 +291,9 @@
    "hl": "https://media.api-sports.io/football/teams/2746.png",
    "al": "https://media.api-sports.io/football/teams/4453.png",
    "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -312,6 +319,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kim Dae-won"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Seo Min-woo"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Asier Illarramendi"
     }
    ]
   },
@@ -324,8 +347,8 @@
    "al": "https://media.api-sports.io/football/teams/5394.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -362,9 +385,9 @@
    "hl": "https://media.api-sports.io/football/teams/4206.png",
    "al": "https://media.api-sports.io/football/teams/833.png",
    "gh": 1,
-   "ga": 3,
-   "status": "HT",
-   "minute": 45,
+   "ga": 4,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -414,6 +437,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Seiga Sumi"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luis Asue"
     }
    ]
   },
@@ -426,8 +457,8 @@
    "al": "https://media.api-sports.io/football/teams/23309.png",
    "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 55,
    "time": "2026-11-26T10:00:00+00:00",
    "ev": [
     {
@@ -445,6 +476,69 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Mukarov"
+    }
+   ]
+  },
+  {
+   "id": 1651254,
+   "league": "Australia - Australian Championship",
+   "home": "South Melbourne",
+   "away": "Oakleigh Cannons",
+   "hl": "https://media.api-sports.io/football/teams/3811.png",
+   "al": "https://media.api-sports.io/football/teams/3808.png",
+   "gh": 3,
+   "ga": 3,
+   "status": "ET",
+   "minute": 95,
+   "time": "2026-11-26T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 14,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
