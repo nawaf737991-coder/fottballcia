@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T19:50:17+03:00",
- "ts": 1795711817,
+ "updated": "2026-11-26T20:00:26+03:00",
+ "ts": 1795712426,
  "matches": [
   {
    "id": 1563678,
@@ -12,16 +12,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": [
     {
-     "m": 15,
+     "m": 14,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Var",
+     "d": "",
+     "p": "Ravil Netfullin"
     }
    ]
   },
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": []
   },
@@ -46,14 +46,14 @@
    "away": "Al Rayyan SC B",
    "hl": "https://media.api-sports.io/football/teams/2899.png",
    "al": "https://media.api-sports.io/football/teams/2909.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-26T16:30:00+00:00",
    "ev": [
     {
-     "m": 16,
+     "m": 30,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -61,249 +61,6 @@
      "p": null
     }
    ]
-  },
-  {
-   "id": 1546186,
-   "league": "World - World Cup - U17",
-   "home": "China PR U17",
-   "away": "Fiji U17",
-   "hl": "https://media.api-sports.io/football/teams/21449.png",
-   "al": "https://media.api-sports.io/football/teams/26071.png",
-   "gh": 8,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zhao Songyuan"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Wan Xiang"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kuang Zhaolei"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wan Xiang"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Sialesi Vatanatawake"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kuang Zhaolei"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Zhang Junhao"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Wan Xiang"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Liang Shiyu"
-    }
-   ]
-  },
-  {
-   "id": 1546198,
-   "league": "World - World Cup - U17",
-   "home": "Morocco U17",
-   "away": "Spain U17",
-   "hl": "https://media.api-sports.io/football/teams/21302.png",
-   "al": "https://media.api-sports.io/football/teams/12520.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 7,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Card upgrade confirmed",
-     "p": "Ismail El Aoud"
-    },
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ismail El Aoud"
-    },
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ebrima Tunkara"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nassim Laarej"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Guillermo Trujillano"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal confirmed",
-     "p": "Guillermo Trujillano"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Owen Mira Emeka"
-    }
-   ]
-  },
-  {
-   "id": 1603080,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Abha",
-   "away": "Al Shabab",
-   "hl": "https://media.api-sports.io/football/teams/2951.png",
-   "al": "https://media.api-sports.io/football/teams/2940.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-26T15:05:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Josh Brownhill"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Alimani Gory"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Daniel Podence"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mamadou Thierno Barry"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Abdulbaset Al-Hindi"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Mamadou Thierno Barry"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Ricardo Mathias"
-    }
-   ]
-  },
-  {
-   "id": 1630471,
-   "league": "Azerbaijan - Birinci Dasta",
-   "home": "Cəbrayıl",
-   "away": "MOIK",
-   "hl": "https://media.api-sports.io/football/teams/22789.png",
-   "al": "https://media.api-sports.io/football/teams/5492.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-26T15:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1636435,
@@ -315,7 +72,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-26T15:30:00+00:00",
    "ev": [
     {
@@ -333,6 +90,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Luis Mata"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Viktor Gustafson"
     }
    ]
   },
@@ -344,11 +109,20 @@
    "hl": "https://media.api-sports.io/football/teams/9117.png",
    "al": "https://media.api-sports.io/football/teams/9118.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-26T15:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1546189,
@@ -512,7 +286,7 @@
      "p": "E. Assifuah"
     },
     {
-     "m": 31,
+     "m": 30,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -520,12 +294,12 @@
      "p": "S. Musa"
     },
     {
-     "m": 40,
+     "m": 38,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "S. Musa"
     }
    ]
   },
