@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T17:40:26+03:00",
- "ts": 1795704026,
+ "updated": "2026-11-26T17:50:35+03:00",
+ "ts": 1795704635,
  "matches": [
   {
    "id": 1526253,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-26T14:20:00+00:00",
    "ev": [
     {
@@ -41,9 +41,9 @@
    "hl": "https://media.api-sports.io/football/teams/20998.png",
    "al": "https://media.api-sports.io/football/teams/25818.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 41,
+   "minute": 45,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -77,6 +77,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Abdoul Doumbia"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Aziz Diabagate"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Drebo Koudougnon Christ"
     }
    ]
   },
@@ -88,9 +104,9 @@
    "hl": "https://media.api-sports.io/football/teams/21446.png",
    "al": "https://media.api-sports.io/football/teams/12510.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 3,
    "status": "1H",
-   "minute": 41,
+   "minute": 45,
    "time": "2026-11-26T14:00:00+00:00",
    "ev": [
     {
@@ -132,45 +148,47 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Asilbek Aliev"
-    }
-   ]
-  },
-  {
-   "id": 1563680,
-   "league": "Russia - Cup",
-   "home": "FC Orenburg",
-   "away": "Spartak Moscow",
-   "hl": "https://media.api-sports.io/football/teams/1080.png",
-   "al": "https://media.api-sports.io/football/teams/558.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 36,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 12,
+     "m": 43,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Victor Parada"
+     "p": "Riccardo Cassano"
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "thomas corigliano"
     }
    ]
   },
   {
-   "id": 1577602,
-   "league": "Russia - First League",
-   "home": "Ural",
-   "away": "Arsenal Tula",
-   "hl": "https://media.api-sports.io/football/teams/1084.png",
-   "al": "https://media.api-sports.io/football/teams/1077.png",
+   "id": 1602568,
+   "league": "Romania - Liga II",
+   "home": "Gloria Bistriţa",
+   "away": "Slatina",
+   "hl": "https://media.api-sports.io/football/teams/22824.png",
+   "al": "https://media.api-sports.io/football/teams/6898.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 38,
-   "time": "2026-11-26T14:00:00+00:00",
-   "ev": []
+   "minute": 6,
+   "time": "2026-11-26T14:45:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1603084,
@@ -182,7 +200,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-26T14:25:00+00:00",
    "ev": [
     {
@@ -202,73 +220,27 @@
    "away": "Al Waab",
    "hl": "https://media.api-sports.io/football/teams/2902.png",
    "al": "https://media.api-sports.io/football/teams/7577.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 24,
+   "minute": 34,
    "time": "2026-11-26T14:15:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1546199,
-   "league": "World - World Cup - U17",
-   "home": "New Zealand U17",
-   "away": "Belgium U17",
-   "hl": "https://media.api-sports.io/football/teams/12515.png",
-   "al": "https://media.api-sports.io/football/teams/17942.png",
-   "gh": 0,
-   "ga": 6,
-   "status": "2H",
-   "minute": 85,
-   "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 28,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Preben Blondeel"
+     "p": null
     },
     {
-     "m": 15,
+     "m": 32,
      "x": null,
-     "s": "a",
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Matteo Soria"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matteo Soria"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tinus Moorthamer"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kiyan Achahbar"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jelle Driessen"
+     "p": null
     }
    ]
   },
@@ -282,7 +254,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": [
     {
@@ -308,100 +280,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Djigui Koita"
-    }
-   ]
-  },
-  {
-   "id": 1594913,
-   "league": "Egypt - Second League",
-   "home": "AL Nasr SC",
-   "away": "Tersana",
-   "hl": "https://media.api-sports.io/football/teams/2617.png",
-   "al": "https://media.api-sports.io/football/teams/15739.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 63,
+     "m": 90,
      "x": null,
      "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Aboubacar Keita"
     },
     {
-     "m": 77,
-     "x": null,
+     "m": 90,
+     "x": 1,
      "s": "h",
      "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1594915,
-   "league": "Egypt - Second League",
-   "home": "Dayrout",
-   "away": "El Dakhleya",
-   "hl": "https://media.api-sports.io/football/teams/18022.png",
-   "al": "https://media.api-sports.io/football/teams/1032.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "d": "Yellow Card",
+     "p": "Dao Quy Vuong"
     }
    ]
   },
@@ -412,10 +306,10 @@
    "away": "ZESCO United",
    "hl": "https://media.api-sports.io/football/teams/28278.png",
    "al": "https://media.api-sports.io/football/teams/5214.png",
-   "gh": 1,
-   "ga": 2,
+   "gh": 0,
+   "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -426,10 +320,10 @@
    "away": "Power Dynamos",
    "hl": "https://media.api-sports.io/football/teams/28279.png",
    "al": "https://media.api-sports.io/football/teams/5211.png",
-   "gh": 2,
-   "ga": 1,
+   "gh": 0,
+   "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 78,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -440,10 +334,10 @@
    "away": "Green Eagles",
    "hl": "https://media.api-sports.io/football/teams/21875.png",
    "al": "https://media.api-sports.io/football/teams/5200.png",
-   "gh": 1,
-   "ga": 2,
+   "gh": 0,
+   "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 82,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -457,7 +351,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-26T13:00:00+00:00",
    "ev": []
   },
@@ -471,7 +365,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 88,
+   "minute": 90,
    "time": "2026-11-26T12:45:00+00:00",
    "ev": [
     {
@@ -552,9 +446,54 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "A. Ghezel"
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
+  },
+  {
+   "id": 1563680,
+   "league": "Russia - Cup",
+   "home": "FC Orenburg",
+   "away": "Spartak Moscow",
+   "hl": "https://media.api-sports.io/football/teams/1080.png",
+   "al": "https://media.api-sports.io/football/teams/558.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Victor Parada"
+    }
+   ]
+  },
+  {
+   "id": 1577602,
+   "league": "Russia - First League",
+   "home": "Ural",
+   "away": "Arsenal Tula",
+   "hl": "https://media.api-sports.io/football/teams/1084.png",
+   "al": "https://media.api-sports.io/football/teams/1077.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T14:00:00+00:00",
+   "ev": []
   }
  ]
 }
