@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T02:10:14+03:00",
- "ts": 1795821014,
+ "updated": "2026-11-28T02:20:18+03:00",
+ "ts": 1795821618,
  "matches": [
   {
    "id": 1492475,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -35,9 +35,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T23:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Ariel Diaz Gimenez"
+    }
+   ]
   },
   {
    "id": 1645551,
@@ -46,19 +55,27 @@
    "away": "Real Oruro",
    "hl": "https://media.api-sports.io/football/teams/15702.png",
    "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 12,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Gean Carlos Morais Almeida"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ademar Rivera Sifuentes"
     }
    ]
   },
@@ -72,9 +89,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T23:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Willian Prado Camargo"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gustavo Coutinho Silva Lopes"
+    }
+   ]
   },
   {
    "id": 1650553,
@@ -86,7 +120,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -106,10 +140,10 @@
    "away": "Manta FC",
    "hl": "https://media.api-sports.io/football/teams/1154.png",
    "al": "https://media.api-sports.io/football/teams/1980.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T21:30:00+00:00",
    "ev": [
     {
@@ -159,6 +193,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jeremy Mejía"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jefferson Troya"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "David Gonzalez"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matías Klimowicz"
     }
    ]
   },
@@ -172,7 +230,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-27T22:00:00+00:00",
    "ev": [
     {
