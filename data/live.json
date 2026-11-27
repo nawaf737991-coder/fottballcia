@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T03:20:12+03:00",
- "ts": 1795738812,
+ "updated": "2026-11-27T03:30:15+03:00",
+ "ts": 1795739415,
  "matches": [
   {
    "id": 1651516,
@@ -9,12 +9,21 @@
    "away": "Matagalpa",
    "hl": "https://media.api-sports.io/football/teams/4641.png",
    "al": "https://media.api-sports.io/football/teams/19159.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-27T00:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1492478,
@@ -26,7 +35,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -81,7 +90,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -115,45 +124,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Gasparello Bueno Ferreira"
-    }
-   ]
-  },
-  {
-   "id": 1651123,
-   "league": "Paraguay - Copa Paraguay",
-   "home": "Cerro Porteno",
-   "away": "Libertad Asuncion",
-   "hl": "https://media.api-sports.io/football/teams/1176.png",
-   "al": "https://media.api-sports.io/football/teams/1179.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Martinez"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. R. Vera"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Fretes"
     }
    ]
   }
