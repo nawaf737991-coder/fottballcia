@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T00:40:22+03:00",
- "ts": 1795815622,
+ "updated": "2026-11-28T00:50:26+03:00",
+ "ts": 1795816226,
  "matches": [
   {
    "id": 1616182,
@@ -9,12 +9,21 @@
    "away": "Anaza",
    "hl": "https://media.api-sports.io/football/teams/20375.png",
    "al": "https://media.api-sports.io/football/teams/28113.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-27T21:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1639840,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-27T21:30:00+00:00",
    "ev": []
   },
@@ -38,9 +47,9 @@
    "hl": "https://media.api-sports.io/football/teams/65.png",
    "al": "https://media.api-sports.io/football/teams/49.png",
    "gh": 3,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T20:00:00+00:00",
    "ev": [
     {
@@ -114,164 +123,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Liam Delap"
-    }
-   ]
-  },
-  {
-   "id": 1558692,
-   "league": "Belgium - Jupiler Pro League",
-   "home": "OH Leuven",
-   "away": "Kortrijk",
-   "hl": "https://media.api-sports.io/football/teams/260.png",
-   "al": "https://media.api-sports.io/football/teams/734.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Goal cancelled",
-     "p": "Davis Opoku"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jamie Lawrence"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matthew Anderson"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jamie Lawrence"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Goduine Koyalipou"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "James Willy Ndjeungoue"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Brecht Dejaegere"
     },
     {
      "m": 89,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Robin Mirisola"
-    }
-   ]
-  },
-  {
-   "id": 1562130,
-   "league": "Northern-Ireland - Premiership",
-   "home": "Coleraine FC",
-   "away": "Dungannon Swifts",
-   "hl": "https://media.api-sports.io/football/teams/669.png",
-   "al": "https://media.api-sports.io/football/teams/5351.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "J. Henderson"
-    },
-    {
-     "m": 32,
-     "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "J. Ogedi-Uzokwe"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Cooper"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Glackin"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Doyle"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Wallace"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "J. Thomson"
+     "p": "Emanuel Emegha"
     }
    ]
   },
@@ -285,7 +144,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-27T20:00:00+00:00",
    "ev": [
     {
@@ -351,6 +210,38 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Finn Azaz"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "will lankshear"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Aidan Morris"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Flynn Downes"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kuryu Matsuki"
     }
    ]
   },
@@ -364,7 +255,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T20:00:00+00:00",
    "ev": [
     {
@@ -427,7 +318,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-27T20:15:00+00:00",
    "ev": [
     {
@@ -485,6 +376,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Rentero"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Ilahude"
     }
    ]
   },
@@ -498,7 +397,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-27T20:15:00+00:00",
    "ev": [
     {
@@ -556,304 +455,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Maurice Boakye"
-    }
-   ]
-  },
-  {
-   "id": 1576025,
-   "league": "Wales - Premier League",
-   "home": "Flint Town United",
-   "away": "The New Saints",
-   "hl": "https://media.api-sports.io/football/teams/5614.png",
-   "al": "https://media.api-sports.io/football/teams/354.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jack Bodenham"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Davies"
-    },
-    {
-     "m": 45,
-     "x": 3,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Josh Lock"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Williams"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Daniel Williams"
-    }
-   ]
-  },
-  {
-   "id": 1576026,
-   "league": "Wales - Premier League",
-   "home": "Haverfordwest County AFC",
-   "away": "GAP Connah S Quay FC",
-   "hl": "https://media.api-sports.io/football/teams/2194.png",
-   "al": "https://media.api-sports.io/football/teams/357.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 14,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "ricky watts"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Joseph ferguson"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "James Jones"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lewis·Rees"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Joseph ferguson"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Owain Jones"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1580568,
-   "league": "Wales - FAW Championship",
-   "home": "Denbigh Town",
-   "away": "Brickfield Rangers",
-   "hl": "https://media.api-sports.io/football/teams/6451.png",
-   "al": "https://media.api-sports.io/football/teams/6443.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1585365,
-   "league": "England - National League",
-   "home": "Scunthorpe",
-   "away": "Wealdstone",
-   "hl": "https://media.api-sports.io/football/teams/1340.png",
-   "al": "https://media.api-sports.io/football/teams/8663.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. McAvoy"
-    },
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "D. Conroy"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Maher"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Gale"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Gale"
     },
     {
      "m": 65,
      "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Norwood"
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Renato Marin"
     },
     {
-     "m": 78,
+     "m": 66,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "F. Okenabirhie"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Denton"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Starbuck"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Brennan"
-    }
-   ]
-  },
-  {
-   "id": 1596572,
-   "league": "England - Non League Premier - Northern",
-   "home": "Rylands",
-   "away": "Lancaster City",
-   "hl": "https://media.api-sports.io/football/teams/8918.png",
-   "al": "https://media.api-sports.io/football/teams/7726.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T19:45:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Regan"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Amison"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Oliver"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Wood"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "B. Hardcastle"
+     "p": "Chico Gonçalves"
     }
    ]
   },
@@ -867,7 +484,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T20:30:00+00:00",
    "ev": [
     {
@@ -901,6 +518,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Brian Blasi"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hugo Adrián Benítez"
     }
    ]
   }
