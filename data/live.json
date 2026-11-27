@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T14:00:24+03:00",
- "ts": 1795777224,
+ "updated": "2026-11-27T14:10:25+03:00",
+ "ts": 1795777825,
  "matches": [
   {
    "id": 1551497,
@@ -12,7 +12,49 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1565542,
+   "league": "Ukraine - Premier League",
+   "home": "Livyi Bereh",
+   "away": "Kolos Kovalivka",
+   "hl": "https://media.api-sports.io/football/teams/17162.png",
+   "al": "https://media.api-sports.io/football/teams/3627.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1581574,
+   "league": "Armenia - Premier League",
+   "home": "Syunik",
+   "away": "Van",
+   "hl": "https://media.api-sports.io/football/teams/20087.png",
+   "al": "https://media.api-sports.io/football/teams/6286.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1599298,
+   "league": "Poland - Central Youth League",
+   "home": "Korona Kielce U19",
+   "away": "Wisła Kraków U19",
+   "hl": "https://media.api-sports.io/football/teams/7905.png",
+   "al": "https://media.api-sports.io/football/teams/20595.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -24,9 +66,9 @@
    "hl": "https://media.api-sports.io/football/teams/5570.png",
    "al": "https://media.api-sports.io/football/teams/25318.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -39,6 +81,14 @@
     },
     {
      "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Cafarov"
+    },
+    {
+     "m": 29,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -57,8 +107,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-27T10:40:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1621394,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Tirat HaCarmel",
+   "away": "Hapoel Ironi Arraba",
+   "hl": "https://media.api-sports.io/football/teams/6169.png",
+   "al": "https://media.api-sports.io/football/teams/22334.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
   {
@@ -71,7 +135,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -94,7 +158,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -105,10 +169,10 @@
    "away": "Maccabi Ashdod",
    "hl": "https://media.api-sports.io/football/teams/6200.png",
    "al": "https://media.api-sports.io/football/teams/6184.png",
-   "gh": 0,
-   "ga": 2,
+   "gh": 1,
+   "ga": 3,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -126,29 +190,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Moshel"
-    }
-   ]
-  },
-  {
-   "id": 1621679,
-   "league": "Israel - Liga Alef",
-   "home": "Hapoel Herzliya",
-   "away": "FC Jerusalem",
-   "hl": "https://media.api-sports.io/football/teams/6153.png",
-   "al": "https://media.api-sports.io/football/teams/17996.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T10:15:00+00:00",
-   "ev": [
+    },
     {
-     "m": 31,
+     "m": 34,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "B. Mizan"
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1621678,
+   "league": "Israel - Liga Alef",
+   "home": "Maccabi Kiryat Malachi",
+   "away": "Shimshon Tel Aviv",
+   "hl": "https://media.api-sports.io/football/teams/6195.png",
+   "al": "https://media.api-sports.io/football/teams/6208.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -162,7 +242,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-27T10:35:00+00:00",
    "ev": []
   },
@@ -174,9 +254,9 @@
    "hl": "https://media.api-sports.io/football/teams/5500.png",
    "al": "https://media.api-sports.io/football/teams/26966.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -186,6 +266,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Solomon"
+    },
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -199,7 +287,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -213,7 +301,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -227,7 +315,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -241,7 +329,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -255,7 +343,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
   },
@@ -269,7 +357,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -292,7 +380,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -331,7 +419,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -369,37 +457,6 @@
    ]
   },
   {
-   "id": 1621681,
-   "league": "Israel - Liga Alef",
-   "home": "Nordia Jerusalem",
-   "away": "Hapoel Ramat HaSharon",
-   "hl": "https://media.api-sports.io/football/teams/6201.png",
-   "al": "https://media.api-sports.io/football/teams/4490.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 46,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Biton"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1591102,
    "league": "Turkey - 3. Lig - Group 3",
    "home": "Yeşilyurt Belediyespor",
@@ -408,8 +465,8 @@
    "al": "https://media.api-sports.io/football/teams/6509.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -445,10 +502,10 @@
    "away": "Beitar Nahariya",
    "hl": "https://media.api-sports.io/football/teams/6175.png",
    "al": "https://media.api-sports.io/football/teams/6134.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -458,6 +515,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "I. Elmichly"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -470,8 +535,8 @@
    "al": "https://media.api-sports.io/football/teams/4500.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -488,7 +553,38 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "B. Mulau"
+    }
+   ]
+  },
+  {
+   "id": 1621681,
+   "league": "Israel - Liga Alef",
+   "home": "Nordia Jerusalem",
+   "away": "Hapoel Ramat HaSharon",
+   "hl": "https://media.api-sports.io/football/teams/6201.png",
+   "al": "https://media.api-sports.io/football/teams/4490.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 56,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Biton"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Cohen"
     }
    ]
   },
@@ -501,8 +597,8 @@
    "al": "https://media.api-sports.io/football/teams/22856.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -524,10 +620,33 @@
    "al": "https://media.api-sports.io/football/teams/28251.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1621679,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Herzliya",
+   "away": "FC Jerusalem",
+   "hl": "https://media.api-sports.io/football/teams/6153.png",
+   "al": "https://media.api-sports.io/football/teams/17996.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T10:15:00+00:00",
+   "ev": [
+    {
+     "m": 31,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Mizan"
+    }
+   ]
   }
  ]
 }
