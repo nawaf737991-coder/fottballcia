@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-27T12:00:20+03:00",
- "ts": 1795770020,
+ "updated": "2026-11-27T12:10:23+03:00",
+ "ts": 1795770623,
  "matches": [
+  {
+   "id": 1527768,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Khujand",
+   "away": "Barki Tajik",
+   "hl": "https://media.api-sports.io/football/teams/8031.png",
+   "al": "https://media.api-sports.io/football/teams/12270.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-27T09:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1593709,
    "league": "Australia - A-League",
@@ -12,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T08:40:00+00:00",
    "ev": [
     {
@@ -30,8 +44,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Quinn MacNicol"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Harrison Delbridge"
     }
    ]
+  },
+  {
+   "id": 1629498,
+   "league": "Turkey - U19 league",
+   "home": "Rizespor U19",
+   "away": "Kasimpasa U19",
+   "hl": "https://media.api-sports.io/football/teams/28252.png",
+   "al": "https://media.api-sports.io/football/teams/28249.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-27T09:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1635018,
@@ -41,11 +77,20 @@
    "hl": "https://media.api-sports.io/football/teams/9162.png",
    "al": "https://media.api-sports.io/football/teams/9165.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-27T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1640125,
@@ -57,7 +102,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": []
   },
@@ -71,7 +116,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -94,7 +139,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": []
   }
