@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T20:10:31+03:00",
- "ts": 1795799431,
+ "updated": "2026-11-27T20:20:28+03:00",
+ "ts": 1795800028,
  "matches": [
   {
    "id": 1548569,
@@ -12,30 +12,24 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1551157,
-   "league": "Bulgaria - First League",
-   "home": "Lokomotiv Sofia",
-   "away": "Slavia Sofia",
-   "hl": "https://media.api-sports.io/football/teams/1416.png",
-   "al": "https://media.api-sports.io/football/teams/854.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 14,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Var",
-     "d": "",
-     "p": null
+     "d": "Card upgrade confirmed",
+     "p": "Luka Posinković"
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Luka Posinković"
     }
    ]
   },
@@ -49,9 +43,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Francisco Sierralta"
+    }
+   ]
   },
   {
    "id": 1558053,
@@ -61,11 +64,20 @@
    "hl": "https://media.api-sports.io/football/teams/4378.png",
    "al": "https://media.api-sports.io/football/teams/4376.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Vidnyanszky"
+    }
+   ]
   },
   {
    "id": 1558292,
@@ -77,7 +89,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": [
     {
@@ -100,7 +112,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -114,46 +126,16 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1561748,
-   "league": "Poland - II Liga - East",
-   "home": "Stal Stalowa Wola",
-   "away": "Legia Warszawa II",
-   "hl": "https://media.api-sports.io/football/teams/6958.png",
-   "al": "https://media.api-sports.io/football/teams/6944.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ryczkowski"
-    },
-    {
-     "m": 20,
+     "m": 9,
      "x": null,
      "s": "h",
      "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Zemlo"
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Mizera"
+     "d": "Red Card",
+     "p": "adebayo quadri adediran"
     }
    ]
   },
@@ -167,9 +149,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Chorosinski"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Tkocz"
+    }
+   ]
   },
   {
    "id": 1569192,
@@ -181,7 +180,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -195,7 +194,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -213,6 +212,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Egor Parkhomenko"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sadyg Bagiev"
     }
    ]
   },
@@ -223,12 +230,29 @@
    "away": "Konyaspor",
    "hl": "https://media.api-sports.io/football/teams/996.png",
    "al": "https://media.api-sports.io/football/teams/607.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ianis Hagi"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "İbrahim Kaya"
+    }
+   ]
   },
   {
    "id": 1584482,
@@ -240,7 +264,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -254,7 +278,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": [
     {
@@ -285,7 +309,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -299,7 +323,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": [
     {
@@ -322,7 +346,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -336,7 +360,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -348,9 +372,9 @@
    "hl": "https://media.api-sports.io/football/teams/5317.png",
    "al": "https://media.api-sports.io/football/teams/5323.png",
    "gh": 0,
-   "ga": 2,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": [
     {
@@ -360,14 +384,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Muderi"
-    },
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     }
    ]
   },
@@ -378,33 +394,19 @@
    "away": "BSK Banja Luka",
    "hl": "https://media.api-sports.io/football/teams/3363.png",
    "al": "https://media.api-sports.io/football/teams/21736.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 9,
-   "time": "2026-11-27T17:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1643383,
-   "league": "Jordan - League",
-   "home": "Al Wihdat",
-   "away": "Doqarah",
-   "hl": "https://media.api-sports.io/football/teams/4537.png",
-   "al": "https://media.api-sports.io/football/teams/22188.png",
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T16:30:00+00:00",
+   "minute": 19,
+   "time": "2026-11-27T17:00:00+00:00",
    "ev": [
     {
-     "m": 18,
+     "m": 13,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "D. Afaneh"
+     "p": "O. Sarkic"
     }
    ]
   },
@@ -418,7 +420,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -457,7 +459,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -496,7 +498,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -514,6 +516,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "André Godinez"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Deverson Garcia"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Angel Mota"
     }
    ]
   },
@@ -527,7 +545,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -558,7 +576,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -584,6 +602,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Lukic"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "V. Daguin"
     }
    ]
   },
@@ -594,10 +620,10 @@
    "away": "Monza U20",
    "hl": "https://media.api-sports.io/football/teams/24725.png",
    "al": "https://media.api-sports.io/football/teams/24738.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -631,6 +657,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Attinasi"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Cakolli"
     }
    ]
   },
@@ -641,10 +675,10 @@
    "away": "Al-Arabi SC",
    "hl": "https://media.api-sports.io/football/teams/7527.png",
    "al": "https://media.api-sports.io/football/teams/2905.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -678,6 +712,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Mohamed Khaled"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Rodrigo Machado"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal cancelled",
+     "p": "Hamidreza Firouzi"
     }
    ]
   },
@@ -691,7 +741,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -722,7 +772,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -752,6 +802,29 @@
    ]
   },
   {
+   "id": 1631828,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Correcaminos UAT II",
+   "away": "FC Santiago",
+   "hl": "https://media.api-sports.io/football/teams/17782.png",
+   "al": "https://media.api-sports.io/football/teams/22055.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    }
+   ]
+  },
+  {
    "id": 1647526,
    "league": "Slovenia - Cup",
    "home": "Brežice",
@@ -761,7 +834,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -792,7 +865,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -839,7 +912,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": []
   },
@@ -853,7 +926,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-27T15:40:00+00:00",
    "ev": [
     {
@@ -867,29 +940,6 @@
    ]
   },
   {
-   "id": 1631828,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Correcaminos UAT II",
-   "away": "FC Santiago",
-   "hl": "https://media.api-sports.io/football/teams/17782.png",
-   "al": "https://media.api-sports.io/football/teams/22055.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1651850,
    "league": "Mali - Première Division",
    "home": "Bakaridjan",
@@ -898,10 +948,103 @@
    "al": "https://media.api-sports.io/football/teams/25371.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1551157,
+   "league": "Bulgaria - First League",
+   "home": "Lokomotiv Sofia",
+   "away": "Slavia Sofia",
+   "hl": "https://media.api-sports.io/football/teams/1416.png",
+   "al": "https://media.api-sports.io/football/teams/854.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "",
+     "p": null
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lazar Marin"
+    }
+   ]
+  },
+  {
+   "id": 1561748,
+   "league": "Poland - II Liga - East",
+   "home": "Stal Stalowa Wola",
+   "away": "Legia Warszawa II",
+   "hl": "https://media.api-sports.io/football/teams/6958.png",
+   "al": "https://media.api-sports.io/football/teams/6944.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Ryczkowski"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "P. Zemlo"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Mizera"
+    }
+   ]
+  },
+  {
+   "id": 1643383,
+   "league": "Jordan - League",
+   "home": "Al Wihdat",
+   "away": "Doqarah",
+   "hl": "https://media.api-sports.io/football/teams/4537.png",
+   "al": "https://media.api-sports.io/football/teams/22188.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T16:30:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Afaneh"
+    }
+   ]
   }
  ]
 }
