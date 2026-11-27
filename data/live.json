@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T17:20:25+03:00",
- "ts": 1795789225,
+ "updated": "2026-11-27T17:30:30+03:00",
+ "ts": 1795789830,
  "matches": [
   {
    "id": 1546188,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T14:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dudu Patetuci"
+    }
+   ]
   },
   {
    "id": 1546195,
@@ -23,10 +32,10 @@
    "away": "Tanzania U17",
    "hl": "https://media.api-sports.io/football/teams/17972.png",
    "al": "https://media.api-sports.io/football/teams/25822.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": [
     {
@@ -44,6 +53,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Luqman Mbalasalu"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cillian Murphy"
     }
    ]
   },
@@ -54,10 +71,10 @@
    "away": "Albinoleffe U20",
    "hl": "https://media.api-sports.io/football/teams/24726.png",
    "al": "https://media.api-sports.io/football/teams/27903.png",
-   "gh": 2,
-   "ga": 0,
+   "gh": 3,
+   "ga": 1,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": [
     {
@@ -70,6 +87,22 @@
     },
     {
      "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Lo Monaco"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Rinaldi"
+    },
+    {
+     "m": 27,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -88,8 +121,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-27T14:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1603088,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Al-Qadisiyah FC",
+   "away": "Al-Fayha",
+   "hl": "https://media.api-sports.io/football/teams/2933.png",
+   "al": "https://media.api-sports.io/football/teams/2944.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T14:20:00+00:00",
    "ev": []
   },
   {
@@ -102,7 +149,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
   },
@@ -116,7 +163,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
   },
@@ -128,9 +175,9 @@
    "hl": "https://media.api-sports.io/football/teams/20527.png",
    "al": "https://media.api-sports.io/football/teams/17977.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -148,6 +195,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Luka Andrijasevic"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nebojsa Grujic"
     }
    ]
   },
@@ -161,7 +216,7 @@
    "gh": 0,
    "ga": 6,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -238,9 +293,9 @@
    "hl": "https://media.api-sports.io/football/teams/4482.png",
    "al": "https://media.api-sports.io/football/teams/4503.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 3,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -266,6 +321,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -276,10 +347,10 @@
    "away": "Hapoel Kfar Saba",
    "hl": "https://media.api-sports.io/football/teams/6160.png",
    "al": "https://media.api-sports.io/football/teams/4497.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -297,6 +368,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -307,10 +386,10 @@
    "away": "Maccabi Kiryat Gat",
    "hl": "https://media.api-sports.io/football/teams/6186.png",
    "al": "https://media.api-sports.io/football/teams/6194.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -328,6 +407,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -341,7 +428,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -396,7 +483,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -435,7 +522,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 85,
+   "minute": 90,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -530,7 +617,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -561,7 +648,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": []
   },
@@ -575,7 +662,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -598,7 +685,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -629,7 +716,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -674,9 +761,9 @@
    "hl": "https://media.api-sports.io/football/teams/2898.png",
    "al": "https://media.api-sports.io/football/teams/2903.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -694,6 +781,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kellian van der Kaap"
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Adam Ounas"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal confirmed",
+     "p": "Adam Ounas"
     }
    ]
   },
@@ -707,7 +810,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -729,76 +832,6 @@
    ]
   },
   {
-   "id": 1628397,
-   "league": "Albania - 1st Division",
-   "home": "Pogradeci",
-   "away": "Iliria Fushë-Krujë",
-   "hl": "https://media.api-sports.io/football/teams/3334.png",
-   "al": "https://media.api-sports.io/football/teams/3330.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "S. Selmani"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Kasmollari"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1641360,
-   "league": "Ethiopia - Premier League",
-   "home": "Ethiopia Bunna",
-   "away": "Halaba Ketema",
-   "hl": "https://media.api-sports.io/football/teams/4116.png",
-   "al": "https://media.api-sports.io/football/teams/28446.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Mboniyomuvuga"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Gugsa"
-    }
-   ]
-  },
-  {
    "id": 1644291,
    "league": "United-Arab-Emirates - Division 1",
    "home": "Dubai City",
@@ -808,7 +841,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -839,7 +872,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -886,7 +919,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -912,6 +945,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Zidane Ally Sereri"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Maruwan Alhibeeshi"
     }
    ]
   },
@@ -925,7 +966,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -961,12 +1002,12 @@
      "p": "A. Nouri"
     },
     {
-     "m": 69,
+     "m": 70,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "d": "Penalty",
+     "p": "M. Mousavi"
     }
    ]
   },
@@ -980,7 +1021,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -1022,6 +1063,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "M. Papi"
     }
    ]
   },
@@ -1035,7 +1084,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-27T12:40:00+00:00",
    "ev": [
     {
