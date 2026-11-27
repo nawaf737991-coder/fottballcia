@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T03:40:18+03:00",
- "ts": 1795740018,
+ "updated": "2026-11-27T03:50:27+03:00",
+ "ts": 1795740627,
  "matches": [
   {
    "id": 1649972,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T00:30:00+00:00",
    "ev": []
   },
@@ -23,10 +23,10 @@
    "away": "Matagalpa",
    "hl": "https://media.api-sports.io/football/teams/4641.png",
    "al": "https://media.api-sports.io/football/teams/19159.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-27T00:00:00+00:00",
    "ev": [
     {
@@ -44,6 +44,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Barja"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Orozco"
     }
    ]
   },
@@ -57,7 +65,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -107,6 +115,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Thiago Carpini Barbosa"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucca Marques Alencar"
     }
    ]
   },
@@ -117,10 +133,10 @@
    "away": "Operário PR U20",
    "hl": "https://media.api-sports.io/football/teams/12968.png",
    "al": "https://media.api-sports.io/football/teams/13036.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -154,6 +170,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Gasparello Bueno Ferreira"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Antonio"
     }
    ]
   }
