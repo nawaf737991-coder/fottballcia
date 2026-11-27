@@ -1,7 +1,63 @@
 {
- "updated": "2026-11-27T19:00:21+03:00",
- "ts": 1795795221,
+ "updated": "2026-11-27T19:10:20+03:00",
+ "ts": 1795795820,
  "matches": [
+  {
+   "id": 1509228,
+   "league": "Georgia - Erovnuli Liga",
+   "home": "Dinamo Batumi",
+   "away": "Dila",
+   "hl": "https://media.api-sports.io/football/teams/705.png",
+   "al": "https://media.api-sports.io/football/teams/3499.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1546201,
+   "league": "World - World Cup - U17",
+   "home": "Romania U17",
+   "away": "Cameroon U17",
+   "hl": "https://media.api-sports.io/football/teams/17973.png",
+   "al": "https://media.api-sports.io/football/teams/12503.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1546205,
+   "league": "World - World Cup - U17",
+   "home": "Venezuela U17",
+   "away": "Mexico U17",
+   "hl": "https://media.api-sports.io/football/teams/21213.png",
+   "al": "https://media.api-sports.io/football/teams/25551.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1553921,
+   "league": "Serbia - Super Liga",
+   "home": "IMT Novi Beograd",
+   "away": "Macva",
+   "hl": "https://media.api-sports.io/football/teams/12316.png",
+   "al": "https://media.api-sports.io/football/teams/2637.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1565317,
    "league": "Romania - Liga I",
@@ -12,8 +68,31 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 37,
    "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Andrei"
+    }
+   ]
+  },
+  {
+   "id": 1569446,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Atalanta U20",
+   "away": "Monza U20",
+   "hl": "https://media.api-sports.io/football/teams/24725.png",
+   "al": "https://media.api-sports.io/football/teams/24738.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +105,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -49,9 +128,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1628055,
@@ -61,9 +149,9 @@
    "hl": "https://media.api-sports.io/football/teams/28223.png",
    "al": "https://media.api-sports.io/football/teams/25063.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -93,6 +181,20 @@
    ]
   },
   {
+   "id": 1631828,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Correcaminos UAT II",
+   "away": "FC Santiago",
+   "hl": "https://media.api-sports.io/football/teams/17782.png",
+   "al": "https://media.api-sports.io/football/teams/22055.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1647526,
    "league": "Slovenia - Cup",
    "home": "Brežice",
@@ -100,11 +202,20 @@
    "hl": "https://media.api-sports.io/football/teams/4369.png",
    "al": "https://media.api-sports.io/football/teams/4363.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Hegic"
+    }
+   ]
   },
   {
    "id": 1648530,
@@ -116,7 +227,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -125,7 +236,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "S. Ouattara"
     }
    ]
   },
@@ -139,7 +250,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 34,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": []
   },
@@ -153,7 +264,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-27T15:40:00+00:00",
    "ev": [
     {
@@ -167,43 +278,18 @@
    ]
   },
   {
-   "id": 1603088,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Al-Qadisiyah FC",
-   "away": "Al-Fayha",
-   "hl": "https://media.api-sports.io/football/teams/2933.png",
-   "al": "https://media.api-sports.io/football/teams/2944.png",
-   "gh": 1,
+   "id": 1651850,
+   "league": "Mali - Première Division",
+   "home": "Bakaridjan",
+   "away": "Diarra",
+   "hl": "https://media.api-sports.io/football/teams/12668.png",
+   "al": "https://media.api-sports.io/football/teams/25371.png",
+   "gh": 0,
    "ga": 0,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-27T14:20:00+00:00",
-   "ev": [
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ziyad Al-Sahafi"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Turki Al-Ammar"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Julián Quiñones"
-    }
-   ]
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1546197,
@@ -214,8 +300,8 @@
    "al": "https://media.api-sports.io/football/teams/12505.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -261,12 +347,12 @@
    "al": "https://media.api-sports.io/football/teams/3727.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 6,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -287,7 +373,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "D. Jambor"
+     "p": "M. Hosek"
     },
     {
      "m": 45,
@@ -299,7 +385,7 @@
     },
     {
      "m": 45,
-     "x": 2,
+     "x": 1,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
@@ -316,8 +402,8 @@
    "al": "https://media.api-sports.io/football/teams/648.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -339,6 +425,53 @@
    ]
   },
   {
+   "id": 1603088,
+   "league": "Saudi-Arabia - Pro League",
+   "home": "Al-Qadisiyah FC",
+   "away": "Al-Fayha",
+   "hl": "https://media.api-sports.io/football/teams/2933.png",
+   "al": "https://media.api-sports.io/football/teams/2944.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "2H",
+   "minute": 90,
+   "time": "2026-11-27T14:20:00+00:00",
+   "ev": [
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ziyad Al-Sahafi"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Turki Al-Ammar"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Julián Quiñones"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mohammed Abu Al-Shamat"
+    }
+   ]
+  },
+  {
    "id": 1647319,
    "league": "Bahrain - Premier League",
    "home": "East Riffa",
@@ -346,13 +479,21 @@
    "hl": "https://media.api-sports.io/football/teams/5485.png",
    "al": "https://media.api-sports.io/football/teams/10234.png",
    "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "ga": 2,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
-     "m": 22,
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Abdo"
+    },
+    {
+     "m": 47,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -370,33 +511,33 @@
    "al": "https://media.api-sports.io/football/teams/5487.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 2,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Hasan"
     },
     {
-     "m": 38,
+     "m": 37,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Boudjenane"
     },
     {
      "m": 45,
-     "x": 5,
+     "x": 4,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Al Rumaithi"
     }
    ]
   },
@@ -409,8 +550,8 @@
    "al": "https://media.api-sports.io/football/teams/20993.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
