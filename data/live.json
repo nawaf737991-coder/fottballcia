@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T20:50:18+03:00",
- "ts": 1795801818,
+ "updated": "2026-11-27T21:00:20+03:00",
+ "ts": 1795802420,
  "matches": [
   {
    "id": 1576242,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T17:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yannik Luhrs"
+    }
+   ]
   },
   {
    "id": 1576245,
@@ -26,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T17:30:00+00:00",
    "ev": [
     {
@@ -57,7 +66,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-27T17:30:00+00:00",
    "ev": []
   },
@@ -71,7 +80,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T17:30:00+00:00",
    "ev": []
   },
@@ -85,7 +94,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-27T17:30:00+00:00",
    "ev": [
     {
@@ -99,29 +108,6 @@
    ]
   },
   {
-   "id": 1628619,
-   "league": "Nigeria - NPFL",
-   "home": "Shooting Stars",
-   "away": "Rivers United",
-   "hl": "https://media.api-sports.io/football/teams/5504.png",
-   "al": "https://media.api-sports.io/football/teams/5192.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T17:00:00+00:00",
-   "ev": [
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1651072,
    "league": "Estonia - Esiliiga B",
    "home": "Tallinna Kalev II",
@@ -131,222 +117,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T17:30:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1509228,
-   "league": "Georgia - Erovnuli Liga",
-   "home": "Dinamo Batumi",
-   "away": "Dila",
-   "hl": "https://media.api-sports.io/football/teams/705.png",
-   "al": "https://media.api-sports.io/football/teams/3499.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Levan Shengelia"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ivan Turitsov"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tornike Kirkitadze"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "guram japaridze"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mohamed Kanté"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mouhamed Diouf"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tornike Kirkitadze"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1546201,
-   "league": "World - World Cup - U17",
-   "home": "Romania U17",
-   "away": "Cameroon U17",
-   "hl": "https://media.api-sports.io/football/teams/17973.png",
-   "al": "https://media.api-sports.io/football/teams/12503.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Robert Corduneanu"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Matei Padure"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Eduardo Bodnar"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Denis Aevoaei"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Eric Bolo"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Georges Esingila"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Karel Krys"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Darius Bota"
-    }
-   ]
-  },
-  {
-   "id": 1546205,
-   "league": "World - World Cup - U17",
-   "home": "Venezuela U17",
-   "away": "Mexico U17",
-   "hl": "https://media.api-sports.io/football/teams/21213.png",
-   "al": "https://media.api-sports.io/football/teams/25551.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Saulo Tejeda"
-    },
-    {
-     "m": 45,
-     "x": 5,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "André Godinez"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Deverson Garcia"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Angel Mota"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Card upgrade cancelled",
-     "p": "André Godinez"
-    }
-   ]
   },
   {
    "id": 1551157,
@@ -358,7 +131,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -384,69 +157,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ivan Minchev"
-    }
-   ]
-  },
-  {
-   "id": 1553921,
-   "league": "Serbia - Super Liga",
-   "home": "IMT Novi Beograd",
-   "away": "Macva",
-   "hl": "https://media.api-sports.io/football/teams/12316.png",
-   "al": "https://media.api-sports.io/football/teams/2637.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Vidakov"
     },
     {
-     "m": 52,
+     "m": 62,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "K. Tojcic"
+     "p": "Kristiyan Stoyanov"
     },
     {
-     "m": 88,
+     "m": 64,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Z. Popovic"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Pejovic"
-    },
-    {
-     "m": 90,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Tiendrebeogo"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Sissako"
+     "p": null
     }
    ]
   },
@@ -457,10 +183,10 @@
    "away": "Legia Warszawa II",
    "hl": "https://media.api-sports.io/football/teams/6958.png",
    "al": "https://media.api-sports.io/football/teams/6944.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -486,61 +212,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. Mizera"
-    }
-   ]
-  },
-  {
-   "id": 1569446,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Atalanta U20",
-   "away": "Monza U20",
-   "hl": "https://media.api-sports.io/football/teams/24725.png",
-   "al": "https://media.api-sports.io/football/teams/24738.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 21,
+     "m": 69,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "N. Artesani"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Attinasi"
-    },
-    {
-     "m": 35,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Artesani"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Attinasi"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Cakolli"
+     "p": "M. Sliwa"
     }
    ]
   },
@@ -554,7 +233,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 70,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -600,53 +279,6 @@
    ]
   },
   {
-   "id": 1628049,
-   "league": "Iraq - Iraqi League",
-   "home": "Gharraf",
-   "away": "Mosul",
-   "hl": "https://media.api-sports.io/football/teams/26600.png",
-   "al": "https://media.api-sports.io/football/teams/26598.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alaa Al-Dali"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Prince Mumba"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wissam Mohammed"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Noor Almustafa Ghanam"
-    }
-   ]
-  },
-  {
    "id": 1631828,
    "league": "Mexico - Liga Premier Serie A",
    "home": "Correcaminos UAT II",
@@ -656,7 +288,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -676,10 +308,10 @@
    "away": "Doqarah",
    "hl": "https://media.api-sports.io/football/teams/4537.png",
    "al": "https://media.api-sports.io/football/teams/22188.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -689,6 +321,67 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Afaneh"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Diop"
+    }
+   ]
+  },
+  {
+   "id": 1651850,
+   "league": "Mali - Première Division",
+   "home": "Bakaridjan",
+   "away": "Diarra",
+   "hl": "https://media.api-sports.io/football/teams/12668.png",
+   "al": "https://media.api-sports.io/football/teams/25371.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 86,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649810,
+   "league": "Oman - Sultan Cup",
+   "home": "Dhofar",
+   "away": "Fanja",
+   "hl": "https://media.api-sports.io/football/teams/5330.png",
+   "al": "https://media.api-sports.io/football/teams/7506.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "BT",
+   "minute": null,
+   "time": "2026-11-27T15:40:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "a",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": null
+    },
+    {
+     "m": 90,
+     "x": 21,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
     }
    ]
   },
@@ -701,8 +394,8 @@
    "al": "https://media.api-sports.io/football/teams/4363.png",
    "gh": 1,
    "ga": 1,
-   "status": "2H",
-   "minute": 90,
+   "status": "ET",
+   "minute": 96,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -747,50 +440,13 @@
     },
     {
      "m": 90,
-     "x": 2,
+     "x": 3,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "N. Jakovljevic"
     }
    ]
-  },
-  {
-   "id": 1649810,
-   "league": "Oman - Sultan Cup",
-   "home": "Dhofar",
-   "away": "Fanja",
-   "hl": "https://media.api-sports.io/football/teams/5330.png",
-   "al": "https://media.api-sports.io/football/teams/7506.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 46,
-   "time": "2026-11-27T15:40:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651850,
-   "league": "Mali - Première Division",
-   "home": "Bakaridjan",
-   "away": "Diarra",
-   "hl": "https://media.api-sports.io/football/teams/12668.png",
-   "al": "https://media.api-sports.io/football/teams/25371.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 76,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1548569,
@@ -1301,6 +957,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "D. M. Ribeiro Gomes"
+    }
+   ]
+  },
+  {
+   "id": 1628619,
+   "league": "Nigeria - NPFL",
+   "home": "Shooting Stars",
+   "away": "Rivers United",
+   "hl": "https://media.api-sports.io/football/teams/5504.png",
+   "al": "https://media.api-sports.io/football/teams/5192.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
