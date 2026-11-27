@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T13:40:14+03:00",
- "ts": 1795776014,
+ "updated": "2026-11-27T13:50:22+03:00",
+ "ts": 1795776622,
  "matches": [
   {
    "id": 1591102,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -49,9 +49,9 @@
    "hl": "https://media.api-sports.io/football/teams/5570.png",
    "al": "https://media.api-sports.io/football/teams/25318.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -61,31 +61,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Cafarov"
-    }
-   ]
-  },
-  {
-   "id": 1621395,
-   "league": "Israel - Liga Alef",
-   "home": "Ironi Baka El Garbiya",
-   "away": "Beitar Nahariya",
-   "hl": "https://media.api-sports.io/football/teams/6175.png",
-   "al": "https://media.api-sports.io/football/teams/6134.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 4,
+     "m": 14,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "I. Elmichly"
+     "p": null
     }
    ]
+  },
+  {
+   "id": 1621393,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Beit Shean",
+   "away": "Maccabi Nujeidat Ahmed",
+   "hl": "https://media.api-sports.io/football/teams/6330.png",
+   "al": "https://media.api-sports.io/football/teams/6198.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T10:40:00+00:00",
+   "ev": []
   },
   {
    "id": 1621396,
@@ -97,7 +96,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": []
   },
@@ -109,9 +108,9 @@
    "hl": "https://media.api-sports.io/football/teams/6146.png",
    "al": "https://media.api-sports.io/football/teams/4500.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -121,6 +120,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Rosen"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -132,13 +139,21 @@
    "hl": "https://media.api-sports.io/football/teams/6200.png",
    "al": "https://media.api-sports.io/football/teams/6184.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 8,
+   "minute": 19,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
      "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 18,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -155,27 +170,13 @@
    "hl": "https://media.api-sports.io/football/teams/6153.png",
    "al": "https://media.api-sports.io/football/teams/17996.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 24,
-   "time": "2026-11-27T10:15:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1621681,
-   "league": "Israel - Liga Alef",
-   "home": "Nordia Jerusalem",
-   "away": "Hapoel Ramat HaSharon",
-   "hl": "https://media.api-sports.io/football/teams/6201.png",
-   "al": "https://media.api-sports.io/football/teams/4490.png",
-   "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T10:00:00+00:00",
+   "minute": 35,
+   "time": "2026-11-27T10:15:00+00:00",
    "ev": [
     {
-     "m": 32,
+     "m": 31,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -185,40 +186,17 @@
    ]
   },
   {
-   "id": 1628906,
+   "id": 1621680,
    "league": "Israel - Liga Alef",
-   "home": "Dimona",
-   "away": "Ironi Beit Shemesh",
-   "hl": "https://media.api-sports.io/football/teams/6142.png",
-   "al": "https://media.api-sports.io/football/teams/22856.png",
+   "home": "Hapoel Sderot",
+   "away": "Holon Yermiyahu",
+   "hl": "https://media.api-sports.io/football/teams/6167.png",
+   "al": "https://media.api-sports.io/football/teams/6171.png",
    "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Shmuel"
-    }
-   ]
-  },
-  {
-   "id": 1629491,
-   "league": "Turkey - U19 league",
-   "home": "Alanyaspor U19",
-   "away": "Konyaspor U19",
-   "hl": "https://media.api-sports.io/football/teams/28240.png",
-   "al": "https://media.api-sports.io/football/teams/28251.png",
-   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 42,
-   "time": "2026-11-27T10:00:00+00:00",
+   "minute": 6,
+   "time": "2026-11-27T10:35:00+00:00",
    "ev": []
   },
   {
@@ -229,11 +207,20 @@
    "hl": "https://media.api-sports.io/football/teams/5500.png",
    "al": "https://media.api-sports.io/football/teams/26966.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-27T10:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Solomon"
+    }
+   ]
   },
   {
    "id": 1507499,
@@ -242,12 +229,60 @@
    "away": "Irao",
    "hl": "https://media.api-sports.io/football/teams/14857.png",
    "al": "https://media.api-sports.io/football/teams/16507.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 57,
    "time": "2026-11-27T09:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Bukhaidze"
+    }
+   ]
+  },
+  {
+   "id": 1507504,
+   "league": "Georgia - Liga 3",
+   "home": "Margveti 2006",
+   "away": "Gonio",
+   "hl": "https://media.api-sports.io/football/teams/16511.png",
+   "al": "https://media.api-sports.io/football/teams/18973.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-27T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Nozadze"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "V. Chargeishvili"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1507505,
@@ -259,7 +294,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -298,7 +333,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T09:00:00+00:00",
    "ev": []
   },
@@ -310,42 +345,102 @@
    "hl": "https://media.api-sports.io/football/teams/28252.png",
    "al": "https://media.api-sports.io/football/teams/28249.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-27T09:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1507504,
-   "league": "Georgia - Liga 3",
-   "home": "Margveti 2006",
-   "away": "Gonio",
-   "hl": "https://media.api-sports.io/football/teams/16511.png",
-   "al": "https://media.api-sports.io/football/teams/18973.png",
-   "gh": 2,
+   "id": 1621395,
+   "league": "Israel - Liga Alef",
+   "home": "Ironi Baka El Garbiya",
+   "away": "Beitar Nahariya",
+   "hl": "https://media.api-sports.io/football/teams/6175.png",
+   "al": "https://media.api-sports.io/football/teams/6134.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Elmichly"
+    }
+   ]
+  },
+  {
+   "id": 1621681,
+   "league": "Israel - Liga Alef",
+   "home": "Nordia Jerusalem",
+   "away": "Hapoel Ramat HaSharon",
+   "hl": "https://media.api-sports.io/football/teams/6201.png",
+   "al": "https://media.api-sports.io/football/teams/4490.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Biton"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1628906,
+   "league": "Israel - Liga Alef",
+   "home": "Dimona",
+   "away": "Ironi Beit Shemesh",
+   "hl": "https://media.api-sports.io/football/teams/6142.png",
+   "al": "https://media.api-sports.io/football/teams/22856.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Shmuel"
+    }
+   ]
+  },
+  {
+   "id": 1629491,
+   "league": "Turkey - U19 league",
+   "home": "Alanyaspor U19",
+   "away": "Konyaspor U19",
+   "hl": "https://media.api-sports.io/football/teams/28240.png",
+   "al": "https://media.api-sports.io/football/teams/28251.png",
+   "gh": 1,
    "ga": 0,
    "status": "HT",
    "minute": 45,
-   "time": "2026-11-27T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Nozadze"
-    },
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "V. Chargeishvili"
-    }
-   ]
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": []
   }
  ]
 }
