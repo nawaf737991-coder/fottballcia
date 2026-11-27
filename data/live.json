@@ -1,7 +1,138 @@
 {
- "updated": "2026-11-28T02:40:24+03:00",
- "ts": 1795822824,
+ "updated": "2026-11-28T02:50:21+03:00",
+ "ts": 1795823421,
  "matches": [
+  {
+   "id": 1650250,
+   "league": "Brazil - Serie B",
+   "home": "Vila Nova",
+   "away": "Atletico Goianiense",
+   "hl": "https://media.api-sports.io/football/teams/142.png",
+   "al": "https://media.api-sports.io/football/teams/144.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Willian Prado Camargo"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gustavo Coutinho Silva Lopes"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Guilherme Lopes"
+    }
+   ]
+  },
+  {
+   "id": 1651151,
+   "league": "Colombia - Primera A",
+   "home": "Deportivo Cali",
+   "away": "Bucaramanga",
+   "hl": "https://media.api-sports.io/football/teams/1127.png",
+   "al": "https://media.api-sports.io/football/teams/1131.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 15,
+   "time": "2026-11-27T23:35:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Steven Rodríguez"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Leyser Chaverra Renteria"
+    }
+   ]
+  },
+  {
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-27T23:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650244,
+   "league": "Argentina - Primera Nacional",
+   "home": "Atlanta",
+   "away": "Ciudad de Bolívar",
+   "hl": "https://media.api-sports.io/football/teams/1948.png",
+   "al": "https://media.api-sports.io/football/teams/16612.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 87,
+   "time": "2026-11-27T22:00:00+00:00",
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Diaz"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Peralta"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Garcia"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
   {
    "id": 1492475,
    "league": "Brazil - Serie A",
@@ -11,8 +142,8 @@
    "al": "https://media.api-sports.io/football/teams/135.png",
    "gh": 0,
    "ga": 1,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -41,9 +172,9 @@
    "hl": "https://media.api-sports.io/football/teams/1183.png",
    "al": "https://media.api-sports.io/football/teams/1182.png",
    "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -61,6 +192,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Tim Payne"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Víctor Sebastián Quintana Herrera"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mateo Gamarra"
     }
    ]
   },
@@ -71,10 +218,10 @@
    "away": "Real Oruro",
    "hl": "https://media.api-sports.io/football/teams/15702.png",
    "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 2,
+   "gh": 1,
    "ga": 1,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -112,37 +259,6 @@
    ]
   },
   {
-   "id": 1650250,
-   "league": "Brazil - Serie B",
-   "home": "Vila Nova",
-   "away": "Atletico Goianiense",
-   "hl": "https://media.api-sports.io/football/teams/142.png",
-   "al": "https://media.api-sports.io/football/teams/144.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Willian Prado Camargo"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gustavo Coutinho Silva Lopes"
-    }
-   ]
-  },
-  {
    "id": 1650553,
    "league": "Chile - Primera B",
    "home": "Antofagasta",
@@ -151,8 +267,8 @@
    "al": "https://media.api-sports.io/football/teams/2343.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
-   "minute": 41,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -162,65 +278,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Gallegos Panozzo"
-    }
-   ]
-  },
-  {
-   "id": 1651151,
-   "league": "Colombia - Primera A",
-   "home": "Deportivo Cali",
-   "away": "Bucaramanga",
-   "hl": "https://media.api-sports.io/football/teams/1127.png",
-   "al": "https://media.api-sports.io/football/teams/1131.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 5,
-   "time": "2026-11-27T23:35:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 10,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1650244,
-   "league": "Argentina - Primera Nacional",
-   "home": "Atlanta",
-   "away": "Ciudad de Bolívar",
-   "hl": "https://media.api-sports.io/football/teams/1948.png",
-   "al": "https://media.api-sports.io/football/teams/16612.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 77,
-   "time": "2026-11-27T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Diaz"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Peralta"
     }
    ]
   }
