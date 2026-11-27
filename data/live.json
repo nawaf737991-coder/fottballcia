@@ -1,148 +1,20 @@
 {
- "updated": "2026-11-27T03:00:23+03:00",
- "ts": 1795737623,
+ "updated": "2026-11-27T03:10:26+03:00",
+ "ts": 1795738226,
  "matches": [
   {
-   "id": 1650552,
-   "league": "Chile - Primera B",
-   "home": "Santiago Wanderers",
-   "away": "Recoleta",
-   "hl": "https://media.api-sports.io/football/teams/2333.png",
-   "al": "https://media.api-sports.io/football/teams/5644.png",
-   "gh": 2,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Provoste"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. San Martin"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Carvajal"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Sanchez"
-    },
-    {
-     "m": 50,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Lara"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "P. Sanchez"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Flores"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Alarcon"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Flores"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Camarda"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Javier Parraguez"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "G. Estigarribia"
-    }
-   ]
-  },
-  {
-   "id": 1651123,
-   "league": "Paraguay - Copa Paraguay",
-   "home": "Cerro Porteno",
-   "away": "Libertad Asuncion",
-   "hl": "https://media.api-sports.io/football/teams/1176.png",
-   "al": "https://media.api-sports.io/football/teams/1179.png",
+   "id": 1651516,
+   "league": "Nicaragua - Primera Division",
+   "home": "Diriangén",
+   "away": "Matagalpa",
+   "hl": "https://media.api-sports.io/football/teams/4641.png",
+   "al": "https://media.api-sports.io/football/teams/19159.png",
    "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 70,
-   "time": "2026-11-26T22:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. Martinez"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. R. Vera"
-    }
-   ]
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T00:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1492478,
@@ -153,8 +25,8 @@
    "al": "https://media.api-sports.io/football/teams/1198.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -192,8 +64,8 @@
    "al": "https://media.api-sports.io/football/teams/13036.png",
    "gh": 3,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
@@ -227,6 +99,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "E. Gasparello Bueno Ferreira"
+    }
+   ]
+  },
+  {
+   "id": 1651123,
+   "league": "Paraguay - Copa Paraguay",
+   "home": "Cerro Porteno",
+   "away": "Libertad Asuncion",
+   "hl": "https://media.api-sports.io/football/teams/1176.png",
+   "al": "https://media.api-sports.io/football/teams/1179.png",
+   "gh": 0,
+   "ga": 3,
+   "status": "2H",
+   "minute": 80,
+   "time": "2026-11-26T22:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "C. Martinez"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. R. Vera"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Fretes"
     }
    ]
   }
