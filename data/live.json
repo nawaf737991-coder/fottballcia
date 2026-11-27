@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T01:30:20+03:00",
- "ts": 1795818620,
+ "updated": "2026-11-28T01:40:24+03:00",
+ "ts": 1795819224,
  "matches": [
   {
    "id": 1650244,
@@ -10,11 +10,20 @@
    "hl": "https://media.api-sports.io/football/teams/1948.png",
    "al": "https://media.api-sports.io/football/teams/16612.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 26,
+   "minute": 35,
    "time": "2026-11-27T22:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1616182,
@@ -24,15 +33,23 @@
    "hl": "https://media.api-sports.io/football/teams/20375.png",
    "al": "https://media.api-sports.io/football/teams/28113.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 78,
    "time": "2026-11-27T21:00:00+00:00",
    "ev": [
     {
      "m": 37,
      "x": null,
      "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -48,8 +65,8 @@
    "al": "https://media.api-sports.io/football/teams/1980.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-27T21:30:00+00:00",
    "ev": [
     {
