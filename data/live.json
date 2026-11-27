@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T12:20:26+03:00",
- "ts": 1795771226,
+ "updated": "2026-11-27T12:30:32+03:00",
+ "ts": 1795771832,
  "matches": [
   {
    "id": 1527768,
@@ -12,7 +12,21 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
+   "time": "2026-11-27T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629498,
+   "league": "Turkey - U19 league",
+   "home": "Rizespor U19",
+   "away": "Kasimpasa U19",
+   "hl": "https://media.api-sports.io/football/teams/28252.png",
+   "al": "https://media.api-sports.io/football/teams/28249.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 27,
    "time": "2026-11-27T09:00:00+00:00",
    "ev": []
   },
@@ -25,8 +39,8 @@
    "al": "https://media.api-sports.io/football/teams/945.png",
    "gh": 2,
    "ga": 0,
-   "status": "1H",
-   "minute": 40,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T08:40:00+00:00",
    "ev": [
     {
@@ -64,17 +78,40 @@
    ]
   },
   {
-   "id": 1629498,
-   "league": "Turkey - U19 league",
-   "home": "Rizespor U19",
-   "away": "Kasimpasa U19",
-   "hl": "https://media.api-sports.io/football/teams/28252.png",
-   "al": "https://media.api-sports.io/football/teams/28249.png",
+   "id": 1635018,
+   "league": "Vietnam - V.League 2",
+   "home": "Bóng đá Huế",
+   "away": "Long An",
+   "hl": "https://media.api-sports.io/football/teams/9162.png",
+   "al": "https://media.api-sports.io/football/teams/9165.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1640125,
+   "league": "Bangladesh - Premier League",
+   "home": "Bangladesh Police",
+   "away": "Abahani",
+   "hl": "https://media.api-sports.io/football/teams/10106.png",
+   "al": "https://media.api-sports.io/football/teams/5009.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 16,
-   "time": "2026-11-27T09:00:00+00:00",
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T08:30:00+00:00",
    "ev": []
   },
   {
@@ -86,7 +123,7 @@
    "al": "https://media.api-sports.io/football/teams/5014.png",
    "gh": 0,
    "ga": 1,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
@@ -123,43 +160,6 @@
    "away": "Lions",
    "hl": "https://media.api-sports.io/football/teams/10202.png",
    "al": "https://media.api-sports.io/football/teams/10217.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T08:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1635018,
-   "league": "Vietnam - V.League 2",
-   "home": "Bóng đá Huế",
-   "away": "Long An",
-   "hl": "https://media.api-sports.io/football/teams/9162.png",
-   "al": "https://media.api-sports.io/football/teams/9165.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1640125,
-   "league": "Bangladesh - Premier League",
-   "home": "Bangladesh Police",
-   "away": "Abahani",
-   "hl": "https://media.api-sports.io/football/teams/10106.png",
-   "al": "https://media.api-sports.io/football/teams/5009.png",
    "gh": 0,
    "ga": 0,
    "status": "HT",
