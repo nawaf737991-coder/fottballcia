@@ -1,46 +1,7 @@
 {
- "updated": "2026-11-27T02:50:19+03:00",
- "ts": 1795737019,
+ "updated": "2026-11-27T03:00:23+03:00",
+ "ts": 1795737623,
  "matches": [
-  {
-   "id": 1492478,
-   "league": "Brazil - Serie A",
-   "home": "Sao Paulo",
-   "away": "Remo",
-   "hl": "https://media.api-sports.io/football/teams/126.png",
-   "al": "https://media.api-sports.io/football/teams/1198.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-26T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Antonio Galeano"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jonathan Calleri"
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Artur Victor Guimarães"
-    }
-   ]
-  },
   {
    "id": 1650552,
    "league": "Chile - Primera B",
@@ -162,7 +123,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-26T22:30:00+00:00",
    "ev": [
     {
@@ -184,119 +145,41 @@
    ]
   },
   {
-   "id": 1651388,
-   "league": "Argentina - Reserve League",
-   "home": "Independiente Res.",
-   "away": "Gimnasia Mendoza 2",
-   "hl": "https://media.api-sports.io/football/teams/18689.png",
-   "al": "https://media.api-sports.io/football/teams/27272.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-26T22:00:00+00:00",
+   "id": 1492478,
+   "league": "Brazil - Serie A",
+   "home": "Sao Paulo",
+   "away": "Remo",
+   "hl": "https://media.api-sports.io/football/teams/126.png",
+   "al": "https://media.api-sports.io/football/teams/1198.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-26T23:00:00+00:00",
    "ev": [
     {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Viollaz"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. De Las Carreras"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Garay"
-    },
-    {
-     "m": 81,
+     "m": 21,
      "x": null,
      "s": "a",
      "t": "Card",
-     "d": "Red Card",
-     "p": null
+     "d": "Yellow Card",
+     "p": "Antonio Galeano"
     },
     {
-     "m": 86,
+     "m": 39,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651511,
-   "league": "Brazil - Copa Fares Lopes",
-   "home": "Tirol/CEFAT",
-   "away": "Guarani De Juazeiro",
-   "hl": "https://media.api-sports.io/football/teams/18799.png",
-   "al": "https://media.api-sports.io/football/teams/1216.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 86,
-   "time": "2026-11-26T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 16,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Junior Dinde"
+     "p": "Jonathan Calleri"
     },
     {
-     "m": 17,
-     "x": null,
+     "m": 45,
+     "x": 2,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kaio Castro"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ciel"
-    }
-   ]
-  },
-  {
-   "id": 1651515,
-   "league": "Nicaragua - Primera Division",
-   "home": "Jalapa",
-   "away": "San Marcos",
-   "hl": "https://media.api-sports.io/football/teams/10160.png",
-   "al": "https://media.api-sports.io/football/teams/28553.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-26T22:00:00+00:00",
-   "ev": [
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Paterson"
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Artur Victor Guimarães"
     }
    ]
   },
