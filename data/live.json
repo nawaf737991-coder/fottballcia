@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-27T14:50:20+03:00",
- "ts": 1795780220,
+ "updated": "2026-11-27T14:54:49+03:00",
+ "ts": 1795780489,
  "matches": [
-  {
-   "id": 1565542,
-   "league": "Ukraine - Premier League",
-   "home": "Livyi Bereh",
-   "away": "Kolos Kovalivka",
-   "hl": "https://media.api-sports.io/football/teams/17162.png",
-   "al": "https://media.api-sports.io/football/teams/3627.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T11:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1603487,
    "league": "Singapore - Premier League",
@@ -26,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 24,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -48,29 +34,6 @@
    ]
   },
   {
-   "id": 1621394,
-   "league": "Israel - Liga Alef",
-   "home": "Hapoel Tirat HaCarmel",
-   "away": "Hapoel Ironi Arraba",
-   "hl": "https://media.api-sports.io/football/teams/6169.png",
-   "al": "https://media.api-sports.io/football/teams/22334.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1621683,
    "league": "Israel - Liga Alef",
    "home": "Tzeirey Tira",
@@ -80,7 +43,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 24,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -102,37 +65,6 @@
    ]
   },
   {
-   "id": 1635020,
-   "league": "Vietnam - V.League 2",
-   "home": "Thai Nguyen",
-   "away": "Hung Yen",
-   "hl": "https://media.api-sports.io/football/teams/28216.png",
-   "al": "https://media.api-sports.io/football/teams/28214.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": 2,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1640128,
    "league": "Bangladesh - Premier League",
    "home": "Bashundhara Kings",
@@ -142,7 +74,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 24,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -151,7 +83,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Robinho"
     }
    ]
   },
@@ -165,7 +97,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 21,
+   "minute": 26,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -196,7 +128,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 21,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -219,9 +151,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 24,
    "time": "2026-11-27T11:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1591102,
@@ -230,10 +171,10 @@
    "away": "Ağrı 1970",
    "hl": "https://media.api-sports.io/football/teams/6541.png",
    "al": "https://media.api-sports.io/football/teams/6509.png",
-   "gh": 2,
-   "ga": 2,
+   "gh": 3,
+   "ga": 3,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -267,6 +208,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Gundogdu"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Ikiz"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -280,7 +237,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 60,
+   "minute": 65,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -351,7 +308,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 48,
+   "minute": 52,
    "time": "2026-11-27T10:40:00+00:00",
    "ev": [
     {
@@ -365,69 +322,6 @@
    ]
   },
   {
-   "id": 1621395,
-   "league": "Israel - Liga Alef",
-   "home": "Ironi Baka El Garbiya",
-   "away": "Beitar Nahariya",
-   "hl": "https://media.api-sports.io/football/teams/6175.png",
-   "al": "https://media.api-sports.io/football/teams/6134.png",
-   "gh": 2,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 4,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Elmichly"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Piastre"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Alfasi"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Seidere"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1621396,
    "league": "Israel - Liga Alef",
    "home": "Ironi Nesher",
@@ -437,7 +331,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 65,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -446,6 +340,14 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
      "p": null
     }
    ]
@@ -460,7 +362,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 89,
+   "minute": 90,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -491,7 +393,7 @@
    "gh": 1,
    "ga": 5,
    "status": "2H",
-   "minute": 59,
+   "minute": 63,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -554,7 +456,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 77,
+   "minute": 81,
    "time": "2026-11-27T10:15:00+00:00",
    "ev": [
     {
@@ -568,40 +470,17 @@
    ]
   },
   {
-   "id": 1628906,
+   "id": 1621680,
    "league": "Israel - Liga Alef",
-   "home": "Dimona",
-   "away": "Ironi Beit Shemesh",
-   "hl": "https://media.api-sports.io/football/teams/6142.png",
-   "al": "https://media.api-sports.io/football/teams/22856.png",
+   "home": "Hapoel Sderot",
+   "away": "Holon Yermiyahu",
+   "hl": "https://media.api-sports.io/football/teams/6167.png",
+   "al": "https://media.api-sports.io/football/teams/6171.png",
    "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Shmuel"
-    }
-   ]
-  },
-  {
-   "id": 1629491,
-   "league": "Turkey - U19 league",
-   "home": "Alanyaspor U19",
-   "away": "Konyaspor U19",
-   "hl": "https://media.api-sports.io/football/teams/28240.png",
-   "al": "https://media.api-sports.io/football/teams/28251.png",
-   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T10:00:00+00:00",
+   "minute": 46,
+   "time": "2026-11-27T10:35:00+00:00",
    "ev": []
   },
   {
@@ -614,7 +493,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 62,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -657,6 +536,20 @@
      "p": null
     }
    ]
+  },
+  {
+   "id": 1565542,
+   "league": "Ukraine - Premier League",
+   "home": "Livyi Bereh",
+   "away": "Kolos Kovalivka",
+   "hl": "https://media.api-sports.io/football/teams/17162.png",
+   "al": "https://media.api-sports.io/football/teams/3627.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1581574,
@@ -710,6 +603,37 @@
    "minute": 45,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1621394,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Tirat HaCarmel",
+   "away": "Hapoel Ironi Arraba",
+   "hl": "https://media.api-sports.io/football/teams/6169.png",
+   "al": "https://media.api-sports.io/football/teams/22334.png",
+   "gh": 2,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1621399,
@@ -790,20 +714,6 @@
    ]
   },
   {
-   "id": 1621680,
-   "league": "Israel - Liga Alef",
-   "home": "Hapoel Sderot",
-   "away": "Holon Yermiyahu",
-   "hl": "https://media.api-sports.io/football/teams/6167.png",
-   "al": "https://media.api-sports.io/football/teams/6171.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T10:35:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1633942,
    "league": "Vietnam - V.League 1",
    "home": "Nam Dinh",
@@ -861,6 +771,37 @@
    "minute": 45,
    "time": "2026-11-27T11:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1635020,
+   "league": "Vietnam - V.League 2",
+   "home": "Thai Nguyen",
+   "away": "Hung Yen",
+   "hl": "https://media.api-sports.io/football/teams/28216.png",
+   "al": "https://media.api-sports.io/football/teams/28214.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 2,
+     "s": "h",
+     "t": "Var",
+     "d": "Goal Disallowed - video review",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1635021,
