@@ -1,30 +1,7 @@
 {
- "updated": "2026-11-28T00:50:26+03:00",
- "ts": 1795816226,
+ "updated": "2026-11-28T01:00:30+03:00",
+ "ts": 1795816830,
  "matches": [
-  {
-   "id": 1616182,
-   "league": "Spain - Tercera División RFEF - Group 12",
-   "home": "Real Unión de Tenerife",
-   "away": "Anaza",
-   "hl": "https://media.api-sports.io/football/teams/20375.png",
-   "al": "https://media.api-sports.io/football/teams/28113.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T21:00:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
   {
    "id": 1639840,
    "league": "Ecuador - Liga Pro",
@@ -32,279 +9,19 @@
    "away": "Manta FC",
    "hl": "https://media.api-sports.io/football/teams/1154.png",
    "al": "https://media.api-sports.io/football/teams/1980.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-27T21:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1557485,
-   "league": "England - Premier League",
-   "home": "Nottingham Forest",
-   "away": "Chelsea",
-   "hl": "https://media.api-sports.io/football/teams/65.png",
-   "al": "https://media.api-sports.io/football/teams/49.png",
-   "gh": 3,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Igor Jesus"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wesley Fofana"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Morgan Gibbs-White"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Emanuel Emegha"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jordan Henderson"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Xabier Alonso Olano"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Neto"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Morgan Gibbs-White"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Liam Delap"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Emanuel Emegha"
-    }
-   ]
-  },
-  {
-   "id": 1563294,
-   "league": "England - Championship",
-   "home": "Southampton",
-   "away": "Middlesbrough",
-   "hl": "https://media.api-sports.io/football/teams/41.png",
-   "al": "https://media.api-sports.io/football/teams/70.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T20:00:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sebastian Berhalter"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Callum Brittain"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luke Ayling"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ryan Manning"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jack Stephens"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Keven Schlotterbeck"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Finn Azaz"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Finn Azaz"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "will lankshear"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Aidan Morris"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Flynn Downes"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kuryu Matsuki"
-    }
-   ]
-  },
-  {
-   "id": 1570468,
-   "league": "Spain - La Liga",
-   "home": "Levante",
-   "away": "Racing Santander",
-   "hl": "https://media.api-sports.io/football/teams/539.png",
-   "al": "https://media.api-sports.io/football/teams/4665.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T20:00:00+00:00",
    "ev": [
     {
      "m": 25,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Pedro Felipe"
-    },
-    {
-     "m": 42,
-     "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Iván Romero"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Daniel Requena Sánchez"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Pablo García"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Iker Luque"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Yassir Zabiri"
+     "p": "Melvin Diaz"
     }
    ]
   },
@@ -318,7 +35,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 78,
+   "minute": 88,
    "time": "2026-11-27T20:15:00+00:00",
    "ev": [
     {
@@ -397,7 +114,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-27T20:15:00+00:00",
    "ev": [
     {
@@ -471,6 +188,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Chico Gonçalves"
+    },
+    {
+     "m": 80,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Matchoi Djaló"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Romain Correia"
     }
    ]
   },
@@ -484,7 +217,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-27T20:30:00+00:00",
    "ev": [
     {
@@ -526,6 +259,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Hugo Adrián Benítez"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastian Vargas"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Héctor Martínez Aquino"
+    }
+   ]
+  },
+  {
+   "id": 1616182,
+   "league": "Spain - Tercera División RFEF - Group 12",
+   "home": "Real Unión de Tenerife",
+   "away": "Anaza",
+   "hl": "https://media.api-sports.io/football/teams/20375.png",
+   "al": "https://media.api-sports.io/football/teams/28113.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
