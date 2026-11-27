@@ -379,8 +379,9 @@ def report_html(facts, data, league_ar):
     parts = [f'<p style="font-size:13px;color:#5b6b7c;margin:0 0 8px">بقلم: <strong>فريق عالم المستديرة</strong> · '
              f'آخر تحديث: {datetime.now(sb.TZ).strftime("%Y-%m-%d %H:%M")} بتوقيت السعودية</p>',
              f"<p><strong>{esc(data['intro'])}</strong></p>"]
-    parts.append("<h2>ملخص المباراة</h2>")
-    parts += [f"<p>{esc(p)}</p>" for p in data.get("paragraphs", [])]
+    if facts.get("score"):
+        parts.append('<p style="text-align:center;font-size:20px;font-weight:800;background:#f1f5f9;padding:10px;border-radius:10px">'
+                     f'{esc(data.get("home_ar") or facts["home"])} {esc(str(facts["score"]))} {esc(data.get("away_ar") or facts["away"])}</p>')
     goals = [e for e in facts["events"] if e["type"] == "Goal"]
     cards = [e for e in facts["events"] if e["type"] == "Card"]
     if goals:
@@ -389,6 +390,17 @@ def report_html(facts, data, league_ar):
             kind = {"Own Goal": " (عكسي)", "Penalty": " (ركلة جزاء)"}.get(e["detail"], "")
             parts.append(f"<li>الدقيقة {e['min']}: {esc(e['player'] or '')}{kind} - {esc(e['team'])}</li>")
         parts.append("</ul>")
+    hl = [h for h in (data.get("highlights") or []) if isinstance(h, str) and h.strip()]
+    if hl:
+        parts.append("<h2>أبرز اللحظات</h2><ul>" + "".join(f"<li>{esc(h)}</li>" for h in hl[:5]) + "</ul>")
+    if (data.get("star_ar") or "").strip():
+        parts.append(f'<h2>نجم المباراة</h2><p><strong>{esc(data["star_ar"].strip())}</strong>'
+                     + (f': {esc(data.get("star_reason", "").strip())}' if data.get("star_reason") else "") + "</p>")
+    tw = tweets_html(facts.get("fid"))
+    if tw:
+        parts.append('<div class="tw-embeds">' + tw + "</div><!--tw-->")
+    parts.append("<h2>ملخص المباراة</h2>")
+    parts += [f"<p>{esc(p)}</p>" for p in data.get("paragraphs", [])]
     if cards:
         parts.append("<h2>البطاقات</h2><ul>")
         for e in cards:
@@ -425,7 +437,6 @@ def report_html(facts, data, league_ar):
     if data.get("conclusion"):
         parts.append("<h2>ماذا تعني النتيجة؟</h2>")
         parts.append(f"<p>{esc(data['conclusion'])}</p>")
-    parts.append(tweets_html(facts.get("fid")))
     parts.append(extras_html(facts, data, league_ar))
     parts.append(
         f'<p><small>{esc(league_ar)} - آخر تحديث: {datetime.now(sb.TZ).strftime("%Y-%m-%d %H:%M")} بتوقيت الرياض. '
@@ -502,20 +513,32 @@ def _reports_loop(st, cands, limit):
         fid = f["fixture"]["id"]
         try:
             full = sb.football("fixtures", id=fid)[0]
+            why_ = Q.report_notable(full, full.get("events"))
+            if not why_:
+                st["reports"].append(fid)  # مباراة عادية بلا شيء مميز: لا نكتب عنها (سياسة 27 نوفمبر)
+                print("تخطي مباراة عادية:", f["teams"]["home"]["name"], "-", f["teams"]["away"]["name"], flush=True)
+                continue
+            print("مباراة مميزة:", f["teams"]["home"]["name"], "-", f["teams"]["away"]["name"], why_, flush=True)
             facts = match_facts(full)
+            facts["why_notable"] = why_
             facts["stats"] = match_stats(fid)
             facts["lineups"] = match_lineups(fid)
             league_ar = LEAGUES[f["league"]["id"]]
             raw = sb.claude(
-                "أنت محرر رياضي عربي محترف في موقع أخبار كرة قدم. اكتب تقرير مباراة بالعربي الفصيح المبسط "
+                "أنت محرر رياضي عربي محترف في موقع أخبار كرة قدم. اكتب تقرير ما بعد المباراة على طريقة موقع كووورة "
+                "(النتيجة، والأهداف ودقائقها، وأبرز اللحظات، ونجم المباراة) مع إبراز سبب أهمية المباراة المذكور في why_notable. "
+                "اكتب بالعربي الفصيح المبسط "
                 "اعتمادًا فقط على البيانات التالية. ممنوع إضافة أي معلومة أو رقم أو لاعب أو تاريخ غير موجود فيها، "
                 "وممنوع التخمين عن ترتيب الدوري أو الأداء العام. استخدم الأسماء العربية المعروفة للفرق واللاعبين "
                 "المشهورين فقط، وما لا تعرف اسمه العربي اتركه كما هو بالإنجليزية.\n"
                 "أعد JSON فقط بهذا الشكل بدون أي نص آخر:\n"
-                '{"title": "عنوان جذاب للبحث بحدود 60 حرفًا يحتوي اسمي الفريقين والنتيجة",'
+                '{"title": "عنوان جذاب وصادق بلا مبالغة أو تضليل بحدود 60 حرفًا يحتوي اسمي الفريقين والنتيجة",'
                 ' "description": "وصف للبحث بحدود 150 حرفًا",'
                 ' "home_ar": "اسم الفريق المضيف بالعربي", "away_ar": "اسم الفريق الضيف بالعربي",'
                 ' "intro": "مقدمة من 3 جمل تحتوي الاسمين والنتيجة والبطولة والجولة والملعب إن وجد",'
+                ' "highlights": ["3 إلى 5 من أبرز لحظات المباراة، كل واحدة جملة قصيرة تبدأ بالدقيقة إن وجدت"],'
+                ' "star_ar": "اسم نجم المباراة بالعربي من البيانات (صاحب هدف حاسم أو هاتريك أو أبرز لاعب في الأحداث)",'
+                ' "star_reason": "جملة أو جملتان عن سبب اختياره نجمًا للمباراة وفق البيانات فقط",'
                 ' "paragraphs": ["فقرة من 4 جمل على الأقل عن مجريات الشوط الأول وفق الأحداث", "فقرة من 4 جمل عن الشوط الثاني والأهداف والبطاقات والتبديلات", "فقرة عن أبرز اللاعبين المذكورين في الأحداث ودورهم"],'
                 ' "analysis": ["فقرة من 4 جمل تحلل الإحصائيات (الاستحواذ والتسديدات والتمريرات) وماذا تقول عن أسلوب كل فريق", "فقرة تقارن فاعلية الفريقين الهجومية والدفاعية بالأرقام والتشكيلة"],'
                 ' "conclusion": "فقرة ختامية من 3 جمل عن دلالة النتيجة للفريقين دون تخمين ترتيب الدوري",'
@@ -711,8 +734,13 @@ def _news_loop(seen, st):
                     "لا تترجم حرفيًا ولا تنسخ الجمل، بل أعد الصياغة بأسلوبك ورتّب المعلومات واشرح السياق للقارئ العربي، "
                     "وممنوع إضافة أي معلومة أو رقم أو تصريح أو تاريخ غير موجود في المصدر. "
                     "استخدم الأسماء العربية المعروفة للأندية واللاعبين.\n"
+                    "العنوان جذاب وصادق ومتوافق مع البحث، بلا مبالغة ولا تضليل. إذا كان الخبر شائعة أو تقارير غير مؤكدة "
+                    "فاكتبه صراحة كتقارير (مثل: تقارير: ...) ولا تقدمه كخبر مؤكد.\n"
                     "أعد JSON فقط بهذا الشكل:\n"
-                    '{"title": "عنوان واضح للبحث بحدود 60 حرفًا يتضمن الاسم الأبرز",'
+                    '{"talk_today": "نعم أو لا: هل سيتكلم عنه جمهور كرة القدم العربي اليوم؟ (هدف عالمي، تألق نجم، رقم قياسي، مباراة مثيرة، انتقال كبير، إقالة، تصريح مثير، إصابة مؤثرة، قصة لاعب لافتة)",'
+                    ' "category": "واحد من: transfer, sacking, statement, record, star, goal, injury, story, match, schedule, lineup, tv, women, other",'
+                    ' "confirmed": "نعم إذا كان الخبر مؤكدًا رسميًا أو من مصدر موثوق، لا إذا كان شائعة",'
+                    ' "title": "عنوان واضح للبحث بحدود 60 حرفًا يتضمن الاسم الأبرز",'
                     ' "description": "وصف للبحث بحدود 150 حرفًا",'
                     ' "intro": "فقرة افتتاحية من جملتين تلخص الخبر",'
                     ' "sections": [{"heading": "عنوان فرعي", "paragraphs": ["فقرة", "فقرة"]},'
@@ -730,6 +758,15 @@ def _news_loop(seen, st):
                 data = parse_json(raw)
                 if not data.get("title") or not data.get("sections"):
                     raise ValueError("مخرجات ناقصة")
+                cat = str(data.get("category") or "").strip().lower()
+                if not force and (str(data.get("talk_today", "")).strip().startswith("لا") or cat in ("schedule", "lineup", "tv", "women", "other")):
+                    seen.add(key)
+                    print("تخطي خبر غير لافت أو ممنوع:", cat, title, flush=True)
+                    continue
+                if str(data.get("confirmed", "")).strip().startswith("لا") and not re.search(r"تقارير|تقرير|أنباء|مصادر", data["title"]):
+                    data["title"] = "تقارير: " + data["title"].strip()
+                for k in ("talk_today", "category", "confirmed"):
+                    data.pop(k, None)
                 data = Q.proofread(data)
                 esc = html.escape
                 ar_title = data["title"].strip()

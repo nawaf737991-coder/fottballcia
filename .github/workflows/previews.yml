@@ -27,8 +27,9 @@ jobs:
       GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
       SEO_DRAFT: ${{ vars.SEO_DRAFT || '0' }}
       DRY_RUN: ${{ inputs.dry || '0' }}
-      MAX_PREVIEWS: '1'
-      DAILY_PREVIEWS: '3'
+      MAX_PREVIEWS: '0'
+      PREVIEWS_ON: '0'
+      DAILY_PREVIEWS: '0'
       MIN_SCORE: '75'
       X_API_KEY: ${{ secrets.X_API_KEY }}
       X_API_SECRET: ${{ secrets.X_API_SECRET }}

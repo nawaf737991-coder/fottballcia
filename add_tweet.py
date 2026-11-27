@@ -52,3 +52,35 @@ else:
 data[fid] = lst[:12]
 json.dump({"matches": data}, open(F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("OK", fid, url, "minute", minute or "-")
+
+# ---- إضافة/تحديث التغريدات داخل مقال تقرير المباراة (إن وُجد) ----
+try:
+    st = json.load(open(os.path.join(ROOT, "data", "seo_state.json"), encoding="utf-8"))
+    pid = (st.get("report_posts") or {}).get(fid)
+except Exception:
+    pid = None
+if pid and os.environ.get("BLOGGER_BLOG_ID"):
+    sys.path.insert(0, ROOT)
+    import sports_bot as sb
+    try:
+        post = sb.blogger(f"/posts/{pid}")
+        body = post.get("content", "")
+        body = re.sub(r'<div class="tw-embeds">.*?</div><!--tw-->', "", body, flags=re.S)
+        body = re.sub(r'<div class="tw-embeds"><h2>مقاطع المباراة</h2>(?:<blockquote class="twitter-tweet".*?</blockquote>)*</div>', "", body, flags=re.S)
+        body = re.sub(r'<h2>مقاطع المباراة</h2>(?:<blockquote class="twitter-tweet".*?</blockquote>)+', "", body, flags=re.S)
+        acc_l = {x.lower() for x in acc["accounts"]}
+        quotes = "".join(f'<blockquote class="twitter-tweet" data-lang="ar" data-dnt="true"><a href="{x["u"]}"></a></blockquote>'
+                         for x in data[fid][:6] if x["u"].split("/")[3].lower() in acc_l)
+        if quotes:
+            block = f'<div class="tw-embeds"><h2>مقاطع المباراة</h2>{quotes}</div><!--tw-->'
+            for mark in ("<h2>ملخص المباراة</h2>", "<h2>أرقام المباراة", "<h2>المباريات القادمة"):
+                if mark in body:
+                    body = body.replace(mark, block + mark, 1); break
+            else:
+                body += block
+        sb.blogger(f"/posts/{pid}", "PATCH", {"content": body})
+        print("حُدّث مقال التقرير بالتغريدات", pid)
+    except Exception as e:
+        print("تعذر تحديث مقال التقرير:", str(e)[:200])
+else:
+    print("لا يوجد مقال تقرير لهذه المباراة بعد؛ التغريدة تظهر في مركز المباراة، وتُضاف تلقائيًا لأي تقرير يُكتب لاحقًا")

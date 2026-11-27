@@ -29,7 +29,79 @@ def is_women(*texts):
 
 def news_score(title, desc=""):
     t = f"{title} {desc}".lower()
-    return sum(1 for k in BIG_EN if k in t)
+    if BANNED_RE.search(t):
+        return 0  # مواعيد/قنوات/تشكيلات متوقعة/معاينات: ممنوعة بسياسة 27 نوفمبر
+    s = sum(1 for k in BIG_EN if k in t)
+    if s and BUZZ_RE.search(t):
+        s += 1  # خبر لافت يتكلم عنه الجمهور
+    return s
+
+
+# سياسة 27 نوفمبر: ممنوع مقالات المواعيد والقنوات والتشكيلات المتوقعة والمعاينات
+BANNED_RE = re.compile(
+    r"predicted line|possible line|probable line|expected line|team news|\bline-?ups?\b|starting xi|confirmed xi|"
+    r"how to watch|where to watch|tv channel|live stream|kick-?off time|what time is|\bpreview|\bprediction|"
+    r"\bbetting\b|\bodds\b|\btips\b|\blive:|live updates|as it happened|"
+    r"موعد مباراة|مواعيد مباريات|مباريات اليوم|القنوات الناقلة|القناة الناقلة|التشكيلة? المتوقع", re.I)
+BUZZ_RE = re.compile(
+    r"\brecord\b|stunning|comeback|remontada|wonder ?goal|screamer|goal of the|hat-?trick|\bsacked\b|\bfired\b|"
+    r"here we go|\bblasts?\b|\bslams?\b|\brow\b|controvers|furious|historic|\bhistory\b|first time|\bshock|"
+    r"injury blow|ruled out|red card|\bbanned\b|\bsigns?\b|\bagreed\b", re.I)
+
+
+def report_notable(full, events=None):
+    """هل المباراة فيها شيء مميز يستحق تقريرًا؟ يرجع قائمة الأسباب (فارغة = مباراة عادية لا نكتب عنها)"""
+    why = []
+    th, ta = full["teams"]["home"], full["teams"]["away"]
+    gh, ga = full["goals"].get("home") or 0, full["goals"].get("away") or 0
+    big = [s for s in ("home", "away") if full["teams"][s]["name"] in BIG_TEAMS_API]
+    status = full["fixture"]["status"]["short"]
+    rnd = (full["league"].get("round") or "").lower()
+    if len(big) == 2:
+        why.append("قمة بين كبيرين")
+    if gh + ga >= 4:
+        why.append("مباراة غزيرة الأهداف")
+    if status in ("PEN", "AET"):
+        why.append("وقت إضافي أو ركلات ترجيح")
+    if len(big) == 1:
+        bg, og = (gh, ga) if big[0] == "home" else (ga, gh)
+        if bg < og:
+            why.append("خسارة مفاجئة لفريق كبير")
+        elif bg == og:
+            why.append("تعثر فريق كبير")
+    if full["league"]["id"] in (1, 2, 12, 17) and rnd and not any(k in rnd for k in ("league stage", "group", "regular")):
+        why.append("دور إقصائي")
+    ev = events if events is not None else (full.get("events") or [])
+    scorers = {}
+    run_h = run_a = 0
+    trailed = {"home": False, "away": False}
+    for e in ev:
+        det = e.get("detail") or ""
+        if e.get("type") == "Card" and "Red" in det:
+            why.append("بطاقة حمراء")
+        if e.get("type") != "Goal" or "Missed" in det:
+            continue
+        p = e.get("player")
+        p = p.get("name") if isinstance(p, dict) else p
+        if p and det != "Own Goal":
+            scorers[p] = scorers.get(p, 0) + 1
+        tm = e.get("team")
+        tid = tm.get("id") if isinstance(tm, dict) else None
+        tname = tm.get("name") if isinstance(tm, dict) else tm
+        side = "home" if (tid is not None and tid == th.get("id")) or tname == th.get("name") else "away"
+        if side == "home":
+            run_h += 1
+        else:
+            run_a += 1
+        if run_h < run_a:
+            trailed["home"] = True
+        if run_a < run_h:
+            trailed["away"] = True
+    if any(n >= 3 for n in scorers.values()):
+        why.append("هاتريك")
+    if (gh > ga and trailed["home"]) or (ga > gh and trailed["away"]):
+        why.append("عودة في النتيجة")
+    return list(dict.fromkeys(why))
 
 
 def team_big(f):

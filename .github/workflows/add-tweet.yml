@@ -23,6 +23,10 @@ jobs:
           KIND: ${{ inputs.kind }}
           NEW_ACCOUNT: ${{ inputs.new_account }}
           REMOVE: ${{ inputs.remove }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
       - run: |
           git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
           git add data; git commit -m "tweet embed" || exit 0

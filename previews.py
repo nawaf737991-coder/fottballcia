@@ -713,6 +713,9 @@ def main():
             run_results(st)
         except Exception as e:
             print("::warning::run_results:", e, flush=True)
+        if os.environ.get("PREVIEWS_ON", "0") != "1":
+            print("مقالات ما قبل المباريات موقوفة (سياسة 27 نوفمبر: لا مواعيد ولا تشكيلات متوقعة ولا قنوات)")
+            return
         today = datetime.now(sb.TZ).strftime("%Y-%m-%d")
         n_today = sum(1 for p in st["posts"] if (p.get("published") or "").startswith(today))
         limit = min(int(os.environ.get("MAX_PREVIEWS", "2")), int(os.environ.get("DAILY_PREVIEWS", "6")) - n_today)
