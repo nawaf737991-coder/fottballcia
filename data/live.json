@@ -1,30 +1,7 @@
 {
- "updated": "2026-11-28T01:10:12+03:00",
- "ts": 1795817412,
+ "updated": "2026-11-28T01:20:21+03:00",
+ "ts": 1795818021,
  "matches": [
-  {
-   "id": 1639840,
-   "league": "Ecuador - Liga Pro",
-   "home": "Deportivo Cuenca",
-   "away": "Manta FC",
-   "hl": "https://media.api-sports.io/football/teams/1154.png",
-   "al": "https://media.api-sports.io/football/teams/1980.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T21:30:00+00:00",
-   "ev": [
-    {
-     "m": 25,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Melvin Diaz"
-    }
-   ]
-  },
   {
    "id": 1650244,
    "league": "Argentina - Primera Nacional",
@@ -35,128 +12,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-27T22:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1575551,
-   "league": "Portugal - Primeira Liga",
-   "home": "Maritimo",
-   "away": "Nacional",
-   "hl": "https://media.api-sports.io/football/teams/214.png",
-   "al": "https://media.api-sports.io/football/teams/225.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T20:15:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Paulo Henrique"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Miguel Baeza"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Song Min-kyu"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gábor Szalai"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Markus Jensen"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Williams Kokolo"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Maurice Boakye"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Renato Marin"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Chico Gonçalves"
-    },
-    {
-     "m": 80,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Matchoi Djaló"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Romain Correia"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Romain Correia"
-    },
-    {
-     "m": 90,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Samuel Bamba"
-    }
-   ]
   },
   {
    "id": 1616182,
@@ -168,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-27T21:00:00+00:00",
    "ev": [
     {
@@ -191,7 +49,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-27T20:30:00+00:00",
    "ev": [
     {
@@ -257,6 +115,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Hugo Valdez"
+    }
+   ]
+  },
+  {
+   "id": 1639840,
+   "league": "Ecuador - Liga Pro",
+   "home": "Deportivo Cuenca",
+   "away": "Manta FC",
+   "hl": "https://media.api-sports.io/football/teams/1154.png",
+   "al": "https://media.api-sports.io/football/teams/1980.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T21:30:00+00:00",
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Melvin Diaz"
     }
    ]
   }
