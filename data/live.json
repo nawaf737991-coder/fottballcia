@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T18:50:14+03:00",
- "ts": 1795794614,
+ "updated": "2026-11-27T19:00:21+03:00",
+ "ts": 1795795221,
  "matches": [
   {
    "id": 1565317,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": []
   },
@@ -26,8 +26,31 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Fathy"
+    }
+   ]
+  },
+  {
+   "id": 1628049,
+   "league": "Iraq - Iraqi League",
+   "home": "Gharraf",
+   "away": "Mosul",
+   "hl": "https://media.api-sports.io/football/teams/26600.png",
+   "al": "https://media.api-sports.io/football/teams/26598.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
   {
@@ -40,63 +63,48 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-27T15:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1647319,
-   "league": "Bahrain - Premier League",
-   "home": "East Riffa",
-   "away": "Al Ittifaq Maqaba",
-   "hl": "https://media.api-sports.io/football/teams/5485.png",
-   "al": "https://media.api-sports.io/football/teams/10234.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1647320,
-   "league": "Bahrain - Premier League",
-   "home": "Malkiya",
-   "away": "Manama",
-   "hl": "https://media.api-sports.io/football/teams/5486.png",
-   "al": "https://media.api-sports.io/football/teams/5487.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 38,
+     "m": 23,
      "x": null,
      "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hussein Talib"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
      "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "d": "Missed Penalty",
+     "p": "Ahmed Maknzi"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Maknzi"
     }
    ]
+  },
+  {
+   "id": 1647526,
+   "league": "Slovenia - Cup",
+   "home": "Brežice",
+   "away": "Triglav",
+   "hl": "https://media.api-sports.io/football/teams/4369.png",
+   "al": "https://media.api-sports.io/football/teams/4363.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1648530,
@@ -106,11 +114,20 @@
    "hl": "https://media.api-sports.io/football/teams/8570.png",
    "al": "https://media.api-sports.io/football/teams/26633.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-27T15:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1648537,
@@ -122,7 +139,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": []
   },
@@ -133,158 +150,18 @@
    "away": "Fanja",
    "hl": "https://media.api-sports.io/football/teams/5330.png",
    "al": "https://media.api-sports.io/football/teams/7506.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T15:40:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1546188,
-   "league": "World - World Cup - U17",
-   "home": "Costa Rica U17",
-   "away": "Brazil U17",
-   "hl": "https://media.api-sports.io/football/teams/20990.png",
-   "al": "https://media.api-sports.io/football/teams/12502.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T14:00:00+00:00",
    "ev": [
     {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dudu Patetuci"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rodrigo Azevedo de Souza Júnior"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Lucca Caramico"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "Kauê Furquim"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lucas Emanuel"
-    }
-   ]
-  },
-  {
-   "id": 1546195,
-   "league": "World - World Cup - U17",
-   "home": "Republic of Ireland U17",
-   "away": "Tanzania U17",
-   "hl": "https://media.api-sports.io/football/teams/17972.png",
-   "al": "https://media.api-sports.io/football/teams/25822.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
+     "m": 17,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Cillian Murphy"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luqman Mbalasalu"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Cillian Murphy"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Desmond Armstrong"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Desmond Armstrong"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hussein Ally Mbegu"
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Josh O'Dwyer"
-    }
-   ]
-  },
-  {
-   "id": 1569449,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Empoli U20",
-   "away": "Lazio U20",
-   "hl": "https://media.api-sports.io/football/teams/24730.png",
-   "al": "https://media.api-sports.io/football/teams/24735.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-27T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
      "p": null
     }
    ]
@@ -299,7 +176,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T14:20:00+00:00",
    "ev": [
     {
@@ -317,163 +194,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Turki Al-Ammar"
-    }
-   ]
-  },
-  {
-   "id": 1627778,
-   "league": "South-Africa - 1st Division",
-   "home": "Casric Stars",
-   "away": "University of Pretoria",
-   "hl": "https://media.api-sports.io/football/teams/19997.png",
-   "al": "https://media.api-sports.io/football/teams/10569.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T13:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 27,
+     "m": 76,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1642201,
-   "league": "India - Indian Super League",
-   "home": "Inter Kashi",
-   "away": "Churchill Brothers",
-   "hl": "https://media.api-sports.io/football/teams/22595.png",
-   "al": "https://media.api-sports.io/football/teams/3462.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-27T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Okoro"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Assisi"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Chhikara"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Gaonkar"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "T. Savio Dias"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Singh"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Singh"
-    },
-    {
-     "m": 68,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Fernandes"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "W. Vaz"
-    }
-   ]
-  },
-  {
-   "id": 1643382,
-   "league": "Jordan - League",
-   "home": "Shabab Al Ordon",
-   "away": "Al Salt",
-   "hl": "https://media.api-sports.io/football/teams/4539.png",
-   "al": "https://media.api-sports.io/football/teams/4535.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-27T14:00:00+00:00",
-   "ev": [
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
+     "t": "Var",
+     "d": "Penalty cancelled",
+     "p": "Julián Quiñones"
     }
    ]
   },
@@ -501,18 +229,18 @@
     {
      "m": 20,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Bayron Barrera"
-    },
-    {
-     "m": 20,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Vesko Cukic"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Bayron Barrera"
     },
     {
      "m": 32,
@@ -607,6 +335,68 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Mchakhchekh"
+    }
+   ]
+  },
+  {
+   "id": 1647319,
+   "league": "Bahrain - Premier League",
+   "home": "East Riffa",
+   "away": "Al Ittifaq Maqaba",
+   "hl": "https://media.api-sports.io/football/teams/5485.png",
+   "al": "https://media.api-sports.io/football/teams/10234.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1647320,
+   "league": "Bahrain - Premier League",
+   "home": "Malkiya",
+   "away": "Manama",
+   "hl": "https://media.api-sports.io/football/teams/5486.png",
+   "al": "https://media.api-sports.io/football/teams/5487.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
