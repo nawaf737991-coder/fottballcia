@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T19:20:26+03:00",
- "ts": 1795796426,
+ "updated": "2026-11-27T19:30:30+03:00",
+ "ts": 1795797030,
  "matches": [
   {
    "id": 1509228,
@@ -9,12 +9,21 @@
    "away": "Dila",
    "hl": "https://media.api-sports.io/football/teams/705.png",
    "al": "https://media.api-sports.io/football/teams/3499.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Levan Shengelia"
+    }
+   ]
   },
   {
    "id": 1546201,
@@ -26,9 +35,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Robert Corduneanu"
+    }
+   ]
   },
   {
    "id": 1546205,
@@ -40,7 +58,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -54,7 +72,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -68,27 +86,18 @@
    ]
   },
   {
-   "id": 1565317,
-   "league": "Romania - Liga I",
-   "home": "Universitatea Cluj",
-   "away": "Sepsi OSK Sfantu Gheorghe",
-   "hl": "https://media.api-sports.io/football/teams/2599.png",
-   "al": "https://media.api-sports.io/football/teams/2585.png",
+   "id": 1561748,
+   "league": "Poland - II Liga - East",
+   "home": "Stal Stalowa Wola",
+   "away": "Legia Warszawa II",
+   "hl": "https://media.api-sports.io/football/teams/6958.png",
+   "al": "https://media.api-sports.io/football/teams/6944.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Andrei"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-27T16:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1569446,
@@ -97,12 +106,21 @@
    "away": "Monza U20",
    "hl": "https://media.api-sports.io/football/teams/24725.png",
    "al": "https://media.api-sports.io/football/teams/24738.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Artesani"
+    }
+   ]
   },
   {
    "id": 1628049,
@@ -112,18 +130,26 @@
    "hl": "https://media.api-sports.io/football/teams/26600.png",
    "al": "https://media.api-sports.io/football/teams/26598.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
-     "m": 8,
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alaa Al-Dali"
+    },
+    {
+     "m": 24,
      "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Prince Mumba"
     }
    ]
   },
@@ -137,7 +163,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 15,
+   "minute": 25,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -151,7 +177,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -165,29 +191,6 @@
    ]
   },
   {
-   "id": 1648530,
-   "league": "Burkina-Faso - Ligue 1",
-   "home": "USFA",
-   "away": "CFFEB",
-   "hl": "https://media.api-sports.io/football/teams/8570.png",
-   "al": "https://media.api-sports.io/football/teams/26633.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Ouattara"
-    }
-   ]
-  },
-  {
    "id": 1649810,
    "league": "Oman - Sultan Cup",
    "home": "Dhofar",
@@ -197,7 +200,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 38,
+   "minute": 45,
    "time": "2026-11-27T15:40:00+00:00",
    "ev": [
     {
@@ -220,7 +223,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -234,7 +237,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -248,18 +251,18 @@
     {
      "m": 20,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Vesko Cukic"
-    },
-    {
-     "m": 20,
-     "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Missed Penalty",
      "p": "Bayron Barrera"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Vesko Cukic"
     },
     {
      "m": 32,
@@ -278,10 +281,10 @@
    "away": "Třinec",
    "hl": "https://media.api-sports.io/football/teams/3731.png",
    "al": "https://media.api-sports.io/football/teams/3727.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -310,6 +313,14 @@
     },
     {
      "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "O. Sambou"
+    },
+    {
+     "m": 45,
      "x": 2,
      "s": "a",
      "t": "Card",
@@ -317,12 +328,20 @@
      "p": "M. Abdoulkarim"
     },
     {
-     "m": 45,
-     "x": 1,
+     "m": 67,
+     "x": null,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "O. Sambou"
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Omotoye"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Usman"
     }
    ]
   },
@@ -336,7 +355,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 73,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -375,7 +394,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -404,9 +423,9 @@
    "hl": "https://media.api-sports.io/football/teams/5486.png",
    "al": "https://media.api-sports.io/football/teams/5487.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -440,6 +459,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -453,7 +480,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -487,6 +514,37 @@
      "t": "Var",
      "d": "Card upgrade cancelled",
      "p": "Nazim Benghezel"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ayoub Dahmas"
+    }
+   ]
+  },
+  {
+   "id": 1565317,
+   "league": "Romania - Liga I",
+   "home": "Universitatea Cluj",
+   "away": "Sepsi OSK Sfantu Gheorghe",
+   "hl": "https://media.api-sports.io/football/teams/2599.png",
+   "al": "https://media.api-sports.io/football/teams/2585.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Andrei"
     }
    ]
   },
@@ -549,6 +607,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Ahmed Maknzi"
+    }
+   ]
+  },
+  {
+   "id": 1648530,
+   "league": "Burkina-Faso - Ligue 1",
+   "home": "USFA",
+   "away": "CFFEB",
+   "hl": "https://media.api-sports.io/football/teams/8570.png",
+   "al": "https://media.api-sports.io/football/teams/26633.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Ouattara"
     }
    ]
   },
