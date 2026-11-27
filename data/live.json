@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T19:10:20+03:00",
- "ts": 1795795820,
+ "updated": "2026-11-27T19:20:26+03:00",
+ "ts": 1795796426,
  "matches": [
   {
    "id": 1509228,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -52,11 +52,20 @@
    "hl": "https://media.api-sports.io/football/teams/12316.png",
    "al": "https://media.api-sports.io/football/teams/2637.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Vidakov"
+    }
+   ]
   },
   {
    "id": 1565317,
@@ -68,7 +77,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -91,32 +100,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1597971,
-   "league": "Qatar - Stars League",
-   "home": "Lusail City",
-   "away": "Al-Arabi SC",
-   "hl": "https://media.api-sports.io/football/teams/7527.png",
-   "al": "https://media.api-sports.io/football/teams/2905.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmed Fathy"
-    }
-   ]
   },
   {
    "id": 1628049,
@@ -128,7 +114,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -142,45 +128,6 @@
    ]
   },
   {
-   "id": 1628055,
-   "league": "Iraq - Iraqi League",
-   "home": "Ghaz Al Shamal",
-   "away": "Al-Karma",
-   "hl": "https://media.api-sports.io/football/teams/28223.png",
-   "al": "https://media.api-sports.io/football/teams/25063.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hussein Talib"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Ahmed Maknzi"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmed Maknzi"
-    }
-   ]
-  },
-  {
    "id": 1631828,
    "league": "Mexico - Liga Premier Serie A",
    "home": "Correcaminos UAT II",
@@ -190,7 +137,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -204,7 +151,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -227,7 +174,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-27T15:30:00+00:00",
    "ev": [
     {
@@ -241,20 +188,6 @@
    ]
   },
   {
-   "id": 1648537,
-   "league": "Burkina-Faso - Ligue 1",
-   "home": "Vitesse",
-   "away": "FocuSport",
-   "hl": "https://media.api-sports.io/football/teams/17923.png",
-   "al": "https://media.api-sports.io/football/teams/28437.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 34,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": []
-  },
-  {
    "id": 1649810,
    "league": "Oman - Sultan Cup",
    "home": "Dhofar",
@@ -264,7 +197,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-27T15:40:00+00:00",
    "ev": [
     {
@@ -287,7 +220,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": []
   },
@@ -301,7 +234,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -348,7 +281,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -403,7 +336,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -421,53 +354,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Mchakhchekh"
-    }
-   ]
-  },
-  {
-   "id": 1603088,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Al-Qadisiyah FC",
-   "away": "Al-Fayha",
-   "hl": "https://media.api-sports.io/football/teams/2933.png",
-   "al": "https://media.api-sports.io/football/teams/2944.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T14:20:00+00:00",
-   "ev": [
+    },
     {
-     "m": 64,
+     "m": 57,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Ziyad Al-Sahafi"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Turki Al-Ammar"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Var",
-     "d": "Penalty cancelled",
-     "p": "Julián Quiñones"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Mohammed Abu Al-Shamat"
+     "p": "E. Aydin"
     }
    ]
   },
@@ -481,7 +375,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -510,9 +404,9 @@
    "hl": "https://media.api-sports.io/football/teams/5486.png",
    "al": "https://media.api-sports.io/football/teams/5487.png",
    "gh": 2,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 48,
+   "minute": 58,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -538,6 +432,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Al Rumaithi"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -551,7 +453,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T15:00:00+00:00",
    "ev": [
     {
@@ -587,6 +489,82 @@
      "p": "Nazim Benghezel"
     }
    ]
+  },
+  {
+   "id": 1597971,
+   "league": "Qatar - Stars League",
+   "home": "Lusail City",
+   "away": "Al-Arabi SC",
+   "hl": "https://media.api-sports.io/football/teams/7527.png",
+   "al": "https://media.api-sports.io/football/teams/2905.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Fathy"
+    }
+   ]
+  },
+  {
+   "id": 1628055,
+   "league": "Iraq - Iraqi League",
+   "home": "Ghaz Al Shamal",
+   "away": "Al-Karma",
+   "hl": "https://media.api-sports.io/football/teams/28223.png",
+   "al": "https://media.api-sports.io/football/teams/25063.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hussein Talib"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Ahmed Maknzi"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Maknzi"
+    }
+   ]
+  },
+  {
+   "id": 1648537,
+   "league": "Burkina-Faso - Ligue 1",
+   "home": "Vitesse",
+   "away": "FocuSport",
+   "hl": "https://media.api-sports.io/football/teams/17923.png",
+   "al": "https://media.api-sports.io/football/teams/28437.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": []
   }
  ]
 }
