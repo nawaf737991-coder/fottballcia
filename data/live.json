@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T01:00:30+03:00",
- "ts": 1795816830,
+ "updated": "2026-11-28T01:10:12+03:00",
+ "ts": 1795817412,
  "matches": [
   {
    "id": 1639840,
@@ -12,7 +12,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T21:30:00+00:00",
    "ev": [
     {
@@ -26,83 +26,18 @@
    ]
   },
   {
-   "id": 1571230,
-   "league": "Spain - Primera División RFEF - Group 2",
-   "home": "Hércules",
-   "away": "Antequera",
-   "hl": "https://media.api-sports.io/football/teams/4666.png",
-   "al": "https://media.api-sports.io/football/teams/9742.png",
+   "id": 1650244,
+   "league": "Argentina - Primera Nacional",
+   "home": "Atlanta",
+   "away": "Ciudad de Bolívar",
+   "hl": "https://media.api-sports.io/football/teams/1948.png",
+   "al": "https://media.api-sports.io/football/teams/16612.png",
    "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 88,
-   "time": "2026-11-27T20:15:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Anton"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luismi Gutierrez"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Fidalgo"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Aguero"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "H. Abdelilah"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Perez Morillo"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Rentero"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Ilahude"
-    }
-   ]
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-27T22:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1575551,
@@ -111,10 +46,10 @@
    "away": "Nacional",
    "hl": "https://media.api-sports.io/football/teams/214.png",
    "al": "https://media.api-sports.io/football/teams/225.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-27T20:15:00+00:00",
    "ev": [
     {
@@ -204,6 +139,45 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Romain Correia"
+    },
+    {
+     "m": 89,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Romain Correia"
+    },
+    {
+     "m": 90,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Samuel Bamba"
+    }
+   ]
+  },
+  {
+   "id": 1616182,
+   "league": "Spain - Tercera División RFEF - Group 12",
+   "home": "Real Unión de Tenerife",
+   "away": "Anaza",
+   "hl": "https://media.api-sports.io/football/teams/20375.png",
+   "al": "https://media.api-sports.io/football/teams/28113.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-27T21:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -214,10 +188,10 @@
    "away": "Rubio NU",
    "hl": "https://media.api-sports.io/football/teams/1175.png",
    "al": "https://media.api-sports.io/football/teams/1185.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T20:30:00+00:00",
    "ev": [
     {
@@ -275,29 +249,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Héctor Martínez Aquino"
-    }
-   ]
-  },
-  {
-   "id": 1616182,
-   "league": "Spain - Tercera División RFEF - Group 12",
-   "home": "Real Unión de Tenerife",
-   "away": "Anaza",
-   "hl": "https://media.api-sports.io/football/teams/20375.png",
-   "al": "https://media.api-sports.io/football/teams/28113.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T21:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 37,
+     "m": 76,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Hugo Valdez"
     }
    ]
   }
