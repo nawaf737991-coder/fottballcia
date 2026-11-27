@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-27T20:00:23+03:00",
- "ts": 1795798823,
+ "updated": "2026-11-27T20:10:31+03:00",
+ "ts": 1795799431,
  "matches": [
+  {
+   "id": 1548569,
+   "league": "Croatia - HNL",
+   "home": "Istra 1961",
+   "away": "NK Varazdin",
+   "hl": "https://media.api-sports.io/football/teams/1016.png",
+   "al": "https://media.api-sports.io/football/teams/1483.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1551157,
    "league": "Bulgaria - First League",
@@ -12,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -26,6 +40,85 @@
    ]
   },
   {
+   "id": 1553241,
+   "league": "Poland - Ekstraklasa",
+   "home": "Raków Częstochowa",
+   "away": "Piast Gliwice",
+   "hl": "https://media.api-sports.io/football/teams/3491.png",
+   "al": "https://media.api-sports.io/football/teams/349.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1558053,
+   "league": "Slovenia - 1. SNL",
+   "home": "Radomlje",
+   "away": "Nafta",
+   "hl": "https://media.api-sports.io/football/teams/4378.png",
+   "al": "https://media.api-sports.io/football/teams/4376.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1558292,
+   "league": "Poland - I Liga",
+   "home": "Warta Poznań",
+   "away": "Pogoń Siedlce",
+   "hl": "https://media.api-sports.io/football/teams/3496.png",
+   "al": "https://media.api-sports.io/football/teams/6947.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Szymanek"
+    }
+   ]
+  },
+  {
+   "id": 1559841,
+   "league": "Czech-Republic - FNL",
+   "home": "Dukla Praha",
+   "away": "Táborsko",
+   "hl": "https://media.api-sports.io/football/teams/3715.png",
+   "al": "https://media.api-sports.io/football/teams/3726.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1560084,
+   "league": "Czech-Republic - Czech Liga",
+   "home": "Artis",
+   "away": "Slovácko",
+   "hl": "https://media.api-sports.io/football/teams/4257.png",
+   "al": "https://media.api-sports.io/football/teams/3719.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1561748,
    "league": "Poland - II Liga - East",
    "home": "Stal Stalowa Wola",
@@ -35,7 +128,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -65,18 +158,63 @@
    ]
   },
   {
+   "id": 1561749,
+   "league": "Poland - II Liga - East",
+   "home": "Tychy 71",
+   "away": "Chojniczanka Chojnice",
+   "hl": "https://media.api-sports.io/football/teams/3495.png",
+   "al": "https://media.api-sports.io/football/teams/3482.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1569192,
+   "league": "Poland - III Liga - Group 1",
+   "home": "Wigry Suwałki",
+   "away": "Jagiellonia II",
+   "hl": "https://media.api-sports.io/football/teams/3497.png",
+   "al": "https://media.api-sports.io/football/teams/16236.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1577610,
    "league": "Russia - First League",
    "home": "Torpedo Moskva",
    "away": "Ska-khabarovsk",
    "hl": "https://media.api-sports.io/football/teams/3985.png",
    "al": "https://media.api-sports.io/football/teams/1087.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T16:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aleksandr Yushin"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Egor Parkhomenko"
+    }
+   ]
   },
   {
    "id": 1584475,
@@ -88,7 +226,162 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1584482,
+   "league": "Turkey - Süper Lig",
+   "home": "Rizespor",
+   "away": "Kasımpaşa",
+   "hl": "https://media.api-sports.io/football/teams/1007.png",
+   "al": "https://media.api-sports.io/football/teams/1004.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1585845,
+   "league": "Turkey - 1. Lig",
+   "home": "Sarıyer",
+   "away": "İstanbulspor",
+   "hl": "https://media.api-sports.io/football/teams/3605.png",
+   "al": "https://media.api-sports.io/football/teams/3578.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Michael Ologo"
+    },
+    {
+     "m": 5,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Emeka Eze"
+    }
+   ]
+  },
+  {
+   "id": 1585847,
+   "league": "Turkey - 1. Lig",
+   "home": "Ümraniyespor",
+   "away": "Manisa F.K.",
+   "hl": "https://media.api-sports.io/football/teams/3577.png",
+   "al": "https://media.api-sports.io/football/teams/3597.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1603613,
+   "league": "Cyprus - 1. Division",
+   "home": "AEK Larnaca",
+   "away": "Apollon Limassol",
+   "hl": "https://media.api-sports.io/football/teams/614.png",
+   "al": "https://media.api-sports.io/football/teams/602.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "H. Milicevic"
+    }
+   ]
+  },
+  {
+   "id": 1603614,
+   "league": "Cyprus - 1. Division",
+   "home": "AEL",
+   "away": "Olympiakos",
+   "hl": "https://media.api-sports.io/football/teams/3396.png",
+   "al": "https://media.api-sports.io/football/teams/3415.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1628619,
+   "league": "Nigeria - NPFL",
+   "home": "Shooting Stars",
+   "away": "Rivers United",
+   "hl": "https://media.api-sports.io/football/teams/5504.png",
+   "al": "https://media.api-sports.io/football/teams/5192.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1632544,
+   "league": "Rwanda - National Soccer League",
+   "home": "Kiyovu Sports",
+   "away": "Rayon Sports",
+   "hl": "https://media.api-sports.io/football/teams/5317.png",
+   "al": "https://media.api-sports.io/football/teams/5323.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T17:00:00+00:00",
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Muderi"
+    },
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1635109,
+   "league": "Bosnia - Premijer Liga",
+   "home": "Čelik",
+   "away": "BSK Banja Luka",
+   "hl": "https://media.api-sports.io/football/teams/3363.png",
+   "al": "https://media.api-sports.io/football/teams/21736.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
    "time": "2026-11-27T17:00:00+00:00",
    "ev": []
   },
@@ -102,7 +395,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T16:30:00+00:00",
    "ev": [
     {
@@ -116,276 +409,6 @@
    ]
   },
   {
-   "id": 1651850,
-   "league": "Mali - Première Division",
-   "home": "Bakaridjan",
-   "away": "Diarra",
-   "hl": "https://media.api-sports.io/football/teams/12668.png",
-   "al": "https://media.api-sports.io/football/teams/25371.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T16:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1565317,
-   "league": "Romania - Liga I",
-   "home": "Universitatea Cluj",
-   "away": "Sepsi OSK Sfantu Gheorghe",
-   "hl": "https://media.api-sports.io/football/teams/2599.png",
-   "al": "https://media.api-sports.io/football/teams/2585.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 66,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Andrei"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Andrei"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Lukic"
-    }
-   ]
-  },
-  {
-   "id": 1597971,
-   "league": "Qatar - Stars League",
-   "home": "Lusail City",
-   "away": "Al-Arabi SC",
-   "hl": "https://media.api-sports.io/football/teams/7527.png",
-   "al": "https://media.api-sports.io/football/teams/2905.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 70,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmed Fathy"
-    },
-    {
-     "m": 64,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wassim Keddari"
-    }
-   ]
-  },
-  {
-   "id": 1628055,
-   "league": "Iraq - Iraqi League",
-   "home": "Ghaz Al Shamal",
-   "away": "Al-Karma",
-   "hl": "https://media.api-sports.io/football/teams/28223.png",
-   "al": "https://media.api-sports.io/football/teams/25063.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 70,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Hussein Talib"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "Ahmed Maknzi"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ahmed Maknzi"
-    }
-   ]
-  },
-  {
-   "id": 1647320,
-   "league": "Bahrain - Premier League",
-   "home": "Malkiya",
-   "away": "Manama",
-   "hl": "https://media.api-sports.io/football/teams/5486.png",
-   "al": "https://media.api-sports.io/football/teams/5487.png",
-   "gh": 2,
-   "ga": 4,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T15:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hasan"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Boudjenane"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Al Rumaithi"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1648530,
-   "league": "Burkina-Faso - Ligue 1",
-   "home": "USFA",
-   "away": "CFFEB",
-   "hl": "https://media.api-sports.io/football/teams/8570.png",
-   "al": "https://media.api-sports.io/football/teams/26633.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 69,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": [
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Ouattara"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Madougou"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "A. R. Ouedraogo"
-    }
-   ]
-  },
-  {
-   "id": 1648537,
-   "league": "Burkina-Faso - Ligue 1",
-   "home": "Vitesse",
-   "away": "FocuSport",
-   "hl": "https://media.api-sports.io/football/teams/17923.png",
-   "al": "https://media.api-sports.io/football/teams/28437.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 71,
-   "time": "2026-11-27T15:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1649810,
-   "league": "Oman - Sultan Cup",
-   "home": "Dhofar",
-   "away": "Fanja",
-   "hl": "https://media.api-sports.io/football/teams/5330.png",
-   "al": "https://media.api-sports.io/football/teams/7506.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 56,
-   "time": "2026-11-27T15:40:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1509228,
    "league": "Georgia - Erovnuli Liga",
    "home": "Dinamo Batumi",
@@ -394,8 +417,8 @@
    "al": "https://media.api-sports.io/football/teams/3499.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -431,10 +454,10 @@
    "away": "Cameroon U17",
    "hl": "https://media.api-sports.io/football/teams/17973.png",
    "al": "https://media.api-sports.io/football/teams/12503.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -444,6 +467,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Robert Corduneanu"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matei Padure"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Eduardo Bodnar"
     }
    ]
   },
@@ -456,8 +495,8 @@
    "al": "https://media.api-sports.io/football/teams/25551.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -487,8 +526,8 @@
    "al": "https://media.api-sports.io/football/teams/2637.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -498,6 +537,53 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Vidakov"
+    },
+    {
+     "m": 52,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Tojcic"
+    }
+   ]
+  },
+  {
+   "id": 1565317,
+   "league": "Romania - Liga I",
+   "home": "Universitatea Cluj",
+   "away": "Sepsi OSK Sfantu Gheorghe",
+   "hl": "https://media.api-sports.io/football/teams/2599.png",
+   "al": "https://media.api-sports.io/football/teams/2585.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 76,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Andrei"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Andrei"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Lukic"
     }
    ]
   },
@@ -510,12 +596,12 @@
    "al": "https://media.api-sports.io/football/teams/24738.png",
    "gh": 2,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
-     "m": 19,
+     "m": 21,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -523,15 +609,15 @@
      "p": "N. Artesani"
     },
     {
-     "m": 26,
+     "m": 28,
      "x": null,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "A. Diene"
+     "p": "M. Attinasi"
     },
     {
-     "m": 33,
+     "m": 35,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -549,6 +635,53 @@
    ]
   },
   {
+   "id": 1597971,
+   "league": "Qatar - Stars League",
+   "home": "Lusail City",
+   "away": "Al-Arabi SC",
+   "hl": "https://media.api-sports.io/football/teams/7527.png",
+   "al": "https://media.api-sports.io/football/teams/2905.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 80,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Fathy"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Wassim Keddari"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Omid Ebrahimi"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Mohamed Khaled"
+    }
+   ]
+  },
+  {
    "id": 1628049,
    "league": "Iraq - Iraqi League",
    "home": "Gharraf",
@@ -557,8 +690,8 @@
    "al": "https://media.api-sports.io/football/teams/26598.png",
    "gh": 0,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 49,
    "time": "2026-11-27T16:00:00+00:00",
    "ev": [
     {
@@ -576,6 +709,160 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Prince Mumba"
+    }
+   ]
+  },
+  {
+   "id": 1628055,
+   "league": "Iraq - Iraqi League",
+   "home": "Ghaz Al Shamal",
+   "away": "Al-Karma",
+   "hl": "https://media.api-sports.io/football/teams/28223.png",
+   "al": "https://media.api-sports.io/football/teams/25063.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 80,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 23,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Hussein Talib"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "Ahmed Maknzi"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ahmed Maknzi"
+    }
+   ]
+  },
+  {
+   "id": 1647526,
+   "league": "Slovenia - Cup",
+   "home": "Brežice",
+   "away": "Triglav",
+   "hl": "https://media.api-sports.io/football/teams/4369.png",
+   "al": "https://media.api-sports.io/football/teams/4363.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 54,
+   "time": "2026-11-27T16:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Hegic"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1648530,
+   "league": "Burkina-Faso - Ligue 1",
+   "home": "USFA",
+   "away": "CFFEB",
+   "hl": "https://media.api-sports.io/football/teams/8570.png",
+   "al": "https://media.api-sports.io/football/teams/26633.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 79,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Ouattara"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "B. Madougou"
+    },
+    {
+     "m": 59,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "A. R. Ouedraogo"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "B. Madougou"
+    }
+   ]
+  },
+  {
+   "id": 1648537,
+   "league": "Burkina-Faso - Ligue 1",
+   "home": "Vitesse",
+   "away": "FocuSport",
+   "hl": "https://media.api-sports.io/football/teams/17923.png",
+   "al": "https://media.api-sports.io/football/teams/28437.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 81,
+   "time": "2026-11-27T15:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649810,
+   "league": "Oman - Sultan Cup",
+   "home": "Dhofar",
+   "away": "Fanja",
+   "hl": "https://media.api-sports.io/football/teams/5330.png",
+   "al": "https://media.api-sports.io/football/teams/7506.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 66,
+   "time": "2026-11-27T15:40:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -603,35 +890,18 @@
    ]
   },
   {
-   "id": 1647526,
-   "league": "Slovenia - Cup",
-   "home": "Brežice",
-   "away": "Triglav",
-   "hl": "https://media.api-sports.io/football/teams/4369.png",
-   "al": "https://media.api-sports.io/football/teams/4363.png",
+   "id": 1651850,
+   "league": "Mali - Première Division",
+   "home": "Bakaridjan",
+   "away": "Diarra",
+   "hl": "https://media.api-sports.io/football/teams/12668.png",
+   "al": "https://media.api-sports.io/football/teams/25371.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "HT",
    "minute": 45,
    "time": "2026-11-27T16:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Hegic"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
+   "ev": []
   }
  ]
 }
