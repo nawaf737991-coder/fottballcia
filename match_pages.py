@@ -102,19 +102,19 @@ def sports_ld(pg, full=None):
 
 def hide_cover(body):
     """الودجت يعرض الفريقين أصلًا؛ نُبقي الصورة في الكود للمشاركة والمصغّرات فقط"""
-    return body.replace('<div class="post-cover" style="margin:0 0 16px">', '<div class="post-cover" data-ph="1" style="display:none">', 1)
+    return re.sub(r'<div class="post-cover"[^>]*>', '<div class="post-cover" data-ph="1" style="display:none">', body, count=1)
 
 
 def fix_covers(ps):
     for fid, pg in ps["pages"].items():
-        if pg.get("final") or pg.get("hc") or not pg.get("post_id"):
+        if pg.get("final") or pg.get("hc2") or not pg.get("post_id"):
             continue
         try:
             post = sb.blogger(f"/posts/{pg['post_id']}")
             body = hide_cover(post.get("content", ""))
             if body != post.get("content", "") and not DRY:
                 sb.blogger(f"/posts/{pg['post_id']}", "PATCH", {"content": body})
-            pg["hc"] = True
+            pg["hc2"] = True
             print("أُخفيت الصورة المكررة:", fid, flush=True)
         except Exception as e:
             print("تعذر تعديل الصفحة", fid, sp.why(e), flush=True)
@@ -253,7 +253,7 @@ def create_page(f, tbl, ps, st, n_today):
             + links_html(pg) + sports_ld(pg))
     full = sp.wrap_article(title, d["description"], img, body, "صفحات المباريات")
     full = hide_cover(full)
-    pg["hc"] = True
+    pg["hc2"] = True
     labels = ["صفحات المباريات", facts["league"]] + sp.clean_tags([H, A])
     if DRY:
         print("=== DRY ===", title, "|", slug, "|", len(d["paragraph"].split()), "كلمة")
