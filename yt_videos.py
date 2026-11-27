@@ -128,6 +128,11 @@ if any(f in posts and f not in store["posted"] for f in store["matches"]):
         pid = posts.get(fid)
         if not pid or fid in store["posted"]: continue
         try:
+            _pg = json.load(open(D("match_pages_state.json"), encoding="utf-8"))["pages"].get(fid)
+        except Exception:
+            _pg = None
+        if _pg and not _pg.get("final"): continue  # صفحة مباراة لم تتحول لتقرير بعد
+        try:
             post = sb.blogger(f"/posts/{pid}")
             body = post.get("content", "")
             if "yt-embed" not in body:

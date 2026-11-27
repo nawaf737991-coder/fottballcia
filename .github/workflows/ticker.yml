@@ -33,6 +33,7 @@ jobs:
               { [ $m -eq 7 ] || [ $m -eq 37 ]; } && fire matches-page.yml
               { [ $m -eq 47 ] || [ $m -eq 17 ]; } && fire previews.yml
               { [ $m -eq 17 ] && [ $((h % 2)) -eq 0 ]; } && fire seo.yml
+              { [ $m -eq 27 ] || [ $m -eq 57 ]; } && fire match-pages.yml
             fi
             sleep 20
           done

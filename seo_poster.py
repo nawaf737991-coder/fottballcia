@@ -364,7 +364,7 @@ def extras_html(facts, data, league_ar):
             vs = f["teams"]["away"]["name"] if f["teams"]["home"]["id"] == tid else f["teams"]["home"]["name"]
             rows.append(f'<li><strong>{esc(nm)}</strong> يلاقي {esc(vs)} ({esc(f["league"]["name"])}) - {dt} بتوقيت السعودية '
                         f'<a href="{SITE_URL.rstrip("/")}/p/match.html?id={f["fixture"]["id"]}">تفاصيل</a></li>')
-    out.append("<ul>" + "".join(rows) + "</ul>" if rows else "<p>لم يُحدَّد موعد المباراة القادمة بعد.</p>")
+    out.append("<ul>" + "".join(rows) + "</ul>" if rows else "<p>لم تُحدَّد المباراة القادمة بعد.</p>")
     links = [f'<a href="{SITE_URL.rstrip("/")}/p/matches-today.html">مباريات اليوم</a>']
     if TABLE_SLUG.get(facts.get("lid")):
         links.append(f'<a href="{SITE_URL.rstrip("/")}/p/{TABLE_SLUG[facts["lid"]]}.html">ترتيب {esc(league_ar)}</a>')
@@ -445,6 +445,12 @@ def report_html(facts, data, league_ar):
     return "\n".join(parts)
 
 
+def _page_fids():
+    try:
+        with open(os.path.join(ROOT, "data", "match_pages_state.json"), encoding="utf-8") as f:
+            return set(json.load(f).get("pages", {}))
+    except Exception:
+        return set()
 def run_reports():
     st = load()
     done = set(st["reports"])
@@ -467,6 +473,7 @@ def run_reports():
              if f["fixture"]["status"]["short"] in FINISHED
              and f["league"]["id"] in LEAGUES
              and f["fixture"]["id"] not in done
+             and str(f["fixture"]["id"]) not in _page_fids()
              and not Q.is_women(f["teams"]["home"]["name"], f["teams"]["away"]["name"], f["league"].get("name"))
              and (Q.team_big(f) >= 1 or f["league"]["id"] in (2, 12, 17, 1))]
     # الأهم أولًا: حسب ترتيب الدوريات في القائمة
@@ -504,7 +511,7 @@ def match_image(data, slug, fid, title, league_ar, full, home_ar, away_ar):
                      home_logo=th.get("logo"), away_logo=ta.get("logo"),
                      home_goals=g.get("home"), away_goals=g.get("away"))
     return img, ""
-def _reports_loop(st, cands, limit):
+def _reports_loop(st, cands, limit, pages=None):
     made = 0
     fails = 0
     for f in cands:
@@ -513,7 +520,8 @@ def _reports_loop(st, cands, limit):
         fid = f["fixture"]["id"]
         try:
             full = sb.football("fixtures", id=fid)[0]
-            why_ = Q.report_notable(full, full.get("events"))
+            pg = (pages or {}).get(str(fid))
+            why_ = Q.report_notable(full, full.get("events")) or (["مباراة كبيرة"] if pg else [])
             if not why_:
                 st["reports"].append(fid)  # مباراة عادية بلا شيء مميز: لا نكتب عنها (سياسة 27 نوفمبر)
                 print("تخطي مباراة عادية:", f["teams"]["home"]["name"], "-", f["teams"]["away"]["name"], flush=True)
@@ -555,7 +563,8 @@ def _reports_loop(st, cands, limit):
             prose = " ".join([data.get("intro", ""), data.get("conclusion", "")] + list(data.get("paragraphs") or [])
                              + list(data.get("analysis") or []))
             if len(prose.split()) < 230:
-                st["reports"].append(fid)  # لا نعيد المحاولة على نفس المباراة حتى لا نستهلك حصة Gemini
+                if not pg:
+                    st["reports"].append(fid)  # لا نعيد المحاولة على نفس المباراة حتى لا نستهلك حصة Gemini
                 raise ValueError(f"التقرير قصير ({len(prose.split())} كلمة)")
             t = full.get("teams", {})
             g = full.get("goals", {})
@@ -570,6 +579,25 @@ def _reports_loop(st, cands, limit):
                                 report_html(facts, data, league_ar), league_ar, credit)
             if credit:
                 body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
+            if pg:
+                # نفس الصفحة ونفس الرابط: نحدّث العنوان والمحتوى فقط (لا مقال جديد ولا تحسب من الحد اليومي)
+                import match_pages as mp
+                title = mp.clean(title)
+                inner = mp.widget_html(fid) + report_html(facts, Q._walk(data, mp.clean), league_ar) + mp.sports_ld(pg)
+                body = wrap_article(title, mp.clean(data.get("description") or data.get("intro")), img, inner, league_ar, credit)
+                if credit:
+                    body = body.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
+                if mp.DRY:
+                    print("=== DRY تحويل الصفحة ===", title, pg["url"])
+                else:
+                    sb.blogger(f"/posts/{pg['post_id']}", "PATCH",
+                               {"title": title, "content": body,
+                                "labels": ["صفحات المباريات", "تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar])})
+                    pg["final"], pg["final_title"] = True, title
+                    st["reports"].append(fid)
+                    print("تحويل الصفحة إلى تقرير:", title, pg.get("url"), flush=True)
+                made += 1
+                continue
             publish(title, body, ["تقارير المباريات", league_ar] + clean_tags([home_ar, away_ar]), slug=slug)
             st["reports"].append(fid)
             try:

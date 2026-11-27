@@ -21,7 +21,8 @@
   function lgName(d) { return LG[d.league.id] || names[d.league.name] || d.league.name; }
   var root = document.getElementById("mc-root");
   if (!root) return;
-  var id = (new URLSearchParams(location.search).get("id") || "").replace(/\D/g, "");
+  var embedded = !!root.getAttribute("data-id");
+  var id = (root.getAttribute("data-id") || new URLSearchParams(location.search).get("id") || "").replace(/\D/g, "");
   var names = {}, data = null, tab = "sum", timer = null, lastOk = 0;
 
   var css = "" +
@@ -249,7 +250,7 @@
       if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(root);
       else if (!window.TW_LOADING) { window.TW_LOADING = 1; var ws = document.createElement("script"); ws.async = true; ws.src = "https://platform.twitter.com/widgets.js"; document.body.appendChild(ws); }
     }
-    document.title = (names[d.home.name] || d.home.name) + " × " + (names[d.away.name] || d.away.name) + " | مركز المباراة | عالم المستديرة";
+    if (!embedded) document.title = (names[d.home.name] || d.home.name) + " × " + (names[d.away.name] || d.away.name) + " | مركز المباراة | عالم المستديرة";
     if (DISQUS && !window.DISQUS_LOADED) {
       window.DISQUS_LOADED = 1; window.disqus_config = function () { this.page.identifier = "match-" + id; this.page.url = location.href; };
       var s = document.createElement("script"); s.src = "https://" + DISQUS + ".disqus.com/embed.js"; s.setAttribute("data-timestamp", +new Date()); document.body.appendChild(s);

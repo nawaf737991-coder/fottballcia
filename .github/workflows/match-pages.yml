@@ -1,0 +1,70 @@
+name: match-pages
+
+on:
+  schedule:
+    - cron: "27,57 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "1 = تجربة بدون نشر"
+        default: "0"
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-posts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+      GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+      SEO_DRAFT: ${{ vars.SEO_DRAFT || '0' }}
+      DRY_RUN: ${{ inputs.dry || '0' }}
+      PAGES_MAX_DAY: '5'
+      PAGES_MIN_DAY: '3'
+      PAGES_PER_RUN: '2'
+      MAX_REPORTS: '2'
+      DAILY_REPORTS: '3'
+      DAILY_NEWS: '4'
+      DAILY_DRAFTS: '3'
+      MAX_NEWS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install image tools
+        run: pip install -q pillow arabic-reshaper python-bidi hijridate
+      - name: Publish
+        run: python3 -u match_pages.py
+      - name: Commit data
+        if: always() && inputs.dry != '1'
+        run: |
+          git config user.name "fottballcia-bot"
+          git config user.email "bot@users.noreply.github.com"
+          mkdir -p /tmp/new
+          for f in $(git status --porcelain -uall data/seo_state.json data/match_pages_state.json img | awk '{print $2}'); do
+            mkdir -p "/tmp/new/$(dirname "$f")"
+            cp "$f" "/tmp/new/$f"
+          done
+          for i in 1 2 3 4; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp -r /tmp/new/. .
+            git add data/seo_state.json data/match_pages_state.json img 2>/dev/null || git add data/seo_state.json
+            if git diff --staged --quiet; then exit 0; fi
+            git commit -q -m "match pages state + images"
+            if git push -q origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
