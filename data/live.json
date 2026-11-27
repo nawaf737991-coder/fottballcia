@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T12:10:23+03:00",
- "ts": 1795770623,
+ "updated": "2026-11-27T12:20:26+03:00",
+ "ts": 1795771226,
  "matches": [
   {
    "id": 1527768,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T09:00:00+00:00",
    "ev": []
   },
@@ -23,10 +23,10 @@
    "away": "Melbourne City",
    "hl": "https://media.api-sports.io/football/teams/15550.png",
    "al": "https://media.api-sports.io/football/teams/945.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T08:40:00+00:00",
    "ev": [
     {
@@ -52,6 +52,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Harrison Delbridge"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ryan Fraser"
     }
    ]
   },
@@ -65,8 +73,61 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 16,
    "time": "2026-11-27T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1640127,
+   "league": "Bangladesh - Premier League",
+   "home": "Rahmatgonj MFS",
+   "away": "Mohammedan Dhaka",
+   "hl": "https://media.api-sports.io/football/teams/5017.png",
+   "al": "https://media.api-sports.io/football/teams/5014.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-27T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Emon"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Sene"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Diabate"
+    }
+   ]
+  },
+  {
+   "id": 1651252,
+   "league": "Australia - Australian Championship",
+   "home": "Broadmeadow Magic",
+   "away": "Lions",
+   "hl": "https://media.api-sports.io/football/teams/10202.png",
+   "al": "https://media.api-sports.io/football/teams/10217.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 45,
+   "time": "2026-11-27T08:30:00+00:00",
    "ev": []
   },
   {
@@ -78,8 +139,8 @@
    "al": "https://media.api-sports.io/football/teams/9165.png",
    "gh": 0,
    "ga": 1,
-   "status": "1H",
-   "minute": 42,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -101,45 +162,8 @@
    "al": "https://media.api-sports.io/football/teams/5009.png",
    "gh": 0,
    "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-27T08:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1640127,
-   "league": "Bangladesh - Premier League",
-   "home": "Rahmatgonj MFS",
-   "away": "Mohammedan Dhaka",
-   "hl": "https://media.api-sports.io/football/teams/5017.png",
-   "al": "https://media.api-sports.io/football/teams/5014.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-27T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Emon"
-    }
-   ]
-  },
-  {
-   "id": 1651252,
-   "league": "Australia - Australian Championship",
-   "home": "Broadmeadow Magic",
-   "away": "Lions",
-   "hl": "https://media.api-sports.io/football/teams/10202.png",
-   "al": "https://media.api-sports.io/football/teams/10217.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 35,
+   "status": "HT",
+   "minute": 45,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": []
   }
