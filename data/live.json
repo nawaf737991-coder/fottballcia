@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T13:00:23+03:00",
- "ts": 1795773623,
+ "updated": "2026-11-27T13:10:27+03:00",
+ "ts": 1795774227,
  "matches": [
   {
    "id": 1507499,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 23,
+   "minute": 33,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -57,7 +57,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -79,17 +79,119 @@
    ]
   },
   {
+   "id": 1591102,
+   "league": "Turkey - 3. Lig - Group 3",
+   "home": "Yeşilyurt Belediyespor",
+   "away": "Ağrı 1970",
+   "hl": "https://media.api-sports.io/football/teams/6541.png",
+   "al": "https://media.api-sports.io/football/teams/6509.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1621395,
+   "league": "Israel - Liga Alef",
+   "home": "Ironi Baka El Garbiya",
+   "away": "Beitar Nahariya",
+   "hl": "https://media.api-sports.io/football/teams/6175.png",
+   "al": "https://media.api-sports.io/football/teams/6134.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 4,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1621675,
+   "league": "Israel - Liga Alef",
+   "home": "Hapoel Azor",
+   "away": "Hapoel Hadera",
+   "hl": "https://media.api-sports.io/football/teams/6146.png",
+   "al": "https://media.api-sports.io/football/teams/4500.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1621681,
+   "league": "Israel - Liga Alef",
+   "home": "Nordia Jerusalem",
+   "away": "Hapoel Ramat HaSharon",
+   "hl": "https://media.api-sports.io/football/teams/6201.png",
+   "al": "https://media.api-sports.io/football/teams/4490.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1628906,
+   "league": "Israel - Liga Alef",
+   "home": "Dimona",
+   "away": "Ironi Beit Shemesh",
+   "hl": "https://media.api-sports.io/football/teams/6142.png",
+   "al": "https://media.api-sports.io/football/teams/22856.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
    "id": 1629491,
    "league": "Turkey - U19 league",
    "home": "Alanyaspor U19",
    "away": "Konyaspor U19",
    "hl": "https://media.api-sports.io/football/teams/28240.png",
    "al": "https://media.api-sports.io/football/teams/28251.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-27T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1527768,
+   "league": "Tajikistan - Vysshaya Liga",
+   "home": "Khujand",
+   "away": "Barki Tajik",
+   "hl": "https://media.api-sports.io/football/teams/8031.png",
+   "al": "https://media.api-sports.io/football/teams/12270.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 53,
+   "time": "2026-11-27T09:00:00+00:00",
    "ev": []
   },
   {
@@ -102,7 +204,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-27T08:40:00+00:00",
    "ev": [
     {
@@ -148,22 +250,44 @@
    ]
   },
   {
+   "id": 1629498,
+   "league": "Turkey - U19 league",
+   "home": "Rizespor U19",
+   "away": "Kasimpasa U19",
+   "hl": "https://media.api-sports.io/football/teams/28252.png",
+   "al": "https://media.api-sports.io/football/teams/28249.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 49,
+   "time": "2026-11-27T09:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1635018,
    "league": "Vietnam - V.League 2",
    "home": "Bóng đá Huế",
    "away": "Long An",
    "hl": "https://media.api-sports.io/football/teams/9162.png",
    "al": "https://media.api-sports.io/football/teams/9165.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 74,
+   "minute": 85,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
      "m": 35,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
@@ -180,7 +304,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -219,7 +343,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 80,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -282,7 +406,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 68,
+   "minute": 78,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -294,34 +418,6 @@
      "p": null
     }
    ]
-  },
-  {
-   "id": 1527768,
-   "league": "Tajikistan - Vysshaya Liga",
-   "home": "Khujand",
-   "away": "Barki Tajik",
-   "hl": "https://media.api-sports.io/football/teams/8031.png",
-   "al": "https://media.api-sports.io/football/teams/12270.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T09:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1629498,
-   "league": "Turkey - U19 league",
-   "home": "Rizespor U19",
-   "away": "Kasimpasa U19",
-   "hl": "https://media.api-sports.io/football/teams/28252.png",
-   "al": "https://media.api-sports.io/football/teams/28249.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T09:00:00+00:00",
-   "ev": []
   }
  ]
 }
