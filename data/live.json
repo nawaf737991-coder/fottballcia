@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T14:54:49+03:00",
- "ts": 1795780489,
+ "updated": "2026-11-27T15:00:28+03:00",
+ "ts": 1795780828,
  "matches": [
   {
    "id": 1603487,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 30,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 24,
+   "minute": 30,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -74,7 +74,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 30,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -88,6 +88,20 @@
    ]
   },
   {
+   "id": 1645707,
+   "league": "Syria - Premier League",
+   "home": "Al Karama",
+   "away": "Al Ittihad",
+   "hl": "https://media.api-sports.io/football/teams/9111.png",
+   "al": "https://media.api-sports.io/football/teams/8019.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-27T12:00:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1648273,
    "league": "World - Friendlies Clubs",
    "home": "Ilves",
@@ -97,7 +111,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 26,
+   "minute": 32,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -128,7 +142,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 28,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
@@ -138,6 +152,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Bagheri"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "H. Ahmadi"
     }
    ]
   },
@@ -151,13 +173,50 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 30,
    "time": "2026-11-27T11:30:00+00:00",
    "ev": [
     {
      "m": 24,
      "x": null,
      "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Mohammadi"
+    }
+   ]
+  },
+  {
+   "id": 1650508,
+   "league": "Kosovo - Superliga",
+   "home": "Malisheva",
+   "away": "Llapi",
+   "hl": "https://media.api-sports.io/football/teams/15576.png",
+   "al": "https://media.api-sports.io/football/teams/14395.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-27T12:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1551497,
+   "league": "Macedonia - First League",
+   "home": "Shkëndija Haraçinë",
+   "away": "Bregalnica Štip",
+   "hl": "https://media.api-sports.io/football/teams/24781.png",
+   "al": "https://media.api-sports.io/football/teams/4333.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-27T11:00:00+00:00",
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
@@ -171,7 +230,7 @@
    "away": "Ağrı 1970",
    "hl": "https://media.api-sports.io/football/teams/6541.png",
    "al": "https://media.api-sports.io/football/teams/6509.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 3,
    "status": "2H",
    "minute": 90,
@@ -219,11 +278,19 @@
     },
     {
      "m": 90,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Nalbantoglu"
+    },
+    {
+     "m": 90,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "T. Kanarya"
     }
    ]
   },
@@ -237,7 +304,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 65,
+   "minute": 71,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -308,7 +375,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 58,
    "time": "2026-11-27T10:40:00+00:00",
    "ev": [
     {
@@ -331,7 +398,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 65,
+   "minute": 71,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -353,37 +420,6 @@
    ]
   },
   {
-   "id": 1621675,
-   "league": "Israel - Liga Alef",
-   "home": "Hapoel Azor",
-   "away": "Hapoel Hadera",
-   "hl": "https://media.api-sports.io/football/teams/6146.png",
-   "al": "https://media.api-sports.io/football/teams/4500.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Rosen"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. Mulau"
-    }
-   ]
-  },
-  {
    "id": 1621677,
    "league": "Israel - Liga Alef",
    "home": "Maccabi Yavne",
@@ -393,7 +429,7 @@
    "gh": 1,
    "ga": 5,
    "status": "2H",
-   "minute": 63,
+   "minute": 69,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -456,7 +492,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 87,
    "time": "2026-11-27T10:15:00+00:00",
    "ev": [
     {
@@ -476,12 +512,29 @@
    "away": "Holon Yermiyahu",
    "hl": "https://media.api-sports.io/football/teams/6167.png",
    "al": "https://media.api-sports.io/football/teams/6171.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 52,
    "time": "2026-11-27T10:35:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1630474,
@@ -493,7 +546,7 @@
    "gh": 0,
    "ga": 2,
    "status": "2H",
-   "minute": 62,
+   "minute": 68,
    "time": "2026-11-27T10:30:00+00:00",
    "ev": [
     {
@@ -511,29 +564,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "B. Teymurov"
-    }
-   ]
-  },
-  {
-   "id": 1551497,
-   "league": "Macedonia - First League",
-   "home": "Shkëndija Haraçinë",
-   "away": "Bregalnica Štip",
-   "hl": "https://media.api-sports.io/football/teams/24781.png",
-   "al": "https://media.api-sports.io/football/teams/4333.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T11:00:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     }
    ]
   },
