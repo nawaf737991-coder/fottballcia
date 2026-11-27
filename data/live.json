@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T02:30:21+03:00",
- "ts": 1795822221,
+ "updated": "2026-11-28T02:40:24+03:00",
+ "ts": 1795822824,
  "matches": [
   {
    "id": 1492475,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -71,10 +71,10 @@
    "away": "Real Oruro",
    "hl": "https://media.api-sports.io/football/teams/15702.png",
    "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -121,7 +121,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -152,7 +152,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -166,6 +166,34 @@
    ]
   },
   {
+   "id": 1651151,
+   "league": "Colombia - Primera A",
+   "home": "Deportivo Cali",
+   "away": "Bucaramanga",
+   "hl": "https://media.api-sports.io/football/teams/1127.png",
+   "al": "https://media.api-sports.io/football/teams/1131.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 5,
+   "time": "2026-11-27T23:35:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-27T23:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1650244,
    "league": "Argentina - Primera Nacional",
    "home": "Atlanta",
@@ -175,7 +203,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 77,
    "time": "2026-11-27T22:00:00+00:00",
    "ev": [
     {
@@ -185,6 +213,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Diaz"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Peralta"
     }
    ]
   }
