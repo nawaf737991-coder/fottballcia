@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T17:10:16+03:00",
- "ts": 1795788616,
+ "updated": "2026-11-27T17:20:25+03:00",
+ "ts": 1795789225,
  "matches": [
   {
    "id": 1546188,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
   },
@@ -24,9 +24,9 @@
    "hl": "https://media.api-sports.io/football/teams/17972.png",
    "al": "https://media.api-sports.io/football/teams/25822.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": [
     {
@@ -36,6 +36,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Cillian Murphy"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luqman Mbalasalu"
     }
    ]
   },
@@ -46,12 +54,29 @@
    "away": "Albinoleffe U20",
    "hl": "https://media.api-sports.io/football/teams/24726.png",
    "al": "https://media.api-sports.io/football/teams/27903.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-27T14:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Badori"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1569449,
@@ -63,101 +88,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 5,
+   "minute": 15,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1623681,
-   "league": "Italy - Campionato Primavera - 2",
-   "home": "Cremonese U19",
-   "away": "Brescia U19",
-   "hl": "https://media.api-sports.io/football/teams/15662.png",
-   "al": "https://media.api-sports.io/football/teams/15657.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-27T13:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1627777,
-   "league": "South-Africa - 1st Division",
-   "home": "Gomora United FC",
-   "away": "Midlands Wanderers",
-   "hl": "https://media.api-sports.io/football/teams/26396.png",
-   "al": "https://media.api-sports.io/football/teams/26397.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 38,
-   "time": "2026-11-27T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1627779,
-   "league": "South-Africa - 1st Division",
-   "home": "Orbit College",
-   "away": "NWU FC",
-   "hl": "https://media.api-sports.io/football/teams/10582.png",
-   "al": "https://media.api-sports.io/football/teams/28236.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-27T13:30:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
   },
   {
    "id": 1642201,
@@ -169,7 +102,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
   },
@@ -183,7 +116,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-27T14:00:00+00:00",
    "ev": []
   },
@@ -197,7 +130,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 54,
+   "minute": 65,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -226,9 +159,9 @@
    "hl": "https://media.api-sports.io/football/teams/20997.png",
    "al": "https://media.api-sports.io/football/teams/12511.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 6,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -270,6 +203,30 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "Maki Kitahara"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Maki Kitahara"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kakeru Saito"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Maki Kitahara"
     }
    ]
   },
@@ -280,10 +237,10 @@
    "away": "Maccabi Herzliya",
    "hl": "https://media.api-sports.io/football/teams/4482.png",
    "al": "https://media.api-sports.io/football/teams/4503.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -301,6 +258,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -311,12 +276,29 @@
    "away": "Hapoel Kfar Saba",
    "hl": "https://media.api-sports.io/football/teams/6160.png",
    "al": "https://media.api-sports.io/football/teams/4497.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-27T13:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 52,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1555216,
@@ -328,7 +310,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -359,7 +341,7 @@
    "gh": 2,
    "ga": 3,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -414,7 +396,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 51,
+   "minute": 62,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -453,7 +435,7 @@
    "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 75,
+   "minute": 85,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -518,172 +500,23 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1590230,
-   "league": "Croatia - First NL",
-   "home": "Mladost Ždralovi",
-   "away": "Bsk Bijelo Brdo",
-   "hl": "https://media.api-sports.io/football/teams/8593.png",
-   "al": "https://media.api-sports.io/football/teams/1487.png",
-   "gh": 3,
-   "ga": 0,
-   "status": "2H",
-   "minute": 82,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "B. K. Tyongi"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Benic"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "D. Resetar"
+     "p": "J. Colley"
     },
     {
      "m": 76,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Pavkovic"
-    }
-   ]
-  },
-  {
-   "id": 1590231,
-   "league": "Croatia - First NL",
-   "home": "Dinamo Zagreb U21",
-   "away": "Hrvace",
-   "hl": "https://media.api-sports.io/football/teams/22416.png",
-   "al": "https://media.api-sports.io/football/teams/6241.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 28,
-     "x": null,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "T. Kis"
     },
     {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "I. Ikic"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Vuckovic"
-    },
-    {
-     "m": 74,
+     "m": 85,
      "x": null,
      "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": "M. Cutuk"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": null
-    }
-   ]
-  },
-  {
-   "id": 1590233,
-   "league": "Croatia - First NL",
-   "home": "Sesvete",
-   "away": "Vukovar",
-   "hl": "https://media.api-sports.io/football/teams/1479.png",
-   "al": "https://media.api-sports.io/football/teams/5730.png",
-   "gh": 0,
-   "ga": 3,
-   "status": "2H",
-   "minute": 84,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "K. Ziger"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Gonzalez"
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Baric"
-    },
-    {
-     "m": 77,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Gonzalez"
     }
    ]
   },
@@ -697,7 +530,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -728,7 +561,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": []
   },
@@ -742,7 +575,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 57,
+   "minute": 68,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -765,7 +598,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -796,7 +629,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -834,18 +667,35 @@
    ]
   },
   {
-   "id": 1595307,
-   "league": "Croatia - Second NL",
-   "home": "Uljanik",
-   "away": "Koprivnica",
-   "hl": "https://media.api-sports.io/football/teams/8582.png",
-   "al": "https://media.api-sports.io/football/teams/5710.png",
+   "id": 1597969,
+   "league": "Qatar - Stars League",
+   "home": "Al-Sailiya",
+   "away": "Al-Gharafa",
+   "hl": "https://media.api-sports.io/football/teams/2898.png",
+   "al": "https://media.api-sports.io/football/teams/2903.png",
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 85,
-   "time": "2026-11-27T12:30:00+00:00",
-   "ev": []
+   "minute": 52,
+   "time": "2026-11-27T13:00:00+00:00",
+   "ev": [
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fabricio Díaz"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kellian van der Kaap"
+    }
+   ]
   },
   {
    "id": 1600828,
@@ -854,160 +704,27 @@
    "away": "Namungo",
    "hl": "https://media.api-sports.io/football/teams/24707.png",
    "al": "https://media.api-sports.io/football/teams/12197.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 51,
-   "time": "2026-11-27T13:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1601158,
-   "league": "Malaysia - Super League",
-   "home": "DPMM FC Brunei",
-   "away": "Kelantan Red Warrior FC",
-   "hl": "https://media.api-sports.io/football/teams/4202.png",
-   "al": "https://media.api-sports.io/football/teams/27373.png",
-   "gh": 5,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Murray"
-    },
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ali Rahman"
-    },
-    {
-     "m": 31,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "I. Shah Jamil"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "H. Said"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dalberto"
-    },
-    {
-     "m": 47,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Dalberto"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1603087,
-   "league": "Saudi-Arabia - Pro League",
-   "home": "Al Kholood",
-   "away": "Al Khaleej Saihat",
-   "hl": "https://media.api-sports.io/football/teams/10509.png",
-   "al": "https://media.api-sports.io/football/teams/2928.png",
-   "gh": 3,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T12:15:00+00:00",
+   "minute": 61,
+   "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
-     "m": 7,
+     "m": 52,
      "x": null,
      "s": "a",
      "t": "Goal",
-     "d": "Penalty",
-     "p": "Joshua King"
+     "d": "Normal Goal",
+     "p": "D. Kyombo"
     },
     {
-     "m": 36,
+     "m": 60,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Coba Gomes da Costa"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Majed Omar Kanabah"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ramzi Solan"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Omar Mascarell"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Coba Gomes da Costa"
-    },
-    {
-     "m": 54,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Boubakar Kouyate"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Julien Domingues"
+     "p": null
     }
    ]
   },
@@ -1021,7 +738,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 77,
+   "minute": 87,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -1060,7 +777,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-27T12:30:00+00:00",
    "ev": [
     {
@@ -1082,45 +799,6 @@
    ]
   },
   {
-   "id": 1642075,
-   "league": "Lebanon - Premier League",
-   "home": "Tadamon Sour",
-   "away": "Al Ahed",
-   "hl": "https://media.api-sports.io/football/teams/4577.png",
-   "al": "https://media.api-sports.io/football/teams/4567.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T12:15:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Lukasi"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Diori"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. A. Aziz Diaw"
-    }
-   ]
-  },
-  {
    "id": 1644291,
    "league": "United-Arab-Emirates - Division 1",
    "home": "Dubai City",
@@ -1128,9 +806,9 @@
    "hl": "https://media.api-sports.io/football/teams/17713.png",
    "al": "https://media.api-sports.io/football/teams/2880.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -1140,6 +818,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Benbachir"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "I. Sonko"
     }
    ]
   },
@@ -1153,7 +839,7 @@
    "gh": 1,
    "ga": 3,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -1186,7 +872,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "A. Diaby"
     }
    ]
   },
@@ -1200,7 +886,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -1236,10 +922,10 @@
    "away": "Persepolis FC",
    "hl": "https://media.api-sports.io/football/teams/2703.png",
    "al": "https://media.api-sports.io/football/teams/2742.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-27T12:45:00+00:00",
    "ev": [
     {
@@ -1264,25 +950,18 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1649809,
-   "league": "Oman - Sultan Cup",
-   "home": "Sohar",
-   "away": "Al-Mudhaibi",
-   "hl": "https://media.api-sports.io/football/teams/5336.png",
-   "al": "https://media.api-sports.io/football/teams/11379.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 64,
-   "time": "2026-11-27T12:40:00+00:00",
-   "ev": [
+     "p": "M. Zare"
+    },
     {
-     "m": 53,
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Nouri"
+    },
+    {
+     "m": 69,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -1290,20 +969,6 @@
      "p": null
     }
    ]
-  },
-  {
-   "id": 1597969,
-   "league": "Qatar - Stars League",
-   "home": "Al-Sailiya",
-   "away": "Al-Gharafa",
-   "hl": "https://media.api-sports.io/football/teams/2898.png",
-   "al": "https://media.api-sports.io/football/teams/2903.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T13:00:00+00:00",
-   "ev": []
   },
   {
    "id": 1649597,
@@ -1314,8 +979,8 @@
    "al": "https://media.api-sports.io/football/teams/2717.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-27T13:00:00+00:00",
    "ev": [
     {
@@ -1333,6 +998,170 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "A. Rostami"
+    },
+    {
+     "m": 47,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1649809,
+   "league": "Oman - Sultan Cup",
+   "home": "Sohar",
+   "away": "Al-Mudhaibi",
+   "hl": "https://media.api-sports.io/football/teams/5336.png",
+   "al": "https://media.api-sports.io/football/teams/11379.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 74,
+   "time": "2026-11-27T12:40:00+00:00",
+   "ev": [
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1623681,
+   "league": "Italy - Campionato Primavera - 2",
+   "home": "Cremonese U19",
+   "away": "Brescia U19",
+   "hl": "https://media.api-sports.io/football/teams/15662.png",
+   "al": "https://media.api-sports.io/football/teams/15657.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1627777,
+   "league": "South-Africa - 1st Division",
+   "home": "Gomora United FC",
+   "away": "Midlands Wanderers",
+   "hl": "https://media.api-sports.io/football/teams/26396.png",
+   "al": "https://media.api-sports.io/football/teams/26397.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1627779,
+   "league": "South-Africa - 1st Division",
+   "home": "Orbit College",
+   "away": "NWU FC",
+   "hl": "https://media.api-sports.io/football/teams/10582.png",
+   "al": "https://media.api-sports.io/football/teams/28236.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T13:30:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   }
