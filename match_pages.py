@@ -100,6 +100,26 @@ def sports_ld(pg, full=None):
     return '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
 
+def hide_cover(body):
+    """الودجت يعرض الفريقين أصلًا؛ نُبقي الصورة في الكود للمشاركة والمصغّرات فقط"""
+    return body.replace('<div class="post-cover" style="margin:0 0 16px">', '<div class="post-cover" data-ph="1" style="display:none">', 1)
+
+
+def fix_covers(ps):
+    for fid, pg in ps["pages"].items():
+        if pg.get("final") or pg.get("hc") or not pg.get("post_id"):
+            continue
+        try:
+            post = sb.blogger(f"/posts/{pg['post_id']}")
+            body = hide_cover(post.get("content", ""))
+            if body != post.get("content", "") and not DRY:
+                sb.blogger(f"/posts/{pg['post_id']}", "PATCH", {"content": body})
+            pg["hc"] = True
+            print("أُخفيت الصورة المكررة:", fid, flush=True)
+        except Exception as e:
+            print("تعذر تعديل الصفحة", fid, sp.why(e), flush=True)
+
+
 def links_html(pg):
     out = [f'<a href="{SITE}/p/match.html?id={pg["fid"]}">مركز المباراة</a>']
     slug = sp.TABLE_SLUG.get(pg["league_id"])
@@ -232,8 +252,8 @@ def create_page(f, tbl, ps, st, n_today):
             + f"<h2>أهمية المباراة</h2><p>{esc(d['paragraph'])}</p>"
             + links_html(pg) + sports_ld(pg))
     full = sp.wrap_article(title, d["description"], img, body, "صفحات المباريات")
-    if img:
-        full = full.replace('<div class="post-cover"', '<div class="post-cover" data-ph="1"', 1)
+    full = hide_cover(full)
+    pg["hc"] = True
     labels = ["صفحات المباريات", facts["league"]] + sp.clean_tags([H, A])
     if DRY:
         print("=== DRY ===", title, "|", slug, "|", len(d["paragraph"].split()), "كلمة")
@@ -326,6 +346,7 @@ def main():
     ps, st = load(), sp.load()
     try:
         sb.blogger_token()
+        fix_covers(ps)
         create_pages(ps, st)
         finish_pages(ps, st)
     except sp.BillingStop as e:
