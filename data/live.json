@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T13:30:11+03:00",
- "ts": 1795775411,
+ "updated": "2026-11-27T13:40:14+03:00",
+ "ts": 1795776014,
  "matches": [
   {
    "id": 1591102,
@@ -9,10 +9,10 @@
    "away": "Ağrı 1970",
    "hl": "https://media.api-sports.io/football/teams/6541.png",
    "al": "https://media.api-sports.io/football/teams/6509.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,37 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "K. Uzun"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Nalbantoglu"
+    }
+   ]
+  },
+  {
+   "id": 1601939,
+   "league": "Azerbaijan - Premyer Liqa",
+   "home": "Imisli FK",
+   "away": "Safa Baku",
+   "hl": "https://media.api-sports.io/football/teams/5570.png",
+   "al": "https://media.api-sports.io/football/teams/25318.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-27T10:30:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Cafarov"
     }
    ]
   },
@@ -43,7 +74,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -52,9 +83,23 @@
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "I. Almishli"
+     "p": "I. Elmichly"
     }
    ]
+  },
+  {
+   "id": 1621396,
+   "league": "Israel - Liga Alef",
+   "home": "Ironi Nesher",
+   "away": "Hapoel Bnei Musmus",
+   "hl": "https://media.api-sports.io/football/teams/4502.png",
+   "al": "https://media.api-sports.io/football/teams/6149.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-27T10:30:00+00:00",
+   "ev": []
   },
   {
    "id": 1621675,
@@ -66,11 +111,34 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 25,
+   "minute": 35,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
      "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Rosen"
+    }
+   ]
+  },
+  {
+   "id": 1621677,
+   "league": "Israel - Liga Alef",
+   "home": "Maccabi Yavne",
+   "away": "Maccabi Ashdod",
+   "hl": "https://media.api-sports.io/football/teams/6200.png",
+   "al": "https://media.api-sports.io/football/teams/6184.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "1H",
+   "minute": 8,
+   "time": "2026-11-27T10:30:00+00:00",
+   "ev": [
+    {
+     "m": 6,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -89,7 +157,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-27T10:15:00+00:00",
    "ev": []
   },
@@ -101,11 +169,20 @@
    "hl": "https://media.api-sports.io/football/teams/6201.png",
    "al": "https://media.api-sports.io/football/teams/4490.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 40,
    "time": "2026-11-27T10:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1628906,
@@ -117,7 +194,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": [
     {
@@ -140,9 +217,76 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-27T10:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1630474,
+   "league": "Azerbaijan - Birinci Dasta",
+   "home": "Zaqatala",
+   "away": "Xankəndi FK",
+   "hl": "https://media.api-sports.io/football/teams/5500.png",
+   "al": "https://media.api-sports.io/football/teams/26966.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 7,
+   "time": "2026-11-27T10:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1507499,
+   "league": "Georgia - Liga 3",
+   "home": "Didube 2014",
+   "away": "Irao",
+   "hl": "https://media.api-sports.io/football/teams/14857.png",
+   "al": "https://media.api-sports.io/football/teams/16507.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-27T09:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1507505,
+   "league": "Georgia - Liga 3",
+   "home": "Merani Tbilisi",
+   "away": "WIT Georgia",
+   "hl": "https://media.api-sports.io/football/teams/3508.png",
+   "al": "https://media.api-sports.io/football/teams/3504.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-27T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Topuria"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Ketselashvili"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "G. Mghebrishvili"
+    }
+   ]
   },
   {
    "id": 1527768,
@@ -154,72 +298,9 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-27T09:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1593709,
-   "league": "Australia - A-League",
-   "home": "Macarthur",
-   "away": "Melbourne City",
-   "hl": "https://media.api-sports.io/football/teams/15550.png",
-   "al": "https://media.api-sports.io/football/teams/945.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T08:40:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Apostolos Stamatelopoulos"
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Quinn MacNicol"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Harrison Delbridge"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ryan Fraser"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Liam Rose"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alessandro Lopane"
-    }
-   ]
   },
   {
    "id": 1629498,
@@ -228,104 +309,11 @@
    "away": "Kasimpasa U19",
    "hl": "https://media.api-sports.io/football/teams/28252.png",
    "al": "https://media.api-sports.io/football/teams/28249.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 68,
+   "minute": 79,
    "time": "2026-11-27T09:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1640127,
-   "league": "Bangladesh - Premier League",
-   "home": "Rahmatgonj MFS",
-   "away": "Mohammedan Dhaka",
-   "hl": "https://media.api-sports.io/football/teams/5017.png",
-   "al": "https://media.api-sports.io/football/teams/5014.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T08:30:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Emon"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Sene"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Owusu"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "T. Das"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Munna"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. Owusu"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Raju"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1507499,
-   "league": "Georgia - Liga 3",
-   "home": "Didube 2014",
-   "away": "Irao",
-   "hl": "https://media.api-sports.io/football/teams/14857.png",
-   "al": "https://media.api-sports.io/football/teams/16507.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T09:30:00+00:00",
    "ev": []
   },
   {
@@ -356,45 +344,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "V. Chargeishvili"
-    }
-   ]
-  },
-  {
-   "id": 1507505,
-   "league": "Georgia - Liga 3",
-   "home": "Merani Tbilisi",
-   "away": "WIT Georgia",
-   "hl": "https://media.api-sports.io/football/teams/3508.png",
-   "al": "https://media.api-sports.io/football/teams/3504.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T09:30:00+00:00",
-   "ev": [
-    {
-     "m": 20,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Topuria"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Ketselashvili"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
     }
    ]
   }
