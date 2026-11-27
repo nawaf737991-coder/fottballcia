@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T12:50:19+03:00",
- "ts": 1795773019,
+ "updated": "2026-11-27T13:00:23+03:00",
+ "ts": 1795773623,
  "matches": [
   {
    "id": 1507499,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 13,
+   "minute": 23,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-27T09:30:00+00:00",
    "ev": [
     {
@@ -43,7 +43,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "V. Chargeishvili"
     }
    ]
   },
@@ -55,10 +55,41 @@
    "hl": "https://media.api-sports.io/football/teams/3508.png",
    "al": "https://media.api-sports.io/football/teams/3504.png",
    "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 29,
+   "time": "2026-11-27T09:30:00+00:00",
+   "ev": [
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Topuria"
+    },
+    {
+     "m": 23,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Ketselashvili"
+    }
+   ]
+  },
+  {
+   "id": 1629491,
+   "league": "Turkey - U19 league",
+   "home": "Alanyaspor U19",
+   "away": "Konyaspor U19",
+   "hl": "https://media.api-sports.io/football/teams/28240.png",
+   "al": "https://media.api-sports.io/football/teams/28251.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
-   "time": "2026-11-27T09:30:00+00:00",
+   "minute": 2,
+   "time": "2026-11-27T10:00:00+00:00",
    "ev": []
   },
   {
@@ -71,7 +102,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-27T08:40:00+00:00",
    "ev": [
     {
@@ -126,7 +157,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 74,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -146,10 +177,10 @@
    "away": "Abahani",
    "hl": "https://media.api-sports.io/football/teams/10106.png",
    "al": "https://media.api-sports.io/football/teams/5009.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -159,6 +190,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "R. Ba"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Afolabi"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Ngong Sam"
     }
    ]
   },
@@ -169,10 +216,10 @@
    "away": "Mohammedan Dhaka",
    "hl": "https://media.api-sports.io/football/teams/5017.png",
    "al": "https://media.api-sports.io/football/teams/5014.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
@@ -190,14 +237,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "I. Sene"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Diabate"
     },
     {
      "m": 48,
@@ -222,6 +261,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Munna"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "P. Owusu"
     }
    ]
   },
@@ -235,7 +282,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-27T08:30:00+00:00",
    "ev": [
     {
