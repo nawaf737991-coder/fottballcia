@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T09:10:13+03:00",
- "ts": 1795846213,
+ "updated": "2026-11-28T09:20:19+03:00",
+ "ts": 1795846819,
  "matches": [
   {
    "id": 1556161,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-28T06:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ibuki Fujita"
+    }
+   ]
   },
   {
    "id": 1556169,
@@ -26,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": []
   },
@@ -40,9 +49,18 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Lee"
+    }
+   ]
   },
   {
    "id": 1510514,
@@ -54,7 +72,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -77,7 +95,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -97,10 +115,10 @@
    "away": "Cerezo Osaka",
    "hl": "https://media.api-sports.io/football/teams/302.png",
    "al": "https://media.api-sports.io/football/teams/291.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 47,
+   "minute": 57,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -142,6 +160,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Reiya Sakata"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Haruki Arai"
     }
    ]
   },
@@ -155,9 +181,64 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1606786,
+   "league": "Japan - J2 League",
+   "home": "Omiya Ardija",
+   "away": "Imabari",
+   "hl": "https://media.api-sports.io/football/teams/313.png",
+   "al": "https://media.api-sports.io/football/teams/10075.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "2H",
+   "minute": 55,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "O. Yamamoto"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Y. Ozaki"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Komai"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gabriel Gomes"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Toyokawa"
+    }
+   ]
   },
   {
    "id": 1647384,
@@ -169,7 +250,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -187,6 +268,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Cho Young-wook"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gu Sung-Yun"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Park Kyu-Hyun"
     }
    ]
   },
@@ -200,7 +297,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -226,45 +323,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jae-hyeon Kim"
-    }
-   ]
-  },
-  {
-   "id": 1606786,
-   "league": "Japan - J2 League",
-   "home": "Omiya Ardija",
-   "away": "Imabari",
-   "hl": "https://media.api-sports.io/football/teams/313.png",
-   "al": "https://media.api-sports.io/football/teams/10075.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T05:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "O. Yamamoto"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Y. Ozaki"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Komai"
     }
    ]
   }
