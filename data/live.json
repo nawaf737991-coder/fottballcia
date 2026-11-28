@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T04:40:22+03:00",
- "ts": 1795830022,
+ "updated": "2026-11-28T04:50:26+03:00",
+ "ts": 1795830626,
  "matches": [
   {
    "id": 1631825,
@@ -12,21 +12,21 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 32,
+   "minute": 42,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1639061,
-   "league": "New-Zealand - National League - National",
-   "home": "Wellington Phoenix II",
-   "away": "Wellington Olympic",
-   "hl": "https://media.api-sports.io/football/teams/2535.png",
-   "al": "https://media.api-sports.io/football/teams/20646.png",
+   "id": 1631826,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Acatlan",
+   "away": "Vaqueros Reynosa",
+   "hl": "https://media.api-sports.io/football/teams/24949.png",
+   "al": "https://media.api-sports.io/football/teams/28308.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 1,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 34,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -63,8 +63,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 21,
    "time": "2026-11-28T01:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1651152,
+   "league": "Colombia - Primera A",
+   "home": "Millonarios",
+   "away": "America de Cali",
+   "hl": "https://media.api-sports.io/football/teams/1125.png",
+   "al": "https://media.api-sports.io/football/teams/1138.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-28T01:40:00+00:00",
    "ev": []
   },
   {
@@ -77,7 +91,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 75,
+   "minute": 86,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -143,6 +157,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Lago"
     }
    ]
   },
@@ -156,7 +178,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -211,7 +233,7 @@
    "gh": 2,
    "ga": 2,
    "status": "ET",
-   "minute": 112,
+   "minute": 106,
    "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
@@ -295,6 +317,20 @@
      "p": "Santiago Laquidain"
     }
    ]
+  },
+  {
+   "id": 1639061,
+   "league": "New-Zealand - National League - National",
+   "home": "Wellington Phoenix II",
+   "away": "Wellington Olympic",
+   "hl": "https://media.api-sports.io/football/teams/2535.png",
+   "al": "https://media.api-sports.io/football/teams/20646.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
   }
  ]
 }
