@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-28T12:10:28+03:00",
- "ts": 1795857028,
+ "updated": "2026-11-28T12:20:10+03:00",
+ "ts": 1795857610,
  "matches": [
+  {
+   "id": 1562690,
+   "league": "Czech-Republic - 3. liga - CFL A",
+   "home": "Slavia III",
+   "away": "Sparta Praha II",
+   "hl": "https://media.api-sports.io/football/teams/26232.png",
+   "al": "https://media.api-sports.io/football/teams/8619.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 3,
+   "time": "2026-11-28T09:15:00+00:00",
+   "ev": []
+  },
   {
    "id": 1581992,
    "league": "Ukraine - Persha Liga",
@@ -12,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": []
   },
@@ -24,9 +38,9 @@
    "hl": "https://media.api-sports.io/football/teams/941.png",
    "al": "https://media.api-sports.io/football/teams/24608.png",
    "gh": 1,
-   "ga": 1,
+   "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T08:40:00+00:00",
    "ev": [
     {
@@ -52,6 +66,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Bailey Brandtman"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lachlan Brook"
     }
    ]
   },
@@ -65,7 +87,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-28T08:45:00+00:00",
    "ev": []
   },
@@ -79,7 +101,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -91,12 +113,12 @@
      "p": "Vitor Pernambuco"
     },
     {
-     "m": 10,
+     "m": 9,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "A. Raop"
     }
    ]
   },
@@ -110,7 +132,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": []
   },
@@ -124,9 +146,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1602566,
@@ -138,11 +169,27 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
      "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 20,
      "x": null,
      "s": "h",
      "t": "Card",
@@ -161,7 +208,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": []
   },
@@ -173,11 +220,20 @@
    "hl": "https://media.api-sports.io/football/teams/6927.png",
    "al": "https://media.api-sports.io/football/teams/7466.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-28T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Garcia"
+    }
+   ]
   },
   {
    "id": 1602573,
@@ -189,7 +245,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 8,
+   "minute": 18,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -209,12 +265,21 @@
    "away": "CSM Satu Mare",
    "hl": "https://media.api-sports.io/football/teams/2590.png",
    "al": "https://media.api-sports.io/football/teams/16279.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 11,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Galdea"
+    }
+   ]
   },
   {
    "id": 1622844,
@@ -223,10 +288,10 @@
    "away": "PSS Sleman",
    "hl": "https://media.api-sports.io/football/teams/24993.png",
    "al": "https://media.api-sports.io/football/teams/3882.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -276,6 +341,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Bagayoko"
+    },
+    {
+     "m": 45,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -289,7 +362,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -306,30 +379,15 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1622847,
-   "league": "Indonesia - Liga 1",
-   "home": "PSIM Yogyakarta",
-   "away": "Persijap",
-   "hl": "https://media.api-sports.io/football/teams/4235.png",
-   "al": "https://media.api-sports.io/football/teams/11132.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T08:30:00+00:00",
-   "ev": [
+     "p": "M. Sidibe"
+    },
     {
-     "m": 34,
-     "x": null,
+     "m": 45,
+     "x": 2,
      "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Yamadera"
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Dugandzic"
     }
    ]
   },
@@ -343,7 +401,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -401,29 +459,45 @@
      "t": "Card",
      "d": "Red Card",
      "p": "R. Fandi"
+    },
+    {
+     "m": 45,
+     "x": 5,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
   {
-   "id": 1634866,
+   "id": 1634867,
    "league": "Myanmar - National League",
-   "home": "Shan United",
-   "away": "Sagaing United",
-   "hl": "https://media.api-sports.io/football/teams/8015.png",
-   "al": "https://media.api-sports.io/football/teams/12528.png",
-   "gh": 1,
-   "ga": 0,
+   "home": "Ayeyawady United",
+   "away": "Yangon Royals",
+   "hl": "https://media.api-sports.io/football/teams/12523.png",
+   "al": "https://media.api-sports.io/football/teams/28338.png",
+   "gh": 0,
+   "ga": 2,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T08:30:00+00:00",
+   "minute": 20,
+   "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
-     "m": 18,
+     "m": 5,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "R. Nanitelamio"
+     "p": "Hein Khun Kyaw Zin"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -437,7 +511,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -458,9 +532,9 @@
    "hl": "https://media.api-sports.io/football/teams/2450.png",
    "al": "https://media.api-sports.io/football/teams/4229.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -478,6 +552,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "H. Tholib"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Sheva"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Aji"
     }
    ]
   },
@@ -488,67 +578,35 @@
    "away": "Brothers Union",
    "hl": "https://media.api-sports.io/football/teams/28428.png",
    "al": "https://media.api-sports.io/football/teams/5013.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1640130,
-   "league": "Bangladesh - Premier League",
-   "home": "City Club",
-   "away": "PWD Sports Club",
-   "hl": "https://media.api-sports.io/football/teams/28429.png",
-   "al": "https://media.api-sports.io/football/teams/26882.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Baloki"
-    },
-    {
-     "m": 10,
+     "m": 42,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "S. Hasan Jummon"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Riduan"
-    },
-    {
-     "m": 36,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Ur Rashid"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "K. Solomon"
+     "p": "J. Iqbal"
     }
    ]
+  },
+  {
+   "id": 1649631,
+   "league": "Uzbekistan - Pro League A",
+   "home": "Metalourg",
+   "away": "FarDu",
+   "hl": "https://media.api-sports.io/football/teams/4214.png",
+   "al": "https://media.api-sports.io/football/teams/25763.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 16,
+   "time": "2026-11-28T09:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1651251,
@@ -560,7 +618,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -581,9 +639,9 @@
    "hl": "https://media.api-sports.io/football/teams/16191.png",
    "al": "https://media.api-sports.io/football/teams/8030.png",
    "gh": 0,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": [
     {
@@ -609,6 +667,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -619,10 +685,10 @@
    "away": "TS Galaxy U23",
    "hl": "https://media.api-sports.io/football/teams/15992.png",
    "al": "https://media.api-sports.io/football/teams/15999.png",
-   "gh": 1,
+   "gh": 3,
    "ga": 2,
    "status": "2H",
-   "minute": 52,
+   "minute": 62,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": []
   },
@@ -634,13 +700,21 @@
    "hl": "https://media.api-sports.io/football/teams/21015.png",
    "al": "https://media.api-sports.io/football/teams/14096.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": [
     {
      "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 61,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -656,10 +730,10 @@
    "away": "Gimcheon Sangmu FC",
    "hl": "https://media.api-sports.io/football/teams/2745.png",
    "al": "https://media.api-sports.io/football/teams/2768.png",
-   "gh": 0,
-   "ga": 1,
+   "gh": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -709,6 +783,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Roh Kyung-Ho"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kim Min-Jun"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kang Ju-Hyeok"
     }
    ]
   },
@@ -720,9 +810,9 @@
    "hl": "https://media.api-sports.io/football/teams/2764.png",
    "al": "https://media.api-sports.io/football/teams/2759.png",
    "gh": 2,
-   "ga": 3,
+   "ga": 4,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -764,6 +854,115 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Adriel D'Avila Ba Loua"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Shin Chang-moo"
+    }
+   ]
+  },
+  {
+   "id": 1622847,
+   "league": "Indonesia - Liga 1",
+   "home": "PSIM Yogyakarta",
+   "away": "Persijap",
+   "hl": "https://media.api-sports.io/football/teams/4235.png",
+   "al": "https://media.api-sports.io/football/teams/11132.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Yamadera"
+    }
+   ]
+  },
+  {
+   "id": 1634866,
+   "league": "Myanmar - National League",
+   "home": "Shan United",
+   "away": "Sagaing United",
+   "hl": "https://media.api-sports.io/football/teams/8015.png",
+   "al": "https://media.api-sports.io/football/teams/12528.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Nanitelamio"
+    }
+   ]
+  },
+  {
+   "id": 1640130,
+   "league": "Bangladesh - Premier League",
+   "home": "City Club",
+   "away": "PWD Sports Club",
+   "hl": "https://media.api-sports.io/football/teams/28429.png",
+   "al": "https://media.api-sports.io/football/teams/26882.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:30:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "F. Baloki"
+    },
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Hasan Jummon"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Riduan"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Ur Rashid"
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "K. Solomon"
     }
    ]
   }
