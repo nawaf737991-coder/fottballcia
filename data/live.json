@@ -1,68 +1,7 @@
 {
- "updated": "2026-11-28T05:50:13+03:00",
- "ts": 1795834213,
+ "updated": "2026-11-28T05:58:21+03:00",
+ "ts": 1795834701,
  "matches": [
-  {
-   "id": 1636050,
-   "league": "Mexico - Primera Premier",
-   "home": "Reboceros La Piedad",
-   "away": "Lobos ULMX",
-   "hl": "https://media.api-sports.io/football/teams/15937.png",
-   "al": "https://media.api-sports.io/football/teams/17787.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 42,
-   "time": "2026-11-28T02:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1645550,
-   "league": "Bolivia - Primera División",
-   "home": "ABB",
-   "away": "Real Tomayapo",
-   "hl": "https://media.api-sports.io/football/teams/17743.png",
-   "al": "https://media.api-sports.io/football/teams/15708.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-27T19:00:00+00:00",
-   "ev": [
-    {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Layonel Figueroa"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Javier Guerra"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adriel Guillermo"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Vladimir Antonio Gálvez Lazcano"
-    }
-   ]
-  },
   {
    "id": 1631825,
    "league": "Mexico - Liga Premier Serie A",
@@ -73,9 +12,32 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 82,
+   "minute": 90,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1631826,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Acatlan",
+   "away": "Vaqueros Reynosa",
+   "hl": "https://media.api-sports.io/football/teams/24949.png",
+   "al": "https://media.api-sports.io/football/teams/28308.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1639061,
@@ -110,7 +72,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 76,
+   "minute": 84,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -136,6 +98,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Gonzalo Tapia"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Matías Galarza"
+    },
+    {
+     "m": 83,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sean Zawadzki"
     }
    ]
   },
@@ -149,7 +127,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 66,
    "time": "2026-11-28T01:30:00+00:00",
    "ev": [
     {
@@ -169,58 +147,12 @@
      "p": "V. Medina"
     },
     {
-     "m": 54,
+     "m": 56,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1598823,
-   "league": "Costa-Rica - Primera División",
-   "home": "CS Herediano",
-   "away": "Escorpiones Belén",
-   "hl": "https://media.api-sports.io/football/teams/815.png",
-   "al": "https://media.api-sports.io/football/teams/17377.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T02:00:00+00:00",
-   "ev": [
-    {
-     "m": 45,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Pimpinati"
-    }
-   ]
-  },
-  {
-   "id": 1631826,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Acatlan",
-   "away": "Vaqueros Reynosa",
-   "hl": "https://media.api-sports.io/football/teams/24949.png",
-   "al": "https://media.api-sports.io/football/teams/28308.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 26,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "J. Villalobos"
     }
    ]
   },
@@ -233,8 +165,8 @@
    "al": "https://media.api-sports.io/football/teams/1138.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-28T01:40:00+00:00",
    "ev": [
     {
@@ -292,6 +224,98 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Rodrigo Contreras"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Dany Rosero"
+    }
+   ]
+  },
+  {
+   "id": 1598823,
+   "league": "Costa-Rica - Primera División",
+   "home": "CS Herediano",
+   "away": "Escorpiones Belén",
+   "hl": "https://media.api-sports.io/football/teams/815.png",
+   "al": "https://media.api-sports.io/football/teams/17377.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T02:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "D. Pimpinati"
+    }
+   ]
+  },
+  {
+   "id": 1636050,
+   "league": "Mexico - Primera Premier",
+   "home": "Reboceros La Piedad",
+   "away": "Lobos ULMX",
+   "hl": "https://media.api-sports.io/football/teams/15937.png",
+   "al": "https://media.api-sports.io/football/teams/17787.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T02:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1645550,
+   "league": "Bolivia - Primera División",
+   "home": "ABB",
+   "away": "Real Tomayapo",
+   "hl": "https://media.api-sports.io/football/teams/17743.png",
+   "al": "https://media.api-sports.io/football/teams/15708.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T19:00:00+00:00",
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Layonel Figueroa"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Javier Guerra"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adriel Guillermo"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Vladimir Antonio Gálvez Lazcano"
     }
    ]
   }
