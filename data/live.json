@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T07:30:28+03:00",
- "ts": 1795840228,
+ "updated": "2026-11-28T07:40:11+03:00",
+ "ts": 1795840811,
  "matches": [
   {
    "id": 1651253,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 33,
    "time": "2026-11-28T04:00:00+00:00",
    "ev": []
   },
@@ -25,8 +25,8 @@
    "al": "https://media.api-sports.io/football/teams/1603.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 51,
    "time": "2026-11-28T03:00:00+00:00",
    "ev": [
     {
@@ -170,7 +170,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Missed Penalty",
-     "p": null
+     "p": "A. Collymore"
     },
     {
      "m": 120,
@@ -178,6 +178,78 @@
      "s": "h",
      "t": "Goal",
      "d": "Missed Penalty",
+     "p": "E. Carrasquilla"
+    },
+    {
+     "m": 120,
+     "x": 5,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "G. Chara"
+    },
+    {
+     "m": 120,
+     "x": 5,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "R. French"
+    },
+    {
+     "m": 120,
+     "x": 6,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Jimenez Abdiel"
+    },
+    {
+     "m": 120,
+     "x": 6,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Mendez"
+    },
+    {
+     "m": 120,
+     "x": 7,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Jimenez"
+    },
+    {
+     "m": 120,
+     "x": 7,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "V. Simmons"
+    },
+    {
+     "m": 120,
+     "x": 8,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Espada"
+    },
+    {
+     "m": 120,
+     "x": 8,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 9,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
      "p": null
     }
    ]
