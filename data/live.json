@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T04:50:26+03:00",
- "ts": 1795830626,
+ "updated": "2026-11-28T05:00:12+03:00",
+ "ts": 1795831212,
  "matches": [
   {
-   "id": 1631825,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Guerreros del Pacifico",
-   "away": "Artesanos Metepec",
-   "hl": "https://media.api-sports.io/football/teams/28304.png",
-   "al": "https://media.api-sports.io/football/teams/22049.png",
+   "id": 1598823,
+   "league": "Costa-Rica - Primera División",
+   "home": "CS Herediano",
+   "away": "Escorpiones Belén",
+   "hl": "https://media.api-sports.io/football/teams/815.png",
+   "al": "https://media.api-sports.io/football/teams/17377.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 42,
-   "time": "2026-11-28T01:00:00+00:00",
+   "minute": 1,
+   "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
   {
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 43,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -63,9 +63,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 30,
    "time": "2026-11-28T01:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1651152,
@@ -77,7 +86,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-28T01:40:00+00:00",
    "ev": []
   },
@@ -91,7 +100,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -137,26 +146,18 @@
     {
      "m": 60,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Kubiszyn"
-    },
-    {
-     "m": 60,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Rasmussen"
     },
     {
-     "m": 75,
+     "m": 60,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "S. Kubiszyn"
     },
     {
      "m": 79,
@@ -165,6 +166,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "I. Lago"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "S. Kubiszyn"
+    },
+    {
+     "m": 86,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Kubiszyn"
     }
    ]
   },
@@ -178,7 +195,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 86,
+   "minute": 90,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -220,6 +237,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "A. Gallo"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "L. Montoya"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "D. Mastrangelo"
     }
    ]
   },
@@ -233,7 +266,7 @@
    "gh": 2,
    "ga": 2,
    "status": "ET",
-   "minute": 106,
+   "minute": 116,
    "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
@@ -315,8 +348,38 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Santiago Laquidain"
+    },
+    {
+     "m": 106,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Thiago Fernandez"
+    },
+    {
+     "m": 106,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Santiago Laquidain"
     }
    ]
+  },
+  {
+   "id": 1631825,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros del Pacifico",
+   "away": "Artesanos Metepec",
+   "hl": "https://media.api-sports.io/football/teams/28304.png",
+   "al": "https://media.api-sports.io/football/teams/22049.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1639061,
