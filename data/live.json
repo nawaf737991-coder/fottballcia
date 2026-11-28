@@ -1,49 +1,7 @@
 {
- "updated": "2026-11-28T08:40:22+03:00",
- "ts": 1795844422,
+ "updated": "2026-11-28T08:50:30+03:00",
+ "ts": 1795845030,
  "matches": [
-  {
-   "id": 1510509,
-   "league": "South-Korea - K League 2",
-   "home": "Gimhae City",
-   "away": "Seongnam FC",
-   "hl": "https://media.api-sports.io/football/teams/7076.png",
-   "al": "https://media.api-sports.io/football/teams/2757.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1510514,
-   "league": "South-Korea - K League 2",
-   "home": "Yongin City",
-   "away": "Paju Citizen",
-   "hl": "https://media.api-sports.io/football/teams/9171.png",
-   "al": "https://media.api-sports.io/football/teams/7098.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 41,
-   "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1555834,
-   "league": "Japan - J3 League",
-   "home": "Kochi United",
-   "away": "Nara Club",
-   "hl": "https://media.api-sports.io/football/teams/7129.png",
-   "al": "https://media.api-sports.io/football/teams/7135.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 37,
-   "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
-  },
   {
    "id": 1556164,
    "league": "Japan - J1 League",
@@ -51,10 +9,10 @@
    "away": "Cerezo Osaka",
    "hl": "https://media.api-sports.io/football/teams/302.png",
    "al": "https://media.api-sports.io/football/teams/291.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -72,6 +30,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Thiago Andrade"
+    },
+    {
+     "m": 36,
+     "x": null,
+     "s": "h",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Kyo Sato"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Rafael Papagaio"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Reiya Sakata"
     }
    ]
   },
@@ -85,7 +67,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -97,9 +79,9 @@
    "hl": "https://media.api-sports.io/football/teams/313.png",
    "al": "https://media.api-sports.io/football/teams/10075.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 32,
+   "minute": 43,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -116,6 +98,14 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
+     "p": "Y. Ozaki"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -130,7 +120,7 @@
    "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -140,37 +130,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Son Jeong-Beom"
-    }
-   ]
-  },
-  {
-   "id": 1647399,
-   "league": "South-Korea - K League 1",
-   "home": "FC Anyang",
-   "away": "Jeju United FC",
-   "hl": "https://media.api-sports.io/football/teams/2748.png",
-   "al": "https://media.api-sports.io/football/teams/2761.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T05:00:00+00:00",
-   "ev": [
-    {
-     "m": 15,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lee Tae-hee"
     },
     {
-     "m": 33,
+     "m": 39,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Italo Moreira Barcelos"
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Cho Young-wook"
     }
    ]
   },
@@ -184,7 +151,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 76,
+   "minute": 86,
    "time": "2026-11-28T04:00:00+00:00",
    "ev": [
     {
@@ -218,6 +185,105 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    }
+   ]
+  },
+  {
+   "id": 1510509,
+   "league": "South-Korea - K League 2",
+   "home": "Gimhae City",
+   "away": "Seongnam FC",
+   "hl": "https://media.api-sports.io/football/teams/7076.png",
+   "al": "https://media.api-sports.io/football/teams/2757.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1510514,
+   "league": "South-Korea - K League 2",
+   "home": "Yongin City",
+   "away": "Paju Citizen",
+   "hl": "https://media.api-sports.io/football/teams/9171.png",
+   "al": "https://media.api-sports.io/football/teams/7098.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Park"
+    }
+   ]
+  },
+  {
+   "id": 1555834,
+   "league": "Japan - J3 League",
+   "home": "Kochi United",
+   "away": "Nara Club",
+   "hl": "https://media.api-sports.io/football/teams/7129.png",
+   "al": "https://media.api-sports.io/football/teams/7135.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "T. Ishii"
+    }
+   ]
+  },
+  {
+   "id": 1647399,
+   "league": "South-Korea - K League 1",
+   "home": "FC Anyang",
+   "away": "Jeju United FC",
+   "hl": "https://media.api-sports.io/football/teams/2748.png",
+   "al": "https://media.api-sports.io/football/teams/2761.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lee Tae-hee"
+    },
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Italo Moreira Barcelos"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jae-hyeon Kim"
     }
    ]
   }
