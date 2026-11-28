@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T05:20:20+03:00",
- "ts": 1795832420,
+ "updated": "2026-11-28T05:30:23+03:00",
+ "ts": 1795833023,
  "matches": [
   {
    "id": 1598823,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 42,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -49,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -63,7 +63,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-27T19:00:00+00:00",
    "ev": [
     {
@@ -73,29 +73,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Layonel Figueroa"
-    }
-   ]
-  },
-  {
-   "id": 1651111,
-   "league": "Panama - Liga Panameña de Fútbol",
-   "home": "San Francisco FC",
-   "away": "CD Arabe Unido",
-   "hl": "https://media.api-sports.io/football/teams/2887.png",
-   "al": "https://media.api-sports.io/football/teams/2882.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T01:30:00+00:00",
-   "ev": [
+    },
     {
-     "m": 29,
+     "m": 21,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "M. Ceballos"
+     "p": "Javier Guerra"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adriel Guillermo"
     }
    ]
   },
@@ -109,7 +102,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 41,
+   "minute": 45,
    "time": "2026-11-28T01:40:00+00:00",
    "ev": [
     {
@@ -151,6 +144,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Jhonier Guerrero"
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Josen Escobar"
     }
    ]
   },
@@ -164,7 +165,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
+   "minute": 63,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -178,7 +179,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -192,7 +193,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -210,6 +211,29 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Santiago Rodriguez"
+    }
+   ]
+  },
+  {
+   "id": 1651111,
+   "league": "Panama - Liga Panameña de Fútbol",
+   "home": "San Francisco FC",
+   "away": "CD Arabe Unido",
+   "hl": "https://media.api-sports.io/football/teams/2887.png",
+   "al": "https://media.api-sports.io/football/teams/2882.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T01:30:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Ceballos"
     }
    ]
   }
