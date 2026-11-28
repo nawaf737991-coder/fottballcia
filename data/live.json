@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-28T11:40:16+03:00",
- "ts": 1795855216,
+ "updated": "2026-11-28T11:50:18+03:00",
+ "ts": 1795855818,
  "matches": [
+  {
+   "id": 1593710,
+   "league": "Australia - A-League",
+   "home": "Central Coast Mariners",
+   "away": "Auckland",
+   "hl": "https://media.api-sports.io/football/teams/941.png",
+   "al": "https://media.api-sports.io/football/teams/24608.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-28T08:40:00+00:00",
+   "ev": []
+  },
   {
    "id": 1622844,
    "league": "Indonesia - Liga 1",
@@ -12,9 +26,26 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1622846,
@@ -26,7 +57,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -40,7 +71,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -52,11 +83,28 @@
    "hl": "https://media.api-sports.io/football/teams/2441.png",
    "al": "https://media.api-sports.io/football/teams/17902.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ko Myeong-Seok"
+    },
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "T. Marukawa"
+    }
+   ]
   },
   {
    "id": 1634866,
@@ -65,12 +113,21 @@
    "away": "Sagaing United",
    "hl": "https://media.api-sports.io/football/teams/8015.png",
    "al": "https://media.api-sports.io/football/teams/12528.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1637722,
@@ -82,7 +139,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -96,7 +153,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -110,29 +167,6 @@
    ]
   },
   {
-   "id": 1639116,
-   "league": "Philippines - PFL",
-   "home": "Maharlika",
-   "away": "Kaya",
-   "hl": "https://media.api-sports.io/football/teams/16191.png",
-   "al": "https://media.api-sports.io/football/teams/8030.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1640129,
    "league": "Bangladesh - Premier League",
    "home": "Chattogram",
@@ -142,7 +176,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -156,7 +190,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -173,44 +207,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1640891,
-   "league": "South-Africa - Diski Challenge",
-   "home": "Kaizer Chiefs U23",
-   "away": "TS Galaxy U23",
-   "hl": "https://media.api-sports.io/football/teams/15992.png",
-   "al": "https://media.api-sports.io/football/teams/15999.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1641944,
-   "league": "Laos - Lao League",
-   "home": "Luangprabang FC",
-   "away": "Viengchanh",
-   "hl": "https://media.api-sports.io/football/teams/21015.png",
-   "al": "https://media.api-sports.io/football/teams/14096.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "1H",
-   "minute": 39,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "p": "S. Hasan Jummon"
     }
    ]
   },
@@ -224,9 +221,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 7,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1556162,
@@ -238,7 +244,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -280,6 +286,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Sachiro Toshima"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nobuteru Nakagawa"
     }
    ]
   },
@@ -293,7 +307,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -351,6 +365,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "K. Lai"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -364,7 +386,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -411,7 +433,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -445,6 +467,74 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kento Nishiya"
+    }
+   ]
+  },
+  {
+   "id": 1639116,
+   "league": "Philippines - PFL",
+   "home": "Maharlika",
+   "away": "Kaya",
+   "hl": "https://media.api-sports.io/football/teams/16191.png",
+   "al": "https://media.api-sports.io/football/teams/8030.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1640891,
+   "league": "South-Africa - Diski Challenge",
+   "home": "Kaizer Chiefs U23",
+   "away": "TS Galaxy U23",
+   "hl": "https://media.api-sports.io/football/teams/15992.png",
+   "al": "https://media.api-sports.io/football/teams/15999.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1641944,
+   "league": "Laos - Lao League",
+   "home": "Luangprabang FC",
+   "away": "Viengchanh",
+   "hl": "https://media.api-sports.io/football/teams/21015.png",
+   "al": "https://media.api-sports.io/football/teams/14096.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
