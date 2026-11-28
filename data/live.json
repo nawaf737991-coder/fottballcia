@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T12:30:17+03:00",
- "ts": 1795858217,
+ "updated": "2026-11-28T12:40:20+03:00",
+ "ts": 1795858820,
  "matches": [
   {
    "id": 1562690,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 13,
+   "minute": 22,
    "time": "2026-11-28T09:15:00+00:00",
    "ev": []
   },
@@ -26,8 +26,22 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-28T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1599301,
+   "league": "Poland - Central Youth League",
+   "home": "Stal Rzeszów U19",
+   "away": "Escola Varsovia U19",
+   "hl": "https://media.api-sports.io/football/teams/24519.png",
+   "al": "https://media.api-sports.io/football/teams/20589.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-28T09:30:00+00:00",
    "ev": []
   },
   {
@@ -40,7 +54,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-28T08:45:00+00:00",
    "ev": [
     {
@@ -57,7 +71,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Yi-young Park"
     }
    ]
   },
@@ -71,7 +85,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -102,9 +116,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-28T09:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1602565,
@@ -113,10 +136,10 @@
    "away": "Ştefăneşti",
    "hl": "https://media.api-sports.io/football/teams/2580.png",
    "al": "https://media.api-sports.io/football/teams/21686.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -142,6 +165,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "D. Sula"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "S. Panoiu"
     }
    ]
   },
@@ -155,7 +186,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 31,
+   "minute": 41,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -218,7 +249,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -227,6 +258,14 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
+     "p": "C. Bortoneanu"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
      "p": null
     }
    ]
@@ -241,7 +280,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 29,
+   "minute": 39,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -262,9 +301,9 @@
    "hl": "https://media.api-sports.io/football/teams/6916.png",
    "al": "https://media.api-sports.io/football/teams/6891.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 28,
+   "minute": 38,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -282,6 +321,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "L. Campan"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Tudorica"
     }
    ]
   },
@@ -295,7 +342,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -313,6 +360,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": null
+    },
+    {
+     "m": 37,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -326,7 +381,7 @@
    "gh": 0,
    "ga": 2,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -357,251 +412,9 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 35,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": []
-  },
-  {
-   "id": 1639116,
-   "league": "Philippines - PFL",
-   "home": "Maharlika",
-   "away": "Kaya",
-   "hl": "https://media.api-sports.io/football/teams/16191.png",
-   "al": "https://media.api-sports.io/football/teams/8030.png",
-   "gh": 0,
-   "ga": 5,
-   "status": "2H",
-   "minute": 72,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ortega"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Rosquillo"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1640891,
-   "league": "South-Africa - Diski Challenge",
-   "home": "Kaizer Chiefs U23",
-   "away": "TS Galaxy U23",
-   "hl": "https://media.api-sports.io/football/teams/15992.png",
-   "al": "https://media.api-sports.io/football/teams/15999.png",
-   "gh": 4,
-   "ga": 2,
-   "status": "2H",
-   "minute": 72,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1641944,
-   "league": "Laos - Lao League",
-   "home": "Luangprabang FC",
-   "away": "Viengchanh",
-   "hl": "https://media.api-sports.io/football/teams/21015.png",
-   "al": "https://media.api-sports.io/football/teams/14096.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 73,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1647400,
-   "league": "South-Korea - K League 1",
-   "home": "Bucheon FC 1995",
-   "away": "Gimcheon Sangmu FC",
-   "hl": "https://media.api-sports.io/football/teams/2745.png",
-   "al": "https://media.api-sports.io/football/teams/2768.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T07:30:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kazuki Takahashi"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jefferson Fernando Isidio"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Byeon Jun-Soo"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Kazuki Takahashi"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jung Jae-min"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Roh Kyung-Ho"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kim Min-Jun"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kang Ju-Hyeok"
-    }
-   ]
-  },
-  {
-   "id": 1593710,
-   "league": "Australia - A-League",
-   "home": "Central Coast Mariners",
-   "away": "Auckland",
-   "hl": "https://media.api-sports.io/football/teams/941.png",
-   "al": "https://media.api-sports.io/football/teams/24608.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T08:40:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hiroki Sakai"
-    },
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Daniel Normann"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Bailey Brandtman"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Lachlan Brook"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Shumba Mutokoyi"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Oliver Lavale"
-    }
-   ]
   },
   {
    "id": 1622844,
@@ -612,12 +425,12 @@
    "al": "https://media.api-sports.io/football/teams/3882.png",
    "gh": 3,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
-     "m": 13,
+     "m": 16,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -691,12 +504,12 @@
    "al": "https://media.api-sports.io/football/teams/2443.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
-     "m": 25,
+     "m": 27,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -730,8 +543,8 @@
    "al": "https://media.api-sports.io/football/teams/11132.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 52,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -753,8 +566,8 @@
    "al": "https://media.api-sports.io/football/teams/17902.png",
    "gh": 0,
    "ga": 2,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -819,7 +632,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "A. Raehan"
     }
    ]
   },
@@ -832,8 +645,8 @@
    "al": "https://media.api-sports.io/football/teams/12528.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 53,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -855,8 +668,8 @@
    "al": "https://media.api-sports.io/football/teams/24994.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 48,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -878,12 +691,12 @@
    "al": "https://media.api-sports.io/football/teams/4229.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
-     "m": 3,
+     "m": 4,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -891,7 +704,7 @@
      "p": "Juninho"
     },
     {
-     "m": 25,
+     "m": 26,
      "x": null,
      "s": "h",
      "t": "Goal",
@@ -899,7 +712,7 @@
      "p": "H. Tholib"
     },
     {
-     "m": 42,
+     "m": 43,
      "x": null,
      "s": "a",
      "t": "Goal",
@@ -907,12 +720,75 @@
      "p": "R. Sheva"
     },
     {
-     "m": 43,
+     "m": 44,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Aji"
+    }
+   ]
+  },
+  {
+   "id": 1639116,
+   "league": "Philippines - PFL",
+   "home": "Maharlika",
+   "away": "Kaya",
+   "hl": "https://media.api-sports.io/football/teams/16191.png",
+   "al": "https://media.api-sports.io/football/teams/8030.png",
+   "gh": 0,
+   "ga": 6,
+   "status": "2H",
+   "minute": 82,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": [
+    {
+     "m": 37,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Ortega"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Rosquillo"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -925,8 +801,8 @@
    "al": "https://media.api-sports.io/football/teams/5013.png",
    "gh": 1,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 47,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -948,8 +824,8 @@
    "al": "https://media.api-sports.io/football/teams/26882.png",
    "gh": 2,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 50,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -991,6 +867,122 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "K. Solomon"
+    },
+    {
+     "m": 50,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1640891,
+   "league": "South-Africa - Diski Challenge",
+   "home": "Kaizer Chiefs U23",
+   "away": "TS Galaxy U23",
+   "hl": "https://media.api-sports.io/football/teams/15992.png",
+   "al": "https://media.api-sports.io/football/teams/15999.png",
+   "gh": 4,
+   "ga": 2,
+   "status": "2H",
+   "minute": 82,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1641944,
+   "league": "Laos - Lao League",
+   "home": "Luangprabang FC",
+   "away": "Viengchanh",
+   "hl": "https://media.api-sports.io/football/teams/21015.png",
+   "al": "https://media.api-sports.io/football/teams/14096.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "2H",
+   "minute": 83,
+   "time": "2026-11-28T08:00:00+00:00",
+   "ev": [
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1593710,
+   "league": "Australia - A-League",
+   "home": "Central Coast Mariners",
+   "away": "Auckland",
+   "hl": "https://media.api-sports.io/football/teams/941.png",
+   "al": "https://media.api-sports.io/football/teams/24608.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T08:40:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hiroki Sakai"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Daniel Normann"
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bailey Brandtman"
+    },
+    {
+     "m": 34,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Lachlan Brook"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Shumba Mutokoyi"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Oliver Lavale"
     }
    ]
   },
