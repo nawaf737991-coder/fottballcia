@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-28T06:30:25+03:00",
- "ts": 1795836625,
+ "updated": "2026-11-28T06:40:29+03:00",
+ "ts": 1795837229,
  "matches": [
+  {
+   "id": 1651121,
+   "league": "USA - Major League Soccer",
+   "home": "Real Salt Lake",
+   "away": "Vancouver Whitecaps",
+   "hl": "https://media.api-sports.io/football/teams/1606.png",
+   "al": "https://media.api-sports.io/football/teams/1603.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 11,
+   "time": "2026-11-28T03:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1598823,
    "league": "Costa-Rica - Primera División",
@@ -12,7 +26,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": [
     {
@@ -59,7 +73,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -98,7 +112,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -112,7 +126,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-27T19:00:00+00:00",
    "ev": [
     {
@@ -126,18 +140,18 @@
     {
      "m": 21,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Adriel Guillermo"
-    },
-    {
-     "m": 21,
-     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Javier Guerra"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Adriel Guillermo"
     },
     {
      "m": 38,
@@ -146,77 +160,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Vladimir Antonio Gálvez Lazcano"
-    }
-   ]
-  },
-  {
-   "id": 1651111,
-   "league": "Panama - Liga Panameña de Fútbol",
-   "home": "San Francisco FC",
-   "away": "CD Arabe Unido",
-   "hl": "https://media.api-sports.io/football/teams/2887.png",
-   "al": "https://media.api-sports.io/football/teams/2882.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T01:30:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Ceballos"
     },
     {
-     "m": 48,
+     "m": 76,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "V. Medina"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Villalobos"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "J. Filos"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Polo"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Dinolis"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Rodriguez"
+     "p": "Alejandro Bejarano"
     }
    ]
   },
@@ -230,7 +181,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-28T01:40:00+00:00",
    "ev": [
     {
@@ -298,23 +249,15 @@
      "p": "Dany Rosero"
     },
     {
-     "m": 83,
+     "m": 82,
      "x": null,
-     "s": "h",
+     "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Leonardo Castro"
+     "p": "Rafael Carrascal"
     },
     {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Darwin Quintero"
-    },
-    {
-     "m": 83,
+     "m": 82,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -322,12 +265,107 @@
      "p": "Marlon Torres"
     },
     {
-     "m": 83,
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Leonardo Castro"
+    },
+    {
+     "m": 82,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Darwin Quintero"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Sebastián Valencia"
+    },
+    {
+     "m": 90,
+     "x": 3,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jorge Arias"
+    }
+   ]
+  },
+  {
+   "id": 1651111,
+   "league": "Panama - Liga Panameña de Fútbol",
+   "home": "San Francisco FC",
+   "away": "CD Arabe Unido",
+   "hl": "https://media.api-sports.io/football/teams/2887.png",
+   "al": "https://media.api-sports.io/football/teams/2882.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "ET",
+   "minute": 94,
+   "time": "2026-11-28T01:30:00+00:00",
+   "ev": [
+    {
+     "m": 29,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Rafael Carrascal"
+     "p": "M. Ceballos"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "V. Medina"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Villalobos"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Filos"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Polo"
+    },
+    {
+     "m": 85,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "R. Dinolis"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "R. Rodriguez"
     }
    ]
   }
