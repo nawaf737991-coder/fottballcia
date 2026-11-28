@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T09:30:24+03:00",
- "ts": 1795847424,
+ "updated": "2026-11-28T09:40:31+03:00",
+ "ts": 1795848031,
  "matches": [
   {
    "id": 1556161,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 37,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -64,9 +64,9 @@
    "hl": "https://media.api-sports.io/football/teams/7076.png",
    "al": "https://media.api-sports.io/football/teams/2757.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 73,
+   "minute": 84,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -84,6 +84,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kim Ji-hyuk"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Jeon"
     }
    ]
   },
@@ -95,9 +103,9 @@
    "hl": "https://media.api-sports.io/football/teams/9171.png",
    "al": "https://media.api-sports.io/football/teams/7098.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "status": "2H",
-   "minute": 70,
+   "minute": 81,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -115,6 +123,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Sim Min-Yong"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Kang Sin-Myeong"
     }
    ]
   },
@@ -125,10 +141,10 @@
    "away": "Nara Club",
    "hl": "https://media.api-sports.io/football/teams/7129.png",
    "al": "https://media.api-sports.io/football/teams/7135.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -138,6 +154,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "T. Ishii"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -151,7 +175,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -219,12 +243,29 @@
    "away": "Urawa",
    "hl": "https://media.api-sports.io/football/teams/283.png",
    "al": "https://media.api-sports.io/football/teams/287.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Capixaba"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Capixaba"
+    }
+   ]
   },
   {
    "id": 1606786,
@@ -236,7 +277,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 65,
+   "minute": 75,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -291,7 +332,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -341,6 +382,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Gustav Ludwigson"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Anderson Oliveira"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Yazan Al-Arab"
     }
    ]
   },
@@ -354,7 +411,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 72,
+   "minute": 82,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
