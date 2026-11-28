@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T11:50:18+03:00",
- "ts": 1795855818,
+ "updated": "2026-11-28T12:00:26+03:00",
+ "ts": 1795856426,
  "matches": [
   {
    "id": 1593710,
@@ -9,11 +9,78 @@
    "away": "Auckland",
    "hl": "https://media.api-sports.io/football/teams/941.png",
    "al": "https://media.api-sports.io/football/teams/24608.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "1H",
+   "minute": 20,
+   "time": "2026-11-28T08:40:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Hiroki Sakai"
+    },
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Daniel Normann"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Bailey Brandtman"
+    }
+   ]
+  },
+  {
+   "id": 1601159,
+   "league": "Malaysia - Super League",
+   "home": "Negeri Sembilan",
+   "away": "Terengganu",
+   "hl": "https://media.api-sports.io/football/teams/2502.png",
+   "al": "https://media.api-sports.io/football/teams/2518.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
-   "time": "2026-11-28T08:40:00+00:00",
+   "minute": 9,
+   "time": "2026-11-28T08:45:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602563,
+   "league": "Romania - Liga II",
+   "home": "CS Afumati",
+   "away": "CSM Reşiţa",
+   "hl": "https://media.api-sports.io/football/teams/2608.png",
+   "al": "https://media.api-sports.io/football/teams/6229.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1602566,
+   "league": "Romania - Liga II",
+   "home": "CS Dinamo București",
+   "away": "Dumbrăviţa",
+   "hl": "https://media.api-sports.io/football/teams/19170.png",
+   "al": "https://media.api-sports.io/football/teams/7469.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T09:00:00+00:00",
    "ev": []
   },
   {
@@ -23,10 +90,10 @@
    "away": "PSS Sleman",
    "hl": "https://media.api-sports.io/football/teams/24993.png",
    "al": "https://media.api-sports.io/football/teams/3882.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -35,10 +102,26 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "K. Gomes"
     },
     {
      "m": 16,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gustavo Tocantins"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Silva"
+    },
+    {
+     "m": 30,
      "x": null,
      "s": "a",
      "t": "Card",
@@ -54,12 +137,21 @@
    "away": "Bhayangkara FC",
    "hl": "https://media.api-sports.io/football/teams/2448.png",
    "al": "https://media.api-sports.io/football/teams/2443.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Dugandzic"
+    }
+   ]
   },
   {
    "id": 1622847,
@@ -71,7 +163,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -85,7 +177,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -103,6 +195,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "T. Marukawa"
+    },
+    {
+     "m": 20,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "K. Tanaka"
+    },
+    {
+     "m": 30,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -116,7 +224,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -125,7 +233,7 @@
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "R. Nanitelamio"
     }
    ]
   },
@@ -139,9 +247,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Reksa"
+    }
+   ]
   },
   {
    "id": 1637725,
@@ -150,10 +267,10 @@
    "away": "RANS Nusantara",
    "hl": "https://media.api-sports.io/football/teams/2450.png",
    "al": "https://media.api-sports.io/football/teams/4229.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -163,6 +280,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Juninho"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "H. Tholib"
     }
    ]
   },
@@ -176,7 +301,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": []
   },
@@ -190,7 +315,7 @@
    "gh": 1,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -208,6 +333,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Hasan Jummon"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "I. Riduan"
     }
    ]
   },
@@ -221,7 +354,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -235,148 +368,6 @@
    ]
   },
   {
-   "id": 1556162,
-   "league": "Japan - J1 League",
-   "home": "Kashiwa Reysol",
-   "away": "Sanfrecce Hiroshima",
-   "hl": "https://media.api-sports.io/football/teams/281.png",
-   "al": "https://media.api-sports.io/football/teams/282.png",
-   "gh": 3,
-   "ga": 1,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-28T07:00:00+00:00",
-   "ev": [
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Sébastien Haller"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Tojiro Kubo"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Shota Fujio"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Yusei Yamanouchi"
-    },
-    {
-     "m": 72,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sachiro Toshima"
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nobuteru Nakagawa"
-    }
-   ]
-  },
-  {
-   "id": 1607346,
-   "league": "Hong-Kong - Premier League",
-   "home": "North District",
-   "away": "Southern District",
-   "hl": "https://media.api-sports.io/football/teams/6401.png",
-   "al": "https://media.api-sports.io/football/teams/4456.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T07:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "S. Golubovic"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Samuel Granada"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Arboleda"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Wong Tsz-Ho"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Poon Pui-Hin"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "C. Paez"
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "K. Lai"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1647400,
    "league": "South-Korea - K League 1",
    "home": "Bucheon FC 1995",
@@ -384,9 +375,9 @@
    "hl": "https://media.api-sports.io/football/teams/2745.png",
    "al": "https://media.api-sports.io/football/teams/2768.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -420,6 +411,22 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Kazuki Takahashi"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jung Jae-min"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Roh Kyung-Ho"
     }
    ]
   },
@@ -431,9 +438,9 @@
    "hl": "https://media.api-sports.io/football/teams/2764.png",
    "al": "https://media.api-sports.io/football/teams/2759.png",
    "gh": 2,
-   "ga": 2,
+   "ga": 3,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -467,6 +474,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kento Nishiya"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Adriel D'Avila Ba Loua"
     }
    ]
   },
