@@ -1,37 +1,20 @@
 {
- "updated": "2026-11-28T07:50:15+03:00",
- "ts": 1795841415,
+ "updated": "2026-11-28T08:00:19+03:00",
+ "ts": 1795842019,
  "matches": [
   {
-   "id": 1651253,
-   "league": "Australia - Australian Championship",
-   "home": "Preston Lions",
-   "away": "Wests APIA",
-   "hl": "https://media.api-sports.io/football/teams/19705.png",
-   "al": "https://media.api-sports.io/football/teams/26874.png",
+   "id": 1510514,
+   "league": "South-Korea - K League 2",
+   "home": "Yongin City",
+   "away": "Paju Citizen",
+   "hl": "https://media.api-sports.io/football/teams/9171.png",
+   "al": "https://media.api-sports.io/football/teams/7098.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 43,
-   "time": "2026-11-28T04:00:00+00:00",
-   "ev": [
-    {
-     "m": 35,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-28T05:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1651121,
@@ -43,7 +26,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-28T03:00:00+00:00",
    "ev": [
     {
@@ -61,6 +44,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Emmanuel Sabbi"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Andrés Cubas"
+    }
+   ]
+  },
+  {
+   "id": 1651253,
+   "league": "Australia - Australian Championship",
+   "home": "Preston Lions",
+   "away": "Wests APIA",
+   "hl": "https://media.api-sports.io/football/teams/19705.png",
+   "al": "https://media.api-sports.io/football/teams/26874.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T04:00:00+00:00",
+   "ev": [
+    {
+     "m": 35,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 40,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   }
