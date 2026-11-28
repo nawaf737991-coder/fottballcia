@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T04:20:17+03:00",
- "ts": 1795828817,
+ "updated": "2026-11-28T04:30:19+03:00",
+ "ts": 1795829419,
  "matches": [
   {
    "id": 1631825,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 12,
+   "minute": 22,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -54,7 +54,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -88,6 +88,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "A. Bonansea"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Salvareschi"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Kubiszyn"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Rasmussen"
     }
    ]
   },
@@ -101,7 +125,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 56,
+   "minute": 66,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -148,7 +172,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
     {
@@ -222,77 +246,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Brandon·Caicedo"
-    }
-   ]
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Da Silva"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Bosca"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nicolas Garayalde"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Felipe Alvarez"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Martinez"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rubén Bentancourt"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Vázquez"
     }
    ]
   }
