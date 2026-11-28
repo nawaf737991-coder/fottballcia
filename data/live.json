@@ -1,7 +1,53 @@
 {
- "updated": "2026-11-28T10:50:18+03:00",
- "ts": 1795852218,
+ "updated": "2026-11-28T11:00:19+03:00",
+ "ts": 1795852819,
  "matches": [
+  {
+   "id": 1647400,
+   "league": "South-Korea - K League 1",
+   "home": "Bucheon FC 1995",
+   "away": "Gimcheon Sangmu FC",
+   "hl": "https://media.api-sports.io/football/teams/2745.png",
+   "al": "https://media.api-sports.io/football/teams/2768.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 29,
+   "time": "2026-11-28T07:30:00+00:00",
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kazuki Takahashi"
+    }
+   ]
+  },
+  {
+   "id": 1647401,
+   "league": "South-Korea - K League 1",
+   "home": "Pohang Steelers",
+   "away": "Gwangju FC",
+   "hl": "https://media.api-sports.io/football/teams/2764.png",
+   "al": "https://media.api-sports.io/football/teams/2759.png",
+   "gh": 0,
+   "ga": 2,
+   "status": "1H",
+   "minute": 30,
+   "time": "2026-11-28T07:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Kim Seung-Ho"
+    }
+   ]
+  },
   {
    "id": 1556162,
    "league": "Japan - J1 League",
@@ -11,7 +57,7 @@
    "al": "https://media.api-sports.io/football/teams/282.png",
    "gh": 2,
    "ga": 1,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
@@ -38,153 +84,6 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Shota Fujio"
-    }
-   ]
-  },
-  {
-   "id": 1647400,
-   "league": "South-Korea - K League 1",
-   "home": "Bucheon FC 1995",
-   "away": "Gimcheon Sangmu FC",
-   "hl": "https://media.api-sports.io/football/teams/2745.png",
-   "al": "https://media.api-sports.io/football/teams/2768.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 19,
-   "time": "2026-11-28T07:30:00+00:00",
-   "ev": [
-    {
-     "m": 10,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kazuki Takahashi"
-    }
-   ]
-  },
-  {
-   "id": 1647401,
-   "league": "South-Korea - K League 1",
-   "home": "Pohang Steelers",
-   "away": "Gwangju FC",
-   "hl": "https://media.api-sports.io/football/teams/2764.png",
-   "al": "https://media.api-sports.io/football/teams/2759.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "1H",
-   "minute": 20,
-   "time": "2026-11-28T07:30:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1556161,
-   "league": "Japan - J1 League",
-   "home": "Kashima",
-   "away": "Fagiano Okayama",
-   "hl": "https://media.api-sports.io/football/teams/290.png",
-   "al": "https://media.api-sports.io/football/teams/310.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 89,
-   "time": "2026-11-28T06:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ibuki Fujita"
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Oberdan Alionço de Lima"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Na Sang-Ho"
-    },
-    {
-     "m": 65,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Naomichi Ueda"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Keisuke Tsukui"
-    }
-   ]
-  },
-  {
-   "id": 1556169,
-   "league": "Japan - J1 League",
-   "home": "Vissel Kobe",
-   "away": "JEF United Chiba",
-   "hl": "https://media.api-sports.io/football/teams/289.png",
-   "al": "https://media.api-sports.io/football/teams/301.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T06:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luiz Eduardo Fleuri Pacheco"
-    },
-    {
-     "m": 21,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Nanasei Iino"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Makoto Himeno"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kazuki Tanaka"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Ren Komatsu"
     }
    ]
   },
