@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T10:30:27+03:00",
- "ts": 1795851027,
+ "updated": "2026-11-28T10:40:11+03:00",
+ "ts": 1795851611,
  "matches": [
   {
    "id": 1556162,
@@ -9,10 +9,10 @@
    "away": "Sanfrecce Hiroshima",
    "hl": "https://media.api-sports.io/football/teams/281.png",
    "al": "https://media.api-sports.io/football/teams/282.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 27,
+   "minute": 37,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -30,6 +30,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Tojiro Kubo"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Shota Fujio"
     }
    ]
   },
@@ -43,7 +51,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -73,6 +81,34 @@
    ]
   },
   {
+   "id": 1647400,
+   "league": "South-Korea - K League 1",
+   "home": "Bucheon FC 1995",
+   "away": "Gimcheon Sangmu FC",
+   "hl": "https://media.api-sports.io/football/teams/2745.png",
+   "al": "https://media.api-sports.io/football/teams/2768.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 9,
+   "time": "2026-11-28T07:30:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1647401,
+   "league": "South-Korea - K League 1",
+   "home": "Pohang Steelers",
+   "away": "Gwangju FC",
+   "hl": "https://media.api-sports.io/football/teams/2764.png",
+   "al": "https://media.api-sports.io/football/teams/2759.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-28T07:30:00+00:00",
+   "ev": []
+  },
+  {
    "id": 1556161,
    "league": "Japan - J1 League",
    "home": "Kashima",
@@ -82,7 +118,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -126,10 +162,10 @@
    "away": "JEF United Chiba",
    "hl": "https://media.api-sports.io/football/teams/289.png",
    "al": "https://media.api-sports.io/football/teams/301.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -163,6 +199,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kazuki Tanaka"
+    },
+    {
+     "m": 74,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Ren Komatsu"
     }
    ]
   }
