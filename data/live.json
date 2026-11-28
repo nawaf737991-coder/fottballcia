@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T03:30:17+03:00",
- "ts": 1795825817,
+ "updated": "2026-11-28T03:40:22+03:00",
+ "ts": 1795826422,
  "matches": [
   {
    "id": 1650245,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 24,
+   "minute": 34,
    "time": "2026-11-28T00:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Thaller"
+    }
+   ]
   },
   {
    "id": 1650246,
@@ -26,9 +35,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 26,
+   "minute": 36,
    "time": "2026-11-28T00:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Sivetti"
+    }
+   ]
   },
   {
    "id": 1492475,
@@ -40,7 +58,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 71,
+   "minute": 81,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -82,6 +100,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rodrigo Castillo"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Jonathan Jesus"
+    },
+    {
+     "m": 76,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Otávio Costa"
     }
    ]
   },
@@ -95,7 +129,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -171,10 +205,10 @@
    "away": "Real Oruro",
    "hl": "https://media.api-sports.io/football/teams/15702.png",
    "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 3,
+   "gh": 4,
    "ga": 1,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -232,6 +266,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jefferson Carioca"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Santos García Cuéllar"
+    },
+    {
+     "m": 81,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Alan Mercado"
     }
    ]
   },
@@ -242,10 +292,10 @@
    "away": "Atletico Goianiense",
    "hl": "https://media.api-sports.io/football/teams/142.png",
    "al": "https://media.api-sports.io/football/teams/144.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 69,
+   "minute": 79,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -287,6 +337,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Guilherme Augusto Alves Dellatorre"
+    },
+    {
+     "m": 77,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "João Pedro Vieira"
     }
    ]
   },
@@ -297,10 +355,10 @@
    "away": "Deportes Copiapo",
    "hl": "https://media.api-sports.io/football/teams/2327.png",
    "al": "https://media.api-sports.io/football/teams/2343.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 70,
+   "minute": 80,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -322,18 +380,89 @@
     {
      "m": 68,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 68,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Monreal"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Kimura"
+    },
+    {
+     "m": 71,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Temperini"
+    },
+    {
+     "m": 72,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. D. Bandez"
+    },
+    {
+     "m": 73,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "J. Monreal"
+    },
+    {
+     "m": 78,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    }
+   ]
+  },
+  {
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-27T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Da Silva"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Bosca"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nicolas Garayalde"
     }
    ]
   },
@@ -405,45 +534,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Nicolás Benedetti"
-    }
-   ]
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Da Silva"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Bosca"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nicolas Garayalde"
     }
    ]
   }
