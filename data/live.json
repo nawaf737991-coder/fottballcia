@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T03:20:14+03:00",
- "ts": 1795825214,
+ "updated": "2026-11-28T03:30:17+03:00",
+ "ts": 1795825817,
  "matches": [
   {
    "id": 1650245,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": []
   },
@@ -26,9 +26,316 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1492475,
+   "league": "Brazil - Serie A",
+   "home": "Fluminense",
+   "away": "Cruzeiro",
+   "hl": "https://media.api-sports.io/football/teams/124.png",
+   "al": "https://media.api-sports.io/football/teams/135.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 71,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 3,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kaio Jorge"
+    },
+    {
+     "m": 26,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kauã Moraes"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luciano Acosta"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Jesus"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rodrigo Castillo"
+    }
+   ]
+  },
+  {
+   "id": 1632072,
+   "league": "Paraguay - Division Profesional - Clausura",
+   "home": "Sportivo Luqueno",
+   "away": "Olimpia",
+   "hl": "https://media.api-sports.io/football/teams/1183.png",
+   "al": "https://media.api-sports.io/football/teams/1182.png",
+   "gh": 1,
+   "ga": 2,
+   "status": "2H",
+   "minute": 74,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Ariel Diaz Gimenez"
+    },
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Tim Payne"
+    },
+    {
+     "m": 44,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Víctor Sebastián Quintana Herrera"
+    },
+    {
+     "m": 45,
+     "x": 1,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Mateo Gamarra"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Giovanni Bogado"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Gustavo David Vargas Areco"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "Sebastián Ferreira"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "Fernando Benitez Aguirre"
+    }
+   ]
+  },
+  {
+   "id": 1645551,
+   "league": "Bolivia - Primera División",
+   "home": "Independiente Petrolero",
+   "away": "Real Oruro",
+   "hl": "https://media.api-sports.io/football/teams/15702.png",
+   "al": "https://media.api-sports.io/football/teams/20252.png",
+   "gh": 3,
+   "ga": 1,
+   "status": "2H",
+   "minute": 73,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 12,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gean Carlos Morais Almeida"
+    },
+    {
+     "m": 14,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Ademar Rivera Sifuentes"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Rudy Cardozo"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lucas Sánchez"
+    },
+    {
+     "m": 46,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Willie"
+    },
+    {
+     "m": 67,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": "D. Castellón"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Jefferson Carioca"
+    }
+   ]
+  },
+  {
+   "id": 1650250,
+   "league": "Brazil - Serie B",
+   "home": "Vila Nova",
+   "away": "Atletico Goianiense",
+   "hl": "https://media.api-sports.io/football/teams/142.png",
+   "al": "https://media.api-sports.io/football/teams/144.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 69,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 8,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Willian Prado Camargo"
+    },
+    {
+     "m": 11,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gustavo Coutinho Silva Lopes"
+    },
+    {
+     "m": 38,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Guilherme Lopes"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Junior Barreto"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Guilherme Augusto Alves Dellatorre"
+    }
+   ]
+  },
+  {
+   "id": 1650553,
+   "league": "Chile - Primera B",
+   "home": "Antofagasta",
+   "away": "Deportes Copiapo",
+   "hl": "https://media.api-sports.io/football/teams/2327.png",
+   "al": "https://media.api-sports.io/football/teams/2343.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "2H",
+   "minute": 70,
+   "time": "2026-11-27T23:00:00+00:00",
+   "ev": [
+    {
+     "m": 6,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Gallegos Panozzo"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "S. Sanchez"
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
+    },
+    {
+     "m": 68,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Monreal"
+    }
+   ]
   },
   {
    "id": 1651151,
@@ -39,7 +346,7 @@
    "al": "https://media.api-sports.io/football/teams/1131.png",
    "gh": 1,
    "ga": 0,
-   "status": "1H",
+   "status": "HT",
    "minute": 45,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
@@ -98,257 +405,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Nicolás Benedetti"
-    }
-   ]
-  },
-  {
-   "id": 1492475,
-   "league": "Brazil - Serie A",
-   "home": "Fluminense",
-   "away": "Cruzeiro",
-   "hl": "https://media.api-sports.io/football/teams/124.png",
-   "al": "https://media.api-sports.io/football/teams/135.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 61,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 3,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Kaio Jorge"
-    },
-    {
-     "m": 26,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Kauã Moraes"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Luciano Acosta"
-    },
-    {
-     "m": 58,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jonathan Jesus"
-    }
-   ]
-  },
-  {
-   "id": 1632072,
-   "league": "Paraguay - Division Profesional - Clausura",
-   "home": "Sportivo Luqueno",
-   "away": "Olimpia",
-   "hl": "https://media.api-sports.io/football/teams/1183.png",
-   "al": "https://media.api-sports.io/football/teams/1182.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 64,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jonathan Ariel Diaz Gimenez"
-    },
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Tim Payne"
-    },
-    {
-     "m": 44,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Víctor Sebastián Quintana Herrera"
-    },
-    {
-     "m": 45,
-     "x": 1,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Mateo Gamarra"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Giovanni Bogado"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Var",
-     "d": "Penalty confirmed",
-     "p": "Gustavo David Vargas Areco"
-    }
-   ]
-  },
-  {
-   "id": 1645551,
-   "league": "Bolivia - Primera División",
-   "home": "Independiente Petrolero",
-   "away": "Real Oruro",
-   "hl": "https://media.api-sports.io/football/teams/15702.png",
-   "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "2H",
-   "minute": 63,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gean Carlos Morais Almeida"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ademar Rivera Sifuentes"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Rudy Cardozo"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Lucas Sánchez"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Willie"
-    }
-   ]
-  },
-  {
-   "id": 1650250,
-   "league": "Brazil - Serie B",
-   "home": "Vila Nova",
-   "away": "Atletico Goianiense",
-   "hl": "https://media.api-sports.io/football/teams/142.png",
-   "al": "https://media.api-sports.io/football/teams/144.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 59,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 8,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Willian Prado Camargo"
-    },
-    {
-     "m": 11,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Gustavo Coutinho Silva Lopes"
-    },
-    {
-     "m": 38,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Guilherme Lopes"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Junior Barreto"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Guilherme Augusto Alves Dellatorre"
-    }
-   ]
-  },
-  {
-   "id": 1650553,
-   "league": "Chile - Primera B",
-   "home": "Antofagasta",
-   "away": "Deportes Copiapo",
-   "hl": "https://media.api-sports.io/football/teams/2327.png",
-   "al": "https://media.api-sports.io/football/teams/2343.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 60,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Gallegos Panozzo"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Sanchez"
     }
    ]
   },
