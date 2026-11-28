@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T03:10:29+03:00",
- "ts": 1795824629,
+ "updated": "2026-11-28T03:20:14+03:00",
+ "ts": 1795825214,
  "matches": [
   {
    "id": 1650245,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 14,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 35,
+   "minute": 45,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
     {
@@ -81,7 +81,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Johan Martinez"
+     "p": "Daniel Giraldo"
     },
     {
      "m": 34,
@@ -90,37 +90,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Felix Charrupi"
-    }
-   ]
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Da Silva"
     },
     {
-     "m": 32,
+     "m": 43,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Juan Bosca"
+     "p": "Nicolás Benedetti"
     }
    ]
   },
@@ -134,7 +111,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -152,6 +129,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kauã Moraes"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luciano Acosta"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jonathan Jesus"
     }
    ]
   },
@@ -162,10 +155,10 @@
    "away": "Olimpia",
    "hl": "https://media.api-sports.io/football/teams/1183.png",
    "al": "https://media.api-sports.io/football/teams/1182.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 54,
+   "minute": 64,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -199,6 +192,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Mateo Gamarra"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Giovanni Bogado"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Var",
+     "d": "Penalty confirmed",
+     "p": "Gustavo David Vargas Areco"
     }
    ]
   },
@@ -212,7 +221,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -264,10 +273,10 @@
    "away": "Atletico Goianiense",
    "hl": "https://media.api-sports.io/football/teams/142.png",
    "al": "https://media.api-sports.io/football/teams/144.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -293,6 +302,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Guilherme Lopes"
+    },
+    {
+     "m": 53,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Own Goal",
+     "p": "Junior Barreto"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Guilherme Augusto Alves Dellatorre"
     }
    ]
   },
@@ -306,7 +331,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 50,
+   "minute": 60,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -323,7 +348,46 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "S. Sanchez"
+    }
+   ]
+  },
+  {
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-27T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Da Silva"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Bosca"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nicolas Garayalde"
     }
    ]
   }
