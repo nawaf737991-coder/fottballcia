@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T04:10:12+03:00",
- "ts": 1795828212,
+ "updated": "2026-11-28T04:20:17+03:00",
+ "ts": 1795828817,
  "matches": [
   {
    "id": 1631825,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -26,9 +26,70 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1649500,
+   "league": "USA - Major League Soccer",
+   "home": "Columbus Crew",
+   "away": "Inter Miami",
+   "hl": "https://media.api-sports.io/football/teams/1613.png",
+   "al": "https://media.api-sports.io/football/teams/9568.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 4,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1650245,
+   "league": "Argentina - Primera Nacional",
+   "home": "Deportivo Moron",
+   "away": "Colon Santa Fe",
+   "hl": "https://media.api-sports.io/football/teams/469.png",
+   "al": "https://media.api-sports.io/football/teams/448.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "2H",
+   "minute": 56,
+   "time": "2026-11-28T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 33,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "N. Thaller"
+    },
+    {
+     "m": 45,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "E. Iniguez"
+    },
+    {
+     "m": 48,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Toledo"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Bonansea"
+    }
+   ]
   },
   {
    "id": 1650246,
@@ -38,9 +99,9 @@
    "hl": "https://media.api-sports.io/football/teams/1965.png",
    "al": "https://media.api-sports.io/football/teams/1928.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 46,
+   "minute": 56,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -66,6 +127,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "B. Aguilar"
+    },
+    {
+     "m": 49,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "N. Rinaldi"
     }
    ]
   },
@@ -79,7 +148,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 74,
+   "minute": 84,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
     {
@@ -163,10 +232,10 @@
    "away": "Liverpool Montevideo",
    "hl": "https://media.api-sports.io/football/teams/2359.png",
    "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
@@ -223,38 +292,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1650245,
-   "league": "Argentina - Primera Nacional",
-   "home": "Deportivo Moron",
-   "away": "Colon Santa Fe",
-   "hl": "https://media.api-sports.io/football/teams/469.png",
-   "al": "https://media.api-sports.io/football/teams/448.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "N. Thaller"
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "E. Iniguez"
+     "p": "Alex Vázquez"
     }
    ]
   }
