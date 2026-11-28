@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T11:10:22+03:00",
- "ts": 1795853422,
+ "updated": "2026-11-28T11:20:27+03:00",
+ "ts": 1795854027,
  "matches": [
   {
    "id": 1639116,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": []
   },
@@ -24,9 +24,9 @@
    "hl": "https://media.api-sports.io/football/teams/15992.png",
    "al": "https://media.api-sports.io/football/teams/15999.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-28T08:00:00+00:00",
    "ev": []
   },
@@ -54,7 +54,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 39,
+   "minute": 45,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -64,6 +64,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Kazuki Takahashi"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jefferson Fernando Isidio"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Byeon Jun-Soo"
     }
    ]
   },
@@ -74,10 +90,10 @@
    "away": "Gwangju FC",
    "hl": "https://media.api-sports.io/football/teams/2764.png",
    "al": "https://media.api-sports.io/football/teams/2759.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 2,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": [
     {
@@ -103,6 +119,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Kento Nishiya"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kento Nishiya"
     }
    ]
   },
@@ -113,10 +137,10 @@
    "away": "Sanfrecce Hiroshima",
    "hl": "https://media.api-sports.io/football/teams/281.png",
    "al": "https://media.api-sports.io/football/teams/282.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 49,
+   "minute": 59,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -142,6 +166,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Shota Fujio"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Yusei Yamanouchi"
     }
    ]
   },
@@ -155,7 +187,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -181,6 +213,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Y. Arboleda"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Wong Tsz-Ho"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   }
