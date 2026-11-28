@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-28T04:00:30+03:00",
- "ts": 1795827630,
+ "updated": "2026-11-28T04:10:12+03:00",
+ "ts": 1795828212,
  "matches": [
+  {
+   "id": 1631825,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros del Pacifico",
+   "away": "Artesanos Metepec",
+   "hl": "https://media.api-sports.io/football/teams/28304.png",
+   "al": "https://media.api-sports.io/football/teams/22049.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 2,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
+  },
   {
    "id": 1639061,
    "league": "New-Zealand - National League - National",
@@ -12,9 +26,48 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 10,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1650246,
+   "league": "Argentina - Primera Nacional",
+   "home": "Tristan Suarez",
+   "away": "Gimnasia Y Tiro",
+   "hl": "https://media.api-sports.io/football/teams/1965.png",
+   "al": "https://media.api-sports.io/football/teams/1928.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 46,
+   "time": "2026-11-28T00:00:00+00:00",
+   "ev": [
+    {
+     "m": 29,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "F. Sivetti"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Guanini"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "B. Aguilar"
+    }
+   ]
   },
   {
    "id": 1651151,
@@ -26,7 +79,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 64,
+   "minute": 74,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
     {
@@ -113,7 +166,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 72,
+   "minute": 81,
    "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
@@ -163,6 +216,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Rubén Bentancourt"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -194,45 +255,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "E. Iniguez"
-    }
-   ]
-  },
-  {
-   "id": 1650246,
-   "league": "Argentina - Primera Nacional",
-   "home": "Tristan Suarez",
-   "away": "Gimnasia Y Tiro",
-   "hl": "https://media.api-sports.io/football/teams/1965.png",
-   "al": "https://media.api-sports.io/football/teams/1928.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Sivetti"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Guanini"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
     }
    ]
   }
