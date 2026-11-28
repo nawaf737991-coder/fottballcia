@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T03:40:22+03:00",
- "ts": 1795826422,
+ "updated": "2026-11-28T03:50:25+03:00",
+ "ts": 1795827025,
  "matches": [
   {
    "id": 1650245,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 34,
+   "minute": 44,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 36,
+   "minute": 45,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -45,6 +45,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Sivetti"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Guanini"
+    },
+    {
+     "m": 43,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -58,7 +74,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -116,6 +132,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Otávio Costa"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Riquelme Felipe·Silva de Almeida"
+    },
+    {
+     "m": 90,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Samuel Xavier Brito"
     }
    ]
   },
@@ -129,7 +161,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 84,
+   "minute": 90,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -195,93 +227,14 @@
      "t": "Card",
      "d": "Red Card",
      "p": "Fernando Benitez Aguirre"
-    }
-   ]
-  },
-  {
-   "id": 1645551,
-   "league": "Bolivia - Primera División",
-   "home": "Independiente Petrolero",
-   "away": "Real Oruro",
-   "hl": "https://media.api-sports.io/football/teams/15702.png",
-   "al": "https://media.api-sports.io/football/teams/20252.png",
-   "gh": 4,
-   "ga": 1,
-   "status": "2H",
-   "minute": 83,
-   "time": "2026-11-27T23:00:00+00:00",
-   "ev": [
-    {
-     "m": 12,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Gean Carlos Morais Almeida"
     },
     {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Ademar Rivera Sifuentes"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Own Goal",
-     "p": "Rudy Cardozo"
-    },
-    {
-     "m": 24,
+     "m": 88,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Lucas Sánchez"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Willie"
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "D. Castellón"
-    },
-    {
-     "m": 69,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Jefferson Carioca"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Santos García Cuéllar"
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Alan Mercado"
+     "p": "Lucas Ramón Barrios Cáceres"
     }
    ]
   },
@@ -295,7 +248,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -358,7 +311,7 @@
    "gh": 2,
    "ga": 0,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-27T23:00:00+00:00",
    "ev": [
     {
@@ -423,46 +376,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 52,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Da Silva"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Bosca"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nicolas Garayalde"
+     "p": "A. Ortiz"
     }
    ]
   },
@@ -474,9 +388,9 @@
    "hl": "https://media.api-sports.io/football/teams/1127.png",
    "al": "https://media.api-sports.io/football/teams/1131.png",
    "gh": 1,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "ga": 1,
+   "status": "2H",
+   "minute": 54,
    "time": "2026-11-27T23:35:00+00:00",
    "ev": [
     {
@@ -534,6 +448,69 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Nicolás Benedetti"
+    },
+    {
+     "m": 51,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Luciano Pons"
+    }
+   ]
+  },
+  {
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 1,
+   "ga": 1,
+   "status": "2H",
+   "minute": 62,
+   "time": "2026-11-27T23:30:00+00:00",
+   "ev": [
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "E. Da Silva"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Bosca"
+    },
+    {
+     "m": 42,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Nicolas Garayalde"
+    },
+    {
+     "m": 56,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Felipe Alvarez"
+    },
+    {
+     "m": 57,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Federico Martinez"
     }
    ]
   }
