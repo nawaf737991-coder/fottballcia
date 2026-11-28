@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T07:20:29+03:00",
- "ts": 1795839629,
+ "updated": "2026-11-28T07:30:28+03:00",
+ "ts": 1795840228,
  "matches": [
   {
    "id": 1651253,
@@ -12,9 +12,32 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-28T04:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1651121,
+   "league": "USA - Major League Soccer",
+   "home": "Real Salt Lake",
+   "away": "Vancouver Whitecaps",
+   "hl": "https://media.api-sports.io/football/teams/1606.png",
+   "al": "https://media.api-sports.io/football/teams/1603.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T03:00:00+00:00",
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Philip Quinton"
+    }
+   ]
   },
   {
    "id": 1651111,
@@ -25,7 +48,7 @@
    "al": "https://media.api-sports.io/football/teams/2882.png",
    "gh": 1,
    "ga": 0,
-   "status": "BT",
+   "status": "P",
    "minute": null,
    "time": "2026-11-28T01:30:00+00:00",
    "ev": [
@@ -92,29 +115,70 @@
      "t": "Card",
      "d": "Red Card",
      "p": "M. Breary"
-    }
-   ]
-  },
-  {
-   "id": 1651121,
-   "league": "USA - Major League Soccer",
-   "home": "Real Salt Lake",
-   "away": "Vancouver Whitecaps",
-   "hl": "https://media.api-sports.io/football/teams/1606.png",
-   "al": "https://media.api-sports.io/football/teams/1603.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T03:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 16,
-     "x": null,
+     "m": 120,
+     "x": 1,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Villalobos"
+    },
+    {
+     "m": 120,
+     "x": 1,
      "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Philip Quinton"
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "C. Suarez"
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "J. Valencia"
+    },
+    {
+     "m": 120,
+     "x": 2,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "V. Pimentel"
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": "F. McClean"
+    },
+    {
+     "m": 120,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "R. Peralta"
+    },
+    {
+     "m": 120,
+     "x": 4,
+     "s": "a",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
+    },
+    {
+     "m": 120,
+     "x": 4,
+     "s": "h",
+     "t": "Goal",
+     "d": "Missed Penalty",
+     "p": null
     }
    ]
   }
