@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T10:40:11+03:00",
- "ts": 1795851611,
+ "updated": "2026-11-28T10:50:18+03:00",
+ "ts": 1795852218,
  "matches": [
   {
    "id": 1556162,
@@ -12,7 +12,7 @@
    "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 37,
+   "minute": 45,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -42,45 +42,6 @@
    ]
   },
   {
-   "id": 1607346,
-   "league": "Hong-Kong - Premier League",
-   "home": "North District",
-   "away": "Southern District",
-   "hl": "https://media.api-sports.io/football/teams/6401.png",
-   "al": "https://media.api-sports.io/football/teams/4456.png",
-   "gh": 2,
-   "ga": 1,
-   "status": "1H",
-   "minute": 40,
-   "time": "2026-11-28T07:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "S. Golubovic"
-    },
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Samuel Granada"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Y. Arboleda"
-    }
-   ]
-  },
-  {
    "id": 1647400,
    "league": "South-Korea - K League 1",
    "home": "Bucheon FC 1995",
@@ -90,9 +51,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 19,
    "time": "2026-11-28T07:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 10,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kazuki Takahashi"
+    }
+   ]
   },
   {
    "id": 1647401,
@@ -104,7 +74,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T07:30:00+00:00",
    "ev": []
   },
@@ -118,7 +88,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 79,
+   "minute": 89,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -152,6 +122,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Naomichi Ueda"
+    },
+    {
+     "m": 88,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Keisuke Tsukui"
     }
    ]
   },
@@ -165,7 +143,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -207,6 +185,45 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Ren Komatsu"
+    }
+   ]
+  },
+  {
+   "id": 1607346,
+   "league": "Hong-Kong - Premier League",
+   "home": "North District",
+   "away": "Southern District",
+   "hl": "https://media.api-sports.io/football/teams/6401.png",
+   "al": "https://media.api-sports.io/football/teams/4456.png",
+   "gh": 2,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T07:00:00+00:00",
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Penalty",
+     "p": "S. Golubovic"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Samuel Granada"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Arboleda"
     }
    ]
   }
