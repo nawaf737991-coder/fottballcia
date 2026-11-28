@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T04:30:19+03:00",
- "ts": 1795829419,
+ "updated": "2026-11-28T04:40:22+03:00",
+ "ts": 1795830022,
  "matches": [
   {
    "id": 1631825,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 22,
+   "minute": 32,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -40,8 +40,31 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 14,
+   "minute": 24,
    "time": "2026-11-28T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fricio Caicedo"
+    }
+   ]
+  },
+  {
+   "id": 1651111,
+   "league": "Panama - Liga Panameña de Fútbol",
+   "home": "San Francisco FC",
+   "away": "CD Arabe Unido",
+   "hl": "https://media.api-sports.io/football/teams/2887.png",
+   "al": "https://media.api-sports.io/football/teams/2882.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 10,
+   "time": "2026-11-28T01:30:00+00:00",
    "ev": []
   },
   {
@@ -54,7 +77,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 75,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -112,6 +135,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "F. Rasmussen"
+    },
+    {
+     "m": 75,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": null
     }
    ]
   },
@@ -122,10 +153,10 @@
    "away": "Gimnasia Y Tiro",
    "hl": "https://media.api-sports.io/football/teams/1965.png",
    "al": "https://media.api-sports.io/football/teams/1928.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 66,
+   "minute": 76,
    "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
@@ -159,93 +190,109 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "N. Rinaldi"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Gallo"
     }
    ]
   },
   {
-   "id": 1651151,
-   "league": "Colombia - Primera A",
-   "home": "Deportivo Cali",
-   "away": "Bucaramanga",
-   "hl": "https://media.api-sports.io/football/teams/1127.png",
-   "al": "https://media.api-sports.io/football/teams/1131.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-27T23:35:00+00:00",
+   "id": 1651250,
+   "league": "Uruguay - Primera División",
+   "home": "Racing Montevideo",
+   "away": "Liverpool Montevideo",
+   "hl": "https://media.api-sports.io/football/teams/2359.png",
+   "al": "https://media.api-sports.io/football/teams/2358.png",
+   "gh": 2,
+   "ga": 2,
+   "status": "ET",
+   "minute": 112,
+   "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
-     "m": 9,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Steven Rodríguez"
-    },
-    {
-     "m": 14,
+     "m": 22,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": "Leyser Chaverra Renteria"
+     "p": "E. Da Silva"
     },
     {
-     "m": 27,
+     "m": 32,
      "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Leyser Chaverra Renteria"
+     "p": "Juan Bosca"
     },
     {
-     "m": 29,
+     "m": 42,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Luciano Pons"
-    },
-    {
-     "m": 33,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Daniel Giraldo"
-    },
-    {
-     "m": 34,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Felix Charrupi"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nicolás Benedetti"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Luciano Pons"
+     "p": "Nicolas Garayalde"
     },
     {
      "m": 56,
      "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Felipe Alvarez"
+    },
+    {
+     "m": 57,
+     "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Brandon·Caicedo"
+     "p": "Federico Martinez"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Rubén Bentancourt"
+    },
+    {
+     "m": 79,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Alex Vázquez"
+    },
+    {
+     "m": 90,
+     "x": 1,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Thiago Fernandez"
+    },
+    {
+     "m": 90,
+     "x": 2,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Thiago Fernandez"
+    },
+    {
+     "m": 90,
+     "x": 7,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Santiago Laquidain"
     }
    ]
   }
