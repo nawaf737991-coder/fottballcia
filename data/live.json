@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T12:50:22+03:00",
- "ts": 1795859422,
+ "updated": "2026-11-28T13:00:27+03:00",
+ "ts": 1795860027,
  "matches": [
   {
    "id": 1562690,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 33,
+   "minute": 43,
    "time": "2026-11-28T09:15:00+00:00",
    "ev": [
     {
@@ -22,8 +22,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "L. Azaka"
+    },
+    {
+     "m": 39,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "J. Palivec"
     }
    ]
+  },
+  {
+   "id": 1569444,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Milan U20",
+   "away": "Lecce U20",
+   "hl": "https://media.api-sports.io/football/teams/24737.png",
+   "al": "https://media.api-sports.io/football/teams/24736.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1581992,
@@ -35,8 +57,36 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 9,
+   "minute": 20,
    "time": "2026-11-28T09:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1591410,
+   "league": "Turkey - 2. Lig",
+   "home": "Hatayspor",
+   "away": "Ankaraspor",
+   "hl": "https://media.api-sports.io/football/teams/3575.png",
+   "al": "https://media.api-sports.io/football/teams/780.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1591702,
+   "league": "Turkey - 2. Lig",
+   "home": "Karacabey Belediyespor",
+   "away": "Sakaryaspor",
+   "hl": "https://media.api-sports.io/football/teams/7407.png",
+   "al": "https://media.api-sports.io/football/teams/3602.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T10:00:00+00:00",
    "ev": []
   },
   {
@@ -47,9 +97,9 @@
    "hl": "https://media.api-sports.io/football/teams/24519.png",
    "al": "https://media.api-sports.io/football/teams/20589.png",
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-28T09:30:00+00:00",
    "ev": [
     {
@@ -59,21 +109,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
+    },
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
   {
-   "id": 1649631,
-   "league": "Uzbekistan - Pro League A",
-   "home": "Metalourg",
-   "away": "FarDu",
-   "hl": "https://media.api-sports.io/football/teams/4214.png",
-   "al": "https://media.api-sports.io/football/teams/25763.png",
+   "id": 1635022,
+   "league": "Vietnam - V.League 2",
+   "home": "Dong Thap",
+   "away": "Binh Duong",
+   "hl": "https://media.api-sports.io/football/teams/9164.png",
+   "al": "https://media.api-sports.io/football/teams/3668.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T09:00:00+00:00",
+   "minute": 2,
+   "time": "2026-11-28T10:00:00+00:00",
    "ev": []
   },
   {
@@ -86,7 +144,7 @@
    "gh": 2,
    "ga": 2,
    "status": "2H",
-   "minute": 51,
+   "minute": 61,
    "time": "2026-11-28T08:40:00+00:00",
    "ev": [
     {
@@ -146,10 +204,10 @@
    "away": "PSS Sleman",
    "hl": "https://media.api-sports.io/football/teams/24993.png",
    "al": "https://media.api-sports.io/football/teams/3882.png",
-   "gh": 3,
-   "ga": 1,
+   "gh": 4,
+   "ga": 2,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -223,6 +281,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "M. Bagayoko"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Manneh"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Matheus Fornazari"
     }
    ]
   },
@@ -233,10 +307,10 @@
    "away": "Bhayangkara FC",
    "hl": "https://media.api-sports.io/football/teams/2448.png",
    "al": "https://media.api-sports.io/football/teams/2443.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -277,7 +351,23 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Moises Gaucho"
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Queven"
+    },
+    {
+     "m": 62,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Allano"
     }
    ]
   },
@@ -288,10 +378,10 @@
    "away": "Persijap",
    "hl": "https://media.api-sports.io/football/teams/4235.png",
    "al": "https://media.api-sports.io/football/teams/11132.png",
-   "gh": 1,
-   "ga": 0,
+   "gh": 2,
+   "ga": 1,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -301,6 +391,22 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Y. Yamadera"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "V. Kalezic"
+    },
+    {
+     "m": 70,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Iqbal"
     }
    ]
   },
@@ -314,7 +420,7 @@
    "gh": 0,
    "ga": 3,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -382,6 +488,14 @@
      "p": "A. Raehan"
     },
     {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Messidoro"
+    },
+    {
      "m": 57,
      "x": null,
      "s": "a",
@@ -398,10 +512,10 @@
    "away": "Sagaing United",
    "hl": "https://media.api-sports.io/football/teams/8015.png",
    "al": "https://media.api-sports.io/football/teams/12528.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 0,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -419,6 +533,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Edson"
+    },
+    {
+     "m": 64,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Aung Ye Yint"
     }
    ]
   },
@@ -432,7 +554,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -460,10 +582,10 @@
    "away": "RANS Nusantara",
    "hl": "https://media.api-sports.io/football/teams/2450.png",
    "al": "https://media.api-sports.io/football/teams/4229.png",
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -505,93 +627,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "H. Siswanto"
-    }
-   ]
-  },
-  {
-   "id": 1639116,
-   "league": "Philippines - PFL",
-   "home": "Maharlika",
-   "away": "Kaya",
-   "hl": "https://media.api-sports.io/football/teams/16191.png",
-   "al": "https://media.api-sports.io/football/teams/8030.png",
-   "gh": 1,
-   "ga": 6,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 37,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Ortega"
     },
     {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Rosquillo"
-    },
-    {
-     "m": 46,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 67,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
-    },
-    {
-     "m": 88,
+     "m": 61,
      "x": null,
      "s": "h",
      "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
      "d": "Normal Goal",
-     "p": null
+     "p": "Juninho"
     }
    ]
   },
@@ -605,7 +648,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -631,6 +674,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. A. Raza"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "A. Sonam"
     }
    ]
   },
@@ -644,7 +695,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -694,51 +745,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "J. Uddin"
-    }
-   ]
-  },
-  {
-   "id": 1640891,
-   "league": "South-Africa - Diski Challenge",
-   "home": "Kaizer Chiefs U23",
-   "away": "TS Galaxy U23",
-   "hl": "https://media.api-sports.io/football/teams/15992.png",
-   "al": "https://media.api-sports.io/football/teams/15999.png",
-   "gh": 4,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1641944,
-   "league": "Laos - Lao League",
-   "home": "Luangprabang FC",
-   "away": "Viengchanh",
-   "hl": "https://media.api-sports.io/football/teams/21015.png",
-   "al": "https://media.api-sports.io/football/teams/14096.png",
-   "gh": 0,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T08:00:00+00:00",
-   "ev": [
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
     },
     {
-     "m": 61,
+     "m": 68,
      "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "M. Sayde"
     }
    ]
   },
@@ -750,9 +764,9 @@
    "hl": "https://media.api-sports.io/football/teams/3814.png",
    "al": "https://media.api-sports.io/football/teams/3776.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 2,
    "status": "2H",
-   "minute": 53,
+   "minute": 63,
    "time": "2026-11-28T08:30:00+00:00",
    "ev": [
     {
@@ -761,6 +775,22 @@
      "s": "h",
      "t": "Card",
      "d": "Red Card",
+     "p": null
+    },
+    {
+     "m": 54,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 60,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
      "p": null
     }
    ]
@@ -1160,6 +1190,29 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "P. H. Gomes Ananias"
+    }
+   ]
+  },
+  {
+   "id": 1649631,
+   "league": "Uzbekistan - Pro League A",
+   "home": "Metalourg",
+   "away": "FarDu",
+   "hl": "https://media.api-sports.io/football/teams/4214.png",
+   "al": "https://media.api-sports.io/football/teams/25763.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T09:00:00+00:00",
+   "ev": [
+    {
+     "m": 45,
+     "x": 5,
+     "s": "a",
+     "t": "Card",
+     "d": "Red Card",
+     "p": null
     }
    ]
   }
