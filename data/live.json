@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T09:20:19+03:00",
- "ts": 1795846819,
+ "updated": "2026-11-28T09:30:24+03:00",
+ "ts": 1795847424,
  "matches": [
   {
    "id": 1556161,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 16,
+   "minute": 26,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -32,12 +32,29 @@
    "away": "JEF United Chiba",
    "hl": "https://media.api-sports.io/football/teams/289.png",
    "al": "https://media.api-sports.io/football/teams/301.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-28T06:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 17,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Luiz Eduardo Fleuri Pacheco"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Nanasei Iino"
+    }
+   ]
   },
   {
    "id": 1510509,
@@ -47,9 +64,9 @@
    "hl": "https://media.api-sports.io/football/teams/7076.png",
    "al": "https://media.api-sports.io/football/teams/2757.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 63,
+   "minute": 73,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -59,6 +76,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Y. Lee"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Kim Ji-hyuk"
     }
    ]
   },
@@ -70,9 +95,9 @@
    "hl": "https://media.api-sports.io/football/teams/9171.png",
    "al": "https://media.api-sports.io/football/teams/7098.png",
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -82,6 +107,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "S. Park"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sim Min-Yong"
     }
    ]
   },
@@ -95,7 +128,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -118,7 +151,7 @@
    "gh": 3,
    "ga": 1,
    "status": "2H",
-   "minute": 57,
+   "minute": 67,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -168,6 +201,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Haruki Arai"
+    },
+    {
+     "m": 66,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Shimpei Fukuoka"
     }
    ]
   },
@@ -181,7 +222,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 60,
+   "minute": 70,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -195,7 +236,7 @@
    "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -248,9 +289,9 @@
    "hl": "https://media.api-sports.io/football/teams/2766.png",
    "al": "https://media.api-sports.io/football/teams/2750.png",
    "gh": 2,
-   "ga": 0,
+   "ga": 1,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -284,6 +325,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Park Kyu-Hyun"
+    },
+    {
+     "m": 58,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Gi-Dong Kim"
+    },
+    {
+     "m": 63,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Gustav Ludwigson"
     }
    ]
   },
@@ -297,7 +354,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 62,
+   "minute": 72,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": [
     {
@@ -323,6 +380,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Jae-hyeon Kim"
+    },
+    {
+     "m": 69,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kim Jung-Hyun"
     }
    ]
   }
