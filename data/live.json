@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T08:10:20+03:00",
- "ts": 1795842620,
+ "updated": "2026-11-28T08:20:24+03:00",
+ "ts": 1795843224,
  "matches": [
   {
    "id": 1510509,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -26,7 +26,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -40,7 +40,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -54,7 +54,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -68,7 +68,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 7,
+   "minute": 17,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -82,7 +82,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -96,7 +96,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T05:00:00+00:00",
    "ev": []
   },
@@ -110,9 +110,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 10,
+   "minute": 20,
    "time": "2026-11-28T05:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 15,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Lee Tae-hee"
+    }
+   ]
   },
   {
    "id": 1651121,
@@ -124,7 +133,7 @@
    "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-28T03:00:00+00:00",
    "ev": [
     {
@@ -158,6 +167,22 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Morgan Guilavogui"
+    },
+    {
+     "m": 84,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Bruno Caicedo"
+    },
+    {
+     "m": 87,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Juan Sanabria"
     }
    ]
   },
@@ -168,10 +193,10 @@
    "away": "Wests APIA",
    "hl": "https://media.api-sports.io/football/teams/19705.png",
    "al": "https://media.api-sports.io/football/teams/26874.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 56,
    "time": "2026-11-28T04:00:00+00:00",
    "ev": [
     {
@@ -186,6 +211,14 @@
      "m": 40,
      "x": null,
      "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    },
+    {
+     "m": 55,
+     "x": null,
+     "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
      "p": null
