@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T05:00:12+03:00",
- "ts": 1795831212,
+ "updated": "2026-11-28T05:10:15+03:00",
+ "ts": 1795831815,
  "matches": [
   {
    "id": 1598823,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 1,
+   "minute": 11,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -26,32 +26,37 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1649500,
-   "league": "USA - Major League Soccer",
-   "home": "Columbus Crew",
-   "away": "Inter Miami",
-   "hl": "https://media.api-sports.io/football/teams/1613.png",
-   "al": "https://media.api-sports.io/football/teams/9568.png",
+   "id": 1636050,
+   "league": "Mexico - Primera Premier",
+   "home": "Reboceros La Piedad",
+   "away": "Lobos ULMX",
+   "hl": "https://media.api-sports.io/football/teams/15937.png",
+   "al": "https://media.api-sports.io/football/teams/17787.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 43,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": [
-    {
-     "m": 18,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Fricio Caicedo"
-    }
-   ]
+   "minute": 2,
+   "time": "2026-11-28T02:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1645550,
+   "league": "Bolivia - Primera División",
+   "home": "ABB",
+   "away": "Real Tomayapo",
+   "hl": "https://media.api-sports.io/football/teams/17743.png",
+   "al": "https://media.api-sports.io/football/teams/15708.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 6,
+   "time": "2026-11-27T19:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1651111,
@@ -63,7 +68,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 40,
    "time": "2026-11-28T01:30:00+00:00",
    "ev": [
     {
@@ -72,7 +77,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "M. Ceballos"
     }
    ]
   },
@@ -86,30 +91,91 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T01:40:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1650245,
-   "league": "Argentina - Primera Nacional",
-   "home": "Deportivo Moron",
-   "away": "Colon Santa Fe",
-   "hl": "https://media.api-sports.io/football/teams/469.png",
-   "al": "https://media.api-sports.io/football/teams/448.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T00:00:00+00:00",
    "ev": [
     {
-     "m": 33,
+     "m": 22,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "N. Thaller"
+     "p": "Jean Paulo Fernandes Filho"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dany Rosero"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Edson Tortolero"
+    },
+    {
+     "m": 28,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Rodrigo Contreras"
+    }
+   ]
+  },
+  {
+   "id": 1639061,
+   "league": "New-Zealand - National League - National",
+   "home": "Wellington Phoenix II",
+   "away": "Wellington Olympic",
+   "hl": "https://media.api-sports.io/football/teams/2535.png",
+   "al": "https://media.api-sports.io/football/teams/20646.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1631825,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros del Pacifico",
+   "away": "Artesanos Metepec",
+   "hl": "https://media.api-sports.io/football/teams/28304.png",
+   "al": "https://media.api-sports.io/football/teams/22049.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1649500,
+   "league": "USA - Major League Soccer",
+   "home": "Columbus Crew",
+   "away": "Inter Miami",
+   "hl": "https://media.api-sports.io/football/teams/1613.png",
+   "al": "https://media.api-sports.io/football/teams/9568.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": [
+    {
+     "m": 18,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Fricio Caicedo"
     },
     {
      "m": 45,
@@ -117,142 +183,7 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "E. Iniguez"
-    },
-    {
-     "m": 48,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Toledo"
-    },
-    {
-     "m": 51,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Bonansea"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Salvareschi"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Rasmussen"
-    },
-    {
-     "m": 60,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Kubiszyn"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "I. Lago"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "S. Kubiszyn"
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "S. Kubiszyn"
-    }
-   ]
-  },
-  {
-   "id": 1650246,
-   "league": "Argentina - Primera Nacional",
-   "home": "Tristan Suarez",
-   "away": "Gimnasia Y Tiro",
-   "hl": "https://media.api-sports.io/football/teams/1965.png",
-   "al": "https://media.api-sports.io/football/teams/1928.png",
-   "gh": 1,
-   "ga": 1,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T00:00:00+00:00",
-   "ev": [
-    {
-     "m": 29,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "F. Sivetti"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "M. Guanini"
-    },
-    {
-     "m": 43,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "B. Aguilar"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. Rinaldi"
-    },
-    {
-     "m": 66,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Gallo"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "L. Montoya"
-    },
-    {
-     "m": 88,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Mastrangelo"
+     "p": "Santiago Rodriguez"
     }
    ]
   },
@@ -265,8 +196,8 @@
    "al": "https://media.api-sports.io/football/teams/2358.png",
    "gh": 2,
    "ga": 2,
-   "status": "ET",
-   "minute": 116,
+   "status": "P",
+   "minute": null,
    "time": "2026-11-27T23:30:00+00:00",
    "ev": [
     {
@@ -366,34 +297,6 @@
      "p": "Santiago Laquidain"
     }
    ]
-  },
-  {
-   "id": 1631825,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Guerreros del Pacifico",
-   "away": "Artesanos Metepec",
-   "hl": "https://media.api-sports.io/football/teams/28304.png",
-   "al": "https://media.api-sports.io/football/teams/22049.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1639061,
-   "league": "New-Zealand - National League - National",
-   "home": "Wellington Phoenix II",
-   "away": "Wellington Olympic",
-   "hl": "https://media.api-sports.io/football/teams/2535.png",
-   "al": "https://media.api-sports.io/football/teams/20646.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": []
   }
  ]
 }
