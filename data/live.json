@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T06:40:29+03:00",
- "ts": 1795837229,
+ "updated": "2026-11-28T06:50:16+03:00",
+ "ts": 1795837816,
  "matches": [
   {
    "id": 1651121,
@@ -12,9 +12,18 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 20,
    "time": "2026-11-28T03:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 16,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Philip Quinton"
+    }
+   ]
   },
   {
    "id": 1598823,
@@ -23,10 +32,10 @@
    "away": "Escorpiones Belén",
    "hl": "https://media.api-sports.io/football/teams/815.png",
    "al": "https://media.api-sports.io/football/teams/17377.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "status": "2H",
-   "minute": 80,
+   "minute": 90,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": [
     {
@@ -60,45 +69,14 @@
      "t": "Var",
      "d": "Goal Disallowed - video review",
      "p": "F. Lesme"
-    }
-   ]
-  },
-  {
-   "id": 1631826,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Acatlan",
-   "away": "Vaqueros Reynosa",
-   "hl": "https://media.api-sports.io/football/teams/24949.png",
-   "al": "https://media.api-sports.io/football/teams/28308.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": [
+    },
     {
-     "m": 26,
+     "m": 85,
      "x": null,
      "s": "h",
      "t": "Goal",
      "d": "Normal Goal",
-     "p": null
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Missed Penalty",
-     "p": null
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": null
+     "p": "F. Lesme"
     }
    ]
   },
@@ -112,7 +90,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 73,
+   "minute": 83,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -126,7 +104,7 @@
    "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 81,
+   "minute": 90,
    "time": "2026-11-27T19:00:00+00:00",
    "ev": [
     {
@@ -140,18 +118,18 @@
     {
      "m": 21,
      "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Javier Guerra"
-    },
-    {
-     "m": 21,
-     "x": null,
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
      "p": "Adriel Guillermo"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Javier Guerra"
     },
     {
      "m": 38,
@@ -168,133 +146,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Alejandro Bejarano"
-    }
-   ]
-  },
-  {
-   "id": 1651152,
-   "league": "Colombia - Primera A",
-   "home": "Millonarios",
-   "away": "America de Cali",
-   "hl": "https://media.api-sports.io/football/teams/1125.png",
-   "al": "https://media.api-sports.io/football/teams/1138.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T01:40:00+00:00",
-   "ev": [
+    },
     {
-     "m": 22,
+     "m": 83,
      "x": null,
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": "Jean Paulo Fernandes Filho"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Dany Rosero"
-    },
-    {
-     "m": 27,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Edson Tortolero"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rodrigo Contreras"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jhonier Guerrero"
-    },
-    {
-     "m": 40,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Josen Escobar"
-    },
-    {
-     "m": 45,
-     "x": 4,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Rodrigo Contreras"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Dany Rosero"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Rafael Carrascal"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Marlon Torres"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Leonardo Castro"
-    },
-    {
-     "m": 82,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Darwin Quintero"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Sebastián Valencia"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Jorge Arias"
+     "p": "Ricardo Suárez Antelo"
     }
    ]
   },
@@ -308,7 +167,7 @@
    "gh": 1,
    "ga": 0,
    "status": "ET",
-   "minute": 94,
+   "minute": 100,
    "time": "2026-11-28T01:30:00+00:00",
    "ev": [
     {
