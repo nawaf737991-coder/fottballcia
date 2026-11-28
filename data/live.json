@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T13:50:10+03:00",
- "ts": 1795863010,
+ "updated": "2026-11-28T14:00:20+03:00",
+ "ts": 1795863620,
  "matches": [
   {
    "id": 1526041,
@@ -35,7 +35,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 4,
+   "minute": 15,
    "time": "2026-11-28T10:45:00+00:00",
    "ev": [
     {
@@ -44,32 +44,23 @@
      "s": "h",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "Ryan lucas"
     }
    ]
   },
   {
-   "id": 1569448,
-   "league": "Italy - Campionato Primavera - 1",
-   "home": "Cagliari U20",
-   "away": "Torino U20",
-   "hl": "https://media.api-sports.io/football/teams/24727.png",
-   "al": "https://media.api-sports.io/football/teams/24742.png",
-   "gh": 1,
+   "id": 1561744,
+   "league": "Poland - II Liga - East",
+   "home": "Górnik Łęczna",
+   "away": "Świt Skolwin",
+   "hl": "https://media.api-sports.io/football/teams/6941.png",
+   "al": "https://media.api-sports.io/football/teams/12902.png",
+   "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 13,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "K. Goryanov"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-28T11:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1581989,
@@ -78,12 +69,21 @@
    "away": "Kulykiv",
    "hl": "https://media.api-sports.io/football/teams/3631.png",
    "al": "https://media.api-sports.io/football/teams/24566.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 17,
+   "minute": 28,
    "time": "2026-11-28T10:30:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Volodymyrovych pavlo mikhalchuk"
+    }
+   ]
   },
   {
    "id": 1585840,
@@ -95,7 +95,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": []
   },
@@ -109,7 +109,7 @@
    "gh": 0,
    "ga": 1,
    "status": "1H",
-   "minute": 18,
+   "minute": 28,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": [
     {
@@ -131,36 +131,13 @@
    ]
   },
   {
-   "id": 1590492,
-   "league": "Turkey - 3. Lig - Group 1",
-   "home": "Orduspor 1967",
-   "away": "İnkılapspor",
-   "hl": "https://media.api-sports.io/football/teams/17261.png",
-   "al": "https://media.api-sports.io/football/teams/26467.png",
-   "gh": 1,
-   "ga": 0,
-   "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Efe"
-    }
-   ]
-  },
-  {
    "id": 1590793,
    "league": "Turkey - 3. Lig - Group 2",
    "home": "Alanya 1221 FK",
    "away": "Nilüfer Belediye",
    "hl": "https://media.api-sports.io/football/teams/15361.png",
    "al": "https://media.api-sports.io/football/teams/24602.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 1,
    "status": "1H",
    "minute": 45,
@@ -173,47 +150,30 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Kucukdurmus"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Mumci"
     }
    ]
   },
   {
-   "id": 1591098,
-   "league": "Turkey - 3. Lig - Group 3",
-   "home": "Adanaspor",
-   "away": "Bitlis Özgüzelderespor",
-   "hl": "https://media.api-sports.io/football/teams/3564.png",
-   "al": "https://media.api-sports.io/football/teams/6513.png",
-   "gh": 1,
-   "ga": 2,
+   "id": 1599409,
+   "league": "Poland - Central Youth League",
+   "home": "Talent Warszawa U19",
+   "away": "Polonia Warszawa U19",
+   "hl": "https://media.api-sports.io/football/teams/28017.png",
+   "al": "https://media.api-sports.io/football/teams/20593.png",
+   "gh": 0,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Tasci"
-    },
-    {
-     "m": 25,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Akkus"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Cayir"
-    }
-   ]
+   "minute": 1,
+   "time": "2026-11-28T11:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1623680,
@@ -225,7 +185,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 31,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": []
   },
@@ -239,7 +199,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": [
     {
@@ -262,36 +222,50 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": []
   },
   {
-   "id": 1629496,
-   "league": "Turkey - U19 league",
-   "home": "Gaziantep U19",
-   "away": "Amedspor U19",
-   "hl": "https://media.api-sports.io/football/teams/28246.png",
-   "al": "https://media.api-sports.io/football/teams/28241.png",
+   "id": 1633944,
+   "league": "Vietnam - V.League 1",
+   "home": "Bắc Ninh",
+   "away": "Da Nang",
+   "hl": "https://media.api-sports.io/football/teams/26601.png",
+   "al": "https://media.api-sports.io/football/teams/3669.png",
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
+   "minute": 2,
+   "time": "2026-11-28T11:00:00+00:00",
    "ev": []
   },
   {
-   "id": 1629499,
-   "league": "Turkey - U19 league",
-   "home": "Samsunspor U19",
-   "away": "Genclerbirligi U19",
-   "hl": "https://media.api-sports.io/football/teams/28253.png",
-   "al": "https://media.api-sports.io/football/teams/28247.png",
+   "id": 1635023,
+   "league": "Vietnam - V.League 2",
+   "home": "Than Quang Ninh",
+   "away": "Ho Chi Minh",
+   "hl": "https://media.api-sports.io/football/teams/3679.png",
+   "al": "https://media.api-sports.io/football/teams/3672.png",
    "gh": 0,
-   "ga": 1,
+   "ga": 0,
    "status": "1H",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
+   "minute": 2,
+   "time": "2026-11-28T11:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1635024,
+   "league": "Vietnam - V.League 2",
+   "home": "Binh Dinh",
+   "away": "Sanna Khanh Hoa",
+   "hl": "https://media.api-sports.io/football/teams/9160.png",
+   "al": "https://media.api-sports.io/football/teams/3677.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "1H",
+   "minute": 1,
+   "time": "2026-11-28T11:00:00+00:00",
    "ev": []
   },
   {
@@ -304,7 +278,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 18,
+   "minute": 29,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": [
     {
@@ -324,10 +298,10 @@
    "away": "Tulevik",
    "hl": "https://media.api-sports.io/football/teams/14287.png",
    "al": "https://media.api-sports.io/football/teams/3531.png",
-   "gh": 1,
+   "gh": 2,
    "ga": 0,
    "status": "1H",
-   "minute": 19,
+   "minute": 29,
    "time": "2026-11-28T10:30:00+00:00",
    "ev": [
     {
@@ -337,6 +311,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "S. Tsendei"
+    },
+    {
+     "m": 21,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "L. Arhipov"
     }
    ]
   },
@@ -350,7 +332,7 @@
    "gh": 1,
    "ga": 2,
    "status": "2H",
-   "minute": 67,
+   "minute": 77,
    "time": "2026-11-28T09:15:00+00:00",
    "ev": [
     {
@@ -407,7 +389,7 @@
      "s": "a",
      "t": "Card",
      "d": "Yellow Card",
-     "p": null
+     "p": "F. Panak"
     }
    ]
   },
@@ -421,7 +403,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 55,
+   "minute": 65,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": []
   },
@@ -435,7 +417,7 @@
    "gh": 3,
    "ga": 4,
    "status": "2H",
-   "minute": 58,
+   "minute": 68,
    "time": "2026-11-28T09:30:00+00:00",
    "ev": [
     {
@@ -497,606 +479,21 @@
    ]
   },
   {
-   "id": 1601159,
-   "league": "Malaysia - Super League",
-   "home": "Negeri Sembilan",
-   "away": "Terengganu",
-   "hl": "https://media.api-sports.io/football/teams/2502.png",
-   "al": "https://media.api-sports.io/football/teams/2518.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T08:45:00+00:00",
-   "ev": [
-    {
-     "m": 31,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Z. Jamil"
-    },
-    {
-     "m": 39,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Yi-young Park"
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Penalty",
-     "p": "W. Kuzri"
-    },
-    {
-     "m": 85,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "J. Mintah"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Morales"
-    },
-    {
-     "m": 90,
-     "x": 3,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Morales"
-    }
-   ]
-  },
-  {
-   "id": 1601160,
-   "league": "Malaysia - Super League",
-   "home": "Sabah FA",
-   "away": "Selangor",
-   "hl": "https://media.api-sports.io/football/teams/2505.png",
-   "al": "https://media.api-sports.io/football/teams/2526.png",
-   "gh": 2,
-   "ga": 3,
-   "status": "2H",
-   "minute": 87,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 6,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Vitor Pernambuco"
-    },
-    {
-     "m": 9,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Raop"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "D. Ingham"
-    },
-    {
-     "m": 53,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "H. Boumous"
-    },
-    {
-     "m": 61,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "G. Di Renzo"
-    },
-    {
-     "m": 71,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "F. Zulkifi"
-    },
-    {
-     "m": 73,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Q. Cheng"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "A. Izwan"
-    }
-   ]
-  },
-  {
-   "id": 1602563,
-   "league": "Romania - Liga II",
-   "home": "CS Afumati",
-   "away": "CSM Reşiţa",
-   "hl": "https://media.api-sports.io/football/teams/2608.png",
-   "al": "https://media.api-sports.io/football/teams/6229.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 34,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Sulaimon"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "C. McCarthy"
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 76,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Visic"
-    },
-    {
-     "m": 89,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Sanogo"
-    }
-   ]
-  },
-  {
-   "id": 1602565,
-   "league": "Romania - Liga II",
-   "home": "Concordia",
-   "away": "Ştefăneşti",
-   "hl": "https://media.api-sports.io/football/teams/2580.png",
-   "al": "https://media.api-sports.io/football/teams/21686.png",
-   "gh": 4,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 17,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Chamorro"
-    },
-    {
-     "m": 28,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "D. Sula"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Panoiu"
-    },
-    {
-     "m": 74,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Gualda"
-    }
-   ]
-  },
-  {
-   "id": 1602566,
-   "league": "Romania - Liga II",
-   "home": "CS Dinamo București",
-   "away": "Dumbrăviţa",
-   "hl": "https://media.api-sports.io/football/teams/19170.png",
-   "al": "https://media.api-sports.io/football/teams/7469.png",
-   "gh": 1,
+   "id": 1623682,
+   "league": "Italy - Campionato Primavera - 2",
+   "home": "Virtus Entella U19",
+   "away": "Venezia U19",
+   "hl": "https://media.api-sports.io/football/teams/15688.png",
+   "al": "https://media.api-sports.io/football/teams/15685.png",
+   "gh": 0,
    "ga": 1,
    "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
+   "minute": 46,
+   "time": "2026-11-28T10:00:00+00:00",
    "ev": [
     {
-     "m": 6,
+     "m": 33,
      "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Nicolae"
-    },
-    {
-     "m": 14,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 20,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "R. Nicolae"
-    },
-    {
-     "m": 23,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "R. Nicolae"
-    },
-    {
-     "m": 24,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "S. Popovici"
-    },
-    {
-     "m": 49,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 81,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "R. Cernamorit"
-    },
-    {
-     "m": 84,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1602573,
-   "league": "Romania - Liga II",
-   "home": "Unirea Slobozia",
-   "away": "Popești-Leordeni",
-   "hl": "https://media.api-sports.io/football/teams/6916.png",
-   "al": "https://media.api-sports.io/football/teams/6891.png",
-   "gh": 1,
-   "ga": 2,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 2,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 18,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Campan"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Tudorica"
-    },
-    {
-     "m": 41,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 52,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 75,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 83,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "A. Capraru"
-    }
-   ]
-  },
-  {
-   "id": 1610575,
-   "league": "Romania - Liga II",
-   "home": "ASA Targu Mures",
-   "away": "CSM Satu Mare",
-   "hl": "https://media.api-sports.io/football/teams/2590.png",
-   "al": "https://media.api-sports.io/football/teams/16279.png",
-   "gh": 2,
-   "ga": 0,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 11,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "L. Galdea"
-    },
-    {
-     "m": 30,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 37,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 45,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 59,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 63,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "M. Samake"
-    },
-    {
-     "m": 70,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 86,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    },
-    {
-     "m": 87,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": null
-    }
-   ]
-  },
-  {
-   "id": 1634867,
-   "league": "Myanmar - National League",
-   "home": "Ayeyawady United",
-   "away": "Yangon Royals",
-   "hl": "https://media.api-sports.io/football/teams/12523.png",
-   "al": "https://media.api-sports.io/football/teams/28338.png",
-   "gh": 0,
-   "ga": 5,
-   "status": "2H",
-   "minute": 90,
-   "time": "2026-11-28T09:00:00+00:00",
-   "ev": [
-    {
-     "m": 5,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Hein Khun Kyaw Zin"
-    },
-    {
-     "m": 19,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "P. H. Gomes Ananias"
-    },
-    {
-     "m": 55,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "N. T. Win"
-    },
-    {
-     "m": 78,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Aung"
-    },
-    {
-     "m": 90,
-     "x": 2,
      "s": "a",
      "t": "Goal",
      "d": "Normal Goal",
@@ -1114,7 +511,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 83,
+   "minute": 90,
    "time": "2026-11-28T09:00:00+00:00",
    "ev": [
     {
@@ -1139,7 +536,7 @@
      "s": "a",
      "t": "Goal",
      "d": "Penalty",
-     "p": "N. Karimov"
+     "p": "R. Islamov"
     }
    ]
   },
@@ -1263,6 +660,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Sergey Tikhonovskiy"
+    },
+    {
+     "m": 27,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Dmitri Antilevski"
     }
    ]
   },
@@ -1279,6 +684,29 @@
    "minute": 45,
    "time": "2026-11-28T10:00:00+00:00",
    "ev": []
+  },
+  {
+   "id": 1569448,
+   "league": "Italy - Campionato Primavera - 1",
+   "home": "Cagliari U20",
+   "away": "Torino U20",
+   "hl": "https://media.api-sports.io/football/teams/24727.png",
+   "al": "https://media.api-sports.io/football/teams/24742.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 13,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "K. Goryanov"
+    }
+   ]
   },
   {
    "id": 1590486,
@@ -1300,6 +728,76 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "M. Cakir"
+    }
+   ]
+  },
+  {
+   "id": 1590492,
+   "league": "Turkey - 3. Lig - Group 1",
+   "home": "Orduspor 1967",
+   "away": "İnkılapspor",
+   "hl": "https://media.api-sports.io/football/teams/17261.png",
+   "al": "https://media.api-sports.io/football/teams/26467.png",
+   "gh": 1,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 42,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "G. Efe"
+    }
+   ]
+  },
+  {
+   "id": 1591098,
+   "league": "Turkey - 3. Lig - Group 3",
+   "home": "Adanaspor",
+   "away": "Bitlis Özgüzelderespor",
+   "hl": "https://media.api-sports.io/football/teams/3564.png",
+   "al": "https://media.api-sports.io/football/teams/6513.png",
+   "gh": 1,
+   "ga": 3,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": [
+    {
+     "m": 2,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Tasci"
+    },
+    {
+     "m": 25,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "A. Akkus"
+    },
+    {
+     "m": 41,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "M. Cayir"
+    },
+    {
+     "m": 45,
+     "x": 3,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
     }
    ]
   },
@@ -1558,29 +1056,6 @@
    ]
   },
   {
-   "id": 1623682,
-   "league": "Italy - Campionato Primavera - 2",
-   "home": "Virtus Entella U19",
-   "away": "Venezia U19",
-   "hl": "https://media.api-sports.io/football/teams/15688.png",
-   "al": "https://media.api-sports.io/football/teams/15685.png",
-   "gh": 0,
-   "ga": 1,
-   "status": "HT",
-   "minute": 45,
-   "time": "2026-11-28T10:00:00+00:00",
-   "ev": [
-    {
-     "m": 33,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": null
-    }
-   ]
-  },
-  {
    "id": 1623685,
    "league": "Italy - Campionato Primavera - 2",
    "home": "Palermo U19",
@@ -1641,6 +1116,34 @@
      "p": null
     }
    ]
+  },
+  {
+   "id": 1629496,
+   "league": "Turkey - U19 league",
+   "home": "Gaziantep U19",
+   "away": "Amedspor U19",
+   "hl": "https://media.api-sports.io/football/teams/28246.png",
+   "al": "https://media.api-sports.io/football/teams/28241.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": []
+  },
+  {
+   "id": 1629499,
+   "league": "Turkey - U19 league",
+   "home": "Samsunspor U19",
+   "away": "Genclerbirligi U19",
+   "hl": "https://media.api-sports.io/football/teams/28253.png",
+   "al": "https://media.api-sports.io/football/teams/28247.png",
+   "gh": 0,
+   "ga": 1,
+   "status": "HT",
+   "minute": 45,
+   "time": "2026-11-28T10:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1635022,
