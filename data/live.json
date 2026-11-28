@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T05:10:15+03:00",
- "ts": 1795831815,
+ "updated": "2026-11-28T05:20:20+03:00",
+ "ts": 1795832420,
  "matches": [
   {
    "id": 1598823,
@@ -12,7 +12,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 11,
+   "minute": 21,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -23,12 +23,21 @@
    "away": "Vaqueros Reynosa",
    "hl": "https://media.api-sports.io/football/teams/24949.png",
    "al": "https://media.api-sports.io/football/teams/28308.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 21,
+   "minute": 31,
    "time": "2026-11-28T01:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 26,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": null
+    }
+   ]
   },
   {
    "id": 1636050,
@@ -40,7 +49,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 2,
+   "minute": 12,
    "time": "2026-11-28T02:00:00+00:00",
    "ev": []
   },
@@ -51,12 +60,21 @@
    "away": "Real Tomayapo",
    "hl": "https://media.api-sports.io/football/teams/17743.png",
    "al": "https://media.api-sports.io/football/teams/15708.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "1H",
-   "minute": 6,
+   "minute": 16,
    "time": "2026-11-27T19:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 9,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Layonel Figueroa"
+    }
+   ]
   },
   {
    "id": 1651111,
@@ -68,7 +86,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 40,
+   "minute": 45,
    "time": "2026-11-28T01:30:00+00:00",
    "ev": [
     {
@@ -91,7 +109,7 @@
    "gh": 0,
    "ga": 0,
    "status": "1H",
-   "minute": 30,
+   "minute": 41,
    "time": "2026-11-28T01:40:00+00:00",
    "ev": [
     {
@@ -125,8 +143,30 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Rodrigo Contreras"
+    },
+    {
+     "m": 32,
+     "x": null,
+     "s": "h",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Jhonier Guerrero"
     }
    ]
+  },
+  {
+   "id": 1631825,
+   "league": "Mexico - Liga Premier Serie A",
+   "home": "Guerreros del Pacifico",
+   "away": "Artesanos Metepec",
+   "hl": "https://media.api-sports.io/football/teams/28304.png",
+   "al": "https://media.api-sports.io/football/teams/22049.png",
+   "gh": 0,
+   "ga": 0,
+   "status": "2H",
+   "minute": 52,
+   "time": "2026-11-28T01:00:00+00:00",
+   "ev": []
   },
   {
    "id": 1639061,
@@ -138,21 +178,7 @@
    "gh": 0,
    "ga": 0,
    "status": "2H",
-   "minute": 52,
-   "time": "2026-11-28T01:00:00+00:00",
-   "ev": []
-  },
-  {
-   "id": 1631825,
-   "league": "Mexico - Liga Premier Serie A",
-   "home": "Guerreros del Pacifico",
-   "away": "Artesanos Metepec",
-   "hl": "https://media.api-sports.io/football/teams/28304.png",
-   "al": "https://media.api-sports.io/football/teams/22049.png",
-   "gh": 0,
-   "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "minute": 62,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": []
   },
@@ -165,8 +191,8 @@
    "al": "https://media.api-sports.io/football/teams/9568.png",
    "gh": 0,
    "ga": 0,
-   "status": "HT",
-   "minute": 45,
+   "status": "2H",
+   "minute": 46,
    "time": "2026-11-28T01:00:00+00:00",
    "ev": [
     {
@@ -184,117 +210,6 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Santiago Rodriguez"
-    }
-   ]
-  },
-  {
-   "id": 1651250,
-   "league": "Uruguay - Primera División",
-   "home": "Racing Montevideo",
-   "away": "Liverpool Montevideo",
-   "hl": "https://media.api-sports.io/football/teams/2359.png",
-   "al": "https://media.api-sports.io/football/teams/2358.png",
-   "gh": 2,
-   "ga": 2,
-   "status": "P",
-   "minute": null,
-   "time": "2026-11-27T23:30:00+00:00",
-   "ev": [
-    {
-     "m": 22,
-     "x": null,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "E. Da Silva"
-    },
-    {
-     "m": 32,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Juan Bosca"
-    },
-    {
-     "m": 42,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Nicolas Garayalde"
-    },
-    {
-     "m": 56,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Felipe Alvarez"
-    },
-    {
-     "m": 57,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Federico Martinez"
-    },
-    {
-     "m": 62,
-     "x": null,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Rubén Bentancourt"
-    },
-    {
-     "m": 79,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Alex Vázquez"
-    },
-    {
-     "m": 90,
-     "x": 1,
-     "s": "h",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Thiago Fernandez"
-    },
-    {
-     "m": 90,
-     "x": 2,
-     "s": "h",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Thiago Fernandez"
-    },
-    {
-     "m": 90,
-     "x": 7,
-     "s": "a",
-     "t": "Goal",
-     "d": "Normal Goal",
-     "p": "Santiago Laquidain"
-    },
-    {
-     "m": 106,
-     "x": null,
-     "s": "h",
-     "t": "Card",
-     "d": "Red Card",
-     "p": "Thiago Fernandez"
-    },
-    {
-     "m": 106,
-     "x": null,
-     "s": "a",
-     "t": "Card",
-     "d": "Yellow Card",
-     "p": "Santiago Laquidain"
     }
    ]
   }
