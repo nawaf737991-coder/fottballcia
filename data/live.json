@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T10:20:25+03:00",
- "ts": 1795850425,
+ "updated": "2026-11-28T10:30:27+03:00",
+ "ts": 1795851027,
  "matches": [
   {
    "id": 1556162,
@@ -9,12 +9,29 @@
    "away": "Sanfrecce Hiroshima",
    "hl": "https://media.api-sports.io/football/teams/281.png",
    "al": "https://media.api-sports.io/football/teams/282.png",
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "status": "1H",
-   "minute": 17,
+   "minute": 27,
    "time": "2026-11-28T07:00:00+00:00",
-   "ev": []
+   "ev": [
+    {
+     "m": 19,
+     "x": null,
+     "s": "a",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Sébastien Haller"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Tojiro Kubo"
+    }
+   ]
   },
   {
    "id": 1607346,
@@ -23,10 +40,10 @@
    "away": "Southern District",
    "hl": "https://media.api-sports.io/football/teams/6401.png",
    "al": "https://media.api-sports.io/football/teams/4456.png",
-   "gh": 0,
+   "gh": 2,
    "ga": 1,
    "status": "1H",
-   "minute": 20,
+   "minute": 30,
    "time": "2026-11-28T07:00:00+00:00",
    "ev": [
     {
@@ -36,6 +53,22 @@
      "t": "Goal",
      "d": "Penalty",
      "p": "S. Golubovic"
+    },
+    {
+     "m": 22,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Samuel Granada"
+    },
+    {
+     "m": 24,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Y. Arboleda"
     }
    ]
   },
@@ -46,10 +79,10 @@
    "away": "Fagiano Okayama",
    "hl": "https://media.api-sports.io/football/teams/290.png",
    "al": "https://media.api-sports.io/football/teams/310.png",
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "status": "2H",
-   "minute": 59,
+   "minute": 69,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -75,6 +108,14 @@
      "t": "Card",
      "d": "Yellow Card",
      "p": "Na Sang-Ho"
+    },
+    {
+     "m": 65,
+     "x": null,
+     "s": "h",
+     "t": "Goal",
+     "d": "Normal Goal",
+     "p": "Naomichi Ueda"
     }
    ]
   },
@@ -88,7 +129,7 @@
    "gh": 1,
    "ga": 1,
    "status": "2H",
-   "minute": 61,
+   "minute": 71,
    "time": "2026-11-28T06:00:00+00:00",
    "ev": [
     {
@@ -114,6 +155,14 @@
      "t": "Goal",
      "d": "Normal Goal",
      "p": "Makoto Himeno"
+    },
+    {
+     "m": 61,
+     "x": null,
+     "s": "a",
+     "t": "Card",
+     "d": "Yellow Card",
+     "p": "Kazuki Tanaka"
     }
    ]
   }
